@@ -1,0 +1,29 @@
+name: Energy-GNoME
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pre-commit
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytest
+  - mp_api
+  - pandas
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - versioningit
+    - build
+    - -e .
