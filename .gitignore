@@ -1,3 +1,15 @@
+# Data
+/data/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+## https://github.com/github/gitignore/blob/4488915eec0b3a45b5c63ead28f286819c0917de/Python.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -68,8 +80,8 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
+# MkDocs documentation
+docs/site/
 
 # PyBuilder
 .pybuilder/
@@ -106,10 +118,8 @@ ipython_config.py
 #pdm.lock
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
-#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+#   https://pdm.fming.dev/#use-with-ide
 .pdm.toml
-.pdm-python
-.pdm-build/
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -160,3 +170,21 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# mypy
+.mypy_cache/
+
+# profraw files from LLVM? Unclear exactly what triggers this
+# There are reports this comes from LLVM profiling, but also Xcode 9.
+*profraw
+
+# In-tree generated files
+*/_version.py
+*temp*.ipynb
+test*.ipynb
+test.yaml
+test.gro
+test_file.xyz
+build_wheel
+energy_gnome/config.yaml
