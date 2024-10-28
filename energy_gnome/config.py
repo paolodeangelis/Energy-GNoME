@@ -1,13 +1,19 @@
+import os
 from pathlib import Path
-import sys
 
 from dotenv import load_dotenv
 from loguru import logger
 
+from energy_gnome.utils import read_yaml
+
 # Load environment variables from .env file if it exists
 load_dotenv()
 
+# Article
+DOI_ARTICLE = "doi:TBD"
+
 # Paths
+MODULE_ROOT = Path(__file__).resolve().parents[0]
 PROJ_ROOT = Path(__file__).resolve().parents[1]
 # logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
 
@@ -22,14 +28,20 @@ MODELS_DIR = PROJ_ROOT / "models"
 REPORTS_DIR = PROJ_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
 
-# If tqdm is installed, configure loguru with tqdm.write
-# https://github.com/Delgan/loguru/issues/135
-try:
-    from tqdm import tqdm
+# Supported working ions
+WORKING_IONS = ["Li"]
 
-    logger.remove(0)
-    logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True, level="INFO")
-except ModuleNotFoundError:
-    logger.remove(0)
-    logger.add(sys.stderr, level="INFO")
-    pass
+# Supported battery types
+BATTERY_TYPES = ["insertion"]
+
+CONFIG_YAML_FILE = MODULE_ROOT / "config.yaml"
+
+# API keys
+if os.path.exists(CONFIG_YAML_FILE):
+    API_KEYS = read_yaml(CONFIG_YAML_FILE)
+else:
+    logger.warning("`config.yaml` file missing, check README.md file")
+    API_KEYS = {}
+
+# Logger
+LOG_MAX_WIDTH = 120
