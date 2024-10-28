@@ -1,6 +1,6 @@
 import yaml
 
-from energy_gnome.config import logger
+from energy_gnome.utils.logger_config import logger
 
 
 @logger.catch

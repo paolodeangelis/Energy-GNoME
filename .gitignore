@@ -1,5 +1,5 @@
 # Data
-/data/
+# /data/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -188,3 +188,8 @@ test.gro
 test_file.xyz
 build_wheel
 energy_gnome/config.yaml
+
+
+# Database
+data/raw/cathodes/*/*/charge
+data/raw/cathodes/*/*/discharge

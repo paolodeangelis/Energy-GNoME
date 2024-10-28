@@ -12,12 +12,13 @@ dependencies:
   - tqdm
   - ipython
   - jupyterlab
+  - ipywidgets
   - matplotlib
   - notebook
   - numpy
   - pandas
   - scikit-learn
-  - mp_api
+  - mp-api
   - pandas
   - pip:
     - python-dotenv
