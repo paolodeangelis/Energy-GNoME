@@ -194,11 +194,15 @@ class CathodeDatabase(BaseDatabase):
             pd.DataFrame: Subset of `new_db` containing only new entry IDs.
         """
         old_db = self.load_database(stage=stage)
-        new_ids_set = set(new_db["battery_id"])
-        old_ids_set = set(old_db["battery_id"])
-        new_ids_only = new_ids_set - old_ids_set
-        logger.debug(f"Found {len(new_ids_only)} new battery IDs in the new database.")
-        return new_db[new_db["battery_id"].isin(new_ids_only)]
+        if not old_db.empty:
+            new_ids_set = set(new_db["battery_id"])
+            old_ids_set = set(old_db["battery_id"])
+            new_ids_only = new_ids_set - old_ids_set
+            logger.debug(f"Found {len(new_ids_only)} new battery IDs in the new database.")
+            return new_db[new_db["battery_id"].isin(new_ids_only)]
+        else:
+            logger.warning("Nothing to compare here...")
+            return new_db
 
     def backup_and_changelog(
         self,

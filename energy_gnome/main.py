@@ -78,5 +78,9 @@ def pre_processing(something: str = typer.Argument(..., help="Data to preprocess
     pass
 
 
-if __name__ == "__main__":
+def main():
     app()
+
+
+if __name__ == "__main__":
+    main()
