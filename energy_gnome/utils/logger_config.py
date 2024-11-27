@@ -4,11 +4,11 @@ Logging Configuration Module for Energy Gnome Library.
 
 import sys
 
-from loguru import Logger, logger
+from loguru import logger
 
 
 def formatter(record):
-    if record["level"].no >= 20:
+    if record["level"].no <= 25:
         return (
             "[ <green>{time:YYYY-MM-DD HH:mm:ss}</green> | "
             "<level>{level: ^8}</level> ] "
@@ -25,7 +25,7 @@ def formatter(record):
         )
 
 
-def setup_logging(level="DEBUG", logfile=False) -> Logger:
+def setup_logging(level="DEBUG", logfile=False):
     """
     Configure the Loguru logger for the Energy Gnome library.
 

@@ -30,7 +30,7 @@ requires-python = ">=3.10"
 #"Documentation" = "https://pykmc.readthedocs.io/"
 
 [project.scripts]
-pykmc = "energy_gnome.main:main"
+egnome = "energy_gnome.main:main"
 
 [tool.setuptools]
 # This subkey is a beta stage development and keys may change in the future, see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html for more details
