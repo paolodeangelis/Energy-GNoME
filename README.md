@@ -4,6 +4,8 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+(c) Paolo De Angelis, Giulio Barletta
+
 AI-Driven Screening and Prediction for Selected Advanced Energy Materials
 
 ## Project Organization
