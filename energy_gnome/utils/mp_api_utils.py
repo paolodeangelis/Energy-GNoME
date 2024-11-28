@@ -58,6 +58,16 @@ def convert_my_query_to_dataframe(query: list, mute_progress_bars=False) -> pd.D
     return database
 
 
+def convert_my_query_to_dataframe_perovskites(
+    query: list, mute_progress_bars=False
+) -> pd.DataFrame:
+    dict_query = []
+    for d_ in tqdm(query, desc="converting documents", disable=mute_progress_bars):
+        dict_query.append(d_.dict())
+    database = pd.DataFrame(dict_query)
+    return database
+
+
 def get_material_by_id(ids: list, doc_prefix="", mute_progress_bars=False) -> list:
     mp_api_key = get_mp_api_key()
     logger.debug(f"{doc_prefix} retriving {len(ids)} material from MP")

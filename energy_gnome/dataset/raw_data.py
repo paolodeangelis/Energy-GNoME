@@ -5,7 +5,7 @@ from tqdm import tqdm
 import typer
 
 from energy_gnome.config import DATA_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
-from energy_gnome.dataset import CathodeDatabase
+from energy_gnome.dataset import CathodeDatabase, PerovskiteDatabase
 
 # app = typer.Typer()
 
@@ -30,7 +30,7 @@ def get_raw_cathode(
         charge_state="charge",
         mute_progress_bars=False,
     )
-    logger.info("[STEP 3] Retrieving and save discharge material")
+    logger.info("[STEP 3] Retrieving and saving discharge material")
     materials_discharge = cathode_db.retrieve_materials(
         stage="raw", charge_state="discharge", mute_progress_bars=False
     )
@@ -42,6 +42,23 @@ def get_raw_cathode(
     )
     logger.info("[STEP 4] Saving database")
     cathode_db.save_database("raw")
+
+
+def get_raw_perovskite(data_dir: Path = DATA_DIR, logger=logger):
+    perovskite_db = PerovskiteDatabase(data_dir=data_dir)
+    perovskite_db.allow_raw_update()
+    logger.info("[STEP 1] Retrieving models")
+    db = perovskite_db.retrieve_materials(mute_progress_bars=False)
+    perovskite_db.compare_and_update(db, "raw")
+    logger.info("[STEP 2] Retrieving and saving materials")
+    materials = perovskite_db.retrieve_materials(stage="raw", mute_progress_bars=False)
+    perovskite_db.save_cif_files(
+        stage="raw",
+        materials_mp_query=materials,
+        mute_progress_bars=False,
+    )
+    logger.info("[STEP 3] Saving database")
+    perovskite_db.save_database("raw")
 
 
 # @app.command()

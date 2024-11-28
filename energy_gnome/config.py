@@ -34,7 +34,7 @@ WORKING_IONS = ["Li"]
 # Supported battery types
 BATTERY_TYPES = ["insertion"]
 
-CONFIG_YAML_FILE = MODULE_ROOT / "config.yaml"
+CONFIG_YAML_FILE = "config.yaml"
 
 # API keys
 if os.path.exists(CONFIG_YAML_FILE):

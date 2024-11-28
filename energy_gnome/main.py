@@ -11,8 +11,9 @@ from energy_gnome.config import (  # noqa: F401
     RAW_DATA_DIR,
     WORKING_IONS,
 )
-from energy_gnome.dataset import get_raw_cathode
+from energy_gnome.dataset import get_raw_cathode, get_raw_perovskite
 from energy_gnome.dataset.cathodes import CathodeDatabase
+from energy_gnome.dataset.perovskites import PerovskiteDatabase
 from energy_gnome.utils.logger_config import logger, setup_logging  # noqa: F401
 
 # Create the Typer app
@@ -54,6 +55,12 @@ def datasets(
                     working_ion=working_ion,
                     battery_type=battery_type,
                 )
+    elif energy_material.lower() in ["photovoltaic", "photovoltaics", "perovskites", "perovskite"]:
+        logger.info("--- Getting perovskites".ljust(LOG_MAX_WIDTH, "-"))
+        get_raw_perovskite(
+            data_dir=data_dir,
+            logger=logger,
+        )
     else:
         raise NotImplementedError(
             f"The database for the energy material '{energy_material}' is not supported."
