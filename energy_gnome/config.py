@@ -14,7 +14,7 @@ DOI_ARTICLE = "doi:TBD"
 
 # Paths
 MODULE_ROOT = Path(__file__).resolve().parents[0]
-PROJ_ROOT = Path(".").resolve().parents[1]
+PROJ_ROOT = Path(".").resolve()
 # PROJ_ROOT = Path(__file__).resolve().parents[1]
 # logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
 
