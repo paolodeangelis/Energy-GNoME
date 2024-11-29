@@ -108,9 +108,9 @@ class PerovskiteDatabase(BaseDatabase):
 
     def retrieve_remote(self, mute_progress_bars: bool = True) -> pd.DataFrame:
         """
-        Retrieve models from the Material Project API.
+        Retrieve materials from the Material Project API.
 
-        Wrapper method to call `retrieve_models`.
+        Wrapper method to call `retrieve_materials`.
 
         Args:
             mute_progress_bars (bool, optional):
@@ -118,9 +118,9 @@ class PerovskiteDatabase(BaseDatabase):
                 Defaults to `True`.
 
         Returns:
-            pd.DataFrame: DataFrame containing the retrieved models.
+            pd.DataFrame: DataFrame containing the retrieved materials.
         """
-        return self.retrieve_models(mute_progress_bars=mute_progress_bars)
+        return self.retrieve_materials(mute_progress_bars=mute_progress_bars)
 
     def _pre_retrieve_robo(self, mute_progress_bars: bool = True) -> list[str]:
         mp_api_key = get_mp_api_key()
@@ -143,7 +143,7 @@ class PerovskiteDatabase(BaseDatabase):
             try:
                 query = mpr.materials.summary.search(formula=dict, fields="material_id")
                 logger.info(
-                    f"MP query successful, {len(query)} perovskite IDs found through Perovskite Project formulas."
+                    f"MP query successful, {len(query)} perovskite IDs found through Perovskite Project formulae."
                 )
             except Exception as e:
                 raise e
@@ -181,10 +181,12 @@ class PerovskiteDatabase(BaseDatabase):
 
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
-                with MPRester(mp_api_key) as mpr:
-                    query = mpr.materials.summary.search(
-                        material_ids=unique_ids, fields=MAT_PROPERTIES
-                    )
+                query = mpr.materials.summary.search(
+                    material_ids=unique_ids, fields=MAT_PROPERTIES
+                )
+                logger.info(
+                    f"MP query successful, {len(query)} perovskites found through Robocrystallographer and Perovskite Project formulae."
+                )
             except Exception as e:
                 raise e
         logger.debug("Converting MP query results into DataFrame.")
@@ -423,7 +425,7 @@ class PerovskiteDatabase(BaseDatabase):
             ImmutableRawDataError: If attempting to modify immutable raw data.
         """
 
-        saving_dir = self.database_directories[stage]
+        saving_dir = self.database_directories[stage] / "structures/"
 
         if stage == "raw" and not self._update_raw:
             logger.error("Raw data must be treated as immutable!")
@@ -446,7 +448,7 @@ class PerovskiteDatabase(BaseDatabase):
 
         # Create the saving directory
         saving_dir.mkdir(parents=True, exist_ok=False)
-        self.databases[stage] = pd.Series(dtype=str)
+        self.databases[stage]["cif_path"] = pd.Series(dtype=str)
 
         # Save CIF files and update database paths
         for material in tqdm(
@@ -458,7 +460,7 @@ class PerovskiteDatabase(BaseDatabase):
                 # Locate the row in the database corresponding to the material ID
                 i_row = (
                     self.databases[stage]
-                    .index[self.databases[stage] == material.material_id]
+                    .index[self.databases[stage]["material_id"] == material.material_id]
                     .tolist()[0]
                 )
 
@@ -469,7 +471,7 @@ class PerovskiteDatabase(BaseDatabase):
                 material.structure.to(filename=str(cif_path))
 
                 # Update the database with the CIF file path
-                self.databases[stage].at[i_row] = str(cif_path)
+                self.databases[stage].at[i_row, "cif_path"] = str(cif_path)
 
             except IndexError:
                 logger.error(f"Material ID {material.material_id} not found in the database.")
@@ -538,7 +540,9 @@ class PerovskiteDatabase(BaseDatabase):
             try:
                 # Locate the row in the database corresponding to the material ID
                 i_row = (
-                    self.databases[stage].index[self.databases[stage] == material_id].tolist()[0]
+                    self.databases[stage]
+                    .index[self.databases[stage]["material_id"] == material_id]
+                    .tolist()[0]
                 )
 
                 # Define source and destination CIF file paths

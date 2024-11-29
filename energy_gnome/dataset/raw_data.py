@@ -50,12 +50,13 @@ def get_raw_perovskite(data_dir: Path = DATA_DIR, logger=logger):
     logger.info("[STEP 1] Retrieving and saving materials")
     db, materials = perovskite_db.retrieve_materials(mute_progress_bars=False)
     perovskite_db.compare_and_update(db, "raw")
+    logger.info("[STEP 2] Retrieving and saving CIF files")
     perovskite_db.save_cif_files(
         stage="raw",
         materials_mp_query=materials,
         mute_progress_bars=False,
     )
-    logger.info("[STEP 2] Saving database")
+    logger.info("[STEP 3] Saving database")
     perovskite_db.save_database("raw")
 
 
