@@ -8,7 +8,12 @@ from mp_api.client import MPRester
 import pandas as pd
 from tqdm import tqdm
 
-from energy_gnome.config import DATA_DIR, DOI_ARTICLE, RAW_DATA_DIR  # noqa:401
+from energy_gnome.config import (  # noqa:401
+    DATA_DIR,
+    DOI_ARTICLE,
+    EXTERNAL_DATA_DIR,
+    RAW_DATA_DIR,
+)
 from energy_gnome.dataset.base_dataset import BaseDatabase
 from energy_gnome.exception import ImmutableRawDataError, MissingData
 from energy_gnome.utils.logger_config import logger
@@ -67,7 +72,7 @@ class PerovskiteDatabase(BaseDatabase):
         self,
         data_dir: Path | str = DATA_DIR,
         external_perovproj_path: Path
-        | str = DATA_DIR / Path("external") / Path("perovskites") / Path("perovproject_db.json"),
+        | str = EXTERNAL_DATA_DIR / Path("perovskites") / Path("perovproject_db.json"),
     ):
         """
         Initialize the PerovskiteDatabase with a root data directory and processing stage.
