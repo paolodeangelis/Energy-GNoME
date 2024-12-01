@@ -1,0 +1,57 @@
+site_name: Energy-GNoME
+site_url: https://paolodeangelis.github.io/Energy-GNoME/
+repo_url: https://github.com/paolodeangelis/Energy-GNoME
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.home
+    - search.suggest
+    - search.highlight
+    - header.autohide
+
+nav:
+  - Home: index.md
+  - Documentation:
+    - Overview: documentation/index.md
+    - More Sections...: documentation/details.md
+  - Applications:
+    - Overview: apps/index.md
+    - Database 1: apps/database1.md
+    - Database 2: apps/database2.md
+    - Database 3: apps/database3.md
+
+extra:
+  homepage: /
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

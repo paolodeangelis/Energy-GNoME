@@ -1,0 +1,36 @@
+name: Deploy Documentation and Apps
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material panel hvplot
+      
+      - name: Build MkDocs
+        run: mkdocs build
+      
+      - name: Build Panel Apps
+        run: |
+          panel convert apps/cathodes/dashboard.py --to pyodide-worker --out site/apps/cathodes/
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
