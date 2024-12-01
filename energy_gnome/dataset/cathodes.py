@@ -457,9 +457,9 @@ class CathodeDatabase(BaseDatabase):
 
                     # Assign material properties to the database
                     for property_name in MAT_PROPERTIES.keys():
-                        self.databases[stage].at[
-                            i_row, f"{charge_state}_{property_name}"
-                        ] = getattr(material, property_name, None)
+                        self.databases[stage].at[i_row, f"{charge_state}_{property_name}"] = (
+                            getattr(material, property_name, None)
+                        )
                 except IndexError:
                     logger.error(f"Material ID {material.material_id} not found in the database.")
                     raise MissingData(

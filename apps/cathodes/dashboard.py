@@ -438,9 +438,11 @@ def build_interactive_plot(
         tooltips=[
             (
                 col,
-                f"@{{{col}}}{{0.2f}}"
-                if df[col].dtype in ["float64", "float32"]
-                else f"@{{{col}}}",
+                (
+                    f"@{{{col}}}{{0.2f}}"
+                    if df[col].dtype in ["float64", "float32"]
+                    else f"@{{{col}}}"
+                ),
             )
             for col in df.columns
         ]
