@@ -188,9 +188,15 @@ test.gro
 test_file.xyz
 build_wheel
 energy_gnome/config.yaml
+config.yaml
 
 
 # Database
 data/raw/cathodes/*/*/charge
 data/raw/cathodes/*/*/discharge
 data/raw/cathodes/*
+data/raw/perovskites/*
+data/raw/
+
+# Incomplete
+energy_gnome/dataset/thermoelectrics.py

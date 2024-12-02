@@ -259,7 +259,7 @@ class BaseDatabase(ABC):
                 modified = path.stat().st_mtime
                 modified_time = pd.Timestamp.fromtimestamp(modified).strftime("%Y-%m-%d %H:%M")
                 size = path.stat().st_size / 1024  # Convert to KB
-                size_str = f"{size:.1f} KB" if size < 1024 else f"{size/1024:.1f} MB"
+                size_str = f"{size:.1f} KB" if size < 1024 else f"{size / 1024:.1f} MB"
             else:
                 modified_time = "Not created"
                 size_str = "0 KB"
@@ -287,7 +287,7 @@ class BaseDatabase(ABC):
 
         # Add title
         title = f" {self.__class__.__name__} Summary "
-        lines.append(f"\n{title:=^{sum(widths) + len(widths)*2 + 1}}")
+        lines.append(f"\n{title:=^{sum(widths) + len(widths) * 2 + 1}}")
 
         # Add header
         separator = create_separator(widths)
@@ -336,7 +336,7 @@ class BaseDatabase(ABC):
                 modified = path.stat().st_mtime
                 modified_time = pd.Timestamp.fromtimestamp(modified).strftime("%Y-%m-%d %H:%M")
                 size = path.stat().st_size / 1024  # Convert to KB
-                size_str = f"{size:.1f} KB" if size < 1024 else f"{size/1024:.1f} MB"
+                size_str = f"{size:.1f} KB" if size < 1024 else f"{size / 1024:.1f} MB"
             else:
                 modified_time = "Not created"
                 size_str = "0 KB"
