@@ -1,0 +1,22 @@
+path: data/final/cathodes/insertion/Rb/candidates.json
+note: "Warning: week regressor performances (R² < 0.5)"
+columns:
+  MaterialId: Material Id
+  Composition: Composition
+  Crystal System: Crystal System
+  Formation Energy Per Atom: Formation Energy Per Atom (eV/atom)
+  Reduced Formula: Formula
+  average_voltage_mean: Average Voltage (E3NNx4 prediction) (V)
+  average_voltage_std: Average Voltage (E3NNx4 deviation) (V)
+  classifier_mean: AI-experts confidence (GBDTx4 prediction) (-)
+  classifier_std: AI-experts confidence (GBDTx4 deviation) (-)
+  max_delta_volume_mean: Max Volume expansion (E3NNx4 prediction) (%)
+  max_delta_volume_std: Max Volume expansion (E3NNx4 deviation) (%)
+  stability_charge_mean: Stability charge phase (E3NNx4 prediction) (eV/atom)
+  stability_charge_std: Stability charge phase (E3NNx4 deviation) (eV/atom)
+  stability_discharge_mean: Stability discharge phase (E3NNx4 prediction) (eV/atom)
+  stability_discharge_std: Stability discharge phase (E3NNx4 deviation) (eV/atom)
+  capacity_vol: Volumetric capacity (mAh/L)
+  capacity_grav: Gravimetric capacity (mAh/g)
+  energy_vol: Volumetric energy (Wh/L)
+  energy_grav: Gravimetric energy (Wh/kg)
