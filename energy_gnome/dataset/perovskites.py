@@ -71,8 +71,9 @@ class PerovskiteDatabase(BaseDatabase):
     def __init__(
         self,
         data_dir: Path | str = DATA_DIR,
-        external_perovproj_path: Path
-        | str = EXTERNAL_DATA_DIR / Path("perovskites") / Path("perovproject_db.json"),
+        external_perovproj_path: Path | str = EXTERNAL_DATA_DIR
+        / Path("perovskites")
+        / Path("perovproject_db.json"),
     ):
         """
         Initialize the PerovskiteDatabase with a root data directory and processing stage.
