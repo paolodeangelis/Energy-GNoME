@@ -442,6 +442,7 @@ class PerovskiteDatabase(BaseDatabase):
             )
 
         # Clean the saving directory if it exists
+        # ### è necessario farlo anche se non aggiorniamo il db? potremmo ridurre un po' i tempi
         if saving_dir.exists():
             logger.warning(f"Cleaning the content in {saving_dir}")
             sh.rmtree(saving_dir)
