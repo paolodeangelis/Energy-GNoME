@@ -2,7 +2,6 @@ from pathlib import Path  # noqa: F401
 
 from tqdm import tqdm  # noqa: F401
 import typer
-import os
 
 from energy_gnome.config import (  # noqa: F401
     BATTERY_TYPES,
@@ -12,10 +11,10 @@ from energy_gnome.config import (  # noqa: F401
     RAW_DATA_DIR,
     WORKING_IONS,
 )
-from energy_gnome.dataset import get_raw_cathode
+from energy_gnome.dataset import get_raw_cathode, get_raw_perovskite
 from energy_gnome.dataset.cathodes import CathodeDatabase
+from energy_gnome.dataset.perovskites import PerovskiteDatabase
 from energy_gnome.utils.logger_config import logger, setup_logging  # noqa: F401
-from energy_gnome.dataset.temp_convert import process_data_with_yaml
 
 # Create the Typer app
 app = typer.Typer(help="Energy GNoME CLI.")
@@ -56,6 +55,12 @@ def datasets(
                     working_ion=working_ion,
                     battery_type=battery_type,
                 )
+    elif energy_material.lower() in ["photovoltaic", "photovoltaics", "perovskites", "perovskite"]:
+        logger.info("--- Getting perovskites".ljust(LOG_MAX_WIDTH, "-"))
+        get_raw_perovskite(
+            data_dir=data_dir,
+            logger=logger,
+        )
     else:
         raise NotImplementedError(
             f"The database for the energy material '{energy_material}' is not supported."
@@ -79,14 +84,6 @@ def pre_processing(something: str = typer.Argument(..., help="Data to preprocess
     logger.info("Preprocessing data...")
     pass
 
-@app.command()
-def convert(database_path: str = typer.Argument(help="Interim database to preprocess."), yaml_file: str = typer.Argument(help="Yaml configuration file.")):
-    df, final_output_path = process_data_with_yaml(database_path, yaml_file) 
-    out_dir = Path(os.path.dirname(final_output_path))
-    out_dir.mkdir(parents=True, exist_ok=True)
-    df.to_json(final_output_path)
-
-    
 
 def main():
     app()
