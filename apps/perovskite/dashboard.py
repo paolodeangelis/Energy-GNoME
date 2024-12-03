@@ -9,8 +9,9 @@ import panel as pn
 import requests
 
 # CONSTANTS (settings)
-TITLE = "Database-Name: Material class 2 explorer"
-DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/perovskites/{modeltype}/candidates.json"
+TITLE = "Perovskite Materials Database explorer"
+# DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/perovskites/{modeltype}/candidates.json"
+DATA_PATH = "./data/final/perovskites/{modeltype}/candidates.json"
 BIB_FILE = (
     "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
 )
@@ -29,8 +30,8 @@ PALETTE = [
     "#009b8f",
     "#73bced",
 ]
-MODEL_TYPE = ["pure_models", "mixed_models"]
-MODEL_ACTIVE = ["pure_models"]
+MODEL_TYPE = ["Pure Models", "Mixed Models"]
+MODEL_ACTIVE = ["Pure Models"]
 CATEGORY = "Model type"
 CATEGORY_ACTIVE = MODEL_ACTIVE
 COLUMNS = [
@@ -39,8 +40,8 @@ COLUMNS = [
     "Crystal System",
     "Formation Energy (eV/atom)",
     "Formula",
-    "Volume (Å³)",
-    "Density (Å³/atom)",
+    "Volume (A^3)",
+    "Density (A^3/atom)",
     "Average Band Gap (eV)",
     "Average Band Gap (deviation) (eV)",
     "AI-experts confidence (-)",
@@ -48,6 +49,13 @@ COLUMNS = [
     "Ranking",
     "File",
 ]
+HOVER_COL = [
+        ("Material Id", "@{Material Id}"),
+        ("Formula", "@{Formula}"),
+        ("Formation Energy (eV/atom)", "@{Formation Energy (eV/atom)}{0.2f}"),
+        ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
+        ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
+    ]
 COLUMNS_ACTIVE = [
     "Material Id",
     "Composition",
@@ -157,9 +165,10 @@ def initialize_data() -> pd.DataFrame:
 
     # Use a generator to load and process data lazily
     def load_and_process(modeltype):
-        path = DATA_PATH.format(modeltype=modeltype)
+        _modeltype = "_".join(modeltype.split()).lower()
+        path = DATA_PATH.format(modeltype=_modeltype)
         df = pd.read_json(path)
-        df["Model Type"] = modeltype
+        df["Model type"] = modeltype #" ".join([s.capitalize() for s in modeltype.split("_")])
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
         # Downcast float64 to float32 for memory efficiency
@@ -167,7 +176,7 @@ def initialize_data() -> pd.DataFrame:
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
         return df
 
-    # Merge datasets for all ions
+    # Merge datasets for all models
     merged_df = pd.concat(
         (load_and_process(modeltype) for modeltype in MODEL_TYPE),
         ignore_index=True,
@@ -348,13 +357,13 @@ def build_interactive_table(
     """
     # Calculate ranking based on weights and normalize
     ranking = (
-        w_property1 * min_max_norm(df["Property 1"])
-        + w_property2 * min_max_norm(df["Property 2"])
-        + w_property3 * min_max_norm(df["Property 3"])
-        + w_property4 * min_max_norm(df["Property 4"])
-        + w_property5 * min_max_norm(df["Property 5"])
-        + w_property6 * min_max_norm(df["Property 6"])
-        + w_property7 * min_max_norm(df["Property 7"])
+        w_property1 * min_max_norm(df["Average Band Gap (eV)"])
+        + w_property2 * min_max_norm(df["AI-experts confidence (-)"])
+        + w_property3 * min_max_norm(df["Formation Energy (eV/atom)"])
+        + w_property4 * min_max_norm(df["Volume (A^3)"])
+        + w_property5 * min_max_norm(df["Density (A^3/atom)"])
+        + w_property6 * min_max_norm(df["Average Band Gap (deviation) (eV)"])
+        + w_property7 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
     )
     # Add the ranking to the DataFrame and normalize
     df["Ranking"] = min_max_norm(ranking)
@@ -389,27 +398,16 @@ def build_interactive_table(
     return pn.Column(filename, button, table)
 
 
-hover = HoverTool(
-    # tooltips=[
-    #     ("ID", "@{ID}"),
-    #     ("Category 1", "@{Category 1}"),
-    #     ("Property 1", "@{Property 1}{0.2f}"),
-    #     ("Property 2", "@{Property 2}{0.2f}"),
-    #     ("Property 3", "@{Property 3}{0.2f}"),
-    # ],
-    tooltips=[
-        (
-            col,
-            (
-                f"@{{{col}}}{{0.2f}}"
-                if df[col].dtype in ["float64", "float32", "float", "int"]
-                else f"@{{{col}}}"
-            ),
-        )
-        for col in df.columns
-    ],
-    mode="mouse",  # 'mouse' mode ensures only the topmost point is selected
-)
+# hover = HoverTool(
+#     tooltips=[
+#         ("Material Id", "@{Material Id}"),
+#         ("Volume (A^3)", "@{Volume (A^3)}{0.2f}"),
+#         ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
+#         ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
+#         # ("Property 3", "@{Property 3}{0.2f}"),
+#     ],
+#     mode="mouse",  # 'mouse' mode ensures only the topmost point is selected
+# )
 
 
 def build_interactive_plot(
@@ -437,31 +435,31 @@ def build_interactive_plot(
         ("Average Band Gap (eV)", s_property1),
         ("AI-experts confidence (-)", s_property2),
         ("Formation Energy (eV/atom)", s_property3),
-        ("Volume (Å³)", s_property4),
-        ("Density (Å³/atom)", s_property5),
+        ("Volume (A^3)", s_property4),
+        ("Density (A^3/atom)", s_property5),
     ]
 
     for col, slider in filters:
         plot_df = plot_df[(plot_df[col] >= slider[0]) & (plot_df[col] <= slider[1])]
 
-    # Apply ion filter if provided
+    # Apply filter if provided
     if categories:
         plot_df = plot_df[plot_df[CATEGORY].isin(categories)]
 
-        # Updated hover tool to show all columns
-    hover = HoverTool(
-        tooltips=[
-            (
-                col,
-                (
-                    f"@{{{col}}}{{0.2f}}"
-                    if df[col].dtype in ["float64", "float32"]
-                    else f"@{{{col}}}"
-                ),
-            )
-            for col in df.columns
-        ]
-    )
+    # # Updated hover tool to show all columns
+    # hover = HoverTool(
+    #     tooltips=[
+    #         (
+    #             col,
+    #             (
+    #                 f"@{{{col}}}{{0.2f}}"
+    #                 if plot_df[col].dtype in ["float64", "float32"]
+    #                 else f"@{{{col}}}"
+    #             ),
+    #         )
+    #         for col in plot_df.columns
+    #     ]
+    # )
 
     # Background scatter plot with all data
     back_scatter = df.hvplot.scatter(
@@ -475,7 +473,7 @@ def build_interactive_plot(
     ).opts(
         tools=[],
         logx=False,
-        logy=True,
+        logy=False,
         xlabel="AI-experts confidence (-)",
         ylabel="Average Band Gap (eV)",
     )
@@ -493,11 +491,13 @@ def build_interactive_plot(
         hover_cols="all",
     ).opts(
         logx=False,
-        logy=True,
+        logy=False,
         xlabel="AI-experts confidence (-)",
         ylabel="Average Band Gap (eV)",
         cmap=PALETTE,
-        tools=[hover],
+        # tools=[hover],
+        hover_tooltips=HOVER_COL,
+
     )
 
     # Combine background and foreground scatter plots
@@ -561,7 +561,7 @@ weights["Formation Energy (eV/atom)"] = w_property3
 weights_helper["Formation Energy (eV/atom)"] = w_property3_help
 # Property 4
 w_property4 = pn.widgets.IntSlider(
-    name="Volume (Å³)",
+    name="Volume (A^3)",
     start=-10,
     end=10,
     step=1,
@@ -570,13 +570,13 @@ w_property4 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property4_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Volume (Å³)' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Volume (A^3)' property in the <b><i>ranking function</i></b>."
 )
-weights["Volume (Å³)"] = w_property4
-weights_helper["Volume (Å³)"] = w_property4_help
+weights["Volume (A^3)"] = w_property4
+weights_helper["Volume (A^3)"] = w_property4_help
 # Property 5
 w_property5 = pn.widgets.IntSlider(
-    name="Density (Å³/atom)",
+    name="Density (A^3/atom)",
     start=-10,
     end=10,
     step=1,
@@ -585,10 +585,10 @@ w_property5 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property5_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Density (Å³/atom)' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Density (A^3/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Density (Å³/atom)"] = w_property5
-weights_helper["Density (Å³/atom)"] = w_property5_help
+weights["Density (A^3/atom)"] = w_property5
+weights_helper["Density (A^3/atom)"] = w_property5_help
 # Property 6
 w_property6 = pn.widgets.IntSlider(
     name="Average Band Gap (deviation) (eV)",
@@ -626,7 +626,7 @@ sliders_helper = {}
 # Property 1
 s_property1 = create_range_slider("Average Band Gap (eV)", "Average Band Gap (eV)")
 s_property1_help = pn.widgets.TooltipIcon(
-    value="<b>Average Band Gap (eV) (-)</b> Average voltage predicted by the ensemble committee of four E3NN models."
+    value="<b>Average Band Gap (eV) (-)</b> Average band gap predicted by the ensemble committee of four E3NN models."
 )
 sliders["Average Band Gap (eV)"] = s_property1
 sliders_helper["Average Band Gap (eV)"] = s_property1_help
@@ -640,23 +640,23 @@ sliders_helper["AI-experts confidence (-)"] = s_property2_help
 # Property 3
 s_property3 = create_range_slider("Formation Energy (eV/atom)", "Formation Energy (eV/atom)")
 s_property3_help = pn.widgets.TooltipIcon(
-    value="<b>Formation Energy (eV/atom) (-)</b> description..."
+    value="<b>Formation Energy per Atom (eV/atom) (-)</b> Measure of the average energy required to form the molecule from its constituent atoms."
 )
 sliders["Formation Energy (eV/atom)"] = s_property3
 sliders_helper["Formation Energy (eV/atom)"] = s_property3_help
 # Property 4
-s_property4 = create_range_slider("Volume (Å³)", "Volume (Å³)")
-s_property4_help = pn.widgets.TooltipIcon(value="<b>Volume (Å³) (-)</b> description...")
-sliders["Volume (Å³)"] = s_property4
-sliders_helper["Volume (Å³)"] = s_property4_help
+s_property4 = create_range_slider("Volume (A^3)", "Volume (A^3)")
+s_property4_help = pn.widgets.TooltipIcon(value="<b>Volume (A^3)</b> Three-dimensional space occupied by the molecule.")
+sliders["Volume (A^3)"] = s_property4
+sliders_helper["Volume (A^3)"] = s_property4_help
 # Property 5
-s_property5 = create_range_slider("Density (Å³/atom)", "Density (Å³/atom)")
-s_property5_help = pn.widgets.TooltipIcon(value="<b>Density (Å³/atom)</b> description...")
-sliders["Density (Å³/atom)"] = s_property5
-sliders_helper["Density (Å³/atom)"] = s_property5_help
+s_property5 = create_range_slider("Density (A^3/atom)", "Density (A^3/atom)")
+s_property5_help = pn.widgets.TooltipIcon(value="<b>Density (A^3/atom)</b> Average space per atom within the molecule.")
+sliders["Density (A^3/atom)"] = s_property5
+sliders_helper["Density (A^3/atom)"] = s_property5_help
 
 # (3) Widget SIDEBAR: Models selection
-select_ions = pn.widgets.MultiChoice(
+select_models = pn.widgets.MultiChoice(
     value=MODEL_ACTIVE,
     options=MODEL_TYPE,
     #  sizing_mode='stretch_width',
@@ -689,7 +689,7 @@ downloadable_table = pn.bind(
     # sliders
     # s_classifier_mean=s_classifier_mean,
     columns=select_properties,
-    categories=select_ions,
+    categories=select_models,
     sliders=sliders,
 )
 
@@ -701,7 +701,7 @@ plot = pn.bind(
     s_property3=s_property3,
     s_property4=s_property4,
     s_property5=s_property5,
-    categories=select_ions,
+    categories=select_models,
 )
 
 # Widget MAIN: Text
@@ -755,7 +755,7 @@ The control panel below has two tabs:
 
 controls_tabs = pn.Tabs(("Properties", sliders_col), ("Ranking", weights_col))
 
-box_select_ions = pn.Column(
+box_select_models = pn.Column(
     pn.Row(
         pn.pane.Markdown(
             """
@@ -776,7 +776,7 @@ Add or remove rows belloging to specific category"""
         #        value="Add or remove <i>cathodes</i> with a specific <i>active ion material</i>"
         #        )
     ),
-    select_ions,
+    select_models,
 )
 
 divider_sb = pn.layout.Divider(margin=(-5, 0, -5, 0))
@@ -784,7 +784,7 @@ divider_m = pn.layout.Divider()
 footer = pn.pane.HTML(FOOTER, sizing_mode="stretch_width")
 pn.template.FastListTemplate(
     title=TITLE,
-    sidebar=[box_select_ions, divider_sb, controls_tabs_intro, controls_tabs],
+    sidebar=[box_select_models, divider_sb, controls_tabs_intro, controls_tabs],
     main=[
         pn.Row(plot, about_box),
         pn.Column(select_properties, downloadable_table),
