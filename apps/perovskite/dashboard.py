@@ -1,20 +1,22 @@
 from functools import partial
 from io import StringIO
 
+from bokeh.models import HoverTool, HTMLTemplateFormatter
 import hvplot.pandas
 import numpy as np
 import pandas as pd
 import panel as pn
 import requests
-from bokeh.models import HoverTool, HTMLTemplateFormatter
 
 # CONSTANTS (settings)
 TITLE = "Database-Name: Material class 2 explorer"
-DATA_PATH = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/mclass2.json"
+DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/perovskites/{modeltype}/candidates.json"
+BIB_FILE = (
+    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
 )
-BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
-RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
+RIS_FILE = (
+    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
+)
 ACCENT = "#eb8a21"
 PALETTE = [
     "#50c4d3",
@@ -27,31 +29,30 @@ PALETTE = [
     "#009b8f",
     "#73bced",
 ]
-WORKING_IONS = ["A", "B", "C", "D", "E", "F"]
-WORKING_IONS_ACTIVE = ["A", "B", "C"]
-CATEGORY = "Category 1"
-CATEGORY_ACTIVE = WORKING_IONS_ACTIVE
+MODEL_TYPE = ["pure_models", "mixed_models"]
+MODEL_ACTIVE = ["pure_models"]
+CATEGORY = "Model type"
+CATEGORY_ACTIVE = MODEL_ACTIVE
 COLUMNS = [
-    "ID",
-    "Category 1",
-    "Property 1",
-    "Property 2",
-    "Property 3",
-    "Property 4",
-    "Property 5",
-    "Property 6",
-    "Property 7",
-    "Property 8",
+    "Material Id",
+    "Composition",
+    "Crystal System",
+    "Formation Energy (eV/atom)",
+    "Formula",
+    "Volume (Å³)",
+    "Density (Å³/atom)",
+    "Average Band Gap (eV)",
+    "Average Band Gap (deviation) (eV)",
+    "AI-experts confidence (-)",
+    "AI-experts confidence (deviation) (-)",
     "Ranking",
     "File",
 ]
 COLUMNS_ACTIVE = [
-    "ID",
-    "Category 1",
-    "Property 1",
-    "Property 2",
-    "Property 3",
-    "Property 4",
+    "Material Id",
+    "Composition",
+    "Average Band Gap (eV)",
+    "AI-experts confidence (-)",
     "File",
 ]
 N_ROW = 12
@@ -62,7 +63,8 @@ TABLE_FORMATTER = {
     "File": HTMLTemplateFormatter(
         template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/cif/test1.cif?download=1" download="<%= value %>.cif" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.cif </a></code>'  # noqa: E501
     )
-    # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>') # noqa: E501
+    # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/
+    # 3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>')
 }
 ABOUT_W = 500
 ABOUT_MSG = """
@@ -144,7 +146,7 @@ global df
 @pn.cache
 def initialize_data() -> pd.DataFrame:
     """
-    Load and initialize the dataset by setting up default columns and values.
+    Load and initialize the datasets for different regression models by setting up default columns and values.
 
     This function loads the dataset from a JSON file, initializes a 'Ranking' column
     with default values of 1, and creates a 'File' column based on the 'ID' column.
@@ -152,13 +154,26 @@ def initialize_data() -> pd.DataFrame:
     Returns:
         pd.DataFrame: The initialized DataFrame with additional columns.
     """
-    # Load the dataset
-    df = pd.read_json(DATA_PATH)
-    # Initialize the 'Ranking' column with default value of 1
-    df["Ranking"] = 1.0  # Vectorized assignment is more efficient
-    # Create a 'File' column based on the 'ID' column
-    df["File"] = df["ID"]
-    return df
+
+    # Use a generator to load and process data lazily
+    def load_and_process(modeltype):
+        path = DATA_PATH.format(modeltype=modeltype)
+        df = pd.read_json(path)
+        df["Model Type"] = modeltype
+        df["Ranking"] = 1.0
+        df["File"] = df["Material Id"]
+        # Downcast float64 to float32 for memory efficiency
+        float_cols = df.select_dtypes(include=["float64"]).columns
+        df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
+        return df
+
+    # Merge datasets for all ions
+    merged_df = pd.concat(
+        (load_and_process(modeltype) for modeltype in MODEL_TYPE),
+        ignore_index=True,
+    )
+
+    return merged_df
 
 
 df = initialize_data()
@@ -176,8 +191,8 @@ table = pn.widgets.Tabulator(
 global all_columns
 all_columns = df.columns.unique()
 
-global all_ions
-all_ions = WORKING_IONS  # df[CATEGORY].unique()
+global all_models
+all_models = MODEL_TYPE  # df[CATEGORY].unique()
 
 
 # Functions
@@ -229,9 +244,7 @@ def apply_range_filter(
     return df[(df[column] >= start) & (df[column] <= end)]
 
 
-def apply_category_filter(
-    df: pd.DataFrame, category: str, item_to_hide: str
-) -> pd.DataFrame:
+def apply_category_filter(df: pd.DataFrame, category: str, item_to_hide: str) -> pd.DataFrame:
     """
     Filter out rows from the DataFrame where the specified category column matches the item to hide.
 
@@ -289,9 +302,7 @@ def min_max_norm(v: pd.Series) -> pd.Series:
     return (v - v_min) / (v_max - v_min)
 
 
-def show_selected_columns(
-    table: pn.widgets.Tabulator, columns: list
-) -> pn.widgets.Tabulator:
+def show_selected_columns(table: pn.widgets.Tabulator, columns: list) -> pn.widgets.Tabulator:
     """
     Update the table widget to display only the selected columns by hiding the others.
 
@@ -316,7 +327,6 @@ def build_interactive_table(
     w_property5: pn.widgets.IntSlider,
     w_property6: pn.widgets.IntSlider,
     w_property7: pn.widgets.IntSlider,
-    w_property8: pn.widgets.IntSlider,
     # sliders
     # s_classifier_mean: pn.widgets.RangeSlider,
     columns: list,
@@ -327,9 +337,10 @@ def build_interactive_table(
     Build an interactive table with ranking and filtering features based on the provided weights and filters.
 
     Args:
-        w_property1 to w_property8: IntSlider widgets representing weights for each property.
+        w_property1 to w_property5: IntSlider widgets representing weights for each property.
         columns (list): A list of column names to be displayed in the table.
-        sliders (dict, optional): A dictionary where keys are column names and values are RangeSlider widgets for filtering. Defaults to None.
+        sliders (dict, optional): A dictionary where keys are column names and values are RangeSlider widgets
+            for filtering. Defaults to None.
         categories (list, optional): A list of categories to be displayed. Defaults to None.
 
     Returns:
@@ -344,7 +355,6 @@ def build_interactive_table(
         + w_property5 * min_max_norm(df["Property 5"])
         + w_property6 * min_max_norm(df["Property 6"])
         + w_property7 * min_max_norm(df["Property 7"])
-        + w_property8 * min_max_norm(df["Property 8"])
     )
     # Add the ranking to the DataFrame and normalize
     df["Ranking"] = min_max_norm(ranking)
@@ -365,32 +375,40 @@ def build_interactive_table(
     if sliders:
         for column, slider in sliders.items():
             if column in df.columns:  # Ensure the column exists in the DataFrame
-                table.add_filter(
-                    pn.bind(apply_range_filter, column=column, value_range=slider)
-                )
+                table.add_filter(pn.bind(apply_range_filter, column=column, value_range=slider))
     # Apply category filters for categories
     if categories:
-        hidden_ions = set(all_ions) - set(categories)
-        for ion in hidden_ions:
-            table.add_filter(
-                pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=ion)
-            )
+        hidden_models = set(all_models) - set(categories)
+        for model in hidden_models:
+            table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=model))
     # Add download section
     filename, button = table.download_menu(
-        text_kwargs={"name": "Enter filename", "value": "cathode_candidates.csv"},
+        text_kwargs={"name": "Enter filename", "value": "perovskite_candidates.csv"},
         button_kwargs={"name": "Download table"},
     )
     return pn.Column(filename, button, table)
 
 
 hover = HoverTool(
+    # tooltips=[
+    #     ("ID", "@{ID}"),
+    #     ("Category 1", "@{Category 1}"),
+    #     ("Property 1", "@{Property 1}{0.2f}"),
+    #     ("Property 2", "@{Property 2}{0.2f}"),
+    #     ("Property 3", "@{Property 3}{0.2f}"),
+    # ],
     tooltips=[
-        ("ID", "@{ID}"),
-        ("Category 1", "@{Category 1}"),
-        ("Property 1", "@{Property 1}{0.2f}"),
-        ("Property 2", "@{Property 2}{0.2f}"),
-        ("Property 3", "@{Property 3}{0.2f}"),
+        (
+            col,
+            (
+                f"@{{{col}}}{{0.2f}}"
+                if df[col].dtype in ["float64", "float32", "float", "int"]
+                else f"@{{{col}}}"
+            ),
+        )
+        for col in df.columns
     ],
+    mode="mouse",  # 'mouse' mode ensures only the topmost point is selected
 )
 
 
@@ -400,23 +418,13 @@ def build_interactive_plot(
     s_property3: pn.widgets.RangeSlider,
     s_property4: pn.widgets.RangeSlider,
     s_property5: pn.widgets.RangeSlider,
-    s_property6: pn.widgets.RangeSlider,
-    s_property7: pn.widgets.RangeSlider,
-    s_property8: pn.widgets.RangeSlider,
     categories: list = None,
 ) -> hvplot:
     """
-    Builds an interactive scatter plot based on selected filters and ion selection.
+    Builds an interactive scatter plot based on selected filters and model selection.
 
     Args:
-        s_property1 (pn.widgets.RangeSlider): Property 1 filter.
-        s_property2 (pn.widgets.RangeSlider): Property 2 filter.
-        s_property3 (pn.widgets.RangeSlider): Property 3 filter.
-        s_property4 (pn.widgets.RangeSlider): Property 4 filter.
-        s_property5 (pn.widgets.RangeSlider): Property 5 filter.
-        s_property6 (pn.widgets.RangeSlider): Property 6 filter.
-        s_property7 (pn.widgets.RangeSlider): Property 7 filter.
-        s_property8 (pn.widgets.RangeSlider): Property 8 filter.
+        s_property1-5 (pn.widgets.RangeSlider): Property filters.
         categories (list, optional): List of categories to include in the plot. Default is None.
 
     Returns:
@@ -426,14 +434,11 @@ def build_interactive_plot(
 
     # Apply filters based on sliders
     filters = [
-        ("Property 1", s_property1),
-        ("Property 2", s_property2),
-        ("Property 3", s_property3),
-        ("Property 4", s_property4),
-        ("Property 5", s_property5),
-        ("Property 6", s_property6),
-        ("Property 7", s_property7),
-        ("Property 8", s_property8),
+        ("Average Band Gap (eV)", s_property1),
+        ("AI-experts confidence (-)", s_property2),
+        ("Formation Energy (eV/atom)", s_property3),
+        ("Volume (Å³)", s_property4),
+        ("Density (Å³/atom)", s_property5),
     ]
 
     for col, slider in filters:
@@ -443,10 +448,25 @@ def build_interactive_plot(
     if categories:
         plot_df = plot_df[plot_df[CATEGORY].isin(categories)]
 
+        # Updated hover tool to show all columns
+    hover = HoverTool(
+        tooltips=[
+            (
+                col,
+                (
+                    f"@{{{col}}}{{0.2f}}"
+                    if df[col].dtype in ["float64", "float32"]
+                    else f"@{{{col}}}"
+                ),
+            )
+            for col in df.columns
+        ]
+    )
+
     # Background scatter plot with all data
     back_scatter = df.hvplot.scatter(
-        x="Property 2",
-        y="Property 3",
+        x="AI-experts confidence (-)",
+        y="Average Band Gap (eV)",
         s=100,
         alpha=0.25,
         color="#444",
@@ -456,16 +476,17 @@ def build_interactive_plot(
         tools=[],
         logx=False,
         logy=True,
-        xlabel="Property 2 (-)",
-        ylabel="Property 3 (-)",
+        xlabel="AI-experts confidence (-)",
+        ylabel="Average Band Gap (eV)",
     )
 
     # Foreground scatter plot with filtered data
     front_scatter = plot_df.hvplot.scatter(
-        x="Property 2",
-        y="Property 3",
+        x="AI-experts confidence (-)",
+        y="Average Band Gap (eV)",
         s=100,
-        # noqa:E501 hover_cols=['ID', 'Category 1', 'Property 1', 'Property 2', 'Property 3', 'Property 4', 'File'],  hover_cols='all',
+        # noqa:E501 hover_cols=['ID', 'Category 1', 'Property 1',
+        # 'Property 2', 'Property 3', 'Property 4', 'File'],  hover_cols='all',
         line_color="white",
         c=CATEGORY,
         legend="top",
@@ -473,8 +494,8 @@ def build_interactive_plot(
     ).opts(
         logx=False,
         logy=True,
-        xlabel="Property 2 (-)",
-        ylabel="Property 3 (-)",
+        xlabel="AI-experts confidence (-)",
+        ylabel="Average Band Gap (eV)",
         cmap=PALETTE,
         tools=[hover],
     )
@@ -495,7 +516,7 @@ weights = {}
 weights_helper = {}
 # Property 1
 w_property1 = pn.widgets.IntSlider(
-    name="Property 1",
+    name="Average Band Gap (eV)",
     start=-10,
     end=10,
     step=1,
@@ -504,11 +525,13 @@ w_property1 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property1_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 1' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Average Band Gap (eV)' property in the <b><i>ranking function</i></b>."
 )
+weights["Average Band Gap (eV)"] = w_property1
+weights_helper["Average Band Gap (eV)"] = w_property1_help
 # Property 2
 w_property2 = pn.widgets.IntSlider(
-    name="Property 2",
+    name="AI-experts confidence (-)",
     start=-10,
     end=10,
     step=1,
@@ -517,13 +540,13 @@ w_property2 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property2_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 2' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'AI-experts confidence (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Property 2"] = w_property2
-weights_helper["Property 2"] = w_property2_help
+weights["AI-experts confidence (-)"] = w_property2
+weights_helper["AI-experts confidence (-)"] = w_property2_help
 # Property 3
 w_property3 = pn.widgets.IntSlider(
-    name="Property 3",
+    name="Formation Energy (eV/atom)",
     start=-10,
     end=10,
     step=1,
@@ -532,13 +555,13 @@ w_property3 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property3_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 3' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Formation Energy (eV/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Property 3"] = w_property3
-weights_helper["Property 3"] = w_property3_help
+weights["Formation Energy (eV/atom)"] = w_property3
+weights_helper["Formation Energy (eV/atom)"] = w_property3_help
 # Property 4
 w_property4 = pn.widgets.IntSlider(
-    name="Property 4",
+    name="Volume (Å³)",
     start=-10,
     end=10,
     step=1,
@@ -547,13 +570,13 @@ w_property4 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property4_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 4' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Volume (Å³)' property in the <b><i>ranking function</i></b>."
 )
-weights["Property 4"] = w_property4
-weights_helper["Property 4"] = w_property4_help
+weights["Volume (Å³)"] = w_property4
+weights_helper["Volume (Å³)"] = w_property4_help
 # Property 5
 w_property5 = pn.widgets.IntSlider(
-    name="Property 5",
+    name="Density (Å³/atom)",
     start=-10,
     end=10,
     step=1,
@@ -562,13 +585,13 @@ w_property5 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property5_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 5' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Density (Å³/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Property 5"] = w_property5
-weights_helper["Property 5"] = w_property5_help
+weights["Density (Å³/atom)"] = w_property5
+weights_helper["Density (Å³/atom)"] = w_property5_help
 # Property 6
 w_property6 = pn.widgets.IntSlider(
-    name="Property 6",
+    name="Average Band Gap (deviation) (eV)",
     start=-10,
     end=10,
     step=1,
@@ -577,13 +600,13 @@ w_property6 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property6_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 6' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Average Band Gap (deviation) (eV)' property in the <b><i>ranking function</i></b>."
 )
-weights["Property 6"] = w_property6
-weights_helper["Property 6"] = w_property6_help
+weights["Average Band Gap (deviation) (eV)"] = w_property6
+weights_helper["Average Band Gap (deviation) (eV)"] = w_property6_help
 # Property 7
 w_property7 = pn.widgets.IntSlider(
-    name="Property 7",
+    name="AI-experts confidence (deviation) (-)",
     start=-10,
     end=10,
     step=1,
@@ -592,78 +615,54 @@ w_property7 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property7_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 7' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'AI-experts confidence (deviation) (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Property 7"] = w_property7
-weights_helper["Property 7"] = w_property7_help
-# Property 8
-w_property8 = pn.widgets.IntSlider(
-    name="Property 8",
-    start=-10,
-    end=10,
-    step=1,
-    value=1,
-    sizing_mode="fixed",
-    width=SIDEBAR_WIDGET_W,
-)
-w_property8_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 8' property in the <b><i>ranking function</i></b>."
-)
-weights["Property 8"] = w_property8
-weights_helper["Property 8"] = w_property8_help
+weights["AI-experts confidence (deviation) (-)"] = w_property7
+weights_helper["AI-experts confidence (deviation) (-)"] = w_property7_help
 
 # (2) Widget SIDEBAR : properties range
 sliders = {}
 sliders_helper = {}
 # Property 1
-s_property1 = create_range_slider("Property 1", "Property 1 (-)")
-s_property1_help = pn.widgets.TooltipIcon(value="<b>Property 1 (-)</b> description...")
-sliders["Property 1"] = s_property1
-sliders_helper["Property 1"] = s_property1_help
+s_property1 = create_range_slider("Average Band Gap (eV)", "Average Band Gap (eV)")
+s_property1_help = pn.widgets.TooltipIcon(
+    value="<b>Average Band Gap (eV) (-)</b> Average voltage predicted by the ensemble committee of four E3NN models."
+)
+sliders["Average Band Gap (eV)"] = s_property1
+sliders_helper["Average Band Gap (eV)"] = s_property1_help
 # Property 2
-s_property2 = create_range_slider("Property 2", "Property 2 (-)")
-s_property2_help = pn.widgets.TooltipIcon(value="<b>Property 2 (-)</b> description...")
-sliders["Property 2"] = s_property2
-sliders_helper["Property 2"] = s_property2_help
+s_property2 = create_range_slider("AI-experts confidence (-)", "AI-experts confidence (-)")
+s_property2_help = pn.widgets.TooltipIcon(
+    value="<b>AI-experts confidence (-)</b> Average confidence of the ensemble committee of ten GBDT models."
+)
+sliders["AI-experts confidence (-)"] = s_property2
+sliders_helper["AI-experts confidence (-)"] = s_property2_help
 # Property 3
-s_property3 = create_range_slider("Property 3", "Property 3 (-)")
-s_property3_help = pn.widgets.TooltipIcon(value="<b>Property 3 (-)</b> description...")
-sliders["Property 3"] = s_property3
-sliders_helper["Property 3"] = s_property3_help
+s_property3 = create_range_slider("Formation Energy (eV/atom)", "Formation Energy (eV/atom)")
+s_property3_help = pn.widgets.TooltipIcon(
+    value="<b>Formation Energy (eV/atom) (-)</b> description..."
+)
+sliders["Formation Energy (eV/atom)"] = s_property3
+sliders_helper["Formation Energy (eV/atom)"] = s_property3_help
 # Property 4
-s_property4 = create_range_slider("Property 4", "Property 4 (-)")
-s_property4_help = pn.widgets.TooltipIcon(value="<b>Property 4 (-)</b> description...")
-sliders["Property 4"] = s_property4
-sliders_helper["Property 4"] = s_property4_help
+s_property4 = create_range_slider("Volume (Å³)", "Volume (Å³)")
+s_property4_help = pn.widgets.TooltipIcon(value="<b>Volume (Å³) (-)</b> description...")
+sliders["Volume (Å³)"] = s_property4
+sliders_helper["Volume (Å³)"] = s_property4_help
 # Property 5
-s_property5 = create_range_slider("Property 5", "Property 5 (-)")
-s_property5_help = pn.widgets.TooltipIcon(value="<b>Property 5 (-)</b> description...")
-sliders["Property 5"] = s_property5
-sliders_helper["Property 5"] = s_property5_help
-# Property 6
-s_property6 = create_range_slider("Property 6", "Property 6 (-)")
-s_property6_help = pn.widgets.TooltipIcon(value="<b>Property 6 (-)</b> description...")
-sliders["Property 6"] = s_property6
-sliders_helper["Property 6"] = s_property6_help
-# Property 7
-s_property7 = create_range_slider("Property 7", "Property 7 (-)")
-s_property7_help = pn.widgets.TooltipIcon(value="<b>Property 7 (-)</b> description...")
-sliders["Property 7"] = s_property7
-sliders_helper["Property 7"] = s_property7_help
-# Property 8
-s_property8 = create_range_slider("Property 8", "Property 8 (-)")
-s_property8_help = pn.widgets.TooltipIcon(value="<b>Property 8 (-)</b> description...")
-sliders["Property 8"] = s_property8
-sliders_helper["Property 8"] = s_property8_help
+s_property5 = create_range_slider("Density (Å³/atom)", "Density (Å³/atom)")
+s_property5_help = pn.widgets.TooltipIcon(value="<b>Density (Å³/atom)</b> description...")
+sliders["Density (Å³/atom)"] = s_property5
+sliders_helper["Density (Å³/atom)"] = s_property5_help
 
-# (3) Widget SIDEBAR: Ions selection
+# (3) Widget SIDEBAR: Models selection
 select_ions = pn.widgets.MultiChoice(
-    value=WORKING_IONS_ACTIVE,
-    options=WORKING_IONS,
+    value=MODEL_ACTIVE,
+    options=MODEL_TYPE,
     #  sizing_mode='stretch_width',
     width=SIDEBAR_WIDGET_W,
     sizing_mode="fixed",
-    description="Add or remove <i>cathodes</i> with a specific <i>active ion material</i>",
+    description="Add or remove <i>perovskite</i> candidate datapoints with predictions from a specific <i>model</i>",
 )
 
 
@@ -687,7 +686,6 @@ downloadable_table = pn.bind(
     w_property5=w_property5,
     w_property6=w_property6,
     w_property7=w_property7,
-    w_property8=w_property8,
     # sliders
     # s_classifier_mean=s_classifier_mean,
     columns=select_properties,
@@ -703,9 +701,6 @@ plot = pn.bind(
     s_property3=s_property3,
     s_property4=s_property4,
     s_property5=s_property5,
-    s_property6=s_property6,
-    s_property7=s_property7,
-    s_property8=s_property8,
     categories=select_ions,
 )
 

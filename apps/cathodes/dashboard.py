@@ -417,17 +417,17 @@ hover = HoverTool(
     #     ("Max Volume expansion (%)", "@{Property 3}{0.2f}"),
     # ],
     tooltips=[
+        (
+            col,
             (
-                col,
-                (
-                    f"@{{{col}}}{{0.2f}}"
-                    if df[col].dtype in ["float64", "float32", "float", "int"]
-                    else f"@{{{col}}}"
-                ),
-            )
-            for col in df.columns
-        ],
-     mode='mouse'  # 'mouse' mode ensures only the topmost point is selected
+                f"@{{{col}}}{{0.2f}}"
+                if df[col].dtype in ["float64", "float32", "float", "int"]
+                else f"@{{{col}}}"
+            ),
+        )
+        for col in df.columns
+    ],
+    mode="mouse",  # 'mouse' mode ensures only the topmost point is selected
 )
 
 
@@ -693,7 +693,9 @@ sliders = {}
 sliders_helper = {}
 # Property 1
 s_property1 = create_range_slider("Average Voltage (V)", "Average Voltage (V)")
-s_property1_help = pn.widgets.TooltipIcon(value="<b>Average Voltage (V)</b> Average voltage predicted by the ensemble committee of four E3NN models.")
+s_property1_help = pn.widgets.TooltipIcon(
+    value="<b>Average Voltage (V)</b> Average voltage predicted by the ensemble committee of four E3NN models."
+)
 sliders["Average Voltage (V)"] = s_property1
 sliders_helper["Average Voltage (V)"] = s_property1_help
 # Property 2
