@@ -1,0 +1,12 @@
+path: data/final/perovskites/mixed_models/candidates.json
+note: ""
+columns:
+  MaterialId: Material Id
+  Composition: Composition
+  Crystal System: Crystal System
+  Formation Energy Per Atom: Formation Energy Per Atom (eV/atom)
+  Reduced Formula: Formula
+  band_gap_mean: Average Band Gap (E3NNx4 prediction) (eV)
+  band_gap_std: Average Band Gap (E3NNx4 deviation) (eV)
+  classifier_mean: AI-experts confidence (GBDTx4 prediction) (-)
+  classifier_std: AI-experts confidence (GBDTx4 deviation) (-)

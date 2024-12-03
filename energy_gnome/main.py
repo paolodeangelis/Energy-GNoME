@@ -1,8 +1,8 @@
+import os
 from pathlib import Path  # noqa: F401
 
 from tqdm import tqdm  # noqa: F401
 import typer
-import os
 
 from energy_gnome.config import (  # noqa: F401
     BATTERY_TYPES,
@@ -86,9 +86,13 @@ def pre_processing(something: str = typer.Argument(..., help="Data to preprocess
     logger.info("Preprocessing data...")
     pass
 
+
 @app.command()
-def convert(database_path: str = typer.Argument(help="Interim database to preprocess."), yaml_file: str = typer.Argument(help="Yaml configuration file.")):
-    df, final_output_path = process_data_with_yaml(database_path, yaml_file) 
+def convert(
+    database_path: str = typer.Argument(help="Interim database to preprocess."),
+    yaml_file: str = typer.Argument(help="Yaml configuration file."),
+):
+    df, final_output_path = process_data_with_yaml(database_path, yaml_file)
     out_dir = Path(os.path.dirname(final_output_path))
     out_dir.mkdir(parents=True, exist_ok=True)
     df.to_json(final_output_path)

@@ -642,9 +642,7 @@ s_property1_help = pn.widgets.TooltipIcon(value="<b>Property 1 (-)</b> descripti
 sliders["Average Voltage (V)"] = s_property1
 sliders_helper["Average Voltage (V)"] = s_property1_help
 # Property 2
-s_property2 = create_range_slider(
-    "AI-experts confidence (-)", "Property 2 (-)"
-)
+s_property2 = create_range_slider("AI-experts confidence (-)", "Property 2 (-)")
 s_property2_help = pn.widgets.TooltipIcon(value="<b>Property 2 (-)</b> description...")
 sliders["AI-experts confidence (-)"] = s_property2
 sliders_helper["AI-experts confidence (-)"] = s_property2_help
@@ -654,16 +652,12 @@ s_property3_help = pn.widgets.TooltipIcon(value="<b>Property 3 (-)</b> descripti
 sliders["Max Volume expansion (%)"] = s_property3
 sliders_helper["Max Volume expansion (%)"] = s_property3_help
 # Property 4
-s_property4 = create_range_slider(
-    "Stability charge (eV/atom)", "Property 4 (-)"
-)
+s_property4 = create_range_slider("Stability charge (eV/atom)", "Property 4 (-)")
 s_property4_help = pn.widgets.TooltipIcon(value="<b>Property 4 (-)</b> description...")
 sliders["Stability charge (eV/atom)"] = s_property4
 sliders_helper["Stability charge (eV/atom)"] = s_property4_help
 # Property 5
-s_property5 = create_range_slider(
-    "Stability discharge (eV/atom)", "Property 5 (-)"
-)
+s_property5 = create_range_slider("Stability discharge (eV/atom)", "Property 5 (-)")
 s_property5_help = pn.widgets.TooltipIcon(value="<b>Property 5 (-)</b> description...")
 sliders["Stability discharge (eV/atom)"] = s_property5
 sliders_helper["Stability discharge (eV/atom)"] = s_property5_help

@@ -40,11 +40,13 @@ def min_max_norm(v):
 
 # Define Weights and Sliders
 weights = [
-    pn.widgets.IntSlider(name=f"Property {i+1}", start=-10, end=10, value=1) for i in range(8)
+    pn.widgets.IntSlider(name=f"Property {i + 1}", start=-10, end=10, value=1) for i in range(8)
 ]
 sliders = {
-    f"Property {i+1}": pn.widgets.RangeSlider(
-        name=f"Property {i+1}", start=df[f"Property {i+1}"].min(), end=df[f"Property {i+1}"].max()
+    f"Property {i + 1}": pn.widgets.RangeSlider(
+        name=f"Property {i + 1}",
+        start=df[f"Property {i + 1}"].min(),
+        end=df[f"Property {i + 1}"].max(),
     )
     for i in range(8)
 }
@@ -62,7 +64,7 @@ select_ions = pn.widgets.MultiChoice(
 # Build Table
 def build_interactive_table(*weights, columns, sliders=None, categories=None):
     # Ensure weights are passed as IntSlider objects
-    ranking = sum(w.value * min_max_norm(df[f"Property {i+1}"]) for i, w in enumerate(weights))
+    ranking = sum(w.value * min_max_norm(df[f"Property {i + 1}"]) for i, w in enumerate(weights))
     df["Ranking"] = min_max_norm(ranking)
     df.sort_values(by="Ranking", ascending=False, inplace=True)
 
@@ -90,8 +92,8 @@ def build_interactive_plot(*sliders, categories=None):
     for i, slider in enumerate(sliders):
         slider_start, slider_end = slider.value
         plot_df = plot_df[
-            (plot_df[f"Property {i+1}"] >= slider_start)
-            & (plot_df[f"Property {i+1}"] <= slider_end)
+            (plot_df[f"Property {i + 1}"] >= slider_start)
+            & (plot_df[f"Property {i + 1}"] <= slider_end)
         ]
 
     if categories:
