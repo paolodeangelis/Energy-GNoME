@@ -2,7 +2,7 @@ from functools import partial
 from io import StringIO
 from itertools import product
 
-from bokeh.models import HoverTool, HTMLTemplateFormatter
+from bokeh.models import HTMLTemplateFormatter
 import hvplot.pandas
 import numpy as np
 import pandas as pd
