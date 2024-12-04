@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Na(CrN)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71667205
+_cell_length_b   3.01728917
+_cell_length_c   5.70748007
+_cell_angle_alpha   105.33606457
+_cell_angle_beta   85.97029877
+_cell_angle_gamma   105.35422567
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(CrN)4
+_chemical_formula_sum   'Na1 Cr4 N4'
+_cell_volume   91.55313997
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.498745  0.874763  0.357326  1
+  Cr  Cr1  1  0.046569  0.059351  0.178288  1
+  Cr  Cr2  1  0.677928  0.237385  0.903622  1
+  Cr  Cr3  1  0.319150  0.511729  0.811348  1
+  Cr  Cr4  1  0.950577  0.689665  0.536632  1
+  N  N5  1  0.648018  0.618360  0.695295  1
+  N  N6  1  0.838987  0.468616  0.205524  1
+  N  N7  1  0.158218  0.280425  0.509399  1
+  N  N8  1  0.349107  0.130745  0.019582  1

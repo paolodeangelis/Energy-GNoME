@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K3Rb(CoBr4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.65694500
+_cell_length_b   7.42526319
+_cell_length_c   9.57721600
+_cell_angle_alpha   71.09359803
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Rb(CoBr4)2
+_chemical_formula_sum   'K3 Rb1 Co2 Br8'
+_cell_volume   515.13417894
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.250000  0.758188  0.432261  1
+  K  K1  1  0.750000  0.290288  0.042686  1
+  K  K2  1  0.250000  0.713787  0.954821  1
+  Rb  Rb3  1  0.750000  0.211715  0.576604  1
+  Co  Co4  1  0.750000  0.721814  0.204694  1
+  Co  Co5  1  0.250000  0.281169  0.795190  1
+  Br  Br6  1  0.750000  0.895061  0.944947  1
+  Br  Br7  1  0.250000  0.106564  0.054771  1
+  Br  Br8  1  0.750000  0.927756  0.352894  1
+  Br  Br9  1  0.250000  0.077371  0.643446  1
+  Br  Br10  1  0.998160  0.511733  0.261433  1
+  Br  Br11  1  0.495401  0.496410  0.737411  1
+  Br  Br12  1  0.004599  0.496410  0.737411  1
+  Br  Br13  1  0.501840  0.511733  0.261433  1

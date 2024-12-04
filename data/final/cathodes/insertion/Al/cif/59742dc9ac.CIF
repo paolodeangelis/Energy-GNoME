@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba4Al3AuI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66822600
+_cell_length_b   4.66822537
+_cell_length_c   19.58144700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001865
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Al3AuI2
+_chemical_formula_sum   'Ba4 Al3 Au1 I2'
+_cell_volume   369.55494596
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.386753  1
+  Ba  Ba1  1  0.000000  0.000000  0.878988  1
+  Ba  Ba2  1  0.000000  0.000000  0.613413  1
+  Ba  Ba3  1  0.000000  0.000000  0.120998  1
+  Al  Al4  1  0.333333  0.666667  0.003222  1
+  Al  Al5  1  0.333333  0.666667  0.500202  1
+  Al  Al6  1  0.666667  0.333333  0.997025  1
+  Au  Au7  1  0.666667  0.333333  0.499494  1
+  I  I8  1  0.333333  0.666667  0.250575  1
+  I  I9  1  0.666667  0.333333  0.749327  1

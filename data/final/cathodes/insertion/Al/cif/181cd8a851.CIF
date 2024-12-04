@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ho5Er3(AlNi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.39559392
+_cell_length_b   9.39559277
+_cell_length_c   9.39559400
+_cell_angle_alpha   59.99999567
+_cell_angle_beta   59.99999973
+_cell_angle_gamma   59.99999780
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho5Er3(AlNi)2
+_chemical_formula_sum   'Ho10 Er6 Al4 Ni4'
+_cell_volume   586.48599416
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.350640  0.350640  0.350640  1
+  Ho  Ho1  1  0.350640  0.350640  0.948082  1
+  Ho  Ho2  1  0.350640  0.948082  0.350640  1
+  Ho  Ho3  1  0.948082  0.350640  0.350640  1
+  Ho  Ho4  1  0.809071  0.190929  0.190929  1
+  Ho  Ho5  1  0.190929  0.809071  0.809071  1
+  Ho  Ho6  1  0.190929  0.809071  0.190929  1
+  Ho  Ho7  1  0.809071  0.190929  0.809071  1
+  Ho  Ho8  1  0.190929  0.190929  0.809071  1
+  Ho  Ho9  1  0.809071  0.809071  0.190929  1
+  Er  Er10  1  0.936154  0.563846  0.563846  1
+  Er  Er11  1  0.563846  0.936154  0.936154  1
+  Er  Er12  1  0.563846  0.936154  0.563846  1
+  Er  Er13  1  0.936154  0.563846  0.936154  1
+  Er  Er14  1  0.563846  0.563846  0.936154  1
+  Er  Er15  1  0.936154  0.936154  0.563846  1
+  Al  Al16  1  0.577191  0.577191  0.577191  1
+  Al  Al17  1  0.577191  0.577191  0.268426  1
+  Al  Al18  1  0.577191  0.268426  0.577191  1
+  Al  Al19  1  0.268426  0.577191  0.577191  1
+  Ni  Ni20  1  0.142893  0.142893  0.142893  1
+  Ni  Ni21  1  0.142893  0.142893  0.571320  1
+  Ni  Ni22  1  0.142893  0.571320  0.142893  1
+  Ni  Ni23  1  0.571320  0.142893  0.142893  1

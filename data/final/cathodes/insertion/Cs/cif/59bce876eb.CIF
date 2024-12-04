@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsRb2BiTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.17677900
+_cell_length_b   11.17677900
+_cell_length_c   11.17677900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRb2BiTe3
+_chemical_formula_sum   'Cs4 Rb8 Bi4 Te12'
+_cell_volume   1396.20757838
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.573707  0.573707  0.573707  1
+  Cs  Cs1  1  0.926293  0.426293  0.073707  1
+  Cs  Cs2  1  0.073707  0.926293  0.426293  1
+  Cs  Cs3  1  0.426293  0.073707  0.926293  1
+  Rb  Rb4  1  0.320021  0.320021  0.320021  1
+  Rb  Rb5  1  0.179979  0.679979  0.820021  1
+  Rb  Rb6  1  0.820021  0.179979  0.679979  1
+  Rb  Rb7  1  0.679979  0.820021  0.179979  1
+  Rb  Rb8  1  0.813907  0.813907  0.813907  1
+  Rb  Rb9  1  0.686093  0.186093  0.313907  1
+  Rb  Rb10  1  0.313907  0.686093  0.186093  1
+  Rb  Rb11  1  0.186093  0.313907  0.686093  1
+  Bi  Bi12  1  0.974537  0.525463  0.474537  1
+  Bi  Bi13  1  0.474537  0.974537  0.525463  1
+  Bi  Bi14  1  0.025463  0.025463  0.025463  1
+  Bi  Bi15  1  0.525463  0.474537  0.974537  1
+  Te  Te16  1  0.777661  0.102046  0.002862  1
+  Te  Te17  1  0.722339  0.897954  0.502862  1
+  Te  Te18  1  0.277661  0.397954  0.997138  1
+  Te  Te19  1  0.102046  0.002862  0.777661  1
+  Te  Te20  1  0.222339  0.602046  0.497138  1
+  Te  Te21  1  0.497138  0.222339  0.602046  1
+  Te  Te22  1  0.602046  0.497138  0.222339  1
+  Te  Te23  1  0.897954  0.502862  0.722339  1
+  Te  Te24  1  0.997138  0.277661  0.397954  1
+  Te  Te25  1  0.397954  0.997138  0.277661  1
+  Te  Te26  1  0.002862  0.777661  0.102046  1
+  Te  Te27  1  0.502862  0.722339  0.897954  1

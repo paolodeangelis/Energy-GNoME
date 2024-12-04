@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsNaTiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.58680771
+_cell_length_b   7.58680535
+_cell_length_c   6.80570839
+_cell_angle_alpha   91.48533387
+_cell_angle_beta   91.48485760
+_cell_angle_gamma   123.00386856
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNaTiS3
+_chemical_formula_sum   'Cs2 Na2 Ti2 S6'
+_cell_volume   328.03642846
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.263340  0.736657  0.250001  1
+  Cs  Cs1  1  0.736659  0.263342  0.750000  1
+  Na  Na2  1  0.574238  0.425760  0.250001  1
+  Na  Na3  1  0.425761  0.574239  0.750000  1
+  Ti  Ti4  1  0.949463  0.050528  0.249999  1
+  Ti  Ti5  1  0.050536  0.949470  0.750002  1
+  S  S6  1  0.790707  0.768379  0.001433  1
+  S  S7  1  0.783915  0.216079  0.249998  1
+  S  S8  1  0.231620  0.209291  0.498566  1
+  S  S9  1  0.768379  0.790708  0.501432  1
+  S  S10  1  0.216084  0.783920  0.750003  1
+  S  S11  1  0.209292  0.231620  0.998568  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_NaNb3InSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.79290777
+_cell_length_b   8.79290793
+_cell_length_c   8.79290749
+_cell_angle_alpha   40.74543824
+_cell_angle_beta   40.74543968
+_cell_angle_gamma   40.74543054
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNb3InSe6
+_chemical_formula_sum   'Na1 Nb3 In1 Se6'
+_cell_volume   261.32980162
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.166619  0.166619  0.166619  1
+  Nb  Nb1  1  0.333548  0.333548  0.333548  1
+  Nb  Nb2  1  0.666848  0.666848  0.666848  1
+  Nb  Nb3  1  0.999612  0.999612  0.999612  1
+  In  In4  1  0.833350  0.833350  0.833350  1
+  Se  Se5  1  0.400866  0.735555  0.069756  1
+  Se  Se6  1  0.069756  0.400866  0.735555  1
+  Se  Se7  1  0.735555  0.069756  0.400866  1
+  Se  Se8  1  0.266090  0.596830  0.930927  1
+  Se  Se9  1  0.930927  0.266090  0.596830  1
+  Se  Se10  1  0.596830  0.930927  0.266090  1

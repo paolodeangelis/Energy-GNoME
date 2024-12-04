@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgPtCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23514951
+_cell_length_b   6.23514930
+_cell_length_c   6.68997456
+_cell_angle_alpha   81.31798679
+_cell_angle_beta   81.31798397
+_cell_angle_gamma   119.98481436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgPtCl6
+_chemical_formula_sum   'Mg1 Pt1 Cl6'
+_cell_volume   214.76956498
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.166657  0.833343  0.000000  1
+  Pt  Pt1  1  0.833371  0.166629  0.000000  1
+  Cl  Cl2  1  0.450998  0.087624  0.213645  1
+  Cl  Cl3  1  0.912376  0.549002  0.786355  1
+  Cl  Cl4  1  0.205413  0.225446  0.786122  1
+  Cl  Cl5  1  0.774554  0.794587  0.213878  1
+  Cl  Cl6  1  0.067498  0.410867  0.213435  1
+  Cl  Cl7  1  0.589133  0.932502  0.786565  1

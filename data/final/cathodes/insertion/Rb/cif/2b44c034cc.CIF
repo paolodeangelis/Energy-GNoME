@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbBiSbAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.93103600
+_cell_length_b   5.00932085
+_cell_length_c   11.69274374
+_cell_angle_alpha   89.07297982
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBiSbAu2
+_chemical_formula_sum   'Rb2 Bi2 Sb2 Au4'
+_cell_volume   288.78631408
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.250000  0.740372  0.761041  1
+  Rb  Rb1  1  0.750000  0.259628  0.238959  1
+  Bi  Bi2  1  0.750000  0.752763  0.504719  1
+  Bi  Bi3  1  0.250000  0.247237  0.495281  1
+  Sb  Sb4  1  0.250000  0.789621  0.118068  1
+  Sb  Sb5  1  0.750000  0.210379  0.881932  1
+  Au  Au6  1  0.750000  0.699774  0.001760  1
+  Au  Au7  1  0.750000  0.247181  0.646726  1
+  Au  Au8  1  0.250000  0.752819  0.353274  1
+  Au  Au9  1  0.250000  0.300226  0.998240  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaLu3(Ir2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15401995
+_cell_length_b   7.18970853
+_cell_length_c   7.15402000
+_cell_angle_alpha   60.16406697
+_cell_angle_beta   59.99999976
+_cell_angle_gamma   60.16406440
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLu3(Ir2O7)2
+_chemical_formula_sum   'Na1 Lu3 Ir4 O14'
+_cell_volume   260.83695960
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.125000  0.625000  0.125000  1
+  Lu  Lu1  1  0.625000  0.125000  0.125000  1
+  Lu  Lu2  1  0.125000  0.125000  0.625000  1
+  Lu  Lu3  1  0.125000  0.125000  0.125000  1
+  Ir  Ir4  1  0.125000  0.625000  0.625000  1
+  Ir  Ir5  1  0.625000  0.125000  0.625000  1
+  Ir  Ir6  1  0.625000  0.625000  0.125000  1
+  Ir  Ir7  1  0.625000  0.625000  0.625000  1
+  O  O8  1  0.692382  0.719075  0.294271  1
+  O  O9  1  0.290486  0.289347  0.710084  1
+  O  O10  1  0.710084  0.289347  0.710084  1
+  O  O11  1  0.294271  0.719075  0.294271  1
+  O  O12  1  0.294271  0.719075  0.692382  1
+  O  O13  1  0.710084  0.289347  0.290486  1
+  O  O14  1  0.557618  0.530925  0.955729  1
+  O  O15  1  0.959514  0.960653  0.539916  1
+  O  O16  1  0.539916  0.960653  0.539916  1
+  O  O17  1  0.955729  0.530925  0.955729  1
+  O  O18  1  0.955729  0.530925  0.557618  1
+  O  O19  1  0.539916  0.960653  0.959514  1
+  O  O20  1  0.257136  0.228592  0.257136  1
+  O  O21  1  0.992864  0.021408  0.992864  1

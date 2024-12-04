@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbLiHO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48536800
+_cell_length_b   6.72741947
+_cell_length_c   5.82976036
+_cell_angle_alpha   77.24486580
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbLiHO3
+_chemical_formula_sum   'Rb2 Li2 H2 O6'
+_cell_volume   209.82307154
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.340631  0.885998  0.280044  1
+  Rb  Rb1  1  0.840631  0.114002  0.719956  1
+  Li  Li2  1  0.065279  0.625944  0.896179  1
+  Li  Li3  1  0.565279  0.374056  0.103821  1
+  H  H4  1  0.904440  0.193507  0.193318  1
+  H  H5  1  0.404440  0.806493  0.806682  1
+  O  O6  1  0.215985  0.350558  0.023529  1
+  O  O7  1  0.715985  0.649442  0.976471  1
+  O  O8  1  0.240967  0.860335  0.769141  1
+  O  O9  1  0.740967  0.139665  0.230859  1
+  O  O10  1  0.232698  0.464645  0.190588  1
+  O  O11  1  0.732698  0.535355  0.809412  1

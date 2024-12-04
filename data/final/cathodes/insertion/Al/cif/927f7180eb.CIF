@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb3Lu(AlOs3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30857398
+_cell_length_b   5.33928833
+_cell_length_c   8.77413202
+_cell_angle_alpha   89.99999918
+_cell_angle_beta   89.89365233
+_cell_angle_gamma   120.19155925
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb3Lu(AlOs3)2
+_chemical_formula_sum   'Yb3 Lu1 Al2 Os6'
+_cell_volume   214.95794094
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.327915  0.663958  0.434638  1
+  Yb  Yb1  1  0.660869  0.330434  0.551200  1
+  Yb  Yb2  1  0.663038  0.331518  0.944110  1
+  Lu  Lu3  1  0.329077  0.664539  0.074739  1
+  Al  Al4  1  0.187003  0.343606  0.751647  1
+  Al  Al5  1  0.187003  0.843398  0.751647  1
+  Os  Os6  1  0.349886  0.174943  0.247344  1
+  Os  Os7  1  0.832607  0.664335  0.248305  1
+  Os  Os8  1  0.675209  0.837604  0.749666  1
+  Os  Os9  1  0.979862  0.989931  0.993688  1
+  Os  Os10  1  0.832607  0.168271  0.248305  1
+  Os  Os11  1  0.974925  0.987462  0.504712  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KCe2(H6Ru)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98393500
+_cell_length_b   4.98393584
+_cell_length_c   8.41297100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000107
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCe2(H6Ru)2
+_chemical_formula_sum   'K1 Ce2 H12 Ru2'
+_cell_volume   180.97760277
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Ce  Ce1  1  0.666667  0.333333  0.357760  1
+  Ce  Ce2  1  0.333333  0.666667  0.642240  1
+  H  H3  1  0.165888  0.834112  0.392637  1
+  H  H4  1  0.668224  0.834112  0.392637  1
+  H  H5  1  0.165888  0.331776  0.392637  1
+  H  H6  1  0.834112  0.165888  0.607363  1
+  H  H7  1  0.331776  0.165888  0.607363  1
+  H  H8  1  0.834112  0.668224  0.607363  1
+  H  H9  1  0.516142  0.032285  0.848500  1
+  H  H10  1  0.516142  0.483858  0.848500  1
+  H  H11  1  0.967715  0.483858  0.848500  1
+  H  H12  1  0.483858  0.967715  0.151500  1
+  H  H13  1  0.483858  0.516142  0.151500  1
+  H  H14  1  0.032285  0.516142  0.151500  1
+  Ru  Ru15  1  0.666667  0.333333  0.720715  1
+  Ru  Ru16  1  0.333333  0.666667  0.279285  1

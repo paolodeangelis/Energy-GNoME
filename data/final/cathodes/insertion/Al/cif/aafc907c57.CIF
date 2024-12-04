@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sr5Al3Ga2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78917000
+_cell_length_b   5.78917148
+_cell_length_c   10.77506400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999152
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr5Al3Ga2Sn
+_chemical_formula_sum   'Sr5 Al3 Ga2 Sn1'
+_cell_volume   312.73986493
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.666667  0.333333  0.825178  1
+  Sr  Sr1  1  0.333333  0.666667  0.694685  1
+  Sr  Sr2  1  0.333333  0.666667  0.305315  1
+  Sr  Sr3  1  0.666667  0.333333  0.174822  1
+  Sr  Sr4  1  0.000000  0.000000  0.500000  1
+  Al  Al5  1  0.170637  0.829363  0.000000  1
+  Al  Al6  1  0.170637  0.341275  0.000000  1
+  Al  Al7  1  0.658725  0.829363  0.000000  1
+  Ga  Ga8  1  0.000000  0.000000  0.194276  1
+  Ga  Ga9  1  0.000000  0.000000  0.805724  1
+  Sn  Sn10  1  0.666667  0.333333  0.500000  1

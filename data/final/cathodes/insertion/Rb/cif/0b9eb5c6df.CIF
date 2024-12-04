@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_K15Rb(TiBi4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.74815901
+_cell_length_b   11.74815863
+_cell_length_c   11.70789600
+_cell_angle_alpha   60.11330440
+_cell_angle_beta   60.11330546
+_cell_angle_gamma   60.41654550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K15Rb(TiBi4)2
+_chemical_formula_sum   'K15 Rb1 Ti2 Bi8'
+_cell_volume   1148.14934484
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.624661  0.124960  0.625189  1
+  K  K1  1  0.624740  0.624740  0.125209  1
+  K  K2  1  0.124960  0.624661  0.625189  1
+  K  K3  1  0.624740  0.624740  0.625312  1
+  K  K4  1  0.775773  0.223019  0.222075  1
+  K  K5  1  0.223019  0.775773  0.779133  1
+  K  K6  1  0.777730  0.777730  0.222270  1
+  K  K7  1  0.775773  0.223019  0.779133  1
+  K  K8  1  0.223019  0.775773  0.222075  1
+  K  K9  1  0.473833  0.026422  0.472351  1
+  K  K10  1  0.473833  0.026422  0.027394  1
+  K  K11  1  0.026422  0.473833  0.472351  1
+  K  K12  1  0.026422  0.473833  0.027394  1
+  K  K13  1  0.222224  0.222224  0.777776  1
+  K  K14  1  0.472386  0.472386  0.027614  1
+  Rb  Rb15  1  0.033589  0.033589  0.466411  1
+  Ti  Ti16  1  0.749665  0.749665  0.750335  1
+  Ti  Ti17  1  0.499405  0.499405  0.500595  1
+  Bi  Bi18  1  0.403964  0.795336  0.400351  1
+  Bi  Bi19  1  0.848570  0.848570  0.452595  1
+  Bi  Bi20  1  0.452210  0.849117  0.849336  1
+  Bi  Bi21  1  0.848570  0.848570  0.850263  1
+  Bi  Bi22  1  0.795336  0.403964  0.400351  1
+  Bi  Bi23  1  0.400020  0.400020  0.400830  1
+  Bi  Bi24  1  0.400020  0.400020  0.799130  1
+  Bi  Bi25  1  0.849117  0.452210  0.849336  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsPrSiS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.57652100
+_cell_length_b   6.87487100
+_cell_length_c   18.14986900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsPrSiS4
+_chemical_formula_sum   'Cs4 Pr4 Si4 S16'
+_cell_volume   820.60519023
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.998079  0.007151  0.033137  1
+  Cs  Cs1  1  0.001921  0.507152  0.466863  1
+  Cs  Cs2  1  0.501921  0.992848  0.533137  1
+  Cs  Cs3  1  0.498079  0.492849  0.966862  1
+  Pr  Pr4  1  0.293322  0.481134  0.228414  1
+  Pr  Pr5  1  0.706680  0.981135  0.271586  1
+  Pr  Pr6  1  0.206679  0.518865  0.728414  1
+  Pr  Pr7  1  0.793321  0.018866  0.771586  1
+  Si  Si8  1  0.789121  0.516080  0.166268  1
+  Si  Si9  1  0.210879  0.016079  0.333732  1
+  Si  Si10  1  0.710880  0.483920  0.666268  1
+  Si  Si11  1  0.289120  0.983921  0.833732  1
+  S  S12  1  0.045406  0.512193  0.095944  1
+  S  S13  1  0.573608  0.743050  0.144242  1
+  S  S14  1  0.611708  0.255597  0.153104  1
+  S  S15  1  0.119370  0.066734  0.222399  1
+  S  S16  1  0.880630  0.566735  0.277601  1
+  S  S17  1  0.388292  0.755596  0.346896  1
+  S  S18  1  0.426392  0.243049  0.355759  1
+  S  S19  1  0.954594  0.012192  0.404056  1
+  S  S20  1  0.454595  0.487807  0.595944  1
+  S  S21  1  0.926391  0.256951  0.644242  1
+  S  S22  1  0.888293  0.744404  0.653104  1
+  S  S23  1  0.380629  0.933266  0.722399  1
+  S  S24  1  0.619371  0.433265  0.777601  1
+  S  S25  1  0.111707  0.244404  0.846896  1
+  S  S26  1  0.073609  0.756950  0.855759  1
+  S  S27  1  0.545405  0.987807  0.904056  1

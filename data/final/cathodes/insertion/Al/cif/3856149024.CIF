@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ba3AlBi2As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.27275968
+_cell_length_b   11.27275959
+_cell_length_c   14.10595300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   142.33190930
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3AlBi2As
+_chemical_formula_sum   'Ba12 Al4 Bi8 As4'
+_cell_volume   1095.38167212
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.122407  0.468351  0.873384  1
+  Ba  Ba1  1  0.968351  0.622407  0.626616  1
+  Ba  Ba2  1  0.377593  0.031649  0.373384  1
+  Ba  Ba3  1  0.531649  0.877593  0.126616  1
+  Ba  Ba4  1  0.877593  0.531649  0.126616  1
+  Ba  Ba5  1  0.031649  0.377593  0.373384  1
+  Ba  Ba6  1  0.622407  0.968351  0.626616  1
+  Ba  Ba7  1  0.468351  0.122407  0.873384  1
+  Ba  Ba8  1  0.152488  0.152488  0.652633  1
+  Ba  Ba9  1  0.652488  0.652488  0.847367  1
+  Ba  Ba10  1  0.347512  0.347512  0.152633  1
+  Ba  Ba11  1  0.847512  0.847512  0.347367  1
+  Al  Al12  1  0.573158  0.426842  0.500000  1
+  Al  Al13  1  0.926842  0.073158  0.000000  1
+  Al  Al14  1  0.426842  0.573158  0.500000  1
+  Al  Al15  1  0.073158  0.926842  0.000000  1
+  Bi  Bi16  1  0.639924  0.951398  0.877358  1
+  Bi  Bi17  1  0.451398  0.139924  0.622642  1
+  Bi  Bi18  1  0.860076  0.548602  0.377358  1
+  Bi  Bi19  1  0.048602  0.360076  0.122642  1
+  Bi  Bi20  1  0.360076  0.048602  0.122642  1
+  Bi  Bi21  1  0.548602  0.860076  0.377358  1
+  Bi  Bi22  1  0.139924  0.451398  0.622642  1
+  Bi  Bi23  1  0.951398  0.639924  0.877358  1
+  As  As24  1  0.300691  0.300691  0.404082  1
+  As  As25  1  0.800691  0.800691  0.095918  1
+  As  As26  1  0.199309  0.199309  0.904082  1
+  As  As27  1  0.699309  0.699309  0.595918  1

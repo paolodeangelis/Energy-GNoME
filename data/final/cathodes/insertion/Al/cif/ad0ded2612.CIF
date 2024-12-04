@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_La3AlGaSn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.61990408
+_cell_length_b   6.61990476
+_cell_length_c   10.35551827
+_cell_angle_alpha   90.22791969
+_cell_angle_beta   90.22791671
+_cell_angle_gamma   102.43072988
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3AlGaSn3
+_chemical_formula_sum   'La6 Al2 Ga2 Sn6'
+_cell_volume   443.16362213
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.640181  0.640181  0.246021  1
+  La  La1  1  0.359819  0.359819  0.753979  1
+  La  La2  1  0.203235  0.796765  0.500000  1
+  La  La3  1  0.202876  0.797124  0.000000  1
+  La  La4  1  0.796765  0.203235  0.500000  1
+  La  La5  1  0.797124  0.202876  0.000000  1
+  Al  Al6  1  0.316341  0.316341  0.448977  1
+  Al  Al7  1  0.683659  0.683659  0.551023  1
+  Ga  Ga8  1  0.310637  0.310637  0.047996  1
+  Ga  Ga9  1  0.689363  0.689363  0.952004  1
+  Sn  Sn10  1  0.028706  0.028706  0.250911  1
+  Sn  Sn11  1  0.971294  0.971294  0.749089  1
+  Sn  Sn12  1  0.490131  0.091231  0.250474  1
+  Sn  Sn13  1  0.908769  0.509869  0.749526  1
+  Sn  Sn14  1  0.509869  0.908769  0.749526  1
+  Sn  Sn15  1  0.091231  0.490131  0.250474  1

@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_K2(P2Pd7)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.68237704
+_cell_length_b   8.68245556
+_cell_length_c   8.68244000
+_cell_angle_alpha   59.99682093
+_cell_angle_beta   59.99890345
+_cell_angle_gamma   59.99882653
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2(P2Pd7)3
+_chemical_formula_sum   'K2 P6 Pd21'
+_cell_volume   462.79655576
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.750000  0.749999  0.750000  1
+  K  K1  1  0.250000  0.250001  0.250000  1
+  P  P2  1  0.736937  0.736893  0.263120  1
+  P  P3  1  0.263062  0.736881  0.263107  1
+  P  P4  1  0.736919  0.263069  0.263069  1
+  P  P5  1  0.263063  0.263107  0.736880  1
+  P  P6  1  0.736938  0.263119  0.736893  1
+  P  P7  1  0.263081  0.736931  0.736931  1
+  Pd  Pd8  1  0.000000  0.000000  0.000000  1
+  Pd  Pd9  1  0.612676  0.612673  0.161971  1
+  Pd  Pd10  1  0.612676  0.161971  0.612674  1
+  Pd  Pd11  1  0.161988  0.612667  0.612667  1
+  Pd  Pd12  1  0.612673  0.612667  0.612667  1
+  Pd  Pd13  1  0.387324  0.387327  0.838029  1
+  Pd  Pd14  1  0.387324  0.838029  0.387326  1
+  Pd  Pd15  1  0.838012  0.387333  0.387333  1
+  Pd  Pd16  1  0.387327  0.387333  0.387333  1
+  Pd  Pd17  1  0.000024  0.000038  0.341950  1
+  Pd  Pd18  1  0.657991  0.000030  0.341963  1
+  Pd  Pd19  1  0.000000  0.658005  0.341995  1
+  Pd  Pd20  1  0.657991  0.341963  0.000031  1
+  Pd  Pd21  1  0.000024  0.341952  0.000038  1
+  Pd  Pd22  1  0.000000  0.341995  0.658005  1
+  Pd  Pd23  1  0.342009  0.658037  0.999969  1
+  Pd  Pd24  1  0.342009  0.999970  0.658037  1
+  Pd  Pd25  1  0.341968  0.000008  0.000007  1
+  Pd  Pd26  1  0.999976  0.999962  0.658050  1
+  Pd  Pd27  1  0.999976  0.658048  0.999962  1
+  Pd  Pd28  1  0.658032  0.999992  0.999993  1

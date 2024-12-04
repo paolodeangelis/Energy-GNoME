@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_AlV8SiSe16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21183200
+_cell_length_b   7.21183200
+_cell_length_c   10.19604800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlV8SiSe16
+_chemical_formula_sum   'Al1 V8 Si1 Se16'
+_cell_volume   530.30176654
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.000000  0.000000  0.000000  1
+  V  V1  1  0.000000  0.797028  0.602500  1
+  V  V2  1  0.500000  0.293926  0.103376  1
+  V  V3  1  0.797028  0.000000  0.397500  1
+  V  V4  1  0.293926  0.500000  0.896624  1
+  V  V5  1  0.202972  0.000000  0.397500  1
+  V  V6  1  0.706074  0.500000  0.896624  1
+  V  V7  1  0.000000  0.202972  0.602500  1
+  V  V8  1  0.500000  0.706074  0.103376  1
+  Si  Si9  1  0.500000  0.500000  0.500000  1
+  Se  Se10  1  0.000000  0.264873  0.369614  1
+  Se  Se11  1  0.500000  0.764241  0.868729  1
+  Se  Se12  1  0.264873  0.000000  0.630386  1
+  Se  Se13  1  0.764241  0.500000  0.131271  1
+  Se  Se14  1  0.735127  0.000000  0.630386  1
+  Se  Se15  1  0.235759  0.500000  0.131271  1
+  Se  Se16  1  0.000000  0.735127  0.369614  1
+  Se  Se17  1  0.500000  0.235759  0.868729  1
+  Se  Se18  1  0.000000  0.274253  0.861643  1
+  Se  Se19  1  0.500000  0.767289  0.366474  1
+  Se  Se20  1  0.767289  0.500000  0.633526  1
+  Se  Se21  1  0.274253  0.000000  0.138357  1
+  Se  Se22  1  0.232711  0.500000  0.633526  1
+  Se  Se23  1  0.725747  0.000000  0.138357  1
+  Se  Se24  1  0.000000  0.725747  0.861643  1
+  Se  Se25  1  0.500000  0.232711  0.366474  1

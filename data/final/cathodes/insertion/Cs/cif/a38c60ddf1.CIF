@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_CsLi2(ZnBi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.51474783
+_cell_length_b   10.51474849
+_cell_length_c   10.51474940
+_cell_angle_alpha   25.84263388
+_cell_angle_beta   25.84262458
+_cell_angle_gamma   25.84263222
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsLi2(ZnBi)2
+_chemical_formula_sum   'Cs1 Li2 Zn2 Bi2'
+_cell_volume   194.53507359
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.000000  1
+  Li  Li1  1  0.856434  0.856434  0.856434  1
+  Li  Li2  1  0.143566  0.143566  0.143566  1
+  Zn  Zn3  1  0.543325  0.543325  0.543325  1
+  Zn  Zn4  1  0.456675  0.456675  0.456675  1
+  Bi  Bi5  1  0.758684  0.758684  0.758684  1
+  Bi  Bi6  1  0.241316  0.241316  0.241316  1

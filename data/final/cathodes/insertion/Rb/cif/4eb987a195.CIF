@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_RbCaEr2CuSe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49011735
+_cell_length_b   7.49011779
+_cell_length_c   17.88008400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   147.98605125
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCaEr2CuSe5
+_chemical_formula_sum   'Rb2 Ca2 Er4 Cu2 Se10'
+_cell_volume   531.77227328
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.523191  0.476809  0.250000  1
+  Rb  Rb1  1  0.476809  0.523191  0.750000  1
+  Ca  Ca2  1  0.000000  0.000000  0.000000  1
+  Ca  Ca3  1  0.000000  0.000000  0.500000  1
+  Er  Er4  1  0.729423  0.270577  0.602775  1
+  Er  Er5  1  0.270577  0.729423  0.397225  1
+  Er  Er6  1  0.270577  0.729423  0.102775  1
+  Er  Er7  1  0.729423  0.270577  0.897225  1
+  Cu  Cu8  1  0.796337  0.203663  0.250000  1
+  Cu  Cu9  1  0.203663  0.796337  0.750000  1
+  Se  Se10  1  0.643506  0.356494  0.047285  1
+  Se  Se11  1  0.356494  0.643506  0.952715  1
+  Se  Se12  1  0.356494  0.643506  0.547285  1
+  Se  Se13  1  0.643506  0.356494  0.452715  1
+  Se  Se14  1  0.895451  0.104549  0.137350  1
+  Se  Se15  1  0.104549  0.895451  0.862650  1
+  Se  Se16  1  0.104549  0.895451  0.637350  1
+  Se  Se17  1  0.895451  0.104549  0.362650  1
+  Se  Se18  1  0.202386  0.797614  0.250000  1
+  Se  Se19  1  0.797614  0.202386  0.750000  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ho5Lu5(AlSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.68717800
+_cell_length_b   8.70559078
+_cell_length_c   6.32377600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.66527813
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho5Lu5(AlSb)3
+_chemical_formula_sum   'Ho5 Lu5 Al3 Sb3'
+_cell_volume   415.56507605
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.759244  0.002366  0.750000  1
+  Ho  Ho1  1  0.987578  0.233552  0.250000  1
+  Ho  Ho2  1  0.763166  0.763971  0.250000  1
+  Ho  Ho3  1  0.244023  0.232600  0.750000  1
+  Ho  Ho4  1  0.013280  0.770710  0.750000  1
+  Lu  Lu5  1  0.332703  0.679331  0.002931  1
+  Lu  Lu6  1  0.666337  0.325544  0.497492  1
+  Lu  Lu7  1  0.666337  0.325544  0.002508  1
+  Lu  Lu8  1  0.332703  0.679331  0.497069  1
+  Lu  Lu9  1  0.233738  0.988492  0.250000  1
+  Al  Al10  1  0.597905  0.999075  0.250000  1
+  Al  Al11  1  0.405605  0.003911  0.750000  1
+  Al  Al12  1  0.995293  0.599901  0.250000  1
+  Sb  Sb13  1  0.388476  0.391446  0.250000  1
+  Sb  Sb14  1  0.608409  0.605989  0.750000  1
+  Sb  Sb15  1  0.005204  0.398234  0.750000  1

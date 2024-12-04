@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Cs3NaCaBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.64428876
+_cell_length_b   9.64428955
+_cell_length_c   9.64428912
+_cell_angle_alpha   93.58220168
+_cell_angle_beta   93.58219116
+_cell_angle_gamma   93.58220378
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3NaCaBr6
+_chemical_formula_sum   'Cs6 Na2 Ca2 Br12'
+_cell_volume   891.54926300
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.750000  0.370281  0.129719  1
+  Cs  Cs1  1  0.129719  0.750000  0.370281  1
+  Cs  Cs2  1  0.370281  0.129719  0.750000  1
+  Cs  Cs3  1  0.250000  0.629719  0.870281  1
+  Cs  Cs4  1  0.870281  0.250000  0.629719  1
+  Cs  Cs5  1  0.629719  0.870281  0.250000  1
+  Na  Na6  1  0.750000  0.750000  0.750000  1
+  Na  Na7  1  0.250000  0.250000  0.250000  1
+  Ca  Ca8  1  0.500000  0.500000  0.500000  1
+  Ca  Ca9  1  0.000000  0.000000  0.000000  1
+  Br  Br10  1  0.209427  0.414264  0.534630  1
+  Br  Br11  1  0.534630  0.209427  0.414264  1
+  Br  Br12  1  0.414264  0.534630  0.209427  1
+  Br  Br13  1  0.290573  0.965370  0.085736  1
+  Br  Br14  1  0.085736  0.290573  0.965370  1
+  Br  Br15  1  0.965370  0.085736  0.290573  1
+  Br  Br16  1  0.790573  0.585736  0.465370  1
+  Br  Br17  1  0.465370  0.790573  0.585736  1
+  Br  Br18  1  0.585736  0.465370  0.790573  1
+  Br  Br19  1  0.709427  0.034630  0.914264  1
+  Br  Br20  1  0.034630  0.914264  0.709427  1
+  Br  Br21  1  0.914264  0.709427  0.034630  1

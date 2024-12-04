@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_K(TiAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.92085519
+_cell_length_b   3.48084963
+_cell_length_c   8.95991619
+_cell_angle_alpha   78.87757760
+_cell_angle_beta   74.30247756
+_cell_angle_gamma   44.99199602
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K(TiAs)2
+_chemical_formula_sum   'K1 Ti2 As2'
+_cell_volume   104.45891188
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.777117  0.782956  0.463515  1
+  Ti  Ti1  1  0.981614  0.785704  0.058782  1
+  Ti  Ti2  1  0.573017  0.790599  0.866630  1
+  As  As3  1  0.128410  0.792316  0.752046  1
+  As  As4  1  0.425339  0.784666  0.173397  1

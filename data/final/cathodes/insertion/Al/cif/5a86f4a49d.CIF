@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Sr21Mg(Al4Pb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.32499408
+_cell_length_b   12.32499435
+_cell_length_c   12.32499400
+_cell_angle_alpha   60.00000095
+_cell_angle_beta   60.00000022
+_cell_angle_gamma   60.00000242
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr21Mg(Al4Pb3)2
+_chemical_formula_sum   'Sr21 Mg1 Al8 Pb6'
+_cell_volume   1323.86950635
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.869724  0.869724  0.390826  1
+  Sr  Sr1  1  0.609174  0.130276  0.130276  1
+  Sr  Sr2  1  0.869724  0.390826  0.869724  1
+  Sr  Sr3  1  0.130276  0.130276  0.130276  1
+  Sr  Sr4  1  0.390826  0.869724  0.869724  1
+  Sr  Sr5  1  0.869724  0.869724  0.869724  1
+  Sr  Sr6  1  0.172498  0.827502  0.500000  1
+  Sr  Sr7  1  0.827502  0.500000  0.500000  1
+  Sr  Sr8  1  0.130276  0.130276  0.609174  1
+  Sr  Sr9  1  0.827502  0.172498  0.500000  1
+  Sr  Sr10  1  0.172498  0.500000  0.500000  1
+  Sr  Sr11  1  0.130276  0.609174  0.130276  1
+  Sr  Sr12  1  0.500000  0.500000  0.172498  1
+  Sr  Sr13  1  0.500000  0.172498  0.827502  1
+  Sr  Sr14  1  0.500000  0.827502  0.172498  1
+  Sr  Sr15  1  0.500000  0.500000  0.827502  1
+  Sr  Sr16  1  0.500000  0.172498  0.500000  1
+  Sr  Sr17  1  0.172498  0.500000  0.827502  1
+  Sr  Sr18  1  0.000000  0.000000  0.000000  1
+  Sr  Sr19  1  0.500000  0.827502  0.500000  1
+  Sr  Sr20  1  0.827502  0.500000  0.172498  1
+  Mg  Mg21  1  0.500000  0.500000  0.500000  1
+  Al  Al22  1  0.694524  0.916428  0.694524  1
+  Al  Al23  1  0.694524  0.694524  0.916428  1
+  Al  Al24  1  0.694524  0.694524  0.694524  1
+  Al  Al25  1  0.305476  0.083572  0.305476  1
+  Al  Al26  1  0.916428  0.694524  0.694524  1
+  Al  Al27  1  0.305476  0.305476  0.083572  1
+  Al  Al28  1  0.083572  0.305476  0.305476  1
+  Al  Al29  1  0.305476  0.305476  0.305476  1
+  Pb  Pb30  1  0.784463  0.215537  0.784463  1
+  Pb  Pb31  1  0.784463  0.215537  0.215537  1
+  Pb  Pb32  1  0.215537  0.784463  0.215537  1
+  Pb  Pb33  1  0.215537  0.784463  0.784463  1
+  Pb  Pb34  1  0.784463  0.784463  0.215537  1
+  Pb  Pb35  1  0.215537  0.215537  0.784463  1

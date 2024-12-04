@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Al3Cr2CuS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.05334996
+_cell_length_b   7.05334994
+_cell_length_c   7.04832300
+_cell_angle_alpha   60.02357791
+_cell_angle_beta   60.02357799
+_cell_angle_gamma   60.01866494
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3Cr2CuS8
+_chemical_formula_sum   'Al3 Cr2 Cu1 S8'
+_cell_volume   248.07192340
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.869496  0.869496  0.392377  1
+  Al  Al1  1  0.869496  0.869496  0.868630  1
+  Al  Al2  1  0.250051  0.250051  0.249949  1
+  Cr  Cr3  1  0.871381  0.387682  0.870468  1
+  Cr  Cr4  1  0.387682  0.871381  0.870468  1
+  Cu  Cu5  1  0.500535  0.500535  0.499465  1
+  S  S6  1  0.632566  0.632566  0.633951  1
+  S  S7  1  0.632566  0.632566  0.100917  1
+  S  S8  1  0.102904  0.631625  0.632735  1
+  S  S9  1  0.631625  0.102904  0.632735  1
+  S  S10  1  0.117168  0.650474  0.116179  1
+  S  S11  1  0.650474  0.117168  0.116179  1
+  S  S12  1  0.117027  0.117027  0.649269  1
+  S  S13  1  0.117027  0.117027  0.116677  1

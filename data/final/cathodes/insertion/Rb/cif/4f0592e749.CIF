@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_RbLaGeS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.88690900
+_cell_length_b   6.73296954
+_cell_length_c   18.40313178
+_cell_angle_alpha   72.05790260
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbLaGeS4
+_chemical_formula_sum   'Rb4 La4 Ge4 S16'
+_cell_volume   811.84181345
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.753366  0.282617  0.465335  1
+  Rb  Rb1  1  0.253366  0.717383  0.034665  1
+  Rb  Rb2  1  0.246634  0.717383  0.534665  1
+  Rb  Rb3  1  0.746634  0.282617  0.965335  1
+  La  La4  1  0.769869  0.230064  0.224752  1
+  La  La5  1  0.730131  0.230064  0.724752  1
+  La  La6  1  0.269869  0.769936  0.275248  1
+  La  La7  1  0.230131  0.769936  0.775248  1
+  Ge  Ge8  1  0.238753  0.215255  0.338922  1
+  Ge  Ge9  1  0.738753  0.784745  0.161078  1
+  Ge  Ge10  1  0.761247  0.784745  0.661078  1
+  Ge  Ge11  1  0.261247  0.215255  0.838922  1
+  S  S12  1  0.498638  0.977098  0.861588  1
+  S  S13  1  0.747713  0.586828  0.085300  1
+  S  S14  1  0.995075  0.017142  0.850760  1
+  S  S15  1  0.504925  0.017142  0.350760  1
+  S  S16  1  0.004925  0.982858  0.149240  1
+  S  S17  1  0.318511  0.415678  0.718964  1
+  S  S18  1  0.252287  0.413172  0.914700  1
+  S  S19  1  0.001362  0.977098  0.361588  1
+  S  S20  1  0.247713  0.413172  0.414700  1
+  S  S21  1  0.998638  0.022902  0.638412  1
+  S  S22  1  0.752287  0.586828  0.585300  1
+  S  S23  1  0.681489  0.584322  0.281036  1
+  S  S24  1  0.495075  0.982858  0.649240  1
+  S  S25  1  0.818511  0.584322  0.781036  1
+  S  S26  1  0.181489  0.415678  0.218964  1
+  S  S27  1  0.501362  0.022902  0.138412  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_RbCeSiS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   17.41975700
+_cell_length_b   6.67187300
+_cell_length_c   6.53813600
+_cell_angle_alpha   90.00140525
+_cell_angle_beta   90.00063123
+_cell_angle_gamma   90.00015622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCeSiS4
+_chemical_formula_sum   'Rb4 Ce4 Si4 S16'
+_cell_volume   759.87789912
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.283829  0.749998  0.022755  1
+  Rb  Rb1  1  0.783832  0.749996  0.477270  1
+  Rb  Rb2  1  0.216167  0.249999  0.522723  1
+  Rb  Rb3  1  0.716162  0.249998  0.977279  1
+  Ce  Ce4  1  0.024499  0.750052  0.211942  1
+  Ce  Ce5  1  0.524514  0.749992  0.287992  1
+  Ce  Ce6  1  0.475496  0.250013  0.711995  1
+  Ce  Ce7  1  0.975507  0.249981  0.788036  1
+  Si  Si8  1  0.410404  0.249995  0.214249  1
+  Si  Si9  1  0.910403  0.250004  0.285768  1
+  Si  Si10  1  0.089595  0.749996  0.714230  1
+  Si  Si11  1  0.589594  0.750002  0.785753  1
+  S  S12  1  0.662091  0.749999  0.044960  1
+  S  S13  1  0.892023  0.500942  0.089150  1
+  S  S14  1  0.892016  0.999059  0.089145  1
+  S  S15  1  0.529038  0.250001  0.129202  1
+  S  S16  1  0.029038  0.249984  0.370803  1
+  S  S17  1  0.392025  0.500946  0.410855  1
+  S  S18  1  0.392026  0.999049  0.410852  1
+  S  S19  1  0.162085  0.750000  0.455023  1
+  S  S20  1  0.837910  0.250000  0.544970  1
+  S  S21  1  0.607977  0.000941  0.589144  1
+  S  S22  1  0.607977  0.499060  0.589138  1
+  S  S23  1  0.970963  0.750007  0.629182  1
+  S  S24  1  0.470962  0.749995  0.870813  1
+  S  S25  1  0.107984  0.000935  0.910862  1
+  S  S26  1  0.107979  0.499072  0.910865  1
+  S  S27  1  0.337906  0.249997  0.955047  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_YbMgSiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.85424500
+_cell_length_b   6.39353000
+_cell_length_c   11.04502400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbMgSiO4
+_chemical_formula_sum   'Yb4 Mg4 Si4 O16'
+_cell_volume   342.79072549
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.021323  0.750000  0.276159  1
+  Yb  Yb1  1  0.978677  0.250000  0.723841  1
+  Yb  Yb2  1  0.478677  0.750000  0.776159  1
+  Yb  Yb3  1  0.521323  0.250000  0.223841  1
+  Mg  Mg4  1  0.000000  0.000000  0.000000  1
+  Mg  Mg5  1  0.000000  0.500000  0.000000  1
+  Mg  Mg6  1  0.500000  0.000000  0.500000  1
+  Mg  Mg7  1  0.500000  0.500000  0.500000  1
+  Si  Si8  1  0.088159  0.250000  0.417886  1
+  Si  Si9  1  0.411841  0.250000  0.917886  1
+  Si  Si10  1  0.911841  0.750000  0.582114  1
+  Si  Si11  1  0.588159  0.750000  0.082114  1
+  O  O12  1  0.227560  0.455788  0.350479  1
+  O  O13  1  0.727560  0.544212  0.149521  1
+  O  O14  1  0.772440  0.955788  0.649521  1
+  O  O15  1  0.272440  0.044212  0.850479  1
+  O  O16  1  0.772440  0.544212  0.649521  1
+  O  O17  1  0.272440  0.455788  0.850479  1
+  O  O18  1  0.227560  0.044212  0.350479  1
+  O  O19  1  0.727560  0.955788  0.149521  1
+  O  O20  1  0.745348  0.750000  0.947195  1
+  O  O21  1  0.245348  0.250000  0.552805  1
+  O  O22  1  0.254652  0.250000  0.052805  1
+  O  O23  1  0.754652  0.750000  0.447195  1
+  O  O24  1  0.251696  0.750000  0.078957  1
+  O  O25  1  0.751696  0.250000  0.421043  1
+  O  O26  1  0.748304  0.250000  0.921043  1
+  O  O27  1  0.248304  0.750000  0.578957  1

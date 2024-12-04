@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Dy11Y5(AlCo)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.43408451
+_cell_length_b   9.43274934
+_cell_length_c   9.43274908
+_cell_angle_alpha   59.98590821
+_cell_angle_beta   59.99531882
+_cell_angle_gamma   59.99531937
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy11Y5(AlCo)4
+_chemical_formula_sum   'Dy11 Y5 Al4 Co4'
+_cell_volume   593.45028568
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.349075  0.349374  0.349374  1
+  Dy  Dy1  1  0.349268  0.349292  0.952174  1
+  Dy  Dy2  1  0.349268  0.952174  0.349292  1
+  Dy  Dy3  1  0.952178  0.349374  0.349374  1
+  Dy  Dy4  1  0.807959  0.192041  0.192041  1
+  Dy  Dy5  1  0.191974  0.808026  0.808026  1
+  Dy  Dy6  1  0.191859  0.807910  0.192133  1
+  Dy  Dy7  1  0.808097  0.192133  0.807910  1
+  Dy  Dy8  1  0.191859  0.192133  0.807910  1
+  Dy  Dy9  1  0.808097  0.807910  0.192133  1
+  Dy  Dy10  1  0.938399  0.561601  0.561601  1
+  Y  Y11  1  0.561612  0.938388  0.938388  1
+  Y  Y12  1  0.561859  0.938224  0.561633  1
+  Y  Y13  1  0.938284  0.561633  0.938224  1
+  Y  Y14  1  0.561859  0.561633  0.938224  1
+  Y  Y15  1  0.938284  0.938224  0.561633  1
+  Al  Al16  1  0.577198  0.577215  0.577215  1
+  Al  Al17  1  0.577239  0.577212  0.268310  1
+  Al  Al18  1  0.577239  0.268310  0.577212  1
+  Al  Al19  1  0.268372  0.577215  0.577215  1
+  Co  Co20  1  0.140666  0.140613  0.140613  1
+  Co  Co21  1  0.140623  0.140731  0.578023  1
+  Co  Co22  1  0.140623  0.578023  0.140731  1
+  Co  Co23  1  0.578109  0.140613  0.140613  1

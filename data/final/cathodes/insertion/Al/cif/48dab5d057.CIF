@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_DyHo4AlSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.86440906
+_cell_length_b   8.86625323
+_cell_length_c   6.38867700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.03543446
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyHo4AlSb2
+_chemical_formula_sum   'Dy2 Ho8 Al2 Sb4'
+_cell_volume   434.68665042
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.756102  0.757165  0.250000  1
+  Dy  Dy1  1  0.008380  0.242815  0.250000  1
+  Ho  Ho2  1  0.335729  0.667897  0.999950  1
+  Ho  Ho3  1  0.655860  0.327914  0.500053  1
+  Ho  Ho4  1  0.655860  0.327914  0.999947  1
+  Ho  Ho5  1  0.335729  0.667897  0.500050  1
+  Ho  Ho6  1  0.755894  0.998862  0.750000  1
+  Ho  Ho7  1  0.008420  0.765615  0.750000  1
+  Ho  Ho8  1  0.241415  0.232138  0.750000  1
+  Ho  Ho9  1  0.241544  0.009188  0.250000  1
+  Al  Al10  1  0.398062  0.996991  0.750000  1
+  Al  Al11  1  0.398157  0.400997  0.250000  1
+  Sb  Sb12  1  0.998777  0.606539  0.250000  1
+  Sb  Sb13  1  0.998526  0.392058  0.750000  1
+  Sb  Sb14  1  0.606017  0.605156  0.750000  1
+  Sb  Sb15  1  0.605529  0.000852  0.250000  1

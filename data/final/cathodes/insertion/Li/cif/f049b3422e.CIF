@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Li(Ti3S4)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.81933934
+_cell_length_b   9.46245285
+_cell_length_c   10.05725011
+_cell_angle_alpha   118.08612604
+_cell_angle_beta   109.76548028
+_cell_angle_gamma   90.02372432
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li(Ti3S4)4
+_chemical_formula_sum   'Li1 Ti12 S16'
+_cell_volume   528.76495875
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.557619  0.354854  0.866725  1
+  Ti  Ti2  1  0.059697  0.356634  0.867540  1
+  Ti  Ti3  1  0.369353  0.132604  0.487656  1
+  Ti  Ti4  1  0.867854  0.133382  0.488762  1
+  Ti  Ti5  1  0.446261  0.511190  0.644885  1
+  Ti  Ti6  1  0.948433  0.512161  0.645054  1
+  Ti  Ti7  1  0.940303  0.643366  0.132460  1
+  Ti  Ti8  1  0.442381  0.645146  0.133275  1
+  Ti  Ti9  1  0.132146  0.866618  0.511238  1
+  Ti  Ti10  1  0.630647  0.867396  0.512344  1
+  Ti  Ti11  1  0.051567  0.487839  0.354946  1
+  Ti  Ti12  1  0.553739  0.488810  0.355115  1
+  S  S13  1  0.973152  0.049601  0.695685  1
+  S  S14  1  0.471468  0.050185  0.693950  1
+  S  S15  1  0.803103  0.305796  0.356169  1
+  S  S16  1  0.302758  0.304475  0.353747  1
+  S  S17  1  0.100917  0.647131  0.950954  1
+  S  S18  1  0.600034  0.643720  0.949505  1
+  S  S19  1  0.528532  0.949815  0.306050  1
+  S  S20  1  0.026848  0.950399  0.304315  1
+  S  S21  1  0.697242  0.695525  0.646253  1
+  S  S22  1  0.196897  0.694204  0.643831  1
+  S  S23  1  0.399966  0.356280  0.050495  1
+  S  S24  1  0.899083  0.352869  0.049046  1
+  S  S25  1  0.792049  0.667032  0.333538  1
+  S  S26  1  0.291543  0.666254  0.333053  1
+  S  S27  1  0.708457  0.333746  0.666947  1
+  S  S28  1  0.207951  0.332968  0.666462  1

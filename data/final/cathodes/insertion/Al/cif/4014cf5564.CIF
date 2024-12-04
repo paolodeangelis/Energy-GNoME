@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce3Y2Al2Os3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.46712510
+_cell_length_b   8.46712603
+_cell_length_c   8.46712600
+_cell_angle_alpha   110.20521769
+_cell_angle_beta   110.20522202
+_cell_angle_gamma   110.20522824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce3Y2Al2Os3
+_chemical_formula_sum   'Ce6 Y4 Al4 Os6'
+_cell_volume   454.14733900
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.714361  0.511140  0.999896  1
+  Ce  Ce1  1  0.999896  0.714361  0.511140  1
+  Ce  Ce2  1  0.511140  0.999896  0.714361  1
+  Ce  Ce3  1  0.247401  0.187345  0.937903  1
+  Ce  Ce4  1  0.937903  0.247401  0.187345  1
+  Ce  Ce5  1  0.187345  0.937903  0.247401  1
+  Y  Y6  1  0.770031  0.770031  0.770031  1
+  Y  Y7  1  0.315687  0.567653  0.751680  1
+  Y  Y8  1  0.751680  0.315687  0.567653  1
+  Y  Y9  1  0.567653  0.751680  0.315687  1
+  Al  Al10  1  0.398311  0.398311  0.398311  1
+  Al  Al11  1  0.098004  0.499671  0.002990  1
+  Al  Al12  1  0.002990  0.098004  0.499671  1
+  Al  Al13  1  0.499671  0.002990  0.098004  1
+  Os  Os14  1  0.889569  0.119439  0.749620  1
+  Os  Os15  1  0.749620  0.889569  0.119439  1
+  Os  Os16  1  0.119439  0.749620  0.889569  1
+  Os  Os17  1  0.240847  0.618180  0.380269  1
+  Os  Os18  1  0.380269  0.240847  0.618180  1
+  Os  Os19  1  0.618180  0.380269  0.240847  1

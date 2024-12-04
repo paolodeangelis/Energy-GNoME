@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ca(IrCl4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.21470715
+_cell_length_b   11.66175382
+_cell_length_c   6.20478598
+_cell_angle_alpha   79.93289801
+_cell_angle_beta   70.05680024
+_cell_angle_gamma   32.14455670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca(IrCl4)3
+_chemical_formula_sum   'Ca1 Ir3 Cl12'
+_cell_volume   430.41669888
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.416449  0.416449  0.583551  1
+  Ir  Ir1  1  0.828193  0.828193  0.671807  1
+  Ir  Ir2  1  0.667548  0.667548  0.832452  1
+  Ir  Ir3  1  0.588650  0.588650  0.411350  1
+  Cl  Cl4  1  0.734589  0.294013  0.255685  1
+  Cl  Cl5  1  0.868754  0.457544  0.086664  1
+  Cl  Cl6  1  0.387572  0.796614  0.156084  1
+  Cl  Cl7  1  0.457544  0.868754  0.587038  1
+  Cl  Cl8  1  0.116979  0.690153  0.363641  1
+  Cl  Cl9  1  0.294013  0.734589  0.715714  1
+  Cl  Cl10  1  0.542785  0.952686  0.968207  1
+  Cl  Cl11  1  0.952686  0.542785  0.536321  1
+  Cl  Cl12  1  0.047151  0.610322  0.903008  1
+  Cl  Cl13  1  0.796614  0.387572  0.659731  1
+  Cl  Cl14  1  0.690153  0.116979  0.829228  1
+  Cl  Cl15  1  0.610322  0.047151  0.439518  1

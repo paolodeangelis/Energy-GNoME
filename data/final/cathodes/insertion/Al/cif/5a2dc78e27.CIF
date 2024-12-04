@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_HoAl4(CuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22765222
+_cell_length_b   6.22769811
+_cell_length_c   6.22768608
+_cell_angle_alpha   70.52054461
+_cell_angle_beta   70.51893627
+_cell_angle_gamma   109.45181379
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoAl4(CuO4)3
+_chemical_formula_sum   'Ho1 Al4 Cu3 O12'
+_cell_volume   185.93614463
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.000013  0.999992  0.999993  1
+  Al  Al1  1  0.500000  0.999999  0.000001  1
+  Al  Al2  1  0.999999  0.999998  0.500001  1
+  Al  Al3  1  0.000001  0.500000  0.000001  1
+  Al  Al4  1  0.500001  0.500001  0.500000  1
+  Cu  Cu5  1  0.500000  0.000003  0.500017  1
+  Cu  Cu6  1  0.499996  0.500014  0.999976  1
+  Cu  Cu7  1  0.999987  0.500000  0.500002  1
+  O  O8  1  0.696796  0.522955  0.173839  1
+  O  O9  1  0.303207  0.477044  0.826165  1
+  O  O10  1  0.696795  0.870631  0.826162  1
+  O  O11  1  0.303206  0.129368  0.173841  1
+  O  O12  1  0.826125  0.303104  0.870769  1
+  O  O13  1  0.173875  0.696894  0.129231  1
+  O  O14  1  0.173877  0.303107  0.523019  1
+  O  O15  1  0.826125  0.696890  0.476981  1
+  O  O16  1  0.477034  0.173854  0.696819  1
+  O  O17  1  0.522964  0.826143  0.303180  1
+  O  O18  1  0.129324  0.826145  0.696823  1
+  O  O19  1  0.870677  0.173856  0.303178  1

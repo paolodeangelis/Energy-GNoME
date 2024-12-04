@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Y3AlSiIrRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58773400
+_cell_length_b   7.91843700
+_cell_length_c   13.30185500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3AlSiIrRh
+_chemical_formula_sum   'Y12 Al4 Si4 Ir4 Rh4'
+_cell_volume   588.55546792
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.144275  0.601472  0.104007  1
+  Y  Y1  1  0.144275  0.898528  0.895993  1
+  Y  Y2  1  0.855725  0.101472  0.395993  1
+  Y  Y3  1  0.855725  0.398528  0.604007  1
+  Y  Y4  1  0.856383  0.395684  0.896908  1
+  Y  Y5  1  0.856383  0.104316  0.103092  1
+  Y  Y6  1  0.143617  0.895684  0.603092  1
+  Y  Y7  1  0.143617  0.604316  0.396908  1
+  Y  Y8  1  0.368621  0.244098  0.249785  1
+  Y  Y9  1  0.368621  0.255902  0.750215  1
+  Y  Y10  1  0.631379  0.744098  0.250215  1
+  Y  Y11  1  0.631379  0.755902  0.749785  1
+  Al  Al12  1  0.383312  0.250000  0.000000  1
+  Al  Al13  1  0.616688  0.750000  0.500000  1
+  Al  Al14  1  0.620131  0.750000  0.000000  1
+  Al  Al15  1  0.379869  0.250000  0.500000  1
+  Si  Si16  1  0.863352  0.390977  0.250572  1
+  Si  Si17  1  0.863352  0.109023  0.749428  1
+  Si  Si18  1  0.136648  0.890977  0.249428  1
+  Si  Si19  1  0.136648  0.609023  0.750572  1
+  Ir  Ir20  1  0.646269  0.471479  0.094041  1
+  Ir  Ir21  1  0.646269  0.028521  0.905959  1
+  Ir  Ir22  1  0.353731  0.971479  0.405959  1
+  Ir  Ir23  1  0.353731  0.528521  0.594041  1
+  Rh  Rh24  1  0.354901  0.530206  0.906102  1
+  Rh  Rh25  1  0.354901  0.969794  0.093898  1
+  Rh  Rh26  1  0.645099  0.030206  0.593898  1
+  Rh  Rh27  1  0.645099  0.469794  0.406102  1

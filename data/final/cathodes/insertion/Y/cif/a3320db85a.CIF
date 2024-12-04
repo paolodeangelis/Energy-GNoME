@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Y2Mn2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82621900
+_cell_length_b   3.82621851
+_cell_length_c   17.13136800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001288
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2Mn2Br
+_chemical_formula_sum   'Y4 Mn4 Br2'
+_cell_volume   217.20119580
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.000000  0.000000  0.115251  1
+  Y  Y1  1  0.000000  0.000000  0.884749  1
+  Y  Y2  1  0.000000  0.000000  0.615251  1
+  Y  Y3  1  0.000000  0.000000  0.384749  1
+  Mn  Mn4  1  0.333333  0.666667  0.510556  1
+  Mn  Mn5  1  0.666667  0.333333  0.489444  1
+  Mn  Mn6  1  0.666667  0.333333  0.010556  1
+  Mn  Mn7  1  0.333333  0.666667  0.989444  1
+  Br  Br8  1  0.333333  0.666667  0.250000  1
+  Br  Br9  1  0.666667  0.333333  0.750000  1

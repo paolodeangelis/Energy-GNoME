@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2YU(CuSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.19687237
+_cell_length_b   7.19687190
+_cell_length_c   10.60285799
+_cell_angle_alpha   90.05647803
+_cell_angle_beta   89.94352237
+_cell_angle_gamma   147.43155702
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2YU(CuSe3)2
+_chemical_formula_sum   'Na2 Y1 U1 Cu2 Se6'
+_cell_volume   295.62426394
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.251947  0.748053  0.707717  1
+  Na  Na1  1  0.748053  0.251947  0.292283  1
+  Y  Y2  1  0.000000  0.000000  0.500000  1
+  U  U3  1  0.000000  0.000000  0.000000  1
+  Cu  Cu4  1  0.529264  0.470736  0.752204  1
+  Cu  Cu5  1  0.470736  0.529264  0.247796  1
+  Se  Se6  1  0.077579  0.922421  0.240959  1
+  Se  Se7  1  0.632234  0.367766  0.936232  1
+  Se  Se8  1  0.922421  0.077579  0.759041  1
+  Se  Se9  1  0.635598  0.364402  0.568967  1
+  Se  Se10  1  0.367766  0.632234  0.063768  1
+  Se  Se11  1  0.364402  0.635598  0.431033  1

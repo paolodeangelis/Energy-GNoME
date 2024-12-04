@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaPtRhO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11223701
+_cell_length_b   8.92986200
+_cell_length_c   6.33620400
+_cell_angle_alpha   90.00005775
+_cell_angle_beta   89.99651289
+_cell_angle_gamma   89.99923648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaPtRhO4
+_chemical_formula_sum   'Na4 Pt4 Rh4 O16'
+_cell_volume   345.83909360
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.249954  0.118702  0.000066  1
+  Na  Na1  1  0.749985  0.618707  0.499993  1
+  Na  Na2  1  0.749961  0.881315  0.000037  1
+  Na  Na3  1  0.250000  0.381289  0.500003  1
+  Pt  Pt4  1  0.749979  0.250004  0.250024  1
+  Pt  Pt5  1  0.249981  0.750004  0.750021  1
+  Pt  Pt6  1  0.750009  0.249983  0.749982  1
+  Pt  Pt7  1  0.250008  0.749981  0.250000  1
+  Rh  Rh8  1  0.000131  0.000044  0.499880  1
+  Rh  Rh9  1  0.500056  0.999935  0.499918  1
+  Rh  Rh10  1  0.499959  0.499971  0.999967  1
+  Rh  Rh11  1  0.999877  0.500077  0.000073  1
+  O  O12  1  0.536913  0.269882  0.000018  1
+  O  O13  1  0.036952  0.769909  0.500008  1
+  O  O14  1  0.963022  0.269899  0.000017  1
+  O  O15  1  0.463063  0.769856  0.500004  1
+  O  O16  1  0.036913  0.730115  0.000044  1
+  O  O17  1  0.536961  0.230066  0.500024  1
+  O  O18  1  0.463027  0.730094  0.999997  1
+  O  O19  1  0.963060  0.230122  0.499983  1
+  O  O20  1  0.749890  0.478189  0.214796  1
+  O  O21  1  0.250094  0.978188  0.714770  1
+  O  O22  1  0.749950  0.478193  0.785224  1
+  O  O23  1  0.250159  0.978180  0.285181  1
+  O  O24  1  0.249920  0.521828  0.785216  1
+  O  O25  1  0.750119  0.021821  0.285188  1
+  O  O26  1  0.249929  0.521825  0.214814  1
+  O  O27  1  0.750131  0.021820  0.714753  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Er3ThAlCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.40369409
+_cell_length_b   9.40369411
+_cell_length_c   9.40369500
+_cell_angle_alpha   60.00000038
+_cell_angle_beta   60.00000032
+_cell_angle_gamma   59.99999824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er3ThAlCo
+_chemical_formula_sum   'Er12 Th4 Al4 Co4'
+_cell_volume   588.00432404
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.059272  0.440728  0.440728  1
+  Er  Er1  1  0.440728  0.059272  0.059272  1
+  Er  Er2  1  0.440728  0.059272  0.440728  1
+  Er  Er3  1  0.059272  0.440728  0.059272  1
+  Er  Er4  1  0.440728  0.440728  0.059272  1
+  Er  Er5  1  0.059272  0.059272  0.440728  1
+  Er  Er6  1  0.185627  0.814373  0.814373  1
+  Er  Er7  1  0.814373  0.185627  0.185627  1
+  Er  Er8  1  0.814373  0.185627  0.814373  1
+  Er  Er9  1  0.185627  0.814373  0.185627  1
+  Er  Er10  1  0.814373  0.814373  0.185627  1
+  Er  Er11  1  0.185627  0.185627  0.814373  1
+  Th  Th12  1  0.597597  0.597597  0.597597  1
+  Th  Th13  1  0.597597  0.597597  0.207209  1
+  Th  Th14  1  0.597597  0.207209  0.597597  1
+  Th  Th15  1  0.207209  0.597597  0.597597  1
+  Al  Al16  1  0.828555  0.828555  0.828555  1
+  Al  Al17  1  0.828555  0.828555  0.514335  1
+  Al  Al18  1  0.828555  0.514335  0.828555  1
+  Al  Al19  1  0.514335  0.828555  0.828555  1
+  Co  Co20  1  0.393532  0.393532  0.393532  1
+  Co  Co21  1  0.393532  0.393532  0.819405  1
+  Co  Co22  1  0.393532  0.819405  0.393532  1
+  Co  Co23  1  0.819405  0.393532  0.393532  1

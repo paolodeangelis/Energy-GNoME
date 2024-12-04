@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Mg3CoP6N13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.05455982
+_cell_length_b   7.05456073
+_cell_length_c   7.05456016
+_cell_angle_alpha   109.63824280
+_cell_angle_beta   109.63825320
+_cell_angle_gamma   109.63823807
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg3CoP6N13
+_chemical_formula_sum   'Mg3 Co1 P6 N13'
+_cell_volume   268.57955989
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.004829  0.708637  0.004829  1
+  Mg  Mg1  1  0.708637  0.004829  0.004829  1
+  Mg  Mg2  1  0.004829  0.004829  0.708637  1
+  Co  Co3  1  0.292442  0.292442  0.292442  1
+  P  P4  1  0.497015  0.248203  0.747297  1
+  P  P5  1  0.497015  0.747297  0.248203  1
+  P  P6  1  0.747297  0.248203  0.497015  1
+  P  P7  1  0.248203  0.497015  0.747297  1
+  P  P8  1  0.747297  0.497015  0.248203  1
+  P  P9  1  0.248203  0.747297  0.497015  1
+  N  N10  1  0.027145  0.027145  0.027145  1
+  N  N11  1  0.999064  0.731255  0.455325  1
+  N  N12  1  0.264451  0.717822  0.264451  1
+  N  N13  1  0.278357  0.540360  0.540360  1
+  N  N14  1  0.540360  0.540360  0.278357  1
+  N  N15  1  0.540360  0.278357  0.540360  1
+  N  N16  1  0.731255  0.999064  0.455325  1
+  N  N17  1  0.455325  0.999064  0.731255  1
+  N  N18  1  0.731255  0.455325  0.999064  1
+  N  N19  1  0.264451  0.264451  0.717822  1
+  N  N20  1  0.717822  0.264451  0.264451  1
+  N  N21  1  0.999064  0.455325  0.731255  1
+  N  N22  1  0.455325  0.731255  0.999064  1

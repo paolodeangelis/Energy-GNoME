@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pr2AlGaTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34437200
+_cell_length_b   4.34437292
+_cell_length_c   16.99618700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000823
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2AlGaTe
+_chemical_formula_sum   'Pr4 Al2 Ga2 Te2'
+_cell_volume   277.80253234
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.000000  0.000000  0.627439  1
+  Pr  Pr1  1  0.000000  0.000000  0.374197  1
+  Pr  Pr2  1  0.000000  0.000000  0.127439  1
+  Pr  Pr3  1  0.000000  0.000000  0.874197  1
+  Al  Al4  1  0.666667  0.333333  0.510679  1
+  Al  Al5  1  0.333333  0.666667  0.010679  1
+  Ga  Ga6  1  0.666667  0.333333  0.987348  1
+  Ga  Ga7  1  0.333333  0.666667  0.487348  1
+  Te  Te8  1  0.666667  0.333333  0.250338  1
+  Te  Te9  1  0.333333  0.666667  0.750338  1

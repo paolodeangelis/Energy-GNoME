@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CaNd(CuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.31832477
+_cell_length_b   6.31832392
+_cell_length_c   6.31832387
+_cell_angle_alpha   125.31040012
+_cell_angle_beta   125.31039068
+_cell_angle_gamma   81.02454379
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaNd(CuO2)4
+_chemical_formula_sum   'Ca1 Nd1 Cu4 O8'
+_cell_volume   161.84838058
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Nd  Nd1  1  0.750000  0.250000  0.500000  1
+  Cu  Cu2  1  0.875994  0.626038  0.252389  1
+  Cu  Cu3  1  0.373649  0.623605  0.747611  1
+  Cu  Cu4  1  0.376395  0.124006  0.750044  1
+  Cu  Cu5  1  0.373962  0.626351  0.249956  1
+  O  O6  1  0.022763  0.945056  0.367741  1
+  O  O7  1  0.054944  0.422685  0.077707  1
+  O  O8  1  0.344979  0.977237  0.922293  1
+  O  O9  1  0.171492  0.595122  0.866429  1
+  O  O10  1  0.404878  0.271307  0.576371  1
+  O  O11  1  0.694937  0.828508  0.423629  1
+  O  O12  1  0.577315  0.655021  0.632259  1
+  O  O13  1  0.728693  0.305063  0.133571  1

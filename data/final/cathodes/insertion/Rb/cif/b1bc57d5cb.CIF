@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbPr(AuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87890200
+_cell_length_b   6.87890162
+_cell_length_c   6.87890200
+_cell_angle_alpha   124.18327177
+_cell_angle_beta   124.18326961
+_cell_angle_gamma   82.89525119
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbPr(AuO2)4
+_chemical_formula_sum   'Rb1 Pr1 Au4 O8'
+_cell_volume   213.80864868
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.750000  0.250000  0.500000  1
+  Pr  Pr1  1  0.000000  0.000000  0.000000  1
+  Au  Au2  1  0.358410  0.629497  0.237191  1
+  Au  Au3  1  0.878782  0.641590  0.271088  1
+  Au  Au4  1  0.392306  0.121218  0.762809  1
+  Au  Au5  1  0.370503  0.607694  0.728912  1
+  O  O6  1  0.585760  0.923537  0.903978  1
+  O  O7  1  0.726982  0.276908  0.918250  1
+  O  O8  1  0.358658  0.808732  0.081750  1
+  O  O9  1  0.019560  0.681783  0.096022  1
+  O  O10  1  0.191268  0.273018  0.549925  1
+  O  O11  1  0.076463  0.980440  0.662223  1
+  O  O12  1  0.723092  0.641342  0.450075  1
+  O  O13  1  0.318217  0.414240  0.337777  1

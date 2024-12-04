@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Hf3Zr7AlSn6Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.70824600
+_cell_length_b   8.70824578
+_cell_length_c   5.88807000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000085
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Zr7AlSn6Ge
+_chemical_formula_sum   'Hf3 Zr7 Al1 Sn6 Ge1'
+_cell_volume   386.69179685
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.333333  0.666667  0.000000  1
+  Hf  Hf1  1  0.666667  0.333333  0.500000  1
+  Hf  Hf2  1  0.666667  0.333333  0.000000  1
+  Zr  Zr3  1  0.333333  0.666667  0.500000  1
+  Zr  Zr4  1  0.267341  0.000270  0.247106  1
+  Zr  Zr5  1  0.267341  0.267072  0.752894  1
+  Zr  Zr6  1  0.999730  0.732659  0.752894  1
+  Zr  Zr7  1  0.999730  0.267072  0.247106  1
+  Zr  Zr8  1  0.732928  0.732659  0.247106  1
+  Zr  Zr9  1  0.732928  0.000270  0.752894  1
+  Al  Al10  1  0.000000  0.000000  0.500000  1
+  Sn  Sn11  1  0.610880  0.000354  0.251968  1
+  Sn  Sn12  1  0.610880  0.610525  0.748032  1
+  Sn  Sn13  1  0.999646  0.389120  0.748032  1
+  Sn  Sn14  1  0.999646  0.610525  0.251968  1
+  Sn  Sn15  1  0.389475  0.389120  0.251968  1
+  Sn  Sn16  1  0.389475  0.000354  0.748032  1
+  Ge  Ge17  1  0.000000  0.000000  0.000000  1

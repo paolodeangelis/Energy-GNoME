@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2TeRhO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17914921
+_cell_length_b   6.17866691
+_cell_length_c   6.18515513
+_cell_angle_alpha   50.97471322
+_cell_angle_beta   51.01826510
+_cell_angle_gamma   50.95178487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2TeRhO6
+_chemical_formula_sum   'Na2 Te1 Rh1 O6'
+_cell_volume   131.47745325
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.859419  0.859305  0.859414  1
+  Na  Na1  1  0.137260  0.137566  0.137684  1
+  Te  Te2  1  0.337005  0.336986  0.337143  1
+  Rh  Rh3  1  0.663850  0.662892  0.665245  1
+  O  O4  1  0.688759  0.069996  0.450755  1
+  O  O5  1  0.450807  0.689187  0.069603  1
+  O  O6  1  0.068814  0.451680  0.688923  1
+  O  O7  1  0.304647  0.945008  0.542813  1
+  O  O8  1  0.543396  0.304366  0.944837  1
+  O  O9  1  0.946042  0.543015  0.303581  1

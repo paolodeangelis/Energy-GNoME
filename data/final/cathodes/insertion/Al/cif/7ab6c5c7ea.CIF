@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeNdAlZnRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.13503500
+_cell_length_b   7.05642298
+_cell_length_c   8.26071215
+_cell_angle_alpha   91.88615076
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeNdAlZnRh2
+_chemical_formula_sum   'Ce2 Nd2 Al2 Zn2 Rh4'
+_cell_volume   240.90505906
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.250000  0.537550  0.189547  1
+  Ce  Ce1  1  0.750000  0.462450  0.810453  1
+  Nd  Nd2  1  0.750000  0.956447  0.680647  1
+  Nd  Nd3  1  0.250000  0.043553  0.319353  1
+  Al  Al4  1  0.750000  0.869161  0.060527  1
+  Al  Al5  1  0.250000  0.130839  0.939473  1
+  Zn  Zn6  1  0.250000  0.634926  0.561359  1
+  Zn  Zn7  1  0.750000  0.365074  0.438641  1
+  Rh  Rh8  1  0.250000  0.752628  0.896516  1
+  Rh  Rh9  1  0.750000  0.247372  0.103484  1
+  Rh  Rh10  1  0.750000  0.736081  0.357999  1
+  Rh  Rh11  1  0.250000  0.263919  0.642001  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbPr3AlOs7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41954600
+_cell_length_b   5.41954592
+_cell_length_c   8.88753100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99998827
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbPr3AlOs7
+_chemical_formula_sum   'Yb1 Pr3 Al1 Os7'
+_cell_volume   226.06723317
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.333333  0.666667  0.064303  1
+  Pr  Pr1  1  0.333333  0.666667  0.423052  1
+  Pr  Pr2  1  0.666667  0.333333  0.572009  1
+  Pr  Pr3  1  0.666667  0.333333  0.938847  1
+  Al  Al4  1  0.000000  0.000000  0.501698  1
+  Os  Os5  1  0.000000  0.000000  0.999200  1
+  Os  Os6  1  0.829767  0.170233  0.248202  1
+  Os  Os7  1  0.829767  0.659535  0.248202  1
+  Os  Os8  1  0.340465  0.170233  0.248202  1
+  Os  Os9  1  0.171408  0.828592  0.752095  1
+  Os  Os10  1  0.171408  0.342817  0.752095  1
+  Os  Os11  1  0.657183  0.828592  0.752095  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Th3AlAg2Pd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.57748795
+_cell_length_b   7.34900077
+_cell_length_c   4.08330500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.00745760
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th3AlAg2Pd3
+_chemical_formula_sum   'Th3 Al1 Ag2 Pd3'
+_cell_volume   198.86267996
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.408981  0.405662  0.500000  1
+  Th  Th1  1  0.591019  0.996681  0.500000  1
+  Th  Th2  1  0.000000  0.595418  0.500000  1
+  Al  Al3  1  0.000000  0.240209  0.000000  1
+  Ag  Ag4  1  0.752475  0.753339  0.000000  1
+  Ag  Ag5  1  0.247525  0.000864  0.000000  1
+  Pd  Pd6  1  0.684538  0.328095  0.000000  1
+  Pd  Pd7  1  0.315462  0.643559  0.000000  1
+  Pd  Pd8  1  0.000000  0.036173  0.500000  1

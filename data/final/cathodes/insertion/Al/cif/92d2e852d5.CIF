@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Y3Sc2AlAu3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.25569900
+_cell_length_b   7.19166532
+_cell_length_c   4.61260500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.29499132
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Sc2AlAu3
+_chemical_formula_sum   'Y3 Sc2 Al1 Au3'
+_cell_volume   207.81982778
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.415278  0.402514  0.500000  1
+  Y  Y1  1  0.574755  0.000000  0.500000  1
+  Y  Y2  1  0.012764  0.597486  0.500000  1
+  Sc  Sc3  1  0.011865  0.257492  0.000000  1
+  Sc  Sc4  1  0.754373  0.742508  0.000000  1
+  Al  Al5  1  0.240470  0.000000  0.000000  1
+  Au  Au6  1  0.656233  0.316317  0.000000  1
+  Au  Au7  1  0.994345  0.000000  0.500000  1
+  Au  Au8  1  0.339915  0.683683  0.000000  1

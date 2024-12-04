@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Dy5Al2BiCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.07220138
+_cell_length_b   9.07220120
+_cell_length_c   6.52452800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.66633505
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy5Al2BiCl
+_chemical_formula_sum   'Dy10 Al4 Bi2 Cl2'
+_cell_volume   461.90185683
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.257921  0.988054  0.750000  1
+  Dy  Dy1  1  0.742079  0.011946  0.250000  1
+  Dy  Dy2  1  0.988054  0.257921  0.750000  1
+  Dy  Dy3  1  0.011946  0.742079  0.250000  1
+  Dy  Dy4  1  0.746721  0.746721  0.750000  1
+  Dy  Dy5  1  0.253279  0.253279  0.250000  1
+  Dy  Dy6  1  0.324900  0.675100  0.500000  1
+  Dy  Dy7  1  0.675100  0.324900  0.500000  1
+  Dy  Dy8  1  0.675100  0.324900  0.000000  1
+  Dy  Dy9  1  0.324900  0.675100  0.000000  1
+  Al  Al10  1  0.604307  0.996291  0.750000  1
+  Al  Al11  1  0.395693  0.003709  0.250000  1
+  Al  Al12  1  0.996291  0.604307  0.750000  1
+  Al  Al13  1  0.003709  0.395693  0.250000  1
+  Bi  Bi14  1  0.389273  0.389273  0.750000  1
+  Bi  Bi15  1  0.610727  0.610727  0.250000  1
+  Cl  Cl16  1  0.000000  0.000000  0.500000  1
+  Cl  Cl17  1  0.000000  0.000000  0.000000  1

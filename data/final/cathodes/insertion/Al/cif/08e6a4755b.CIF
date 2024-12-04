@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CeLuAlRu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65808787
+_cell_length_b   5.65808846
+_cell_length_c   7.02110916
+_cell_angle_alpha   86.03712335
+_cell_angle_beta   93.96287594
+_cell_angle_gamma   117.00084294
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeLuAlRu2
+_chemical_formula_sum   'Ce2 Lu2 Al2 Ru4'
+_cell_volume   199.61421674
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.166924  0.833076  0.585371  1
+  Ce  Ce1  1  0.833076  0.166924  0.414629  1
+  Lu  Lu2  1  0.344616  0.655384  0.086681  1
+  Lu  Lu3  1  0.655384  0.344616  0.913319  1
+  Al  Al4  1  0.000000  0.000000  0.000000  1
+  Al  Al5  1  0.500000  0.500000  0.500000  1
+  Ru  Ru6  1  0.864452  0.634741  0.259713  1
+  Ru  Ru7  1  0.634741  0.864452  0.740287  1
+  Ru  Ru8  1  0.135548  0.365259  0.740287  1
+  Ru  Ru9  1  0.365259  0.135548  0.259713  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tb3Tm5(AlPd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.51430143
+_cell_length_b   9.51430234
+_cell_length_c   9.51430200
+_cell_angle_alpha   59.99999422
+_cell_angle_beta   59.99999108
+_cell_angle_gamma   59.99999720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Tm5(AlPd)2
+_chemical_formula_sum   'Tb6 Tm10 Al4 Pd4'
+_cell_volume   608.99781148
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.934846  0.565154  0.565154  1
+  Tb  Tb1  1  0.565154  0.934846  0.934846  1
+  Tb  Tb2  1  0.565154  0.934846  0.565154  1
+  Tb  Tb3  1  0.934846  0.565154  0.934846  1
+  Tb  Tb4  1  0.565154  0.565154  0.934846  1
+  Tb  Tb5  1  0.934846  0.934846  0.565154  1
+  Tm  Tm6  1  0.355191  0.355191  0.355191  1
+  Tm  Tm7  1  0.355191  0.355191  0.934428  1
+  Tm  Tm8  1  0.355191  0.934428  0.355191  1
+  Tm  Tm9  1  0.934428  0.355191  0.355191  1
+  Tm  Tm10  1  0.807564  0.192436  0.192436  1
+  Tm  Tm11  1  0.192436  0.807564  0.807564  1
+  Tm  Tm12  1  0.192436  0.807564  0.192436  1
+  Tm  Tm13  1  0.807564  0.192436  0.807564  1
+  Tm  Tm14  1  0.192436  0.192436  0.807564  1
+  Tm  Tm15  1  0.807564  0.807564  0.192436  1
+  Al  Al16  1  0.576815  0.576815  0.576815  1
+  Al  Al17  1  0.576815  0.576815  0.269555  1
+  Al  Al18  1  0.576815  0.269555  0.576815  1
+  Al  Al19  1  0.269555  0.576815  0.576815  1
+  Pd  Pd20  1  0.144401  0.144401  0.144401  1
+  Pd  Pd21  1  0.144401  0.144401  0.566799  1
+  Pd  Pd22  1  0.144401  0.566799  0.144401  1
+  Pd  Pd23  1  0.566799  0.144401  0.144401  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbMg2CoH8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45690000
+_cell_length_b   4.45689896
+_cell_length_c   8.21728400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999287
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMg2CoH8
+_chemical_formula_sum   'Rb1 Mg2 Co1 H8'
+_cell_volume   141.35938220
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.500000  1
+  Mg  Mg1  1  0.666667  0.333333  0.880129  1
+  Mg  Mg2  1  0.333333  0.666667  0.119871  1
+  Co  Co3  1  0.000000  0.000000  0.000000  1
+  H  H4  1  0.315675  0.157837  0.111100  1
+  H  H5  1  0.842163  0.684325  0.111100  1
+  H  H6  1  0.842163  0.157837  0.111100  1
+  H  H7  1  0.684325  0.842163  0.888900  1
+  H  H8  1  0.157837  0.315675  0.888900  1
+  H  H9  1  0.157837  0.842163  0.888900  1
+  H  H10  1  0.666667  0.333333  0.659811  1
+  H  H11  1  0.333333  0.666667  0.340189  1

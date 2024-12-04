@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Dy3Ho13(Al3Fe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.14090300
+_cell_length_b   10.14090358
+_cell_length_c   6.80752900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3Ho13(Al3Fe)2
+_chemical_formula_sum   'Dy3 Ho13 Al6 Fe2'
+_cell_volume   606.28023189
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.175213  0.824787  0.503275  1
+  Dy  Dy1  1  0.649573  0.824787  0.503275  1
+  Dy  Dy2  1  0.175213  0.350427  0.503275  1
+  Ho  Ho3  1  0.824882  0.175118  0.003395  1
+  Ho  Ho4  1  0.350236  0.175118  0.003395  1
+  Ho  Ho5  1  0.824882  0.649764  0.003395  1
+  Ho  Ho6  1  0.333333  0.666667  0.832798  1
+  Ho  Ho7  1  0.666667  0.333333  0.331578  1
+  Ho  Ho8  1  0.466730  0.533270  0.209485  1
+  Ho  Ho9  1  0.066540  0.533270  0.209485  1
+  Ho  Ho10  1  0.466730  0.933460  0.209485  1
+  Ho  Ho11  1  0.533672  0.466328  0.709966  1
+  Ho  Ho12  1  0.932656  0.466328  0.709966  1
+  Ho  Ho13  1  0.533672  0.067344  0.709966  1
+  Ho  Ho14  1  0.000000  0.000000  0.225504  1
+  Ho  Ho15  1  0.000000  0.000000  0.725532  1
+  Al  Al16  1  0.162768  0.837232  0.968255  1
+  Al  Al17  1  0.674462  0.837232  0.968255  1
+  Al  Al18  1  0.162768  0.325538  0.968255  1
+  Al  Al19  1  0.836847  0.163153  0.467405  1
+  Al  Al20  1  0.326308  0.163153  0.467405  1
+  Al  Al21  1  0.836847  0.673692  0.467405  1
+  Fe  Fe22  1  0.333333  0.666667  0.436339  1
+  Fe  Fe23  1  0.666667  0.333333  0.936948  1

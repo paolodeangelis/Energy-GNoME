@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Th3AlIn2Pt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46906700
+_cell_length_b   7.57255870
+_cell_length_c   4.19793300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.54892613
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th3AlIn2Pt3
+_chemical_formula_sum   'Th3 Al1 In2 Pt3'
+_cell_volume   206.55287987
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.995361  0.411027  0.500000  1
+  Th  Th1  1  0.584334  0.588973  0.500000  1
+  Th  Th2  1  0.423598  0.000000  0.500000  1
+  Al  Al3  1  0.757376  0.000000  0.000000  1
+  In  In4  1  0.001390  0.757304  0.000000  1
+  In  In5  1  0.244087  0.242696  0.000000  1
+  Pt  Pt6  1  0.353276  0.678936  0.000000  1
+  Pt  Pt7  1  0.674341  0.321064  0.000000  1
+  Pt  Pt8  1  0.966237  0.000000  0.500000  1

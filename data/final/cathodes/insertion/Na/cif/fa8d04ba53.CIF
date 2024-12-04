@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Na3(FeS)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.30899792
+_cell_length_b   6.52933353
+_cell_length_c   8.15043972
+_cell_angle_alpha   67.62256836
+_cell_angle_beta   63.37806668
+_cell_angle_gamma   73.73456770
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3(FeS)8
+_chemical_formula_sum   'Na3 Fe8 S8'
+_cell_volume   318.70771440
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.766350  0.999564  0.467631  1
+  Na  Na1  1  0.500000  0.000000  0.000000  1
+  Na  Na2  1  0.233650  0.000436  0.532369  1
+  Fe  Fe3  1  0.062709  0.498210  0.625327  1
+  Fe  Fe4  1  0.562974  0.499274  0.624661  1
+  Fe  Fe5  1  0.811948  0.499396  0.125366  1
+  Fe  Fe6  1  0.312714  0.500781  0.125361  1
+  Fe  Fe7  1  0.937291  0.501790  0.374673  1
+  Fe  Fe8  1  0.437026  0.500726  0.375339  1
+  Fe  Fe9  1  0.687286  0.499219  0.874639  1
+  Fe  Fe10  1  0.188052  0.500604  0.874634  1
+  S  S11  1  0.162789  0.700433  0.324823  1
+  S  S12  1  0.662771  0.700375  0.323118  1
+  S  S13  1  0.912815  0.697041  0.824474  1
+  S  S14  1  0.413758  0.699296  0.823865  1
+  S  S15  1  0.837211  0.299567  0.675177  1
+  S  S16  1  0.337229  0.299625  0.676882  1
+  S  S17  1  0.586242  0.300704  0.176135  1
+  S  S18  1  0.087185  0.302959  0.175526  1

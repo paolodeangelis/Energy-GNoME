@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Pr4Nd12AlCd3Ir4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.94266576
+_cell_length_b   9.96091313
+_cell_length_c   9.96137850
+_cell_angle_alpha   60.01416217
+_cell_angle_beta   59.98621229
+_cell_angle_gamma   59.98180210
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr4Nd12AlCd3Ir4
+_chemical_formula_sum   'Pr4 Nd12 Al1 Cd3 Ir4'
+_cell_volume   697.50584173
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.561445  0.938021  0.561183  1
+  Pr  Pr1  1  0.938640  0.559817  0.939996  1
+  Pr  Pr2  1  0.561447  0.561133  0.937992  1
+  Pr  Pr3  1  0.938649  0.939965  0.559838  1
+  Nd  Nd4  1  0.347880  0.348667  0.348656  1
+  Nd  Nd5  1  0.349989  0.350100  0.952535  1
+  Nd  Nd6  1  0.349900  0.952546  0.350159  1
+  Nd  Nd7  1  0.954073  0.349711  0.349680  1
+  Nd  Nd8  1  0.810852  0.189263  0.189212  1
+  Nd  Nd9  1  0.193127  0.806707  0.806746  1
+  Nd  Nd10  1  0.190454  0.809873  0.188949  1
+  Nd  Nd11  1  0.807256  0.192257  0.806559  1
+  Nd  Nd12  1  0.190423  0.188943  0.809923  1
+  Nd  Nd13  1  0.807285  0.806562  0.192226  1
+  Nd  Nd14  1  0.937208  0.561260  0.561231  1
+  Nd  Nd15  1  0.559068  0.940384  0.940333  1
+  Al  Al16  1  0.580571  0.579625  0.579629  1
+  Cd  Cd17  1  0.579686  0.579826  0.263678  1
+  Cd  Cd18  1  0.579681  0.263688  0.579820  1
+  Cd  Cd19  1  0.264086  0.579359  0.579336  1
+  Ir  Ir20  1  0.141808  0.142174  0.142231  1
+  Ir  Ir21  1  0.140542  0.142577  0.575910  1
+  Ir  Ir22  1  0.140489  0.575954  0.142638  1
+  Ir  Ir23  1  0.575435  0.141587  0.141541  1

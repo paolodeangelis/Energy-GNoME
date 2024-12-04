@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_KCo3TeO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.81156402
+_cell_length_b   7.00881989
+_cell_length_c   5.81339673
+_cell_angle_alpha   85.82836418
+_cell_angle_beta   119.99250651
+_cell_angle_gamma   70.07294811
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCo3TeO8
+_chemical_formula_sum   'K1 Co3 Te1 O8'
+_cell_volume   184.00976011
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.500000  0.500000  1
+  Co  Co1  1  0.000000  0.000000  0.500000  1
+  Co  Co2  1  0.000000  0.000000  0.000000  1
+  Co  Co3  1  0.500000  0.000000  0.000000  1
+  Te  Te4  1  0.500000  0.000000  0.500000  1
+  O  O5  1  0.429360  0.839193  0.731015  1
+  O  O6  1  0.570640  0.160807  0.268985  1
+  O  O7  1  0.923672  0.853459  0.222790  1
+  O  O8  1  0.076328  0.146541  0.777210  1
+  O  O9  1  0.933246  0.837002  0.728861  1
+  O  O10  1  0.433310  0.837206  0.228760  1
+  O  O11  1  0.066754  0.162998  0.271139  1
+  O  O12  1  0.566690  0.162794  0.771240  1

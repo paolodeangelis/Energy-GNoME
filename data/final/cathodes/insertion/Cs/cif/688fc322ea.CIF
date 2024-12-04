@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CsSb2PdPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79041513
+_cell_length_b   4.79041562
+_cell_length_c   7.29272610
+_cell_angle_alpha   102.82349713
+_cell_angle_beta   102.82349664
+_cell_angle_gamma   98.95733873
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsSb2PdPt
+_chemical_formula_sum   'Cs1 Sb2 Pd1 Pt1'
+_cell_volume   155.36873874
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000187  0.999813  0.000000  1
+  Sb  Sb1  1  0.627868  0.626769  0.344732  1
+  Sb  Sb2  1  0.373231  0.372132  0.655268  1
+  Pd  Pd3  1  0.797980  0.202018  0.500000  1
+  Pt  Pt4  1  0.200731  0.799267  0.500000  1

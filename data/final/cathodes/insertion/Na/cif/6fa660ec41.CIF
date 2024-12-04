@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaY2LuHg4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34758500
+_cell_length_b   7.34791600
+_cell_length_c   7.36003500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaY2LuHg4
+_chemical_formula_sum   'Na2 Y4 Lu2 Hg8'
+_cell_volume   397.36414877
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250024  0.750000  0.501028  1
+  Na  Na1  1  0.750023  0.250000  0.998973  1
+  Y  Y2  1  0.249973  0.250000  0.999991  1
+  Y  Y3  1  0.750023  0.750000  0.999992  1
+  Y  Y4  1  0.749973  0.750000  0.500007  1
+  Y  Y5  1  0.250024  0.250000  0.500010  1
+  Lu  Lu6  1  0.249987  0.750000  0.000509  1
+  Lu  Lu7  1  0.749987  0.250000  0.499491  1
+  Hg  Hg8  1  0.500231  0.000211  0.249921  1
+  Hg  Hg9  1  0.500231  0.499789  0.249921  1
+  Hg  Hg10  1  0.000232  0.500211  0.250080  1
+  Hg  Hg11  1  0.000232  0.999789  0.250080  1
+  Hg  Hg12  1  0.999765  0.000212  0.750023  1
+  Hg  Hg13  1  0.999765  0.499788  0.750023  1
+  Hg  Hg14  1  0.499765  0.500212  0.749977  1
+  Hg  Hg15  1  0.499765  0.999788  0.749977  1

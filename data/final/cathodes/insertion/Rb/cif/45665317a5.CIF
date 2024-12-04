@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Rb6As(IrCl6)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.19691100
+_cell_length_b   7.19691146
+_cell_length_c   18.49689200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000247
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb6As(IrCl6)3
+_chemical_formula_sum   'Rb6 As1 Ir3 Cl18'
+_cell_volume   829.70111494
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.255474  1
+  Rb  Rb1  1  0.000000  0.000000  0.729610  1
+  Rb  Rb2  1  0.333333  0.666667  0.073111  1
+  Rb  Rb3  1  0.666667  0.333333  0.569941  1
+  Rb  Rb4  1  0.666667  0.333333  0.940208  1
+  Rb  Rb5  1  0.333333  0.666667  0.444398  1
+  As  As6  1  0.333333  0.666667  0.844606  1
+  Ir  Ir7  1  0.666667  0.333333  0.334551  1
+  Ir  Ir8  1  0.666667  0.333333  0.163546  1
+  Ir  Ir9  1  0.333333  0.666667  0.665280  1
+  Cl  Cl10  1  0.519788  0.039576  0.248572  1
+  Cl  Cl11  1  0.490237  0.509763  0.740659  1
+  Cl  Cl12  1  0.019525  0.509763  0.740659  1
+  Cl  Cl13  1  0.960424  0.480212  0.248572  1
+  Cl  Cl14  1  0.519788  0.480212  0.248572  1
+  Cl  Cl15  1  0.490237  0.980475  0.740659  1
+  Cl  Cl16  1  0.821359  0.642719  0.091527  1
+  Cl  Cl17  1  0.178797  0.821203  0.592149  1
+  Cl  Cl18  1  0.642408  0.821203  0.592149  1
+  Cl  Cl19  1  0.357281  0.178641  0.091527  1
+  Cl  Cl20  1  0.821359  0.178641  0.091527  1
+  Cl  Cl21  1  0.174856  0.349712  0.913669  1
+  Cl  Cl22  1  0.174856  0.825144  0.913669  1
+  Cl  Cl23  1  0.178797  0.357592  0.592149  1
+  Cl  Cl24  1  0.650288  0.825144  0.913669  1
+  Cl  Cl25  1  0.358762  0.179381  0.406514  1
+  Cl  Cl26  1  0.820619  0.641238  0.406514  1
+  Cl  Cl27  1  0.820619  0.179381  0.406514  1

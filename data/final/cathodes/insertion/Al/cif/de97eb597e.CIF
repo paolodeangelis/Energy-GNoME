@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ce6AlSi3Os4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.53148200
+_cell_length_b   7.99296000
+_cell_length_c   13.42529900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce6AlSi3Os4
+_chemical_formula_sum   'Ce12 Al2 Si6 Os8'
+_cell_volume   593.57159503
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.131951  0.252283  0.750836  1
+  Ce  Ce1  1  0.868049  0.747717  0.250836  1
+  Ce  Ce2  1  0.131951  0.247717  0.249164  1
+  Ce  Ce3  1  0.868049  0.752283  0.749164  1
+  Ce  Ce4  1  0.654713  0.402619  0.600620  1
+  Ce  Ce5  1  0.345287  0.597381  0.100620  1
+  Ce  Ce6  1  0.654713  0.097381  0.399380  1
+  Ce  Ce7  1  0.345287  0.902619  0.899380  1
+  Ce  Ce8  1  0.346597  0.602499  0.399725  1
+  Ce  Ce9  1  0.653403  0.397501  0.899725  1
+  Ce  Ce10  1  0.346597  0.897501  0.600275  1
+  Ce  Ce11  1  0.653403  0.102499  0.100275  1
+  Al  Al12  1  0.122260  0.250000  0.500000  1
+  Al  Al13  1  0.877740  0.750000  0.000000  1
+  Si  Si14  1  0.886165  0.750000  0.500000  1
+  Si  Si15  1  0.113835  0.250000  0.000000  1
+  Si  Si16  1  0.638700  0.100966  0.749064  1
+  Si  Si17  1  0.361300  0.899034  0.249064  1
+  Si  Si18  1  0.638700  0.399034  0.250936  1
+  Si  Si19  1  0.361300  0.600966  0.750936  1
+  Os  Os20  1  0.851822  0.022696  0.591956  1
+  Os  Os21  1  0.148178  0.977304  0.091956  1
+  Os  Os22  1  0.851822  0.477304  0.408044  1
+  Os  Os23  1  0.148178  0.522696  0.908044  1
+  Os  Os24  1  0.141837  0.966078  0.406873  1
+  Os  Os25  1  0.858163  0.033922  0.906873  1
+  Os  Os26  1  0.141837  0.533922  0.593127  1
+  Os  Os27  1  0.858163  0.466078  0.093127  1

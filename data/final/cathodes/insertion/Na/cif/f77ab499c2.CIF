@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaNiPtO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11223700
+_cell_length_b   8.92986200
+_cell_length_c   6.33620400
+_cell_angle_alpha   90.00005781
+_cell_angle_beta   89.99650957
+_cell_angle_gamma   89.99923910
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNiPtO4
+_chemical_formula_sum   'Na4 Ni4 Pt4 O16'
+_cell_volume   345.83909328
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250043  0.108554  0.000000  1
+  Na  Na1  1  0.750040  0.608698  0.499992  1
+  Na  Na2  1  0.750016  0.891364  0.999989  1
+  Na  Na3  1  0.250056  0.391444  0.499994  1
+  Ni  Ni4  1  0.000163  0.999843  0.500032  1
+  Ni  Ni5  1  0.500068  0.999549  0.500006  1
+  Ni  Ni6  1  0.499289  0.499855  0.999997  1
+  Ni  Ni7  1  0.000263  0.500418  0.000009  1
+  Pt  Pt8  1  0.750021  0.249979  0.250128  1
+  Pt  Pt9  1  0.249991  0.750088  0.749889  1
+  Pt  Pt10  1  0.750024  0.249985  0.749865  1
+  Pt  Pt11  1  0.249992  0.750089  0.250115  1
+  O  O12  1  0.538039  0.259762  0.000006  1
+  O  O13  1  0.037938  0.759828  0.500013  1
+  O  O14  1  0.961970  0.259785  0.999985  1
+  O  O15  1  0.462067  0.759811  0.499993  1
+  O  O16  1  0.037841  0.740210  0.000014  1
+  O  O17  1  0.538078  0.240253  0.500007  1
+  O  O18  1  0.462122  0.740191  0.999991  1
+  O  O19  1  0.961973  0.240269  0.499984  1
+  O  O20  1  0.749950  0.472360  0.206324  1
+  O  O21  1  0.250021  0.972409  0.706401  1
+  O  O22  1  0.749967  0.472362  0.793668  1
+  O  O23  1  0.250043  0.972409  0.293605  1
+  O  O24  1  0.249966  0.527584  0.793655  1
+  O  O25  1  0.750064  0.027656  0.293639  1
+  O  O26  1  0.249947  0.527584  0.206345  1
+  O  O27  1  0.750051  0.027659  0.706355  1

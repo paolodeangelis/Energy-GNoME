@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Y10AlCd2Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.63822026
+_cell_length_b   9.68428750
+_cell_length_c   9.67386900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.15822995
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y10AlCd2Co
+_chemical_formula_sum   'Y20 Al2 Cd4 Co2'
+_cell_volume   780.72968419
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.998832  0.999416  0.497170  1
+  Y  Y1  1  0.998832  0.999416  0.002830  1
+  Y  Y2  1  0.543961  0.457814  0.250000  1
+  Y  Y3  1  0.543961  0.086147  0.250000  1
+  Y  Y4  1  0.914610  0.457306  0.250000  1
+  Y  Y5  1  0.457534  0.544257  0.750000  1
+  Y  Y6  1  0.457534  0.913277  0.750000  1
+  Y  Y7  1  0.084705  0.542353  0.750000  1
+  Y  Y8  1  0.210098  0.788528  0.435213  1
+  Y  Y9  1  0.210098  0.421571  0.435213  1
+  Y  Y10  1  0.580122  0.790061  0.433104  1
+  Y  Y11  1  0.788897  0.210874  0.560959  1
+  Y  Y12  1  0.788897  0.578022  0.560959  1
+  Y  Y13  1  0.423549  0.211774  0.565674  1
+  Y  Y14  1  0.788897  0.210874  0.939041  1
+  Y  Y15  1  0.788897  0.578022  0.939041  1
+  Y  Y16  1  0.423549  0.211774  0.934326  1
+  Y  Y17  1  0.210098  0.788528  0.064787  1
+  Y  Y18  1  0.210098  0.421571  0.064787  1
+  Y  Y19  1  0.580122  0.790061  0.066896  1
+  Al  Al20  1  0.883336  0.114075  0.250000  1
+  Al  Al21  1  0.883336  0.769261  0.250000  1
+  Cd  Cd22  1  0.228390  0.114195  0.250000  1
+  Cd  Cd23  1  0.114560  0.885495  0.750000  1
+  Cd  Cd24  1  0.114560  0.229064  0.750000  1
+  Cd  Cd25  1  0.770731  0.885365  0.750000  1
+  Co  Co26  1  0.331731  0.665867  0.250000  1
+  Co  Co27  1  0.670063  0.335031  0.750000  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Rb(HfTe2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.39601003
+_cell_length_b   10.39600994
+_cell_length_c   11.83319400
+_cell_angle_alpha   41.28167286
+_cell_angle_beta   41.28167396
+_cell_angle_gamma   45.19005999
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb(HfTe2)4
+_chemical_formula_sum   'Rb1 Hf4 Te8'
+_cell_volume   527.08717655
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Hf  Hf1  1  0.250202  0.250202  0.002382  1
+  Hf  Hf2  1  0.749798  0.749798  0.997618  1
+  Hf  Hf3  1  0.247172  0.752828  0.500000  1
+  Hf  Hf4  1  0.752828  0.247172  0.500000  1
+  Te  Te5  1  0.325033  0.325033  0.668234  1
+  Te  Te6  1  0.823139  0.823139  0.666615  1
+  Te  Te7  1  0.322817  0.823859  0.168502  1
+  Te  Te8  1  0.823859  0.322817  0.168502  1
+  Te  Te9  1  0.176141  0.677183  0.831498  1
+  Te  Te10  1  0.677183  0.176141  0.831498  1
+  Te  Te11  1  0.176861  0.176861  0.333385  1
+  Te  Te12  1  0.674967  0.674967  0.331766  1

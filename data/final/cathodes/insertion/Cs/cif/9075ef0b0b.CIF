@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CsPrBeF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16771800
+_cell_length_b   6.78755624
+_cell_length_c   7.68679790
+_cell_angle_alpha   66.06467869
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsPrBeF6
+_chemical_formula_sum   'Cs2 Pr2 Be2 F12'
+_cell_volume   294.12471507
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.088116  0.781170  1
+  Cs  Cs1  1  0.750000  0.911884  0.218830  1
+  Pr  Pr2  1  0.250000  0.392455  0.184719  1
+  Pr  Pr3  1  0.750000  0.607545  0.815281  1
+  Be  Be4  1  0.250000  0.767249  0.466883  1
+  Be  Be5  1  0.750000  0.232751  0.533117  1
+  F  F6  1  0.456339  0.751114  0.592024  1
+  F  F7  1  0.543661  0.248886  0.407976  1
+  F  F8  1  0.956339  0.248886  0.407976  1
+  F  F9  1  0.043661  0.751114  0.592024  1
+  F  F10  1  0.250000  0.585002  0.392119  1
+  F  F11  1  0.750000  0.414998  0.607881  1
+  F  F12  1  0.499997  0.678259  0.024052  1
+  F  F13  1  0.500003  0.321741  0.975948  1
+  F  F14  1  0.999997  0.321741  0.975948  1
+  F  F15  1  0.000003  0.678259  0.024052  1
+  F  F16  1  0.250000  0.993284  0.290223  1
+  F  F17  1  0.750000  0.006716  0.709777  1

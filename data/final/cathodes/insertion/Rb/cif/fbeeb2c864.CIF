@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbHo(SeO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37470524
+_cell_length_b   5.37470668
+_cell_length_c   8.71166130
+_cell_angle_alpha   93.88800615
+_cell_angle_beta   93.88800694
+_cell_angle_gamma   65.72416652
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbHo(SeO4)2
+_chemical_formula_sum   'Rb1 Ho1 Se2 O8'
+_cell_volume   228.65674120
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Ho  Ho1  1  0.000000  0.000000  0.500000  1
+  Se  Se2  1  0.624543  0.624543  0.292206  1
+  Se  Se3  1  0.375458  0.375458  0.707795  1
+  O  O4  1  0.688018  0.688018  0.120886  1
+  O  O5  1  0.751970  0.284525  0.313178  1
+  O  O6  1  0.284525  0.751970  0.313178  1
+  O  O7  1  0.756227  0.756227  0.439000  1
+  O  O8  1  0.243773  0.243773  0.560999  1
+  O  O9  1  0.715475  0.248030  0.686822  1
+  O  O10  1  0.248030  0.715475  0.686822  1
+  O  O11  1  0.311981  0.311981  0.879114  1

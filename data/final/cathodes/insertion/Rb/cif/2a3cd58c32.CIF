@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_RbTi2Tl2Cl9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15477400
+_cell_length_b   7.19448072
+_cell_length_c   17.84833500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.79906775
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbTi2Tl2Cl9
+_chemical_formula_sum   'Rb2 Ti4 Tl4 Cl18'
+_cell_volume   797.25910053
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.999239  0.998329  0.250000  1
+  Rb  Rb1  1  0.000761  0.001671  0.750000  1
+  Ti  Ti2  1  0.333866  0.667496  0.670110  1
+  Ti  Ti3  1  0.666134  0.332504  0.329890  1
+  Ti  Ti4  1  0.333866  0.667496  0.829890  1
+  Ti  Ti5  1  0.666134  0.332504  0.170110  1
+  Tl  Tl6  1  0.667308  0.334374  0.557484  1
+  Tl  Tl7  1  0.332692  0.665626  0.057484  1
+  Tl  Tl8  1  0.332692  0.665626  0.442516  1
+  Tl  Tl9  1  0.667308  0.334374  0.942516  1
+  Cl  Cl10  1  0.823265  0.646611  0.406657  1
+  Cl  Cl11  1  0.174786  0.823558  0.593896  1
+  Cl  Cl12  1  0.648698  0.823574  0.593916  1
+  Cl  Cl13  1  0.825214  0.176442  0.406104  1
+  Cl  Cl14  1  0.351302  0.176426  0.406084  1
+  Cl  Cl15  1  0.176735  0.353389  0.906657  1
+  Cl  Cl16  1  0.010547  0.504348  0.750000  1
+  Cl  Cl17  1  0.648698  0.823574  0.906084  1
+  Cl  Cl18  1  0.823265  0.646611  0.093343  1
+  Cl  Cl19  1  0.176735  0.353389  0.593343  1
+  Cl  Cl20  1  0.494598  0.989458  0.750000  1
+  Cl  Cl21  1  0.506246  0.495758  0.250000  1
+  Cl  Cl22  1  0.493754  0.504242  0.750000  1
+  Cl  Cl23  1  0.174786  0.823558  0.906104  1
+  Cl  Cl24  1  0.351302  0.176426  0.093916  1
+  Cl  Cl25  1  0.989453  0.495652  0.250000  1
+  Cl  Cl26  1  0.505402  0.010542  0.250000  1
+  Cl  Cl27  1  0.825214  0.176442  0.093896  1

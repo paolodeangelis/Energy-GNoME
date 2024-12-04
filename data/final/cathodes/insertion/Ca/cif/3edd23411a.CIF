@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CaTbHo2(Mo2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32699820
+_cell_length_b   7.32589357
+_cell_length_c   7.42537433
+_cell_angle_alpha   60.43831914
+_cell_angle_beta   60.43730291
+_cell_angle_gamma   59.99500648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTbHo2(Mo2O7)2
+_chemical_formula_sum   'Ca1 Tb1 Ho2 Mo4 O14'
+_cell_volume   283.67163444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.125000  0.125000  0.625000  1
+  Tb  Tb1  1  0.125000  0.625000  0.125000  1
+  Ho  Ho2  1  0.125000  0.125000  0.125000  1
+  Ho  Ho3  1  0.625000  0.125000  0.125000  1
+  Mo  Mo4  1  0.625000  0.625000  0.625000  1
+  Mo  Mo5  1  0.125000  0.625000  0.625000  1
+  Mo  Mo6  1  0.625000  0.625000  0.125000  1
+  Mo  Mo7  1  0.625000  0.125000  0.625000  1
+  O  O8  1  0.995383  0.999863  0.009371  1
+  O  O9  1  0.254617  0.250137  0.240629  1
+  O  O10  1  0.289002  0.288839  0.726836  1
+  O  O11  1  0.542257  0.540662  0.964565  1
+  O  O12  1  0.695323  0.288839  0.726836  1
+  O  O13  1  0.708058  0.297965  0.285919  1
+  O  O14  1  0.289059  0.696935  0.724948  1
+  O  O15  1  0.297484  0.709338  0.285435  1
+  O  O16  1  0.707743  0.709338  0.285435  1
+  O  O17  1  0.960941  0.553065  0.525052  1
+  O  O18  1  0.541942  0.952035  0.964081  1
+  O  O19  1  0.960998  0.961161  0.523164  1
+  O  O20  1  0.952516  0.540662  0.964565  1
+  O  O21  1  0.554677  0.961161  0.523164  1

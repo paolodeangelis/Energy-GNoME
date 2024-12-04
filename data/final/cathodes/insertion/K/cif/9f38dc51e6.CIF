@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K2FeSiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68851236
+_cell_length_b   5.68785909
+_cell_length_c   7.89606738
+_cell_angle_alpha   90.04893003
+_cell_angle_beta   90.05587230
+_cell_angle_gamma   87.38994988
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2FeSiO4
+_chemical_formula_sum   'K4 Fe2 Si2 O8'
+_cell_volume   255.21562509
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.213332  0.214009  0.750590  1
+  K  K1  1  0.281360  0.718958  0.500134  1
+  K  K2  1  0.717739  0.282106  0.999948  1
+  K  K3  1  0.786403  0.786223  0.249352  1
+  Fe  Fe4  1  0.285879  0.714152  0.000014  1
+  Fe  Fe5  1  0.712786  0.287038  0.499969  1
+  Si  Si6  1  0.209519  0.209867  0.250609  1
+  Si  Si7  1  0.790156  0.790430  0.749396  1
+  O  O8  1  0.071885  0.743390  0.800242  1
+  O  O9  1  0.256716  0.928064  0.199897  1
+  O  O10  1  0.264834  0.372528  0.083262  1
+  O  O11  1  0.370499  0.264630  0.419170  1
+  O  O12  1  0.627459  0.735212  0.916692  1
+  O  O13  1  0.735651  0.629284  0.580893  1
+  O  O14  1  0.745819  0.072724  0.699782  1
+  O  O15  1  0.927164  0.254182  0.300054  1

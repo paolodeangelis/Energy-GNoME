@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaNd6FeBr12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.50151703
+_cell_length_b   9.50151908
+_cell_length_c   9.50151832
+_cell_angle_alpha   107.04804108
+_cell_angle_beta   107.04804721
+_cell_angle_gamma   107.04803367
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaNd6FeBr12
+_chemical_formula_sum   'Ca1 Nd6 Fe1 Br12'
+_cell_volume   713.43422601
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Nd  Nd1  1  0.809352  0.524633  0.601734  1
+  Nd  Nd2  1  0.524633  0.601734  0.809352  1
+  Nd  Nd3  1  0.190648  0.475367  0.398266  1
+  Nd  Nd4  1  0.475367  0.398266  0.190648  1
+  Nd  Nd5  1  0.601734  0.809352  0.524633  1
+  Nd  Nd6  1  0.398266  0.190648  0.475367  1
+  Fe  Fe7  1  0.500000  0.500000  0.500000  1
+  Br  Br8  1  0.722986  0.184486  0.573099  1
+  Br  Br9  1  0.956502  0.879550  0.663523  1
+  Br  Br10  1  0.573099  0.722986  0.184486  1
+  Br  Br11  1  0.120450  0.336477  0.043498  1
+  Br  Br12  1  0.663523  0.956502  0.879550  1
+  Br  Br13  1  0.879550  0.663523  0.956502  1
+  Br  Br14  1  0.043498  0.120450  0.336477  1
+  Br  Br15  1  0.815514  0.426901  0.277014  1
+  Br  Br16  1  0.336477  0.043498  0.120450  1
+  Br  Br17  1  0.277014  0.815514  0.426901  1
+  Br  Br18  1  0.184486  0.573099  0.722986  1
+  Br  Br19  1  0.426901  0.277014  0.815514  1

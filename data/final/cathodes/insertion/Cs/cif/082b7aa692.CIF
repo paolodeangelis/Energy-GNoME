@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2SmU(AgTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.96629999
+_cell_length_b   8.96629988
+_cell_length_c   11.66789520
+_cell_angle_alpha   89.86505701
+_cell_angle_beta   90.13494376
+_cell_angle_gamma   150.92450107
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2SmU(AgTe3)2
+_chemical_formula_sum   'Cs2 Sm1 U1 Ag2 Te6'
+_cell_volume   455.84772570
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.748839  0.251163  0.242668  1
+  Cs  Cs1  1  0.251163  0.748839  0.757332  1
+  Sm  Sm2  1  0.000000  0.000000  0.000000  1
+  U  U3  1  0.000000  0.000000  0.500000  1
+  Ag  Ag4  1  0.461894  0.538108  0.248538  1
+  Ag  Ag5  1  0.538108  0.461894  0.751462  1
+  Te  Te6  1  0.376546  0.623456  0.047200  1
+  Te  Te7  1  0.061981  0.938020  0.260179  1
+  Te  Te8  1  0.383089  0.616913  0.458195  1
+  Te  Te9  1  0.616913  0.383089  0.541805  1
+  Te  Te10  1  0.938020  0.061981  0.739821  1
+  Te  Te11  1  0.623456  0.376546  0.952800  1

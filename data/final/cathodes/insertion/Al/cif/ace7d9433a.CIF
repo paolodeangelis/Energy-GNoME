@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10AlCu(Bi2Pb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.85218180
+_cell_length_b   8.85218255
+_cell_length_c   5.92751950
+_cell_angle_alpha   89.97636639
+_cell_angle_beta   89.97636165
+_cell_angle_gamma   119.95722902
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10AlCu(Bi2Pb)2
+_chemical_formula_sum   'Zr10 Al1 Cu1 Bi4 Pb2'
+_cell_volume   402.43076743
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.734879  0.000870  0.247694  1
+  Zr  Zr1  1  0.000870  0.734879  0.247694  1
+  Zr  Zr2  1  0.265169  0.265169  0.246929  1
+  Zr  Zr3  1  0.264135  0.000100  0.752905  1
+  Zr  Zr4  1  0.000100  0.264135  0.752905  1
+  Zr  Zr5  1  0.734992  0.734992  0.752467  1
+  Zr  Zr6  1  0.333313  0.666738  0.499107  1
+  Zr  Zr7  1  0.666738  0.333313  0.499107  1
+  Zr  Zr8  1  0.666805  0.333512  0.001049  1
+  Zr  Zr9  1  0.333512  0.666805  0.001049  1
+  Al  Al10  1  0.000134  0.000134  0.498778  1
+  Cu  Cu11  1  0.000295  0.000295  0.000739  1
+  Bi  Bi12  1  0.614041  0.614041  0.250214  1
+  Bi  Bi13  1  0.613477  0.000582  0.750019  1
+  Bi  Bi14  1  0.000582  0.613477  0.750019  1
+  Bi  Bi15  1  0.385698  0.385698  0.749463  1
+  Pb  Pb16  1  0.385193  0.000067  0.249933  1
+  Pb  Pb17  1  0.000067  0.385193  0.249933  1

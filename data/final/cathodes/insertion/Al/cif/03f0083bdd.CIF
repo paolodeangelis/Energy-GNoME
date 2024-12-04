@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr4AlPt4Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91244099
+_cell_length_b   5.91244088
+_cell_length_c   8.44089103
+_cell_angle_alpha   79.21076801
+_cell_angle_beta   79.21076851
+_cell_angle_gamma   61.51828062
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4AlPt4Pb
+_chemical_formula_sum   'Sr4 Al1 Pt4 Pb1'
+_cell_volume   253.12695445
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.510884  0.787385  0.351559  1
+  Sr  Sr1  1  0.212615  0.489116  0.148441  1
+  Sr  Sr2  1  0.486874  0.215664  0.647414  1
+  Sr  Sr3  1  0.784336  0.513126  0.852586  1
+  Al  Al4  1  0.898589  0.101411  0.250000  1
+  Pt  Pt5  1  0.264345  0.010894  0.017679  1
+  Pt  Pt6  1  0.989106  0.735655  0.482321  1
+  Pt  Pt7  1  0.728828  0.016525  0.021327  1
+  Pt  Pt8  1  0.983475  0.271172  0.478673  1
+  Pb  Pb9  1  0.140947  0.859053  0.750000  1

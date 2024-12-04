@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tm13Th3Al4(FeNi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.34453404
+_cell_length_b   9.37605066
+_cell_length_c   9.45043600
+_cell_angle_alpha   59.73721859
+_cell_angle_beta   59.62439973
+_cell_angle_gamma   59.77715194
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm13Th3Al4(FeNi)2
+_chemical_formula_sum   'Tm13 Th3 Al4 Fe2 Ni2'
+_cell_volume   581.66338346
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.196913  0.600783  0.601153  1
+  Tm  Tm1  1  0.066148  0.439264  0.441706  1
+  Tm  Tm2  1  0.439289  0.062564  0.056892  1
+  Tm  Tm3  1  0.439289  0.062564  0.441254  1
+  Tm  Tm4  1  0.066148  0.439264  0.052882  1
+  Tm  Tm5  1  0.439225  0.437523  0.061626  1
+  Tm  Tm6  1  0.056967  0.059320  0.441857  1
+  Tm  Tm7  1  0.182723  0.812697  0.817276  1
+  Tm  Tm8  1  0.810066  0.182985  0.188612  1
+  Tm  Tm9  1  0.810066  0.182985  0.818335  1
+  Tm  Tm10  1  0.182723  0.812697  0.187305  1
+  Tm  Tm11  1  0.812616  0.810520  0.188431  1
+  Tm  Tm12  1  0.183009  0.185542  0.815724  1
+  Th  Th13  1  0.592756  0.595756  0.607074  1
+  Th  Th14  1  0.592756  0.595756  0.204413  1
+  Th  Th15  1  0.590531  0.212385  0.598542  1
+  Al  Al16  1  0.829096  0.827269  0.829642  1
+  Al  Al17  1  0.829096  0.827269  0.513992  1
+  Al  Al18  1  0.830318  0.514036  0.827822  1
+  Al  Al19  1  0.513471  0.828300  0.829114  1
+  Fe  Fe20  1  0.407632  0.392178  0.384527  1
+  Fe  Fe21  1  0.407632  0.392178  0.815665  1
+  Ni  Ni22  1  0.393176  0.828696  0.389065  1
+  Ni  Ni23  1  0.828348  0.397471  0.387091  1

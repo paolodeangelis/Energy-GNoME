@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_MnAl6Fe5Rh12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27756409
+_cell_length_b   5.97179600
+_cell_length_c   12.83179926
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.97686691
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAl6Fe5Rh12
+_chemical_formula_sum   'Mn1 Al6 Fe5 Rh12'
+_cell_volume   327.78495050
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.000000  0.500001  0.000000  1
+  Al  Al1  1  0.000000  0.000000  0.000000  1
+  Al  Al2  1  0.499679  0.500001  0.165840  1
+  Al  Al3  1  0.999694  0.000000  0.333764  1
+  Al  Al4  1  0.500000  0.500001  0.500000  1
+  Al  Al5  1  0.000306  0.000000  0.666236  1
+  Al  Al6  1  0.500319  0.500001  0.834160  1
+  Fe  Fe7  1  0.499636  0.000000  0.166714  1
+  Fe  Fe8  1  0.999631  0.500001  0.333563  1
+  Fe  Fe9  1  0.500000  0.000000  0.500000  1
+  Fe  Fe10  1  0.000370  0.500001  0.666437  1
+  Fe  Fe11  1  0.500363  0.000000  0.833286  1
+  Rh  Rh12  1  0.500000  0.246286  0.000000  1
+  Rh  Rh13  1  0.500000  0.753713  0.000000  1
+  Rh  Rh14  1  0.999664  0.248709  0.168538  1
+  Rh  Rh15  1  0.999664  0.751293  0.168538  1
+  Rh  Rh16  1  0.499677  0.249892  0.333493  1
+  Rh  Rh17  1  0.499677  0.750108  0.333493  1
+  Rh  Rh18  1  0.000000  0.250655  0.500000  1
+  Rh  Rh19  1  0.000000  0.749347  0.500000  1
+  Rh  Rh20  1  0.500324  0.249892  0.666506  1
+  Rh  Rh21  1  0.500324  0.750108  0.666506  1
+  Rh  Rh22  1  0.000337  0.248709  0.831463  1
+  Rh  Rh23  1  0.000337  0.751293  0.831463  1

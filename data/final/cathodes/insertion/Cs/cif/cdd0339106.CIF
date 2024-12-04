@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CsCdH6Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.19654081
+_cell_length_b   7.20590453
+_cell_length_c   7.21858410
+_cell_angle_alpha   40.54020858
+_cell_angle_beta   40.55221143
+_cell_angle_gamma   40.57710978
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCdH6Ir
+_chemical_formula_sum   'Cs1 Cd1 H6 Ir1'
+_cell_volume   142.74472839
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.789640  0.788620  0.787309  1
+  Cd  Cd1  1  0.306146  0.307726  0.309341  1
+  H  H2  1  0.777784  0.777338  0.242679  1
+  H  H3  1  0.183614  0.751501  0.185796  1
+  H  H4  1  0.750331  0.184114  0.185365  1
+  H  H5  1  0.184291  0.185206  0.752752  1
+  H  H6  1  0.778135  0.245315  0.777079  1
+  H  H7  1  0.247660  0.777782  0.777295  1
+  Ir  Ir8  1  0.982399  0.982395  0.982383  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K4Li2TmAlBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.72045551
+_cell_length_b   9.72045671
+_cell_length_c   9.72045521
+_cell_angle_alpha   137.22239263
+_cell_angle_beta   61.71951268
+_cell_angle_gamma   137.71379192
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4Li2TmAlBi4
+_chemical_formula_sum   'K4 Li2 Tm1 Al1 Bi4'
+_cell_volume   414.85514546
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.334210  0.771316  0.095529  1
+  K  K1  1  0.165790  0.261319  0.437104  1
+  K  K2  1  0.824213  0.728685  0.562895  1
+  K  K3  1  0.675788  0.238681  0.904471  1
+  Li  Li4  1  0.750000  0.250000  0.500000  1
+  Li  Li5  1  0.250000  0.749999  0.500000  1
+  Tm  Tm6  1  0.250000  0.250000  0.000000  1
+  Al  Al7  1  0.750000  0.750000  0.000000  1
+  Bi  Bi8  1  0.886929  0.227289  0.139563  1
+  Bi  Bi9  1  0.613073  0.752636  0.340362  1
+  Bi  Bi10  1  0.412275  0.272712  0.659638  1
+  Bi  Bi11  1  0.087725  0.747365  0.860438  1

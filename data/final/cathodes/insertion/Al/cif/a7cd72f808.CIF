@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbHoAlCdPd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39485400
+_cell_length_b   6.98899900
+_cell_length_c   8.20365362
+_cell_angle_alpha   88.35586542
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbHoAlCdPd2
+_chemical_formula_sum   'Tb2 Ho2 Al2 Cd2 Pd4'
+_cell_volume   251.87665334
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.250000  0.037155  0.687743  1
+  Tb  Tb1  1  0.750000  0.962845  0.312257  1
+  Ho  Ho2  1  0.250000  0.538139  0.823165  1
+  Ho  Ho3  1  0.750000  0.461861  0.176835  1
+  Al  Al4  1  0.250000  0.141738  0.057110  1
+  Al  Al5  1  0.750000  0.858262  0.942890  1
+  Cd  Cd6  1  0.250000  0.642554  0.435925  1
+  Cd  Cd7  1  0.750000  0.357446  0.564075  1
+  Pd  Pd8  1  0.750000  0.757847  0.640875  1
+  Pd  Pd9  1  0.250000  0.242153  0.359125  1
+  Pd  Pd10  1  0.750000  0.229302  0.898301  1
+  Pd  Pd11  1  0.250000  0.770698  0.101699  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_LiY19(Al3Fe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.30168800
+_cell_length_b   9.30168877
+_cell_length_c   9.49873500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999725
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiY19(Al3Fe)2
+_chemical_formula_sum   'Li1 Y19 Al6 Fe2'
+_cell_volume   711.73772851
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.500000  1
+  Y  Y1  1  0.000000  0.000000  0.000000  1
+  Y  Y2  1  0.541364  0.458636  0.252982  1
+  Y  Y3  1  0.541364  0.082726  0.252982  1
+  Y  Y4  1  0.917274  0.458636  0.252982  1
+  Y  Y5  1  0.458636  0.541364  0.747018  1
+  Y  Y6  1  0.458636  0.917274  0.747018  1
+  Y  Y7  1  0.082726  0.541364  0.747018  1
+  Y  Y8  1  0.204806  0.795194  0.436563  1
+  Y  Y9  1  0.204806  0.409615  0.436563  1
+  Y  Y10  1  0.590385  0.795194  0.436563  1
+  Y  Y11  1  0.795194  0.204806  0.563437  1
+  Y  Y12  1  0.795194  0.590385  0.563437  1
+  Y  Y13  1  0.409615  0.204806  0.563437  1
+  Y  Y14  1  0.791338  0.208662  0.936814  1
+  Y  Y15  1  0.791338  0.582674  0.936814  1
+  Y  Y16  1  0.417326  0.208662  0.936814  1
+  Y  Y17  1  0.208662  0.791338  0.063186  1
+  Y  Y18  1  0.208662  0.417326  0.063186  1
+  Y  Y19  1  0.582674  0.791338  0.063186  1
+  Al  Al20  1  0.895118  0.104882  0.260449  1
+  Al  Al21  1  0.895118  0.790237  0.260449  1
+  Al  Al22  1  0.209763  0.104882  0.260449  1
+  Al  Al23  1  0.104882  0.895118  0.739551  1
+  Al  Al24  1  0.104882  0.209763  0.739551  1
+  Al  Al25  1  0.790237  0.895118  0.739551  1
+  Fe  Fe26  1  0.333333  0.666667  0.251215  1
+  Fe  Fe27  1  0.666667  0.333333  0.748785  1

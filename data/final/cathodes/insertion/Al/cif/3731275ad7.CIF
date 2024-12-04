@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Th3AlGa2Rh3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.19077900
+_cell_length_b   7.23399281
+_cell_length_c   4.12873200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.80258251
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th3AlGa2Rh3
+_chemical_formula_sum   'Th3 Al1 Ga2 Rh3'
+_cell_volume   186.36392673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.001378  0.417940  0.500000  1
+  Th  Th1  1  0.583438  0.582060  0.500000  1
+  Th  Th2  1  0.412568  0.000000  0.500000  1
+  Al  Al3  1  0.769782  0.000000  0.000000  1
+  Ga  Ga4  1  0.998747  0.764435  0.000000  1
+  Ga  Ga5  1  0.234312  0.235565  0.000000  1
+  Rh  Rh6  1  0.338665  0.669933  0.000000  1
+  Rh  Rh7  1  0.668733  0.330067  0.000000  1
+  Rh  Rh8  1  0.992377  0.000000  0.500000  1

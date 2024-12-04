@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsIn9IrRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.08418400
+_cell_length_b   9.08418340
+_cell_length_c   4.36538600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsIn9IrRh
+_chemical_formula_sum   'Cs1 In9 Ir1 Rh1'
+_cell_volume   311.97882718
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.000000  1
+  In  In1  1  0.499434  0.998866  0.000000  1
+  In  In2  1  0.001134  0.500566  0.000000  1
+  In  In3  1  0.499433  0.500566  0.000000  1
+  In  In4  1  0.418292  0.209146  0.500000  1
+  In  In5  1  0.790854  0.209146  0.500000  1
+  In  In6  1  0.209087  0.418175  0.500000  1
+  In  In7  1  0.790854  0.581707  0.500000  1
+  In  In8  1  0.209087  0.790913  0.500000  1
+  In  In9  1  0.581826  0.790913  0.500000  1
+  Ir  Ir10  1  0.666667  0.333334  0.000000  1
+  Rh  Rh11  1  0.333333  0.666666  0.000000  1

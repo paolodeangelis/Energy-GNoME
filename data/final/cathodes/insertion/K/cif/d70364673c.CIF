@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KBa(VTe)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.52638700
+_cell_length_b   9.58236468
+_cell_length_c   9.64169870
+_cell_angle_alpha   119.40700200
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa(VTe)6
+_chemical_formula_sum   'K1 Ba1 V6 Te6'
+_cell_volume   364.31141160
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.750000  0.667533  0.327791  1
+  Ba  Ba1  1  0.250000  0.331170  0.670554  1
+  V  V2  1  0.750000  0.962172  0.818255  1
+  V  V3  1  0.750000  0.180535  0.154646  1
+  V  V4  1  0.750000  0.891257  0.020196  1
+  V  V5  1  0.250000  0.038092  0.182598  1
+  V  V6  1  0.250000  0.819586  0.845633  1
+  V  V7  1  0.250000  0.109335  0.978475  1
+  Te  Te8  1  0.750000  0.634753  0.698130  1
+  Te  Te9  1  0.750000  0.289419  0.940889  1
+  Te  Te10  1  0.750000  0.061718  0.364205  1
+  Te  Te11  1  0.250000  0.361495  0.300806  1
+  Te  Te12  1  0.250000  0.712714  0.057955  1
+  Te  Te13  1  0.250000  0.940222  0.639867  1

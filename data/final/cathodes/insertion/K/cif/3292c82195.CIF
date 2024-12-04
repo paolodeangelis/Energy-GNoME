@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KCr(CuS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.39242852
+_cell_length_b   9.39242821
+_cell_length_c   7.35739800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.52634747
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCr(CuS2)2
+_chemical_formula_sum   'K2 Cr2 Cu4 S8'
+_cell_volume   357.98732465
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.179103  0.548062  0.750000  1
+  K  K1  1  0.548062  0.179103  0.250000  1
+  Cr  Cr2  1  0.711768  0.490953  0.750000  1
+  Cr  Cr3  1  0.490953  0.711768  0.250000  1
+  Cu  Cu4  1  0.623497  0.623497  0.500000  1
+  Cu  Cu5  1  0.992921  0.208538  0.250000  1
+  Cu  Cu6  1  0.208538  0.992921  0.750000  1
+  Cu  Cu7  1  0.623497  0.623497  0.000000  1
+  S  S8  1  0.724931  0.943865  0.009176  1
+  S  S9  1  0.380146  0.361702  0.750000  1
+  S  S10  1  0.361702  0.380146  0.250000  1
+  S  S11  1  0.943865  0.724931  0.509176  1
+  S  S12  1  0.573344  0.160678  0.750000  1
+  S  S13  1  0.943865  0.724931  0.990824  1
+  S  S14  1  0.160678  0.573344  0.250000  1
+  S  S15  1  0.724931  0.943865  0.490824  1

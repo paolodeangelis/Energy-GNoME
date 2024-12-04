@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K3Mg2H9Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.87188468
+_cell_length_b   7.87188547
+_cell_length_c   7.87188400
+_cell_angle_alpha   43.60994088
+_cell_angle_beta   43.60995595
+_cell_angle_gamma   43.60994957
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Mg2H9Os
+_chemical_formula_sum   'K3 Mg2 H9 Os1'
+_cell_volume   210.60962324
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  K  K1  1  0.790622  0.790622  0.790622  1
+  K  K2  1  0.209378  0.209378  0.209378  1
+  Mg  Mg3  1  0.619316  0.619316  0.619316  1
+  Mg  Mg4  1  0.380684  0.380684  0.380684  1
+  H  H5  1  0.000000  0.500000  0.500000  1
+  H  H6  1  0.500000  0.000000  0.500000  1
+  H  H7  1  0.500000  0.500000  0.000000  1
+  H  H8  1  0.734701  0.312256  0.312256  1
+  H  H9  1  0.312256  0.734701  0.312256  1
+  H  H10  1  0.312256  0.312256  0.734701  1
+  H  H11  1  0.687744  0.687744  0.265299  1
+  H  H12  1  0.687744  0.265299  0.687744  1
+  H  H13  1  0.265299  0.687744  0.687744  1
+  Os  Os14  1  0.500000  0.500000  0.500000  1

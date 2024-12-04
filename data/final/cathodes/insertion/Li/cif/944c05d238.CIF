@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li3Ni2RuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13374789
+_cell_length_b   5.16785132
+_cell_length_c   5.16785137
+_cell_angle_alpha   119.87005925
+_cell_angle_beta   99.88139681
+_cell_angle_gamma   99.88140969
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ni2RuO6
+_chemical_formula_sum   'Li3 Ni2 Ru1 O6'
+_cell_volume   111.69908321
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.830042  0.169958  1
+  Li  Li1  1  0.500000  0.169958  0.830042  1
+  Li  Li2  1  0.500000  0.500000  0.500000  1
+  Ni  Ni3  1  0.000000  0.666816  0.333184  1
+  Ni  Ni4  1  0.000000  0.333184  0.666816  1
+  Ru  Ru5  1  0.000000  0.000000  0.000000  1
+  O  O6  1  0.229399  0.759233  0.759233  1
+  O  O7  1  0.770601  0.240767  0.240767  1
+  O  O8  1  0.233696  0.078824  0.398174  1
+  O  O9  1  0.233696  0.398174  0.078824  1
+  O  O10  1  0.766304  0.921176  0.601826  1
+  O  O11  1  0.766304  0.601826  0.921176  1

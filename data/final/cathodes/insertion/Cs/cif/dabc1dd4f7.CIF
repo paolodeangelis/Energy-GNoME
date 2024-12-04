@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsHf2CrSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.98627130
+_cell_length_b   9.98627038
+_cell_length_c   9.98627000
+_cell_angle_alpha   37.34705164
+_cell_angle_beta   37.34705858
+_cell_angle_gamma   37.34705795
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsHf2CrSe6
+_chemical_formula_sum   'Cs1 Hf2 Cr1 Se6'
+_cell_volume   328.59539454
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.999706  0.999706  0.999706  1
+  Hf  Hf1  1  0.500741  0.500741  0.500741  1
+  Hf  Hf2  1  0.833287  0.833287  0.833287  1
+  Cr  Cr3  1  0.166240  0.166240  0.166240  1
+  Se  Se4  1  0.542716  0.222565  0.902503  1
+  Se  Se5  1  0.902503  0.542716  0.222565  1
+  Se  Se6  1  0.222565  0.902503  0.542716  1
+  Se  Se7  1  0.786218  0.111786  0.434240  1
+  Se  Se8  1  0.111786  0.434240  0.786218  1
+  Se  Se9  1  0.434240  0.786218  0.111786  1

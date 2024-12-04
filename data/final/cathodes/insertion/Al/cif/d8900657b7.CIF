@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_K6AlSe4Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.45889300
+_cell_length_b   10.45889222
+_cell_length_c   7.70366700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6AlSe4Cl
+_chemical_formula_sum   'K12 Al2 Se8 Cl2'
+_cell_volume   729.79279540
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.132085  0.867915  0.514759  1
+  K  K1  1  0.735827  0.867915  0.514759  1
+  K  K2  1  0.947198  0.473599  0.318597  1
+  K  K3  1  0.526401  0.473599  0.318597  1
+  K  K4  1  0.867915  0.735827  0.014759  1
+  K  K5  1  0.264173  0.132085  0.014759  1
+  K  K6  1  0.526401  0.052802  0.318597  1
+  K  K7  1  0.132085  0.264173  0.514759  1
+  K  K8  1  0.867915  0.132085  0.014759  1
+  K  K9  1  0.052802  0.526401  0.818597  1
+  K  K10  1  0.473599  0.947198  0.818597  1
+  K  K11  1  0.473599  0.526401  0.818597  1
+  Al  Al12  1  0.666667  0.333333  0.708899  1
+  Al  Al13  1  0.333333  0.666667  0.208899  1
+  Se  Se14  1  0.412877  0.206440  0.610111  1
+  Se  Se15  1  0.587123  0.793560  0.110111  1
+  Se  Se16  1  0.666667  0.333333  0.027232  1
+  Se  Se17  1  0.793560  0.587123  0.610111  1
+  Se  Se18  1  0.206440  0.412877  0.110111  1
+  Se  Se19  1  0.333333  0.666667  0.527232  1
+  Se  Se20  1  0.206440  0.793560  0.110111  1
+  Se  Se21  1  0.793560  0.206440  0.610111  1
+  Cl  Cl22  1  0.000000  0.000000  0.274068  1
+  Cl  Cl23  1  0.000000  0.000000  0.774068  1

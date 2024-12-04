@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Lu5AlInBi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.73490000
+_cell_length_b   8.67511088
+_cell_length_c   6.44865500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.77384254
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu5AlInBi
+_chemical_formula_sum   'Lu10 Al2 In2 Bi2'
+_cell_volume   424.14852558
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.685699  0.345860  0.007402  1
+  Lu  Lu1  1  0.314301  0.660162  0.007402  1
+  Lu  Lu2  1  0.314301  0.660162  0.492598  1
+  Lu  Lu3  1  0.685699  0.345860  0.492598  1
+  Lu  Lu4  1  0.776376  0.760343  0.750000  1
+  Lu  Lu5  1  0.223624  0.983967  0.750000  1
+  Lu  Lu6  1  0.000000  0.241774  0.750000  1
+  Lu  Lu7  1  0.230788  0.237881  0.250000  1
+  Lu  Lu8  1  0.769212  0.007093  0.250000  1
+  Lu  Lu9  1  0.000000  0.761536  0.250000  1
+  Al  Al10  1  0.000000  0.594364  0.750000  1
+  Al  Al11  1  0.000000  0.399097  0.250000  1
+  In  In12  1  0.599526  0.605870  0.250000  1
+  In  In13  1  0.400474  0.006344  0.250000  1
+  Bi  Bi14  1  0.399116  0.394401  0.750000  1
+  Bi  Bi15  1  0.600884  0.995286  0.750000  1

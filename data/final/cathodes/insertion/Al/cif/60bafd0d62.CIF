@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ce2HoMn2Al2In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.08218899
+_cell_length_b   8.08218806
+_cell_length_c   4.66531972
+_cell_angle_alpha   85.43316771
+_cell_angle_beta   85.43317118
+_cell_angle_gamma   32.83274993
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2HoMn2Al2In
+_chemical_formula_sum   'Ce2 Ho1 Mn2 Al2 In1'
+_cell_volume   164.66011817
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.828018  0.828018  0.553262  1
+  Ce  Ce1  1  0.171982  0.171982  0.446738  1
+  Ho  Ho2  1  0.000000  0.000000  0.000000  1
+  Mn  Mn3  1  0.793889  0.793889  0.104629  1
+  Mn  Mn4  1  0.206111  0.206111  0.895371  1
+  Al  Al5  1  0.362382  0.362382  0.036865  1
+  Al  Al6  1  0.637618  0.637618  0.963135  1
+  In  In7  1  0.500000  0.500000  0.500000  1

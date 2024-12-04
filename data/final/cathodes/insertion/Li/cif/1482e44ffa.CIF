@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2NiPt3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11427592
+_cell_length_b   6.11427603
+_cell_length_c   6.11427672
+_cell_angle_alpha   60.81194470
+_cell_angle_beta   60.81194450
+_cell_angle_gamma   60.81193375
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2NiPt3O8
+_chemical_formula_sum   'Li2 Ni1 Pt3 O8'
+_cell_volume   164.58908551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.890178  0.890178  0.890178  1
+  Li  Li1  1  0.109822  0.109822  0.109822  1
+  Ni  Ni2  1  0.500000  0.500000  0.500000  1
+  Pt  Pt3  1  0.500000  0.000000  0.500000  1
+  Pt  Pt4  1  0.000000  0.500000  0.500000  1
+  Pt  Pt5  1  0.500000  0.500000  0.000000  1
+  O  O6  1  0.287744  0.741063  0.741063  1
+  O  O7  1  0.741063  0.287744  0.741063  1
+  O  O8  1  0.265220  0.265220  0.265220  1
+  O  O9  1  0.741063  0.741063  0.287744  1
+  O  O10  1  0.258937  0.258937  0.712256  1
+  O  O11  1  0.734780  0.734780  0.734780  1
+  O  O12  1  0.258937  0.712256  0.258937  1
+  O  O13  1  0.712256  0.258937  0.258937  1

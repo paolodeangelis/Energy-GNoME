@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_La3MgAlSe7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.68254602
+_cell_length_b   10.68414926
+_cell_length_c   6.42256200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00247460
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3MgAlSe7
+_chemical_formula_sum   'La6 Mg2 Al2 Se14'
+_cell_volume   634.80863567
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.624902  0.767031  0.228933  1
+  La  La1  1  0.232998  0.857832  0.229085  1
+  La  La2  1  0.142179  0.375182  0.229035  1
+  La  La3  1  0.767002  0.142168  0.729084  1
+  La  La4  1  0.375098  0.232969  0.728934  1
+  La  La5  1  0.857821  0.624818  0.729036  1
+  Mg  Mg6  1  0.000961  0.000798  0.017052  1
+  Mg  Mg7  1  0.999039  0.999202  0.517051  1
+  Al  Al8  1  0.666636  0.333341  0.144608  1
+  Al  Al9  1  0.333364  0.666659  0.644608  1
+  Se  Se10  1  0.903366  0.421086  0.997380  1
+  Se  Se11  1  0.578862  0.482254  0.997339  1
+  Se  Se12  1  0.517638  0.096664  0.997369  1
+  Se  Se13  1  0.333344  0.666690  0.015218  1
+  Se  Se14  1  0.240292  0.147441  0.275599  1
+  Se  Se15  1  0.906996  0.759437  0.275170  1
+  Se  Se16  1  0.852443  0.092970  0.275211  1
+  Se  Se17  1  0.421138  0.517746  0.497340  1
+  Se  Se18  1  0.096634  0.578914  0.497381  1
+  Se  Se19  1  0.482362  0.903336  0.497368  1
+  Se  Se20  1  0.666656  0.333310  0.515219  1
+  Se  Se21  1  0.093004  0.240563  0.775169  1
+  Se  Se22  1  0.759708  0.852559  0.775598  1
+  Se  Se23  1  0.147557  0.907030  0.775209  1

@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_KSr4(SiIr)10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.27999700
+_cell_length_b   8.35461985
+_cell_length_c   9.27999700
+_cell_angle_alpha   56.26302341
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   56.26301516
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSr4(SiIr)10
+_chemical_formula_sum   'K1 Sr4 Si10 Ir10'
+_cell_volume   445.32829268
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Sr  Sr1  1  0.198517  0.000000  0.600661  1
+  Sr  Sr2  1  0.399339  0.000000  0.198517  1
+  Sr  Sr3  1  0.600661  0.000000  0.801483  1
+  Sr  Sr4  1  0.801483  0.000000  0.399339  1
+  Si  Si5  1  0.168144  0.262557  0.768374  1
+  Si  Si6  1  0.370454  0.259092  0.370454  1
+  Si  Si7  1  0.569299  0.262557  0.969068  1
+  Si  Si8  1  0.768374  0.262557  0.569299  1
+  Si  Si9  1  0.969068  0.262557  0.168144  1
+  Si  Si10  1  0.629546  0.740908  0.629546  1
+  Si  Si11  1  0.831856  0.737443  0.231626  1
+  Si  Si12  1  0.030931  0.737443  0.831856  1
+  Si  Si13  1  0.231626  0.737443  0.430701  1
+  Si  Si14  1  0.430701  0.737443  0.030931  1
+  Ir  Ir15  1  0.948975  0.502110  0.848563  1
+  Ir  Ir16  1  0.151437  0.497890  0.451084  1
+  Ir  Ir17  1  0.350673  0.497890  0.051025  1
+  Ir  Ir18  1  0.548916  0.502110  0.649327  1
+  Ir  Ir19  1  0.750000  0.500000  0.250000  1
+  Ir  Ir20  1  0.848563  0.502110  0.548916  1
+  Ir  Ir21  1  0.051025  0.497890  0.151437  1
+  Ir  Ir22  1  0.250000  0.500000  0.750000  1
+  Ir  Ir23  1  0.451084  0.497890  0.350673  1
+  Ir  Ir24  1  0.649327  0.502110  0.948975  1

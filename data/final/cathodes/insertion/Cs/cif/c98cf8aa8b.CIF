@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs3Sr(CeS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.39530707
+_cell_length_b   7.39530733
+_cell_length_c   8.39097800
+_cell_angle_alpha   81.57496072
+_cell_angle_beta   81.57496825
+_cell_angle_gamma   119.81430128
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3Sr(CeS3)2
+_chemical_formula_sum   'Cs3 Sr1 Ce2 S6'
+_cell_volume   380.78859510
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.659244  0.340756  0.500000  1
+  Cs  Cs1  1  0.340756  0.659244  0.500000  1
+  Cs  Cs2  1  0.000000  0.000000  0.500000  1
+  Sr  Sr3  1  0.500000  0.500000  0.000000  1
+  Ce  Ce4  1  0.832631  0.167369  0.000000  1
+  Ce  Ce5  1  0.167369  0.832631  0.000000  1
+  S  S6  1  0.793682  0.793682  0.183014  1
+  S  S7  1  0.206318  0.206318  0.816986  1
+  S  S8  1  0.437552  0.082111  0.187297  1
+  S  S9  1  0.562448  0.917889  0.812703  1
+  S  S10  1  0.917889  0.562448  0.812703  1
+  S  S11  1  0.082111  0.437552  0.187297  1

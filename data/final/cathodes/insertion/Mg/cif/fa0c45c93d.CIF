@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Pr3Mg(Pt2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.44926052
+_cell_length_b   7.30288107
+_cell_length_c   7.44926100
+_cell_angle_alpha   59.33470490
+_cell_angle_beta   60.00000231
+_cell_angle_gamma   59.33470674
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr3Mg(Pt2O7)2
+_chemical_formula_sum   'Pr3 Mg1 Pt4 O14'
+_cell_volume   283.63797011
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.125000  0.125000  0.625000  1
+  Pr  Pr1  1  0.625000  0.125000  0.125000  1
+  Pr  Pr2  1  0.125000  0.125000  0.125000  1
+  Mg  Mg3  1  0.125000  0.625000  0.125000  1
+  Pt  Pt4  1  0.625000  0.625000  0.125000  1
+  Pt  Pt5  1  0.625000  0.125000  0.625000  1
+  Pt  Pt6  1  0.125000  0.625000  0.625000  1
+  Pt  Pt7  1  0.625000  0.625000  0.625000  1
+  O  O8  1  0.239116  0.282653  0.239116  1
+  O  O9  1  0.010884  0.967347  0.010884  1
+  O  O10  1  0.538686  0.963099  0.538686  1
+  O  O11  1  0.294157  0.698894  0.294157  1
+  O  O12  1  0.537208  0.551106  0.955843  1
+  O  O13  1  0.955843  0.551106  0.537208  1
+  O  O14  1  0.538686  0.963099  0.959529  1
+  O  O15  1  0.959529  0.963099  0.538686  1
+  O  O16  1  0.955843  0.551106  0.955843  1
+  O  O17  1  0.711314  0.286901  0.290471  1
+  O  O18  1  0.294157  0.698894  0.712792  1
+  O  O19  1  0.711314  0.286901  0.711314  1
+  O  O20  1  0.290471  0.286901  0.711314  1
+  O  O21  1  0.712792  0.698894  0.294157  1

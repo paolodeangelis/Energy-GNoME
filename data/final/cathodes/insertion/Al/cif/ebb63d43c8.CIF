@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Li2Th3AlPdRu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34083842
+_cell_length_b   7.26205775
+_cell_length_c   4.00068000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.64560824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Th3AlPdRu2
+_chemical_formula_sum   'Li2 Th3 Al1 Pd1 Ru2'
+_cell_volume   185.35728613
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.769564  0.772283  0.000000  1
+  Li  Li1  1  0.230436  0.002719  0.000000  1
+  Th  Th2  1  0.426928  0.432400  0.500000  1
+  Th  Th3  1  0.573072  0.005472  0.500000  1
+  Th  Th4  1  0.000000  0.574053  0.500000  1
+  Al  Al5  1  0.000000  0.232489  0.000000  1
+  Pd  Pd6  1  0.000000  0.012896  0.500000  1
+  Ru  Ru7  1  0.676793  0.322240  0.000000  1
+  Ru  Ru8  1  0.323207  0.645448  0.000000  1

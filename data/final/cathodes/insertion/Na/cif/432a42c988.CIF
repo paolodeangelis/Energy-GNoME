@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2NiPdO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.09333306
+_cell_length_b   5.61015607
+_cell_length_c   10.42687436
+_cell_angle_alpha   101.65930000
+_cell_angle_beta   90.02059083
+_cell_angle_gamma   89.98866494
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2NiPdO4
+_chemical_formula_sum   'Na4 Ni2 Pd2 O8'
+_cell_volume   177.21522490
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.999995  0.000000  0.999998  1
+  Na  Na1  1  0.000003  0.499996  0.500001  1
+  Na  Na2  1  0.499962  0.249992  0.250039  1
+  Na  Na3  1  0.500019  0.750001  0.749966  1
+  Ni  Ni4  1  0.000009  0.250031  0.749964  1
+  Ni  Ni5  1  0.999998  0.749958  0.250027  1
+  Pd  Pd6  1  0.500007  0.500010  0.000000  1
+  Pd  Pd7  1  0.499999  0.000001  0.499994  1
+  O  O8  1  0.500031  0.832654  0.129575  1
+  O  O9  1  0.500022  0.332723  0.629615  1
+  O  O10  1  0.499962  0.667277  0.370391  1
+  O  O11  1  0.500006  0.167354  0.870421  1
+  O  O12  1  0.000081  0.089709  0.388473  1
+  O  O13  1  0.000138  0.589796  0.888470  1
+  O  O14  1  0.999860  0.410221  0.111530  1
+  O  O15  1  0.999910  0.910278  0.611537  1

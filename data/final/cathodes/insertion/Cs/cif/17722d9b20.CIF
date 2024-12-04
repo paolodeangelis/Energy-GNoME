@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs2KFeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.43170200
+_cell_length_b   6.76893014
+_cell_length_c   8.31407564
+_cell_angle_alpha   89.46460078
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2KFeO4
+_chemical_formula_sum   'Cs4 K2 Fe2 O8'
+_cell_volume   361.94364503
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.750000  0.198348  0.505504  1
+  Cs  Cs1  1  0.250000  0.801652  0.494496  1
+  Cs  Cs2  1  0.250000  0.396286  0.174258  1
+  Cs  Cs3  1  0.750000  0.603714  0.825742  1
+  K  K4  1  0.250000  0.879786  0.963590  1
+  K  K5  1  0.750000  0.120214  0.036410  1
+  Fe  Fe6  1  0.750000  0.693878  0.264442  1
+  Fe  Fe7  1  0.250000  0.306122  0.735558  1
+  O  O8  1  0.959496  0.828117  0.184872  1
+  O  O9  1  0.459496  0.171883  0.815128  1
+  O  O10  1  0.040504  0.171883  0.815128  1
+  O  O11  1  0.540504  0.828117  0.184872  1
+  O  O12  1  0.250000  0.554398  0.795648  1
+  O  O13  1  0.250000  0.326893  0.527802  1
+  O  O14  1  0.750000  0.445602  0.204352  1
+  O  O15  1  0.750000  0.673107  0.472198  1

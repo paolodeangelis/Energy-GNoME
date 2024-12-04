@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy4MnAlTc6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31106102
+_cell_length_b   5.31102657
+_cell_length_c   9.05586802
+_cell_angle_alpha   90.00097617
+_cell_angle_beta   89.99936284
+_cell_angle_gamma   120.00285727
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy4MnAlTc6
+_chemical_formula_sum   'Dy4 Mn1 Al1 Tc6'
+_cell_volume   221.21164101
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.666662  0.333328  0.568105  1
+  Dy  Dy1  1  0.333338  0.666672  0.431895  1
+  Dy  Dy2  1  0.333343  0.666662  0.067880  1
+  Dy  Dy3  1  0.666657  0.333338  0.932120  1
+  Mn  Mn4  1  0.000000  0.000000  0.000000  1
+  Al  Al5  1  0.000000  0.000000  0.500000  1
+  Tc  Tc6  1  0.169237  0.338517  0.750637  1
+  Tc  Tc7  1  0.169221  0.830763  0.750644  1
+  Tc  Tc8  1  0.661461  0.830743  0.750632  1
+  Tc  Tc9  1  0.830763  0.661483  0.249363  1
+  Tc  Tc10  1  0.830779  0.169237  0.249356  1
+  Tc  Tc11  1  0.338539  0.169257  0.249368  1

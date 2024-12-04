@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_NdAlTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10786439
+_cell_length_b   5.10124535
+_cell_length_c   5.15332279
+_cell_angle_alpha   90.12293794
+_cell_angle_beta   89.93882568
+_cell_angle_gamma   119.95688608
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdAlTeO6
+_chemical_formula_sum   'Nd1 Al1 Te1 O6'
+_cell_volume   116.33785757
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.000305  0.000158  0.999999  1
+  Al  Al1  1  0.333122  0.666558  0.499998  1
+  Te  Te2  1  0.666713  0.333368  0.499949  1
+  O  O3  1  0.371379  0.373692  0.289998  1
+  O  O4  1  0.002879  0.628757  0.290163  1
+  O  O5  1  0.625705  0.996326  0.289910  1
+  O  O6  1  0.002875  0.374129  0.709857  1
+  O  O7  1  0.625660  0.629340  0.710124  1
+  O  O8  1  0.371365  0.997672  0.710002  1

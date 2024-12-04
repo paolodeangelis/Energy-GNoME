@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zr4AlAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.47456422
+_cell_length_b   5.47456382
+_cell_length_c   5.47456321
+_cell_angle_alpha   104.13479008
+_cell_angle_beta   104.13479120
+_cell_angle_gamma   120.76994161
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4AlAs
+_chemical_formula_sum   'Zr4 Al1 As1'
+_cell_volume   122.56303732
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.154141  0.345859  0.500000  1
+  Zr  Zr1  1  0.345859  0.845859  0.191718  1
+  Zr  Zr2  1  0.845859  0.654141  0.500000  1
+  Zr  Zr3  1  0.654141  0.154141  0.808282  1
+  Al  Al4  1  0.750000  0.750000  0.000000  1
+  As  As5  1  0.250000  0.250000  0.000000  1

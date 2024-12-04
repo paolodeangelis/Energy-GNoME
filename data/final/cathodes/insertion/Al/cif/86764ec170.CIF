@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Lu3Sc2AlPtAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13546721
+_cell_length_b   7.09830212
+_cell_length_c   4.45151600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.82784203
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu3Sc2AlPtAu2
+_chemical_formula_sum   'Lu3 Sc2 Al1 Pt1 Au2'
+_cell_volume   195.59883281
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.396019  0.410801  0.500000  1
+  Lu  Lu1  1  0.603981  0.014782  0.500000  1
+  Lu  Lu2  1  0.000000  0.579180  0.500000  1
+  Sc  Sc3  1  0.749964  0.760523  0.000000  1
+  Sc  Sc4  1  0.250036  0.010558  0.000000  1
+  Al  Al5  1  0.000000  0.237270  0.000000  1
+  Pt  Pt6  1  0.000000  0.996122  0.500000  1
+  Au  Au7  1  0.682320  0.336542  0.000000  1
+  Au  Au8  1  0.317680  0.654223  0.000000  1

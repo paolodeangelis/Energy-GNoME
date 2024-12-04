@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Tb3MgFeSb3O14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21881896
+_cell_length_b   7.22137232
+_cell_length_c   7.19751099
+_cell_angle_alpha   117.92346777
+_cell_angle_beta   62.06288850
+_cell_angle_gamma   117.81797807
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3MgFeSb3O14
+_chemical_formula_sum   'Tb3 Mg1 Fe1 Sb3 O14'
+_cell_volume   277.80385559
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000003  0.500006  0.000000  1
+  Tb  Tb1  1  0.500002  0.000000  0.999999  1
+  Tb  Tb2  1  0.500002  0.500007  0.499999  1
+  Mg  Mg3  1  0.000008  0.000008  0.500001  1
+  Fe  Fe4  1  0.499946  0.499916  0.999997  1
+  Sb  Sb5  1  0.500000  0.999999  0.499999  1
+  Sb  Sb6  1  0.000008  0.500005  0.499993  1
+  Sb  Sb7  1  0.000004  0.000009  0.000003  1
+  O  O8  1  0.618092  0.381789  0.115271  1
+  O  O9  1  0.381913  0.618209  0.884725  1
+  O  O10  1  0.077467  0.324351  0.174727  1
+  O  O11  1  0.675685  0.922707  0.174778  1
+  O  O12  1  0.674350  0.325603  0.582201  1
+  O  O13  1  0.922533  0.675654  0.825275  1
+  O  O14  1  0.324320  0.077301  0.825220  1
+  O  O15  1  0.325652  0.674409  0.417809  1
+  O  O16  1  0.652606  0.908180  0.590925  1
+  O  O17  1  0.091842  0.347426  0.590921  1
+  O  O18  1  0.090801  0.909228  0.153815  1
+  O  O19  1  0.347403  0.091830  0.409073  1
+  O  O20  1  0.908160  0.652585  0.409080  1
+  O  O21  1  0.909203  0.090780  0.846186  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Er6AlFeSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.33504638
+_cell_length_b   8.33504595
+_cell_length_c   8.33504672
+_cell_angle_alpha   105.09777700
+_cell_angle_beta   110.61755692
+_cell_angle_gamma   112.79309817
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er6AlFeSi
+_chemical_formula_sum   'Er12 Al2 Fe2 Si2'
+_cell_volume   443.65885897
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.699586  0.259219  0.958805  1
+  Er  Er1  1  0.300414  0.740781  0.041195  1
+  Er  Er2  1  0.699586  0.740781  0.440368  1
+  Er  Er3  1  0.300414  0.259219  0.559632  1
+  Er  Er4  1  0.807558  0.113346  0.305787  1
+  Er  Er5  1  0.807558  0.501771  0.694213  1
+  Er  Er6  1  0.192442  0.886654  0.694213  1
+  Er  Er7  1  0.192442  0.498229  0.305787  1
+  Er  Er8  1  0.598673  0.785237  0.813435  1
+  Er  Er9  1  0.971801  0.785237  0.186565  1
+  Er  Er10  1  0.028199  0.214763  0.813435  1
+  Er  Er11  1  0.401327  0.214763  0.186565  1
+  Al  Al12  1  0.500000  0.500000  0.000000  1
+  Al  Al13  1  0.500000  0.000000  0.500000  1
+  Fe  Fe14  1  0.000000  0.104852  0.104852  1
+  Fe  Fe15  1  0.000000  0.895148  0.895148  1
+  Si  Si16  1  0.862320  0.500000  0.362320  1
+  Si  Si17  1  0.137680  0.500000  0.637680  1

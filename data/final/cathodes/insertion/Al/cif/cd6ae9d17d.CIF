@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiNd16Al(CdIr2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.92812394
+_cell_length_b   9.92812441
+_cell_length_c   9.95603464
+_cell_angle_alpha   60.13673771
+_cell_angle_beta   60.13673328
+_cell_angle_gamma   60.03025895
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiNd16Al(CdIr2)2
+_chemical_formula_sum   'Li1 Nd16 Al1 Cd2 Ir4'
+_cell_volume   695.50446680
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.570894  0.570894  0.286889  1
+  Nd  Nd1  1  0.347636  0.347636  0.347004  1
+  Nd  Nd2  1  0.350431  0.350431  0.950547  1
+  Nd  Nd3  1  0.349724  0.953802  0.349934  1
+  Nd  Nd4  1  0.953802  0.349724  0.349934  1
+  Nd  Nd5  1  0.812357  0.187114  0.187810  1
+  Nd  Nd6  1  0.194389  0.807220  0.804530  1
+  Nd  Nd7  1  0.187114  0.812357  0.187810  1
+  Nd  Nd8  1  0.807220  0.194389  0.804530  1
+  Nd  Nd9  1  0.191257  0.191257  0.807997  1
+  Nd  Nd10  1  0.808942  0.808942  0.190193  1
+  Nd  Nd11  1  0.938401  0.561376  0.561339  1
+  Nd  Nd12  1  0.559500  0.939815  0.939365  1
+  Nd  Nd13  1  0.561376  0.938401  0.561339  1
+  Nd  Nd14  1  0.939815  0.559500  0.939365  1
+  Nd  Nd15  1  0.560833  0.560833  0.936008  1
+  Nd  Nd16  1  0.939700  0.939700  0.559830  1
+  Al  Al17  1  0.579390  0.579390  0.581470  1
+  Cd  Cd18  1  0.580997  0.261797  0.578419  1
+  Cd  Cd19  1  0.261797  0.580997  0.578419  1
+  Ir  Ir20  1  0.142590  0.142590  0.140910  1
+  Ir  Ir21  1  0.143306  0.143306  0.574094  1
+  Ir  Ir22  1  0.143011  0.575517  0.141131  1
+  Ir  Ir23  1  0.575517  0.143011  0.141131  1

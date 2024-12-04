@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs4Li2HfAlAs4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.71061219
+_cell_length_b   12.71061159
+_cell_length_c   12.71061163
+_cell_angle_alpha   150.78460864
+_cell_angle_beta   41.36592373
+_cell_angle_gamma   151.36772983
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4Li2HfAlAs4
+_chemical_formula_sum   'Cs4 Li2 Hf1 Al1 As4'
+_cell_volume   479.23069017
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.360641  0.766816  0.120616  1
+  Cs  Cs1  1  0.139359  0.259975  0.406174  1
+  Cs  Cs2  1  0.853799  0.733183  0.593826  1
+  Cs  Cs3  1  0.646201  0.240025  0.879384  1
+  Li  Li4  1  0.750001  0.250001  0.500000  1
+  Li  Li5  1  0.250001  0.750001  0.500000  1
+  Hf  Hf6  1  0.250001  0.250001  0.000000  1
+  Al  Al7  1  0.750000  0.750000  0.000000  1
+  As  As8  1  0.936278  0.226710  0.170990  1
+  As  As9  1  0.563721  0.734710  0.290433  1
+  As  As10  1  0.444278  0.273290  0.709568  1
+  As  As11  1  0.055722  0.765290  0.829010  1

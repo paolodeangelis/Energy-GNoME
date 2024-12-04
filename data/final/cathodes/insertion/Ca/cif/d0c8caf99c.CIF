@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CaBi3(Ru2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.31637014
+_cell_length_b   7.31542189
+_cell_length_c   7.31666779
+_cell_angle_alpha   60.11624148
+_cell_angle_beta   60.12038026
+_cell_angle_gamma   60.11158219
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaBi3(Ru2O7)2
+_chemical_formula_sum   'Ca1 Bi3 Ru4 O14'
+_cell_volume   277.63480536
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.500000  0.500000  1
+  Bi  Bi1  1  0.500000  0.000000  0.500000  1
+  Bi  Bi2  1  0.000000  0.500000  0.500000  1
+  Bi  Bi3  1  0.500000  0.500000  0.000000  1
+  Ru  Ru4  1  0.000000  0.000000  0.000000  1
+  Ru  Ru5  1  0.000000  0.500000  0.000000  1
+  Ru  Ru6  1  0.500000  0.000000  0.000000  1
+  Ru  Ru7  1  0.000000  0.000000  0.500000  1
+  O  O8  1  0.623149  0.623140  0.623153  1
+  O  O9  1  0.376851  0.376860  0.376847  1
+  O  O10  1  0.920798  0.920785  0.327779  1
+  O  O11  1  0.327789  0.920775  0.920801  1
+  O  O12  1  0.920779  0.327797  0.920793  1
+  O  O13  1  0.325437  0.325294  0.932444  1
+  O  O14  1  0.932402  0.325300  0.325481  1
+  O  O15  1  0.325400  0.932358  0.325440  1
+  O  O16  1  0.079202  0.079215  0.672221  1
+  O  O17  1  0.672211  0.079225  0.079199  1
+  O  O18  1  0.079221  0.672203  0.079207  1
+  O  O19  1  0.674563  0.674706  0.067556  1
+  O  O20  1  0.067598  0.674700  0.674519  1
+  O  O21  1  0.674600  0.067642  0.674560  1

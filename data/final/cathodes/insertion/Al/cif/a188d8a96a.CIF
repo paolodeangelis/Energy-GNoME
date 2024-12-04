@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TbThAlRu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78898371
+_cell_length_b   5.78898441
+_cell_length_c   7.07433267
+_cell_angle_alpha   87.63834476
+_cell_angle_beta   92.36165641
+_cell_angle_gamma   117.52804004
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbThAlRu2
+_chemical_formula_sum   'Tb2 Th2 Al2 Ru4'
+_cell_volume   209.99235042
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.342835  0.657165  0.084077  1
+  Tb  Tb1  1  0.657165  0.342835  0.915923  1
+  Th  Th2  1  0.166433  0.833567  0.595753  1
+  Th  Th3  1  0.833567  0.166433  0.404247  1
+  Al  Al4  1  0.000000  0.000000  0.000000  1
+  Al  Al5  1  0.500000  0.500000  0.500000  1
+  Ru  Ru6  1  0.862095  0.645845  0.261911  1
+  Ru  Ru7  1  0.645845  0.862095  0.738089  1
+  Ru  Ru8  1  0.137905  0.354155  0.738089  1
+  Ru  Ru9  1  0.354155  0.137905  0.261911  1

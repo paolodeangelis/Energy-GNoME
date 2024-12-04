@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs4ZrTi(ZnTe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.88909470
+_cell_length_b   14.13197320
+_cell_length_c   8.56565603
+_cell_angle_alpha   85.11414910
+_cell_angle_beta   62.39728198
+_cell_angle_gamma   32.48857269
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4ZrTi(ZnTe4)2
+_chemical_formula_sum   'Cs4 Zr1 Ti1 Zn2 Te8'
+_cell_volume   701.82593961
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.818125  0.818125  0.181875  1
+  Cs  Cs1  1  0.181875  0.181875  0.818125  1
+  Cs  Cs2  1  0.432548  0.432548  0.067452  1
+  Cs  Cs3  1  0.067452  0.067452  0.432548  1
+  Zr  Zr4  1  0.250000  0.250000  0.250000  1
+  Ti  Ti5  1  0.000000  0.000000  0.000000  1
+  Zn  Zn6  1  0.750000  0.750000  0.750000  1
+  Zn  Zn7  1  0.500000  0.500000  0.500000  1
+  Te  Te8  1  0.390793  0.718357  0.797965  1
+  Te  Te9  1  0.092886  0.797965  0.718357  1
+  Te  Te10  1  0.797965  0.092886  0.390793  1
+  Te  Te11  1  0.718357  0.390793  0.092886  1
+  Te  Te12  1  0.838950  0.547432  0.464586  1
+  Te  Te13  1  0.149030  0.464586  0.547432  1
+  Te  Te14  1  0.464586  0.149030  0.838950  1
+  Te  Te15  1  0.547432  0.838950  0.149030  1

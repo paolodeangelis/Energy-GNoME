@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_MnAl3(GeO5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.13395694
+_cell_length_b   5.77804400
+_cell_length_c   8.27306413
+_cell_angle_alpha   90.00000015
+_cell_angle_beta   88.20261646
+_cell_angle_gamma   90.00001696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAl3(GeO5)2
+_chemical_formula_sum   'Mn2 Al6 Ge4 O20'
+_cell_volume   388.62915321
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.000005  0.245291  0.000006  1
+  Mn  Mn1  1  0.000002  0.754710  0.000005  1
+  Al  Al2  1  0.378535  0.499999  0.143053  1
+  Al  Al3  1  0.872263  0.000000  0.369125  1
+  Al  Al4  1  0.500001  0.255523  0.500001  1
+  Al  Al5  1  0.500001  0.744476  0.500001  1
+  Al  Al6  1  0.127745  0.000000  0.630878  1
+  Al  Al7  1  0.621469  0.499999  0.856951  1
+  Ge  Ge8  1  0.257479  0.999999  0.252870  1
+  Ge  Ge9  1  0.734924  0.500000  0.254707  1
+  Ge  Ge10  1  0.265069  0.500000  0.745295  1
+  Ge  Ge11  1  0.742492  0.000000  0.747120  1
+  O  O12  1  0.599632  0.500000  0.093335  1
+  O  O13  1  0.247808  0.249991  0.134995  1
+  O  O14  1  0.247808  0.750007  0.134994  1
+  O  O15  1  0.923376  0.000000  0.143118  1
+  O  O16  1  0.930968  0.500001  0.145374  1
+  O  O17  1  0.434995  0.999999  0.371878  1
+  O  O18  1  0.443753  0.499999  0.361449  1
+  O  O19  1  0.729843  0.248518  0.378782  1
+  O  O20  1  0.729842  0.751482  0.378783  1
+  O  O21  1  0.097045  0.999999  0.401600  1
+  O  O22  1  0.902966  0.999999  0.598396  1
+  O  O23  1  0.270162  0.248515  0.621223  1
+  O  O24  1  0.270162  0.751484  0.621224  1
+  O  O25  1  0.556254  0.500000  0.638554  1
+  O  O26  1  0.564995  0.000000  0.628118  1
+  O  O27  1  0.069029  0.500000  0.854631  1
+  O  O28  1  0.076631  0.000001  0.856889  1
+  O  O29  1  0.752194  0.249977  0.864997  1
+  O  O30  1  0.752194  0.750023  0.864997  1
+  O  O31  1  0.400367  0.499999  0.906665  1

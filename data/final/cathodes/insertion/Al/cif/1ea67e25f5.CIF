@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Lu5AlGaTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.49901510
+_cell_length_b   8.49901584
+_cell_length_c   7.78373227
+_cell_angle_alpha   89.98630926
+_cell_angle_beta   89.98631721
+_cell_angle_gamma   125.64877877
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu5AlGaTe2
+_chemical_formula_sum   'Lu10 Al2 Ga2 Te4'
+_cell_volume   456.88246785
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.500000  0.500000  0.500000  1
+  Lu  Lu2  1  0.793674  0.540573  0.167884  1
+  Lu  Lu3  1  0.459427  0.206326  0.832116  1
+  Lu  Lu4  1  0.960770  0.709247  0.665936  1
+  Lu  Lu5  1  0.290753  0.039230  0.334064  1
+  Lu  Lu6  1  0.206326  0.459427  0.832116  1
+  Lu  Lu7  1  0.540573  0.793674  0.167884  1
+  Lu  Lu8  1  0.039230  0.290753  0.334064  1
+  Lu  Lu9  1  0.709247  0.960770  0.665936  1
+  Al  Al10  1  0.628390  0.628390  0.872981  1
+  Al  Al11  1  0.371610  0.371610  0.127019  1
+  Ga  Ga12  1  0.869206  0.869206  0.370655  1
+  Ga  Ga13  1  0.130794  0.130794  0.629345  1
+  Te  Te14  1  0.206366  0.793634  0.000000  1
+  Te  Te15  1  0.706450  0.293550  0.500000  1
+  Te  Te16  1  0.793634  0.206366  0.000000  1
+  Te  Te17  1  0.293550  0.706450  0.500000  1

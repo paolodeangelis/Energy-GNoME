@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs2FeGeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.14122200
+_cell_length_b   6.12062072
+_cell_length_c   8.42888900
+_cell_angle_alpha   90.00000204
+_cell_angle_beta   89.99963873
+_cell_angle_gamma   115.37504566
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2FeGeO4
+_chemical_formula_sum   'Cs4 Fe2 Ge2 O8'
+_cell_volume   332.87185790
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.180211  0.590105  0.080324  1
+  Cs  Cs1  1  0.851436  0.925718  0.229474  1
+  Cs  Cs2  1  0.819791  0.409895  0.580327  1
+  Cs  Cs3  1  0.148565  0.074283  0.729475  1
+  Fe  Fe4  1  0.403968  0.201984  0.311165  1
+  Fe  Fe5  1  0.596030  0.798015  0.811157  1
+  Ge  Ge6  1  0.607430  0.303715  0.019195  1
+  Ge  Ge7  1  0.392574  0.696287  0.519191  1
+  O  O8  1  0.335259  0.167630  0.062832  1
+  O  O9  1  0.709366  0.354683  0.217523  1
+  O  O10  1  0.302114  0.417632  0.412999  1
+  O  O11  1  0.302114  0.884481  0.412999  1
+  O  O12  1  0.664744  0.832372  0.562821  1
+  O  O13  1  0.290632  0.645315  0.717518  1
+  O  O14  1  0.697882  0.115514  0.912998  1
+  O  O15  1  0.697882  0.582368  0.912998  1

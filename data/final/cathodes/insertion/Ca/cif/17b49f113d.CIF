@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CaPrFeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.76830400
+_cell_length_b   5.46782800
+_cell_length_c   6.83442800
+_cell_angle_alpha   89.99945509
+_cell_angle_beta   90.00028694
+_cell_angle_gamma   90.00037553
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaPrFeO4
+_chemical_formula_sum   'Ca4 Pr4 Fe4 O16'
+_cell_volume   439.77536308
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.499975  0.499961  0.487162  1
+  Ca  Ca1  1  0.500023  0.500038  0.987165  1
+  Ca  Ca2  1  0.000019  0.999963  0.987147  1
+  Ca  Ca3  1  0.999976  0.000028  0.487152  1
+  Pr  Pr4  1  0.221521  0.511995  0.237248  1
+  Pr  Pr5  1  0.778475  0.488001  0.737253  1
+  Pr  Pr6  1  0.278481  0.011988  0.737244  1
+  Pr  Pr7  1  0.721520  0.988008  0.237237  1
+  Fe  Fe8  1  0.408811  0.065157  0.237087  1
+  Fe  Fe9  1  0.591203  0.934893  0.737117  1
+  Fe  Fe10  1  0.091212  0.565147  0.737089  1
+  Fe  Fe11  1  0.908795  0.434851  0.237092  1
+  O  O12  1  0.407522  0.722631  0.237136  1
+  O  O13  1  0.592476  0.277361  0.737131  1
+  O  O14  1  0.092477  0.222634  0.737128  1
+  O  O15  1  0.907523  0.777361  0.237122  1
+  O  O16  1  0.164222  0.734161  0.523424  1
+  O  O17  1  0.835779  0.265834  0.023419  1
+  O  O18  1  0.335777  0.234167  0.023420  1
+  O  O19  1  0.664226  0.765829  0.523408  1
+  O  O20  1  0.335736  0.234120  0.450827  1
+  O  O21  1  0.664261  0.765885  0.950816  1
+  O  O22  1  0.164262  0.734114  0.950823  1
+  O  O23  1  0.835736  0.265883  0.450824  1
+  O  O24  1  0.553366  0.225085  0.237140  1
+  O  O25  1  0.446631  0.774913  0.737132  1
+  O  O26  1  0.946629  0.725087  0.737134  1
+  O  O27  1  0.053369  0.274904  0.237129  1

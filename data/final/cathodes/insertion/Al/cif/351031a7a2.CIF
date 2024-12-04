@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Th4Al4IrRu3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24950400
+_cell_length_b   7.00644790
+_cell_length_c   8.27612250
+_cell_angle_alpha   90.06113175
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th4Al4IrRu3
+_chemical_formula_sum   'Th4 Al4 Ir1 Ru3'
+_cell_volume   246.41253826
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.250000  0.036210  0.320114  1
+  Th  Th1  1  0.250000  0.540777  0.181626  1
+  Th  Th2  1  0.750000  0.961600  0.683229  1
+  Th  Th3  1  0.750000  0.462471  0.814022  1
+  Al  Al4  1  0.250000  0.129331  0.942623  1
+  Al  Al5  1  0.250000  0.629344  0.557279  1
+  Al  Al6  1  0.750000  0.870235  0.058274  1
+  Al  Al7  1  0.750000  0.371102  0.440075  1
+  Ir  Ir8  1  0.750000  0.242887  0.121692  1
+  Ru  Ru9  1  0.250000  0.253973  0.620997  1
+  Ru  Ru10  1  0.250000  0.754688  0.880357  1
+  Ru  Ru11  1  0.750000  0.747386  0.379712  1

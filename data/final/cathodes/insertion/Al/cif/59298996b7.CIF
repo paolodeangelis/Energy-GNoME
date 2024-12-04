@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_HoTm15(AlCu)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.40785884
+_cell_length_b   9.40785967
+_cell_length_c   9.40952400
+_cell_angle_alpha   59.99414773
+_cell_angle_beta   59.99414481
+_cell_angle_gamma   59.97540086
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoTm15(AlCu)4
+_chemical_formula_sum   'Ho1 Tm15 Al4 Cu4'
+_cell_volume   588.72849719
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.066606  0.066606  0.433394  1
+  Tm  Tm1  1  0.435623  0.065361  0.434546  1
+  Tm  Tm2  1  0.065361  0.435623  0.064469  1
+  Tm  Tm3  1  0.066146  0.645893  0.643982  1
+  Tm  Tm4  1  0.435263  0.435263  0.064737  1
+  Tm  Tm5  1  0.645893  0.066146  0.643982  1
+  Tm  Tm6  1  0.190903  0.807086  0.191446  1
+  Tm  Tm7  1  0.190732  0.190732  0.809268  1
+  Tm  Tm8  1  0.808443  0.808443  0.191557  1
+  Tm  Tm9  1  0.435623  0.065361  0.064469  1
+  Tm  Tm10  1  0.807086  0.190903  0.191446  1
+  Tm  Tm11  1  0.065361  0.435623  0.434546  1
+  Tm  Tm12  1  0.807086  0.190903  0.810564  1
+  Tm  Tm13  1  0.190903  0.807086  0.810564  1
+  Tm  Tm14  1  0.645695  0.645695  0.064860  1
+  Tm  Tm15  1  0.645695  0.645695  0.643752  1
+  Al  Al16  1  0.420112  0.420112  0.422129  1
+  Al  Al17  1  0.734397  0.420732  0.422436  1
+  Al  Al18  1  0.420732  0.734397  0.422436  1
+  Al  Al19  1  0.420112  0.420112  0.737648  1
+  Cu  Cu20  1  0.855576  0.855576  0.434177  1
+  Cu  Cu21  1  0.855576  0.855576  0.854671  1
+  Cu  Cu22  1  0.435419  0.855658  0.854461  1
+  Cu  Cu23  1  0.855658  0.435419  0.854461  1

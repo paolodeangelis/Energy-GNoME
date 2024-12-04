@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y10AlIn2Sb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54952400
+_cell_length_b   8.99911882
+_cell_length_c   8.97113100
+_cell_angle_alpha   119.93946626
+_cell_angle_beta   89.99996501
+_cell_angle_gamma   90.00003020
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y10AlIn2Sb3
+_chemical_formula_sum   'Y10 Al1 In2 Sb3'
+_cell_volume   458.19689418
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.499251  0.335884  0.672555  1
+  Y  Y1  1  0.499300  0.659361  0.326426  1
+  Y  Y2  1  0.000700  0.659361  0.326422  1
+  Y  Y3  1  0.000748  0.335884  0.672557  1
+  Y  Y4  1  0.750000  0.241630  0.004301  1
+  Y  Y5  1  0.749999  0.757000  0.762852  1
+  Y  Y6  1  0.750000  0.999227  0.240128  1
+  Y  Y7  1  0.250000  0.755313  0.997511  1
+  Y  Y8  1  0.250000  0.243668  0.231682  1
+  Y  Y9  1  0.250000  0.009710  0.765210  1
+  Al  Al10  1  0.250002  0.397641  0.996968  1
+  In  In11  1  0.749999  0.603099  0.000661  1
+  In  In12  1  0.750001  0.394094  0.397573  1
+  Sb  Sb13  1  0.750000  0.997436  0.607146  1
+  Sb  Sb14  1  0.249998  0.609381  0.606632  1
+  Sb  Sb15  1  0.250000  0.001311  0.391375  1

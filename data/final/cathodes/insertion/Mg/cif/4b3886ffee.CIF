@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_MgBiPtRh3(PbO7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.30054085
+_cell_length_b   7.14273010
+_cell_length_c   7.23797100
+_cell_angle_alpha   59.55792238
+_cell_angle_beta   60.28310522
+_cell_angle_gamma   59.72494092
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgBiPtRh3(PbO7)2
+_chemical_formula_sum   'Mg1 Bi1 Pt1 Rh3 Pb2 O14'
+_cell_volume   265.98334656
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.125000  0.625000  0.125000  1
+  Bi  Bi1  1  0.625000  0.125000  0.125000  1
+  Pt  Pt2  1  0.125000  0.625000  0.625000  1
+  Rh  Rh3  1  0.625000  0.625000  0.625000  1
+  Rh  Rh4  1  0.625000  0.625000  0.125000  1
+  Rh  Rh5  1  0.625000  0.125000  0.625000  1
+  Pb  Pb6  1  0.125000  0.125000  0.125000  1
+  Pb  Pb7  1  0.125000  0.125000  0.625000  1
+  O  O8  1  0.244524  0.273819  0.240830  1
+  O  O9  1  0.288052  0.709832  0.286906  1
+  O  O10  1  0.958202  0.962869  0.539465  1
+  O  O11  1  0.539116  0.961545  0.539511  1
+  O  O12  1  0.714142  0.707492  0.289182  1
+  O  O13  1  0.961948  0.540168  0.534791  1
+  O  O14  1  0.710884  0.288455  0.710489  1
+  O  O15  1  0.291798  0.287131  0.710535  1
+  O  O16  1  0.710884  0.288455  0.290172  1
+  O  O17  1  0.288052  0.709832  0.715209  1
+  O  O18  1  0.961948  0.540168  0.963094  1
+  O  O19  1  0.535858  0.542508  0.960818  1
+  O  O20  1  0.005476  0.976181  0.009170  1
+  O  O21  1  0.539116  0.961545  0.959828  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tb7Dy(AlRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.56476867
+_cell_length_b   9.56011968
+_cell_length_c   9.56316333
+_cell_angle_alpha   60.01052847
+_cell_angle_beta   60.00802293
+_cell_angle_gamma   60.01607634
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb7Dy(AlRh)2
+_chemical_formula_sum   'Tb14 Dy2 Al4 Rh4'
+_cell_volume   618.49757635
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.693164  0.306611  0.308092  1
+  Tb  Tb1  1  0.693164  0.692134  0.308092  1
+  Tb  Tb2  1  0.307161  0.692894  0.307051  1
+  Tb  Tb3  1  0.936282  0.937898  0.562538  1
+  Tb  Tb4  1  0.144916  0.147552  0.559980  1
+  Tb  Tb5  1  0.562280  0.937765  0.562190  1
+  Tb  Tb6  1  0.147392  0.149780  0.147432  1
+  Tb  Tb7  1  0.308368  0.306794  0.693059  1
+  Tb  Tb8  1  0.936282  0.563283  0.562538  1
+  Tb  Tb9  1  0.562372  0.563045  0.936548  1
+  Tb  Tb10  1  0.562372  0.938035  0.936548  1
+  Tb  Tb11  1  0.936364  0.563593  0.936448  1
+  Tb  Tb12  1  0.147392  0.555394  0.147432  1
+  Tb  Tb13  1  0.308368  0.691779  0.693059  1
+  Dy  Dy14  1  0.692460  0.307442  0.692655  1
+  Dy  Dy15  1  0.560041  0.147547  0.144865  1
+  Al  Al16  1  0.923411  0.923079  0.230430  1
+  Al  Al17  1  0.230292  0.922960  0.923789  1
+  Al  Al18  1  0.922933  0.230916  0.923418  1
+  Al  Al19  1  0.922933  0.922734  0.923418  1
+  Rh  Rh20  1  0.357664  0.355950  0.356762  1
+  Rh  Rh21  1  0.927851  0.356847  0.358458  1
+  Rh  Rh22  1  0.358874  0.356346  0.928436  1
+  Rh  Rh23  1  0.357664  0.929625  0.356762  1

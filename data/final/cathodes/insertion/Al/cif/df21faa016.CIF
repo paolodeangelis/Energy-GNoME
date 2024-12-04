@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Lu10AlPb5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.48823200
+_cell_length_b   8.79960588
+_cell_length_c   8.83484483
+_cell_angle_alpha   119.86814278
+_cell_angle_beta   89.99988008
+_cell_angle_gamma   90.00023988
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu10AlPb5
+_chemical_formula_sum   'Lu10 Al1 Pb5'
+_cell_volume   437.41599152
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.749965  0.238179  0.000000  1
+  Lu  Lu1  1  0.750077  0.761079  0.773358  1
+  Lu  Lu2  1  0.750077  0.987722  0.226642  1
+  Lu  Lu3  1  0.250160  0.766691  0.000000  1
+  Lu  Lu4  1  0.249942  0.234211  0.233953  1
+  Lu  Lu5  1  0.249942  0.000257  0.766047  1
+  Lu  Lu6  1  0.503812  0.341383  0.674998  1
+  Lu  Lu7  1  0.503812  0.666385  0.325002  1
+  Lu  Lu8  1  0.996271  0.666146  0.324589  1
+  Lu  Lu9  1  0.996271  0.341558  0.675411  1
+  Al  Al10  1  0.749790  0.598774  0.000000  1
+  Pb  Pb11  1  0.749703  0.392614  0.394175  1
+  Pb  Pb12  1  0.749703  0.998440  0.605825  1
+  Pb  Pb13  1  0.250624  0.397877  0.000000  1
+  Pb  Pb14  1  0.249926  0.604672  0.600659  1
+  Pb  Pb15  1  0.249926  0.004012  0.399341  1

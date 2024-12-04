@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ca3Lu(Ru2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24508194
+_cell_length_b   7.26448617
+_cell_length_c   7.24508300
+_cell_angle_alpha   60.08832002
+_cell_angle_beta   59.99999974
+_cell_angle_gamma   60.08832011
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3Lu(Ru2O7)2
+_chemical_formula_sum   'Ca3 Lu1 Ru4 O14'
+_cell_volume   269.99458011
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.625000  0.625000  0.125000  1
+  Ca  Ca1  1  0.125000  0.625000  0.625000  1
+  Ca  Ca2  1  0.625000  0.625000  0.625000  1
+  Lu  Lu3  1  0.625000  0.125000  0.625000  1
+  Ru  Ru4  1  0.625000  0.125000  0.125000  1
+  Ru  Ru5  1  0.125000  0.625000  0.125000  1
+  Ru  Ru6  1  0.125000  0.125000  0.625000  1
+  Ru  Ru7  1  0.125000  0.125000  0.125000  1
+  O  O8  1  0.205902  0.192794  0.800652  1
+  O  O9  1  0.195581  0.805809  0.195581  1
+  O  O10  1  0.449348  0.057206  0.044098  1
+  O  O11  1  0.195581  0.805809  0.803029  1
+  O  O12  1  0.054419  0.444191  0.446971  1
+  O  O13  1  0.803029  0.805809  0.195581  1
+  O  O14  1  0.446971  0.444191  0.054419  1
+  O  O15  1  0.506168  0.481496  0.506168  1
+  O  O16  1  0.044098  0.057206  0.449348  1
+  O  O17  1  0.449348  0.057206  0.449348  1
+  O  O18  1  0.054419  0.444191  0.054419  1
+  O  O19  1  0.743832  0.768504  0.743832  1
+  O  O20  1  0.800652  0.192794  0.800652  1
+  O  O21  1  0.800652  0.192794  0.205902  1

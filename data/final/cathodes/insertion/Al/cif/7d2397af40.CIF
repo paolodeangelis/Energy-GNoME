@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Tb7Sc8Al7Os8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.39491465
+_cell_length_b   9.39491580
+_cell_length_c   9.39491411
+_cell_angle_alpha   60.24797511
+_cell_angle_beta   60.24797230
+_cell_angle_gamma   60.24797434
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb7Sc8Al7Os8
+_chemical_formula_sum   'Tb7 Sc8 Al7 Os8'
+_cell_volume   589.65036270
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.151922  0.151922  0.151922  1
+  Tb  Tb1  1  0.209352  0.760344  0.209352  1
+  Tb  Tb2  1  0.197645  0.805838  0.805838  1
+  Tb  Tb3  1  0.760344  0.209352  0.209352  1
+  Tb  Tb4  1  0.805838  0.805838  0.197645  1
+  Tb  Tb5  1  0.209352  0.209352  0.760344  1
+  Tb  Tb6  1  0.805838  0.197645  0.805838  1
+  Sc  Sc7  1  0.373087  0.373087  0.373087  1
+  Sc  Sc8  1  0.130712  0.624101  0.624101  1
+  Sc  Sc9  1  0.624101  0.130712  0.624101  1
+  Sc  Sc10  1  0.624101  0.624101  0.130712  1
+  Sc  Sc11  1  0.385602  0.859252  0.385602  1
+  Sc  Sc12  1  0.385602  0.385602  0.859252  1
+  Sc  Sc13  1  0.859252  0.385602  0.385602  1
+  Sc  Sc14  1  0.628599  0.628599  0.628599  1
+  Al  Al15  1  0.832021  0.832021  0.832021  1
+  Al  Al16  1  0.483777  0.168189  0.168189  1
+  Al  Al17  1  0.168189  0.168189  0.483777  1
+  Al  Al18  1  0.168189  0.483777  0.168189  1
+  Al  Al19  1  0.837906  0.837906  0.496788  1
+  Al  Al20  1  0.837906  0.496788  0.837906  1
+  Al  Al21  1  0.496788  0.837906  0.837906  1
+  Os  Os22  1  0.501852  0.501852  0.999180  1
+  Os  Os23  1  0.994271  0.994271  0.518966  1
+  Os  Os24  1  0.501852  0.999180  0.501852  1
+  Os  Os25  1  0.999180  0.501852  0.501852  1
+  Os  Os26  1  0.518966  0.994271  0.994271  1
+  Os  Os27  1  0.994271  0.518966  0.994271  1
+  Os  Os28  1  0.500235  0.500235  0.500235  1
+  Os  Os29  1  0.013255  0.013255  0.013255  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ho3Tm5(AlIr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.46714568
+_cell_length_b   9.46712844
+_cell_length_c   9.46732208
+_cell_angle_alpha   59.80973882
+_cell_angle_beta   59.80983197
+_cell_angle_gamma   59.81128879
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3Tm5(AlIr)2
+_chemical_formula_sum   'Ho6 Tm10 Al4 Ir4'
+_cell_volume   597.41373891
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.188384  0.811368  0.811349  1
+  Ho  Ho1  1  0.812226  0.188716  0.188729  1
+  Ho  Ho2  1  0.811372  0.188394  0.811331  1
+  Ho  Ho3  1  0.188705  0.812217  0.188734  1
+  Ho  Ho4  1  0.811339  0.811329  0.188408  1
+  Ho  Ho5  1  0.188731  0.188729  0.812209  1
+  Tm  Tm6  1  0.600724  0.600730  0.600747  1
+  Tm  Tm7  1  0.603155  0.603158  0.194304  1
+  Tm  Tm8  1  0.603172  0.194317  0.603155  1
+  Tm  Tm9  1  0.194324  0.603173  0.603146  1
+  Tm  Tm10  1  0.054872  0.443963  0.443986  1
+  Tm  Tm11  1  0.442334  0.055716  0.055704  1
+  Tm  Tm12  1  0.443975  0.054869  0.443985  1
+  Tm  Tm13  1  0.055709  0.442337  0.055699  1
+  Tm  Tm14  1  0.443957  0.443959  0.054885  1
+  Tm  Tm15  1  0.055734  0.055727  0.442312  1
+  Al  Al16  1  0.828011  0.828011  0.827974  1
+  Al  Al17  1  0.827817  0.827819  0.516940  1
+  Al  Al18  1  0.827819  0.516902  0.827842  1
+  Al  Al19  1  0.516906  0.827814  0.827839  1
+  Ir  Ir20  1  0.391421  0.391417  0.391453  1
+  Ir  Ir21  1  0.391337  0.391363  0.826594  1
+  Ir  Ir22  1  0.391367  0.826604  0.391346  1
+  Ir  Ir23  1  0.826609  0.391370  0.391328  1

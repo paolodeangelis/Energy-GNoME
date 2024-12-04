@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Ho2AlCo3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65850500
+_cell_length_b   7.18949088
+_cell_length_c   8.33776180
+_cell_angle_alpha   90.31894635
+_cell_angle_beta   90.00002025
+_cell_angle_gamma   90.00001592
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2AlCo3O10
+_chemical_formula_sum   'Ho4 Al2 Co6 O20'
+_cell_volume   339.18965322
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.999971  0.642286  0.330412  1
+  Ho  Ho1  1  0.999971  0.357714  0.669588  1
+  Ho  Ho2  1  0.000031  0.130925  0.171763  1
+  Ho  Ho3  1  0.000031  0.869075  0.828237  1
+  Al  Al4  1  0.500014  0.892269  0.142351  1
+  Al  Al5  1  0.500016  0.107731  0.857650  1
+  Co  Co6  1  0.499978  0.408309  0.348415  1
+  Co  Co7  1  0.499978  0.591692  0.651585  1
+  Co  Co8  1  0.252966  0.500001  0.000000  1
+  Co  Co9  1  0.743868  0.999999  0.499999  1
+  Co  Co10  1  0.747229  0.499999  0.000000  1
+  Co  Co11  1  0.255868  0.000001  0.500000  1
+  O  O12  1  0.273340  0.500000  0.500000  1
+  O  O13  1  0.720924  0.000000  0.000000  1
+  O  O14  1  0.726586  0.500000  0.500000  1
+  O  O15  1  0.279213  0.000000  0.000000  1
+  O  O16  1  0.000112  0.661756  0.054553  1
+  O  O17  1  0.000112  0.338244  0.945446  1
+  O  O18  1  0.999887  0.162235  0.444833  1
+  O  O19  1  0.999887  0.837765  0.555168  1
+  O  O20  1  0.500131  0.652713  0.071491  1
+  O  O21  1  0.500131  0.347288  0.928508  1
+  O  O22  1  0.499869  0.153915  0.433002  1
+  O  O23  1  0.499869  0.846085  0.566998  1
+  O  O24  1  0.250319  0.896067  0.290308  1
+  O  O25  1  0.250318  0.103934  0.709692  1
+  O  O26  1  0.758383  0.395667  0.206309  1
+  O  O27  1  0.758384  0.604332  0.793692  1
+  O  O28  1  0.749577  0.103900  0.709668  1
+  O  O29  1  0.749577  0.896099  0.290332  1
+  O  O30  1  0.241732  0.604310  0.793699  1
+  O  O31  1  0.241732  0.395690  0.206301  1

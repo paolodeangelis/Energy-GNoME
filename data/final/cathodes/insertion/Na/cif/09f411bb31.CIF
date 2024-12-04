@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaYbCe2(CuSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.91123838
+_cell_length_b   6.91123931
+_cell_length_c   10.91757600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   145.55229024
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaYbCe2(CuSe3)2
+_chemical_formula_sum   'Na1 Yb1 Ce2 Cu2 Se6'
+_cell_volume   294.97743354
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.243730  0.756270  0.750000  1
+  Yb  Yb1  1  0.755485  0.244515  0.250000  1
+  Ce  Ce2  1  0.000102  0.999898  0.996338  1
+  Ce  Ce3  1  0.000102  0.999898  0.503662  1
+  Cu  Cu4  1  0.476174  0.523826  0.250000  1
+  Cu  Cu5  1  0.526959  0.473041  0.750000  1
+  Se  Se6  1  0.355469  0.644531  0.081218  1
+  Se  Se7  1  0.087050  0.912950  0.250000  1
+  Se  Se8  1  0.355469  0.644531  0.418782  1
+  Se  Se9  1  0.640738  0.359262  0.571526  1
+  Se  Se10  1  0.917985  0.082015  0.750000  1
+  Se  Se11  1  0.640738  0.359262  0.928475  1

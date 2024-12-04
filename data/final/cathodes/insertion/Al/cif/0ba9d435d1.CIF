@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ho3AlCd2Pd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.59543007
+_cell_length_b   7.59543071
+_cell_length_c   3.82575800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.06494401
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3AlCd2Pd3
+_chemical_formula_sum   'Ho3 Al1 Cd2 Pd3'
+_cell_volume   191.01537261
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.405881  0.002526  0.500000  1
+  Ho  Ho1  1  0.002526  0.405881  0.500000  1
+  Ho  Ho2  1  0.581365  0.581365  0.500000  1
+  Al  Al3  1  0.258532  0.258532  0.000000  1
+  Cd  Cd4  1  0.742732  0.993807  0.000000  1
+  Cd  Cd5  1  0.993807  0.742732  0.000000  1
+  Pd  Pd6  1  0.326136  0.650158  0.000000  1
+  Pd  Pd7  1  0.650158  0.326136  0.000000  1
+  Pd  Pd8  1  0.038864  0.038864  0.500000  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KGdB12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.16977200
+_cell_length_b   4.16977400
+_cell_length_c   8.35388600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00010297
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KGdB12
+_chemical_formula_sum   'K1 Gd1 B12'
+_cell_volume   145.24907329
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Gd  Gd1  1  0.000000  0.000000  0.500000  1
+  B  B2  1  0.201796  0.500000  0.254276  1
+  B  B3  1  0.201796  0.500000  0.745724  1
+  B  B4  1  0.500000  0.500000  0.401279  1
+  B  B5  1  0.499999  0.500000  0.896892  1
+  B  B6  1  0.500000  0.201796  0.254276  1
+  B  B7  1  0.500000  0.201796  0.745724  1
+  B  B8  1  0.500001  0.500000  0.103108  1
+  B  B9  1  0.500000  0.500000  0.598721  1
+  B  B10  1  0.500000  0.798204  0.254276  1
+  B  B11  1  0.500000  0.798204  0.745724  1
+  B  B12  1  0.798204  0.500000  0.254276  1
+  B  B13  1  0.798204  0.500000  0.745724  1

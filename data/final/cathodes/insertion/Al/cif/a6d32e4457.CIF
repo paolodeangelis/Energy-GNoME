@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb4TiAl3Ir4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27909700
+_cell_length_b   6.92385650
+_cell_length_c   7.96079446
+_cell_angle_alpha   90.05340483
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4TiAl3Ir4
+_chemical_formula_sum   'Tb4 Ti1 Al3 Ir4'
+_cell_volume   235.86114999
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.250000  0.534832  0.174579  1
+  Tb  Tb1  1  0.750000  0.467093  0.824088  1
+  Tb  Tb2  1  0.250000  0.027624  0.315826  1
+  Tb  Tb3  1  0.750000  0.962641  0.683769  1
+  Ti  Ti4  1  0.750000  0.374509  0.435448  1
+  Al  Al5  1  0.250000  0.139029  0.938285  1
+  Al  Al6  1  0.750000  0.860967  0.063989  1
+  Al  Al7  1  0.250000  0.639120  0.562276  1
+  Ir  Ir8  1  0.750000  0.728023  0.382369  1
+  Ir  Ir9  1  0.250000  0.265785  0.612674  1
+  Ir  Ir10  1  0.750000  0.231662  0.125239  1
+  Ir  Ir11  1  0.250000  0.768716  0.881457  1

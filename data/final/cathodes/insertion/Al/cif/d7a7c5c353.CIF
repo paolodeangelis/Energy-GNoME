@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_La5NdAl2(GaRh2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79372419
+_cell_length_b   8.33561043
+_cell_length_c   13.74418300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.37161879
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La5NdAl2(GaRh2)2
+_chemical_formula_sum   'La10 Nd2 Al4 Ga4 Rh8'
+_cell_volume   663.75074250
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.364914  0.761380  0.250000  1
+  La  La1  1  0.635086  0.238620  0.750000  1
+  La  La2  1  0.149454  0.402549  0.096239  1
+  La  La3  1  0.850546  0.597451  0.903761  1
+  La  La4  1  0.850546  0.597451  0.596239  1
+  La  La5  1  0.851915  0.901303  0.403613  1
+  La  La6  1  0.149454  0.402549  0.403761  1
+  La  La7  1  0.148085  0.098697  0.596387  1
+  La  La8  1  0.148085  0.098697  0.903613  1
+  La  La9  1  0.851915  0.901303  0.096387  1
+  Nd  Nd10  1  0.638854  0.258163  0.250000  1
+  Nd  Nd11  1  0.361146  0.741837  0.750000  1
+  Al  Al12  1  0.623171  0.249686  0.001716  1
+  Al  Al13  1  0.376829  0.750314  0.998284  1
+  Al  Al14  1  0.376829  0.750314  0.501716  1
+  Al  Al15  1  0.623171  0.249686  0.498284  1
+  Ga  Ga16  1  0.142834  0.115023  0.250000  1
+  Ga  Ga17  1  0.857166  0.884977  0.750000  1
+  Ga  Ga18  1  0.858069  0.608540  0.250000  1
+  Ga  Ga19  1  0.141931  0.391460  0.750000  1
+  Rh  Rh20  1  0.362019  0.028593  0.090657  1
+  Rh  Rh21  1  0.637981  0.971407  0.909343  1
+  Rh  Rh22  1  0.637981  0.971407  0.590657  1
+  Rh  Rh23  1  0.634787  0.530314  0.409263  1
+  Rh  Rh24  1  0.362019  0.028593  0.409343  1
+  Rh  Rh25  1  0.365213  0.469686  0.590737  1
+  Rh  Rh26  1  0.365213  0.469686  0.909263  1
+  Rh  Rh27  1  0.634787  0.530314  0.090737  1

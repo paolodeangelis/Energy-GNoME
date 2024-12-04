@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_La4Al4PdPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56811300
+_cell_length_b   7.29981935
+_cell_length_c   7.90766527
+_cell_angle_alpha   89.56287954
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La4Al4PdPt3
+_chemical_formula_sum   'La4 Al4 Pd1 Pt3'
+_cell_volume   263.68449267
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.250000  0.035128  0.679344  1
+  La  La1  1  0.250000  0.535321  0.819960  1
+  La  La2  1  0.750000  0.961921  0.318938  1
+  La  La3  1  0.750000  0.465154  0.180176  1
+  Al  Al4  1  0.250000  0.141685  0.064899  1
+  Al  Al5  1  0.250000  0.645872  0.433136  1
+  Al  Al6  1  0.750000  0.856376  0.931867  1
+  Al  Al7  1  0.750000  0.357273  0.569342  1
+  Pd  Pd8  1  0.250000  0.287932  0.388467  1
+  Pt  Pt9  1  0.250000  0.785223  0.113216  1
+  Pt  Pt10  1  0.750000  0.714275  0.612608  1
+  Pt  Pt11  1  0.750000  0.213838  0.888048  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbLaCr2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92617000
+_cell_length_b   5.92617020
+_cell_length_c   7.98392100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999887
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbLaCr2O8
+_chemical_formula_sum   'Rb1 La1 Cr2 O8'
+_cell_volume   242.82594843
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.500000  1
+  La  La1  1  0.000000  0.000000  0.000000  1
+  Cr  Cr2  1  0.666667  0.333333  0.262716  1
+  Cr  Cr3  1  0.333333  0.666666  0.737284  1
+  O  O4  1  0.357309  0.178654  0.192934  1
+  O  O5  1  0.821346  0.178654  0.192934  1
+  O  O6  1  0.821347  0.642692  0.192934  1
+  O  O7  1  0.333333  0.666666  0.534468  1
+  O  O8  1  0.666667  0.333333  0.465532  1
+  O  O9  1  0.178654  0.357309  0.807065  1
+  O  O10  1  0.178653  0.821345  0.807065  1
+  O  O11  1  0.642692  0.821345  0.807065  1

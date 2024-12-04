@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Lu5MnAlTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56475594
+_cell_length_b   8.56475695
+_cell_length_c   7.71584432
+_cell_angle_alpha   91.77788975
+_cell_angle_beta   91.77789034
+_cell_angle_gamma   126.54827130
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu5MnAlTe2
+_chemical_formula_sum   'Lu10 Mn2 Al2 Te4'
+_cell_volume   453.61281071
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.500000  0.500000  0.500000  1
+  Lu  Lu2  1  0.815651  0.571241  0.190976  1
+  Lu  Lu3  1  0.428759  0.184349  0.809024  1
+  Lu  Lu4  1  0.968977  0.726941  0.653784  1
+  Lu  Lu5  1  0.273059  0.031023  0.346216  1
+  Lu  Lu6  1  0.184349  0.428759  0.809024  1
+  Lu  Lu7  1  0.571241  0.815651  0.190976  1
+  Lu  Lu8  1  0.031023  0.273059  0.346216  1
+  Lu  Lu9  1  0.726941  0.968977  0.653784  1
+  Mn  Mn10  1  0.892440  0.892440  0.394693  1
+  Mn  Mn11  1  0.107560  0.107560  0.605307  1
+  Al  Al12  1  0.620802  0.620802  0.878890  1
+  Al  Al13  1  0.379198  0.379198  0.121110  1
+  Te  Te14  1  0.212629  0.787371  0.000000  1
+  Te  Te15  1  0.706730  0.293270  0.500000  1
+  Te  Te16  1  0.787371  0.212629  0.000000  1
+  Te  Te17  1  0.293270  0.706730  0.500000  1

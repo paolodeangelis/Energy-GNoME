@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2TcP2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.71425680
+_cell_length_b   8.71425683
+_cell_length_c   8.71425702
+_cell_angle_alpha   139.23210866
+_cell_angle_beta   124.66153377
+_cell_angle_gamma   70.96846447
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2TcP2
+_chemical_formula_sum   'Cs4 Tc2 P4'
+_cell_volume   348.61690594
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.985744  0.151162  0.834581  1
+  Cs  Cs1  1  0.014256  0.848838  0.165419  1
+  Cs  Cs2  1  0.683419  0.348838  0.334581  1
+  Cs  Cs3  1  0.316581  0.651162  0.665419  1
+  Tc  Tc4  1  0.500000  0.750000  0.250000  1
+  Tc  Tc5  1  0.500000  0.250000  0.750000  1
+  P  P6  1  0.739345  0.587360  0.151985  1
+  P  P7  1  0.564625  0.912640  0.651985  1
+  P  P8  1  0.435375  0.087360  0.348015  1
+  P  P9  1  0.260655  0.412640  0.848015  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Rb3Cr(AsS2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.34979200
+_cell_length_b   9.34979303
+_cell_length_c   7.88192100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000344
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3Cr(AsS2)6
+_chemical_formula_sum   'Rb3 Cr1 As6 S12'
+_cell_volume   596.71456821
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Rb  Rb1  1  0.333333  0.666667  0.854579  1
+  Rb  Rb2  1  0.666667  0.333333  0.145421  1
+  Cr  Cr3  1  0.000000  0.000000  0.500000  1
+  As  As4  1  0.274143  0.827628  0.400377  1
+  As  As5  1  0.172372  0.446515  0.400377  1
+  As  As6  1  0.553485  0.725857  0.400377  1
+  As  As7  1  0.725857  0.172372  0.599623  1
+  As  As8  1  0.827628  0.553485  0.599623  1
+  As  As9  1  0.446515  0.274143  0.599623  1
+  S  S10  1  0.226179  0.028867  0.320886  1
+  S  S11  1  0.971133  0.197313  0.320886  1
+  S  S12  1  0.802687  0.773821  0.320886  1
+  S  S13  1  0.773821  0.971133  0.679114  1
+  S  S14  1  0.028867  0.802687  0.679114  1
+  S  S15  1  0.197313  0.226179  0.679114  1
+  S  S16  1  0.513871  0.911821  0.236657  1
+  S  S17  1  0.088179  0.602049  0.236657  1
+  S  S18  1  0.397951  0.486129  0.236657  1
+  S  S19  1  0.486129  0.088179  0.763343  1
+  S  S20  1  0.911821  0.397951  0.763343  1
+  S  S21  1  0.602049  0.513871  0.763343  1

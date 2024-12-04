@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbCeNiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00026200
+_cell_length_b   7.53127479
+_cell_length_c   10.61188703
+_cell_angle_alpha   89.99155580
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   74.59878552
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCeNiS3
+_chemical_formula_sum   'Rb2 Ce2 Ni2 S6'
+_cell_volume   308.22440328
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.739370  0.521260  0.249989  1
+  Rb  Rb1  1  0.260630  0.478740  0.750012  1
+  Ce  Ce2  1  0.000000  0.000000  0.000000  1
+  Ce  Ce3  1  0.000000  0.000000  0.500000  1
+  Ni  Ni4  1  0.465993  0.068014  0.250014  1
+  Ni  Ni5  1  0.534007  0.931985  0.749986  1
+  S  S6  1  0.381067  0.237865  0.068894  1
+  S  S7  1  0.047903  0.904192  0.249998  1
+  S  S8  1  0.381067  0.237867  0.431097  1
+  S  S9  1  0.618932  0.762134  0.568903  1
+  S  S10  1  0.952097  0.095807  0.750003  1
+  S  S11  1  0.618933  0.762135  0.931106  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CeDyAlSnRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.20115700
+_cell_length_b   7.35334600
+_cell_length_c   16.16999200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeDyAlSnRh2
+_chemical_formula_sum   'Ce4 Dy4 Al4 Sn4 Rh8'
+_cell_volume   499.53246457
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.250000  0.048227  0.785364  1
+  Ce  Ce1  1  0.750000  0.951773  0.214636  1
+  Ce  Ce2  1  0.250000  0.548227  0.714636  1
+  Ce  Ce3  1  0.750000  0.451773  0.285364  1
+  Dy  Dy4  1  0.250000  0.173131  0.559053  1
+  Dy  Dy5  1  0.750000  0.826869  0.440947  1
+  Dy  Dy6  1  0.250000  0.673131  0.940947  1
+  Dy  Dy7  1  0.750000  0.326869  0.059053  1
+  Al  Al8  1  0.250000  0.004449  0.059940  1
+  Al  Al9  1  0.750000  0.995551  0.940060  1
+  Al  Al10  1  0.250000  0.504449  0.440060  1
+  Al  Al11  1  0.750000  0.495551  0.559940  1
+  Sn  Sn12  1  0.250000  0.116017  0.351892  1
+  Sn  Sn13  1  0.750000  0.883983  0.648108  1
+  Sn  Sn14  1  0.250000  0.616017  0.148108  1
+  Sn  Sn15  1  0.750000  0.383983  0.851892  1
+  Rh  Rh16  1  0.750000  0.283027  0.432208  1
+  Rh  Rh17  1  0.250000  0.716973  0.567792  1
+  Rh  Rh18  1  0.750000  0.783027  0.067792  1
+  Rh  Rh19  1  0.250000  0.216973  0.932208  1
+  Rh  Rh20  1  0.750000  0.766074  0.817987  1
+  Rh  Rh21  1  0.250000  0.233926  0.182013  1
+  Rh  Rh22  1  0.750000  0.266074  0.682013  1
+  Rh  Rh23  1  0.250000  0.733926  0.317987  1

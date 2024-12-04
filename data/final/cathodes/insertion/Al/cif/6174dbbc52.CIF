@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Yb2AlCr(B3O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.12607020
+_cell_length_b   7.12607047
+_cell_length_c   4.44789544
+_cell_angle_alpha   89.64076428
+_cell_angle_beta   90.35924076
+_cell_angle_gamma   112.15897750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2AlCr(B3O7)2
+_chemical_formula_sum   'Yb2 Al1 Cr1 B6 O14'
+_cell_volume   209.17965057
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.000000  0.500000  0.000000  1
+  Yb  Yb1  1  0.500000  0.000000  0.000000  1
+  Al  Al2  1  0.000000  0.000000  0.000000  1
+  Cr  Cr3  1  0.500000  0.500000  0.000000  1
+  B  B4  1  0.864011  0.135989  0.455787  1
+  B  B5  1  0.358852  0.641148  0.540061  1
+  B  B6  1  0.249464  0.249464  0.500000  1
+  B  B7  1  0.641148  0.358852  0.459939  1
+  B  B8  1  0.135989  0.864011  0.544213  1
+  B  B9  1  0.750536  0.750536  0.500000  1
+  O  O10  1  0.130904  0.869096  0.228325  1
+  O  O11  1  0.641683  0.358317  0.774263  1
+  O  O12  1  0.274738  0.427953  0.690021  1
+  O  O13  1  0.572047  0.725262  0.690021  1
+  O  O14  1  0.220023  0.074851  0.703139  1
+  O  O15  1  0.725262  0.572047  0.309979  1
+  O  O16  1  0.925149  0.779977  0.703139  1
+  O  O17  1  0.869096  0.130904  0.771675  1
+  O  O18  1  0.427953  0.274738  0.309979  1
+  O  O19  1  0.751845  0.248155  0.321840  1
+  O  O20  1  0.248155  0.751845  0.678160  1
+  O  O21  1  0.779977  0.925149  0.296861  1
+  O  O22  1  0.074851  0.220023  0.296861  1
+  O  O23  1  0.358317  0.641683  0.225737  1

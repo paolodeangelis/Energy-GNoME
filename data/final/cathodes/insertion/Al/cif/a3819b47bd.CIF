@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Er12Al(TcPb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56586543
+_cell_length_b   8.56601673
+_cell_length_c   8.56586700
+_cell_angle_alpha   110.05783534
+_cell_angle_beta   110.05001617
+_cell_angle_gamma   108.31129685
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er12Al(TcPb)2
+_chemical_formula_sum   'Er12 Al1 Tc2 Pb2'
+_cell_volume   483.69346982
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.321104  0.321122  0.642226  1
+  Er  Er1  1  0.678896  0.678878  0.357774  1
+  Er  Er2  1  0.321107  0.678878  0.999984  1
+  Er  Er3  1  0.678893  0.321122  0.000016  1
+  Er  Er4  1  0.439938  0.194122  0.245811  1
+  Er  Er5  1  0.560062  0.805878  0.754189  1
+  Er  Er6  1  0.948311  0.194122  0.754183  1
+  Er  Er7  1  0.194097  0.948252  0.754155  1
+  Er  Er8  1  0.051689  0.805878  0.245817  1
+  Er  Er9  1  0.805903  0.051748  0.245845  1
+  Er  Er10  1  0.194101  0.439944  0.245843  1
+  Er  Er11  1  0.805899  0.560056  0.754157  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  Tc  Tc13  1  0.339009  0.339010  0.000001  1
+  Tc  Tc14  1  0.660991  0.660990  0.999999  1
+  Pb  Pb15  1  0.500000  0.000000  0.500000  1
+  Pb  Pb16  1  0.000000  0.500000  0.500000  1

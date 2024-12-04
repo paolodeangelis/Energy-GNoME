@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_CsRb3(TcN2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16225500
+_cell_length_b   8.26327800
+_cell_length_c   12.28234500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRb3(TcN2)4
+_chemical_formula_sum   'Cs2 Rb6 Tc8 N16'
+_cell_volume   625.42224179
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.870250  0.000000  1
+  Cs  Cs1  1  0.750000  0.129750  0.500000  1
+  Rb  Rb2  1  0.750000  0.134630  0.000000  1
+  Rb  Rb3  1  0.250000  0.865370  0.500000  1
+  Rb  Rb4  1  0.641764  0.382006  0.249132  1
+  Rb  Rb5  1  0.141764  0.617994  0.250868  1
+  Rb  Rb6  1  0.358236  0.617994  0.749132  1
+  Rb  Rb7  1  0.858236  0.382006  0.750868  1
+  Tc  Tc8  1  0.250000  0.368457  0.000000  1
+  Tc  Tc9  1  0.750000  0.631543  0.500000  1
+  Tc  Tc10  1  0.750000  0.624641  0.000000  1
+  Tc  Tc11  1  0.250000  0.375359  0.500000  1
+  Tc  Tc12  1  0.186737  0.118568  0.250886  1
+  Tc  Tc13  1  0.686737  0.881432  0.249114  1
+  Tc  Tc14  1  0.813263  0.881432  0.750886  1
+  Tc  Tc15  1  0.313263  0.118568  0.749114  1
+  N  N16  1  0.893950  0.049448  0.245345  1
+  N  N17  1  0.393950  0.950552  0.254655  1
+  N  N18  1  0.106050  0.950552  0.745345  1
+  N  N19  1  0.606050  0.049448  0.754655  1
+  N  N20  1  0.230284  0.245781  0.374987  1
+  N  N21  1  0.730284  0.754219  0.125013  1
+  N  N22  1  0.769716  0.754219  0.874987  1
+  N  N23  1  0.269716  0.245781  0.625013  1
+  N  N24  1  0.755468  0.759992  0.625899  1
+  N  N25  1  0.255468  0.240008  0.874101  1
+  N  N26  1  0.244532  0.240008  0.125899  1
+  N  N27  1  0.744532  0.759992  0.374101  1
+  N  N28  1  0.498191  0.505532  0.496207  1
+  N  N29  1  0.998191  0.494468  0.003793  1
+  N  N30  1  0.501809  0.494468  0.996207  1
+  N  N31  1  0.001809  0.505532  0.503793  1

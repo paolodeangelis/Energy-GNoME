@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_CaMg(TaSe2)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.01907400
+_cell_length_b   7.01907589
+_cell_length_c   14.35568900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000052
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMg(TaSe2)8
+_chemical_formula_sum   'Ca1 Mg1 Ta8 Se16'
+_cell_volume   612.51175768
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Mg  Mg1  1  0.000000  0.000000  0.500000  1
+  Ta  Ta2  1  0.000000  0.000000  0.258197  1
+  Ta  Ta3  1  0.000000  0.000000  0.741803  1
+  Ta  Ta4  1  0.509923  0.019846  0.259709  1
+  Ta  Ta5  1  0.490077  0.980154  0.740291  1
+  Ta  Ta6  1  0.980154  0.490077  0.259709  1
+  Ta  Ta7  1  0.019846  0.509923  0.740291  1
+  Ta  Ta8  1  0.509923  0.490077  0.259709  1
+  Ta  Ta9  1  0.490077  0.509923  0.740291  1
+  Se  Se10  1  0.333333  0.666667  0.618886  1
+  Se  Se11  1  0.666667  0.333333  0.381114  1
+  Se  Se12  1  0.666667  0.333333  0.137296  1
+  Se  Se13  1  0.333333  0.666667  0.862704  1
+  Se  Se14  1  0.169692  0.339386  0.145070  1
+  Se  Se15  1  0.830308  0.660614  0.854930  1
+  Se  Se16  1  0.660614  0.830308  0.145070  1
+  Se  Se17  1  0.831700  0.663399  0.626323  1
+  Se  Se18  1  0.339386  0.169692  0.854930  1
+  Se  Se19  1  0.168300  0.336601  0.373677  1
+  Se  Se20  1  0.169692  0.830308  0.145070  1
+  Se  Se21  1  0.336601  0.168300  0.626323  1
+  Se  Se22  1  0.830308  0.169692  0.854930  1
+  Se  Se23  1  0.663399  0.831700  0.373677  1
+  Se  Se24  1  0.831700  0.168300  0.626323  1
+  Se  Se25  1  0.168300  0.831700  0.373677  1

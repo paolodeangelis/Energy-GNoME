@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_MnAlAg2F7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.52506659
+_cell_length_b   7.52506690
+_cell_length_c   7.52506632
+_cell_angle_alpha   120.41083539
+_cell_angle_beta   117.31193414
+_cell_angle_gamma   92.00396270
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAlAg2F7
+_chemical_formula_sum   'Mn2 Al2 Ag4 F14'
+_cell_volume   306.02624830
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.000000  0.000000  0.500000  1
+  Mn  Mn1  1  0.000000  0.500000  0.000000  1
+  Al  Al2  1  0.500000  0.000000  0.500000  1
+  Al  Al3  1  0.000000  0.500000  0.500000  1
+  Ag  Ag4  1  0.000000  0.000000  0.000000  1
+  Ag  Ag5  1  0.500000  0.500000  0.000000  1
+  Ag  Ag6  1  0.500000  0.000000  0.000000  1
+  Ag  Ag7  1  0.500000  0.500000  0.500000  1
+  F  F8  1  0.373326  0.084617  0.288709  1
+  F  F9  1  0.704092  0.415383  0.288709  1
+  F  F10  1  0.676889  0.284164  0.743523  1
+  F  F11  1  0.959358  0.215836  0.392725  1
+  F  F12  1  0.959358  0.566635  0.743523  1
+  F  F13  1  0.676889  0.933365  0.392725  1
+  F  F14  1  0.323111  0.066635  0.607275  1
+  F  F15  1  0.040642  0.433365  0.256477  1
+  F  F16  1  0.040642  0.784164  0.607275  1
+  F  F17  1  0.323111  0.715836  0.256477  1
+  F  F18  1  0.872478  0.750000  0.122478  1
+  F  F19  1  0.626674  0.915383  0.711291  1
+  F  F20  1  0.295908  0.584617  0.711291  1
+  F  F21  1  0.127522  0.250000  0.877522  1

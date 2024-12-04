@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs4Li2MgTiP4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.11495913
+_cell_length_b   12.11495945
+_cell_length_c   12.11496019
+_cell_angle_alpha   149.72814530
+_cell_angle_beta   43.05769385
+_cell_angle_gamma   150.11454991
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4Li2MgTiP4
+_chemical_formula_sum   'Cs4 Li2 Mg1 Ti1 P4'
+_cell_volume   445.46505348
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.373878  0.773106  0.131882  1
+  Cs  Cs1  1  0.126122  0.258004  0.399229  1
+  Cs  Cs2  1  0.858774  0.726893  0.600771  1
+  Cs  Cs3  1  0.641226  0.241996  0.868118  1
+  Li  Li4  1  0.750001  0.250001  0.500000  1
+  Li  Li5  1  0.250001  0.750000  0.500000  1
+  Mg  Mg6  1  0.750000  0.750000  0.000000  1
+  Ti  Ti7  1  0.250001  0.250001  0.000000  1
+  P  P8  1  0.960873  0.249281  0.171734  1
+  P  P9  1  0.539127  0.710860  0.288409  1
+  P  P10  1  0.422452  0.250719  0.711591  1
+  P  P11  1  0.077548  0.789138  0.828266  1

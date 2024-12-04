@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbSr2Cd11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.04371668
+_cell_length_b   9.46972714
+_cell_length_c   9.46972651
+_cell_angle_alpha   66.22126671
+_cell_angle_beta   74.55534048
+_cell_angle_gamma   74.55534139
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbSr2Cd11
+_chemical_formula_sum   'Rb1 Sr2 Cd11'
+_cell_volume   392.42669565
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Sr  Sr1  1  0.700627  0.299373  0.299373  1
+  Sr  Sr2  1  0.299373  0.700627  0.700627  1
+  Cd  Cd3  1  0.665616  0.691718  0.977050  1
+  Cd  Cd4  1  0.334384  0.308282  0.022950  1
+  Cd  Cd5  1  0.665616  0.977050  0.691718  1
+  Cd  Cd6  1  0.334384  0.022950  0.308282  1
+  Cd  Cd7  1  0.500000  0.685704  0.314296  1
+  Cd  Cd8  1  0.500000  0.314296  0.685704  1
+  Cd  Cd9  1  0.863115  0.425630  0.848140  1
+  Cd  Cd10  1  0.136885  0.574370  0.151860  1
+  Cd  Cd11  1  0.863115  0.848140  0.425630  1
+  Cd  Cd12  1  0.136885  0.151860  0.574370  1
+  Cd  Cd13  1  0.000000  0.500000  0.500000  1

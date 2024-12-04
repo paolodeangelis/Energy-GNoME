@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbTiAlO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34544698
+_cell_length_b   7.34544681
+_cell_length_c   7.34544737
+_cell_angle_alpha   133.67183039
+_cell_angle_beta   104.99610297
+_cell_angle_gamma   92.90727451
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbTiAlO4
+_chemical_formula_sum   'Rb2 Ti2 Al2 O8'
+_cell_volume   261.55303313
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.432968  0.932968  0.500000  1
+  Rb  Rb1  1  0.072640  0.072640  0.000000  1
+  Ti  Ti2  1  0.465109  0.669540  0.795568  1
+  Ti  Ti3  1  0.873972  0.669540  0.204432  1
+  Al  Al4  1  0.637938  0.328978  0.308960  1
+  Al  Al5  1  0.020018  0.328978  0.691040  1
+  O  O6  1  0.032387  0.498449  0.024039  1
+  O  O7  1  0.032387  0.008347  0.533937  1
+  O  O8  1  0.474410  0.498449  0.466063  1
+  O  O9  1  0.474410  0.008347  0.975961  1
+  O  O10  1  0.757337  0.498336  0.259000  1
+  O  O11  1  0.239336  0.498336  0.741000  1
+  O  O12  1  0.810645  0.310645  0.500000  1
+  O  O13  1  0.676446  0.676446  0.000000  1

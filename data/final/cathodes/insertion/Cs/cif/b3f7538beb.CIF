@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2NaTiSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.26961599
+_cell_length_b   10.26961615
+_cell_length_c   10.26961672
+_cell_angle_alpha   137.72262363
+_cell_angle_beta   59.82185466
+_cell_angle_gamma   139.71109084
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2NaTiSb2
+_chemical_formula_sum   'Cs4 Na2 Ti2 Sb4'
+_cell_volume   466.38924217
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.325969  0.773331  0.099301  1
+  Cs  Cs1  1  0.174031  0.273331  0.447362  1
+  Cs  Cs2  1  0.825969  0.726670  0.552639  1
+  Cs  Cs3  1  0.674031  0.226670  0.900700  1
+  Na  Na4  1  0.750000  0.250000  0.500000  1
+  Na  Na5  1  0.250000  0.750001  0.500001  1
+  Ti  Ti6  1  0.250000  0.250000  0.000000  1
+  Ti  Ti7  1  0.750000  0.750000  0.000000  1
+  Sb  Sb8  1  0.913726  0.206406  0.120132  1
+  Sb  Sb9  1  0.586274  0.706407  0.292681  1
+  Sb  Sb10  1  0.413726  0.293594  0.707320  1
+  Sb  Sb11  1  0.086274  0.793594  0.879869  1

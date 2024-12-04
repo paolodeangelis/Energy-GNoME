@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_GdAlCoO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.63491200
+_cell_length_b   7.18379300
+_cell_length_c   8.31855600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdAlCoO5
+_chemical_formula_sum   'Gd4 Al4 Co4 O20'
+_cell_volume   336.73549111
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.000000  0.365230  0.670012  1
+  Gd  Gd1  1  0.000000  0.634770  0.329988  1
+  Gd  Gd2  1  0.000000  0.865230  0.829988  1
+  Gd  Gd3  1  0.000000  0.134770  0.170012  1
+  Al  Al4  1  0.500000  0.108116  0.856944  1
+  Al  Al5  1  0.500000  0.891884  0.143056  1
+  Al  Al6  1  0.500000  0.608116  0.643056  1
+  Al  Al7  1  0.500000  0.391884  0.356944  1
+  Co  Co8  1  0.255387  0.500000  0.000000  1
+  Co  Co9  1  0.744613  0.000000  0.500000  1
+  Co  Co10  1  0.744613  0.500000  0.000000  1
+  Co  Co11  1  0.255387  0.000000  0.500000  1
+  O  O12  1  0.252899  0.896875  0.292090  1
+  O  O13  1  0.252899  0.103125  0.707910  1
+  O  O14  1  0.747101  0.396875  0.207910  1
+  O  O15  1  0.747101  0.603125  0.792090  1
+  O  O16  1  0.747101  0.103125  0.707910  1
+  O  O17  1  0.747101  0.896875  0.292090  1
+  O  O18  1  0.252899  0.603125  0.792090  1
+  O  O19  1  0.252899  0.396875  0.207910  1
+  O  O20  1  0.500000  0.345168  0.930091  1
+  O  O21  1  0.500000  0.654832  0.069909  1
+  O  O22  1  0.500000  0.845168  0.569909  1
+  O  O23  1  0.500000  0.154832  0.430091  1
+  O  O24  1  0.282308  0.000000  0.000000  1
+  O  O25  1  0.717692  0.500000  0.500000  1
+  O  O26  1  0.717692  0.000000  0.000000  1
+  O  O27  1  0.282308  0.500000  0.500000  1
+  O  O28  1  0.000000  0.159351  0.446074  1
+  O  O29  1  0.000000  0.840649  0.553926  1
+  O  O30  1  0.000000  0.659351  0.053926  1
+  O  O31  1  0.000000  0.340649  0.946074  1

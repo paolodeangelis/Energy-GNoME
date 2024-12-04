@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_K2Mn(SiO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.62265065
+_cell_length_b   7.62265081
+_cell_length_c   7.62265105
+_cell_angle_alpha   81.53045492
+_cell_angle_beta   81.53044892
+_cell_angle_gamma   81.53044945
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Mn(SiO3)3
+_chemical_formula_sum   'K4 Mn2 Si6 O18'
+_cell_volume   429.71940814
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.225639  0.776018  0.994775  1
+  K  K1  1  0.776018  0.994775  0.225639  1
+  K  K2  1  0.994775  0.225639  0.776018  1
+  K  K3  1  0.503037  0.503037  0.503037  1
+  Mn  Mn4  1  0.224611  0.224611  0.224611  1
+  Mn  Mn5  1  0.739875  0.739875  0.739875  1
+  Si  Si6  1  0.893086  0.511104  0.095015  1
+  Si  Si7  1  0.095015  0.893086  0.511104  1
+  Si  Si8  1  0.511104  0.095015  0.893086  1
+  Si  Si9  1  0.016108  0.548810  0.435645  1
+  Si  Si10  1  0.435645  0.016108  0.548810  1
+  Si  Si11  1  0.548810  0.435645  0.016108  1
+  O  O12  1  0.320844  0.097778  0.022104  1
+  O  O13  1  0.467185  0.158091  0.683730  1
+  O  O14  1  0.683730  0.467185  0.158091  1
+  O  O15  1  0.239782  0.944183  0.632255  1
+  O  O16  1  0.944183  0.632255  0.239782  1
+  O  O17  1  0.590792  0.844786  0.552221  1
+  O  O18  1  0.630102  0.900139  0.911222  1
+  O  O19  1  0.900139  0.911222  0.630102  1
+  O  O20  1  0.552221  0.590792  0.844786  1
+  O  O21  1  0.632255  0.239782  0.944183  1
+  O  O22  1  0.911222  0.630102  0.900139  1
+  O  O23  1  0.844786  0.552221  0.590792  1
+  O  O24  1  0.158091  0.683730  0.467185  1
+  O  O25  1  0.430456  0.119901  0.347018  1
+  O  O26  1  0.347018  0.430456  0.119901  1
+  O  O27  1  0.097778  0.022104  0.320844  1
+  O  O28  1  0.119901  0.347018  0.430456  1
+  O  O29  1  0.022104  0.320844  0.097778  1

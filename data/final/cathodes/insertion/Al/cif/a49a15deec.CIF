@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CeTm7(AlIr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.44060973
+_cell_length_b   9.44060996
+_cell_length_c   9.45821400
+_cell_angle_alpha   59.93830358
+_cell_angle_beta   59.93830276
+_cell_angle_gamma   60.00942609
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeTm7(AlIr)2
+_chemical_formula_sum   'Ce2 Tm14 Al4 Ir4'
+_cell_volume   595.55171356
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.598670  0.598670  0.600555  1
+  Ce  Ce1  1  0.598670  0.598670  0.202107  1
+  Tm  Tm2  1  0.604539  0.189442  0.603010  1
+  Tm  Tm3  1  0.189442  0.604539  0.603010  1
+  Tm  Tm4  1  0.057658  0.443720  0.442716  1
+  Tm  Tm5  1  0.443720  0.057658  0.055906  1
+  Tm  Tm6  1  0.443720  0.057658  0.442716  1
+  Tm  Tm7  1  0.057658  0.443720  0.055906  1
+  Tm  Tm8  1  0.441551  0.441551  0.058449  1
+  Tm  Tm9  1  0.055861  0.055861  0.444139  1
+  Tm  Tm10  1  0.188568  0.813154  0.811951  1
+  Tm  Tm11  1  0.813154  0.188568  0.186326  1
+  Tm  Tm12  1  0.813154  0.188568  0.811951  1
+  Tm  Tm13  1  0.188568  0.813154  0.186326  1
+  Tm  Tm14  1  0.813115  0.813115  0.186885  1
+  Tm  Tm15  1  0.189790  0.189790  0.810210  1
+  Al  Al16  1  0.828984  0.828984  0.828838  1
+  Al  Al17  1  0.828984  0.828984  0.513191  1
+  Al  Al18  1  0.827035  0.516485  0.828239  1
+  Al  Al19  1  0.516485  0.827035  0.828239  1
+  Ir  Ir20  1  0.391345  0.391345  0.393661  1
+  Ir  Ir21  1  0.391345  0.391345  0.823649  1
+  Ir  Ir22  1  0.393373  0.824611  0.391008  1
+  Ir  Ir23  1  0.824611  0.393373  0.391008  1

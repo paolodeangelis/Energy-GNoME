@@ -31,17 +31,22 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Install dependencies
+      - name: Install dependencies MkDocs
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material panel hvplot
+          pip install mkdocs mkdocs-material
+      
+      - name: Install dependencies Apps
+        run: |
+          pip install -r apps/app-requirements.txt
       
       - name: Build MkDocs
         run: mkdocs build
       
       - name: Build Panel Apps
         run: |
-          panel convert apps/cathodes/dashboard.py --to pyodide-worker --out site/apps/cathodes/
+          panel convert apps/cathodes/dashboard.py --compiled --to pyodide-worker --out site/apps/cathodes/ --requirements apps/app-requirements.txt
+          panel convert apps/perovskite/dashboard.py --compiled --to pyodide-worker --out site/apps/perovskite/ --requirements apps/app-requirements.txt
       - name: List site contents  # Add this step to debug
         run: |
           ls -R site/

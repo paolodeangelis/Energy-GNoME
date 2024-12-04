@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Tb10AlInBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.13257650
+_cell_length_b   9.13257604
+_cell_length_c   6.52823000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.17552606
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb10AlInBi4
+_chemical_formula_sum   'Tb10 Al1 In1 Bi4'
+_cell_volume   470.69743289
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.657613  0.338785  0.997755  1
+  Tb  Tb1  1  0.338785  0.657613  0.997755  1
+  Tb  Tb2  1  0.338785  0.657613  0.502245  1
+  Tb  Tb3  1  0.657613  0.338785  0.502245  1
+  Tb  Tb4  1  0.753689  0.753689  0.750000  1
+  Tb  Tb5  1  0.243449  0.014423  0.750000  1
+  Tb  Tb6  1  0.014423  0.243449  0.750000  1
+  Tb  Tb7  1  0.242001  0.242001  0.250000  1
+  Tb  Tb8  1  0.758328  0.992396  0.250000  1
+  Tb  Tb9  1  0.992396  0.758328  0.250000  1
+  Al  Al10  1  0.398888  0.398888  0.750000  1
+  In  In11  1  0.603566  0.603566  0.250000  1
+  Bi  Bi12  1  0.611306  0.004847  0.750000  1
+  Bi  Bi13  1  0.004847  0.611306  0.750000  1
+  Bi  Bi14  1  0.389969  0.994344  0.250000  1
+  Bi  Bi15  1  0.994344  0.389969  0.250000  1

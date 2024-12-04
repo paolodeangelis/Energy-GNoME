@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_KSr3PtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.97542259
+_cell_length_b   6.97542241
+_cell_length_c   6.97542191
+_cell_angle_alpha   88.17473795
+_cell_angle_beta   88.17473478
+_cell_angle_gamma   88.17474096
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSr3PtO6
+_chemical_formula_sum   'K2 Sr6 Pt2 O12'
+_cell_volume   338.89385018
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.750000  0.750000  0.750000  1
+  K  K1  1  0.250000  0.250000  0.250000  1
+  Sr  Sr2  1  0.386531  0.113469  0.750000  1
+  Sr  Sr3  1  0.113469  0.750000  0.386531  1
+  Sr  Sr4  1  0.750000  0.386531  0.113469  1
+  Sr  Sr5  1  0.613469  0.886531  0.250000  1
+  Sr  Sr6  1  0.250000  0.613469  0.886531  1
+  Sr  Sr7  1  0.886531  0.250000  0.613469  1
+  Pt  Pt8  1  0.500000  0.500000  0.500000  1
+  Pt  Pt9  1  0.000000  0.000000  0.000000  1
+  O  O10  1  0.931546  0.064682  0.279326  1
+  O  O11  1  0.279326  0.931546  0.064682  1
+  O  O12  1  0.064682  0.279326  0.931546  1
+  O  O13  1  0.568454  0.220674  0.435318  1
+  O  O14  1  0.435318  0.568454  0.220674  1
+  O  O15  1  0.220674  0.435318  0.568454  1
+  O  O16  1  0.068454  0.935318  0.720674  1
+  O  O17  1  0.720674  0.068454  0.935318  1
+  O  O18  1  0.935318  0.720674  0.068454  1
+  O  O19  1  0.431546  0.779326  0.564682  1
+  O  O20  1  0.779326  0.564682  0.431546  1
+  O  O21  1  0.564682  0.431546  0.779326  1

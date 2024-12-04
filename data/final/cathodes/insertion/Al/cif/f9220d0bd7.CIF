@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sr2LaPrAl8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.97218036
+_cell_length_b   9.97218070
+_cell_length_c   9.97218176
+_cell_angle_alpha   33.82105139
+_cell_angle_beta   33.82104664
+_cell_angle_gamma   33.82105000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2LaPrAl8
+_chemical_formula_sum   'Sr2 La1 Pr1 Al8'
+_cell_volume   273.77272081
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.312798  0.312798  0.312798  1
+  Sr  Sr1  1  0.686634  0.686634  0.686634  1
+  La  La2  1  0.188352  0.188352  0.188352  1
+  Pr  Pr3  1  0.812036  0.812036  0.812036  1
+  Al  Al4  1  0.500080  0.500080  0.500080  1
+  Al  Al5  1  0.999912  0.999912  0.999912  1
+  Al  Al6  1  0.250268  0.250268  0.756416  1
+  Al  Al7  1  0.749782  0.749782  0.243670  1
+  Al  Al8  1  0.250268  0.756416  0.250268  1
+  Al  Al9  1  0.749782  0.243670  0.749782  1
+  Al  Al10  1  0.756416  0.250268  0.250268  1
+  Al  Al11  1  0.243670  0.749782  0.749782  1

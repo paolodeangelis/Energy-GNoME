@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ta8Nb2Al3Ir2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.92183700
+_cell_length_b   9.92183700
+_cell_length_c   5.18666700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta8Nb2Al3Ir2
+_chemical_formula_sum   'Ta16 Nb4 Al6 Ir4'
+_cell_volume   510.59027865
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.398865  0.392934  0.999923  1
+  Ta  Ta1  1  0.892934  0.101135  0.499923  1
+  Ta  Ta2  1  0.107066  0.898865  0.499923  1
+  Ta  Ta3  1  0.601135  0.607066  0.999923  1
+  Ta  Ta4  1  0.129745  0.465267  0.999813  1
+  Ta  Ta5  1  0.965267  0.370255  0.499813  1
+  Ta  Ta6  1  0.034733  0.629745  0.499813  1
+  Ta  Ta7  1  0.870255  0.534733  0.999813  1
+  Ta  Ta8  1  0.373517  0.964515  0.499914  1
+  Ta  Ta9  1  0.626483  0.035485  0.499914  1
+  Ta  Ta10  1  0.464515  0.126483  0.999914  1
+  Ta  Ta11  1  0.535485  0.873517  0.999914  1
+  Ta  Ta12  1  0.183676  0.182426  0.250058  1
+  Ta  Ta13  1  0.682426  0.316324  0.750058  1
+  Ta  Ta14  1  0.317574  0.683676  0.750058  1
+  Ta  Ta15  1  0.816324  0.817574  0.250058  1
+  Nb  Nb16  1  0.316374  0.682032  0.250447  1
+  Nb  Nb17  1  0.683626  0.317968  0.250447  1
+  Nb  Nb18  1  0.182032  0.183626  0.750447  1
+  Nb  Nb19  1  0.817968  0.816374  0.750447  1
+  Al  Al20  1  0.000000  0.000000  0.999565  1
+  Al  Al21  1  0.500000  0.500000  0.499565  1
+  Al  Al22  1  0.241555  0.433004  0.500039  1
+  Al  Al23  1  0.758445  0.566996  0.500039  1
+  Al  Al24  1  0.933004  0.258445  0.000039  1
+  Al  Al25  1  0.066996  0.741555  0.000039  1
+  Ir  Ir26  1  0.258786  0.933629  0.000023  1
+  Ir  Ir27  1  0.433629  0.241214  0.500023  1
+  Ir  Ir28  1  0.566371  0.758786  0.500023  1
+  Ir  Ir29  1  0.741214  0.066371  0.000023  1

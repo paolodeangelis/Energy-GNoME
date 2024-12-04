@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CsK3(In2S3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26743475
+_cell_length_b   7.26743524
+_cell_length_c   9.39851000
+_cell_angle_alpha   82.51990045
+_cell_angle_beta   82.51990790
+_cell_angle_gamma   120.07528948
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsK3(In2S3)2
+_chemical_formula_sum   'Cs1 K3 In4 S6'
+_cell_volume   414.70858766
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.500000  0.500000  1
+  K  K1  1  0.654492  0.345508  0.000000  1
+  K  K2  1  0.345508  0.654492  0.000000  1
+  K  K3  1  0.000000  0.000000  0.000000  1
+  In  In4  1  0.883128  0.218823  0.346928  1
+  In  In5  1  0.781177  0.116872  0.653072  1
+  In  In6  1  0.218823  0.883128  0.346928  1
+  In  In7  1  0.116872  0.781177  0.653072  1
+  S  S8  1  0.408275  0.046258  0.771133  1
+  S  S9  1  0.046258  0.408275  0.771133  1
+  S  S10  1  0.953742  0.591725  0.228867  1
+  S  S11  1  0.771493  0.771493  0.765406  1
+  S  S12  1  0.591725  0.953742  0.228867  1
+  S  S13  1  0.228507  0.228507  0.234594  1

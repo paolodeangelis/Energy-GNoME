@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Ca2MgNi(Pd3O8)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15659039
+_cell_length_b   10.66435959
+_cell_length_c   6.54104690
+_cell_angle_alpha   105.77008763
+_cell_angle_beta   61.92269351
+_cell_angle_gamma   89.99959624
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2MgNi(Pd3O8)2
+_chemical_formula_sum   'Ca2 Mg1 Ni1 Pd6 O16'
+_cell_volume   360.49336248
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.750176  0.749794  0.499647  1
+  Ca  Ca1  1  0.249787  0.250219  0.500426  1
+  Mg  Mg2  1  0.499999  0.500001  0.000002  1
+  Ni  Ni3  1  0.999994  0.999990  0.000021  1
+  Pd  Pd4  1  0.750056  0.750093  0.000020  1
+  Pd  Pd5  1  0.750062  0.249899  0.999971  1
+  Pd  Pd6  1  0.000002  0.500007  0.999995  1
+  Pd  Pd7  1  0.249969  0.249900  0.999971  1
+  Pd  Pd8  1  0.249924  0.750094  0.000021  1
+  Pd  Pd9  1  0.500004  0.000006  0.999994  1
+  O  O10  1  0.091429  0.636130  0.817170  1
+  O  O11  1  0.591530  0.136203  0.816969  1
+  O  O12  1  0.408532  0.863777  0.182906  1
+  O  O13  1  0.908631  0.363851  0.182709  1
+  O  O14  1  0.354822  0.881725  0.807528  1
+  O  O15  1  0.856470  0.381178  0.806094  1
+  O  O16  1  0.903719  0.859762  0.192537  1
+  O  O17  1  0.403006  0.359234  0.193965  1
+  O  O18  1  0.143506  0.618832  0.193939  1
+  O  O19  1  0.645156  0.118283  0.192502  1
+  O  O20  1  0.662535  0.618838  0.193953  1
+  O  O21  1  0.162320  0.118293  0.192522  1
+  O  O22  1  0.837672  0.881715  0.807510  1
+  O  O23  1  0.337456  0.381172  0.806080  1
+  O  O24  1  0.596978  0.640765  0.806067  1
+  O  O25  1  0.096267  0.140239  0.807493  1

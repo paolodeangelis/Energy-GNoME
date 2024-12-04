@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_YbYAg2(Ru2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21874081
+_cell_length_b   7.21874028
+_cell_length_c   7.35387829
+_cell_angle_alpha   59.32228718
+_cell_angle_beta   59.32229030
+_cell_angle_gamma   59.05114927
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbYAg2(Ru2O7)2
+_chemical_formula_sum   'Yb1 Y1 Ag2 Ru4 O14'
+_cell_volume   266.22678214
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.125000  0.125000  0.125000  1
+  Y  Y1  1  0.125000  0.125000  0.625000  1
+  Ag  Ag2  1  0.625000  0.125000  0.125000  1
+  Ag  Ag3  1  0.125000  0.625000  0.125000  1
+  Ru  Ru4  1  0.625000  0.625000  0.625000  1
+  Ru  Ru5  1  0.125000  0.625000  0.625000  1
+  Ru  Ru6  1  0.625000  0.625000  0.125000  1
+  Ru  Ru7  1  0.625000  0.125000  0.625000  1
+  O  O8  1  0.991818  0.991818  0.002946  1
+  O  O9  1  0.258182  0.258182  0.247054  1
+  O  O10  1  0.291387  0.291387  0.706360  1
+  O  O11  1  0.560504  0.560504  0.939578  1
+  O  O12  1  0.703819  0.300978  0.691550  1
+  O  O13  1  0.697363  0.302825  0.308012  1
+  O  O14  1  0.300978  0.703819  0.691550  1
+  O  O15  1  0.302825  0.697363  0.308012  1
+  O  O16  1  0.689496  0.689496  0.310422  1
+  O  O17  1  0.949022  0.546181  0.558450  1
+  O  O18  1  0.552637  0.947175  0.941988  1
+  O  O19  1  0.958613  0.958613  0.543640  1
+  O  O20  1  0.947175  0.552637  0.941988  1
+  O  O21  1  0.546181  0.949022  0.558450  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_CaCuHg(PO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.84678825
+_cell_length_b   5.81857902
+_cell_length_c   6.95753508
+_cell_angle_alpha   75.04909681
+_cell_angle_beta   87.12191767
+_cell_angle_gamma   70.78498309
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCuHg(PO4)2
+_chemical_formula_sum   'Ca1 Cu1 Hg1 P2 O8'
+_cell_volume   178.87961366
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.303126  0.289957  0.307682  1
+  Cu  Cu1  1  0.000644  0.001546  0.000701  1
+  Hg  Hg2  1  0.706590  0.715261  0.691027  1
+  P  P3  1  0.621158  0.692106  0.211879  1
+  P  P4  1  0.376583  0.303399  0.790356  1
+  O  O5  1  0.770622  0.780552  0.013709  1
+  O  O6  1  0.304534  0.705920  0.159152  1
+  O  O7  1  0.780950  0.413905  0.316006  1
+  O  O8  1  0.615348  0.872040  0.344271  1
+  O  O9  1  0.380235  0.128819  0.654179  1
+  O  O10  1  0.213736  0.580042  0.677419  1
+  O  O11  1  0.692516  0.295653  0.841940  1
+  O  O12  1  0.233957  0.220799  0.991675  1

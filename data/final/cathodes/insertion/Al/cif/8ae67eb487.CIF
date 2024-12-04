@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Yb12AlGa7Pd8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72869600
+_cell_length_b   7.86275041
+_cell_length_c   13.85474499
+_cell_angle_alpha   89.89331451
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb12AlGa7Pd8
+_chemical_formula_sum   'Yb12 Al1 Ga7 Pd8'
+_cell_volume   624.06244816
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.145547  0.604930  0.096469  1
+  Yb  Yb1  1  0.145547  0.895070  0.903531  1
+  Yb  Yb2  1  0.853329  0.103368  0.404007  1
+  Yb  Yb3  1  0.853329  0.396632  0.595993  1
+  Yb  Yb4  1  0.853711  0.397864  0.903157  1
+  Yb  Yb5  1  0.853711  0.102136  0.096843  1
+  Yb  Yb6  1  0.146631  0.896629  0.596043  1
+  Yb  Yb7  1  0.146631  0.603371  0.403957  1
+  Yb  Yb8  1  0.369211  0.248135  0.250620  1
+  Yb  Yb9  1  0.369211  0.251865  0.749380  1
+  Yb  Yb10  1  0.630663  0.748007  0.250337  1
+  Yb  Yb11  1  0.630663  0.751993  0.749663  1
+  Al  Al12  1  0.367811  0.250000  0.000000  1
+  Ga  Ga13  1  0.641138  0.750000  0.500000  1
+  Ga  Ga14  1  0.641079  0.750000  0.000000  1
+  Ga  Ga15  1  0.358940  0.250000  0.500000  1
+  Ga  Ga16  1  0.867355  0.397633  0.249982  1
+  Ga  Ga17  1  0.867355  0.102367  0.750018  1
+  Ga  Ga18  1  0.132497  0.897926  0.250147  1
+  Ga  Ga19  1  0.132497  0.602074  0.749853  1
+  Pd  Pd20  1  0.632022  0.462743  0.093314  1
+  Pd  Pd21  1  0.632022  0.037257  0.906686  1
+  Pd  Pd22  1  0.364896  0.964272  0.406180  1
+  Pd  Pd23  1  0.364896  0.535728  0.593820  1
+  Pd  Pd24  1  0.364572  0.532983  0.907103  1
+  Pd  Pd25  1  0.364572  0.967017  0.092897  1
+  Pd  Pd26  1  0.635081  0.035576  0.593872  1
+  Pd  Pd27  1  0.635081  0.464424  0.406128  1

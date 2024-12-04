@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Er4Al2Os5W
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29130032
+_cell_length_b   5.31225413
+_cell_length_c   8.88392900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   117.99363305
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er4Al2Os5W
+_chemical_formula_sum   'Er4 Al2 Os5 W1'
+_cell_volume   220.49914908
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.326813  0.670462  0.433024  1
+  Er  Er1  1  0.661040  0.328971  0.557337  1
+  Er  Er2  1  0.661040  0.328971  0.942663  1
+  Er  Er3  1  0.326813  0.670462  0.066976  1
+  Al  Al4  1  0.184953  0.841192  0.750000  1
+  Al  Al5  1  0.180330  0.342238  0.750000  1
+  Os  Os6  1  0.982528  0.002245  0.506409  1
+  Os  Os7  1  0.982528  0.002245  0.993591  1
+  Os  Os8  1  0.828015  0.651895  0.250000  1
+  Os  Os9  1  0.352366  0.173364  0.250000  1
+  Os  Os10  1  0.671955  0.826803  0.750000  1
+  W  W11  1  0.841615  0.161155  0.250000  1

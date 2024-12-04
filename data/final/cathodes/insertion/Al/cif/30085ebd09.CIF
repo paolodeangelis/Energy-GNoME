@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm4Al2(TcRu)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27114246
+_cell_length_b   5.28016459
+_cell_length_c   8.94607300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.90274661
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm4Al2(TcRu)3
+_chemical_formula_sum   'Tm4 Al2 Tc3 Ru3'
+_cell_volume   215.84403623
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.667285  0.333327  0.565339  1
+  Tm  Tm1  1  0.338238  0.669153  0.442495  1
+  Tm  Tm2  1  0.338238  0.669153  0.057505  1
+  Tm  Tm3  1  0.667285  0.333327  0.934661  1
+  Al  Al4  1  0.826565  0.664325  0.250000  1
+  Al  Al5  1  0.826164  0.161967  0.250000  1
+  Tc  Tc6  1  0.167194  0.335926  0.750000  1
+  Tc  Tc7  1  0.166857  0.831894  0.750000  1
+  Tc  Tc8  1  0.651251  0.826151  0.750000  1
+  Ru  Ru9  1  0.003993  0.001610  0.494765  1
+  Ru  Ru10  1  0.003993  0.001610  0.005235  1
+  Ru  Ru11  1  0.342939  0.171559  0.250000  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La4AlCo2SiI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.23206200
+_cell_length_b   4.23206009
+_cell_length_c   17.63826400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La4AlCo2SiI2
+_chemical_formula_sum   'La4 Al1 Co2 Si1 I2'
+_cell_volume   273.58372118
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.400407  1
+  La  La1  1  0.000000  0.000000  0.893127  1
+  La  La2  1  0.000000  0.000000  0.601671  1
+  La  La3  1  0.000000  0.000000  0.109521  1
+  Al  Al4  1  0.666667  0.333333  0.001880  1
+  Co  Co5  1  0.666667  0.333333  0.496559  1
+  Co  Co6  1  0.333333  0.666667  0.996799  1
+  Si  Si7  1  0.333333  0.666667  0.502790  1
+  I  I8  1  0.333333  0.666667  0.251796  1
+  I  I9  1  0.666667  0.333333  0.745450  1

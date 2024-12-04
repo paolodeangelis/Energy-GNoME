@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbBa2Hg10Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.81399997
+_cell_length_b   9.81399906
+_cell_length_c   9.81400096
+_cell_angle_alpha   148.17671209
+_cell_angle_beta   116.45243232
+_cell_angle_gamma   72.83448340
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBa2Hg10Bi
+_chemical_formula_sum   'Rb1 Ba2 Hg10 Bi1'
+_cell_volume   439.22749027
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Ba  Ba1  1  0.695438  0.695438  0.000000  1
+  Ba  Ba2  1  0.304562  0.304562  0.000000  1
+  Hg  Hg3  1  0.133924  0.854990  0.278935  1
+  Hg  Hg4  1  0.866076  0.145010  0.721065  1
+  Hg  Hg5  1  0.423946  0.145010  0.278935  1
+  Hg  Hg6  1  0.576054  0.854990  0.721065  1
+  Hg  Hg7  1  0.020231  0.663069  0.357161  1
+  Hg  Hg8  1  0.979769  0.336931  0.642839  1
+  Hg  Hg9  1  0.694093  0.336931  0.357161  1
+  Hg  Hg10  1  0.305907  0.663069  0.642839  1
+  Hg  Hg11  1  0.688923  0.500000  0.188923  1
+  Hg  Hg12  1  0.311077  0.500000  0.811077  1
+  Bi  Bi13  1  0.500000  0.000000  0.500000  1

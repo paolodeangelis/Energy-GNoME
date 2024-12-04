@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaFe(Sb4Ir)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09013646
+_cell_length_b   8.09013620
+_cell_length_c   8.09013591
+_cell_angle_alpha   109.39625754
+_cell_angle_beta   109.39625757
+_cell_angle_gamma   109.39625207
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaFe(Sb4Ir)3
+_chemical_formula_sum   'Na1 Fe1 Sb12 Ir3'
+_cell_volume   408.73813938
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Sb  Sb2  1  0.657401  0.811319  0.154068  1
+  Sb  Sb3  1  0.845932  0.342599  0.188681  1
+  Sb  Sb4  1  0.505661  0.834123  0.657018  1
+  Sb  Sb5  1  0.834123  0.657018  0.505661  1
+  Sb  Sb6  1  0.494339  0.165877  0.342982  1
+  Sb  Sb7  1  0.154068  0.657401  0.811319  1
+  Sb  Sb8  1  0.811319  0.154068  0.657401  1
+  Sb  Sb9  1  0.188681  0.845932  0.342599  1
+  Sb  Sb10  1  0.165877  0.342982  0.494339  1
+  Sb  Sb11  1  0.657018  0.505661  0.834123  1
+  Sb  Sb12  1  0.342982  0.494339  0.165877  1
+  Sb  Sb13  1  0.342599  0.188681  0.845932  1
+  Ir  Ir14  1  0.000000  0.000000  0.500000  1
+  Ir  Ir15  1  0.000000  0.500000  0.000000  1
+  Ir  Ir16  1  0.500000  0.000000  0.000000  1

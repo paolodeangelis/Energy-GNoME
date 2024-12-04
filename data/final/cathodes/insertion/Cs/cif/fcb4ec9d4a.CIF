@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CsYSiTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.62305400
+_cell_length_b   7.23662818
+_cell_length_c   10.56192100
+_cell_angle_alpha   72.31487769
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsYSiTe4
+_chemical_formula_sum   'Cs2 Y2 Si2 Te8'
+_cell_volume   555.11472776
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.980672  0.741932  0.063192  1
+  Cs  Cs1  1  0.480672  0.258068  0.936808  1
+  Y  Y2  1  0.501271  0.229064  0.455495  1
+  Y  Y3  1  0.001271  0.770936  0.544505  1
+  Si  Si4  1  0.464010  0.783592  0.338785  1
+  Si  Si5  1  0.964010  0.216408  0.661215  1
+  Te  Te6  1  0.468867  0.574379  0.187580  1
+  Te  Te7  1  0.226096  0.040520  0.294212  1
+  Te  Te8  1  0.738241  0.991979  0.311661  1
+  Te  Te9  1  0.887843  0.433719  0.431556  1
+  Te  Te10  1  0.387843  0.566281  0.568444  1
+  Te  Te11  1  0.238241  0.008021  0.688339  1
+  Te  Te12  1  0.726096  0.959480  0.705788  1
+  Te  Te13  1  0.968867  0.425621  0.812420  1

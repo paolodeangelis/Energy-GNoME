@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Na(HfTe2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.92544772
+_cell_length_b   8.92544877
+_cell_length_c   10.58299857
+_cell_angle_alpha   47.13250423
+_cell_angle_beta   47.13249530
+_cell_angle_gamma   53.06253727
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(HfTe2)4
+_chemical_formula_sum   'Na1 Hf4 Te8'
+_cell_volume   437.66185441
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Hf  Hf1  1  0.248366  0.248366  0.003029  1
+  Hf  Hf2  1  0.751634  0.751634  0.996971  1
+  Hf  Hf3  1  0.244922  0.755078  0.500000  1
+  Hf  Hf4  1  0.755078  0.244922  0.500000  1
+  Te  Te5  1  0.307805  0.307805  0.665599  1
+  Te  Te6  1  0.803022  0.803022  0.669814  1
+  Te  Te7  1  0.305921  0.801319  0.170321  1
+  Te  Te8  1  0.801319  0.305921  0.170321  1
+  Te  Te9  1  0.198681  0.694079  0.829679  1
+  Te  Te10  1  0.694079  0.198681  0.829679  1
+  Te  Te11  1  0.196978  0.196978  0.330186  1
+  Te  Te12  1  0.692195  0.692195  0.334401  1

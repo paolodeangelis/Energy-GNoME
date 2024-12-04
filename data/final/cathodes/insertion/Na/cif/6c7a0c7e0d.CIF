@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaHfTe3Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.40988494
+_cell_length_b   4.13550700
+_cell_length_c   10.37626617
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   108.19685658
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaHfTe3Au
+_chemical_formula_sum   'Na2 Hf2 Te6 Au2'
+_cell_volume   342.82981119
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.256170  0.250000  0.282381  1
+  Na  Na1  1  0.743830  0.749999  0.717618  1
+  Hf  Hf2  1  0.700540  0.250000  0.179236  1
+  Hf  Hf3  1  0.299459  0.749999  0.820763  1
+  Te  Te4  1  0.437209  0.749999  0.127764  1
+  Te  Te5  1  0.924062  0.749999  0.134697  1
+  Te  Te6  1  0.716866  0.250000  0.456836  1
+  Te  Te7  1  0.283134  0.749999  0.543164  1
+  Te  Te8  1  0.075937  0.250000  0.865303  1
+  Te  Te9  1  0.562791  0.250000  0.872237  1
+  Au  Au10  1  0.914811  0.749999  0.394773  1
+  Au  Au11  1  0.085190  0.250000  0.605228  1

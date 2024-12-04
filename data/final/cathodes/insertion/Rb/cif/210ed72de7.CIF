@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbAlSeCl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32908000
+_cell_length_b   7.12713000
+_cell_length_c   8.12160200
+_cell_angle_alpha   110.42658859
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbAlSeCl2
+_chemical_formula_sum   'Rb2 Al2 Se2 Cl4'
+_cell_volume   343.31457097
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.571444  0.651227  0.804264  1
+  Rb  Rb1  1  0.071444  0.348773  0.195736  1
+  Al  Al2  1  0.464168  0.930410  0.364469  1
+  Al  Al3  1  0.964168  0.069590  0.635531  1
+  Se  Se4  1  0.089055  0.917762  0.345457  1
+  Se  Se5  1  0.589055  0.082238  0.654543  1
+  Cl  Cl6  1  0.062871  0.920506  0.819900  1
+  Cl  Cl7  1  0.562871  0.079494  0.180100  1
+  Cl  Cl8  1  0.062463  0.387584  0.761526  1
+  Cl  Cl9  1  0.562463  0.612416  0.238474  1

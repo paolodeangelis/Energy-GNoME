@@ -139,10 +139,10 @@ class PerovskiteDatabase(BaseDatabase):
     def _pre_retrieve_perovproj(self, mute_progress_bars: bool = True) -> list[str]:
         mp_api_key = get_mp_api_key()
         with open(self.external_perovproj_path) as f:
-            dict = json.load(f)
+            dict_ = json.load(f)
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
-                query = mpr.materials.summary.search(formula=dict, fields="material_id")
+                query = mpr.materials.summary.search(formula=dict_, fields="material_id")
                 logger.info(
                     f"MP query successful, {len(query)} perovskite IDs found through Perovskite Project formulae."
                 )

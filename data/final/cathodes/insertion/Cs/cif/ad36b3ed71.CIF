@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs2LiTaO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21001755
+_cell_length_b   7.21001633
+_cell_length_c   8.39654700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   128.35861284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2LiTaO4
+_chemical_formula_sum   'Cs4 Li2 Ta2 O8'
+_cell_volume   342.26932050
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.394258  0.605742  0.554458  1
+  Cs  Cs1  1  0.605742  0.394258  0.054458  1
+  Cs  Cs2  1  0.059365  0.940635  0.409452  1
+  Cs  Cs3  1  0.940635  0.059365  0.909452  1
+  Li  Li4  1  0.194141  0.805859  0.826285  1
+  Li  Li5  1  0.805859  0.194141  0.326285  1
+  Ta  Ta6  1  0.694486  0.305514  0.610961  1
+  Ta  Ta7  1  0.305514  0.694486  0.110961  1
+  O  O8  1  0.101854  0.408059  0.221294  1
+  O  O9  1  0.898146  0.591941  0.721294  1
+  O  O10  1  0.363217  0.636783  0.907428  1
+  O  O11  1  0.636783  0.363217  0.407428  1
+  O  O12  1  0.591941  0.898146  0.221294  1
+  O  O13  1  0.408059  0.101854  0.721294  1
+  O  O14  1  0.836742  0.163258  0.570126  1
+  O  O15  1  0.163258  0.836742  0.070126  1

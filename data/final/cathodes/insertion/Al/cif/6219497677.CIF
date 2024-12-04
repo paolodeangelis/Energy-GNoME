@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbSm3(AlIr3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.43964781
+_cell_length_b   9.43964856
+_cell_length_c   9.68223500
+_cell_angle_alpha   31.18335799
+_cell_angle_beta   31.18335046
+_cell_angle_gamma   34.43224773
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbSm3(AlIr3)2
+_chemical_formula_sum   'Yb1 Sm3 Al2 Ir6'
+_cell_volume   216.97229535
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.689206  0.689206  0.684176  1
+  Sm  Sm1  1  0.190099  0.190099  0.184056  1
+  Sm  Sm2  1  0.809333  0.809333  0.813413  1
+  Sm  Sm3  1  0.314397  0.314397  0.313259  1
+  Al  Al4  1  0.251481  0.251481  0.746217  1
+  Al  Al5  1  0.749614  0.749614  0.252037  1
+  Ir  Ir6  1  0.998470  0.998470  0.004137  1
+  Ir  Ir7  1  0.500090  0.500090  0.499785  1
+  Ir  Ir8  1  0.752766  0.246839  0.249885  1
+  Ir  Ir9  1  0.248387  0.749317  0.751574  1
+  Ir  Ir10  1  0.246839  0.752766  0.249885  1
+  Ir  Ir11  1  0.749317  0.248387  0.751574  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y12AlInCo4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.39180653
+_cell_length_b   8.39180642
+_cell_length_c   8.39180659
+_cell_angle_alpha   111.39845927
+_cell_angle_beta   110.19282119
+_cell_angle_gamma   106.85601455
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y12AlInCo4
+_chemical_formula_sum   'Y12 Al1 In1 Co4'
+_cell_volume   454.17036821
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.434012  0.228479  0.205533  1
+  Y  Y1  1  0.565988  0.771521  0.794467  1
+  Y  Y2  1  0.022946  0.228479  0.794467  1
+  Y  Y3  1  0.977054  0.771521  0.205533  1
+  Y  Y4  1  0.184256  0.284726  0.468982  1
+  Y  Y5  1  0.815744  0.715274  0.531018  1
+  Y  Y6  1  0.184256  0.715274  0.899531  1
+  Y  Y7  1  0.815744  0.284726  0.100469  1
+  Y  Y8  1  0.315429  0.619270  0.303842  1
+  Y  Y9  1  0.684571  0.380730  0.696158  1
+  Y  Y10  1  0.315429  0.011587  0.696158  1
+  Y  Y11  1  0.684571  0.988413  0.303842  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  In  In13  1  0.500000  0.500000  0.000000  1
+  Co  Co14  1  0.376684  0.000000  0.376684  1
+  Co  Co15  1  0.623316  0.000000  0.623316  1
+  Co  Co16  1  0.110828  0.610828  0.500000  1
+  Co  Co17  1  0.889172  0.389172  0.500000  1

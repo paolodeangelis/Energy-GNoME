@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm2ScAlIr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.88468800
+_cell_length_b   4.26037900
+_cell_length_c   8.24857800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2ScAlIr2
+_chemical_formula_sum   'Tm4 Sc2 Al2 Ir4'
+_cell_volume   241.94217724
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.963827  0.250000  0.176217  1
+  Tm  Tm1  1  0.463827  0.250000  0.323783  1
+  Tm  Tm2  1  0.026407  0.750000  0.827970  1
+  Tm  Tm3  1  0.526407  0.750000  0.672030  1
+  Sc  Sc4  1  0.866951  0.250000  0.560778  1
+  Sc  Sc5  1  0.366951  0.250000  0.939222  1
+  Al  Al6  1  0.139835  0.750000  0.439525  1
+  Al  Al7  1  0.639835  0.750000  0.060475  1
+  Ir  Ir8  1  0.742983  0.250000  0.886690  1
+  Ir  Ir9  1  0.242983  0.250000  0.613310  1
+  Ir  Ir10  1  0.259997  0.750000  0.125610  1
+  Ir  Ir11  1  0.759997  0.750000  0.374390  1
