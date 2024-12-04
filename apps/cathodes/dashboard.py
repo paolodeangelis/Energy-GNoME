@@ -12,7 +12,7 @@ import requests
 # CONSTANTS (settings)
 SITE = "Energy-GNoME"
 SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
-FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/site/favicon.png"
+FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/favicon.png"
 TITLE = "Cathode materials explorer"
 LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
 DATA_PATH_TEMPLATE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/cathodes/{ctype}/{ion}/candidates.json"
