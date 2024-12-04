@@ -2,14 +2,26 @@ site_name: Energy-GNoME
 site_url: https://paolodeangelis.github.io/Energy-GNoME/
 repo_url: https://github.com/paolodeangelis/Energy-GNoME/
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: assets/img/logo.png
   favicon: assets/img/favicon.png
   palette:
+    # # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: gnome2
+      primary: gnome
+      accent: gnome
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -17,6 +29,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: gnome
+      accent: gnome
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -45,7 +59,7 @@ extra:
   homepage: /
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
+      link: https://github.com/paolodeangelis/Energy-GNoME/
 
 markdown_extensions:
   - pymdownx.highlight
