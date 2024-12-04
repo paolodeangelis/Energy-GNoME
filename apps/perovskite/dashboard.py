@@ -1,20 +1,22 @@
 from functools import partial
 from io import StringIO
 
+from bokeh.models import HoverTool, HTMLTemplateFormatter
 import hvplot.pandas
 import numpy as np
 import pandas as pd
 import panel as pn
 import requests
-from bokeh.models import HoverTool, HTMLTemplateFormatter
 
 # CONSTANTS (settings)
 TITLE = "Database-Name: Material class 2 explorer"
-DATA_PATH = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/mclass2.json"
+DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/mclass2.json"
+BIB_FILE = (
+    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
 )
-BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
-RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
+RIS_FILE = (
+    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
+)
 ACCENT = "#eb8a21"
 PALETTE = [
     "#50c4d3",
@@ -62,7 +64,7 @@ TABLE_FORMATTER = {
     "File": HTMLTemplateFormatter(
         template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/cif/test1.cif?download=1" download="<%= value %>.cif" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.cif </a></code>'  # noqa: E501
     )
-    # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>') # noqa: E501
+    # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>') # noqa: E501,W505
 }
 ABOUT_W = 500
 ABOUT_MSG = """
@@ -229,9 +231,7 @@ def apply_range_filter(
     return df[(df[column] >= start) & (df[column] <= end)]
 
 
-def apply_category_filter(
-    df: pd.DataFrame, category: str, item_to_hide: str
-) -> pd.DataFrame:
+def apply_category_filter(df: pd.DataFrame, category: str, item_to_hide: str) -> pd.DataFrame:
     """
     Filter out rows from the DataFrame where the specified category column matches the item to hide.
 
@@ -289,9 +289,7 @@ def min_max_norm(v: pd.Series) -> pd.Series:
     return (v - v_min) / (v_max - v_min)
 
 
-def show_selected_columns(
-    table: pn.widgets.Tabulator, columns: list
-) -> pn.widgets.Tabulator:
+def show_selected_columns(table: pn.widgets.Tabulator, columns: list) -> pn.widgets.Tabulator:
     """
     Update the table widget to display only the selected columns by hiding the others.
 
@@ -329,7 +327,8 @@ def build_interactive_table(
     Args:
         w_property1 to w_property8: IntSlider widgets representing weights for each property.
         columns (list): A list of column names to be displayed in the table.
-        sliders (dict, optional): A dictionary where keys are column names and values are RangeSlider widgets for filtering. Defaults to None.
+        sliders (dict, optional): A dictionary where keys are column names and values
+                                  are RangeSlider widgets for filtering. Defaults to None.
         categories (list, optional): A list of categories to be displayed. Defaults to None.
 
     Returns:
@@ -365,16 +364,12 @@ def build_interactive_table(
     if sliders:
         for column, slider in sliders.items():
             if column in df.columns:  # Ensure the column exists in the DataFrame
-                table.add_filter(
-                    pn.bind(apply_range_filter, column=column, value_range=slider)
-                )
+                table.add_filter(pn.bind(apply_range_filter, column=column, value_range=slider))
     # Apply category filters for categories
     if categories:
         hidden_ions = set(all_ions) - set(categories)
         for ion in hidden_ions:
-            table.add_filter(
-                pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=ion)
-            )
+            table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=ion))
     # Add download section
     filename, button = table.download_menu(
         text_kwargs={"name": "Enter filename", "value": "cathode_candidates.csv"},
@@ -465,7 +460,6 @@ def build_interactive_plot(
         x="Property 2",
         y="Property 3",
         s=100,
-        # noqa:E501 hover_cols=['ID', 'Category 1', 'Property 1', 'Property 2', 'Property 3', 'Property 4', 'File'],  hover_cols='all',
         line_color="white",
         c=CATEGORY,
         legend="top",

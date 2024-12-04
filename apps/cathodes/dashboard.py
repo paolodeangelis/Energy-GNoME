@@ -7,20 +7,20 @@ import hvplot.pandas
 import numpy as np
 import pandas as pd
 import panel as pn
-import param 
+import param
 import requests
 
 # CONSTANTS (settings)
-SITE="Energy-GNoME"
+SITE = "Energy-GNoME"
 TITLE = "Cathode materials explorer"
-LOGO = "https://upload.wikimedia.org/wikipedia/commons/3/3b/Batteries.jpg"
+LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
 DATA_PATH_TEMPLATE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/cathodes/{ctype}/{ion}/candidates.json"
-BIB_FILE = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
-)
-RIS_FILE = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
-)
+BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.bib"
+RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.ris"
+RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.rtf"
+ARTICLE_DOI = "10.48550/arXiv.2411.10125"
+ARTICLE_TEXT_CITE = f'De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: <a href="https://doi.org/{ARTICLE_DOI}" target="_blank">{ARTICLE_DOI}</a>.'
+DOC_PAGE = "https://paolodeangelis.github.io/Energy-GNoME/..."
 ACCENT = "#3abccd"
 PALETTE = [
     "#50c4d3",
@@ -61,24 +61,24 @@ COLUMNS = [
     "Ranking",
     "File",
 ]
-HOVER_COL =  [
+HOVER_COL = [
     ("Material Id", "@{Material Id}"),
     ("Working Ion", "@{Working Ion}"),
     ("Average Voltage", "@{Average Voltage (V)}{0.2f} V"),
     ("AI-experts confidence", "@{AI-experts confidence (-)}{0.2f}"),
-    ("Max Volume expansion", "@{Max Volume expansion (-)}{0.2f} %"),  
-    ("Volumetric capacity", "@{Volumetric capacity (mAh/L)}{0.2f} mAh/L"),  
-    ("Gravimetric capacity", "@{Gravimetric capacity (mAh/g)}{0.2f} mAh/g"), 
-    ("Volumetric energy", "@{Volumetric energy (Wh/L)}{0.2f} Wh/L"),   
-    ("Gravimetric energy", "@{Gravimetric energy (Wh/kg)}{0.2f} Wh/kg"),     
+    ("Max Volume expansion", "@{Max Volume expansion (-)}{0.2f} %"),
+    ("Volumetric capacity", "@{Volumetric capacity (mAh/L)}{0.2f} mAh/L"),
+    ("Gravimetric capacity", "@{Gravimetric capacity (mAh/g)}{0.2f} mAh/g"),
+    ("Volumetric energy", "@{Volumetric energy (Wh/L)}{0.2f} Wh/L"),
+    ("Gravimetric energy", "@{Gravimetric energy (Wh/kg)}{0.2f} Wh/kg"),
 ]
 
 COLUMNS_ACTIVE = [
     "Material Id",
     "Formula",
-    "Volumetric capacity (mAh/L)",
+    # "Volumetric capacity (mAh/L)",
     "Gravimetric capacity (mAh/g)",
-    "Volumetric energy (Wh/L)",
+    # "Volumetric energy (Wh/L)",
     "Gravimetric energy (Wh/kg)",
     "Average Voltage (V)",
     "AI-experts confidence (-)",
@@ -86,28 +86,40 @@ COLUMNS_ACTIVE = [
     "File",
 ]
 N_ROW = 12
-SIDEBAR_W = 380
-SIDEBAR_WIDGET_W = 320
-PLOT_SIZE = [900, 500]  # WxH
+SIDEBAR_W = 350
+SIDEBAR_WIDGET_W = 290
+PLOT_SIZE = [850, 550]  # WxH
 TABLE_FORMATTER = {
     "File": HTMLTemplateFormatter(
         template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/cif/test1.cif?download=1" download="<%= value %>.cif" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.cif </a></code>'  # noqa: E501, W505
     )
     # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>') # noqa: E501, W505
 }
-ABOUT_W = 500
-ABOUT_MSG = """
-# About
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Proin id porttitor dui. In neque lectus, malesuada sed arcu vitae, cursus tincidunt nisl. Etiam lacinia congue porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mollis id justo eu mattis. Duis quis vulputate massa. Morbi est tortor, fermentum in neque non, aliquet suscipit justo. Sed sed odio efficitur, viverra ante fermentum, pulvinar ex. Sed id bibendum elit, faucibus convallis dui. Donec eu pulvinar orci.
-Nullam et libero vitae orci molestie gravida at nec risus. Nam ipsum sapien, lacinia molestie nulla quis, ornare laoreet velit. Maecenas nec volutpat nulla. Ut erat ipsum, porttitor vel bibendum in, volutpat in ex. Vestibulum vel odio orci.
-Proin eget turpis et erat faucibus feugiat non vel nisi. Ut sed erat sed ligula cursus bibendum. Proin ultricies accumsan diam, vitae fermentum nulla commodo in. Nulla vehicula odio sit amet dictum tristique. Phasellus non posuere mi, vel vehicula neque. Donec leo turpis, iaculis vel enim eget, convallis elementum mi. Donec euismod mattis orci et interdum.
+ABOUT_W = 600
+ABOUT_MSG = f"""
+# Usage
+
+This dashboard allows you to explore candidate cathode materials from the GNoME database.
+
+On the left sidebar, you can dynamically filter the materials displayed on the scatter plot and in the table below. Use the sliders to set thresholds for various properties, which act as filters to narrow down the database to the most relevant materials for your needs.
+
+The ranking function enables you to prioritize materials based on your criteria. You can adjust the weights for each property directly in the widget bar to influence the ranking score.
+
+Once you've refined your search and explored the materials, you can download the filtered list as a .CSV file for more detailed analysis. Additionally, you can use the links in the results table to download the corresponding CIF files.
+
+For in-depth guidance or further details about the features, please refer to the [documentation pages]({DOC_PAGE}).
 
 If you find this dataset valuable, please consider citing the original work:
 
-> De Angelis, Paolo, et al. "Article Title to be defiened" *Journal*.
+> {ARTICLE_TEXT_CITE}
 
 """
+META = {
+    "description": "Explore advanced cathode material analysis and Artificial Intelligence screening with interactive tools from the GNoME database.",
+    "keywords": "cathode materials, GNoME database, material analysis, battery research, interactive dashboard, artificial intelligence",
+    "authors": "Paolo De Angelis, Giulio Barletta, Giovanni Trezza",
+    "viewport": f"width={SIDEBAR_W+SIDEBAR_WIDGET_W+PLOT_SIZE[0]+ABOUT_W:d}px, initial-scale=1",
+}
 FOOTER = f"""
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
@@ -533,7 +545,7 @@ def build_interactive_plot(
         ylabel="Average Voltage (V)",
         cmap=PALETTE,
         # tools=[hover],
-        hover_tooltips=HOVER_COL
+        hover_tooltips=HOVER_COL,
     )
 
     # Combine background and foreground scatter plots
@@ -766,53 +778,65 @@ sliders = {}
 sliders_helper = {}
 # Property 1
 s_property1 = create_range_slider("Average Voltage (V)", "Average Voltage (V)")
-s_property1_help = pn.widgets.TooltipIcon(value="<b>Average Voltage (V)</b>: Average voltage predicted by the ensemble committee of four E3NN models.")
+s_property1_help = pn.widgets.TooltipIcon(
+    value="<b>Average Voltage (V)</b>: Average voltage predicted by the ensemble committee of four E3NN models."
+)
 sliders["Average Voltage (V)"] = s_property1
 sliders_helper["Average Voltage (V)"] = s_property1_help
 # Property 2
-s_property2 = create_range_slider(
-    "AI-experts confidence (-)", "AI-experts confidence (-)"
+s_property2 = create_range_slider("AI-experts confidence (-)", "AI-experts confidence (-)")
+s_property2_help = pn.widgets.TooltipIcon(
+    value="<b>AI-experts confidence (-)</b>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a cathode."
 )
-s_property2_help = pn.widgets.TooltipIcon(value="<b>AI-experts confidence (-)</b>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a cathode.")
 sliders["AI-experts confidence (-)"] = s_property2
 sliders_helper["AI-experts confidence (-)"] = s_property2_help
 # Property 3
 s_property3 = create_range_slider("Max Volume expansion (-)", "Max Volume expansion (-)")
-s_property3_help = pn.widgets.TooltipIcon(value="<b>Max Volume expansion (-)</b>: Predicted maximum volume expansion (<i>V<sub>max</sub>/V<sub>min</sub></i>)of the cathode during discharge, estimated by the ensemble committee of four E3NN models.")
+s_property3_help = pn.widgets.TooltipIcon(
+    value="<b>Max Volume expansion (-)</b>: Predicted maximum volume expansion (<i>V<sub>max</sub>/V<sub>min</sub></i>)of the cathode during discharge, estimated by the ensemble committee of four E3NN models."
+)
 sliders["Max Volume expansion (-)"] = s_property3
 sliders_helper["Max Volume expansion (-)"] = s_property3_help
 # Property 4
-s_property4 = create_range_slider(
-    "Stability charge (eV/atom)", "Stability charge (eV/atom)"
+s_property4 = create_range_slider("Stability charge (eV/atom)", "Stability charge (eV/atom)")
+s_property4_help = pn.widgets.TooltipIcon(
+    value="<b>Stability charge (eV/atom)</b>: Predicted energy above the hull for the specified charge state."
 )
-s_property4_help = pn.widgets.TooltipIcon(value="<b>Stability charge (eV/atom)</b>: Predicted energy above the hull for the specified charge state.")
 sliders["Stability charge (eV/atom)"] = s_property4
 sliders_helper["Stability charge (eV/atom)"] = s_property4_help
 # Property 5
-s_property5 = create_range_slider(
-    "Stability discharge (eV/atom)", "Stability discharge (eV/atom)"
+s_property5 = create_range_slider("Stability discharge (eV/atom)", "Stability discharge (eV/atom)")
+s_property5_help = pn.widgets.TooltipIcon(
+    value="<b>Stability discharge (eV/atom)</b>: Predicted energy above the hull for the specified discharge state."
 )
-s_property5_help = pn.widgets.TooltipIcon(value="<b>Stability discharge (eV/atom)</b>: Predicted energy above the hull for the specified discharge state.")
 sliders["Stability discharge (eV/atom)"] = s_property5
 sliders_helper["Stability discharge (eV/atom)"] = s_property5_help
 # Property 6
 s_property6 = create_range_slider("Volumetric capacity (mAh/L)", "Volumetric capacity (mAh/L)")
-s_property6_help = pn.widgets.TooltipIcon(value="<b>Volumetric capacity (mAh/L)</b>:  Capacity denisty of the pure cathode material.")
+s_property6_help = pn.widgets.TooltipIcon(
+    value="<b>Volumetric capacity (mAh/L)</b>:  Capacity denisty of the pure cathode material."
+)
 sliders["Volumetric capacity (mAh/L)"] = s_property6
 sliders_helper["Volumetric capacity (mAh/L)"] = s_property6_help
 # Property 7
 s_property7 = create_range_slider("Gravimetric capacity (mAh/g)", "Gravimetric capacity (mAh/g)")
-s_property7_help = pn.widgets.TooltipIcon(value="<b>Gravimetric capacity (mAh/g)</b>: Specific capacity of the pure cathode material.")
+s_property7_help = pn.widgets.TooltipIcon(
+    value="<b>Gravimetric capacity (mAh/g)</b>: Specific capacity of the pure cathode material."
+)
 sliders["Gravimetric capacity (mAh/g)"] = s_property7
 sliders_helper["Gravimetric capacity (mAh/g)"] = s_property7_help
 # Property 8
 s_property8 = create_range_slider("Volumetric energy (Wh/L)", "Volumetric energy (Wh/L)")
-s_property8_help = pn.widgets.TooltipIcon(value="<b>Volumetric energy (Wh/L)</b>: Energy denisty of the pure cathode material.")
+s_property8_help = pn.widgets.TooltipIcon(
+    value="<b>Volumetric energy (Wh/L)</b>: Energy denisty of the pure cathode material."
+)
 sliders["Volumetric energy (Wh/L)"] = s_property8
 sliders_helper["Volumetric energy (Wh/L)"] = s_property8_help
 # Property 9
 s_property9 = create_range_slider("Gravimetric energy (Wh/kg)", "Gravimetric energy (Wh/kg)")
-s_property9_help = pn.widgets.TooltipIcon(value="<b>Gravimetric energy (Wh/kg)</b>: Specific energy of the pure cathode material.")
+s_property9_help = pn.widgets.TooltipIcon(
+    value="<b>Gravimetric energy (Wh/kg)</b>: Specific energy of the pure cathode material."
+)
 sliders["Gravimetric energy (Wh/kg)"] = s_property9
 sliders_helper["Gravimetric energy (Wh/kg)"] = s_property9_help
 
@@ -894,8 +918,18 @@ download_ris = pn.widgets.FileDownload(
     callback=partial(get_raw_file_github, RIS_FILE),
     embed=True,
 )
+download_rtf = pn.widgets.FileDownload(
+    icon="download",
+    label="Download RTF ",
+    button_type="primary",
+    filename="reference.rtf",
+    callback=partial(get_raw_file_github, RTF_FILE),
+    embed=True,
+)
 
-about_box = pn.Column(text_info, pn.Row(download_bibtex, download_ris))
+about_box = pn.Column(
+    text_info, pn.Row(download_bibtex, download_ris, download_rtf, styles=dict(margin="auto"))
+)
 
 # Layout
 weights_col = pn.Column()
@@ -959,7 +993,11 @@ footer = pn.pane.HTML(FOOTER, sizing_mode="stretch_width")
 pn.template.FastListTemplate(
     site=SITE,
     title=TITLE,
-    logo=LOGO, 
+    logo=LOGO,
+    meta_author=META["authors"],
+    meta_viewport=META["viewport"],
+    meta_keywords=META["keywords"],
+    meta_description=META["description"],
     sidebar=[box_select_ions, divider_sb, controls_tabs_intro, controls_tabs],
     main=[
         pn.Row(plot, about_box),
