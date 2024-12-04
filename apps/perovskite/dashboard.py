@@ -61,9 +61,10 @@ HOVER_COL = [
 ]
 COLUMNS_ACTIVE = [
     "Material Id",
-    "Composition",
+    "Formula",
     "Average Band Gap (eV)",
     "AI-experts confidence (-)",
+    "Ranking",
     "File",
 ]
 N_ROW = 12
@@ -379,7 +380,7 @@ def build_interactive_table(
     """
     # Calculate ranking based on weights and normalize
     ranking = (
-        w_property1 * min_max_norm(df["Average Band Gap (eV)"] - 1.34)
+        w_property1 * min_max_norm(abs(df["Average Band Gap (eV)"] - 1.34))
         + w_property2 * min_max_norm(df["AI-experts confidence (-)"])
         + w_property3 * min_max_norm(df["Formation Energy (eV/atom)"])
         + w_property4 * min_max_norm(df[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"])
