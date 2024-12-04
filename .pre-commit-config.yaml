@@ -47,11 +47,11 @@ repos:
       - id: nbqa-flake8
         args: [--ignore=E402]
 
-  - repo: https://github.com/PyCQA/flake8
+  - repo: https://github.com/pycqa/flake8
     rev: 7.1.1
     hooks:
       - id: flake8
-        args: [--config, ./setup.cfg]
+        # args: ['--config=setup.cfg']
 
   # -   repo: https://github.com/pre-commit/mirrors-mypy
   #     rev: 'v1.8.0'  # Use the sha / tag you want to point at

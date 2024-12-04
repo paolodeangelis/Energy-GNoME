@@ -1,4 +1,5 @@
 [flake8]
+# Flake8, PyFlakes, etc
 per-file-ignores = __init__.py:F401
 max-line-length = 120
 exclude = .tox,.git

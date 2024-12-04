@@ -7,18 +7,20 @@ import hvplot.pandas
 import numpy as np
 import pandas as pd
 import panel as pn
+import param
 import requests
 
 # CONSTANTS (settings)
-TITLE = "Database-Name: Material class 1 explorer"
-# DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/mclass1.json"
+SITE = "Energy-GNoME"
+TITLE = "Cathode materials explorer"
+LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
 DATA_PATH_TEMPLATE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/cathodes/{ctype}/{ion}/candidates.json"
-BIB_FILE = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
-)
-RIS_FILE = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
-)
+BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.bib"
+RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.ris"
+RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.rtf"
+ARTICLE_DOI = "10.48550/arXiv.2411.10125"
+ARTICLE_TEXT_CITE = f'De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: <a href="https://doi.org/{ARTICLE_DOI}" target="_blank">{ARTICLE_DOI}</a>.'
+DOC_PAGE = "https://paolodeangelis.github.io/Energy-GNoME/..."
 ACCENT = "#3abccd"
 PALETTE = [
     "#50c4d3",
@@ -46,10 +48,10 @@ COLUMNS = [
     "Average Voltage (deviation) (V)",
     "AI-experts confidence (-)",
     "AI-experts confidence (deviation) (-)",
-    "Max Volume expansion (%)",
-    "Max Volume expansion (deviation) (%)",
+    "Max Volume expansion (-)",
+    "Max Volume expansion (deviation) (-)",
     "Stability charge (eV/atom)",
-    "Stability charge phase (deviation) (eV/atom)",
+    "Stability charge (deviation) (eV/atom)",
     "Stability discharge (eV/atom)",
     "Stability discharge (deviation) (eV/atom)",
     "Volumetric capacity (mAh/L)",
@@ -59,38 +61,65 @@ COLUMNS = [
     "Ranking",
     "File",
 ]
+HOVER_COL = [
+    ("Material Id", "@{Material Id}"),
+    ("Working Ion", "@{Working Ion}"),
+    ("Average Voltage", "@{Average Voltage (V)}{0.2f} V"),
+    ("AI-experts confidence", "@{AI-experts confidence (-)}{0.2f}"),
+    ("Max Volume expansion", "@{Max Volume expansion (-)}{0.2f} %"),
+    ("Volumetric capacity", "@{Volumetric capacity (mAh/L)}{0.2f} mAh/L"),
+    ("Gravimetric capacity", "@{Gravimetric capacity (mAh/g)}{0.2f} mAh/g"),
+    ("Volumetric energy", "@{Volumetric energy (Wh/L)}{0.2f} Wh/L"),
+    ("Gravimetric energy", "@{Gravimetric energy (Wh/kg)}{0.2f} Wh/kg"),
+]
+
 COLUMNS_ACTIVE = [
     "Material Id",
-    "Composition",
+    "Formula",
+    # "Volumetric capacity (mAh/L)",
+    "Gravimetric capacity (mAh/g)",
+    # "Volumetric energy (Wh/L)",
+    "Gravimetric energy (Wh/kg)",
     "Average Voltage (V)",
     "AI-experts confidence (-)",
-    # "Max Volume expansion (%)",
-    # "Stability charge (eV/atom)",
-    # "File",
+    "Ranking",
+    "File",
 ]
 N_ROW = 12
-SIDEBAR_W = 380
-SIDEBAR_WIDGET_W = 320
-PLOT_SIZE = [900, 500]  # WxH
+SIDEBAR_W = 350
+SIDEBAR_WIDGET_W = 290
+PLOT_SIZE = [850, 550]  # WxH
 TABLE_FORMATTER = {
     "File": HTMLTemplateFormatter(
         template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/cif/test1.cif?download=1" download="<%= value %>.cif" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.cif </a></code>'  # noqa: E501, W505
     )
     # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>') # noqa: E501, W505
 }
-ABOUT_W = 500
-ABOUT_MSG = """
-# About
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Proin id porttitor dui. In neque lectus, malesuada sed arcu vitae, cursus tincidunt nisl. Etiam lacinia congue porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mollis id justo eu mattis. Duis quis vulputate massa. Morbi est tortor, fermentum in neque non, aliquet suscipit justo. Sed sed odio efficitur, viverra ante fermentum, pulvinar ex. Sed id bibendum elit, faucibus convallis dui. Donec eu pulvinar orci.
-Nullam et libero vitae orci molestie gravida at nec risus. Nam ipsum sapien, lacinia molestie nulla quis, ornare laoreet velit. Maecenas nec volutpat nulla. Ut erat ipsum, porttitor vel bibendum in, volutpat in ex. Vestibulum vel odio orci.
-Proin eget turpis et erat faucibus feugiat non vel nisi. Ut sed erat sed ligula cursus bibendum. Proin ultricies accumsan diam, vitae fermentum nulla commodo in. Nulla vehicula odio sit amet dictum tristique. Phasellus non posuere mi, vel vehicula neque. Donec leo turpis, iaculis vel enim eget, convallis elementum mi. Donec euismod mattis orci et interdum.
+ABOUT_W = 600
+ABOUT_MSG = f"""
+# Usage
+
+This dashboard allows you to explore candidate cathode materials from the GNoME database.
+
+On the left sidebar, you can dynamically filter the materials displayed on the scatter plot and in the table below. Use the sliders to set thresholds for various properties, which act as filters to narrow down the database to the most relevant materials for your needs.
+
+The ranking function enables you to prioritize materials based on your criteria. You can adjust the weights for each property directly in the widget bar to influence the ranking score.
+
+Once you've refined your search and explored the materials, you can download the filtered list as a .CSV file for more detailed analysis. Additionally, you can use the links in the results table to download the corresponding CIF files.
+
+For in-depth guidance or further details about the features, please refer to the [documentation pages]({DOC_PAGE}).
 
 If you find this dataset valuable, please consider citing the original work:
 
-> De Angelis, Paolo, et al. "Article Title to be defiened" *Journal*.
+> {ARTICLE_TEXT_CITE}
 
 """
+META = {
+    "description": "Explore advanced cathode material analysis and Artificial Intelligence screening with interactive tools from the GNoME database.",
+    "keywords": "cathode materials, GNoME database, material analysis, battery research, interactive dashboard, artificial intelligence",
+    "authors": "Paolo De Angelis, Giulio Barletta, Giovanni Trezza",
+    "viewport": f"width={SIDEBAR_W+SIDEBAR_WIDGET_W+PLOT_SIZE[0]+ABOUT_W:d}px, initial-scale=1",
+}
 FOOTER = f"""
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
@@ -333,16 +362,20 @@ def show_selected_columns(table: pn.widgets.Tabulator, columns: list) -> pn.widg
 
 def build_interactive_table(
     # weights
-    w_property1: pn.widgets.IntSlider,
-    w_property2: pn.widgets.IntSlider,
-    w_property3: pn.widgets.IntSlider,
-    w_property4: pn.widgets.IntSlider,
-    w_property5: pn.widgets.IntSlider,
-    w_property6: pn.widgets.IntSlider,
-    w_property7: pn.widgets.IntSlider,
-    w_property8: pn.widgets.IntSlider,
-    w_property9: pn.widgets.IntSlider,
-    w_property10: pn.widgets.IntSlider,
+    w_property1: pn.widgets.FloatSlider,
+    w_property2: pn.widgets.FloatSlider,
+    w_property3: pn.widgets.FloatSlider,
+    w_property4: pn.widgets.FloatSlider,
+    w_property5: pn.widgets.FloatSlider,
+    w_property6: pn.widgets.FloatSlider,
+    w_property7: pn.widgets.FloatSlider,
+    w_property8: pn.widgets.FloatSlider,
+    w_property9: pn.widgets.FloatSlider,
+    w_property10: pn.widgets.FloatSlider,
+    w_property11: pn.widgets.FloatSlider,
+    w_property12: pn.widgets.FloatSlider,
+    w_property13: pn.widgets.FloatSlider,
+    w_property14: pn.widgets.FloatSlider,
     # sliders
     # s_classifier_mean: pn.widgets.RangeSlider,
     columns: list,
@@ -353,7 +386,7 @@ def build_interactive_table(
     Build an interactive table with ranking and filtering features based on the provided weights and filters.
 
     Args:
-        w_property1 to w_property8: IntSlider widgets representing weights for each property.
+        w_property1 to w_property8: FloatSlider widgets representing weights for each property.
         columns (list): A list of column names to be displayed in the table.
         sliders (dict, optional): A dictionary where keys are column names and values are
                                   RangeSlider widgets for filtering. Defaults to None.
@@ -368,12 +401,16 @@ def build_interactive_table(
         + w_property2 * min_max_norm(df["Average Voltage (deviation) (V)"])
         + w_property3 * min_max_norm(df["AI-experts confidence (-)"])
         + w_property4 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
-        + w_property5 * min_max_norm(df["Max Volume expansion (%)"])
-        + w_property6 * min_max_norm(df["Max Volume expansion (deviation) (%)"])
+        + w_property5 * min_max_norm(df["Max Volume expansion (-)"])
+        + w_property6 * min_max_norm(df["Max Volume expansion (deviation) (-)"])
         + w_property7 * min_max_norm(df["Stability charge (eV/atom)"])
-        + w_property8 * min_max_norm(df["Stability charge phase (deviation) (eV/atom)"])
+        + w_property8 * min_max_norm(df["Stability charge (deviation) (eV/atom)"])
         + w_property9 * min_max_norm(df["Stability discharge (eV/atom)"])
         + w_property10 * min_max_norm(df["Stability discharge (deviation) (eV/atom)"])
+        + w_property11 * min_max_norm(df["Volumetric capacity (mAh/L)"])
+        + w_property12 * min_max_norm(df["Gravimetric capacity (mAh/g)"])
+        + w_property13 * min_max_norm(df["Volumetric energy (Wh/L)"])
+        + w_property14 * min_max_norm(df["Gravimetric energy (Wh/kg)"])
     )
     # Add the ranking to the DataFrame and normalize
     df["Ranking"] = min_max_norm(ranking)
@@ -408,27 +445,27 @@ def build_interactive_table(
     return pn.Column(filename, button, table)
 
 
-hover = HoverTool(
-    # tooltips=[
-    #     ("ID", "@{ID}"),
-    #     ("Category 1", "@{Category 1}"),
-    #     ("Average Voltage (V)", "@{Property 1}{0.2f}"),
-    #     ("AI-experts confidence (-)", "@{Property 2}{0.2f}"),
-    #     ("Max Volume expansion (%)", "@{Property 3}{0.2f}"),
-    # ],
-    tooltips=[
-        (
-            col,
-            (
-                f"@{{{col}}}{{0.2f}}"
-                if df[col].dtype in ["float64", "float32", "float", "int"]
-                else f"@{{{col}}}"
-            ),
-        )
-        for col in df.columns
-    ],
-    mode="mouse",  # 'mouse' mode ensures only the topmost point is selected
-)
+# hover = HoverTool(
+#     # tooltips=[
+#     #     ("ID", "@{ID}"),
+#     #     ("Category 1", "@{Category 1}"),
+#     #     ("Average Voltage (V)", "@{Property 1}{0.2f}"),
+#     #     ("AI-experts confidence (-)", "@{Property 2}{0.2f}"),
+#     #     ("Max Volume expansion (-)", "@{Property 3}{0.2f}"),
+#     # ],
+#     tooltips=[
+#             (
+#                 col,
+#                 (
+#                     f"@{{{col}}}{{0.2f}}"
+#                     if df[col].dtype in ["float64", "float32", "float", "int"]
+#                     else f"@{{{col}}}"
+#                 ),
+#             )
+#             for col in df.columns
+#         ],
+#      mode='mouse'  # 'mouse' mode ensures only the topmost point is selected
+# )
 
 
 def build_interactive_plot(
@@ -440,6 +477,7 @@ def build_interactive_plot(
     s_property6: pn.widgets.RangeSlider,
     s_property7: pn.widgets.RangeSlider,
     s_property8: pn.widgets.RangeSlider,
+    s_property9: pn.widgets.RangeSlider,
     categories: list = None,
 ) -> hvplot:
     """
@@ -458,12 +496,13 @@ def build_interactive_plot(
     filters = [
         ("Average Voltage (V)", s_property1),
         ("AI-experts confidence (-)", s_property2),
-        ("Max Volume expansion (%)", s_property3),
+        ("Max Volume expansion (-)", s_property3),
         ("Stability charge (eV/atom)", s_property4),
         ("Stability discharge (eV/atom)", s_property5),
         ("Volumetric capacity (mAh/L)", s_property6),
         ("Gravimetric capacity (mAh/g)", s_property7),
         ("Volumetric energy (Wh/L)", s_property8),
+        ("Gravimetric energy (Wh/kg)", s_property9),
     ]
 
     for col, slider in filters:
@@ -473,25 +512,10 @@ def build_interactive_plot(
     if categories:
         plot_df = plot_df[plot_df[CATEGORY].isin(categories)]
 
-    # Updated hover tool to show all columns
-    hover = HoverTool(
-        tooltips=[
-            (
-                col,
-                (
-                    f"@{{{col}}}{{0.2f}}"
-                    if df[col].dtype in ["float64", "float32"]
-                    else f"@{{{col}}}"
-                ),
-            )
-            for col in df.columns
-        ]
-    )
-
     # Background scatter plot with all data
     back_scatter = df.hvplot.scatter(
-        x="AI-experts confidence (-)",
-        y="Max Volume expansion (%)",
+        x="Gravimetric capacity (mAh/g)",
+        y="Average Voltage (V)",
         s=100,
         alpha=0.25,
         color="#444",
@@ -499,28 +523,29 @@ def build_interactive_plot(
         hover_cols="all",
     ).opts(
         tools=[],
-        logx=False,
-        logy=True,
-        xlabel="Property 2 (-)",
-        ylabel="Property 3 (-)",
+        logx=True,
+        logy=False,
+        xlabel="Gravimetric capacity (mAh/g)",
+        ylabel="Average Voltage (V)",
     )
 
     # Foreground scatter plot with filtered data
     front_scatter = plot_df.hvplot.scatter(
-        x="AI-experts confidence (-)",
-        y="Max Volume expansion (%)",
+        x="Gravimetric capacity (mAh/g)",
+        y="Average Voltage (V)",
         s=100,
         line_color="white",
         c=CATEGORY,
         legend="top",
         hover_cols="all",
     ).opts(
-        logx=False,
-        logy=True,
-        xlabel="Property 2 (-)",
-        ylabel="Property 3 (-)",
+        logx=True,
+        logy=False,
+        xlabel="Gravimetric capacity (mAh/g)",
+        ylabel="Average Voltage (V)",
         cmap=PALETTE,
-        tools=[hover],
+        # tools=[hover],
+        hover_tooltips=HOVER_COL,
     )
 
     # Combine background and foreground scatter plots
@@ -538,155 +563,215 @@ def build_interactive_plot(
 weights = {}
 weights_helper = {}
 # Property 1
-w_property1 = pn.widgets.IntSlider(
+w_property1 = pn.widgets.FloatSlider(
     name="Average Voltage (V)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=0,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property1_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 1' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Average Voltage (V)' property in the <b><i>ranking function</i></b>."
 )
 weights["Average Voltage (V)"] = w_property1
 weights_helper["Average Voltage (V)"] = w_property1_help
 # Property 2
-w_property2 = pn.widgets.IntSlider(
-    name="AI-experts confidence (-)",
+w_property2 = pn.widgets.FloatSlider(
+    name="Average Voltage (deviation) (V)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=-2,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property2_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 2' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Average Voltage (deviation) (V)' property in the <b><i>ranking function</i></b>."
 )
-weights["AI-experts confidence (-)"] = w_property2
-weights_helper["AI-experts confidence (-)"] = w_property2_help
+weights["Average Voltage (deviation) (V)"] = w_property2
+weights_helper["Average Voltage (deviation) (V)"] = w_property2_help
 # Property 3
-w_property3 = pn.widgets.IntSlider(
-    name="Max Volume expansion (%)",
+w_property3 = pn.widgets.FloatSlider(
+    name="AI-experts confidence (-)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=4,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property3_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 3' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'AI-experts confidence (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Max Volume expansion (%)"] = w_property3
-weights_helper["Max Volume expansion (%)"] = w_property3_help
+weights["AI-experts confidence (-)"] = w_property3
+weights_helper["AI-experts confidence (-)"] = w_property3_help
 # Property 4
-w_property4 = pn.widgets.IntSlider(
-    name="Stability charge (eV/atom)",
+w_property4 = pn.widgets.FloatSlider(
+    name="AI-experts confidence (deviation) (-)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=-2,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property4_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 4' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'AI-experts confidence (deviation) (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Stability charge (eV/atom)"] = w_property4
-weights_helper["Stability charge (eV/atom)"] = w_property4_help
+weights["AI-experts confidence (deviation) (-)"] = w_property4
+weights_helper["AI-experts confidence (deviation) (-)"] = w_property4_help
 # Property 5
-w_property5 = pn.widgets.IntSlider(
-    name="Stability discharge (eV/atom)",
+w_property5 = pn.widgets.FloatSlider(
+    name="Max Volume expansion (-)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=-0.5,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property5_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 5' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Max Volume expansion (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Stability discharge (eV/atom)"] = w_property5
-weights_helper["Stability discharge (eV/atom)"] = w_property5_help
+weights["Max Volume expansion (-)"] = w_property5
+weights_helper["Max Volume expansion (-)"] = w_property5_help
 # Property 6
-w_property6 = pn.widgets.IntSlider(
-    name="Volumetric capacity (mAh/L)",
+w_property6 = pn.widgets.FloatSlider(
+    name="Max Volume expansion (deviation) (-)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=0,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property6_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 6' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Max Volume expansion (deviation) (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Volumetric capacity (mAh/L)"] = w_property6
-weights_helper["Volumetric capacity (mAh/L)"] = w_property6_help
+weights["Max Volume expansion (deviation) (-)"] = w_property6
+weights_helper["Max Volume expansion (deviation) (-)"] = w_property6_help
 # Property 7
-w_property7 = pn.widgets.IntSlider(
-    name="Gravimetric capacity (mAh/g)",
+w_property7 = pn.widgets.FloatSlider(
+    name="Stability charge (eV/atom)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=-0.5,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property7_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 7' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Stability charge (eV/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Gravimetric capacity (mAh/g)"] = w_property7
-weights_helper["Gravimetric capacity (mAh/g)"] = w_property7_help
+weights["Stability charge (eV/atom)"] = w_property7
+weights_helper["Stability charge (eV/atom)"] = w_property7_help
 # Property 8
-w_property8 = pn.widgets.IntSlider(
-    name="Volumetric energy (Wh/L)",
+w_property8 = pn.widgets.FloatSlider(
+    name="Stability charge (deviation) (eV/atom)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=0,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property8_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 8' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Stability charge (deviation) (eV/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Volumetric energy (Wh/L)"] = w_property8
-weights_helper["Volumetric energy (Wh/L)"] = w_property8_help
+weights["Stability charge (deviation) (eV/atom)"] = w_property8
+weights_helper["Stability charge (deviation) (eV/atom)"] = w_property8_help
 # Property 9
-w_property9 = pn.widgets.IntSlider(
-    name="Volumetric energy (Wh/L)",
+w_property9 = pn.widgets.FloatSlider(
+    name="Stability discharge (eV/atom)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=-0.5,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property9_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 8' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Stability discharge (eV/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Volumetric energy (Wh/L)"] = w_property9
-weights_helper["Volumetric energy (Wh/L)"] = w_property9_help
-# Property 9
-w_property10 = pn.widgets.IntSlider(
-    name="Volumetric energy (Wh/L)",
+weights["Stability discharge (eV/atom)"] = w_property9
+weights_helper["Stability discharge (eV/atom)"] = w_property9_help
+# Property 10
+w_property10 = pn.widgets.FloatSlider(
+    name="Stability discharge (deviation) (eV/atom)",
     start=-10,
     end=10,
-    step=1,
-    value=1,
+    step=0.5,
+    value=0,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property10_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Property 8' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Stability discharge (deviation) (eV/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Volumetric energy (Wh/L)"] = w_property10
-weights_helper["Volumetric energy (Wh/L)"] = w_property10_help
+weights["Stability discharge (deviation) (eV/atom)"] = w_property10
+weights_helper["Stability discharge (deviation) (eV/atom)"] = w_property10_help
+# Property 11
+w_property11 = pn.widgets.FloatSlider(
+    name="Volumetric capacity (mAh/L)",
+    start=-10,
+    end=10,
+    step=0.5,
+    value=0,
+    sizing_mode="fixed",
+    width=SIDEBAR_WIDGET_W,
+)
+w_property11_help = pn.widgets.TooltipIcon(
+    value="Adjust the weight of the 'Volumetric capacity (mAh/L)' property in the <b><i>ranking function</i></b>."
+)
+weights["Volumetric capacity (mAh/L)"] = w_property11
+weights_helper["Volumetric capacity (mAh/L)"] = w_property11_help
+# Property 12
+w_property12 = pn.widgets.FloatSlider(
+    name="Gravimetric capacity (mAh/g)",
+    start=-10,
+    end=10,
+    step=0.5,
+    value=2,
+    sizing_mode="fixed",
+    width=SIDEBAR_WIDGET_W,
+)
+w_property12_help = pn.widgets.TooltipIcon(
+    value="Adjust the weight of the 'Gravimetric capacity (mAh/g)' property in the <b><i>ranking function</i></b>."
+)
+weights["Gravimetric capacity (mAh/g)"] = w_property12
+weights_helper["Gravimetric capacity (mAh/g)"] = w_property12_help
+# Property 13
+w_property13 = pn.widgets.FloatSlider(
+    name="Volumetric energy (Wh/L)",
+    start=-10,
+    end=10,
+    step=0.5,
+    value=0,
+    sizing_mode="fixed",
+    width=SIDEBAR_WIDGET_W,
+)
+w_property13_help = pn.widgets.TooltipIcon(
+    value="Adjust the weight of the 'Volumetric energy (Wh/L)' property in the <b><i>ranking function</i></b>."
+)
+weights["Volumetric energy (Wh/L)"] = w_property13
+weights_helper["Volumetric energy (Wh/L)"] = w_property13_help
+# Property 14
+w_property14 = pn.widgets.FloatSlider(
+    name="Gravimetric energy (Wh/kg)",
+    start=-10,
+    end=10,
+    step=0.5,
+    value=2,
+    sizing_mode="fixed",
+    width=SIDEBAR_WIDGET_W,
+)
+w_property14_help = pn.widgets.TooltipIcon(
+    value="Adjust the weight of the 'Gravimetric energy (Wh/kg)' property in the <b><i>ranking function</i></b>."
+)
+weights["Gravimetric energy (Wh/kg)"] = w_property14
+weights_helper["Gravimetric energy (Wh/kg)"] = w_property14_help
 
 # (2) Widget SIDEBAR : properties range
 sliders = {}
@@ -694,45 +779,66 @@ sliders_helper = {}
 # Property 1
 s_property1 = create_range_slider("Average Voltage (V)", "Average Voltage (V)")
 s_property1_help = pn.widgets.TooltipIcon(
-    value="<b>Average Voltage (V)</b> Average voltage predicted by the ensemble committee of four E3NN models."
+    value="<b>Average Voltage (V)</b>: Average voltage predicted by the ensemble committee of four E3NN models."
 )
 sliders["Average Voltage (V)"] = s_property1
 sliders_helper["Average Voltage (V)"] = s_property1_help
 # Property 2
-s_property2 = create_range_slider("AI-experts confidence (-)", "Property 2 (-)")
-s_property2_help = pn.widgets.TooltipIcon(value="<b>Property 2 (-)</b> description...")
+s_property2 = create_range_slider("AI-experts confidence (-)", "AI-experts confidence (-)")
+s_property2_help = pn.widgets.TooltipIcon(
+    value="<b>AI-experts confidence (-)</b>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a cathode."
+)
 sliders["AI-experts confidence (-)"] = s_property2
 sliders_helper["AI-experts confidence (-)"] = s_property2_help
 # Property 3
-s_property3 = create_range_slider("Max Volume expansion (%)", "Property 3 (-)")
-s_property3_help = pn.widgets.TooltipIcon(value="<b>Property 3 (-)</b> description...")
-sliders["Max Volume expansion (%)"] = s_property3
-sliders_helper["Max Volume expansion (%)"] = s_property3_help
+s_property3 = create_range_slider("Max Volume expansion (-)", "Max Volume expansion (-)")
+s_property3_help = pn.widgets.TooltipIcon(
+    value="<b>Max Volume expansion (-)</b>: Predicted maximum volume expansion (<i>V<sub>max</sub>/V<sub>min</sub></i>)of the cathode during discharge, estimated by the ensemble committee of four E3NN models."
+)
+sliders["Max Volume expansion (-)"] = s_property3
+sliders_helper["Max Volume expansion (-)"] = s_property3_help
 # Property 4
-s_property4 = create_range_slider("Stability charge (eV/atom)", "Property 4 (-)")
-s_property4_help = pn.widgets.TooltipIcon(value="<b>Property 4 (-)</b> description...")
+s_property4 = create_range_slider("Stability charge (eV/atom)", "Stability charge (eV/atom)")
+s_property4_help = pn.widgets.TooltipIcon(
+    value="<b>Stability charge (eV/atom)</b>: Predicted energy above the hull for the specified charge state."
+)
 sliders["Stability charge (eV/atom)"] = s_property4
 sliders_helper["Stability charge (eV/atom)"] = s_property4_help
 # Property 5
-s_property5 = create_range_slider("Stability discharge (eV/atom)", "Property 5 (-)")
-s_property5_help = pn.widgets.TooltipIcon(value="<b>Property 5 (-)</b> description...")
+s_property5 = create_range_slider("Stability discharge (eV/atom)", "Stability discharge (eV/atom)")
+s_property5_help = pn.widgets.TooltipIcon(
+    value="<b>Stability discharge (eV/atom)</b>: Predicted energy above the hull for the specified discharge state."
+)
 sliders["Stability discharge (eV/atom)"] = s_property5
 sliders_helper["Stability discharge (eV/atom)"] = s_property5_help
 # Property 6
-s_property6 = create_range_slider("Volumetric capacity (mAh/L)", "Property 6 (-)")
-s_property6_help = pn.widgets.TooltipIcon(value="<b>Property 6 (-)</b> description...")
+s_property6 = create_range_slider("Volumetric capacity (mAh/L)", "Volumetric capacity (mAh/L)")
+s_property6_help = pn.widgets.TooltipIcon(
+    value="<b>Volumetric capacity (mAh/L)</b>:  Capacity denisty of the pure cathode material."
+)
 sliders["Volumetric capacity (mAh/L)"] = s_property6
 sliders_helper["Volumetric capacity (mAh/L)"] = s_property6_help
 # Property 7
-s_property7 = create_range_slider("Gravimetric capacity (mAh/g)", "Property 7 (-)")
-s_property7_help = pn.widgets.TooltipIcon(value="<b>Property 7 (-)</b> description...")
+s_property7 = create_range_slider("Gravimetric capacity (mAh/g)", "Gravimetric capacity (mAh/g)")
+s_property7_help = pn.widgets.TooltipIcon(
+    value="<b>Gravimetric capacity (mAh/g)</b>: Specific capacity of the pure cathode material."
+)
 sliders["Gravimetric capacity (mAh/g)"] = s_property7
 sliders_helper["Gravimetric capacity (mAh/g)"] = s_property7_help
 # Property 8
-s_property8 = create_range_slider("Volumetric energy (Wh/L)", "Property 8 (-)")
-s_property8_help = pn.widgets.TooltipIcon(value="<b>Property 8 (-)</b> description...")
+s_property8 = create_range_slider("Volumetric energy (Wh/L)", "Volumetric energy (Wh/L)")
+s_property8_help = pn.widgets.TooltipIcon(
+    value="<b>Volumetric energy (Wh/L)</b>: Energy denisty of the pure cathode material."
+)
 sliders["Volumetric energy (Wh/L)"] = s_property8
 sliders_helper["Volumetric energy (Wh/L)"] = s_property8_help
+# Property 9
+s_property9 = create_range_slider("Gravimetric energy (Wh/kg)", "Gravimetric energy (Wh/kg)")
+s_property9_help = pn.widgets.TooltipIcon(
+    value="<b>Gravimetric energy (Wh/kg)</b>: Specific energy of the pure cathode material."
+)
+sliders["Gravimetric energy (Wh/kg)"] = s_property9
+sliders_helper["Gravimetric energy (Wh/kg)"] = s_property9_help
 
 # (3) Widget SIDEBAR: Ions selection
 select_ions = pn.widgets.MultiChoice(
@@ -768,6 +874,10 @@ downloadable_table = pn.bind(
     w_property8=w_property8,
     w_property9=w_property9,
     w_property10=w_property10,
+    w_property11=w_property11,
+    w_property12=w_property12,
+    w_property13=w_property13,
+    w_property14=w_property14,
     # sliders
     # s_classifier_mean=s_classifier_mean,
     columns=select_properties,
@@ -786,6 +896,7 @@ plot = pn.bind(
     s_property6=s_property6,
     s_property7=s_property7,
     s_property8=s_property8,
+    s_property9=s_property9,
     categories=select_ions,
 )
 
@@ -807,8 +918,18 @@ download_ris = pn.widgets.FileDownload(
     callback=partial(get_raw_file_github, RIS_FILE),
     embed=True,
 )
+download_rtf = pn.widgets.FileDownload(
+    icon="download",
+    label="Download RTF ",
+    button_type="primary",
+    filename="reference.rtf",
+    callback=partial(get_raw_file_github, RTF_FILE),
+    embed=True,
+)
 
-about_box = pn.Column(text_info, pn.Row(download_bibtex, download_ris))
+about_box = pn.Column(
+    text_info, pn.Row(download_bibtex, download_ris, download_rtf, styles=dict(margin="auto"))
+)
 
 # Layout
 weights_col = pn.Column()
@@ -854,8 +975,8 @@ ul {
     margin-block-end: 0.3em;
 }
 </style>
-## Working categories
-Add or remove rows belloging to specific category"""
+## Working Ion
+Easily manage cathodes associated with a specific working ion."""
         ),
         #    pn.widgets.TooltipIcon(
         #        value="Add or remove <i>cathodes</i> with a specific <i>active ion material</i>"
@@ -870,7 +991,13 @@ footer = pn.pane.HTML(FOOTER, sizing_mode="stretch_width")
 
 
 pn.template.FastListTemplate(
+    site=SITE,
     title=TITLE,
+    logo=LOGO,
+    meta_author=META["authors"],
+    meta_viewport=META["viewport"],
+    meta_keywords=META["keywords"],
+    meta_description=META["description"],
     sidebar=[box_select_ions, divider_sb, controls_tabs_intro, controls_tabs],
     main=[
         pn.Row(plot, about_box),
