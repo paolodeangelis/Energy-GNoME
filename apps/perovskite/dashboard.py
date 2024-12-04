@@ -6,12 +6,15 @@ import hvplot.pandas
 import numpy as np
 import pandas as pd
 import panel as pn
+import param
 import requests
 
 # CONSTANTS (settings)
 SITE = "Energy-GNoME"
+SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
+FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/favicon.png"
 TITLE = "Perovskite materials explorer"
-LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
+LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_perovskite.png"
 DATA_PATH = "./data/final/perovskites/{modeltype}/candidates.json"
 BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.bib"
 RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.ris"
@@ -19,7 +22,7 @@ RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/a
 ARTICLE_DOI = "10.48550/arXiv.2411.10125"
 ARTICLE_TEXT_CITE = f'De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: <a href="https://doi.org/{ARTICLE_DOI}" target="_blank">{ARTICLE_DOI}</a>.'
 DOC_PAGE = "https://paolodeangelis.github.io/Energy-GNoME/..."
-ACCENT = "#eb8a21"
+ACCENT = "#3abccd"
 PALETTE = [
     "#50c4d3",
     "#efa04b",
@@ -31,6 +34,10 @@ PALETTE = [
     "#009b8f",
     "#73bced",
 ]
+FONT = {
+    "name": "Roboto",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Roboto",
+}
 MODEL_TYPE = ["Pure Models", "Mixed Models"]
 MODEL_ACTIVE = ["Pure Models"]
 CATEGORY = "Model type"
@@ -72,11 +79,10 @@ SIDEBAR_W = 350
 SIDEBAR_WIDGET_W = 290
 PLOT_SIZE = [850, 550]  # WxH
 TABLE_FORMATTER = {
+    # "File": HTMLTemplateFormatter(template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/<%= _folder_path %>/<%= value %>.CIF?download=1" download="<%= value %>.CIF" rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.CIF </a></code>') # Problem with RawGithub link (it open it as txt file) # noqa:W505
     "File": HTMLTemplateFormatter(
-        template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/cif/test1.cif?download=1" download="<%= value %>.cif" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.cif </a></code>'  # noqa: E501
+        template=r'<code><a href="https://github.com/paolodeangelis/Energy-GNoME/blob/main/<%= _folder_path %>/<%= value %>.CIF?download=1" download="<%= value %>.CIF" rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.CIF </a></code>'
     )
-    # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/
-    # 3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>')
 }
 ABOUT_W = 600
 ABOUT_MSG = f"""
@@ -194,6 +200,7 @@ def initialize_data() -> pd.DataFrame:
         df["Model type"] = modeltype  # " ".join([s.capitalize() for s in modeltype.split("_")])
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
+        df["_folder_path"] = f"data/final/perovskites/{modeltype}/cif"
         # Downcast float64 to float32 for memory efficiency
         float_cols = df.select_dtypes(include=["float64"]).columns
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
@@ -822,8 +829,12 @@ divider_m = pn.layout.Divider()
 footer = pn.pane.HTML(FOOTER, sizing_mode="stretch_width")
 pn.template.FastListTemplate(
     site=SITE,
+    site_url=SITE_URL,
+    favicon=FAVICON,
     title=TITLE,
     logo=LOGO,
+    font=FONT["name"],
+    font_url=FONT["url"],
     meta_author=META["authors"],
     meta_viewport=META["viewport"],
     meta_keywords=META["keywords"],
