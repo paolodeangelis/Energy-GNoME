@@ -9,7 +9,7 @@ import panel as pn
 import requests
 
 # CONSTANTS (settings)
-TITLE = "Perovskite Materials Database explorer"
+TITLE = "Energy-GNoME: Perovskite materials explorer"
 # DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/perovskites/{modeltype}/candidates.json"
 DATA_PATH = "./data/final/perovskites/{modeltype}/candidates.json"
 BIB_FILE = (
@@ -34,14 +34,16 @@ MODEL_TYPE = ["Pure Models", "Mixed Models"]
 MODEL_ACTIVE = ["Pure Models"]
 CATEGORY = "Model type"
 CATEGORY_ACTIVE = MODEL_ACTIVE
+ANGSTROM_SYMBOL = "\u212B"
+CUBE_SYMBOL = "\u00B3"
 COLUMNS = [
     "Material Id",
     "Composition",
     "Crystal System",
     "Formation Energy (eV/atom)",
     "Formula",
-    "Volume (A^3)",
-    "Density (A^3/atom)",
+    f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})",
+    f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
     "Average Band Gap (eV)",
     "Average Band Gap (deviation) (eV)",
     "AI-experts confidence (-)",
@@ -50,12 +52,12 @@ COLUMNS = [
     "File",
 ]
 HOVER_COL = [
-        ("Material Id", "@{Material Id}"),
-        ("Formula", "@{Formula}"),
-        ("Formation Energy (eV/atom)", "@{Formation Energy (eV/atom)}{0.2f}"),
-        ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
-        ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
-    ]
+    ("Material Id", "@{Material Id}"),
+    ("Formula", "@{Formula}"),
+    ("Formation Energy (eV/atom)", "@{Formation Energy (eV/atom)}{0.2f}"),
+    ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
+    ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
+]
 COLUMNS_ACTIVE = [
     "Material Id",
     "Composition",
@@ -168,7 +170,13 @@ def initialize_data() -> pd.DataFrame:
         _modeltype = "_".join(modeltype.split()).lower()
         path = DATA_PATH.format(modeltype=_modeltype)
         df = pd.read_json(path)
-        df["Model type"] = modeltype #" ".join([s.capitalize() for s in modeltype.split("_")])
+        df = df.rename(
+            columns={
+                f"Volume (A^3)": f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})",
+                f"Density (A^3/atom)": f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
+            }
+        )
+        df["Model type"] = modeltype  # " ".join([s.capitalize() for s in modeltype.split("_")])
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
         # Downcast float64 to float32 for memory efficiency
@@ -360,8 +368,8 @@ def build_interactive_table(
         w_property1 * min_max_norm(df["Average Band Gap (eV)"])
         + w_property2 * min_max_norm(df["AI-experts confidence (-)"])
         + w_property3 * min_max_norm(df["Formation Energy (eV/atom)"])
-        + w_property4 * min_max_norm(df["Volume (A^3)"])
-        + w_property5 * min_max_norm(df["Density (A^3/atom)"])
+        + w_property4 * min_max_norm(df[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"])
+        + w_property5 * min_max_norm(df[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"])
         + w_property6 * min_max_norm(df["Average Band Gap (deviation) (eV)"])
         + w_property7 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
     )
@@ -401,7 +409,7 @@ def build_interactive_table(
 # hover = HoverTool(
 #     tooltips=[
 #         ("Material Id", "@{Material Id}"),
-#         ("Volume (A^3)", "@{Volume (A^3)}{0.2f}"),
+#         (f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", "@{Volume (A^3)}{0.2f}"),
 #         ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
 #         ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
 #         # ("Property 3", "@{Property 3}{0.2f}"),
@@ -435,8 +443,8 @@ def build_interactive_plot(
         ("Average Band Gap (eV)", s_property1),
         ("AI-experts confidence (-)", s_property2),
         ("Formation Energy (eV/atom)", s_property3),
-        ("Volume (A^3)", s_property4),
-        ("Density (A^3/atom)", s_property5),
+        (f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", s_property4),
+        (f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)", s_property5),
     ]
 
     for col, slider in filters:
@@ -497,7 +505,6 @@ def build_interactive_plot(
         cmap=PALETTE,
         # tools=[hover],
         hover_tooltips=HOVER_COL,
-
     )
 
     # Combine background and foreground scatter plots
@@ -561,7 +568,7 @@ weights["Formation Energy (eV/atom)"] = w_property3
 weights_helper["Formation Energy (eV/atom)"] = w_property3_help
 # Property 4
 w_property4 = pn.widgets.IntSlider(
-    name="Volume (A^3)",
+    name=f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})",
     start=-10,
     end=10,
     step=1,
@@ -570,13 +577,13 @@ w_property4 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property4_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Volume (A^3)' property in the <b><i>ranking function</i></b>."
+    value=f"Adjust the weight of the 'Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})' property in the <b><i>ranking function</i></b>."
 )
-weights["Volume (A^3)"] = w_property4
-weights_helper["Volume (A^3)"] = w_property4_help
+weights[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = w_property4
+weights_helper[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = w_property4_help
 # Property 5
 w_property5 = pn.widgets.IntSlider(
-    name="Density (A^3/atom)",
+    name=f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
     start=-10,
     end=10,
     step=1,
@@ -585,10 +592,10 @@ w_property5 = pn.widgets.IntSlider(
     width=SIDEBAR_WIDGET_W,
 )
 w_property5_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Density (A^3/atom)' property in the <b><i>ranking function</i></b>."
+    value=f"Adjust the weight of the 'Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)' property in the <b><i>ranking function</i></b>."
 )
-weights["Density (A^3/atom)"] = w_property5
-weights_helper["Density (A^3/atom)"] = w_property5_help
+weights[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = w_property5
+weights_helper[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = w_property5_help
 # Property 6
 w_property6 = pn.widgets.IntSlider(
     name="Average Band Gap (deviation) (eV)",
@@ -645,15 +652,24 @@ s_property3_help = pn.widgets.TooltipIcon(
 sliders["Formation Energy (eV/atom)"] = s_property3
 sliders_helper["Formation Energy (eV/atom)"] = s_property3_help
 # Property 4
-s_property4 = create_range_slider("Volume (A^3)", "Volume (A^3)")
-s_property4_help = pn.widgets.TooltipIcon(value="<b>Volume (A^3)</b> Three-dimensional space occupied by the molecule.")
-sliders["Volume (A^3)"] = s_property4
-sliders_helper["Volume (A^3)"] = s_property4_help
+s_property4 = create_range_slider(
+    f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"
+)
+s_property4_help = pn.widgets.TooltipIcon(
+    value=f"<b>Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})</b> Three-dimensional space occupied by the molecule."
+)
+sliders[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = s_property4
+sliders_helper[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = s_property4_help
 # Property 5
-s_property5 = create_range_slider("Density (A^3/atom)", "Density (A^3/atom)")
-s_property5_help = pn.widgets.TooltipIcon(value="<b>Density (A^3/atom)</b> Average space per atom within the molecule.")
-sliders["Density (A^3/atom)"] = s_property5
-sliders_helper["Density (A^3/atom)"] = s_property5_help
+s_property5 = create_range_slider(
+    f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
+    f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
+)
+s_property5_help = pn.widgets.TooltipIcon(
+    value=f"<b>Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)</b> Average space per atom within the molecule."
+)
+sliders[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5
+sliders_helper[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5_help
 
 # (3) Widget SIDEBAR: Models selection
 select_models = pn.widgets.MultiChoice(
@@ -769,8 +785,8 @@ ul {
     margin-block-end: 0.3em;
 }
 </style>
-## Working categories
-Add or remove rows belloging to specific category"""
+## Regressor models
+Easily ..."""
         ),
         #    pn.widgets.TooltipIcon(
         #        value="Add or remove <i>cathodes</i> with a specific <i>active ion material</i>"
