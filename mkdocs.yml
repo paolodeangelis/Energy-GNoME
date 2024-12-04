@@ -1,9 +1,11 @@
 site_name: Energy-GNoME
 site_url: https://paolodeangelis.github.io/Energy-GNoME/
-repo_url: https://github.com/paolodeangelis/Energy-GNoME
+repo_url: https://github.com/paolodeangelis/Energy-GNoME/
 
 theme:
   name: material
+  logo: assets/img/site/logo.png
+  favicon: assets/img/site/favicon.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

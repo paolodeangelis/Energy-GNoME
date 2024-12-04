@@ -11,6 +11,8 @@ import requests
 
 # CONSTANTS (settings)
 SITE = "Energy-GNoME"
+SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
+FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/site/favicon.png"
 TITLE = "Cathode materials explorer"
 LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
 DATA_PATH_TEMPLATE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/cathodes/{ctype}/{ion}/candidates.json"
@@ -996,6 +998,8 @@ footer = pn.pane.HTML(FOOTER, sizing_mode="stretch_width")
 
 pn.template.FastListTemplate(
     site=SITE,
+    site_url=SITE_URL,
+    favicon=FAVICON,
     title=TITLE,
     logo=LOGO,
     font=FONT["name"],
