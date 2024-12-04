@@ -1,6 +1,13 @@
 site_name: Energy-GNoME
 site_url: https://paolodeangelis.github.io/Energy-GNoME/
+site_author: Paolo De Angelis, Giulio Barletta
+site_description: >-
+  AI-Driven Screening and Prediction for Selected Advanced Energy Materials
+
+repo_name: GitHub
 repo_url: https://github.com/paolodeangelis/Energy-GNoME/
+
+# copyright: Copyright &copy; 2024 Small Lab
 
 extra_css:
   - stylesheets/extra.css
@@ -10,12 +17,18 @@ theme:
   custom_dir: docs/overrides
   logo: assets/img/logo.png
   favicon: assets/img/favicon.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
   palette:
-    # # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: Switch to light mode
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        # icon: material/brightness-auto
+        icon: material/link
+        name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -23,7 +36,8 @@ theme:
       primary: gnome
       accent: gnome
       toggle:
-        icon: material/brightness-7
+        # icon: material/brightness-7
+        icon: material/toggle-switch
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -32,17 +46,28 @@ theme:
       primary: gnome
       accent: gnome
       toggle:
-        icon: material/brightness-4
+        icon: material/toggle-switch-off
+        # icon: material/brightness-4
         name: Switch to light mode
   features:
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    - navigation.instant.preview
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.home
-    - search.suggest
+    - navigation.path
+    - navigation.indexes
     - search.highlight
+    - search.share
+    - search.suggest
     - header.autohide
+    - announce.autohide
+  hide:
+    # - announce
 
 nav:
   - Home: index.md
@@ -57,9 +82,18 @@ nav:
 
 extra:
   homepage: /
+  status:
+    new: Recently added
+    deprecated: Deprecated
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/paolodeangelis/Energy-GNoME/
+    - icon: fontawesome/solid/globe
+      link: https://www.polito.it/small/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/small_polito
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/small-lab/
 
 markdown_extensions:
   - pymdownx.highlight
@@ -71,3 +105,19 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  # - git-authors
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Rome
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
+  - git-committers:
+      enabled: true
+      repository: paolodeangelis/Energy-GNoME
+      branch: main
+  - minify:
+      minify_html: true
