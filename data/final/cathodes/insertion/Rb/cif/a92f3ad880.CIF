@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Rb2Ga2As2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11852166
+_cell_length_b   6.49568824
+_cell_length_c   7.58763242
+_cell_angle_alpha   80.42037632
+_cell_angle_beta   105.76009836
+_cell_angle_gamma   71.50957873
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2Ga2As2O
+_chemical_formula_sum   'Rb2 Ga2 As2 O1'
+_cell_volume   178.03904530
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.741758  0.203010  0.686629  1
+  Rb  Rb1  1  0.258242  0.796991  0.313369  1
+  Ga  Ga2  1  0.612797  0.716607  0.942439  1
+  Ga  Ga3  1  0.387201  0.283394  0.057561  1
+  As  As4  1  0.936376  0.361362  0.233854  1
+  As  As5  1  0.063626  0.638637  0.766146  1
+  O  O6  1  0.500001  0.000001  0.000000  1

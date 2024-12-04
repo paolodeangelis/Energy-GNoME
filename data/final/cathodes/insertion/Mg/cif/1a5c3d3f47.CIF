@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MgCu3(RhO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.01417032
+_cell_length_b   6.01417015
+_cell_length_c   9.10722261
+_cell_angle_alpha   61.42235370
+_cell_angle_beta   61.42234157
+_cell_angle_gamma   30.08902895
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCu3(RhO3)2
+_chemical_formula_sum   'Mg1 Cu3 Rh2 O6'
+_cell_volume   143.46542948
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.000000  0.000000  0.500000  1
+  Cu  Cu1  1  0.000000  0.000000  0.000000  1
+  Cu  Cu2  1  0.346244  0.346244  0.310766  1
+  Cu  Cu3  1  0.653756  0.653756  0.689234  1
+  Rh  Rh4  1  0.334005  0.334005  0.829388  1
+  Rh  Rh5  1  0.665995  0.665995  0.170612  1
+  O  O6  1  0.195645  0.195645  0.293625  1
+  O  O7  1  0.523081  0.523081  0.634514  1
+  O  O8  1  0.857633  0.857633  0.962157  1
+  O  O9  1  0.804355  0.804355  0.706375  1
+  O  O10  1  0.142367  0.142367  0.037843  1
+  O  O11  1  0.476919  0.476919  0.365486  1

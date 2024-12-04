@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_RbCr(CoS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.58037575
+_cell_length_b   9.58037542
+_cell_length_c   7.15309400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   148.30272442
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCr(CoS2)2
+_chemical_formula_sum   'Rb2 Cr2 Co4 S8'
+_cell_volume   344.96485849
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.164621  0.534601  0.750000  1
+  Rb  Rb1  1  0.534601  0.164621  0.250000  1
+  Cr  Cr2  1  0.709798  0.502656  0.750000  1
+  Cr  Cr3  1  0.502656  0.709798  0.250000  1
+  Co  Co4  1  0.615594  0.615594  0.500000  1
+  Co  Co5  1  0.004089  0.200689  0.250000  1
+  Co  Co6  1  0.200689  0.004089  0.750000  1
+  Co  Co7  1  0.615594  0.615594  0.000000  1
+  S  S8  1  0.751271  0.946902  0.008339  1
+  S  S9  1  0.379826  0.367119  0.750000  1
+  S  S10  1  0.367119  0.379826  0.250000  1
+  S  S11  1  0.946902  0.751271  0.508339  1
+  S  S12  1  0.545472  0.155395  0.750000  1
+  S  S13  1  0.946902  0.751271  0.991661  1
+  S  S14  1  0.155395  0.545472  0.250000  1
+  S  S15  1  0.751271  0.946902  0.491661  1

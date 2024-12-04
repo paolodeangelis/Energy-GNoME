@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Cs2NaHoSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.66657513
+_cell_length_b   11.66657429
+_cell_length_c   7.57984000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   99.93989464
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2NaHoSb2
+_chemical_formula_sum   'Cs8 Na4 Ho4 Sb8'
+_cell_volume   1016.19795564
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.071450  0.428550  0.250000  1
+  Cs  Cs1  1  0.428550  0.071450  0.750000  1
+  Cs  Cs2  1  0.928550  0.571450  0.750000  1
+  Cs  Cs3  1  0.571450  0.928550  0.250000  1
+  Cs  Cs4  1  0.676356  0.323644  0.213413  1
+  Cs  Cs5  1  0.823644  0.176356  0.713413  1
+  Cs  Cs6  1  0.323644  0.676356  0.786587  1
+  Cs  Cs7  1  0.176356  0.823644  0.286587  1
+  Na  Na8  1  0.381018  0.381018  0.000000  1
+  Na  Na9  1  0.118982  0.118982  0.500000  1
+  Na  Na10  1  0.618982  0.618982  0.000000  1
+  Na  Na11  1  0.881018  0.881018  0.500000  1
+  Ho  Ho12  1  0.131053  0.131053  0.000000  1
+  Ho  Ho13  1  0.368947  0.368947  0.500000  1
+  Ho  Ho14  1  0.868947  0.868947  0.000000  1
+  Ho  Ho15  1  0.631053  0.631053  0.500000  1
+  Sb  Sb16  1  0.841108  0.658891  0.250000  1
+  Sb  Sb17  1  0.658891  0.841108  0.750000  1
+  Sb  Sb18  1  0.158891  0.341108  0.750000  1
+  Sb  Sb19  1  0.341108  0.158891  0.250000  1
+  Sb  Sb20  1  0.905140  0.094860  0.208822  1
+  Sb  Sb21  1  0.594860  0.405140  0.708822  1
+  Sb  Sb22  1  0.094860  0.905140  0.791178  1
+  Sb  Sb23  1  0.405140  0.594860  0.291178  1

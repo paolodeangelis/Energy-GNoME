@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li4U3AuS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37399057
+_cell_length_b   9.18231643
+_cell_length_c   6.18955442
+_cell_angle_alpha   58.07250943
+_cell_angle_beta   71.96883367
+_cell_angle_gamma   49.65161484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4U3AuS4
+_chemical_formula_sum   'Li4 U3 Au1 S4'
+_cell_volume   234.01830443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.118721  0.134474  0.873114  1
+  Li  Li1  1  0.902826  0.920014  0.191206  1
+  Li  Li2  1  0.131279  0.115526  0.376886  1
+  Li  Li3  1  0.347174  0.329986  0.058794  1
+  U  U4  1  0.625000  0.625000  0.625000  1
+  U  U5  1  0.625000  0.625000  0.125000  1
+  U  U6  1  0.625000  0.125000  0.625000  1
+  Au  Au7  1  0.125000  0.625000  0.625000  1
+  S  S8  1  0.099894  0.367407  0.420371  1
+  S  S9  1  0.742064  0.279061  0.117205  1
+  S  S10  1  0.507936  0.970939  0.132795  1
+  S  S11  1  0.150106  0.882593  0.829629  1

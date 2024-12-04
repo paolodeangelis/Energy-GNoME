@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Cs3Li3(NbS4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.21958735
+_cell_length_b   13.21958623
+_cell_length_c   15.31890295
+_cell_angle_alpha   62.73440620
+_cell_angle_beta   62.73440891
+_cell_angle_gamma   26.53365519
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3Li3(NbS4)2
+_chemical_formula_sum   'Cs6 Li6 Nb4 S16'
+_cell_volume   1055.16673637
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.631193  0.756622  0.401799  1
+  Cs  Cs1  1  0.000000  0.000000  0.000000  1
+  Cs  Cs2  1  0.756622  0.631193  0.901799  1
+  Cs  Cs3  1  0.000000  0.000000  0.500000  1
+  Cs  Cs4  1  0.243378  0.368807  0.098201  1
+  Cs  Cs5  1  0.368807  0.243378  0.598201  1
+  Li  Li6  1  0.300829  0.699171  0.750000  1
+  Li  Li7  1  0.330389  0.914213  0.215218  1
+  Li  Li8  1  0.914213  0.330389  0.715218  1
+  Li  Li9  1  0.085787  0.669611  0.284782  1
+  Li  Li10  1  0.699171  0.300829  0.250000  1
+  Li  Li11  1  0.669611  0.085787  0.784782  1
+  Nb  Nb12  1  0.581612  0.166562  0.277804  1
+  Nb  Nb13  1  0.166562  0.581612  0.777804  1
+  Nb  Nb14  1  0.833438  0.418388  0.222196  1
+  Nb  Nb15  1  0.418388  0.833438  0.722196  1
+  S  S16  1  0.461585  0.439460  0.670180  1
+  S  S17  1  0.204114  0.104392  0.806258  1
+  S  S18  1  0.439460  0.461585  0.170180  1
+  S  S19  1  0.795886  0.895608  0.193742  1
+  S  S20  1  0.560540  0.538415  0.829820  1
+  S  S21  1  0.319097  0.277763  0.875095  1
+  S  S22  1  0.722237  0.680903  0.624905  1
+  S  S23  1  0.277763  0.319097  0.375095  1
+  S  S24  1  0.895608  0.795886  0.693742  1
+  S  S25  1  0.179417  0.003692  0.633684  1
+  S  S26  1  0.680903  0.722237  0.124905  1
+  S  S27  1  0.538415  0.560540  0.329820  1
+  S  S28  1  0.996308  0.820583  0.866316  1
+  S  S29  1  0.104392  0.204114  0.306258  1
+  S  S30  1  0.820583  0.996308  0.366316  1
+  S  S31  1  0.003692  0.179417  0.133684  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K2CaCrF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.01302578
+_cell_length_b   8.01302551
+_cell_length_c   8.01302566
+_cell_angle_alpha   120.58576002
+_cell_angle_beta   117.42611022
+_cell_angle_gamma   91.75170322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2CaCrF7
+_chemical_formula_sum   'K4 Ca2 Cr2 F14'
+_cell_volume   368.75166067
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.500000  0.500000  0.000000  1
+  K  K1  1  0.000000  0.000000  0.000000  1
+  K  K2  1  0.000000  0.500000  0.000000  1
+  K  K3  1  0.000000  0.000000  0.500000  1
+  Ca  Ca4  1  0.500000  0.500000  0.500000  1
+  Ca  Ca5  1  0.500000  0.000000  0.000000  1
+  Cr  Cr6  1  0.000000  0.500000  0.500000  1
+  Cr  Cr7  1  0.500000  0.000000  0.500000  1
+  F  F8  1  0.874661  0.582451  0.292210  1
+  F  F9  1  0.209759  0.917549  0.292210  1
+  F  F10  1  0.175425  0.788982  0.745086  1
+  F  F11  1  0.456104  0.711018  0.386444  1
+  F  F12  1  0.456104  0.069660  0.745086  1
+  F  F13  1  0.175425  0.430340  0.386444  1
+  F  F14  1  0.824575  0.569660  0.613556  1
+  F  F15  1  0.543896  0.930340  0.254914  1
+  F  F16  1  0.543896  0.288982  0.613556  1
+  F  F17  1  0.824575  0.211018  0.254914  1
+  F  F18  1  0.373290  0.250000  0.123290  1
+  F  F19  1  0.125339  0.417549  0.707790  1
+  F  F20  1  0.790241  0.082451  0.707790  1
+  F  F21  1  0.626710  0.750000  0.876710  1

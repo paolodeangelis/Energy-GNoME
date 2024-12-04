@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cs2RbSbSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.69905000
+_cell_length_b   10.69905000
+_cell_length_c   10.69905000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2RbSbSe3
+_chemical_formula_sum   'Cs8 Rb4 Sb4 Se12'
+_cell_volume   1224.71673247
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.314276  0.314276  0.314276  1
+  Cs  Cs1  1  0.185724  0.685724  0.814276  1
+  Cs  Cs2  1  0.814276  0.185724  0.685724  1
+  Cs  Cs3  1  0.685724  0.814276  0.185724  1
+  Cs  Cs4  1  0.575648  0.575648  0.575648  1
+  Cs  Cs5  1  0.924352  0.424352  0.075648  1
+  Cs  Cs6  1  0.075648  0.924352  0.424352  1
+  Cs  Cs7  1  0.424352  0.075648  0.924352  1
+  Rb  Rb8  1  0.811162  0.811162  0.811162  1
+  Rb  Rb9  1  0.688838  0.188838  0.311162  1
+  Rb  Rb10  1  0.311162  0.688838  0.188838  1
+  Rb  Rb11  1  0.188838  0.311162  0.688838  1
+  Sb  Sb12  1  0.024321  0.024321  0.024321  1
+  Sb  Sb13  1  0.475679  0.975679  0.524321  1
+  Sb  Sb14  1  0.524321  0.475679  0.975679  1
+  Sb  Sb15  1  0.975679  0.524321  0.475679  1
+  Se  Se16  1  0.208248  0.593719  0.491015  1
+  Se  Se17  1  0.491015  0.208248  0.593719  1
+  Se  Se18  1  0.593719  0.491015  0.208248  1
+  Se  Se19  1  0.906281  0.508985  0.708248  1
+  Se  Se20  1  0.991015  0.291752  0.406281  1
+  Se  Se21  1  0.406281  0.991015  0.291752  1
+  Se  Se22  1  0.008985  0.791752  0.093719  1
+  Se  Se23  1  0.508985  0.708248  0.906281  1
+  Se  Se24  1  0.093719  0.008985  0.791752  1
+  Se  Se25  1  0.708248  0.906281  0.508985  1
+  Se  Se26  1  0.791752  0.093719  0.008985  1
+  Se  Se27  1  0.291752  0.406281  0.991015  1

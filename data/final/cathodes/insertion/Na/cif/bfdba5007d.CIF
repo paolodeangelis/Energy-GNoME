@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaIn(CuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.12869144
+_cell_length_b   6.12869194
+_cell_length_c   6.12869093
+_cell_angle_alpha   126.02734367
+_cell_angle_beta   126.02735649
+_cell_angle_gamma   79.84319512
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaIn(CuO2)4
+_chemical_formula_sum   'Na1 In1 Cu4 O8'
+_cell_volume   145.41249796
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  In  In1  1  0.750000  0.250000  0.500000  1
+  Cu  Cu2  1  0.874018  0.615904  0.241185  1
+  Cu  Cu3  1  0.374720  0.632833  0.758815  1
+  Cu  Cu4  1  0.367167  0.125982  0.741885  1
+  Cu  Cu5  1  0.384096  0.625280  0.258115  1
+  O  O6  1  0.419025  0.842428  0.157687  1
+  O  O7  1  0.684743  0.261339  0.842313  1
+  O  O8  1  0.361928  0.419434  0.376678  1
+  O  O9  1  0.042755  0.985251  0.623322  1
+  O  O10  1  0.014749  0.638072  0.057506  1
+  O  O11  1  0.580566  0.957245  0.942494  1
+  O  O12  1  0.157572  0.315257  0.576598  1
+  O  O13  1  0.738661  0.580975  0.423402  1

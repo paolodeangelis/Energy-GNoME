@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K2GaNiF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64864108
+_cell_length_b   7.64864082
+_cell_length_c   7.64864103
+_cell_angle_alpha   120.56277906
+_cell_angle_beta   116.91636039
+_cell_angle_gamma   92.22527084
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2GaNiF7
+_chemical_formula_sum   'K4 Ga2 Ni2 F14'
+_cell_volume   321.77689931
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  K  K1  1  0.500000  0.500000  0.000000  1
+  K  K2  1  0.500000  0.000000  0.000000  1
+  K  K3  1  0.500000  0.500000  0.500000  1
+  Ga  Ga4  1  0.500000  0.000000  0.500000  1
+  Ga  Ga5  1  0.000000  0.500000  0.500000  1
+  Ni  Ni6  1  0.000000  0.000000  0.500000  1
+  Ni  Ni7  1  0.000000  0.500000  0.000000  1
+  F  F8  1  0.379512  0.085578  0.293934  1
+  F  F9  1  0.708357  0.414422  0.293934  1
+  F  F10  1  0.689767  0.301042  0.761326  1
+  F  F11  1  0.960282  0.198958  0.388724  1
+  F  F12  1  0.960282  0.571559  0.761326  1
+  F  F13  1  0.689767  0.928441  0.388724  1
+  F  F14  1  0.310233  0.071559  0.611276  1
+  F  F15  1  0.039718  0.428441  0.238674  1
+  F  F16  1  0.039718  0.801042  0.611276  1
+  F  F17  1  0.310233  0.698958  0.238674  1
+  F  F18  1  0.900480  0.750000  0.150480  1
+  F  F19  1  0.620488  0.914422  0.706066  1
+  F  F20  1  0.291643  0.585578  0.706066  1
+  F  F21  1  0.099520  0.250000  0.849520  1

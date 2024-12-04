@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Rb(SnSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47804800
+_cell_length_b   11.22291800
+_cell_length_c   20.92908100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb(SnSb)3
+_chemical_formula_sum   'Rb4 Sn12 Sb12'
+_cell_volume   1051.82791603
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.750000  0.283641  0.960326  1
+  Rb  Rb1  1  0.750000  0.783642  0.539674  1
+  Rb  Rb2  1  0.250000  0.716358  0.039674  1
+  Rb  Rb3  1  0.250000  0.216358  0.460326  1
+  Sn  Sn4  1  0.750000  0.179378  0.651497  1
+  Sn  Sn5  1  0.750000  0.679378  0.848503  1
+  Sn  Sn6  1  0.250000  0.820622  0.348503  1
+  Sn  Sn7  1  0.250000  0.320622  0.151497  1
+  Sn  Sn8  1  0.750000  0.101684  0.255369  1
+  Sn  Sn9  1  0.750000  0.601684  0.244631  1
+  Sn  Sn10  1  0.250000  0.898316  0.744631  1
+  Sn  Sn11  1  0.250000  0.398316  0.755369  1
+  Sn  Sn12  1  0.750000  0.977285  0.128171  1
+  Sn  Sn13  1  0.750000  0.477285  0.371829  1
+  Sn  Sn14  1  0.250000  0.022715  0.871829  1
+  Sn  Sn15  1  0.250000  0.522715  0.628171  1
+  Sb  Sb16  1  0.750000  0.475243  0.123689  1
+  Sb  Sb17  1  0.750000  0.975243  0.376311  1
+  Sb  Sb18  1  0.250000  0.524757  0.876311  1
+  Sb  Sb19  1  0.250000  0.024757  0.623689  1
+  Sb  Sb20  1  0.750000  0.385176  0.571514  1
+  Sb  Sb21  1  0.750000  0.885176  0.928486  1
+  Sb  Sb22  1  0.250000  0.614824  0.428486  1
+  Sb  Sb23  1  0.250000  0.114824  0.071514  1
+  Sb  Sb24  1  0.750000  0.238260  0.783632  1
+  Sb  Sb25  1  0.750000  0.738260  0.716368  1
+  Sb  Sb26  1  0.250000  0.761740  0.216368  1
+  Sb  Sb27  1  0.250000  0.261740  0.283632  1

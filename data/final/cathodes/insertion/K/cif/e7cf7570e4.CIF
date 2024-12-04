@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K2CrGaF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.84353618
+_cell_length_b   7.84353722
+_cell_length_c   7.84353521
+_cell_angle_alpha   122.28602763
+_cell_angle_beta   116.91928750
+_cell_angle_gamma   90.75168040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2CrGaF7
+_chemical_formula_sum   'K4 Cr2 Ga2 F14'
+_cell_volume   342.29994147
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  K  K1  1  0.000000  0.500000  0.000000  1
+  K  K2  1  0.000000  0.000000  0.500000  1
+  K  K3  1  0.500000  0.500000  0.000000  1
+  Cr  Cr4  1  0.500000  0.500000  0.500000  1
+  Cr  Cr5  1  0.500000  0.000000  0.000000  1
+  Ga  Ga6  1  0.500000  0.000000  0.500000  1
+  Ga  Ga7  1  0.000000  0.500000  0.500000  1
+  F  F8  1  0.820472  0.204469  0.247226  1
+  F  F9  1  0.210985  0.917179  0.293806  1
+  F  F10  1  0.457244  0.704469  0.383998  1
+  F  F11  1  0.123373  0.417179  0.706194  1
+  F  F12  1  0.542756  0.295530  0.616002  1
+  F  F13  1  0.876627  0.582821  0.293806  1
+  F  F14  1  0.820472  0.573246  0.616002  1
+  F  F15  1  0.403018  0.250000  0.153018  1
+  F  F16  1  0.596982  0.750000  0.846982  1
+  F  F17  1  0.179528  0.795530  0.752774  1
+  F  F18  1  0.542756  0.926754  0.247226  1
+  F  F19  1  0.179528  0.426754  0.383998  1
+  F  F20  1  0.457244  0.073246  0.752774  1
+  F  F21  1  0.789015  0.082821  0.706194  1

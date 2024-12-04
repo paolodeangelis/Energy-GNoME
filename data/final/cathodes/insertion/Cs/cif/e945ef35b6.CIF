@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CsLa2(FeH6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15757900
+_cell_length_b   5.15757924
+_cell_length_c   9.39880100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999206
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsLa2(FeH6)2
+_chemical_formula_sum   'Cs1 La2 Fe2 H12'
+_cell_volume   216.51845465
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.000000  1
+  La  La1  1  0.666667  0.333333  0.367746  1
+  La  La2  1  0.333333  0.666667  0.632254  1
+  Fe  Fe3  1  0.666667  0.333333  0.698977  1
+  Fe  Fe4  1  0.333333  0.666667  0.301023  1
+  H  H5  1  0.182856  0.817144  0.395955  1
+  H  H6  1  0.634289  0.817144  0.395955  1
+  H  H7  1  0.182856  0.365711  0.395955  1
+  H  H8  1  0.817144  0.182856  0.604045  1
+  H  H9  1  0.365711  0.182856  0.604045  1
+  H  H10  1  0.817144  0.634289  0.604045  1
+  H  H11  1  0.531631  0.063261  0.806996  1
+  H  H12  1  0.531631  0.468369  0.806996  1
+  H  H13  1  0.936739  0.468369  0.806996  1
+  H  H14  1  0.468369  0.936739  0.193004  1
+  H  H15  1  0.468369  0.531631  0.193004  1
+  H  H16  1  0.063261  0.531631  0.193004  1

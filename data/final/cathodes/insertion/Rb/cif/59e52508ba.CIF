@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_RbBaInO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.89204604
+_cell_length_b   6.89204633
+_cell_length_c   13.30985400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   126.43456419
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBaInO3
+_chemical_formula_sum   'Rb4 Ba4 In4 O12'
+_cell_volume   508.64520124
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.463596  0.536404  0.638417  1
+  Rb  Rb1  1  0.536404  0.463596  0.361583  1
+  Rb  Rb2  1  0.036404  0.963596  0.138417  1
+  Rb  Rb3  1  0.963596  0.036404  0.861583  1
+  Ba  Ba4  1  0.641549  0.358451  0.918145  1
+  Ba  Ba5  1  0.858451  0.141549  0.418145  1
+  Ba  Ba6  1  0.141549  0.858451  0.581855  1
+  Ba  Ba7  1  0.358451  0.641549  0.081855  1
+  In  In8  1  0.227946  0.772054  0.340661  1
+  In  In9  1  0.727946  0.272054  0.159339  1
+  In  In10  1  0.772054  0.227946  0.659339  1
+  In  In11  1  0.272054  0.727946  0.840661  1
+  O  O12  1  0.961749  0.538251  0.750000  1
+  O  O13  1  0.538251  0.961749  0.250000  1
+  O  O14  1  0.038251  0.461749  0.250000  1
+  O  O15  1  0.461749  0.038251  0.750000  1
+  O  O16  1  0.434102  0.565898  0.879855  1
+  O  O17  1  0.565898  0.434102  0.120145  1
+  O  O18  1  0.065898  0.934102  0.379855  1
+  O  O19  1  0.672027  0.327973  0.534298  1
+  O  O20  1  0.172027  0.827973  0.965702  1
+  O  O21  1  0.827973  0.172027  0.034298  1
+  O  O22  1  0.327973  0.672027  0.465702  1
+  O  O23  1  0.934102  0.065898  0.620145  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgPdBr18
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.14586435
+_cell_length_b   9.14586232
+_cell_length_c   9.14586165
+_cell_angle_alpha   94.79362377
+_cell_angle_beta   94.79363187
+_cell_angle_gamma   94.79362801
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgPdBr18
+_chemical_formula_sum   'Mg1 Pd1 Br18'
+_cell_volume   756.51471012
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.500000  0.500000  0.500000  1
+  Pd  Pd1  1  0.000000  0.000000  0.000000  1
+  Br  Br2  1  0.278816  0.009598  0.025916  1
+  Br  Br3  1  0.025916  0.278816  0.009598  1
+  Br  Br4  1  0.009598  0.025916  0.278816  1
+  Br  Br5  1  0.721184  0.990402  0.974084  1
+  Br  Br6  1  0.974084  0.721184  0.990402  1
+  Br  Br7  1  0.990402  0.974084  0.721184  1
+  Br  Br8  1  0.632815  0.227732  0.108438  1
+  Br  Br9  1  0.108438  0.632815  0.227732  1
+  Br  Br10  1  0.227732  0.108438  0.632815  1
+  Br  Br11  1  0.367185  0.772268  0.891562  1
+  Br  Br12  1  0.891562  0.367185  0.772268  1
+  Br  Br13  1  0.772268  0.891562  0.367185  1
+  Br  Br14  1  0.460976  0.210875  0.536269  1
+  Br  Br15  1  0.536269  0.460976  0.210875  1
+  Br  Br16  1  0.210875  0.536269  0.460976  1
+  Br  Br17  1  0.539024  0.789125  0.463731  1
+  Br  Br18  1  0.463731  0.539024  0.789125  1
+  Br  Br19  1  0.789125  0.463731  0.539024  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsBaNbS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.20087800
+_cell_length_b   9.65435900
+_cell_length_c   12.66468100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBaNbS4
+_chemical_formula_sum   'Cs4 Ba4 Nb4 S16'
+_cell_volume   880.44686687
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.750000  0.363878  0.090054  1
+  Cs  Cs1  1  0.250000  0.136122  0.590054  1
+  Cs  Cs2  1  0.750000  0.863878  0.409946  1
+  Cs  Cs3  1  0.250000  0.636122  0.909946  1
+  Ba  Ba4  1  0.750000  0.018702  0.824660  1
+  Ba  Ba5  1  0.250000  0.481298  0.324660  1
+  Ba  Ba6  1  0.750000  0.518702  0.675340  1
+  Ba  Ba7  1  0.250000  0.981298  0.175340  1
+  Nb  Nb8  1  0.750000  0.270238  0.420626  1
+  Nb  Nb9  1  0.250000  0.229762  0.920626  1
+  Nb  Nb10  1  0.750000  0.770238  0.079374  1
+  Nb  Nb11  1  0.250000  0.729762  0.579374  1
+  S  S12  1  0.750000  0.198243  0.593205  1
+  S  S13  1  0.250000  0.301757  0.093205  1
+  S  S14  1  0.750000  0.698243  0.906795  1
+  S  S15  1  0.250000  0.801757  0.406795  1
+  S  S16  1  0.750000  0.006980  0.082998  1
+  S  S17  1  0.250000  0.493020  0.582998  1
+  S  S18  1  0.750000  0.506980  0.417002  1
+  S  S19  1  0.250000  0.993020  0.917002  1
+  S  S20  1  0.008770  0.189387  0.336579  1
+  S  S21  1  0.991230  0.310613  0.836579  1
+  S  S22  1  0.491230  0.689387  0.163421  1
+  S  S23  1  0.508770  0.810613  0.663421  1
+  S  S24  1  0.991230  0.810613  0.663421  1
+  S  S25  1  0.008770  0.689387  0.163421  1
+  S  S26  1  0.508770  0.310613  0.836579  1
+  S  S27  1  0.491230  0.189387  0.336579  1

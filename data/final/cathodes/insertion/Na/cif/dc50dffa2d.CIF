@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaLa2(FeP)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.10389705
+_cell_length_b   8.10389743
+_cell_length_c   6.08544809
+_cell_angle_alpha   72.03549102
+_cell_angle_beta   72.03549194
+_cell_angle_gamma   38.68198178
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLa2(FeP)6
+_chemical_formula_sum   'Na1 La2 Fe6 P6'
+_cell_volume   236.05940484
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  La  La1  1  0.662446  0.662446  0.675229  1
+  La  La2  1  0.337554  0.337554  0.324771  1
+  Fe  Fe3  1  0.080955  0.585313  0.831649  1
+  Fe  Fe4  1  0.414687  0.919045  0.168351  1
+  Fe  Fe5  1  0.752629  0.247371  0.500000  1
+  Fe  Fe6  1  0.247371  0.752629  0.500000  1
+  Fe  Fe7  1  0.585313  0.080955  0.831649  1
+  Fe  Fe8  1  0.919045  0.414687  0.168351  1
+  P  P9  1  0.882213  0.882213  0.530230  1
+  P  P10  1  0.216818  0.216818  0.864200  1
+  P  P11  1  0.550195  0.550195  0.201204  1
+  P  P12  1  0.449805  0.449805  0.798796  1
+  P  P13  1  0.783182  0.783182  0.135800  1
+  P  P14  1  0.117787  0.117787  0.469770  1

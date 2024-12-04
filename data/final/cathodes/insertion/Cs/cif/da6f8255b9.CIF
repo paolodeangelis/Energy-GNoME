@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Cs2Ca2(SiO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.59052100
+_cell_length_b   6.73312569
+_cell_length_c   12.40524369
+_cell_angle_alpha   60.50105408
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Ca2(SiO3)3
+_chemical_formula_sum   'Cs4 Ca4 Si6 O18'
+_cell_volume   551.81678126
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.402102  0.434546  0.772985  1
+  Cs  Cs1  1  0.597898  0.434546  0.272985  1
+  Cs  Cs2  1  0.662460  0.818237  0.902985  1
+  Cs  Cs3  1  0.337540  0.818237  0.402985  1
+  Ca  Ca4  1  0.835930  0.875630  0.584837  1
+  Ca  Ca5  1  0.164070  0.875630  0.084837  1
+  Ca  Ca6  1  0.936738  0.345019  0.855766  1
+  Ca  Ca7  1  0.063262  0.345019  0.355766  1
+  Si  Si8  1  0.580698  0.115209  0.090491  1
+  Si  Si9  1  0.419302  0.115209  0.590491  1
+  Si  Si10  1  0.248423  0.424172  0.052317  1
+  Si  Si11  1  0.751577  0.424172  0.552317  1
+  Si  Si12  1  0.141667  0.874755  0.815638  1
+  Si  Si13  1  0.858333  0.874755  0.315638  1
+  O  O14  1  0.823061  0.475432  0.659478  1
+  O  O15  1  0.176939  0.475432  0.159478  1
+  O  O16  1  0.456200  0.326307  0.086967  1
+  O  O17  1  0.543800  0.326307  0.586967  1
+  O  O18  1  0.454725  0.899415  0.121073  1
+  O  O19  1  0.545275  0.899415  0.621073  1
+  O  O20  1  0.048621  0.004103  0.882559  1
+  O  O21  1  0.951379  0.004103  0.382559  1
+  O  O22  1  0.866242  0.262740  0.516438  1
+  O  O23  1  0.133758  0.262740  0.016438  1
+  O  O24  1  0.688634  0.218052  0.961584  1
+  O  O25  1  0.311366  0.218052  0.461584  1
+  O  O26  1  0.008053  0.747460  0.765701  1
+  O  O27  1  0.991947  0.747460  0.265701  1
+  O  O28  1  0.276543  0.679578  0.923928  1
+  O  O29  1  0.723457  0.679578  0.423928  1
+  O  O30  1  0.718011  0.053245  0.208691  1
+  O  O31  1  0.281989  0.053245  0.708691  1

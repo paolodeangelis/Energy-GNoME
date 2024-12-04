@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KEr2(H6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.96672700
+_cell_length_b   4.96672833
+_cell_length_c   8.39076300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999782
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KEr2(H6Os)2
+_chemical_formula_sum   'K1 Er2 H12 Os2'
+_cell_volume   179.25562410
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Er  Er1  1  0.666667  0.333333  0.359089  1
+  Er  Er2  1  0.333333  0.666667  0.640911  1
+  H  H3  1  0.162165  0.837835  0.389026  1
+  H  H4  1  0.675670  0.837835  0.389026  1
+  H  H5  1  0.162165  0.324330  0.389026  1
+  H  H6  1  0.837835  0.162165  0.610974  1
+  H  H7  1  0.324330  0.162165  0.610974  1
+  H  H8  1  0.837835  0.675670  0.610974  1
+  H  H9  1  0.510081  0.020163  0.842309  1
+  H  H10  1  0.510081  0.489919  0.842309  1
+  H  H11  1  0.979837  0.489919  0.842309  1
+  H  H12  1  0.489919  0.979837  0.157691  1
+  H  H13  1  0.489919  0.510081  0.157691  1
+  H  H14  1  0.020163  0.510081  0.157691  1
+  Os  Os15  1  0.666667  0.333333  0.715786  1
+  Os  Os16  1  0.333333  0.666667  0.284214  1

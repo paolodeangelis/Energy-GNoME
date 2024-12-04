@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cs(HfSe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54993100
+_cell_length_b   7.56874500
+_cell_length_c   18.00375700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs(HfSe2)2
+_chemical_formula_sum   'Cs4 Hf8 Se16'
+_cell_volume   892.53188748
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.352484  0.000000  0.000000  1
+  Cs  Cs1  1  0.647516  0.500000  0.500000  1
+  Cs  Cs2  1  0.039863  0.000000  0.500000  1
+  Cs  Cs3  1  0.960137  0.500000  0.000000  1
+  Hf  Hf4  1  0.000341  0.000000  0.249413  1
+  Hf  Hf5  1  0.000341  0.000000  0.750587  1
+  Hf  Hf6  1  0.999659  0.500000  0.250587  1
+  Hf  Hf7  1  0.999659  0.500000  0.749413  1
+  Hf  Hf8  1  0.500000  0.250000  0.250000  1
+  Hf  Hf9  1  0.500000  0.750000  0.750000  1
+  Hf  Hf10  1  0.500000  0.750000  0.250000  1
+  Hf  Hf11  1  0.500000  0.250000  0.750000  1
+  Se  Se12  1  0.833850  0.249076  0.339067  1
+  Se  Se13  1  0.833850  0.750924  0.660933  1
+  Se  Se14  1  0.166150  0.749076  0.160933  1
+  Se  Se15  1  0.166150  0.250924  0.839067  1
+  Se  Se16  1  0.166150  0.250924  0.160933  1
+  Se  Se17  1  0.166150  0.749076  0.839067  1
+  Se  Se18  1  0.833850  0.750924  0.339067  1
+  Se  Se19  1  0.833850  0.249076  0.660933  1
+  Se  Se20  1  0.668657  0.000000  0.161743  1
+  Se  Se21  1  0.668657  0.000000  0.838257  1
+  Se  Se22  1  0.331343  0.500000  0.338257  1
+  Se  Se23  1  0.331343  0.500000  0.661743  1
+  Se  Se24  1  0.335872  0.000000  0.337388  1
+  Se  Se25  1  0.335872  0.000000  0.662612  1
+  Se  Se26  1  0.664128  0.500000  0.162612  1
+  Se  Se27  1  0.664128  0.500000  0.837388  1

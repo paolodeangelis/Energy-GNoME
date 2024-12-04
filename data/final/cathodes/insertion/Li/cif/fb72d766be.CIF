@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2MgPt3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.09496813
+_cell_length_b   6.09497768
+_cell_length_c   6.09496057
+_cell_angle_alpha   61.12044669
+_cell_angle_beta   61.12072699
+_cell_angle_gamma   61.12020670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2MgPt3O8
+_chemical_formula_sum   'Li2 Mg1 Pt3 O8'
+_cell_volume   164.14040496
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.106689  0.106694  0.106687  1
+  Li  Li1  1  0.893329  0.893336  0.893329  1
+  Mg  Mg2  1  0.500047  0.499989  0.500041  1
+  Pt  Pt3  1  0.499985  0.500031  0.000027  1
+  Pt  Pt4  1  0.500010  0.000017  0.500000  1
+  Pt  Pt5  1  0.000025  0.500040  0.500019  1
+  O  O6  1  0.265225  0.265209  0.265219  1
+  O  O7  1  0.713044  0.258579  0.258567  1
+  O  O8  1  0.258580  0.713042  0.258577  1
+  O  O9  1  0.258566  0.258577  0.713042  1
+  O  O10  1  0.741337  0.741341  0.287020  1
+  O  O11  1  0.741338  0.287015  0.741346  1
+  O  O12  1  0.287020  0.741335  0.741340  1
+  O  O13  1  0.734803  0.734796  0.734787  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Cs2Co(WO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.19646057
+_cell_length_b   7.18931702
+_cell_length_c   7.18886791
+_cell_angle_alpha   61.70391709
+_cell_angle_beta   61.68720548
+_cell_angle_gamma   61.68689758
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Co(WO4)3
+_chemical_formula_sum   'Cs2 Co1 W3 O12'
+_cell_volume   272.97710757
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.630544  0.630900  0.630750  1
+  Cs  Cs1  1  0.369456  0.369100  0.369250  1
+  Co  Co2  1  0.000000  0.000000  0.000000  1
+  W  W3  1  0.500000  0.000000  0.000000  1
+  W  W4  1  0.000000  0.000000  0.500000  1
+  W  W5  1  0.000000  0.500000  0.000000  1
+  O  O6  1  0.943060  0.316601  0.316599  1
+  O  O7  1  0.302749  0.943070  0.942936  1
+  O  O8  1  0.316494  0.316449  0.943115  1
+  O  O9  1  0.943227  0.943417  0.302775  1
+  O  O10  1  0.943359  0.302650  0.943413  1
+  O  O11  1  0.316497  0.943148  0.316453  1
+  O  O12  1  0.056940  0.683399  0.683401  1
+  O  O13  1  0.697251  0.056930  0.057064  1
+  O  O14  1  0.683506  0.683551  0.056885  1
+  O  O15  1  0.056773  0.056583  0.697225  1
+  O  O16  1  0.056641  0.697350  0.056587  1
+  O  O17  1  0.683503  0.056852  0.683547  1

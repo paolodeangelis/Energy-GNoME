@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_K(Zr3Se4)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48839977
+_cell_length_b   10.56150647
+_cell_length_c   11.18405559
+_cell_angle_alpha   118.18676523
+_cell_angle_beta   109.47239017
+_cell_angle_gamma   90.06486379
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K(Zr3Se4)4
+_chemical_formula_sum   'K1 Zr12 Se16'
+_cell_volume   721.53548925
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.500000  0.000000  0.000000  1
+  Zr  Zr1  1  0.120507  0.130992  0.489201  1
+  Zr  Zr2  1  0.618550  0.130487  0.489516  1
+  Zr  Zr3  1  0.309275  0.359863  0.869691  1
+  Zr  Zr4  1  0.810560  0.358875  0.869094  1
+  Zr  Zr5  1  0.194626  0.510499  0.641096  1
+  Zr  Zr6  1  0.697334  0.510722  0.641959  1
+  Zr  Zr7  1  0.381450  0.869513  0.510484  1
+  Zr  Zr8  1  0.879493  0.869008  0.510799  1
+  Zr  Zr9  1  0.189440  0.641125  0.130906  1
+  Zr  Zr10  1  0.690725  0.640137  0.130309  1
+  Zr  Zr11  1  0.302666  0.489278  0.358041  1
+  Zr  Zr12  1  0.805374  0.489501  0.358904  1
+  Se  Se13  1  0.725163  0.053487  0.701119  1
+  Se  Se14  1  0.224576  0.053637  0.700647  1
+  Se  Se15  1  0.849030  0.647923  0.946926  1
+  Se  Se16  1  0.348654  0.648303  0.947170  1
+  Se  Se17  1  0.551015  0.299056  0.352346  1
+  Se  Se18  1  0.051318  0.298409  0.351725  1
+  Se  Se19  1  0.775424  0.946363  0.299353  1
+  Se  Se20  1  0.274837  0.946513  0.298881  1
+  Se  Se21  1  0.651346  0.351697  0.052830  1
+  Se  Se22  1  0.150970  0.352077  0.053074  1
+  Se  Se23  1  0.948682  0.701591  0.648275  1
+  Se  Se24  1  0.448985  0.700944  0.647654  1
+  Se  Se25  1  0.958334  0.332930  0.666320  1
+  Se  Se26  1  0.458555  0.334111  0.667109  1
+  Se  Se27  1  0.541445  0.665889  0.332891  1
+  Se  Se28  1  0.041666  0.667070  0.333680  1

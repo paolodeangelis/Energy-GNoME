@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbMn2CrS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.43293190
+_cell_length_b   8.43293083
+_cell_length_c   8.43293100
+_cell_angle_alpha   41.52928413
+_cell_angle_beta   41.52929235
+_cell_angle_gamma   41.52929489
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMn2CrS6
+_chemical_formula_sum   'Rb1 Mn2 Cr1 S6'
+_cell_volume   238.23270753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000112  0.000112  0.000112  1
+  Mn  Mn1  1  0.500243  0.500243  0.500243  1
+  Mn  Mn2  1  0.833363  0.833363  0.833363  1
+  Cr  Cr3  1  0.166370  0.166370  0.166370  1
+  S  S4  1  0.557476  0.224193  0.884561  1
+  S  S5  1  0.884561  0.557476  0.224193  1
+  S  S6  1  0.224193  0.884561  0.557476  1
+  S  S7  1  0.768918  0.111245  0.453521  1
+  S  S8  1  0.111245  0.453521  0.768918  1
+  S  S9  1  0.453521  0.768918  0.111245  1

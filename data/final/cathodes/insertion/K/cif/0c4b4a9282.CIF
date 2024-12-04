@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KBa2Fe4(CoP3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32876384
+_cell_length_b   6.89520861
+_cell_length_c   8.43799309
+_cell_angle_alpha   111.54577119
+_cell_angle_beta   108.40671947
+_cell_angle_gamma   89.99999835
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa2Fe4(CoP3)2
+_chemical_formula_sum   'K1 Ba2 Fe4 Co2 P6'
+_cell_volume   271.24699493
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000849  0.000000  0.000000  1
+  Ba  Ba1  1  0.660453  0.001594  0.322203  1
+  Ba  Ba2  1  0.338249  0.998406  0.677797  1
+  Fe  Fe3  1  0.750887  0.500000  0.000000  1
+  Fe  Fe4  1  0.583129  0.498696  0.664949  1
+  Fe  Fe5  1  0.249200  0.500000  0.000000  1
+  Fe  Fe6  1  0.918183  0.501304  0.335051  1
+  Co  Co7  1  0.416403  0.501593  0.333959  1
+  Co  Co8  1  0.082442  0.498407  0.666041  1
+  P  P9  1  0.220099  0.320091  0.440111  1
+  P  P10  1  0.885351  0.319279  0.774695  1
+  P  P11  1  0.555131  0.322260  0.106151  1
+  P  P12  1  0.779987  0.679909  0.559889  1
+  P  P13  1  0.448983  0.677740  0.893849  1
+  P  P14  1  0.110655  0.680721  0.225305  1

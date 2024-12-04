@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Cs6KIn(PbI6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.50106334
+_cell_length_b   10.50106312
+_cell_length_c   10.50106287
+_cell_angle_alpha   91.61424917
+_cell_angle_beta   91.61425292
+_cell_angle_gamma   91.61425402
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs6KIn(PbI6)2
+_chemical_formula_sum   'Cs6 K1 In1 Pb2 I12'
+_cell_volume   1156.57152563
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.628250  0.871750  1
+  Cs  Cs1  1  0.871750  0.250000  0.628250  1
+  Cs  Cs2  1  0.628250  0.871750  0.250000  1
+  Cs  Cs3  1  0.750000  0.371831  0.128169  1
+  Cs  Cs4  1  0.128169  0.750000  0.371831  1
+  Cs  Cs5  1  0.371831  0.128169  0.750000  1
+  K  K6  1  0.250000  0.250000  0.250000  1
+  In  In7  1  0.750000  0.750000  0.750000  1
+  Pb  Pb8  1  0.999911  0.999911  0.999911  1
+  Pb  Pb9  1  0.500089  0.500089  0.500089  1
+  I  I10  1  0.548670  0.202707  0.418633  1
+  I  I11  1  0.418633  0.548670  0.202707  1
+  I  I12  1  0.202707  0.418633  0.548670  1
+  I  I13  1  0.951330  0.081367  0.297293  1
+  I  I14  1  0.297293  0.951330  0.081367  1
+  I  I15  1  0.081367  0.297293  0.951330  1
+  I  I16  1  0.451877  0.797291  0.581693  1
+  I  I17  1  0.581693  0.451877  0.797291  1
+  I  I18  1  0.797291  0.581693  0.451877  1
+  I  I19  1  0.048123  0.918307  0.702709  1
+  I  I20  1  0.918307  0.702709  0.048123  1
+  I  I21  1  0.702709  0.048123  0.918307  1

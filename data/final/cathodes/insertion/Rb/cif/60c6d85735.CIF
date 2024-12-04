@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_RbGaSi3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.41783748
+_cell_length_b   7.83504182
+_cell_length_c   8.17459139
+_cell_angle_alpha   111.27405778
+_cell_angle_beta   104.61948294
+_cell_angle_gamma   103.93446853
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbGaSi3O8
+_chemical_formula_sum   'Rb2 Ga2 Si6 O16'
+_cell_volume   398.22122819
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.141505  0.295892  0.286886  1
+  Rb  Rb1  1  0.858495  0.704108  0.713114  1
+  Ga  Ga2  1  0.214343  0.816991  0.206844  1
+  Ga  Ga3  1  0.785657  0.183009  0.793156  1
+  Si  Si4  1  0.238306  0.200097  0.826301  1
+  Si  Si5  1  0.761694  0.799903  0.173699  1
+  Si  Si6  1  0.338237  0.601456  0.847453  1
+  Si  Si7  1  0.353274  0.835931  0.608179  1
+  Si  Si8  1  0.661763  0.398544  0.152547  1
+  Si  Si9  1  0.646726  0.164069  0.391821  1
+  O  O10  1  0.282668  0.661771  0.673858  1
+  O  O11  1  0.717332  0.338229  0.326142  1
+  O  O12  1  0.404727  0.065625  0.303048  1
+  O  O13  1  0.417918  0.295219  0.036318  1
+  O  O14  1  0.595273  0.934375  0.696952  1
+  O  O15  1  0.582082  0.704781  0.963682  1
+  O  O16  1  0.255679  0.717298  0.378129  1
+  O  O17  1  0.274506  0.359618  0.739337  1
+  O  O18  1  0.744321  0.282702  0.621871  1
+  O  O19  1  0.725494  0.640382  0.260663  1
+  O  O20  1  0.209392  0.655866  0.976099  1
+  O  O21  1  0.248325  0.996288  0.683282  1
+  O  O22  1  0.790608  0.344134  0.023901  1
+  O  O23  1  0.751675  0.003712  0.316718  1
+  O  O24  1  0.972906  0.852811  0.146616  1
+  O  O25  1  0.027094  0.147189  0.853384  1

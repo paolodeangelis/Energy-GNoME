@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbNaTiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.62719776
+_cell_length_b   7.62718241
+_cell_length_c   6.66076633
+_cell_angle_alpha   94.20310721
+_cell_angle_beta   94.20299425
+_cell_angle_gamma   124.70037383
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNaTiS3
+_chemical_formula_sum   'Rb2 Na2 Ti2 S6'
+_cell_volume   314.56785607
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.749287  0.250716  0.249997  1
+  Rb  Rb1  1  0.250673  0.749328  0.750001  1
+  Na  Na2  1  0.423118  0.576881  0.250000  1
+  Na  Na3  1  0.576874  0.423126  0.749999  1
+  Ti  Ti4  1  0.051368  0.948633  0.249999  1
+  Ti  Ti5  1  0.948620  0.051378  0.749999  1
+  S  S6  1  0.747308  0.810456  0.003141  1
+  S  S7  1  0.216354  0.783646  0.250000  1
+  S  S8  1  0.189544  0.252693  0.496858  1
+  S  S9  1  0.810478  0.747288  0.503118  1
+  S  S10  1  0.783665  0.216335  0.749998  1
+  S  S11  1  0.252711  0.189520  0.996880  1

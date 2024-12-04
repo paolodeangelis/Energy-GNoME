@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_K2RbSbSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.10970200
+_cell_length_b   10.10970200
+_cell_length_c   10.10970200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2RbSbSe3
+_chemical_formula_sum   'K8 Rb4 Sb4 Se12'
+_cell_volume   1033.27295608
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.183469  0.683469  0.816531  1
+  K  K1  1  0.683469  0.816531  0.183469  1
+  K  K2  1  0.816531  0.183469  0.683469  1
+  K  K3  1  0.316531  0.316531  0.316531  1
+  K  K4  1  0.689281  0.189281  0.310719  1
+  K  K5  1  0.189281  0.310719  0.689281  1
+  K  K6  1  0.310719  0.689281  0.189281  1
+  K  K7  1  0.810719  0.810719  0.810719  1
+  Rb  Rb8  1  0.925975  0.425975  0.074025  1
+  Rb  Rb9  1  0.425975  0.074025  0.925975  1
+  Rb  Rb10  1  0.074025  0.925975  0.425975  1
+  Rb  Rb11  1  0.574025  0.574025  0.574025  1
+  Sb  Sb12  1  0.473299  0.973299  0.526701  1
+  Sb  Sb13  1  0.973299  0.526701  0.473299  1
+  Sb  Sb14  1  0.526701  0.473299  0.973299  1
+  Sb  Sb15  1  0.026701  0.026701  0.026701  1
+  Se  Se16  1  0.002572  0.781085  0.097878  1
+  Se  Se17  1  0.902122  0.502572  0.718915  1
+  Se  Se18  1  0.281085  0.402122  0.997428  1
+  Se  Se19  1  0.502572  0.718915  0.902122  1
+  Se  Se20  1  0.402122  0.997428  0.281085  1
+  Se  Se21  1  0.781085  0.097878  0.002572  1
+  Se  Se22  1  0.997428  0.281085  0.402122  1
+  Se  Se23  1  0.097878  0.002572  0.781085  1
+  Se  Se24  1  0.718915  0.902122  0.502572  1
+  Se  Se25  1  0.497428  0.218915  0.597878  1
+  Se  Se26  1  0.597878  0.497428  0.218915  1
+  Se  Se27  1  0.218915  0.597878  0.497428  1

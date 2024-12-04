@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Nd2Mg(PRh2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.77520500
+_cell_length_b   9.77520501
+_cell_length_c   3.90662000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001013
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2Mg(PRh2)6
+_chemical_formula_sum   'Nd2 Mg1 P6 Rh12'
+_cell_volume   323.28347424
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.333333  0.666667  0.754088  1
+  Nd  Nd1  1  0.666667  0.333333  0.245912  1
+  Mg  Mg2  1  0.000000  0.000000  0.500000  1
+  P  P3  1  0.886570  0.600591  0.746060  1
+  P  P4  1  0.399409  0.285978  0.746060  1
+  P  P5  1  0.714022  0.113430  0.746060  1
+  P  P6  1  0.113430  0.399409  0.253940  1
+  P  P7  1  0.600591  0.714022  0.253940  1
+  P  P8  1  0.285978  0.886570  0.253940  1
+  Rh  Rh9  1  0.613273  0.549698  0.748285  1
+  Rh  Rh10  1  0.450302  0.063576  0.748285  1
+  Rh  Rh11  1  0.936424  0.386727  0.748285  1
+  Rh  Rh12  1  0.386727  0.450302  0.251715  1
+  Rh  Rh13  1  0.549698  0.936424  0.251715  1
+  Rh  Rh14  1  0.063576  0.613273  0.251715  1
+  Rh  Rh15  1  0.127847  0.840335  0.754059  1
+  Rh  Rh16  1  0.159665  0.287512  0.754059  1
+  Rh  Rh17  1  0.712488  0.872153  0.754059  1
+  Rh  Rh18  1  0.872153  0.159665  0.245941  1
+  Rh  Rh19  1  0.840335  0.712488  0.245941  1
+  Rh  Rh20  1  0.287512  0.127847  0.245941  1

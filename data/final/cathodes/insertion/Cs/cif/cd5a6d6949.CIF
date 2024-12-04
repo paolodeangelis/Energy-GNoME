@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2NaTbAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.83964951
+_cell_length_b   9.83964879
+_cell_length_c   9.83964479
+_cell_angle_alpha   136.28031634
+_cell_angle_beta   136.48087107
+_cell_angle_gamma   63.39265857
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2NaTbAs2
+_chemical_formula_sum   'Cs4 Na2 Tb2 As4'
+_cell_volume   447.53068244
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.102618  0.319265  0.783352  1
+  Cs  Cs1  1  0.464087  0.180733  0.283352  1
+  Cs  Cs2  1  0.897382  0.680735  0.216648  1
+  Cs  Cs3  1  0.535913  0.819267  0.716648  1
+  Na  Na4  1  0.500005  0.750005  0.250000  1
+  Na  Na5  1  0.499995  0.249995  0.750000  1
+  Tb  Tb6  1  0.000000  0.750000  0.750000  1
+  Tb  Tb7  1  0.000000  0.250000  0.250000  1
+  As  As8  1  0.130698  0.910225  0.220473  1
+  As  As9  1  0.869302  0.089775  0.779527  1
+  As  As10  1  0.310248  0.589775  0.720473  1
+  As  As11  1  0.689752  0.410225  0.279527  1

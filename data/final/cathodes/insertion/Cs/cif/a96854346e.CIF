@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs3Ca(ThS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26655738
+_cell_length_b   7.26643356
+_cell_length_c   8.13856800
+_cell_angle_alpha   81.45138233
+_cell_angle_beta   81.44891378
+_cell_angle_gamma   119.99688237
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3Ca(ThS3)2
+_chemical_formula_sum   'Cs3 Ca1 Th2 S6'
+_cell_volume   355.33977583
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.662653  0.337374  0.500013  1
+  Cs  Cs1  1  0.337347  0.662626  0.499987  1
+  Cs  Cs2  1  0.000000  0.000000  0.500000  1
+  Ca  Ca3  1  0.500000  0.500000  0.000000  1
+  Th  Th4  1  0.832576  0.167565  0.000006  1
+  Th  Th5  1  0.167424  0.832435  0.999994  1
+  S  S6  1  0.777713  0.777717  0.186639  1
+  S  S7  1  0.222287  0.222283  0.813361  1
+  S  S8  1  0.436535  0.096449  0.189773  1
+  S  S9  1  0.563465  0.903551  0.810227  1
+  S  S10  1  0.903558  0.563464  0.810215  1
+  S  S11  1  0.096442  0.436536  0.189785  1

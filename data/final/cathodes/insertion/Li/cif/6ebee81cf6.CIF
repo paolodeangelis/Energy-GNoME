@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li4UCrS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25461872
+_cell_length_b   6.25450766
+_cell_length_c   6.27668100
+_cell_angle_alpha   99.42779714
+_cell_angle_beta   99.42904895
+_cell_angle_gamma   120.03391412
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4UCrS6
+_chemical_formula_sum   'Li4 U1 Cr1 S6'
+_cell_volume   200.82691825
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500668  0.499351  0.999998  1
+  Li  Li1  1  0.995129  0.004848  0.499983  1
+  Li  Li2  1  0.669044  0.330950  0.499991  1
+  Li  Li3  1  0.334422  0.665596  0.500006  1
+  U  U4  1  0.166208  0.833795  0.000001  1
+  Cr  Cr5  1  0.833238  0.166730  0.000025  1
+  S  S6  1  0.600180  0.931164  0.239153  1
+  S  S7  1  0.911887  0.557873  0.242765  1
+  S  S8  1  0.227229  0.248893  0.244126  1
+  S  S9  1  0.751134  0.772900  0.755968  1
+  S  S10  1  0.442071  0.088072  0.757184  1
+  S  S11  1  0.068798  0.399839  0.760806  1

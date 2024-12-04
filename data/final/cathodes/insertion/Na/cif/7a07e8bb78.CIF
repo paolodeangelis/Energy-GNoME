@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaBi3IrRu3O14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.23718164
+_cell_length_b   7.23718179
+_cell_length_c   7.23718112
+_cell_angle_alpha   61.19415130
+_cell_angle_beta   61.19416280
+_cell_angle_gamma   61.19415355
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBi3IrRu3O14
+_chemical_formula_sum   'Na1 Bi3 Ir1 Ru3 O14'
+_cell_volume   275.23632753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.125000  0.125000  0.125000  1
+  Bi  Bi1  1  0.125000  0.125000  0.625000  1
+  Bi  Bi2  1  0.125000  0.625000  0.125000  1
+  Bi  Bi3  1  0.625000  0.125000  0.125000  1
+  Ir  Ir4  1  0.625000  0.625000  0.625000  1
+  Ru  Ru5  1  0.625000  0.625000  0.125000  1
+  Ru  Ru6  1  0.625000  0.125000  0.625000  1
+  Ru  Ru7  1  0.125000  0.625000  0.625000  1
+  O  O8  1  0.250055  0.250055  0.250055  1
+  O  O9  1  0.999945  0.999945  0.999945  1
+  O  O10  1  0.543957  0.952988  0.543957  1
+  O  O11  1  0.303063  0.684965  0.303063  1
+  O  O12  1  0.543957  0.543957  0.952988  1
+  O  O13  1  0.952988  0.543957  0.543957  1
+  O  O14  1  0.565035  0.946937  0.946937  1
+  O  O15  1  0.946937  0.946937  0.565035  1
+  O  O16  1  0.946937  0.565035  0.946937  1
+  O  O17  1  0.684965  0.303063  0.303063  1
+  O  O18  1  0.297012  0.706043  0.706043  1
+  O  O19  1  0.706043  0.297012  0.706043  1
+  O  O20  1  0.303063  0.303063  0.684965  1
+  O  O21  1  0.706043  0.706043  0.297012  1

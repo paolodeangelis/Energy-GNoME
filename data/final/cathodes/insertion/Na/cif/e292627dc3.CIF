@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaCoPtO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39139800
+_cell_length_b   5.84308100
+_cell_length_c   8.66579400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCoPtO4
+_chemical_formula_sum   'Na4 Co4 Pt4 O16'
+_cell_volume   323.62803041
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500603  0.500000  0.106659  1
+  Na  Na1  1  0.000603  0.500000  0.393341  1
+  Na  Na2  1  0.999397  0.000000  0.606658  1
+  Na  Na3  1  0.499397  0.000000  0.893341  1
+  Co  Co4  1  0.000000  0.250000  0.000000  1
+  Co  Co5  1  0.000000  0.750000  0.000000  1
+  Co  Co6  1  0.500001  0.250000  0.500000  1
+  Co  Co7  1  0.500001  0.750000  0.500000  1
+  Pt  Pt8  1  0.749261  0.000000  0.249711  1
+  Pt  Pt9  1  0.249260  0.000000  0.250287  1
+  Pt  Pt10  1  0.750740  0.500000  0.749711  1
+  Pt  Pt11  1  0.250740  0.500000  0.750287  1
+  O  O12  1  0.800347  0.000000  0.014624  1
+  O  O13  1  0.199175  0.000000  0.015314  1
+  O  O14  1  0.999129  0.219997  0.224688  1
+  O  O15  1  0.999129  0.780003  0.224688  1
+  O  O16  1  0.499129  0.219997  0.275312  1
+  O  O17  1  0.499129  0.780003  0.275312  1
+  O  O18  1  0.699176  0.000000  0.484684  1
+  O  O19  1  0.300348  0.000000  0.485375  1
+  O  O20  1  0.699654  0.500000  0.514623  1
+  O  O21  1  0.300824  0.500000  0.515314  1
+  O  O22  1  0.500870  0.280003  0.724688  1
+  O  O23  1  0.500870  0.719997  0.724688  1
+  O  O24  1  0.000871  0.280003  0.775310  1
+  O  O25  1  0.000871  0.719997  0.775310  1
+  O  O26  1  0.800825  0.500000  0.984685  1
+  O  O27  1  0.199653  0.500000  0.985375  1

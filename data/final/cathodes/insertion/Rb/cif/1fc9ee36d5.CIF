@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2BaOsO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37854078
+_cell_length_b   6.37854098
+_cell_length_c   6.37854100
+_cell_angle_alpha   120.00000531
+_cell_angle_beta   120.00000634
+_cell_angle_gamma   60.00000578
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2BaOsO6
+_chemical_formula_sum   'Rb2 Ba1 Os1 O6'
+_cell_volume   183.50547256
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.749998  0.749998  0.249998  1
+  Rb  Rb1  1  0.250000  0.250000  0.749999  1
+  Ba  Ba2  1  0.500000  0.500000  0.499999  1
+  Os  Os3  1  0.000000  0.000000  0.000000  1
+  O  O4  1  0.208112  0.208112  0.208111  1
+  O  O5  1  0.791888  0.208111  0.208111  1
+  O  O6  1  0.208111  0.791888  0.208111  1
+  O  O7  1  0.791889  0.791889  0.791888  1
+  O  O8  1  0.791888  0.208112  0.791888  1
+  O  O9  1  0.208112  0.791888  0.791888  1

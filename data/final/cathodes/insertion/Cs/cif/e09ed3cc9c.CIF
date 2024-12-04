@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs4TaNb(AgTe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.76766763
+_cell_length_b   14.05321164
+_cell_length_c   8.47958441
+_cell_angle_alpha   84.99882225
+_cell_angle_beta   62.60736033
+_cell_angle_gamma   32.39381408
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4TaNb(AgTe4)2
+_chemical_formula_sum   'Cs4 Ta1 Nb1 Ag2 Te8'
+_cell_volume   691.57035865
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.929747  0.929747  0.570253  1
+  Cs  Cs1  1  0.570253  0.570253  0.929747  1
+  Cs  Cs2  1  0.679720  0.679720  0.320280  1
+  Cs  Cs3  1  0.320280  0.320280  0.679720  1
+  Ta  Ta4  1  0.750000  0.750000  0.750000  1
+  Nb  Nb5  1  0.500000  0.500000  0.500000  1
+  Ag  Ag6  1  0.000000  0.000000  0.000000  1
+  Ag  Ag7  1  0.250000  0.250000  0.250000  1
+  Te  Te8  1  0.572495  0.313924  0.228565  1
+  Te  Te9  1  0.885016  0.228565  0.313924  1
+  Te  Te10  1  0.228565  0.885016  0.572495  1
+  Te  Te11  1  0.313924  0.572495  0.885016  1
+  Te  Te12  1  0.935165  0.678248  0.366297  1
+  Te  Te13  1  0.366297  0.020289  0.935165  1
+  Te  Te14  1  0.020289  0.366297  0.678248  1
+  Te  Te15  1  0.678248  0.935165  0.020289  1

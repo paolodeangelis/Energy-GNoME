@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Na(Nb3S4)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79766902
+_cell_length_b   9.66990090
+_cell_length_c   10.26334427
+_cell_angle_alpha   118.05691491
+_cell_angle_beta   109.30593876
+_cell_angle_gamma   89.98917365
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(Nb3S4)4
+_chemical_formula_sum   'Na1 Nb12 S16'
+_cell_volume   552.02007866
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Nb  Nb1  1  0.680673  0.626802  0.112418  1
+  Nb  Nb2  1  0.180775  0.625203  0.111853  1
+  Nb  Nb3  1  0.882898  0.887659  0.513944  1
+  Nb  Nb4  1  0.381028  0.887028  0.513778  1
+  Nb  Nb5  1  0.810774  0.486650  0.373436  1
+  Nb  Nb6  1  0.312620  0.486450  0.373786  1
+  Nb  Nb7  1  0.819225  0.374797  0.888147  1
+  Nb  Nb8  1  0.319327  0.373198  0.887582  1
+  Nb  Nb9  1  0.618972  0.112972  0.486222  1
+  Nb  Nb10  1  0.117102  0.112341  0.486056  1
+  Nb  Nb11  1  0.687380  0.513550  0.626214  1
+  Nb  Nb12  1  0.189226  0.513350  0.626564  1
+  S  S13  1  0.269027  0.942723  0.286587  1
+  S  S14  1  0.768406  0.942116  0.287386  1
+  S  S15  1  0.451861  0.712519  0.654432  1
+  S  S16  1  0.953722  0.713040  0.656101  1
+  S  S17  1  0.153497  0.342940  0.056586  1
+  S  S18  1  0.653767  0.345686  0.057918  1
+  S  S19  1  0.231594  0.057884  0.712614  1
+  S  S20  1  0.730973  0.057277  0.713413  1
+  S  S21  1  0.046278  0.286960  0.343899  1
+  S  S22  1  0.548139  0.287481  0.345568  1
+  S  S23  1  0.346233  0.654314  0.942082  1
+  S  S24  1  0.846503  0.657060  0.943414  1
+  S  S25  1  0.458458  0.333115  0.666524  1
+  S  S26  1  0.958150  0.333325  0.666615  1
+  S  S27  1  0.041850  0.666675  0.333385  1
+  S  S28  1  0.541542  0.666885  0.333476  1

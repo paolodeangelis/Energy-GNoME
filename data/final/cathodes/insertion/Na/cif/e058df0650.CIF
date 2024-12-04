@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Na2(HfSe2)5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49497590
+_cell_length_b   10.63487082
+_cell_length_c   8.38653283
+_cell_angle_alpha   61.74705521
+_cell_angle_beta   67.27117904
+_cell_angle_gamma   90.06114682
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2(HfSe2)5
+_chemical_formula_sum   'Na2 Hf5 Se10'
+_cell_volume   458.42351080
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.787121  0.075319  0.425017  1
+  Na  Na1  1  0.012879  0.524681  0.974983  1
+  Hf  Hf2  1  0.400000  0.800000  0.200000  1
+  Hf  Hf3  1  0.801071  0.599934  0.401389  1
+  Hf  Hf4  1  0.198966  0.399464  0.596087  1
+  Hf  Hf5  1  0.601034  0.200536  0.803913  1
+  Hf  Hf6  1  0.998929  0.000066  0.998611  1
+  Se  Se7  1  0.982878  0.841365  0.371086  1
+  Se  Se8  1  0.579526  0.042006  0.173264  1
+  Se  Se9  1  0.179983  0.243874  0.970768  1
+  Se  Se10  1  0.781055  0.443332  0.771715  1
+  Se  Se11  1  0.384002  0.642498  0.567972  1
+  Se  Se12  1  0.415998  0.957502  0.832028  1
+  Se  Se13  1  0.018945  0.156668  0.628285  1
+  Se  Se14  1  0.620017  0.356126  0.429232  1
+  Se  Se15  1  0.220474  0.557994  0.226736  1
+  Se  Se16  1  0.817122  0.758635  0.028914  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_PrY2Ag(Ir2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.39455624
+_cell_length_b   7.39455708
+_cell_length_c   7.21507556
+_cell_angle_alpha   59.15187567
+_cell_angle_beta   59.15187379
+_cell_angle_gamma   59.76517621
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrY2Ag(Ir2O7)2
+_chemical_formula_sum   'Pr1 Y2 Ag1 Ir4 O14'
+_cell_volume   274.85639638
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.125000  0.125000  0.125000  1
+  Y  Y1  1  0.625000  0.125000  0.125000  1
+  Y  Y2  1  0.125000  0.625000  0.125000  1
+  Ag  Ag3  1  0.125000  0.125000  0.625000  1
+  Ir  Ir4  1  0.125000  0.625000  0.625000  1
+  Ir  Ir5  1  0.625000  0.125000  0.625000  1
+  Ir  Ir6  1  0.625000  0.625000  0.125000  1
+  Ir  Ir7  1  0.625000  0.625000  0.625000  1
+  O  O8  1  0.709140  0.709140  0.288351  1
+  O  O9  1  0.301389  0.301389  0.698805  1
+  O  O10  1  0.689127  0.301391  0.709303  1
+  O  O11  1  0.292542  0.703760  0.286329  1
+  O  O12  1  0.301391  0.689127  0.709303  1
+  O  O13  1  0.703760  0.292542  0.286329  1
+  O  O14  1  0.540860  0.540860  0.961649  1
+  O  O15  1  0.948611  0.948611  0.551195  1
+  O  O16  1  0.560873  0.948609  0.540697  1
+  O  O17  1  0.957458  0.546240  0.963671  1
+  O  O18  1  0.948609  0.560873  0.540697  1
+  O  O19  1  0.546240  0.957458  0.963671  1
+  O  O20  1  0.256016  0.256016  0.250982  1
+  O  O21  1  0.993984  0.993984  0.999018  1

@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_RbNa4H9Pt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.34109225
+_cell_length_b   8.34109283
+_cell_length_c   8.34109295
+_cell_angle_alpha   108.94024798
+_cell_angle_beta   108.94025600
+_cell_angle_gamma   110.53845536
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNa4H9Pt2
+_chemical_formula_sum   'Rb2 Na8 H18 Pt4'
+_cell_volume   446.61540299
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.500000  0.500000  0.000000  1
+  Rb  Rb1  1  0.000000  0.000000  0.000000  1
+  Na  Na2  1  0.695382  0.195382  0.204125  1
+  Na  Na3  1  0.991257  0.491257  0.795875  1
+  Na  Na4  1  0.195382  0.991257  0.500000  1
+  Na  Na5  1  0.491257  0.695382  0.500000  1
+  Na  Na6  1  0.304618  0.804618  0.795875  1
+  Na  Na7  1  0.008743  0.508743  0.204125  1
+  Na  Na8  1  0.804618  0.008743  0.500000  1
+  Na  Na9  1  0.508743  0.304618  0.500000  1
+  H  H10  1  0.454781  0.123365  0.825854  1
+  H  H11  1  0.297510  0.628927  0.174146  1
+  H  H12  1  0.954781  0.128927  0.331416  1
+  H  H13  1  0.797510  0.623365  0.668584  1
+  H  H14  1  0.628927  0.454781  0.331416  1
+  H  H15  1  0.123365  0.297510  0.668584  1
+  H  H16  1  0.623365  0.954781  0.825854  1
+  H  H17  1  0.128927  0.797510  0.174146  1
+  H  H18  1  0.545219  0.876635  0.174146  1
+  H  H19  1  0.702490  0.371073  0.825854  1
+  H  H20  1  0.045219  0.871073  0.668584  1
+  H  H21  1  0.202490  0.376635  0.331416  1
+  H  H22  1  0.371073  0.545219  0.668584  1
+  H  H23  1  0.876635  0.702490  0.331416  1
+  H  H24  1  0.376635  0.045219  0.174146  1
+  H  H25  1  0.871073  0.202490  0.825854  1
+  H  H26  1  0.500000  0.000000  0.500000  1
+  H  H27  1  0.000000  0.500000  0.500000  1
+  Pt  Pt28  1  0.648896  0.148896  0.797794  1
+  Pt  Pt29  1  0.351104  0.851104  0.202206  1
+  Pt  Pt30  1  0.148896  0.351104  0.500000  1
+  Pt  Pt31  1  0.851104  0.648896  0.500000  1

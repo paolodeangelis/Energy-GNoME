@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsRb5Mo2(RuBr9)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.72176400
+_cell_length_b   7.72176369
+_cell_length_c   18.66575200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999278
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRb5Mo2(RuBr9)2
+_chemical_formula_sum   'Cs1 Rb5 Mo2 Ru2 Br18'
+_cell_volume   963.84940866
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.246840  1
+  Rb  Rb1  1  0.666667  0.333333  0.938905  1
+  Rb  Rb2  1  0.333333  0.666667  0.439724  1
+  Rb  Rb3  1  0.666667  0.333333  0.567761  1
+  Rb  Rb4  1  0.333333  0.666667  0.067137  1
+  Rb  Rb5  1  0.000000  0.000000  0.745527  1
+  Mo  Mo6  1  0.666667  0.333333  0.324503  1
+  Mo  Mo7  1  0.333333  0.666667  0.824190  1
+  Ru  Ru8  1  0.333333  0.666667  0.675800  1
+  Ru  Ru9  1  0.666667  0.333333  0.175220  1
+  Br  Br10  1  0.819437  0.638876  0.095513  1
+  Br  Br11  1  0.179399  0.820601  0.597121  1
+  Br  Br12  1  0.641202  0.820601  0.597121  1
+  Br  Br13  1  0.361124  0.180563  0.095513  1
+  Br  Br14  1  0.819437  0.180563  0.095513  1
+  Br  Br15  1  0.176637  0.353273  0.904474  1
+  Br  Br16  1  0.176637  0.823363  0.904474  1
+  Br  Br17  1  0.179399  0.358798  0.597121  1
+  Br  Br18  1  0.646727  0.823363  0.904474  1
+  Br  Br19  1  0.355252  0.177626  0.405791  1
+  Br  Br20  1  0.822374  0.644748  0.405791  1
+  Br  Br21  1  0.822374  0.177626  0.405791  1
+  Br  Br22  1  0.503634  0.007268  0.247603  1
+  Br  Br23  1  0.496715  0.503285  0.747628  1
+  Br  Br24  1  0.006570  0.503285  0.747628  1
+  Br  Br25  1  0.992732  0.496366  0.247603  1
+  Br  Br26  1  0.503634  0.496366  0.247603  1
+  Br  Br27  1  0.496715  0.993430  0.747628  1

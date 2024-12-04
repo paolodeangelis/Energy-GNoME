@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsBaMnO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.06204300
+_cell_length_b   8.20802800
+_cell_length_c   10.65677500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBaMnO4
+_chemical_formula_sum   'Cs4 Ba4 Mn4 O16'
+_cell_volume   530.25361547
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.650209  0.584063  1
+  Cs  Cs1  1  0.749999  0.349791  0.415937  1
+  Cs  Cs2  1  0.749999  0.849792  0.084064  1
+  Cs  Cs3  1  0.250000  0.150209  0.915937  1
+  Ba  Ba4  1  0.749999  0.998981  0.688994  1
+  Ba  Ba5  1  0.250000  0.001019  0.311005  1
+  Ba  Ba6  1  0.749999  0.498980  0.811006  1
+  Ba  Ba7  1  0.250000  0.501019  0.188994  1
+  Mn  Mn8  1  0.749999  0.775776  0.413732  1
+  Mn  Mn9  1  0.250000  0.224223  0.586268  1
+  Mn  Mn10  1  0.749999  0.275777  0.086268  1
+  Mn  Mn11  1  0.250000  0.724224  0.913733  1
+  O  O12  1  0.513564  0.716023  0.336493  1
+  O  O13  1  0.013565  0.283976  0.663506  1
+  O  O14  1  0.986436  0.216024  0.163506  1
+  O  O15  1  0.486436  0.783976  0.836493  1
+  O  O16  1  0.486436  0.283976  0.663506  1
+  O  O17  1  0.986436  0.716023  0.336493  1
+  O  O18  1  0.013565  0.783976  0.836493  1
+  O  O19  1  0.513564  0.216024  0.163506  1
+  O  O20  1  0.250000  0.515740  0.924235  1
+  O  O21  1  0.749999  0.484260  0.075765  1
+  O  O22  1  0.250000  0.015740  0.575765  1
+  O  O23  1  0.749999  0.984261  0.424236  1
+  O  O24  1  0.749999  0.203701  0.933880  1
+  O  O25  1  0.250000  0.796299  0.066120  1
+  O  O26  1  0.250000  0.296299  0.433881  1
+  O  O27  1  0.749999  0.703700  0.566120  1

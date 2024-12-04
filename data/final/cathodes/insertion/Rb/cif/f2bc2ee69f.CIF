@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbPt2RhS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66084877
+_cell_length_b   8.66084814
+_cell_length_c   8.66084800
+_cell_angle_alpha   41.52928174
+_cell_angle_beta   41.52929644
+_cell_angle_gamma   41.52929499
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbPt2RhS6
+_chemical_formula_sum   'Rb1 Pt2 Rh1 S6'
+_cell_volume   258.07564100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000066  0.000066  0.000066  1
+  Pt  Pt1  1  0.500216  0.500216  0.500216  1
+  Pt  Pt2  1  0.833454  0.833454  0.833454  1
+  Rh  Rh3  1  0.166239  0.166239  0.166239  1
+  S  S4  1  0.548604  0.219797  0.888158  1
+  S  S5  1  0.888158  0.548604  0.219797  1
+  S  S6  1  0.219797  0.888158  0.548604  1
+  S  S7  1  0.780285  0.114555  0.448628  1
+  S  S8  1  0.114555  0.448628  0.780285  1
+  S  S9  1  0.448628  0.780285  0.114555  1

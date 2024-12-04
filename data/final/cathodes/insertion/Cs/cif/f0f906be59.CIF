@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsCoAsO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.62780900
+_cell_length_b   9.80046500
+_cell_length_c   9.78867700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCoAsO4
+_chemical_formula_sum   'Cs4 Co4 As4 O16'
+_cell_volume   539.89590058
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.502354  0.005199  0.292115  1
+  Cs  Cs1  1  0.002354  0.994801  0.707885  1
+  Cs  Cs2  1  0.502354  0.505199  0.207885  1
+  Cs  Cs3  1  0.002354  0.494801  0.792115  1
+  Co  Co4  1  0.995797  0.324468  0.415194  1
+  Co  Co5  1  0.495797  0.675532  0.584806  1
+  Co  Co6  1  0.995797  0.824468  0.084806  1
+  Co  Co7  1  0.495797  0.175532  0.915194  1
+  As  As8  1  0.995165  0.194247  0.087652  1
+  As  As9  1  0.495165  0.805753  0.912348  1
+  As  As10  1  0.995165  0.694247  0.412348  1
+  As  As11  1  0.495165  0.305753  0.587652  1
+  O  O12  1  0.320419  0.257920  0.450174  1
+  O  O13  1  0.820419  0.742080  0.549826  1
+  O  O14  1  0.320419  0.757920  0.049826  1
+  O  O15  1  0.820419  0.242080  0.950174  1
+  O  O16  1  0.281921  0.250725  0.056985  1
+  O  O17  1  0.781921  0.749275  0.943015  1
+  O  O18  1  0.281921  0.750725  0.443015  1
+  O  O19  1  0.781921  0.249275  0.556985  1
+  O  O20  1  0.990258  0.021673  0.115382  1
+  O  O21  1  0.490258  0.978327  0.884618  1
+  O  O22  1  0.990258  0.521673  0.384618  1
+  O  O23  1  0.490258  0.478327  0.615382  1
+  O  O24  1  0.381085  0.231728  0.732620  1
+  O  O25  1  0.881085  0.768272  0.267380  1
+  O  O26  1  0.381085  0.731728  0.767380  1
+  O  O27  1  0.881085  0.268272  0.232620  1

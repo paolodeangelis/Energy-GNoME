@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Rb3Cr2Fe3Se8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.61934927
+_cell_length_b   12.61934930
+_cell_length_c   15.63973091
+_cell_angle_alpha   61.26833055
+_cell_angle_beta   61.26833524
+_cell_angle_gamma   25.43744761
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3Cr2Fe3Se8
+_chemical_formula_sum   'Rb6 Cr4 Fe6 Se16'
+_cell_volume   930.85592584
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.731968  0.653845  0.407059  1
+  Rb  Rb1  1  0.346155  0.268032  0.092941  1
+  Rb  Rb2  1  0.268032  0.346155  0.592941  1
+  Rb  Rb3  1  0.653845  0.731968  0.907059  1
+  Rb  Rb4  1  0.000000  0.000000  0.000000  1
+  Rb  Rb5  1  0.000000  0.000000  0.500000  1
+  Cr  Cr6  1  0.161621  0.594191  0.278357  1
+  Cr  Cr7  1  0.405809  0.838379  0.221643  1
+  Cr  Cr8  1  0.838379  0.405809  0.721643  1
+  Cr  Cr9  1  0.594191  0.161621  0.778357  1
+  Fe  Fe10  1  0.274170  0.725830  0.250000  1
+  Fe  Fe11  1  0.725830  0.274170  0.750000  1
+  Fe  Fe12  1  0.904467  0.335576  0.222972  1
+  Fe  Fe13  1  0.664424  0.095533  0.277028  1
+  Fe  Fe14  1  0.095533  0.664424  0.777028  1
+  Fe  Fe15  1  0.335576  0.904467  0.722972  1
+  Se  Se16  1  0.957664  0.862843  0.370623  1
+  Se  Se17  1  0.137157  0.042336  0.129377  1
+  Se  Se18  1  0.042336  0.137157  0.629377  1
+  Se  Se19  1  0.862843  0.957664  0.870623  1
+  Se  Se20  1  0.480565  0.443875  0.162468  1
+  Se  Se21  1  0.556125  0.519435  0.337532  1
+  Se  Se22  1  0.519435  0.556125  0.837532  1
+  Se  Se23  1  0.443875  0.480565  0.662468  1
+  Se  Se24  1  0.881138  0.810068  0.191729  1
+  Se  Se25  1  0.189932  0.118862  0.308271  1
+  Se  Se26  1  0.118862  0.189932  0.808271  1
+  Se  Se27  1  0.810068  0.881138  0.691729  1
+  Se  Se28  1  0.734390  0.672658  0.119208  1
+  Se  Se29  1  0.327342  0.265610  0.380792  1
+  Se  Se30  1  0.265610  0.327342  0.880792  1
+  Se  Se31  1  0.672658  0.734390  0.619208  1

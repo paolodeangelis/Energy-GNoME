@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsRbZr6PbCBr18
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.21429009
+_cell_length_b   11.21429084
+_cell_length_c   11.21428900
+_cell_angle_alpha   54.72925774
+_cell_angle_beta   54.72926128
+_cell_angle_gamma   54.72925577
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRbZr6PbCBr18
+_chemical_formula_sum   'Cs1 Rb1 Zr6 Pb1 C1 Br18'
+_cell_volume   874.81178492
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.777672  0.777672  0.777672  1
+  Rb  Rb1  1  0.222328  0.222328  0.222328  1
+  Zr  Zr2  1  0.153144  0.915100  0.790685  1
+  Zr  Zr3  1  0.846856  0.084900  0.209315  1
+  Zr  Zr4  1  0.084900  0.209315  0.846856  1
+  Zr  Zr5  1  0.209315  0.846856  0.084900  1
+  Zr  Zr6  1  0.915100  0.790685  0.153144  1
+  Zr  Zr7  1  0.790685  0.153144  0.915100  1
+  Pb  Pb8  1  0.500000  0.500000  0.500000  1
+  C  C9  1  0.000000  0.000000  0.000000  1
+  Br  Br10  1  0.175175  0.476378  0.665244  1
+  Br  Br11  1  0.824825  0.523622  0.334756  1
+  Br  Br12  1  0.337759  0.066103  0.922034  1
+  Br  Br13  1  0.662241  0.933897  0.077966  1
+  Br  Br14  1  0.922034  0.337759  0.066103  1
+  Br  Br15  1  0.724937  0.858684  0.414490  1
+  Br  Br16  1  0.334756  0.824825  0.523622  1
+  Br  Br17  1  0.585510  0.275063  0.141316  1
+  Br  Br18  1  0.275063  0.141316  0.585510  1
+  Br  Br19  1  0.141316  0.585510  0.275063  1
+  Br  Br20  1  0.933897  0.077966  0.662241  1
+  Br  Br21  1  0.414490  0.724937  0.858684  1
+  Br  Br22  1  0.858684  0.414490  0.724937  1
+  Br  Br23  1  0.077966  0.662241  0.933897  1
+  Br  Br24  1  0.476378  0.665244  0.175175  1
+  Br  Br25  1  0.665244  0.175175  0.476378  1
+  Br  Br26  1  0.523622  0.334756  0.824825  1
+  Br  Br27  1  0.066103  0.922034  0.337759  1

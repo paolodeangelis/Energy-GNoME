@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_LaTbY2(Mo2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.47512097
+_cell_length_b   7.49430480
+_cell_length_c   7.49430481
+_cell_angle_alpha   59.24849247
+_cell_angle_beta   59.02018863
+_cell_angle_gamma   59.02018804
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTbY2(Mo2O7)2
+_chemical_formula_sum   'La1 Tb1 Y2 Mo4 O14'
+_cell_volume   290.75033444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.125000  0.125000  0.125000  1
+  Tb  Tb1  1  0.625000  0.125000  0.125000  1
+  Y  Y2  1  0.125000  0.125000  0.625000  1
+  Y  Y3  1  0.125000  0.625000  0.125000  1
+  Mo  Mo4  1  0.625000  0.625000  0.625000  1
+  Mo  Mo5  1  0.125000  0.625000  0.625000  1
+  Mo  Mo6  1  0.625000  0.625000  0.125000  1
+  Mo  Mo7  1  0.625000  0.125000  0.625000  1
+  O  O8  1  0.000804  0.996002  0.996002  1
+  O  O9  1  0.249196  0.253998  0.253998  1
+  O  O10  1  0.288387  0.290393  0.701532  1
+  O  O11  1  0.537268  0.532258  0.966421  1
+  O  O12  1  0.712732  0.283579  0.717742  1
+  O  O13  1  0.703560  0.290480  0.290480  1
+  O  O14  1  0.290237  0.711266  0.711266  1
+  O  O15  1  0.288387  0.701532  0.290393  1
+  O  O16  1  0.712732  0.717742  0.283579  1
+  O  O17  1  0.959763  0.538734  0.538734  1
+  O  O18  1  0.546440  0.959520  0.959520  1
+  O  O19  1  0.961613  0.959607  0.548468  1
+  O  O20  1  0.961613  0.548468  0.959607  1
+  O  O21  1  0.537268  0.966421  0.532258  1

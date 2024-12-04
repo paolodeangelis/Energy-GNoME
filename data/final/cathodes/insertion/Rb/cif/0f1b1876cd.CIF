@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_RbMoS2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23853300
+_cell_length_b   8.80262761
+_cell_length_c   9.45839233
+_cell_angle_alpha   76.50948663
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMoS2O9
+_chemical_formula_sum   'Rb2 Mo2 S4 O18'
+_cell_volume   424.11937347
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.250000  0.422111  0.224692  1
+  Rb  Rb1  1  0.750000  0.577889  0.775308  1
+  Mo  Mo2  1  0.250000  0.912647  0.254828  1
+  Mo  Mo3  1  0.750000  0.087353  0.745172  1
+  S  S4  1  0.250000  0.322774  0.654828  1
+  S  S5  1  0.750000  0.677226  0.345172  1
+  S  S6  1  0.250000  0.851786  0.893025  1
+  S  S7  1  0.750000  0.148214  0.106975  1
+  O  O8  1  0.250000  0.267742  0.522536  1
+  O  O9  1  0.750000  0.732258  0.477464  1
+  O  O10  1  0.250000  0.490278  0.642498  1
+  O  O11  1  0.750000  0.509722  0.357502  1
+  O  O12  1  0.017403  0.256674  0.750762  1
+  O  O13  1  0.517403  0.743326  0.249238  1
+  O  O14  1  0.982597  0.743326  0.249238  1
+  O  O15  1  0.482597  0.256674  0.750762  1
+  O  O16  1  0.250000  0.929833  0.015192  1
+  O  O17  1  0.750000  0.070167  0.984808  1
+  O  O18  1  0.250000  0.682230  0.935054  1
+  O  O19  1  0.750000  0.317770  0.064946  1
+  O  O20  1  0.016651  0.904568  0.799923  1
+  O  O21  1  0.516651  0.095432  0.200077  1
+  O  O22  1  0.983349  0.095432  0.200077  1
+  O  O23  1  0.483349  0.904568  0.799923  1
+  O  O24  1  0.250000  0.896300  0.436122  1
+  O  O25  1  0.750000  0.103700  0.563878  1

@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_K(Ti3S4)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.80630770
+_cell_length_b   9.54122466
+_cell_length_c   10.11885355
+_cell_angle_alpha   118.10116729
+_cell_angle_beta   109.59475144
+_cell_angle_gamma   90.02151785
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K(Ti3S4)4
+_chemical_formula_sum   'K1 Ti12 S16'
+_cell_volume   536.08643366
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.557337  0.354646  0.866295  1
+  Ti  Ti2  1  0.059260  0.355112  0.866533  1
+  Ti  Ti3  1  0.369869  0.133500  0.488585  1
+  Ti  Ti4  1  0.867201  0.134174  0.487681  1
+  Ti  Ti5  1  0.446943  0.512243  0.646536  1
+  Ti  Ti6  1  0.948371  0.511224  0.644930  1
+  Ti  Ti7  1  0.940740  0.644888  0.133467  1
+  Ti  Ti8  1  0.442663  0.645354  0.133705  1
+  Ti  Ti9  1  0.132799  0.865826  0.512319  1
+  Ti  Ti10  1  0.630131  0.866500  0.511415  1
+  Ti  Ti11  1  0.051629  0.488776  0.355070  1
+  Ti  Ti12  1  0.553057  0.487757  0.353464  1
+  S  S13  1  0.971284  0.050761  0.691798  1
+  S  S14  1  0.471665  0.050498  0.693201  1
+  S  S15  1  0.804178  0.306842  0.357095  1
+  S  S16  1  0.305381  0.308193  0.358951  1
+  S  S17  1  0.100785  0.641921  0.949363  1
+  S  S18  1  0.600152  0.642728  0.949595  1
+  S  S19  1  0.528335  0.949502  0.306799  1
+  S  S20  1  0.028716  0.949239  0.308202  1
+  S  S21  1  0.694619  0.691807  0.641049  1
+  S  S22  1  0.195822  0.693158  0.642905  1
+  S  S23  1  0.399848  0.357272  0.050405  1
+  S  S24  1  0.899215  0.358079  0.050637  1
+  S  S25  1  0.791991  0.667201  0.333686  1
+  S  S26  1  0.291566  0.666235  0.332902  1
+  S  S27  1  0.708434  0.333765  0.667098  1
+  S  S28  1  0.208009  0.332799  0.666314  1

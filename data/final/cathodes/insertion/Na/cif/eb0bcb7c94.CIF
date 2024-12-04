@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Na2Th6MnBr15
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.40387039
+_cell_length_b   10.40386306
+_cell_length_c   10.40385592
+_cell_angle_alpha   108.46508604
+_cell_angle_beta   108.46576823
+_cell_angle_gamma   111.50249134
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Th6MnBr15
+_chemical_formula_sum   'Na2 Th6 Mn1 Br15'
+_cell_volume   866.06154404
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250000  0.750000  0.500000  1
+  Na  Na1  1  0.750000  0.250000  0.500000  1
+  Th  Th2  1  0.764322  0.764322  0.999998  1
+  Th  Th3  1  0.000000  0.223554  0.223554  1
+  Th  Th4  1  0.223549  0.999999  0.223549  1
+  Th  Th5  1  0.235678  0.235678  0.000002  1
+  Th  Th6  1  0.000000  0.776446  0.776446  1
+  Th  Th7  1  0.776451  0.000001  0.776451  1
+  Mn  Mn8  1  0.000000  0.000000  0.000000  1
+  Br  Br9  1  0.500000  0.500000  0.000000  1
+  Br  Br10  1  0.000000  0.500000  0.500000  1
+  Br  Br11  1  0.500000  0.000000  0.500000  1
+  Br  Br12  1  0.241776  0.241774  0.483549  1
+  Br  Br13  1  0.991742  0.746559  0.245182  1
+  Br  Br14  1  0.746560  0.991743  0.245183  1
+  Br  Br15  1  0.241774  0.758226  0.000002  1
+  Br  Br16  1  0.498624  0.253440  0.245184  1
+  Br  Br17  1  0.253440  0.008257  0.754817  1
+  Br  Br18  1  0.758226  0.241774  0.999998  1
+  Br  Br19  1  0.008258  0.253441  0.754818  1
+  Br  Br20  1  0.253442  0.498625  0.245183  1
+  Br  Br21  1  0.758224  0.758226  0.516451  1
+  Br  Br22  1  0.501376  0.746560  0.754816  1
+  Br  Br23  1  0.746558  0.501375  0.754817  1

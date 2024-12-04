@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_DyErMg(PRh2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.70409400
+_cell_length_b   9.70409457
+_cell_length_c   3.88880800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000489
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyErMg(PRh2)6
+_chemical_formula_sum   'Dy1 Er1 Mg1 P6 Rh12'
+_cell_volume   317.14445793
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.666667  0.333333  0.246342  1
+  Er  Er1  1  0.333333  0.666667  0.753535  1
+  Mg  Mg2  1  0.000000  0.000000  0.500035  1
+  P  P3  1  0.402201  0.285368  0.746899  1
+  P  P4  1  0.714632  0.116834  0.746899  1
+  P  P5  1  0.883166  0.597799  0.746899  1
+  P  P6  1  0.597435  0.714513  0.253100  1
+  P  P7  1  0.285487  0.882921  0.253100  1
+  P  P8  1  0.117079  0.402565  0.253100  1
+  Rh  Rh9  1  0.453356  0.066106  0.748604  1
+  Rh  Rh10  1  0.933894  0.387249  0.748604  1
+  Rh  Rh11  1  0.612751  0.546644  0.748604  1
+  Rh  Rh12  1  0.545947  0.933062  0.251426  1
+  Rh  Rh13  1  0.066938  0.612885  0.251426  1
+  Rh  Rh14  1  0.387115  0.454053  0.251426  1
+  Rh  Rh15  1  0.161046  0.289299  0.753988  1
+  Rh  Rh16  1  0.710701  0.871748  0.753988  1
+  Rh  Rh17  1  0.128252  0.838954  0.753988  1
+  Rh  Rh18  1  0.838983  0.710941  0.246012  1
+  Rh  Rh19  1  0.289059  0.128041  0.246012  1
+  Rh  Rh20  1  0.871959  0.161017  0.246012  1

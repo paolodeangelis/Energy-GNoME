@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Na2CdAgPCO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.20078435
+_cell_length_b   6.97441100
+_cell_length_c   5.27035100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.03098068
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CdAgPCO7
+_chemical_formula_sum   'Na4 Cd2 Ag2 P2 C2 O14'
+_cell_volume   338.19864589
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.247155  0.000623  0.245509  1
+  Na  Na1  1  0.247155  0.499377  0.245509  1
+  Na  Na2  1  0.752845  0.500623  0.754491  1
+  Na  Na3  1  0.752845  0.999377  0.754491  1
+  Cd  Cd4  1  0.380731  0.750000  0.777142  1
+  Cd  Cd5  1  0.619269  0.250000  0.222858  1
+  Ag  Ag6  1  0.086256  0.250000  0.765848  1
+  Ag  Ag7  1  0.913744  0.750000  0.234152  1
+  P  P8  1  0.410308  0.250000  0.712808  1
+  P  P9  1  0.589692  0.750000  0.287192  1
+  C  C10  1  0.066551  0.750000  0.733919  1
+  C  C11  1  0.933449  0.250000  0.266081  1
+  O  O12  1  0.071196  0.250000  0.321335  1
+  O  O13  1  0.108438  0.750000  0.970546  1
+  O  O14  1  0.163665  0.750000  0.554897  1
+  O  O15  1  0.328238  0.071214  0.817417  1
+  O  O16  1  0.328238  0.428786  0.817417  1
+  O  O17  1  0.404048  0.250000  0.415800  1
+  O  O18  1  0.427141  0.750000  0.205530  1
+  O  O19  1  0.572859  0.250000  0.794470  1
+  O  O20  1  0.595952  0.750000  0.584200  1
+  O  O21  1  0.671762  0.571214  0.182583  1
+  O  O22  1  0.671762  0.928786  0.182583  1
+  O  O23  1  0.836335  0.250000  0.445103  1
+  O  O24  1  0.891562  0.250000  0.029454  1
+  O  O25  1  0.928804  0.750000  0.678665  1

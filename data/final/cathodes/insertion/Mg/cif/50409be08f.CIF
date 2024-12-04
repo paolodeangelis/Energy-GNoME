@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_MgNb8FeSe16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.97376200
+_cell_length_b   6.97400881
+_cell_length_c   12.93869201
+_cell_angle_alpha   90.00198064
+_cell_angle_beta   89.99650810
+_cell_angle_gamma   119.99717860
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNb8FeSe16
+_chemical_formula_sum   'Mg1 Nb8 Fe1 Se16'
+_cell_volume   544.98301344
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.000000  0.000000  0.500000  1
+  Nb  Nb1  1  0.999970  0.999982  0.237170  1
+  Nb  Nb2  1  0.000030  0.000018  0.762830  1
+  Nb  Nb3  1  0.506853  0.013707  0.235598  1
+  Nb  Nb4  1  0.986279  0.493137  0.235621  1
+  Nb  Nb5  1  0.506852  0.493132  0.235645  1
+  Nb  Nb6  1  0.493147  0.986293  0.764402  1
+  Nb  Nb7  1  0.013721  0.506863  0.764379  1
+  Nb  Nb8  1  0.493148  0.506868  0.764355  1
+  Fe  Fe9  1  0.000000  0.000000  0.000000  1
+  Se  Se10  1  0.333392  0.666648  0.897047  1
+  Se  Se11  1  0.666608  0.333352  0.102953  1
+  Se  Se12  1  0.666719  0.333294  0.370185  1
+  Se  Se13  1  0.333281  0.666706  0.629815  1
+  Se  Se14  1  0.169398  0.830666  0.365584  1
+  Se  Se15  1  0.169397  0.338717  0.365602  1
+  Se  Se16  1  0.661309  0.830632  0.365588  1
+  Se  Se17  1  0.830602  0.169334  0.634416  1
+  Se  Se18  1  0.830603  0.661283  0.634398  1
+  Se  Se19  1  0.338691  0.169368  0.634412  1
+  Se  Se20  1  0.834637  0.165407  0.891288  1
+  Se  Se21  1  0.834663  0.669278  0.891288  1
+  Se  Se22  1  0.330838  0.165406  0.891306  1
+  Se  Se23  1  0.165363  0.834593  0.108712  1
+  Se  Se24  1  0.165337  0.330722  0.108712  1
+  Se  Se25  1  0.669162  0.834594  0.108694  1

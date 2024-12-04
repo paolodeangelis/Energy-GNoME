@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KIn(CO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49376730
+_cell_length_b   6.49376391
+_cell_length_c   6.90221251
+_cell_angle_alpha   104.07790481
+_cell_angle_beta   104.07644874
+_cell_angle_gamma   94.84684848
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KIn(CO3)2
+_chemical_formula_sum   'K2 In2 C4 O12'
+_cell_volume   270.62938804
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.897537  0.102453  0.249995  1
+  K  K1  1  0.102466  0.897545  0.750004  1
+  In  In2  1  0.341327  0.658670  0.249996  1
+  In  In3  1  0.658675  0.341327  0.750003  1
+  C  C4  1  0.387031  0.177507  0.279361  1
+  C  C5  1  0.822492  0.612966  0.220649  1
+  C  C6  1  0.177510  0.387035  0.779351  1
+  C  C7  1  0.612966  0.822492  0.720638  1
+  O  O8  1  0.764501  0.427112  0.086089  1
+  O  O9  1  0.273513  0.316012  0.214772  1
+  O  O10  1  0.303891  0.977317  0.194368  1
+  O  O11  1  0.022682  0.696096  0.305650  1
+  O  O12  1  0.683985  0.726494  0.285230  1
+  O  O13  1  0.572884  0.235497  0.413916  1
+  O  O14  1  0.427114  0.764503  0.586084  1
+  O  O15  1  0.316020  0.273505  0.714780  1
+  O  O16  1  0.977316  0.303909  0.694340  1
+  O  O17  1  0.696108  0.022678  0.805628  1
+  O  O18  1  0.726482  0.683986  0.785228  1
+  O  O19  1  0.235498  0.572894  0.913915  1

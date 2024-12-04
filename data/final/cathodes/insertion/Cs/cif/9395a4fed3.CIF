@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsSiGe2As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81011400
+_cell_length_b   10.56162700
+_cell_length_c   21.09373400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsSiGe2As3
+_chemical_formula_sum   'Cs4 Si4 Ge8 As12'
+_cell_volume   848.83301097
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.298009  0.305669  1
+  Cs  Cs1  1  0.000000  0.701991  0.694331  1
+  Cs  Cs2  1  0.000000  0.201991  0.805669  1
+  Cs  Cs3  1  0.000000  0.798009  0.194331  1
+  Si  Si4  1  0.000000  0.179501  0.125780  1
+  Si  Si5  1  0.000000  0.820499  0.874220  1
+  Si  Si6  1  0.000000  0.320499  0.625780  1
+  Si  Si7  1  0.000000  0.679501  0.374220  1
+  Ge  Ge8  1  0.500000  0.404077  0.033824  1
+  Ge  Ge9  1  0.500000  0.595923  0.966176  1
+  Ge  Ge10  1  0.500000  0.095923  0.533824  1
+  Ge  Ge11  1  0.500000  0.904077  0.466176  1
+  Ge  Ge12  1  0.000000  0.112692  0.015865  1
+  Ge  Ge13  1  0.000000  0.887308  0.984135  1
+  Ge  Ge14  1  0.000000  0.387308  0.515865  1
+  Ge  Ge15  1  0.000000  0.612692  0.484135  1
+  As  As16  1  0.500000  0.108900  0.183599  1
+  As  As17  1  0.500000  0.891100  0.816401  1
+  As  As18  1  0.500000  0.391100  0.683599  1
+  As  As19  1  0.500000  0.608900  0.316401  1
+  As  As20  1  0.500000  0.282001  0.461411  1
+  As  As21  1  0.500000  0.717999  0.538589  1
+  As  As22  1  0.500000  0.217999  0.961411  1
+  As  As23  1  0.500000  0.782001  0.038589  1
+  As  As24  1  0.000000  0.407019  0.109316  1
+  As  As25  1  0.000000  0.592981  0.890684  1
+  As  As26  1  0.000000  0.092981  0.609316  1
+  As  As27  1  0.000000  0.907019  0.390684  1

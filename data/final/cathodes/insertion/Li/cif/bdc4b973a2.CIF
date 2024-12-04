@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li4MnSi2Se7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.53955989
+_cell_length_b   9.53955917
+_cell_length_c   10.68180647
+_cell_angle_alpha   85.78859945
+_cell_angle_beta   85.78860053
+_cell_angle_gamma   43.18980088
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4MnSi2Se7
+_chemical_formula_sum   'Li8 Mn2 Si4 Se14'
+_cell_volume   663.22908985
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.560647  0.278448  0.293966  1
+  Li  Li1  1  0.278448  0.560647  0.793966  1
+  Li  Li2  1  0.026152  0.677155  0.137173  1
+  Li  Li3  1  0.677155  0.026152  0.637173  1
+  Li  Li4  1  0.977810  0.306977  0.220410  1
+  Li  Li5  1  0.306977  0.977810  0.720410  1
+  Li  Li6  1  0.896035  0.527196  0.856246  1
+  Li  Li7  1  0.527196  0.896035  0.356246  1
+  Mn  Mn8  1  0.816109  0.170365  0.943374  1
+  Mn  Mn9  1  0.170365  0.816109  0.443374  1
+  Si  Si10  1  0.451963  0.112266  0.018808  1
+  Si  Si11  1  0.112266  0.451963  0.518808  1
+  Si  Si12  1  0.395529  0.743792  0.080644  1
+  Si  Si13  1  0.743792  0.395529  0.580644  1
+  Se  Se14  1  0.507986  0.847953  0.933894  1
+  Se  Se15  1  0.847953  0.507986  0.433894  1
+  Se  Se16  1  0.671023  0.402560  0.128705  1
+  Se  Se17  1  0.402560  0.671023  0.628705  1
+  Se  Se18  1  0.272539  0.921033  0.261533  1
+  Se  Se19  1  0.921033  0.272539  0.761533  1
+  Se  Se20  1  0.151997  0.795218  0.986825  1
+  Se  Se21  1  0.795218  0.151997  0.486825  1
+  Se  Se22  1  0.649014  0.986967  0.186796  1
+  Se  Se23  1  0.986967  0.649014  0.686796  1
+  Se  Se24  1  0.110636  0.385221  0.048783  1
+  Se  Se25  1  0.385221  0.110636  0.548783  1
+  Se  Se26  1  0.572613  0.178512  0.855865  1
+  Se  Se27  1  0.178512  0.572613  0.355865  1

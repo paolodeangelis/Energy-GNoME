@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaLiLaReH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27053200
+_cell_length_b   5.27053947
+_cell_length_c   5.27038400
+_cell_angle_alpha   120.00188575
+_cell_angle_beta   89.99615162
+_cell_angle_gamma   120.00276286
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiLaReH6
+_chemical_formula_sum   'Na1 Li1 La1 Re1 H6'
+_cell_volume   103.51918759
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.249984  0.499989  0.749999  1
+  Li  Li1  1  0.999999  0.000004  0.999997  1
+  La  La2  1  0.750038  0.500043  0.250029  1
+  Re  Re3  1  0.499983  0.999950  0.499979  1
+  H  H4  1  0.259247  0.999994  0.259249  1
+  H  H5  1  0.259256  0.518515  0.259252  1
+  H  H6  1  0.740747  0.000000  0.259249  1
+  H  H7  1  0.740745  0.481500  0.740751  1
+  H  H8  1  0.259253  0.999999  0.740742  1
+  H  H9  1  0.740744  0.000002  0.740752  1

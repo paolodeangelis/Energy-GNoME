@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_MgCr3P4Ru3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.17060200
+_cell_length_b   7.17060294
+_cell_length_c   3.36197700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000489
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCr3P4Ru3
+_chemical_formula_sum   'Mg1 Cr3 P4 Ru3'
+_cell_volume   149.70511563
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.457192  0.914384  0.000000  1
+  Cr  Cr2  1  0.085616  0.542808  0.000000  1
+  Cr  Cr3  1  0.457192  0.542808  0.000000  1
+  P  P4  1  0.182387  0.364774  0.500000  1
+  P  P5  1  0.635226  0.817613  0.500000  1
+  P  P6  1  0.182387  0.817613  0.500000  1
+  P  P7  1  0.666667  0.333333  0.000000  1
+  Ru  Ru8  1  0.802153  0.604308  0.500000  1
+  Ru  Ru9  1  0.395692  0.197847  0.500000  1
+  Ru  Ru10  1  0.802153  0.197847  0.500000  1

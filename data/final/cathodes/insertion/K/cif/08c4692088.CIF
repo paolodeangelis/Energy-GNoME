@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KMn4(SbO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.00295416
+_cell_length_b   7.00291762
+_cell_length_c   7.00294011
+_cell_angle_alpha   107.90102669
+_cell_angle_beta   107.90123258
+_cell_angle_gamma   107.90213187
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMn4(SbO4)3
+_chemical_formula_sum   'K1 Mn4 Sb3 O12'
+_cell_volume   278.68108920
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.493895  0.493885  0.493890  1
+  Mn  Mn1  1  0.004875  0.004863  0.004875  1
+  Mn  Mn2  1  0.975309  0.490888  0.363252  1
+  Mn  Mn3  1  0.363272  0.975311  0.490889  1
+  Mn  Mn4  1  0.490911  0.363312  0.975319  1
+  Sb  Sb5  1  0.802587  0.934949  0.347556  1
+  Sb  Sb6  1  0.934942  0.347548  0.802586  1
+  Sb  Sb7  1  0.347549  0.802589  0.934943  1
+  O  O8  1  0.675998  0.881087  0.018422  1
+  O  O9  1  0.347569  0.097930  0.037046  1
+  O  O10  1  0.037047  0.347565  0.097925  1
+  O  O11  1  0.466385  0.834567  0.260179  1
+  O  O12  1  0.750550  0.621284  0.279544  1
+  O  O13  1  0.097924  0.037044  0.347570  1
+  O  O14  1  0.834570  0.260180  0.466389  1
+  O  O15  1  0.279534  0.750545  0.621280  1
+  O  O16  1  0.881086  0.018415  0.675999  1
+  O  O17  1  0.621279  0.279537  0.750549  1
+  O  O18  1  0.260177  0.466387  0.834572  1
+  O  O19  1  0.018416  0.675994  0.881091  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsRb(Fe6Se7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.36333574
+_cell_length_b   9.36333626
+_cell_length_c   9.36333577
+_cell_angle_alpha   61.06728570
+_cell_angle_beta   61.06728296
+_cell_angle_gamma   61.06727885
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRb(Fe6Se7)2
+_chemical_formula_sum   'Cs1 Rb1 Fe12 Se14'
+_cell_volume   594.41430935
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.620276  0.620276  0.620276  1
+  Rb  Rb1  1  0.379202  0.379202  0.379202  1
+  Fe  Fe2  1  0.303926  0.122638  0.993748  1
+  Fe  Fe3  1  0.196395  0.884616  0.060102  1
+  Fe  Fe4  1  0.884616  0.060102  0.196395  1
+  Fe  Fe5  1  0.939627  0.804050  0.115415  1
+  Fe  Fe6  1  0.804050  0.115415  0.939627  1
+  Fe  Fe7  1  0.115415  0.939627  0.804050  1
+  Fe  Fe8  1  0.993748  0.303926  0.122638  1
+  Fe  Fe9  1  0.877113  0.006857  0.695710  1
+  Fe  Fe10  1  0.122638  0.993748  0.303926  1
+  Fe  Fe11  1  0.006857  0.695710  0.877113  1
+  Fe  Fe12  1  0.695710  0.877113  0.006857  1
+  Fe  Fe13  1  0.060102  0.196395  0.884616  1
+  Se  Se14  1  0.982765  0.228988  0.649242  1
+  Se  Se15  1  0.228988  0.649242  0.982765  1
+  Se  Se16  1  0.649242  0.982765  0.228988  1
+  Se  Se17  1  0.019278  0.769585  0.350543  1
+  Se  Se18  1  0.769585  0.350543  0.019278  1
+  Se  Se19  1  0.350543  0.019278  0.769585  1
+  Se  Se20  1  0.168829  0.410293  0.822772  1
+  Se  Se21  1  0.410293  0.822772  0.168829  1
+  Se  Se22  1  0.822772  0.168829  0.410293  1
+  Se  Se23  1  0.831971  0.589882  0.175936  1
+  Se  Se24  1  0.589882  0.175936  0.831971  1
+  Se  Se25  1  0.175936  0.831971  0.589882  1
+  Se  Se26  1  0.779552  0.779552  0.779552  1
+  Se  Se27  1  0.220688  0.220688  0.220688  1

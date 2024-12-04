@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaGaPtO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11223701
+_cell_length_b   8.92986200
+_cell_length_c   6.33620400
+_cell_angle_alpha   90.00005775
+_cell_angle_beta   89.99651289
+_cell_angle_gamma   89.99923648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaGaPtO4
+_chemical_formula_sum   'Na4 Ga4 Pt4 O16'
+_cell_volume   345.83909360
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.249983  0.112298  0.999993  1
+  Na  Na1  1  0.750025  0.612331  0.500020  1
+  Na  Na2  1  0.749949  0.887673  0.999974  1
+  Na  Na3  1  0.250033  0.387724  0.500010  1
+  Ga  Ga4  1  0.000049  0.999971  0.500028  1
+  Ga  Ga5  1  0.500042  0.000006  0.499976  1
+  Ga  Ga6  1  0.499974  0.499949  0.000037  1
+  Ga  Ga7  1  0.999907  0.500013  0.000018  1
+  Pt  Pt8  1  0.749995  0.249997  0.250024  1
+  Pt  Pt9  1  0.250008  0.750012  0.749965  1
+  Pt  Pt10  1  0.749997  0.249985  0.749955  1
+  Pt  Pt11  1  0.249994  0.750007  0.250026  1
+  O  O12  1  0.536127  0.268759  0.000005  1
+  O  O13  1  0.036103  0.768795  0.500035  1
+  O  O14  1  0.963900  0.268811  0.999974  1
+  O  O15  1  0.463907  0.768759  0.499974  1
+  O  O16  1  0.036113  0.731239  0.000003  1
+  O  O17  1  0.536114  0.231225  0.499988  1
+  O  O18  1  0.463863  0.731194  0.000009  1
+  O  O19  1  0.963934  0.231240  0.499972  1
+  O  O20  1  0.749940  0.479431  0.209620  1
+  O  O21  1  0.250066  0.979426  0.709569  1
+  O  O22  1  0.749953  0.479441  0.790417  1
+  O  O23  1  0.250034  0.979425  0.290412  1
+  O  O24  1  0.249969  0.520569  0.790413  1
+  O  O25  1  0.750057  0.020570  0.290407  1
+  O  O26  1  0.249919  0.520568  0.209607  1
+  O  O27  1  0.750049  0.020582  0.709570  1

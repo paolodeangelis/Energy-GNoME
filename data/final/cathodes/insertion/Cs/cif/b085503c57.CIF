@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsKBeBr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.43766400
+_cell_length_b   9.79286600
+_cell_length_c   12.95768100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsKBeBr4
+_chemical_formula_sum   'Cs4 K4 Be4 Br16'
+_cell_volume   943.78626110
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.639043  0.900310  1
+  Cs  Cs1  1  0.750000  0.360957  0.099690  1
+  Cs  Cs2  1  0.750000  0.860957  0.400310  1
+  Cs  Cs3  1  0.250000  0.139043  0.599690  1
+  K  K4  1  0.250000  0.983525  0.170506  1
+  K  K5  1  0.750000  0.016475  0.829494  1
+  K  K6  1  0.750000  0.516475  0.670506  1
+  K  K7  1  0.250000  0.483525  0.329494  1
+  Be  Be8  1  0.250000  0.733024  0.580118  1
+  Be  Be9  1  0.750000  0.266976  0.419882  1
+  Be  Be10  1  0.750000  0.766976  0.080118  1
+  Be  Be11  1  0.250000  0.233024  0.919882  1
+  Br  Br12  1  0.006966  0.809282  0.658543  1
+  Br  Br13  1  0.993034  0.190718  0.341457  1
+  Br  Br14  1  0.993034  0.690718  0.158543  1
+  Br  Br15  1  0.506966  0.190718  0.341457  1
+  Br  Br16  1  0.006966  0.309282  0.841457  1
+  Br  Br17  1  0.493034  0.809282  0.658543  1
+  Br  Br18  1  0.493034  0.309282  0.841457  1
+  Br  Br19  1  0.506966  0.690718  0.158543  1
+  Br  Br20  1  0.250000  0.509888  0.586941  1
+  Br  Br21  1  0.750000  0.490112  0.413059  1
+  Br  Br22  1  0.750000  0.990112  0.086941  1
+  Br  Br23  1  0.250000  0.009888  0.913059  1
+  Br  Br24  1  0.250000  0.305976  0.080555  1
+  Br  Br25  1  0.750000  0.694024  0.919445  1
+  Br  Br26  1  0.750000  0.194024  0.580555  1
+  Br  Br27  1  0.250000  0.805976  0.419445  1

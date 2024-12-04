@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na3Ni2PtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36650771
+_cell_length_b   5.36636642
+_cell_length_c   5.58410934
+_cell_angle_alpha   80.70576482
+_cell_angle_beta   99.29237364
+_cell_angle_gamma   60.02755653
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Ni2PtO6
+_chemical_formula_sum   'Na3 Ni2 Pt1 O6'
+_cell_volume   131.84876429
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.169448  0.169431  0.499996  1
+  Na  Na1  1  0.830552  0.830569  0.500004  1
+  Na  Na2  1  0.500000  0.500000  0.500000  1
+  Ni  Ni3  1  0.666919  0.666876  0.999976  1
+  Ni  Ni4  1  0.333081  0.333124  0.000024  1
+  Pt  Pt5  1  0.000000  0.000000  0.000000  1
+  O  O6  1  0.255658  0.744340  0.798513  1
+  O  O7  1  0.067393  0.609086  0.202295  1
+  O  O8  1  0.390943  0.932586  0.202307  1
+  O  O9  1  0.932607  0.390914  0.797705  1
+  O  O10  1  0.609057  0.067414  0.797693  1
+  O  O11  1  0.744342  0.255660  0.201487  1

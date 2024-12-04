@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiPtRhO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15725088
+_cell_length_b   6.15725058
+_cell_length_c   6.15725086
+_cell_angle_alpha   119.66088932
+_cell_angle_beta   120.18265884
+_cell_angle_gamma   90.13613299
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiPtRhO4
+_chemical_formula_sum   'Li2 Pt2 Rh2 O8'
+_cell_volume   165.25179830
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.869938  0.619938  0.250000  1
+  Li  Li1  1  0.130062  0.380062  0.750000  1
+  Pt  Pt2  1  0.500000  0.000000  0.000000  1
+  Pt  Pt3  1  0.500000  0.500000  0.500000  1
+  Rh  Rh4  1  0.000000  0.000000  0.000000  1
+  Rh  Rh5  1  0.500000  0.000000  0.500000  1
+  O  O6  1  0.709130  0.237947  0.471182  1
+  O  O7  1  0.266765  0.237947  0.028818  1
+  O  O8  1  0.264305  0.238765  0.474461  1
+  O  O9  1  0.264305  0.789844  0.025539  1
+  O  O10  1  0.290870  0.762053  0.528818  1
+  O  O11  1  0.733235  0.762053  0.971182  1
+  O  O12  1  0.735695  0.761235  0.525539  1
+  O  O13  1  0.735695  0.210156  0.974461  1

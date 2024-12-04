@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Y2HoHg(Ir2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18983320
+_cell_length_b   7.33747273
+_cell_length_c   7.33747290
+_cell_angle_alpha   60.10362212
+_cell_angle_beta   59.47822054
+_cell_angle_gamma   59.47821473
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2HoHg(Ir2O7)2
+_chemical_formula_sum   'Y2 Ho1 Hg1 Ir4 O14'
+_cell_volume   271.74384546
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.125000  0.625000  0.125000  1
+  Y  Y1  1  0.125000  0.125000  0.625000  1
+  Ho  Ho2  1  0.125000  0.125000  0.125000  1
+  Hg  Hg3  1  0.625000  0.125000  0.125000  1
+  Ir  Ir4  1  0.125000  0.625000  0.625000  1
+  Ir  Ir5  1  0.625000  0.125000  0.625000  1
+  Ir  Ir6  1  0.625000  0.625000  0.125000  1
+  Ir  Ir7  1  0.625000  0.625000  0.625000  1
+  O  O8  1  0.712838  0.691720  0.297371  1
+  O  O9  1  0.285583  0.290503  0.714549  1
+  O  O10  1  0.712838  0.297371  0.691720  1
+  O  O11  1  0.285583  0.714549  0.290503  1
+  O  O12  1  0.284928  0.712462  0.712462  1
+  O  O13  1  0.716863  0.297723  0.297723  1
+  O  O14  1  0.537162  0.558280  0.952629  1
+  O  O15  1  0.964417  0.959497  0.535451  1
+  O  O16  1  0.537162  0.952629  0.558280  1
+  O  O17  1  0.964417  0.535451  0.959497  1
+  O  O18  1  0.965072  0.537538  0.537538  1
+  O  O19  1  0.533137  0.952277  0.952277  1
+  O  O20  1  0.246627  0.250855  0.250855  1
+  O  O21  1  0.003373  0.999145  0.999145  1

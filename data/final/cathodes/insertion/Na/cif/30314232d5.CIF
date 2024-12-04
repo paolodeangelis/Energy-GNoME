@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaBi3(Pt2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29600280
+_cell_length_b   7.21957920
+_cell_length_c   7.29600200
+_cell_angle_alpha   59.64921255
+_cell_angle_beta   60.00000362
+_cell_angle_gamma   59.64920867
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBi3(Pt2O7)2
+_chemical_formula_sum   'Na1 Bi3 Pt4 O14'
+_cell_volume   270.29851670
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.125000  0.625000  0.125000  1
+  Bi  Bi1  1  0.125000  0.125000  0.125000  1
+  Bi  Bi2  1  0.625000  0.125000  0.125000  1
+  Bi  Bi3  1  0.125000  0.125000  0.625000  1
+  Pt  Pt4  1  0.625000  0.625000  0.625000  1
+  Pt  Pt5  1  0.625000  0.625000  0.125000  1
+  Pt  Pt6  1  0.125000  0.625000  0.625000  1
+  Pt  Pt7  1  0.625000  0.125000  0.625000  1
+  O  O8  1  0.251363  0.245912  0.251363  1
+  O  O9  1  0.290341  0.712729  0.290341  1
+  O  O10  1  0.958044  0.960426  0.540766  1
+  O  O11  1  0.540766  0.960426  0.540766  1
+  O  O12  1  0.706591  0.712729  0.290341  1
+  O  O13  1  0.959659  0.537271  0.543409  1
+  O  O14  1  0.709234  0.289574  0.709234  1
+  O  O15  1  0.291956  0.289574  0.709234  1
+  O  O16  1  0.709234  0.289574  0.291956  1
+  O  O17  1  0.290341  0.712729  0.706591  1
+  O  O18  1  0.959659  0.537271  0.959659  1
+  O  O19  1  0.543409  0.537271  0.959659  1
+  O  O20  1  0.998637  0.004088  0.998637  1
+  O  O21  1  0.540766  0.960426  0.958044  1

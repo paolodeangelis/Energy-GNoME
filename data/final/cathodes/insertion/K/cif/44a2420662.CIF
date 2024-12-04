@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K3Fe5NiP6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.85776578
+_cell_length_b   8.84609726
+_cell_length_c   8.84609855
+_cell_angle_alpha   155.56113318
+_cell_angle_beta   82.83476269
+_cell_angle_gamma   102.36918719
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Fe5NiP6
+_chemical_formula_sum   'K3 Fe5 Ni1 P6'
+_cell_volume   275.84586195
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.333000  0.332392  0.000608  1
+  K  K1  1  0.665402  0.666685  0.998717  1
+  K  K2  1  0.000970  0.000612  0.000357  1
+  Fe  Fe3  1  0.586125  0.833968  0.752156  1
+  Fe  Fe4  1  0.251723  0.499240  0.752483  1
+  Fe  Fe5  1  0.750602  0.503418  0.247184  1
+  Fe  Fe6  1  0.077596  0.830098  0.247498  1
+  Fe  Fe7  1  0.416757  0.166752  0.250006  1
+  Ni  Ni8  1  0.917348  0.166789  0.750558  1
+  P  P9  1  0.329937  0.666684  0.663254  1
+  P  P10  1  0.673930  0.335360  0.338570  1
+  P  P11  1  0.998138  0.337958  0.660180  1
+  P  P12  1  0.336976  0.997860  0.339116  1
+  P  P13  1  0.005593  0.666482  0.339110  1
+  P  P14  1  0.655905  0.995701  0.660203  1

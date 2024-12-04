@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_K4(PtO2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.56635019
+_cell_length_b   5.56635092
+_cell_length_c   8.93865464
+_cell_angle_alpha   89.33709897
+_cell_angle_beta   89.33709739
+_cell_angle_gamma   68.09276314
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4(PtO2)3
+_chemical_formula_sum   'K4 Pt3 O6'
+_cell_volume   256.93318922
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.673960  0.673960  0.629331  1
+  K  K1  1  0.326040  0.326040  0.370669  1
+  K  K2  1  0.653184  0.653184  0.106298  1
+  K  K3  1  0.346816  0.346816  0.893702  1
+  Pt  Pt4  1  0.000000  0.000000  0.000000  1
+  Pt  Pt5  1  0.962024  0.962024  0.331924  1
+  Pt  Pt6  1  0.037976  0.037976  0.668076  1
+  O  O7  1  0.138171  0.724382  0.160673  1
+  O  O8  1  0.724382  0.138171  0.160673  1
+  O  O9  1  0.861829  0.275618  0.839327  1
+  O  O10  1  0.275618  0.861829  0.839327  1
+  O  O11  1  0.205831  0.794169  0.500000  1
+  O  O12  1  0.794169  0.205831  0.500000  1

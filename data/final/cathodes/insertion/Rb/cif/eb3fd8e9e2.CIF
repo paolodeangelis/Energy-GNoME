@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K3RbBa2(SrSb2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46925900
+_cell_length_b   8.89789096
+_cell_length_c   10.52294796
+_cell_angle_alpha   89.71774234
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3RbBa2(SrSb2)2
+_chemical_formula_sum   'K3 Rb1 Ba2 Sr2 Sb4'
+_cell_volume   512.09168282
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.346903  0.339596  1
+  K  K1  1  0.500000  0.527532  0.585553  1
+  K  K2  1  0.000000  0.845014  0.660707  1
+  Rb  Rb3  1  0.500000  0.030857  0.420201  1
+  Ba  Ba4  1  0.000000  0.992987  0.061186  1
+  Ba  Ba5  1  0.000000  0.493382  0.937187  1
+  Sr  Sr6  1  0.500000  0.149389  0.815214  1
+  Sr  Sr7  1  0.500000  0.646567  0.184092  1
+  Sb  Sb8  1  0.000000  0.256227  0.671546  1
+  Sb  Sb9  1  0.500000  0.276636  0.113288  1
+  Sb  Sb10  1  0.000000  0.749435  0.327782  1
+  Sb  Sb11  1  0.500000  0.776273  0.883647  1

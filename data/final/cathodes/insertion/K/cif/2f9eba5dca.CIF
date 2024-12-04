@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_KReNiP2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28931330
+_cell_length_b   7.28931306
+_cell_length_c   7.28931515
+_cell_angle_alpha   149.40567012
+_cell_angle_beta   149.40566645
+_cell_angle_gamma   43.81451956
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KReNiP2
+_chemical_formula_sum   'K1 Re1 Ni1 P2'
+_cell_volume   100.04655908
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Re  Re1  1  0.250000  0.750000  0.500000  1
+  Ni  Ni2  1  0.750000  0.250000  0.500000  1
+  P  P3  1  0.345860  0.345860  0.000000  1
+  P  P4  1  0.654140  0.654140  0.000000  1

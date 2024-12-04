@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K5Rb(Al2P3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91733800
+_cell_length_b   7.45481499
+_cell_length_c   10.33628518
+_cell_angle_alpha   69.73172277
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K5Rb(Al2P3)2
+_chemical_formula_sum   'K5 Rb1 Al4 P6'
+_cell_volume   427.72832740
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.250000  0.437767  0.427305  1
+  K  K1  1  0.750000  0.129099  0.922090  1
+  K  K2  1  0.750000  0.477949  0.149889  1
+  K  K3  1  0.250000  0.520239  0.850152  1
+  K  K4  1  0.750000  0.563510  0.573074  1
+  Rb  Rb5  1  0.250000  0.856622  0.077015  1
+  Al  Al6  1  0.000346  0.028320  0.344825  1
+  Al  Al7  1  0.499796  0.973980  0.655338  1
+  Al  Al8  1  0.499654  0.028320  0.344825  1
+  Al  Al9  1  0.000204  0.973980  0.655338  1
+  P  P10  1  0.250000  0.820502  0.529417  1
+  P  P11  1  0.750000  0.180624  0.471372  1
+  P  P12  1  0.250000  0.248912  0.188775  1
+  P  P13  1  0.750000  0.754384  0.812639  1
+  P  P14  1  0.250000  0.152446  0.742127  1
+  P  P15  1  0.750000  0.853346  0.255818  1

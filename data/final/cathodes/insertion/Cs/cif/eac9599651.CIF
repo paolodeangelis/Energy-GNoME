@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs2LiFeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97898800
+_cell_length_b   6.86708592
+_cell_length_c   8.37654500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   64.19328430
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2LiFeO4
+_chemical_formula_sum   'Cs4 Li2 Fe2 O8'
+_cell_volume   309.62554389
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.604472  0.791053  0.991715  1
+  Cs  Cs1  1  0.072974  0.854052  0.349230  1
+  Cs  Cs2  1  0.395527  0.208947  0.491715  1
+  Cs  Cs3  1  0.927025  0.145948  0.849230  1
+  Li  Li4  1  0.796829  0.406341  0.274965  1
+  Li  Li5  1  0.203170  0.593659  0.774965  1
+  Fe  Fe6  1  0.304491  0.391017  0.054596  1
+  Fe  Fe7  1  0.695508  0.608983  0.554596  1
+  O  O8  1  0.166660  0.666680  0.005148  1
+  O  O9  1  0.121265  0.302511  0.166917  1
+  O  O10  1  0.576225  0.302511  0.166917  1
+  O  O11  1  0.646803  0.706395  0.359013  1
+  O  O12  1  0.833339  0.333320  0.505148  1
+  O  O13  1  0.423776  0.697489  0.666917  1
+  O  O14  1  0.878735  0.697489  0.666917  1
+  O  O15  1  0.353196  0.293605  0.859013  1

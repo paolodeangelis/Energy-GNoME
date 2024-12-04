@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Rb2Co(BrO3)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79799512
+_cell_length_b   7.79799462
+_cell_length_c   7.79799531
+_cell_angle_alpha   96.56743237
+_cell_angle_beta   96.56742959
+_cell_angle_gamma   96.56742045
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2Co(BrO3)6
+_chemical_formula_sum   'Rb2 Co1 Br6 O18'
+_cell_volume   464.06440681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.177369  0.177369  0.177369  1
+  Rb  Rb1  1  0.822631  0.822631  0.822631  1
+  Co  Co2  1  0.500000  0.500000  0.500000  1
+  Br  Br3  1  0.327014  0.701836  0.182045  1
+  Br  Br4  1  0.182045  0.327014  0.701836  1
+  Br  Br5  1  0.817955  0.672986  0.298164  1
+  Br  Br6  1  0.672986  0.298164  0.817955  1
+  Br  Br7  1  0.701836  0.182045  0.327014  1
+  Br  Br8  1  0.298164  0.817955  0.672986  1
+  O  O9  1  0.896892  0.298950  0.364689  1
+  O  O10  1  0.118208  0.666285  0.102786  1
+  O  O11  1  0.103108  0.701050  0.635311  1
+  O  O12  1  0.445872  0.652942  0.688232  1
+  O  O13  1  0.554129  0.347058  0.311768  1
+  O  O14  1  0.311768  0.554129  0.347058  1
+  O  O15  1  0.298950  0.364689  0.896892  1
+  O  O16  1  0.688232  0.445871  0.652942  1
+  O  O17  1  0.701050  0.635311  0.103108  1
+  O  O18  1  0.102786  0.118208  0.666285  1
+  O  O19  1  0.364689  0.896892  0.298950  1
+  O  O20  1  0.635311  0.103108  0.701050  1
+  O  O21  1  0.666285  0.102786  0.118208  1
+  O  O22  1  0.652942  0.688232  0.445871  1
+  O  O23  1  0.897214  0.881792  0.333715  1
+  O  O24  1  0.347058  0.311768  0.554129  1
+  O  O25  1  0.881792  0.333715  0.897214  1
+  O  O26  1  0.333715  0.897214  0.881792  1

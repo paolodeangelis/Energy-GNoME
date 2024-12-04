@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaNi5AsP2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18900651
+_cell_length_b   6.18900673
+_cell_length_c   11.67660900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.18918346
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNi5AsP2
+_chemical_formula_sum   'Na2 Ni10 As2 P4'
+_cell_volume   248.87811918
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.156578  0.843422  0.250000  1
+  Na  Na1  1  0.843422  0.156578  0.750000  1
+  Ni  Ni2  1  0.198984  0.801016  0.939785  1
+  Ni  Ni3  1  0.801016  0.198984  0.439785  1
+  Ni  Ni4  1  0.000000  0.000000  0.000000  1
+  Ni  Ni5  1  0.000000  0.000000  0.500000  1
+  Ni  Ni6  1  0.545174  0.454826  0.641257  1
+  Ni  Ni7  1  0.454826  0.545174  0.358743  1
+  Ni  Ni8  1  0.454826  0.545174  0.141257  1
+  Ni  Ni9  1  0.198984  0.801016  0.560215  1
+  Ni  Ni10  1  0.801016  0.198984  0.060215  1
+  Ni  Ni11  1  0.545174  0.454826  0.858743  1
+  As  As12  1  0.119714  0.880286  0.750000  1
+  As  As13  1  0.880286  0.119714  0.250000  1
+  P  P14  1  0.618951  0.381049  0.460803  1
+  P  P15  1  0.618951  0.381049  0.039197  1
+  P  P16  1  0.381049  0.618951  0.960803  1
+  P  P17  1  0.381049  0.618951  0.539197  1
