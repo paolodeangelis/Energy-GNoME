@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_MgZn3Sb(PN2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29444997
+_cell_length_b   7.25790302
+_cell_length_c   7.29445044
+_cell_angle_alpha   109.36974719
+_cell_angle_beta   109.57248766
+_cell_angle_gamma   109.36976864
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn3Sb(PN2)6
+_chemical_formula_sum   'Mg1 Zn3 Sb1 P6 N12'
+_cell_volume   297.65741772
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.000000  0.377363  0.000000  1
+  Zn  Zn1  1  0.636689  0.641464  0.636689  1
+  Zn  Zn2  1  0.363311  0.004775  0.000000  1
+  Zn  Zn3  1  0.000000  0.004775  0.363311  1
+  Sb  Sb4  1  0.000000  0.968835  0.000000  1
+  P  P5  1  0.748647  0.249854  0.498803  1
+  P  P6  1  0.249844  0.751052  0.501197  1
+  P  P7  1  0.501197  0.751052  0.249844  1
+  P  P8  1  0.498803  0.249854  0.748647  1
+  P  P9  1  0.750156  0.501208  0.251353  1
+  P  P10  1  0.251353  0.501208  0.750156  1
+  N  N11  1  0.568329  0.277826  0.000000  1
+  N  N12  1  0.435997  0.436606  0.712170  1
+  N  N13  1  0.000000  0.277826  0.568329  1
+  N  N14  1  0.276172  0.000608  0.564003  1
+  N  N15  1  0.712170  0.436606  0.435997  1
+  N  N16  1  0.000000  0.563460  0.280268  1
+  N  N17  1  0.564003  0.000608  0.276172  1
+  N  N18  1  0.431671  0.709497  0.431671  1
+  N  N19  1  0.280268  0.563460  0.000000  1
+  N  N20  1  0.719732  0.283192  0.719732  1
+  N  N21  1  0.723828  0.724436  0.287830  1
+  N  N22  1  0.287830  0.724436  0.723828  1

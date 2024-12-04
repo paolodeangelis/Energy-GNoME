@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2Fe3CoS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.69843292
+_cell_length_b   7.69843343
+_cell_length_c   5.15962916
+_cell_angle_alpha   89.97824437
+_cell_angle_beta   90.02175328
+_cell_angle_gamma   102.15302026
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Fe3CoS6
+_chemical_formula_sum   'Cs2 Fe3 Co1 S6'
+_cell_volume   298.93678608
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.326020  0.673734  0.750130  1
+  Cs  Cs1  1  0.673734  0.326020  0.249870  1
+  Fe  Fe2  1  0.865983  0.865983  0.500000  1
+  Fe  Fe3  1  0.865031  0.865031  0.000000  1
+  Fe  Fe4  1  0.134708  0.134708  0.500000  1
+  Co  Co5  1  0.131786  0.131786  0.000000  1
+  S  S6  1  0.896301  0.097214  0.749241  1
+  S  S7  1  0.097214  0.896301  0.250759  1
+  S  S8  1  0.361346  0.166324  0.748168  1
+  S  S9  1  0.642168  0.839387  0.249833  1
+  S  S10  1  0.166324  0.361346  0.251832  1
+  S  S11  1  0.839387  0.642168  0.750167  1

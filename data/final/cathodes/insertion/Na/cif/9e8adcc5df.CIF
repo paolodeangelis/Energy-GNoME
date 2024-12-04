@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_NaNb8InSe16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.01097900
+_cell_length_b   7.01097795
+_cell_length_c   16.02862500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000022
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNb8InSe16
+_chemical_formula_sum   'Na1 Nb8 In1 Se16'
+_cell_volume   682.31381853
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Nb  Nb1  1  0.986054  0.493027  0.253545  1
+  Nb  Nb2  1  0.013946  0.506973  0.746455  1
+  Nb  Nb3  1  0.493027  0.506973  0.746455  1
+  Nb  Nb4  1  0.506973  0.013946  0.253545  1
+  Nb  Nb5  1  0.000000  0.000000  0.747641  1
+  Nb  Nb6  1  0.000000  0.000000  0.252359  1
+  Nb  Nb7  1  0.506973  0.493027  0.253545  1
+  Nb  Nb8  1  0.493027  0.986054  0.746455  1
+  In  In9  1  0.000000  0.000000  0.500000  1
+  Se  Se10  1  0.333333  0.666667  0.638592  1
+  Se  Se11  1  0.666667  0.333333  0.145458  1
+  Se  Se12  1  0.666667  0.333333  0.361408  1
+  Se  Se13  1  0.333333  0.666667  0.854542  1
+  Se  Se14  1  0.166757  0.333515  0.355292  1
+  Se  Se15  1  0.831959  0.168041  0.850140  1
+  Se  Se16  1  0.336084  0.168041  0.850140  1
+  Se  Se17  1  0.666485  0.833243  0.355292  1
+  Se  Se18  1  0.166757  0.833243  0.355292  1
+  Se  Se19  1  0.831959  0.663916  0.850140  1
+  Se  Se20  1  0.168041  0.336084  0.149860  1
+  Se  Se21  1  0.833243  0.166757  0.644708  1
+  Se  Se22  1  0.333515  0.166757  0.644708  1
+  Se  Se23  1  0.663916  0.831959  0.149860  1
+  Se  Se24  1  0.168041  0.831959  0.149860  1
+  Se  Se25  1  0.833243  0.666485  0.644708  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Pr9Sm(AlTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.99160471
+_cell_length_b   8.99160511
+_cell_length_c   8.25620600
+_cell_angle_alpha   89.95548422
+_cell_angle_beta   89.95548421
+_cell_angle_gamma   126.24165731
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr9Sm(AlTe)4
+_chemical_formula_sum   'Pr9 Sm1 Al4 Te4'
+_cell_volume   538.36300860
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.000000  0.000000  0.000000  1
+  Pr  Pr1  1  0.804259  0.537094  0.169287  1
+  Pr  Pr2  1  0.462906  0.195741  0.830713  1
+  Pr  Pr3  1  0.965128  0.695060  0.668928  1
+  Pr  Pr4  1  0.304940  0.034872  0.331072  1
+  Pr  Pr5  1  0.195741  0.462906  0.830713  1
+  Pr  Pr6  1  0.537094  0.804259  0.169287  1
+  Pr  Pr7  1  0.034872  0.304940  0.331072  1
+  Pr  Pr8  1  0.695060  0.965128  0.668928  1
+  Sm  Sm9  1  0.500000  0.500000  0.500000  1
+  Al  Al10  1  0.879442  0.879442  0.385845  1
+  Al  Al11  1  0.120558  0.120558  0.614155  1
+  Al  Al12  1  0.617010  0.617010  0.879797  1
+  Al  Al13  1  0.382990  0.382990  0.120203  1
+  Te  Te14  1  0.202637  0.797363  0.000000  1
+  Te  Te15  1  0.700065  0.299935  0.500000  1
+  Te  Te16  1  0.797363  0.202637  0.000000  1
+  Te  Te17  1  0.299935  0.700065  0.500000  1

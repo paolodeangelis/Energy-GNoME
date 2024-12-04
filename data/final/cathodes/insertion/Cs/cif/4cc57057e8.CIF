@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsLiHfTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28964400
+_cell_length_b   9.58658114
+_cell_length_c   11.33925888
+_cell_angle_alpha   66.16036939
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsLiHfTe3
+_chemical_formula_sum   'Cs2 Li2 Hf2 Te6'
+_cell_volume   426.51961706
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.750000  0.745725  0.283478  1
+  Cs  Cs1  1  0.250000  0.254275  0.716522  1
+  Li  Li2  1  0.250000  0.078311  0.398494  1
+  Li  Li3  1  0.750000  0.921689  0.601506  1
+  Hf  Hf4  1  0.250000  0.686047  0.839812  1
+  Hf  Hf5  1  0.750000  0.313953  0.160188  1
+  Te  Te6  1  0.250000  0.761875  0.571895  1
+  Te  Te7  1  0.750000  0.884493  0.855082  1
+  Te  Te8  1  0.750000  0.460114  0.874311  1
+  Te  Te9  1  0.750000  0.238125  0.428105  1
+  Te  Te10  1  0.250000  0.539886  0.125689  1
+  Te  Te11  1  0.250000  0.115507  0.144918  1

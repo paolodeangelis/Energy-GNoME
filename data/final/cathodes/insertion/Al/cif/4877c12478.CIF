@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm4AlMo2Os5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.47306400
+_cell_length_b   5.43091403
+_cell_length_c   8.55598000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.25760870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm4AlMo2Os5
+_chemical_formula_sum   'Tm4 Al1 Mo2 Os5'
+_cell_volume   219.66993780
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.666903  0.333837  0.559528  1
+  Tm  Tm1  1  0.335774  0.671585  0.432985  1
+  Tm  Tm2  1  0.335774  0.671585  0.067015  1
+  Tm  Tm3  1  0.666903  0.333837  0.940472  1
+  Al  Al4  1  0.172869  0.345545  0.750000  1
+  Mo  Mo5  1  0.991962  0.983967  0.496361  1
+  Mo  Mo6  1  0.991962  0.983967  0.003639  1
+  Os  Os7  1  0.182932  0.841356  0.750000  1
+  Os  Os8  1  0.658415  0.841360  0.750000  1
+  Os  Os9  1  0.821873  0.643729  0.250000  1
+  Os  Os10  1  0.832203  0.174621  0.250000  1
+  Os  Os11  1  0.342428  0.174609  0.250000  1

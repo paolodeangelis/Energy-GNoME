@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Er16AlCd3(PdPt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.56871700
+_cell_length_b   9.56871695
+_cell_length_c   9.55895512
+_cell_angle_alpha   60.27187908
+_cell_angle_beta   60.27187945
+_cell_angle_gamma   60.29828267
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er16AlCd3(PdPt)2
+_chemical_formula_sum   'Er16 Al1 Cd3 Pd2 Pt2'
+_cell_volume   622.80609643
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.350397  0.350397  0.348057  1
+  Er  Er1  1  0.358149  0.358149  0.934570  1
+  Er  Er2  1  0.359202  0.933178  0.357424  1
+  Er  Er3  1  0.933178  0.359202  0.357424  1
+  Er  Er4  1  0.809091  0.190008  0.189670  1
+  Er  Er5  1  0.194035  0.807794  0.809466  1
+  Er  Er6  1  0.190008  0.809091  0.189670  1
+  Er  Er7  1  0.807794  0.194035  0.809466  1
+  Er  Er8  1  0.189955  0.189955  0.810324  1
+  Er  Er9  1  0.808600  0.808600  0.194265  1
+  Er  Er10  1  0.932246  0.567846  0.567003  1
+  Er  Er11  1  0.565417  0.936583  0.936433  1
+  Er  Er12  1  0.567846  0.932246  0.567003  1
+  Er  Er13  1  0.936583  0.565417  0.936433  1
+  Er  Er14  1  0.567468  0.567468  0.931784  1
+  Er  Er15  1  0.935620  0.935620  0.565204  1
+  Al  Al16  1  0.581772  0.581772  0.582116  1
+  Cd  Cd17  1  0.580799  0.580799  0.254726  1
+  Cd  Cd18  1  0.580516  0.255160  0.580734  1
+  Cd  Cd19  1  0.255160  0.580516  0.580734  1
+  Pd  Pd20  1  0.145425  0.145425  0.146724  1
+  Pd  Pd21  1  0.140738  0.140738  0.568907  1
+  Pt  Pt22  1  0.140075  0.569926  0.140932  1
+  Pt  Pt23  1  0.569926  0.140075  0.140932  1

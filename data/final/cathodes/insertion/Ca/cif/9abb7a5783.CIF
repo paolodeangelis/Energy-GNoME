@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaAg3(RhO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.52249822
+_cell_length_b   5.51206115
+_cell_length_c   6.64280003
+_cell_angle_alpha   73.95553058
+_cell_angle_beta   97.92811522
+_cell_angle_gamma   119.93749361
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAg3(RhO3)2
+_chemical_formula_sum   'Ca1 Ag3 Rh2 O6'
+_cell_volume   168.40285993
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.333333  0.166667  0.500000  1
+  Ag  Ag1  1  0.694065  0.347031  0.000000  1
+  Ag  Ag2  1  0.333333  0.666667  0.000000  1
+  Ag  Ag3  1  0.972602  0.986302  0.000000  1
+  Rh  Rh4  1  0.000413  0.500206  0.500000  1
+  Rh  Rh5  1  0.666254  0.833127  0.500000  1
+  O  O6  1  0.333333  0.740230  0.669944  1
+  O  O7  1  0.964870  0.110123  0.669542  1
+  O  O8  1  0.701797  0.478586  0.669542  1
+  O  O9  1  0.701797  0.223210  0.330458  1
+  O  O10  1  0.333333  0.593104  0.330056  1
+  O  O11  1  0.964870  0.854747  0.330458  1

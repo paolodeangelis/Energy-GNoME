@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CsTa(CuSe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.52674398
+_cell_length_b   10.52674290
+_cell_length_c   7.91870300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   148.20666168
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTa(CuSe2)2
+_chemical_formula_sum   'Cs2 Ta2 Cu4 Se8'
+_cell_volume   462.31168084
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.180372  0.814699  0.750000  1
+  Cs  Cs1  1  0.814699  0.180372  0.250000  1
+  Ta  Ta2  1  0.644221  0.851206  0.750000  1
+  Ta  Ta3  1  0.851206  0.644221  0.250000  1
+  Cu  Cu4  1  0.735556  0.735556  0.500000  1
+  Cu  Cu5  1  0.735556  0.735556  0.000000  1
+  Cu  Cu6  1  0.349932  0.146541  0.250000  1
+  Cu  Cu7  1  0.146541  0.349932  0.750000  1
+  Se  Se8  1  0.602595  0.400087  0.999176  1
+  Se  Se9  1  0.400087  0.602596  0.499176  1
+  Se  Se10  1  0.989326  0.996504  0.750000  1
+  Se  Se11  1  0.400087  0.602596  0.000824  1
+  Se  Se12  1  0.197018  0.797064  0.250000  1
+  Se  Se13  1  0.797064  0.197018  0.750000  1
+  Se  Se14  1  0.996504  0.989326  0.250000  1
+  Se  Se15  1  0.602595  0.400087  0.500824  1

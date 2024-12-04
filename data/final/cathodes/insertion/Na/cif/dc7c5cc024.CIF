@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Na(Bi3Ir)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.54014413
+_cell_length_b   8.54014568
+_cell_length_c   8.54014700
+_cell_angle_alpha   109.47121903
+_cell_angle_beta   109.47122270
+_cell_angle_gamma   109.47121826
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(Bi3Ir)4
+_chemical_formula_sum   'Na1 Bi12 Ir4'
+_cell_volume   479.48380702
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Bi  Bi1  1  0.841630  0.663473  0.505103  1
+  Bi  Bi2  1  0.158370  0.336527  0.494897  1
+  Bi  Bi3  1  0.158370  0.663473  0.821844  1
+  Bi  Bi4  1  0.841630  0.336527  0.178156  1
+  Bi  Bi5  1  0.663473  0.505103  0.841630  1
+  Bi  Bi6  1  0.336527  0.494897  0.158370  1
+  Bi  Bi7  1  0.663473  0.821844  0.158370  1
+  Bi  Bi8  1  0.336527  0.178156  0.841630  1
+  Bi  Bi9  1  0.505103  0.841630  0.663473  1
+  Bi  Bi10  1  0.494897  0.158370  0.336527  1
+  Bi  Bi11  1  0.178156  0.841630  0.336527  1
+  Bi  Bi12  1  0.821844  0.158370  0.663473  1
+  Ir  Ir13  1  0.500000  0.500000  0.500000  1
+  Ir  Ir14  1  0.500000  0.000000  0.000000  1
+  Ir  Ir15  1  0.000000  0.500000  0.000000  1
+  Ir  Ir16  1  0.000000  0.000000  0.500000  1

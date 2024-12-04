@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NdDyScAlPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47815200
+_cell_length_b   7.31930600
+_cell_length_c   8.01367100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdDyScAlPt2
+_chemical_formula_sum   'Nd2 Dy2 Sc2 Al2 Pt4'
+_cell_volume   262.66381231
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.750000  0.978265  0.328273  1
+  Nd  Nd1  1  0.250000  0.521735  0.828273  1
+  Dy  Dy2  1  0.750000  0.444542  0.177906  1
+  Dy  Dy3  1  0.250000  0.055458  0.677906  1
+  Sc  Sc4  1  0.750000  0.874447  0.932916  1
+  Sc  Sc5  1  0.250000  0.625553  0.432916  1
+  Al  Al6  1  0.750000  0.357488  0.564644  1
+  Al  Al7  1  0.250000  0.142512  0.064644  1
+  Pt  Pt8  1  0.750000  0.721118  0.615827  1
+  Pt  Pt9  1  0.750000  0.232303  0.880434  1
+  Pt  Pt10  1  0.250000  0.267697  0.380434  1
+  Pt  Pt11  1  0.250000  0.778882  0.115827  1

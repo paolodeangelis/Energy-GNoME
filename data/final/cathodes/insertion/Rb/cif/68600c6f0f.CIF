@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_K2RbAg(PAu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.70404750
+_cell_length_b   7.55178291
+_cell_length_c   7.70404813
+_cell_angle_alpha   47.86618322
+_cell_angle_beta   48.82394307
+_cell_angle_gamma   47.86618504
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2RbAg(PAu)2
+_chemical_formula_sum   'K2 Rb1 Ag1 P2 Au2'
+_cell_volume   228.12371949
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.908780  0.912567  0.908780  1
+  K  K1  1  0.091220  0.087433  0.091220  1
+  Rb  Rb2  1  0.500000  0.500000  0.500000  1
+  Ag  Ag3  1  0.500000  0.000000  0.500000  1
+  P  P4  1  0.248381  0.259285  0.248381  1
+  P  P5  1  0.751619  0.740715  0.751619  1
+  Au  Au6  1  0.000000  0.500000  0.500000  1
+  Au  Au7  1  0.500000  0.500000  0.000000  1

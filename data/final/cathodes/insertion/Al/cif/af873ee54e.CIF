@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs4Na2DyAl(BiSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.31082583
+_cell_length_b   10.31082652
+_cell_length_c   10.31082600
+_cell_angle_alpha   136.91156944
+_cell_angle_beta   61.21487688
+_cell_angle_gamma   138.69668322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4Na2DyAl(BiSb)2
+_chemical_formula_sum   'Cs4 Na2 Dy1 Al1 Bi2 Sb2'
+_cell_volume   488.75688672
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.326147  0.770523  0.097320  1
+  Cs  Cs1  1  0.173853  0.271173  0.444376  1
+  Cs  Cs2  1  0.826488  0.728575  0.555891  1
+  Cs  Cs3  1  0.673512  0.229403  0.902087  1
+  Na  Na4  1  0.750000  0.252539  0.502539  1
+  Na  Na5  1  0.250000  0.751420  0.501420  1
+  Dy  Dy6  1  0.250000  0.247263  0.997263  1
+  Al  Al7  1  0.750000  0.743612  0.993612  1
+  Bi  Bi8  1  0.888155  0.201152  0.123857  1
+  Bi  Bi9  1  0.611845  0.735703  0.312998  1
+  Sb  Sb10  1  0.426995  0.302947  0.692689  1
+  Sb  Sb11  1  0.073005  0.765694  0.875953  1

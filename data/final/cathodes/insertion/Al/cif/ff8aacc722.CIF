@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ho2Al2Ga7Ir2Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60836519
+_cell_length_b   7.60836573
+_cell_length_c   9.45591100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00244373
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2Al2Ga7Ir2Pt
+_chemical_formula_sum   'Ho4 Al4 Ga14 Ir4 Pt2'
+_cell_volume   474.03023574
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.000459  0.669597  0.250000  1
+  Ho  Ho1  1  0.999541  0.330403  0.750000  1
+  Ho  Ho2  1  0.669597  0.000459  0.250000  1
+  Ho  Ho3  1  0.330403  0.999541  0.750000  1
+  Al  Al4  1  0.335023  0.335023  0.557388  1
+  Al  Al5  1  0.664977  0.664977  0.442612  1
+  Al  Al6  1  0.664977  0.664977  0.057388  1
+  Al  Al7  1  0.335023  0.335023  0.942612  1
+  Ga  Ga8  1  0.129175  0.129175  0.250000  1
+  Ga  Ga9  1  0.870825  0.870825  0.750000  1
+  Ga  Ga10  1  0.999234  0.337523  0.080510  1
+  Ga  Ga11  1  0.000766  0.662477  0.919490  1
+  Ga  Ga12  1  0.000766  0.662477  0.580510  1
+  Ga  Ga13  1  0.337523  0.999234  0.419490  1
+  Ga  Ga14  1  0.999234  0.337523  0.419490  1
+  Ga  Ga15  1  0.662477  0.000766  0.580510  1
+  Ga  Ga16  1  0.662477  0.000766  0.919490  1
+  Ga  Ga17  1  0.337523  0.999234  0.080510  1
+  Ga  Ga18  1  0.346998  0.550838  0.250000  1
+  Ga  Ga19  1  0.653002  0.449162  0.750000  1
+  Ga  Ga20  1  0.550838  0.346998  0.250000  1
+  Ga  Ga21  1  0.449162  0.653002  0.750000  1
+  Ir  Ir22  1  0.669481  0.330519  0.000000  1
+  Ir  Ir23  1  0.330519  0.669481  0.000000  1
+  Ir  Ir24  1  0.330519  0.669481  0.500000  1
+  Ir  Ir25  1  0.669481  0.330519  0.500000  1
+  Pt  Pt26  1  0.000000  0.000000  0.000000  1
+  Pt  Pt27  1  0.000000  0.000000  0.500000  1

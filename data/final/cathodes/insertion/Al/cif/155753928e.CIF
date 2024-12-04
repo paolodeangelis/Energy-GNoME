@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y10AlGa2Bi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.91224505
+_cell_length_b   8.91992022
+_cell_length_c   6.55518300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95939415
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y10AlGa2Bi3
+_chemical_formula_sum   'Y10 Al1 Ga2 Bi3'
+_cell_volume   451.48268267
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.326499  0.668024  0.003940  1
+  Y  Y1  1  0.655688  0.331494  0.495724  1
+  Y  Y2  1  0.655688  0.331494  0.004276  1
+  Y  Y3  1  0.326499  0.668024  0.496060  1
+  Y  Y4  1  0.235558  0.001819  0.250000  1
+  Y  Y5  1  0.243635  0.228513  0.750000  1
+  Y  Y6  1  0.015181  0.771762  0.750000  1
+  Y  Y7  1  0.016978  0.249610  0.250000  1
+  Y  Y8  1  0.763863  0.749912  0.250000  1
+  Y  Y9  1  0.753644  0.000030  0.750000  1
+  Al  Al10  1  0.997782  0.600325  0.250000  1
+  Ga  Ga11  1  0.396165  0.397941  0.250000  1
+  Ga  Ga12  1  0.399325  0.999910  0.750000  1
+  Bi  Bi13  1  0.612121  0.000364  0.250000  1
+  Bi  Bi14  1  0.604936  0.608317  0.750000  1
+  Bi  Bi15  1  0.996437  0.392461  0.750000  1

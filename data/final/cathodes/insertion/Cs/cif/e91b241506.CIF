@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsYCr2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.69262000
+_cell_length_b   5.69262127
+_cell_length_c   8.66772500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000269
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsYCr2O8
+_chemical_formula_sum   'Cs1 Y1 Cr2 O8'
+_cell_volume   243.25413386
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.000000  1
+  Y  Y1  1  0.000000  0.000000  0.500000  1
+  Cr  Cr2  1  0.333334  0.666668  0.278238  1
+  Cr  Cr3  1  0.666667  0.333334  0.721762  1
+  O  O4  1  0.333334  0.666668  0.090501  1
+  O  O5  1  0.245127  0.354409  0.340643  1
+  O  O6  1  0.109281  0.754873  0.340643  1
+  O  O7  1  0.645592  0.890719  0.340643  1
+  O  O8  1  0.354409  0.109283  0.659357  1
+  O  O9  1  0.890719  0.245126  0.659357  1
+  O  O10  1  0.754873  0.645590  0.659357  1
+  O  O11  1  0.666667  0.333334  0.909499  1

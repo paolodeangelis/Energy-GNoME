@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CsTl3(Ni3S4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.73355600
+_cell_length_b   5.73355587
+_cell_length_c   14.32076600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000075
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTl3(Ni3S4)2
+_chemical_formula_sum   'Cs1 Tl3 Ni6 S8'
+_cell_volume   407.70401125
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.333333  0.666667  0.584337  1
+  Tl  Tl1  1  0.333333  0.666667  0.888329  1
+  Tl  Tl2  1  0.666667  0.333333  0.376866  1
+  Tl  Tl3  1  0.666667  0.333333  0.094221  1
+  Ni  Ni4  1  0.165885  0.834115  0.245901  1
+  Ni  Ni5  1  0.833742  0.667484  0.761966  1
+  Ni  Ni6  1  0.833742  0.166258  0.761966  1
+  Ni  Ni7  1  0.165885  0.331770  0.245901  1
+  Ni  Ni8  1  0.332516  0.166258  0.761966  1
+  Ni  Ni9  1  0.668230  0.834115  0.245901  1
+  S  S10  1  0.333333  0.666667  0.346444  1
+  S  S11  1  0.666667  0.333333  0.863658  1
+  S  S12  1  0.666667  0.333333  0.660630  1
+  S  S13  1  0.333333  0.666667  0.144174  1
+  S  S14  1  0.000000  0.000000  0.661113  1
+  S  S15  1  0.000000  0.000000  0.144247  1
+  S  S16  1  0.000000  0.000000  0.863883  1
+  S  S17  1  0.000000  0.000000  0.348496  1

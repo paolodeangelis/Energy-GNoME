@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La3PrAl2(OsI)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.37779400
+_cell_length_b   4.37779379
+_cell_length_c   17.73738000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001668
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3PrAl2(OsI)2
+_chemical_formula_sum   'La3 Pr1 Al2 Os2 I2'
+_cell_volume   294.39515062
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.894509  1
+  La  La1  1  0.000000  0.000000  0.604702  1
+  La  La2  1  0.000000  0.000000  0.105973  1
+  Pr  Pr3  1  0.000000  0.000000  0.394754  1
+  Al  Al4  1  0.333333  0.666667  0.499071  1
+  Al  Al5  1  0.666667  0.333333  0.000417  1
+  Os  Os6  1  0.666667  0.333333  0.499582  1
+  Os  Os7  1  0.333333  0.666667  0.999950  1
+  I  I8  1  0.333333  0.666667  0.251258  1
+  I  I9  1  0.666667  0.333333  0.749785  1

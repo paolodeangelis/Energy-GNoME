@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KV(NiS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.35553629
+_cell_length_b   9.35553694
+_cell_length_c   7.09350300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.95101382
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KV(NiS2)2
+_chemical_formula_sum   'K2 V2 Ni4 S8'
+_cell_volume   338.59314230
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.910972  0.545532  0.250000  1
+  K  K1  1  0.545532  0.910972  0.750000  1
+  V  V2  1  0.865279  0.089422  0.250000  1
+  V  V3  1  0.089422  0.865279  0.750000  1
+  Ni  Ni4  1  0.997441  0.997441  0.500000  1
+  Ni  Ni5  1  0.997441  0.997441  0.000000  1
+  Ni  Ni6  1  0.373566  0.584060  0.250000  1
+  Ni  Ni7  1  0.584060  0.373566  0.750000  1
+  S  S8  1  0.326451  0.116948  0.502926  1
+  S  S9  1  0.116948  0.326451  0.497074  1
+  S  S10  1  0.515988  0.929726  0.250000  1
+  S  S11  1  0.929726  0.515988  0.750000  1
+  S  S12  1  0.738066  0.757144  0.250000  1
+  S  S13  1  0.757144  0.738066  0.750000  1
+  S  S14  1  0.326451  0.116948  0.997074  1
+  S  S15  1  0.116948  0.326451  0.002926  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y6AlSiTc
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.48213711
+_cell_length_b   8.48213783
+_cell_length_c   8.48213700
+_cell_angle_alpha   105.06134713
+_cell_angle_beta   111.44793549
+_cell_angle_gamma   111.99287328
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y6AlSiTc
+_chemical_formula_sum   'Y12 Al2 Si2 Tc2'
+_cell_volume   467.70185507
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.695096  0.256945  0.952041  1
+  Y  Y1  1  0.304904  0.743055  0.047959  1
+  Y  Y2  1  0.695096  0.743055  0.438153  1
+  Y  Y3  1  0.304904  0.256945  0.561847  1
+  Y  Y4  1  0.810134  0.143681  0.333547  1
+  Y  Y5  1  0.810134  0.476587  0.666453  1
+  Y  Y6  1  0.189866  0.856319  0.666453  1
+  Y  Y7  1  0.189866  0.523413  0.333547  1
+  Y  Y8  1  0.590249  0.771460  0.818789  1
+  Y  Y9  1  0.952670  0.771460  0.181211  1
+  Y  Y10  1  0.047330  0.228540  0.818789  1
+  Y  Y11  1  0.409751  0.228540  0.181211  1
+  Al  Al12  1  0.500000  0.500000  0.000000  1
+  Al  Al13  1  0.500000  0.000000  0.500000  1
+  Si  Si14  1  0.000000  0.114475  0.114475  1
+  Si  Si15  1  0.000000  0.885525  0.885525  1
+  Tc  Tc16  1  0.824157  0.500000  0.324157  1
+  Tc  Tc17  1  0.175843  0.500000  0.675843  1

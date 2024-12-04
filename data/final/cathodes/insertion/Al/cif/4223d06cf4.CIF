@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Ta6Al9IrRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.96388400
+_cell_length_b   8.96388277
+_cell_length_c   8.01667300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99998976
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta6Al9IrRh2
+_chemical_formula_sum   'Ta12 Al18 Ir2 Rh4'
+_cell_volume   557.84974868
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.332554  0.000000  0.071572  1
+  Ta  Ta1  1  0.667446  0.000000  0.928428  1
+  Ta  Ta2  1  0.000000  0.332554  0.071572  1
+  Ta  Ta3  1  0.667446  0.000000  0.571572  1
+  Ta  Ta4  1  0.000000  0.332554  0.428428  1
+  Ta  Ta5  1  0.000000  0.667446  0.928428  1
+  Ta  Ta6  1  0.332554  0.000000  0.428428  1
+  Ta  Ta7  1  0.000000  0.667446  0.571572  1
+  Ta  Ta8  1  0.667446  0.667446  0.071572  1
+  Ta  Ta9  1  0.332554  0.332554  0.928428  1
+  Ta  Ta10  1  0.332554  0.332554  0.571572  1
+  Ta  Ta11  1  0.667446  0.667446  0.428428  1
+  Al  Al12  1  0.163298  0.496952  0.750000  1
+  Al  Al13  1  0.836702  0.503048  0.250000  1
+  Al  Al14  1  0.503048  0.666346  0.750000  1
+  Al  Al15  1  0.496952  0.163298  0.750000  1
+  Al  Al16  1  0.496952  0.333654  0.250000  1
+  Al  Al17  1  0.503048  0.836702  0.250000  1
+  Al  Al18  1  0.333654  0.836702  0.750000  1
+  Al  Al19  1  0.666346  0.503048  0.750000  1
+  Al  Al20  1  0.666346  0.163298  0.250000  1
+  Al  Al21  1  0.333654  0.496952  0.250000  1
+  Al  Al22  1  0.836702  0.333654  0.750000  1
+  Al  Al23  1  0.163298  0.666346  0.250000  1
+  Al  Al24  1  0.170577  0.000000  0.750000  1
+  Al  Al25  1  0.829423  0.000000  0.250000  1
+  Al  Al26  1  0.000000  0.170577  0.750000  1
+  Al  Al27  1  0.000000  0.829423  0.250000  1
+  Al  Al28  1  0.829423  0.829423  0.750000  1
+  Al  Al29  1  0.170577  0.170577  0.250000  1
+  Ir  Ir30  1  0.000000  0.000000  0.500000  1
+  Ir  Ir31  1  0.000000  0.000000  0.000000  1
+  Rh  Rh32  1  0.333333  0.666667  0.500000  1
+  Rh  Rh33  1  0.666667  0.333333  0.500000  1
+  Rh  Rh34  1  0.666667  0.333333  0.000000  1
+  Rh  Rh35  1  0.333333  0.666667  0.000000  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2AlCd2GaP4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.16427252
+_cell_length_b   8.16427223
+_cell_length_c   5.97412600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   136.21282054
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2AlCd2GaP4
+_chemical_formula_sum   'Cs2 Al1 Cd2 Ga1 P4'
+_cell_volume   275.55222991
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.000000  0.252818  1
+  Cs  Cs1  1  0.000000  0.500000  0.747182  1
+  Al  Al2  1  0.000000  0.000000  0.000000  1
+  Cd  Cd3  1  0.500000  0.500000  0.500000  1
+  Cd  Cd4  1  0.500000  0.500000  0.000000  1
+  Ga  Ga5  1  0.000000  0.000000  0.500000  1
+  P  P6  1  0.690807  0.883306  0.752788  1
+  P  P7  1  0.116694  0.309193  0.247212  1
+  P  P8  1  0.883306  0.690807  0.247212  1
+  P  P9  1  0.309193  0.116694  0.752788  1

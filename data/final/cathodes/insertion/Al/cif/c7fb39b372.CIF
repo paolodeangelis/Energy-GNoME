@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Er10Al3Fe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.37758006
+_cell_length_b   9.37724947
+_cell_length_c   9.55082300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01466611
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er10Al3Fe
+_chemical_formula_sum   'Er20 Al6 Fe2'
+_cell_volume   727.23283192
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.000000  0.000000  0.500000  1
+  Er  Er1  1  0.000000  0.000000  0.000000  1
+  Er  Er2  1  0.540521  0.459570  0.250000  1
+  Er  Er3  1  0.540396  0.080943  0.250000  1
+  Er  Er4  1  0.919075  0.459651  0.250000  1
+  Er  Er5  1  0.459479  0.540430  0.750000  1
+  Er  Er6  1  0.459604  0.919057  0.750000  1
+  Er  Er7  1  0.080925  0.540349  0.750000  1
+  Er  Er8  1  0.209015  0.790934  0.436612  1
+  Er  Er9  1  0.208954  0.418095  0.436590  1
+  Er  Er10  1  0.581829  0.790973  0.436560  1
+  Er  Er11  1  0.790985  0.209066  0.563388  1
+  Er  Er12  1  0.791046  0.581905  0.563410  1
+  Er  Er13  1  0.418171  0.209027  0.563440  1
+  Er  Er14  1  0.790985  0.209066  0.936612  1
+  Er  Er15  1  0.791046  0.581905  0.936590  1
+  Er  Er16  1  0.418171  0.209027  0.936560  1
+  Er  Er17  1  0.209015  0.790934  0.063388  1
+  Er  Er18  1  0.208954  0.418095  0.063410  1
+  Er  Er19  1  0.581829  0.790973  0.063440  1
+  Al  Al20  1  0.889213  0.110725  0.250000  1
+  Al  Al21  1  0.889175  0.778538  0.250000  1
+  Al  Al22  1  0.221512  0.110822  0.250000  1
+  Al  Al23  1  0.110787  0.889275  0.750000  1
+  Al  Al24  1  0.110825  0.221462  0.750000  1
+  Al  Al25  1  0.778488  0.889178  0.750000  1
+  Fe  Fe26  1  0.332848  0.667103  0.250000  1
+  Fe  Fe27  1  0.667152  0.332897  0.750000  1

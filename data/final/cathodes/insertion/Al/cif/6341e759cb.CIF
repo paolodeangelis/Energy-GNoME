@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Al11Cu(IrRh)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25750600
+_cell_length_b   5.98418800
+_cell_length_c   12.83004100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.99824997
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al11Cu(IrRh)6
+_chemical_formula_sum   'Al11 Cu1 Ir6 Rh6'
+_cell_volume   326.88014483
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.500001  0.749992  0.000000  1
+  Al  Al1  1  0.000101  0.249759  0.161284  1
+  Al  Al2  1  0.000083  0.750203  0.165366  1
+  Al  Al3  1  0.500094  0.249538  0.332761  1
+  Al  Al4  1  0.500065  0.750657  0.332091  1
+  Al  Al5  1  0.000000  0.250108  0.500000  1
+  Al  Al6  1  0.000000  0.749667  0.500000  1
+  Al  Al7  1  0.499906  0.249538  0.667239  1
+  Al  Al8  1  0.499935  0.750657  0.667909  1
+  Al  Al9  1  0.999898  0.249759  0.838717  1
+  Al  Al10  1  0.999916  0.750203  0.834635  1
+  Cu  Cu11  1  0.500001  0.249989  0.000000  1
+  Ir  Ir12  1  0.000000  0.504069  0.000000  1
+  Ir  Ir13  1  0.500085  0.999142  0.169606  1
+  Ir  Ir14  1  0.000073  0.499465  0.334120  1
+  Ir  Ir15  1  0.500001  0.999699  0.500000  1
+  Ir  Ir16  1  0.999929  0.499465  0.665880  1
+  Ir  Ir17  1  0.499915  0.999142  0.830394  1
+  Rh  Rh18  1  0.000000  0.995593  0.000000  1
+  Rh  Rh19  1  0.500089  0.501248  0.169872  1
+  Rh  Rh20  1  0.000074  0.000359  0.334462  1
+  Rh  Rh21  1  0.500001  0.500145  0.500000  1
+  Rh  Rh22  1  0.999926  0.000359  0.665539  1
+  Rh  Rh23  1  0.499911  0.501248  0.830128  1

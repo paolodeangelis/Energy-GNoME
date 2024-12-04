@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ba8Sr5Al6Si8O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.99405516
+_cell_length_b   11.99405487
+_cell_length_c   17.92685824
+_cell_angle_alpha   55.76071314
+_cell_angle_beta   124.23928525
+_cell_angle_gamma   155.88189017
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba8Sr5Al6Si8O
+_chemical_formula_sum   'Ba8 Sr5 Al6 Si8 O1'
+_cell_volume   861.90643242
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.192685  0.807314  0.389437  1
+  Ba  Ba1  1  0.807314  0.192686  0.610562  1
+  Ba  Ba2  1  0.002282  0.997717  0.123109  1
+  Ba  Ba3  1  0.997717  0.002282  0.876892  1
+  Ba  Ba4  1  0.194623  0.805377  0.145441  1
+  Ba  Ba5  1  0.805377  0.194622  0.854560  1
+  Ba  Ba6  1  0.154364  0.845636  0.617931  1
+  Ba  Ba7  1  0.845636  0.154363  0.382069  1
+  Sr  Sr8  1  0.500000  0.500000  0.500000  1
+  Sr  Sr9  1  0.001765  0.998234  0.360614  1
+  Sr  Sr10  1  0.998234  0.001765  0.639386  1
+  Sr  Sr11  1  0.817771  0.182229  0.108782  1
+  Sr  Sr12  1  0.182228  0.817771  0.891217  1
+  Al  Al13  1  0.434604  0.565396  0.191828  1
+  Al  Al14  1  0.565396  0.434604  0.808172  1
+  Al  Al15  1  0.569529  0.430470  0.293506  1
+  Al  Al16  1  0.430471  0.569529  0.706494  1
+  Al  Al17  1  0.568469  0.431531  0.051260  1
+  Al  Al18  1  0.431531  0.568469  0.948740  1
+  Si  Si19  1  0.373434  0.626565  0.539643  1
+  Si  Si20  1  0.626565  0.373434  0.460356  1
+  Si  Si21  1  0.373639  0.626360  0.267459  1
+  Si  Si22  1  0.626361  0.373639  0.732541  1
+  Si  Si23  1  0.361507  0.638492  0.018479  1
+  Si  Si24  1  0.638492  0.361507  0.981521  1
+  Si  Si25  1  0.640469  0.359531  0.225879  1
+  Si  Si26  1  0.359530  0.640469  0.774121  1
+  O  O27  1  0.000000  0.999999  0.500000  1

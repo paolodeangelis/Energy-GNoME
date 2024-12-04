@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LaPr2AlIn2Pt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.71758564
+_cell_length_b   7.67889409
+_cell_length_c   4.11830100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.89613421
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaPr2AlIn2Pt3
+_chemical_formula_sum   'La1 Pr2 Al1 In2 Pt3'
+_cell_volume   209.42855495
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.588066  0.000771  0.500000  1
+  Pr  Pr1  1  0.419323  0.418944  0.500000  1
+  Pr  Pr2  1  0.001201  0.589542  0.500000  1
+  Al  Al3  1  0.756862  0.755550  0.000000  1
+  In  In4  1  0.242535  0.002255  0.000000  1
+  In  In5  1  0.003684  0.245256  0.000000  1
+  Pt  Pt6  1  0.672392  0.350250  0.000000  1
+  Pt  Pt7  1  0.353107  0.674707  0.000000  1
+  Pt  Pt8  1  0.962830  0.962725  0.500000  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cs2K3Rb(SbSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.30372500
+_cell_length_b   10.30296975
+_cell_length_c   10.30424376
+_cell_angle_alpha   89.61632423
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2K3Rb(SbSe3)2
+_chemical_formula_sum   'Cs4 K6 Rb2 Sb4 Se12'
+_cell_volume   1093.86334706
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.927596  0.426857  0.072580  1
+  Cs  Cs1  1  0.427596  0.073143  0.927420  1
+  Cs  Cs2  1  0.072725  0.927997  0.427433  1
+  Cs  Cs3  1  0.572725  0.572003  0.572567  1
+  K  K4  1  0.815370  0.184840  0.684355  1
+  K  K5  1  0.315370  0.315160  0.315645  1
+  K  K6  1  0.689213  0.189575  0.311001  1
+  K  K7  1  0.189213  0.310425  0.688999  1
+  K  K8  1  0.310789  0.688869  0.189482  1
+  K  K9  1  0.810789  0.811131  0.810518  1
+  Rb  Rb10  1  0.184971  0.684916  0.814296  1
+  Rb  Rb11  1  0.684971  0.815084  0.185704  1
+  Sb  Sb12  1  0.475759  0.976860  0.524926  1
+  Sb  Sb13  1  0.975759  0.523140  0.475074  1
+  Sb  Sb14  1  0.524037  0.474772  0.976703  1
+  Sb  Sb15  1  0.024037  0.025228  0.023297  1
+  Se  Se16  1  0.006499  0.783214  0.092387  1
+  Se  Se17  1  0.906255  0.501652  0.716556  1
+  Se  Se18  1  0.282581  0.405739  0.998028  1
+  Se  Se19  1  0.506499  0.716786  0.907613  1
+  Se  Se20  1  0.406255  0.998348  0.283444  1
+  Se  Se21  1  0.782581  0.094261  0.001972  1
+  Se  Se22  1  0.996227  0.281371  0.408662  1
+  Se  Se23  1  0.089885  0.008397  0.780964  1
+  Se  Se24  1  0.718092  0.910596  0.508090  1
+  Se  Se25  1  0.496227  0.218629  0.591338  1
+  Se  Se26  1  0.589885  0.491603  0.219036  1
+  Se  Se27  1  0.218092  0.589404  0.491910  1

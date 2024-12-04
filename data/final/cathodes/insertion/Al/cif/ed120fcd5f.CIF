@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Er2ThSc2AlIr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13462777
+_cell_length_b   7.13462795
+_cell_length_c   4.29911200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.15808819
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er2ThSc2AlIr3
+_chemical_formula_sum   'Er2 Th1 Sc2 Al1 Ir3'
+_cell_volume   191.10598316
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.410661  0.013632  0.500000  1
+  Er  Er1  1  0.013632  0.410661  0.500000  1
+  Th  Th2  1  0.570272  0.570272  0.500000  1
+  Sc  Sc3  1  0.757926  0.015306  0.000000  1
+  Sc  Sc4  1  0.015306  0.757926  0.000000  1
+  Al  Al5  1  0.234597  0.234597  0.000000  1
+  Ir  Ir6  1  0.343791  0.661279  0.000000  1
+  Ir  Ir7  1  0.661279  0.343791  0.000000  1
+  Ir  Ir8  1  0.992538  0.992538  0.500000  1

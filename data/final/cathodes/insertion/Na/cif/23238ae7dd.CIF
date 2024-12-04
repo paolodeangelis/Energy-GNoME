@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_NaYbIrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.42556430
+_cell_length_b   9.42556388
+_cell_length_c   3.20022800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.10570515
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaYbIrO4
+_chemical_formula_sum   'Na3 Yb3 Ir3 O12'
+_cell_volume   248.41040587
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.988573  0.988573  0.000000  1
+  Na  Na1  1  0.694241  0.997059  0.500000  1
+  Na  Na2  1  0.997059  0.694241  0.500000  1
+  Yb  Yb3  1  0.668444  0.333438  0.500000  1
+  Yb  Yb4  1  0.333438  0.668444  0.500000  1
+  Yb  Yb5  1  0.300995  0.300995  0.500000  1
+  Ir  Ir6  1  0.667894  0.667894  0.000000  1
+  Ir  Ir7  1  0.328590  0.002738  0.000000  1
+  Ir  Ir8  1  0.002738  0.328590  0.000000  1
+  O  O9  1  0.543743  0.779806  0.000000  1
+  O  O10  1  0.218126  0.770972  0.000000  1
+  O  O11  1  0.243185  0.446213  0.000000  1
+  O  O12  1  0.779806  0.543743  0.000000  1
+  O  O13  1  0.770972  0.218126  0.000000  1
+  O  O14  1  0.446213  0.243185  0.000000  1
+  O  O15  1  0.537436  0.537436  0.500000  1
+  O  O16  1  0.461231  0.008049  0.500000  1
+  O  O17  1  0.008049  0.461231  0.500000  1
+  O  O18  1  0.803188  0.803188  0.500000  1
+  O  O19  1  0.194462  0.011715  0.500000  1
+  O  O20  1  0.011715  0.194462  0.500000  1

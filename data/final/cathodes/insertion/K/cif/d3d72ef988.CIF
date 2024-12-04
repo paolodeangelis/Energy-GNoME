@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K2Ba(AsRu)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.27287848
+_cell_length_b   9.27287893
+_cell_length_c   7.05600193
+_cell_angle_alpha   66.83561054
+_cell_angle_beta   66.83560968
+_cell_angle_gamma   36.86103937
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ba(AsRu)6
+_chemical_formula_sum   'K2 Ba1 As6 Ru6'
+_cell_volume   331.19548900
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.670739  0.670739  0.000441  1
+  K  K1  1  0.329261  0.329261  0.999559  1
+  Ba  Ba2  1  0.000000  0.000000  0.000000  1
+  As  As3  1  0.883450  0.883450  0.699783  1
+  As  As4  1  0.216750  0.216750  0.700262  1
+  As  As5  1  0.549996  0.549996  0.700369  1
+  As  As6  1  0.450004  0.450004  0.299631  1
+  As  As7  1  0.783250  0.783250  0.299738  1
+  As  As8  1  0.116550  0.116550  0.300217  1
+  Ru  Ru9  1  0.750044  0.249956  0.500000  1
+  Ru  Ru10  1  0.083767  0.583200  0.498708  1
+  Ru  Ru11  1  0.416800  0.916233  0.501292  1
+  Ru  Ru12  1  0.583200  0.083767  0.498708  1
+  Ru  Ru13  1  0.916233  0.416800  0.501292  1
+  Ru  Ru14  1  0.249956  0.750044  0.500000  1

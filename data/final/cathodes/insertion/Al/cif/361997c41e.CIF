@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LaCeAl2RhAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42458300
+_cell_length_b   7.26350200
+_cell_length_c   16.18759700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCeAl2RhAu
+_chemical_formula_sum   'La4 Ce4 Al8 Rh4 Au4'
+_cell_volume   520.23646580
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.250000  0.646030  0.555346  1
+  La  La1  1  0.750000  0.353970  0.444654  1
+  La  La2  1  0.750000  0.853970  0.055346  1
+  La  La3  1  0.250000  0.146030  0.944654  1
+  Ce  Ce4  1  0.250000  0.525972  0.783353  1
+  Ce  Ce5  1  0.750000  0.474028  0.216647  1
+  Ce  Ce6  1  0.750000  0.974028  0.283353  1
+  Ce  Ce7  1  0.250000  0.025972  0.716647  1
+  Al  Al8  1  0.250000  0.658191  0.352351  1
+  Al  Al9  1  0.750000  0.341809  0.647649  1
+  Al  Al10  1  0.750000  0.841809  0.852351  1
+  Al  Al11  1  0.250000  0.158191  0.147649  1
+  Al  Al12  1  0.250000  0.506564  0.058657  1
+  Al  Al13  1  0.750000  0.493436  0.941343  1
+  Al  Al14  1  0.750000  0.993436  0.558657  1
+  Al  Al15  1  0.250000  0.006564  0.441343  1
+  Rh  Rh16  1  0.250000  0.701381  0.920048  1
+  Rh  Rh17  1  0.750000  0.298619  0.079952  1
+  Rh  Rh18  1  0.750000  0.798619  0.420048  1
+  Rh  Rh19  1  0.250000  0.201381  0.579952  1
+  Au  Au20  1  0.250000  0.769136  0.184929  1
+  Au  Au21  1  0.750000  0.230864  0.815071  1
+  Au  Au22  1  0.750000  0.730864  0.684929  1
+  Au  Au23  1  0.250000  0.269136  0.315071  1

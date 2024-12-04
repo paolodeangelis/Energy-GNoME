@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ce3HoTi2(AlIr2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.04987917
+_cell_length_b   4.27786700
+_cell_length_c   7.99901976
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00853824
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce3HoTi2(AlIr2)2
+_chemical_formula_sum   'Ce3 Ho1 Ti2 Al2 Ir4'
+_cell_volume   241.23799830
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.471317  0.250000  0.319593  1
+  Ce  Ce1  1  0.037605  0.750000  0.819329  1
+  Ce  Ce2  1  0.539288  0.750000  0.685115  1
+  Ho  Ho3  1  0.971649  0.250000  0.181169  1
+  Ti  Ti4  1  0.119674  0.750000  0.436601  1
+  Ti  Ti5  1  0.628004  0.750000  0.059797  1
+  Al  Al6  1  0.862938  0.250000  0.560753  1
+  Al  Al7  1  0.362394  0.250000  0.937660  1
+  Ir  Ir8  1  0.737176  0.250000  0.892205  1
+  Ir  Ir9  1  0.235617  0.250000  0.603210  1
+  Ir  Ir10  1  0.268899  0.750000  0.125043  1
+  Ir  Ir11  1  0.765440  0.750000  0.379525  1

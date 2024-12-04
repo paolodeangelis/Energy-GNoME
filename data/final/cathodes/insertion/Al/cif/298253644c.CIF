@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy4Mn2(AlRe)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43561600
+_cell_length_b   5.43561640
+_cell_length_c   8.83039500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999758
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy4Mn2(AlRe)3
+_chemical_formula_sum   'Dy4 Mn2 Al3 Re3'
+_cell_volume   225.94791677
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.666668  0.333334  0.065997  1
+  Dy  Dy1  1  0.666668  0.333334  0.434003  1
+  Dy  Dy2  1  0.333333  0.666666  0.557133  1
+  Dy  Dy3  1  0.333333  0.666666  0.942867  1
+  Mn  Mn4  1  0.000000  0.000000  0.006021  1
+  Mn  Mn5  1  0.000000  0.000000  0.493979  1
+  Al  Al6  1  0.330194  0.165098  0.750000  1
+  Al  Al7  1  0.834903  0.165098  0.750000  1
+  Al  Al8  1  0.834904  0.669807  0.750000  1
+  Re  Re9  1  0.169614  0.339227  0.250000  1
+  Re  Re10  1  0.169613  0.830385  0.250000  1
+  Re  Re11  1  0.660773  0.830385  0.250000  1

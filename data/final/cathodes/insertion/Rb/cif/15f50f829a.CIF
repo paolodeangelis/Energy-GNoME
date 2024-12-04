@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_RbMn3Ge2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.99530056
+_cell_length_b   5.99290508
+_cell_length_c   14.13269999
+_cell_angle_alpha   90.04698998
+_cell_angle_beta   89.91999852
+_cell_angle_gamma   120.01544630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMn3Ge2O9
+_chemical_formula_sum   'Rb2 Mn6 Ge4 O18'
+_cell_volume   439.67936615
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.333262  0.666471  0.750029  1
+  Rb  Rb1  1  0.666759  0.333503  0.249959  1
+  Mn  Mn2  1  0.500349  0.500021  0.500003  1
+  Mn  Mn3  1  0.499797  0.999671  0.999963  1
+  Mn  Mn4  1  0.499991  0.500261  0.000067  1
+  Mn  Mn5  1  0.000127  0.500082  0.500005  1
+  Mn  Mn6  1  0.499796  0.000046  0.500040  1
+  Mn  Mn7  1  0.999919  0.500099  0.999922  1
+  Ge  Ge8  1  0.999880  0.999656  0.623936  1
+  Ge  Ge9  1  0.000111  0.000358  0.376057  1
+  Ge  Ge10  1  0.000224  0.000394  0.123952  1
+  Ge  Ge11  1  0.999791  0.999631  0.876045  1
+  O  O12  1  0.999541  0.998875  0.749919  1
+  O  O13  1  0.000452  0.001092  0.250085  1
+  O  O14  1  0.666511  0.333430  0.558559  1
+  O  O15  1  0.333618  0.666578  0.441472  1
+  O  O16  1  0.333004  0.666591  0.058587  1
+  O  O17  1  0.666825  0.333367  0.941454  1
+  O  O18  1  0.163766  0.836086  0.586160  1
+  O  O19  1  0.672835  0.835864  0.586413  1
+  O  O20  1  0.163706  0.326911  0.586495  1
+  O  O21  1  0.836226  0.163901  0.413842  1
+  O  O22  1  0.327192  0.164113  0.413578  1
+  O  O23  1  0.836352  0.673063  0.413492  1
+  O  O24  1  0.836516  0.163837  0.086419  1
+  O  O25  1  0.327774  0.164271  0.086206  1
+  O  O26  1  0.836934  0.672939  0.086495  1
+  O  O27  1  0.163446  0.836125  0.913557  1
+  O  O28  1  0.672223  0.835701  0.913782  1
+  O  O29  1  0.163068  0.327064  0.913504  1

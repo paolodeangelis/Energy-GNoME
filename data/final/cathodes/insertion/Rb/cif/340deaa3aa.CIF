@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Rb2Co(SiO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.95313661
+_cell_length_b   5.95313582
+_cell_length_c   10.60429100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   111.60565313
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2Co(SiO3)2
+_chemical_formula_sum   'Rb4 Co2 Si4 O12'
+_cell_volume   349.40962755
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.278501  0.935475  0.576841  1
+  Rb  Rb1  1  0.064525  0.721499  0.923159  1
+  Rb  Rb2  1  0.721499  0.064525  0.076841  1
+  Rb  Rb3  1  0.935475  0.278501  0.423159  1
+  Co  Co4  1  0.191775  0.808225  0.250000  1
+  Co  Co5  1  0.808225  0.191775  0.750000  1
+  Si  Si6  1  0.368396  0.331440  0.860491  1
+  Si  Si7  1  0.331440  0.368396  0.139509  1
+  Si  Si8  1  0.668560  0.631604  0.639509  1
+  Si  Si9  1  0.631604  0.668560  0.360491  1
+  O  O10  1  0.545999  0.454001  0.250000  1
+  O  O11  1  0.508098  0.866520  0.334567  1
+  O  O12  1  0.529181  0.529181  0.500000  1
+  O  O13  1  0.866520  0.508098  0.665433  1
+  O  O14  1  0.491902  0.133480  0.834567  1
+  O  O15  1  0.074907  0.220910  0.865874  1
+  O  O16  1  0.925093  0.779091  0.365874  1
+  O  O17  1  0.454001  0.545999  0.750000  1
+  O  O18  1  0.133480  0.491902  0.165433  1
+  O  O19  1  0.220909  0.074907  0.134126  1
+  O  O20  1  0.779090  0.925093  0.634126  1
+  O  O21  1  0.470819  0.470819  0.000000  1

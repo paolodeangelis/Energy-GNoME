@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaScCr2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22946791
+_cell_length_b   5.22946815
+_cell_length_c   7.16944120
+_cell_angle_alpha   90.58427619
+_cell_angle_beta   90.58427555
+_cell_angle_gamma   65.83479862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaScCr2O8
+_chemical_formula_sum   'Na1 Sc1 Cr2 O8'
+_cell_volume   178.87051887
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Sc  Sc1  1  0.000000  0.000000  0.500001  1
+  Cr  Cr2  1  0.635204  0.635204  0.268685  1
+  Cr  Cr3  1  0.364797  0.364797  0.731315  1
+  O  O4  1  0.718921  0.718921  0.069428  1
+  O  O5  1  0.773762  0.280828  0.286231  1
+  O  O6  1  0.280828  0.773762  0.286231  1
+  O  O7  1  0.764686  0.764686  0.439689  1
+  O  O8  1  0.235314  0.235314  0.560311  1
+  O  O9  1  0.719172  0.226238  0.713769  1
+  O  O10  1  0.226238  0.719172  0.713769  1
+  O  O11  1  0.281079  0.281079  0.930572  1

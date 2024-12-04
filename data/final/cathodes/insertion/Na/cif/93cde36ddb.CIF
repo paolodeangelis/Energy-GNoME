@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaTc3Mo3(SeS)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.68825293
+_cell_length_b   6.67882508
+_cell_length_c   6.78839856
+_cell_angle_alpha   91.11794487
+_cell_angle_beta   91.77447182
+_cell_angle_gamma   91.55248493
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTc3Mo3(SeS)4
+_chemical_formula_sum   'Na1 Tc3 Mo3 Se4 S4'
+_cell_volume   302.91601736
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.003207  0.994827  0.999987  1
+  Tc  Tc1  1  0.761745  0.446938  0.584365  1
+  Tc  Tc2  1  0.585545  0.764657  0.445374  1
+  Tc  Tc3  1  0.444543  0.587861  0.758431  1
+  Mo  Mo4  1  0.233406  0.557644  0.414327  1
+  Mo  Mo5  1  0.412228  0.235200  0.552046  1
+  Mo  Mo6  1  0.553062  0.418046  0.239878  1
+  Se  Se7  1  0.618536  0.266863  0.877023  1
+  Se  Se8  1  0.120756  0.374000  0.743172  1
+  Se  Se9  1  0.747137  0.122551  0.375301  1
+  Se  Se10  1  0.374627  0.746957  0.119335  1
+  S  S11  1  0.867883  0.615150  0.288395  1
+  S  S12  1  0.284614  0.869755  0.608773  1
+  S  S13  1  0.758067  0.758798  0.754286  1
+  S  S14  1  0.234642  0.240751  0.239303  1

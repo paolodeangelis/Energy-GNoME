@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbCe3Mg2(AlIr2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.08128183
+_cell_length_b   4.11944900
+_cell_length_c   8.38152895
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.84173689
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbCe3Mg2(AlIr2)2
+_chemical_formula_sum   'Yb1 Ce3 Mg2 Al2 Ir4'
+_cell_volume   244.47102383
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.964186  0.250000  0.180073  1
+  Ce  Ce1  1  0.463785  0.250000  0.314576  1
+  Ce  Ce2  1  0.036667  0.750000  0.820285  1
+  Ce  Ce3  1  0.533694  0.750000  0.685775  1
+  Mg  Mg4  1  0.129522  0.750000  0.435062  1
+  Mg  Mg5  1  0.645745  0.750000  0.062235  1
+  Al  Al6  1  0.864338  0.250000  0.557876  1
+  Al  Al7  1  0.368895  0.250000  0.943018  1
+  Ir  Ir8  1  0.741647  0.250000  0.855095  1
+  Ir  Ir9  1  0.242216  0.250000  0.638860  1
+  Ir  Ir10  1  0.266565  0.750000  0.112485  1
+  Ir  Ir11  1  0.742739  0.750000  0.394661  1

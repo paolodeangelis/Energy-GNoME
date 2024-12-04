@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KBe3CoF9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.66677100
+_cell_length_b   6.66677071
+_cell_length_c   9.73982400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBe3CoF9
+_chemical_formula_sum   'K2 Be6 Co2 F18'
+_cell_volume   374.89773151
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.666667  0.333333  0.000000  1
+  K  K1  1  0.666667  0.333333  0.500000  1
+  Be  Be2  1  0.217447  0.941277  0.250000  1
+  Be  Be3  1  0.217447  0.276171  0.750000  1
+  Be  Be4  1  0.723829  0.941277  0.750000  1
+  Be  Be5  1  0.058723  0.782553  0.750000  1
+  Be  Be6  1  0.058723  0.276171  0.250000  1
+  Be  Be7  1  0.723829  0.782553  0.250000  1
+  Co  Co8  1  0.333333  0.666667  0.000000  1
+  Co  Co9  1  0.333333  0.666667  0.500000  1
+  F  F10  1  0.076080  0.662963  0.618496  1
+  F  F11  1  0.586883  0.923920  0.618496  1
+  F  F12  1  0.337037  0.413117  0.618496  1
+  F  F13  1  0.337037  0.923920  0.381504  1
+  F  F14  1  0.241205  0.191163  0.250000  1
+  F  F15  1  0.949958  0.758795  0.250000  1
+  F  F16  1  0.808837  0.050042  0.250000  1
+  F  F17  1  0.808837  0.758795  0.750000  1
+  F  F18  1  0.949958  0.191163  0.750000  1
+  F  F19  1  0.241205  0.050042  0.750000  1
+  F  F20  1  0.337037  0.923920  0.118495  1
+  F  F21  1  0.586883  0.662963  0.381504  1
+  F  F22  1  0.076080  0.413117  0.381504  1
+  F  F23  1  0.076080  0.413117  0.118495  1
+  F  F24  1  0.586883  0.662963  0.118495  1
+  F  F25  1  0.076080  0.662963  0.881504  1
+  F  F26  1  0.586883  0.923920  0.881504  1
+  F  F27  1  0.337037  0.413117  0.881504  1

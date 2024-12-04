@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_AlVGa2(NiO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83506800
+_cell_length_b   5.95906307
+_cell_length_c   8.30659086
+_cell_angle_alpha   88.94987974
+_cell_angle_beta   90.00002946
+_cell_angle_gamma   90.00000039
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlVGa2(NiO4)2
+_chemical_formula_sum   'Al2 V2 Ga4 Ni4 O16'
+_cell_volume   288.78443079
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.000000  0.250001  0.625000  1
+  Al  Al1  1  0.500000  0.749999  0.125000  1
+  V  V2  1  0.000000  0.749999  0.625000  1
+  V  V3  1  0.500000  0.250001  0.125000  1
+  Ga  Ga4  1  0.000000  0.997437  0.993225  1
+  Ga  Ga5  1  0.500000  0.497436  0.493228  1
+  Ga  Ga6  1  0.000000  0.502563  0.256773  1
+  Ga  Ga7  1  0.500000  0.002564  0.756774  1
+  Ni  Ni8  1  0.750000  0.500000  0.875000  1
+  Ni  Ni9  1  0.250000  0.500000  0.875000  1
+  Ni  Ni10  1  0.250000  0.000000  0.375000  1
+  Ni  Ni11  1  0.750000  0.000000  0.375000  1
+  O  O12  1  0.000000  0.757754  0.385043  1
+  O  O13  1  0.500000  0.257754  0.885045  1
+  O  O14  1  0.000000  0.245042  0.392921  1
+  O  O15  1  0.500000  0.745041  0.892921  1
+  O  O16  1  0.000000  0.254959  0.857080  1
+  O  O17  1  0.500000  0.754958  0.357079  1
+  O  O18  1  0.000000  0.742247  0.864957  1
+  O  O19  1  0.500000  0.242246  0.364956  1
+  O  O20  1  0.232123  0.012678  0.625709  1
+  O  O21  1  0.732121  0.512677  0.125710  1
+  O  O22  1  0.767878  0.012678  0.625709  1
+  O  O23  1  0.267879  0.512677  0.125709  1
+  O  O24  1  0.232122  0.487322  0.624291  1
+  O  O25  1  0.732120  0.987323  0.124291  1
+  O  O26  1  0.767878  0.487322  0.624290  1
+  O  O27  1  0.267879  0.987323  0.124291  1

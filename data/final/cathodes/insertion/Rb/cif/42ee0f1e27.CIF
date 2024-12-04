@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_RbBa4Fe5(CoP2)5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.71245999
+_cell_length_b   8.71246127
+_cell_length_c   8.71246050
+_cell_angle_alpha   122.24367018
+_cell_angle_beta   122.24367451
+_cell_angle_gamma   86.15588454
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBa4Fe5(CoP2)5
+_chemical_formula_sum   'Rb1 Ba4 Fe5 Co5 P10'
+_cell_volume   450.67166943
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Ba  Ba1  1  0.392436  0.802450  0.194925  1
+  Ba  Ba2  1  0.802489  0.607564  0.410015  1
+  Ba  Ba3  1  0.197550  0.392475  0.589985  1
+  Ba  Ba4  1  0.607525  0.197511  0.805075  1
+  Fe  Fe5  1  0.650023  0.549793  0.700355  1
+  Fe  Fe6  1  0.050330  0.349977  0.899770  1
+  Fe  Fe7  1  0.450207  0.150561  0.100230  1
+  Fe  Fe8  1  0.849439  0.949670  0.299645  1
+  Fe  Fe9  1  0.250000  0.750000  0.500000  1
+  Co  Co10  1  0.949495  0.649938  0.100122  1
+  Co  Co11  1  0.350062  0.450185  0.299556  1
+  Co  Co12  1  0.750000  0.250000  0.500000  1
+  Co  Co13  1  0.150628  0.050504  0.700444  1
+  Co  Co14  1  0.549815  0.849372  0.899878  1
+  P  P15  1  0.940544  0.539429  0.799690  1
+  P  P16  1  0.341215  0.341215  0.000000  1
+  P  P17  1  0.739738  0.140852  0.200310  1
+  P  P18  1  0.140809  0.940471  0.401114  1
+  P  P19  1  0.539358  0.739697  0.598886  1
+  P  P20  1  0.658785  0.658785  0.000000  1
+  P  P21  1  0.059529  0.460642  0.200340  1
+  P  P22  1  0.460571  0.260262  0.401115  1
+  P  P23  1  0.859148  0.059456  0.598885  1
+  P  P24  1  0.260303  0.859191  0.799660  1

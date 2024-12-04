@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al4IrRu2Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.03953300
+_cell_length_b   4.25360400
+_cell_length_c   8.53734600
+_cell_angle_alpha   90.00012775
+_cell_angle_beta   89.99992179
+_cell_angle_gamma   90.00002296
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al4IrRu2Pt
+_chemical_formula_sum   'Al8 Ir2 Ru4 Pt2'
+_cell_volume   219.32255527
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.002876  0.750000  0.121204  1
+  Al  Al1  1  0.497122  0.750000  0.121209  1
+  Al  Al2  1  0.997119  0.250000  0.378792  1
+  Al  Al3  1  0.502873  0.250000  0.378797  1
+  Al  Al4  1  0.502725  0.750000  0.628842  1
+  Al  Al5  1  0.997284  0.750000  0.628847  1
+  Al  Al6  1  0.497279  0.250000  0.871152  1
+  Al  Al7  1  0.002724  0.250000  0.871157  1
+  Ir  Ir8  1  0.750006  0.249999  0.624203  1
+  Ir  Ir9  1  0.250007  0.750001  0.875796  1
+  Ru  Ru10  1  0.249998  0.250000  0.128476  1
+  Ru  Ru11  1  0.749998  0.750000  0.371523  1
+  Ru  Ru12  1  0.250000  0.249999  0.622119  1
+  Ru  Ru13  1  0.750002  0.750001  0.877882  1
+  Pt  Pt14  1  0.749993  0.249999  0.125638  1
+  Pt  Pt15  1  0.249993  0.750001  0.374362  1

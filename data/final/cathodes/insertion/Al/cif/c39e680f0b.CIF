@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_YTm7(AlCo)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.33311792
+_cell_length_b   9.33311920
+_cell_length_c   9.33192100
+_cell_angle_alpha   60.00425027
+_cell_angle_beta   60.00424576
+_cell_angle_gamma   59.99150969
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YTm7(AlCo)2
+_chemical_formula_sum   'Y2 Tm14 Al4 Co4'
+_cell_volume   574.79055849
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.562554  0.562554  0.937446  1
+  Y  Y1  1  0.937446  0.937446  0.562554  1
+  Tm  Tm2  1  0.348913  0.348913  0.349539  1
+  Tm  Tm3  1  0.348913  0.348913  0.952638  1
+  Tm  Tm4  1  0.349539  0.952638  0.348913  1
+  Tm  Tm5  1  0.952638  0.349539  0.348913  1
+  Tm  Tm6  1  0.807798  0.192202  0.192202  1
+  Tm  Tm7  1  0.192202  0.807798  0.807798  1
+  Tm  Tm8  1  0.192202  0.807798  0.192202  1
+  Tm  Tm9  1  0.807798  0.192202  0.807798  1
+  Tm  Tm10  1  0.192311  0.192311  0.807689  1
+  Tm  Tm11  1  0.807689  0.807689  0.192311  1
+  Tm  Tm12  1  0.939296  0.560704  0.560704  1
+  Tm  Tm13  1  0.560704  0.939296  0.939296  1
+  Tm  Tm14  1  0.560704  0.939296  0.560704  1
+  Tm  Tm15  1  0.939296  0.560704  0.939296  1
+  Al  Al16  1  0.577848  0.577848  0.577423  1
+  Al  Al17  1  0.577848  0.577848  0.266880  1
+  Al  Al18  1  0.577423  0.266880  0.577848  1
+  Al  Al19  1  0.266880  0.577423  0.577848  1
+  Co  Co20  1  0.141055  0.141055  0.139538  1
+  Co  Co21  1  0.141055  0.141055  0.578353  1
+  Co  Co22  1  0.139538  0.578353  0.141055  1
+  Co  Co23  1  0.578353  0.139538  0.141055  1

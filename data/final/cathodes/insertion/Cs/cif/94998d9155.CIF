@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2KTbAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.93905253
+_cell_length_b   9.93905166
+_cell_length_c   9.93905247
+_cell_angle_alpha   132.59629046
+_cell_angle_beta   66.82826609
+_cell_angle_gamma   135.77941629
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2KTbAs2
+_chemical_formula_sum   'Cs4 K2 Tb2 As4'
+_cell_volume   495.98908285
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.813436  0.240317  0.053753  1
+  Cs  Cs1  1  0.686564  0.740317  0.426881  1
+  Cs  Cs2  1  0.313436  0.259683  0.573120  1
+  Cs  Cs3  1  0.186564  0.759683  0.946247  1
+  K  K4  1  0.749999  0.249999  0.500000  1
+  K  K5  1  0.249999  0.749999  0.500000  1
+  Tb  Tb6  1  0.249999  0.249999  0.000000  1
+  Tb  Tb7  1  0.750000  0.750000  0.000000  1
+  As  As8  1  0.408594  0.696238  0.104831  1
+  As  As9  1  0.091406  0.196237  0.287643  1
+  As  As10  1  0.908594  0.803763  0.712357  1
+  As  As11  1  0.591406  0.303763  0.895169  1

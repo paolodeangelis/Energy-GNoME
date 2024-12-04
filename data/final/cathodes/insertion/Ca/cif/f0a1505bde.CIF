@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CaEr(CuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25708389
+_cell_length_b   6.25708402
+_cell_length_c   6.25708283
+_cell_angle_alpha   125.80697899
+_cell_angle_beta   125.80697918
+_cell_angle_gamma   80.20562198
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEr(CuO2)4
+_chemical_formula_sum   'Ca1 Er1 Cu4 O8'
+_cell_volume   155.50119648
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Er  Er1  1  0.750000  0.250000  0.500000  1
+  Cu  Cu2  1  0.873690  0.630954  0.255085  1
+  Cu  Cu3  1  0.375869  0.618604  0.744915  1
+  Cu  Cu4  1  0.381396  0.126310  0.757264  1
+  Cu  Cu5  1  0.369046  0.624131  0.242736  1
+  O  O6  1  0.017210  0.956655  0.375522  1
+  O  O7  1  0.043345  0.418868  0.060555  1
+  O  O8  1  0.358313  0.982790  0.939445  1
+  O  O9  1  0.158890  0.583691  0.847427  1
+  O  O10  1  0.416309  0.263736  0.575199  1
+  O  O11  1  0.688537  0.841110  0.424801  1
+  O  O12  1  0.581132  0.641687  0.624478  1
+  O  O13  1  0.736264  0.311463  0.152573  1

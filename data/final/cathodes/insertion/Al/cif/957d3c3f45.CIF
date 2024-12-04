@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiAlPtO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94469799
+_cell_length_b   5.94469783
+_cell_length_c   5.94469770
+_cell_angle_alpha   122.33405167
+_cell_angle_beta   117.85809913
+_cell_angle_gamma   89.87749811
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAlPtO4
+_chemical_formula_sum   'Li2 Al2 Pt2 O8'
+_cell_volume   148.05075117
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.112606  0.862606  0.250000  1
+  Li  Li1  1  0.887394  0.137394  0.750000  1
+  Al  Al2  1  0.500000  0.500000  0.500000  1
+  Al  Al3  1  0.500000  0.000000  0.000000  1
+  Pt  Pt4  1  0.500000  0.500000  0.000000  1
+  Pt  Pt5  1  0.000000  0.500000  0.500000  1
+  O  O6  1  0.730601  0.246689  0.016087  1
+  O  O7  1  0.730601  0.714514  0.483913  1
+  O  O8  1  0.717977  0.256756  0.461222  1
+  O  O9  1  0.295534  0.256756  0.038778  1
+  O  O10  1  0.269399  0.753311  0.983913  1
+  O  O11  1  0.269399  0.285486  0.516087  1
+  O  O12  1  0.282023  0.743244  0.538778  1
+  O  O13  1  0.704466  0.743244  0.961222  1

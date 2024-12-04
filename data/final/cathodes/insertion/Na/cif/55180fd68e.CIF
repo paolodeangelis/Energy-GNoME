@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Na3MnFe3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.03591100
+_cell_length_b   6.48618245
+_cell_length_c   8.86145948
+_cell_angle_alpha   84.36848462
+_cell_angle_beta   89.99997113
+_cell_angle_gamma   90.00002145
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3MnFe3O8
+_chemical_formula_sum   'Na6 Mn2 Fe6 O16'
+_cell_volume   345.25190168
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250049  0.749971  0.750020  1
+  Na  Na1  1  0.750050  0.249970  0.250018  1
+  Na  Na2  1  0.500091  0.000000  0.500000  1
+  Na  Na3  1  0.000092  0.500000  0.000000  1
+  Na  Na4  1  0.250048  0.250030  0.249979  1
+  Na  Na5  1  0.750049  0.750032  0.749981  1
+  Mn  Mn6  1  0.999581  0.999992  0.999998  1
+  Mn  Mn7  1  0.499583  0.499995  0.500002  1
+  Fe  Fe8  1  0.750053  0.250063  0.749891  1
+  Fe  Fe9  1  0.499807  0.999999  0.000001  1
+  Fe  Fe10  1  0.750055  0.749942  0.250110  1
+  Fe  Fe11  1  0.250054  0.750065  0.249887  1
+  Fe  Fe12  1  0.999816  0.500003  0.499999  1
+  Fe  Fe13  1  0.250054  0.249940  0.750113  1
+  O  O14  1  0.000059  0.534336  0.267163  1
+  O  O15  1  0.500060  0.034336  0.767164  1
+  O  O16  1  0.500059  0.965666  0.232836  1
+  O  O17  1  0.000060  0.465666  0.732836  1
+  O  O18  1  0.262527  0.293384  0.515485  1
+  O  O19  1  0.762526  0.793384  0.015486  1
+  O  O20  1  0.500041  0.530885  0.277981  1
+  O  O21  1  0.000041  0.030886  0.777981  1
+  O  O22  1  0.237526  0.793400  0.015480  1
+  O  O23  1  0.737527  0.293400  0.515479  1
+  O  O24  1  0.237525  0.206598  0.984520  1
+  O  O25  1  0.737527  0.706601  0.484521  1
+  O  O26  1  0.000041  0.969114  0.222018  1
+  O  O27  1  0.500042  0.469116  0.722020  1
+  O  O28  1  0.262528  0.706615  0.484515  1
+  O  O29  1  0.762527  0.206614  0.984514  1

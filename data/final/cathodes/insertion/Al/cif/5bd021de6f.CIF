@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Tb12AlIn(CoSi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.50163229
+_cell_length_b   8.50163153
+_cell_length_c   8.50163229
+_cell_angle_alpha   113.17505211
+_cell_angle_beta   110.76402515
+_cell_angle_gamma   104.59225225
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb12AlIn(CoSi)2
+_chemical_formula_sum   'Tb12 Al1 In1 Co2 Si2'
+_cell_volume   470.25396469
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.434077  0.237978  0.196099  1
+  Tb  Tb1  1  0.565923  0.762022  0.803901  1
+  Tb  Tb2  1  0.041881  0.237978  0.803901  1
+  Tb  Tb3  1  0.958119  0.762022  0.196099  1
+  Tb  Tb4  1  0.185901  0.285391  0.471292  1
+  Tb  Tb5  1  0.814099  0.714609  0.528708  1
+  Tb  Tb6  1  0.185901  0.714609  0.900510  1
+  Tb  Tb7  1  0.814099  0.285391  0.099490  1
+  Tb  Tb8  1  0.304620  0.616683  0.312064  1
+  Tb  Tb9  1  0.695380  0.383317  0.687936  1
+  Tb  Tb10  1  0.304620  0.992557  0.687936  1
+  Tb  Tb11  1  0.695380  0.007443  0.312064  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  In  In13  1  0.500000  0.500000  0.000000  1
+  Co  Co14  1  0.106794  0.606794  0.500000  1
+  Co  Co15  1  0.893206  0.393206  0.500000  1
+  Si  Si16  1  0.362490  0.000000  0.362490  1
+  Si  Si17  1  0.637510  0.000000  0.637510  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaSr2Fe4(CoAs3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.62823982
+_cell_length_b   8.62824047
+_cell_length_c   6.65795176
+_cell_angle_alpha   67.91885187
+_cell_angle_beta   67.91885009
+_cell_angle_gamma   37.03467815
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSr2Fe4(CoAs3)2
+_chemical_formula_sum   'Na1 Sr2 Fe4 Co2 As6'
+_cell_volume   274.07360334
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000310  0.999690  0.000000  1
+  Sr  Sr1  1  0.661960  0.663503  0.676368  1
+  Sr  Sr2  1  0.336497  0.338040  0.323632  1
+  Fe  Fe3  1  0.751241  0.248759  0.500000  1
+  Fe  Fe4  1  0.249194  0.750806  0.500000  1
+  Fe  Fe5  1  0.583057  0.082252  0.832423  1
+  Fe  Fe6  1  0.917748  0.416943  0.167577  1
+  Co  Co7  1  0.082817  0.583280  0.831206  1
+  Co  Co8  1  0.416720  0.917183  0.168794  1
+  As  As9  1  0.880699  0.883846  0.524363  1
+  As  As10  1  0.214531  0.214692  0.862527  1
+  As  As11  1  0.550430  0.546665  0.195211  1
+  As  As12  1  0.453335  0.449570  0.804789  1
+  As  As13  1  0.785308  0.785469  0.137473  1
+  As  As14  1  0.116154  0.119301  0.475637  1

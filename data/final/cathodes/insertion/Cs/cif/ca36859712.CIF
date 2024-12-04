@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2HfAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.09877229
+_cell_length_b   9.09877340
+_cell_length_c   9.09877301
+_cell_angle_alpha   135.40269460
+_cell_angle_beta   127.45465357
+_cell_angle_gamma   71.32544087
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2HfAs2
+_chemical_formula_sum   'Cs4 Hf2 As4'
+_cell_volume   411.15250692
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.699716  0.345737  0.353978  1
+  Cs  Cs1  1  0.991759  0.845737  0.146022  1
+  Cs  Cs2  1  0.008241  0.154263  0.853978  1
+  Cs  Cs3  1  0.300284  0.654263  0.646022  1
+  Hf  Hf4  1  0.500000  0.750000  0.250000  1
+  Hf  Hf5  1  0.500000  0.250000  0.750000  1
+  As  As6  1  0.231330  0.405607  0.825723  1
+  As  As7  1  0.768670  0.594393  0.174277  1
+  As  As8  1  0.420116  0.094393  0.325723  1
+  As  As9  1  0.579884  0.905607  0.674277  1

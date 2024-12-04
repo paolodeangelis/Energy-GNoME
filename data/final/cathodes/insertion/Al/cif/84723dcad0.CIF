@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y3Er2AlBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.01586009
+_cell_length_b   9.01586037
+_cell_length_c   6.45328400
+_cell_angle_alpha   89.99994434
+_cell_angle_beta   89.99994785
+_cell_angle_gamma   119.89780061
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Er2AlBi2
+_chemical_formula_sum   'Y6 Er4 Al2 Bi4'
+_cell_volume   454.74934157
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.760771  0.760771  0.249999  1
+  Y  Y1  1  0.238408  0.998896  0.249990  1
+  Y  Y2  1  0.998896  0.238408  0.249990  1
+  Y  Y3  1  0.233964  0.233964  0.749984  1
+  Y  Y4  1  0.764069  0.012952  0.750008  1
+  Y  Y5  1  0.012952  0.764069  0.750008  1
+  Er  Er6  1  0.669115  0.326157  0.507533  1
+  Er  Er7  1  0.326157  0.669115  0.507533  1
+  Er  Er8  1  0.326167  0.669108  0.992471  1
+  Er  Er9  1  0.669108  0.326167  0.992471  1
+  Al  Al10  1  0.397450  0.001384  0.750002  1
+  Al  Al11  1  0.001384  0.397450  0.750002  1
+  Bi  Bi12  1  0.395232  0.395232  0.250005  1
+  Bi  Bi13  1  0.600669  0.995892  0.250000  1
+  Bi  Bi14  1  0.995892  0.600669  0.250000  1
+  Bi  Bi15  1  0.609765  0.609765  0.750002  1

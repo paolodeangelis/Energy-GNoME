@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsLiCeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.85667326
+_cell_length_b   6.85667311
+_cell_length_c   9.06574900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   149.41676451
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsLiCeO3
+_chemical_formula_sum   'Cs2 Li2 Ce2 O6'
+_cell_volume   216.85466457
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.736735  0.263264  0.250000  1
+  Cs  Cs1  1  0.263264  0.736735  0.750000  1
+  Li  Li2  1  0.463288  0.536710  0.250000  1
+  Li  Li3  1  0.536710  0.463288  0.750000  1
+  Ce  Ce4  1  0.000000  0.000000  0.000000  1
+  Ce  Ce5  1  0.000000  0.000000  0.500000  1
+  O  O6  1  0.402299  0.597699  0.055073  1
+  O  O7  1  0.033036  0.966963  0.250000  1
+  O  O8  1  0.402299  0.597699  0.444927  1
+  O  O9  1  0.597699  0.402299  0.555072  1
+  O  O10  1  0.966963  0.033036  0.750000  1
+  O  O11  1  0.597699  0.402299  0.944928  1

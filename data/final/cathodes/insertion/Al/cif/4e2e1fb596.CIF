@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ho3Th(AlRu2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68033210
+_cell_length_b   5.68033176
+_cell_length_c   7.05458495
+_cell_angle_alpha   88.70760936
+_cell_angle_beta   91.29238542
+_cell_angle_gamma   116.13997638
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3Th(AlRu2)2
+_chemical_formula_sum   'Ho3 Th1 Al2 Ru4'
+_cell_volume   204.27093457
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.340802  0.659198  0.085395  1
+  Ho  Ho1  1  0.657990  0.342010  0.911271  1
+  Ho  Ho2  1  0.164044  0.835956  0.599463  1
+  Th  Th3  1  0.833138  0.166862  0.409358  1
+  Al  Al4  1  0.004248  0.995752  0.000193  1
+  Al  Al5  1  0.496392  0.503608  0.501669  1
+  Ru  Ru6  1  0.850990  0.645603  0.254274  1
+  Ru  Ru7  1  0.657197  0.859197  0.742052  1
+  Ru  Ru8  1  0.140803  0.342803  0.742052  1
+  Ru  Ru9  1  0.354397  0.149010  0.254274  1

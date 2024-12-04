@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_RbBa3(BeAs)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.35239727
+_cell_length_b   8.60392941
+_cell_length_c   7.60294600
+_cell_angle_alpha   63.71658037
+_cell_angle_beta   75.06222878
+_cell_angle_gamma   96.97768389
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBa3(BeAs)8
+_chemical_formula_sum   'Rb1 Ba3 Be8 As8'
+_cell_volume   400.95379765
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Ba  Ba1  1  0.000034  0.486830  0.756731  1
+  Ba  Ba2  1  0.000000  0.000000  0.500000  1
+  Ba  Ba3  1  0.999966  0.513170  0.243269  1
+  Be  Be4  1  0.498156  0.623917  0.313844  1
+  Be  Be5  1  0.494735  0.621331  0.816065  1
+  Be  Be6  1  0.495340  0.124521  0.064754  1
+  Be  Be7  1  0.491894  0.125517  0.562802  1
+  Be  Be8  1  0.501844  0.376083  0.686156  1
+  Be  Be9  1  0.505265  0.378669  0.183935  1
+  Be  Be10  1  0.508106  0.874483  0.437198  1
+  Be  Be11  1  0.504660  0.875479  0.935246  1
+  As  As12  1  0.302532  0.328992  0.506567  1
+  As  As13  1  0.302630  0.325953  0.013958  1
+  As  As14  1  0.308234  0.825300  0.263385  1
+  As  As15  1  0.304917  0.824545  0.758637  1
+  As  As16  1  0.697468  0.671008  0.493433  1
+  As  As17  1  0.697370  0.674047  0.986042  1
+  As  As18  1  0.695083  0.175455  0.241363  1
+  As  As19  1  0.691766  0.174700  0.736615  1

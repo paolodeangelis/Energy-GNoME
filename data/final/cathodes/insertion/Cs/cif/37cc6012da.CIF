@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2PrU(CuS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05511400
+_cell_length_b   8.03467242
+_cell_length_c   10.49926487
+_cell_angle_alpha   89.07293107
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   75.38332122
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2PrU(CuS3)2
+_chemical_formula_sum   'Cs2 Pr1 U1 Cu2 S6'
+_cell_volume   330.96443002
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.740922  0.518158  0.240312  1
+  Cs  Cs1  1  0.259079  0.481842  0.759688  1
+  Pr  Pr2  1  0.000000  0.000000  0.000000  1
+  U  U3  1  0.000000  0.000000  0.500000  1
+  Cu  Cu4  1  0.463592  0.072817  0.254705  1
+  Cu  Cu5  1  0.536409  0.927184  0.745295  1
+  S  S6  1  0.382270  0.235461  0.069848  1
+  S  S7  1  0.051105  0.897788  0.267019  1
+  S  S8  1  0.391719  0.216565  0.444127  1
+  S  S9  1  0.608282  0.783435  0.555873  1
+  S  S10  1  0.948896  0.102212  0.732981  1
+  S  S11  1  0.617731  0.764539  0.930152  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_K2SrAs2Pd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.67389085
+_cell_length_b   7.67389179
+_cell_length_c   7.67389100
+_cell_angle_alpha   43.97176913
+_cell_angle_beta   43.97176325
+_cell_angle_gamma   43.97176846
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2SrAs2Pd3
+_chemical_formula_sum   'K2 Sr1 As2 Pd3'
+_cell_volume   197.85006083
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.505857  0.505857  0.505857  1
+  K  K1  1  0.911004  0.911004  0.911004  1
+  Sr  Sr2  1  0.081033  0.081033  0.081033  1
+  As  As3  1  0.243139  0.243139  0.243139  1
+  As  As4  1  0.756801  0.756801  0.756801  1
+  Pd  Pd5  1  0.499148  0.499148  0.003871  1
+  Pd  Pd6  1  0.499147  0.003871  0.499149  1
+  Pd  Pd7  1  0.003871  0.499147  0.499149  1

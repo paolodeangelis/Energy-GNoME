@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgTcF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.53278226
+_cell_length_b   5.53278352
+_cell_length_c   5.53278202
+_cell_angle_alpha   58.12572125
+_cell_angle_beta   58.12572136
+_cell_angle_gamma   58.12573157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTcF6
+_chemical_formula_sum   'Mg1 Tc1 F6'
+_cell_volume   114.61563994
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.500000  0.500000  0.500000  1
+  Tc  Tc1  1  0.000000  0.000000  0.000000  1
+  F  F2  1  0.664249  0.842047  0.245666  1
+  F  F3  1  0.842047  0.245667  0.664248  1
+  F  F4  1  0.754333  0.335752  0.157953  1
+  F  F5  1  0.157953  0.754333  0.335752  1
+  F  F6  1  0.335751  0.157953  0.754334  1
+  F  F7  1  0.245667  0.664248  0.842047  1

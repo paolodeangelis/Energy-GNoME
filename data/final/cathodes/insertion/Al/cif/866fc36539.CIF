@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_AlCr8Ag3Se16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.56764700
+_cell_length_b   7.56764700
+_cell_length_c   10.70769100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCr8Ag3Se16
+_chemical_formula_sum   'Al1 Cr8 Ag3 Se16'
+_cell_volume   613.22176599
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.500000  0.500000  0.500000  1
+  Cr  Cr1  1  0.252124  0.500000  0.123157  1
+  Cr  Cr2  1  0.755064  0.000000  0.623024  1
+  Cr  Cr3  1  0.747876  0.500000  0.123157  1
+  Cr  Cr4  1  0.244936  0.000000  0.623024  1
+  Cr  Cr5  1  0.000000  0.244936  0.376976  1
+  Cr  Cr6  1  0.500000  0.747876  0.876843  1
+  Cr  Cr7  1  0.500000  0.252124  0.876843  1
+  Cr  Cr8  1  0.000000  0.755064  0.376976  1
+  Ag  Ag9  1  0.000000  0.000000  0.000000  1
+  Ag  Ag10  1  0.500000  0.000000  0.249338  1
+  Ag  Ag11  1  0.000000  0.500000  0.750662  1
+  Se  Se12  1  0.765912  0.500000  0.367901  1
+  Se  Se13  1  0.279798  0.000000  0.858346  1
+  Se  Se14  1  0.234088  0.500000  0.367901  1
+  Se  Se15  1  0.720202  0.000000  0.858346  1
+  Se  Se16  1  0.500000  0.234088  0.632099  1
+  Se  Se17  1  0.000000  0.720202  0.141654  1
+  Se  Se18  1  0.500000  0.765912  0.632099  1
+  Se  Se19  1  0.000000  0.279798  0.141654  1
+  Se  Se20  1  0.220365  0.000000  0.387458  1
+  Se  Se21  1  0.723428  0.500000  0.890883  1
+  Se  Se22  1  0.779635  0.000000  0.387458  1
+  Se  Se23  1  0.276572  0.500000  0.890883  1
+  Se  Se24  1  0.500000  0.276572  0.109117  1
+  Se  Se25  1  0.000000  0.779635  0.612542  1
+  Se  Se26  1  0.500000  0.723428  0.109117  1
+  Se  Se27  1  0.000000  0.220365  0.612542  1

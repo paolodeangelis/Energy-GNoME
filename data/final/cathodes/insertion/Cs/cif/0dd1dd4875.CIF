@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Cs2Co(GeO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18110190
+_cell_length_b   6.18110141
+_cell_length_c   11.22202600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   110.66421892
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Co(GeO3)2
+_chemical_formula_sum   'Cs4 Co2 Ge4 O12'
+_cell_volume   401.16518657
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.785906  0.441724  0.924342  1
+  Cs  Cs1  1  0.558276  0.214094  0.575658  1
+  Cs  Cs2  1  0.214094  0.558276  0.424342  1
+  Cs  Cs3  1  0.441724  0.785906  0.075658  1
+  Co  Co4  1  0.689998  0.310002  0.250000  1
+  Co  Co5  1  0.310002  0.689998  0.750000  1
+  Ge  Ge6  1  0.828862  0.865405  0.358189  1
+  Ge  Ge7  1  0.134595  0.171138  0.141811  1
+  Ge  Ge8  1  0.171138  0.134595  0.858189  1
+  Ge  Ge9  1  0.865405  0.828862  0.641811  1
+  O  O10  1  0.629595  0.002868  0.329690  1
+  O  O11  1  0.561484  0.711295  0.634983  1
+  O  O12  1  0.711295  0.561484  0.365017  1
+  O  O13  1  0.370405  0.997132  0.829690  1
+  O  O14  1  0.974094  0.974094  0.500000  1
+  O  O15  1  0.438516  0.288705  0.134983  1
+  O  O16  1  0.060572  0.939428  0.250000  1
+  O  O17  1  0.288705  0.438516  0.865017  1
+  O  O18  1  0.025906  0.025906  0.000000  1
+  O  O19  1  0.939428  0.060572  0.750000  1
+  O  O20  1  0.997132  0.370405  0.170310  1
+  O  O21  1  0.002868  0.629595  0.670310  1

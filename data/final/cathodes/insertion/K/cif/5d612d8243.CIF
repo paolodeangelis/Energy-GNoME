@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KLiTiO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.85791430
+_cell_length_b   5.85791512
+_cell_length_c   5.44809609
+_cell_angle_alpha   87.30695194
+_cell_angle_beta   87.30695552
+_cell_angle_gamma   123.27990578
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiTiO3
+_chemical_formula_sum   'K2 Li2 Ti2 O6'
+_cell_volume   155.52564935
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.731989  0.268011  0.250000  1
+  K  K1  1  0.268011  0.731989  0.750000  1
+  Li  Li2  1  0.430665  0.569335  0.250000  1
+  Li  Li3  1  0.569335  0.430665  0.750000  1
+  Ti  Ti4  1  0.942126  0.057874  0.750000  1
+  Ti  Ti5  1  0.057874  0.942126  0.250000  1
+  O  O6  1  0.756995  0.780227  0.508108  1
+  O  O7  1  0.780227  0.756995  0.008108  1
+  O  O8  1  0.219773  0.243005  0.991892  1
+  O  O9  1  0.243005  0.219773  0.491892  1
+  O  O10  1  0.229935  0.770065  0.250000  1
+  O  O11  1  0.770065  0.229935  0.750000  1

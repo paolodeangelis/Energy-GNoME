@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ce4Al4Ir3Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87329572
+_cell_length_b   4.30974800
+_cell_length_c   8.02374559
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.31237065
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce4Al4Ir3Os
+_chemical_formula_sum   'Ce4 Al4 Ir3 Os1'
+_cell_volume   237.67724377
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.962738  0.250000  0.181120  1
+  Ce  Ce1  1  0.464664  0.250000  0.316838  1
+  Ce  Ce2  1  0.032338  0.750000  0.816892  1
+  Ce  Ce3  1  0.537809  0.750000  0.686643  1
+  Al  Al4  1  0.863414  0.250000  0.560610  1
+  Al  Al5  1  0.363545  0.250000  0.938985  1
+  Al  Al6  1  0.136702  0.750000  0.439119  1
+  Al  Al7  1  0.637194  0.750000  0.061195  1
+  Ir  Ir8  1  0.238859  0.250000  0.617179  1
+  Ir  Ir9  1  0.260904  0.750000  0.118869  1
+  Ir  Ir10  1  0.760912  0.750000  0.382105  1
+  Os  Os11  1  0.740921  0.250000  0.880444  1

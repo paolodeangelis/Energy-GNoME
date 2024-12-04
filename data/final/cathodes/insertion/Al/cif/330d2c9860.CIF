@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Pr4ScAl3Ir3Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43333600
+_cell_length_b   7.19006796
+_cell_length_c   8.16284898
+_cell_angle_alpha   89.40224308
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr4ScAl3Ir3Pt
+_chemical_formula_sum   'Pr4 Sc1 Al3 Ir3 Pt1'
+_cell_volume   260.18470861
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.250000  0.541969  0.826627  1
+  Pr  Pr1  1  0.250000  0.018067  0.682324  1
+  Pr  Pr2  1  0.750000  0.962634  0.311899  1
+  Pr  Pr3  1  0.750000  0.476801  0.178961  1
+  Sc  Sc4  1  0.750000  0.370833  0.563290  1
+  Al  Al5  1  0.250000  0.137319  0.064015  1
+  Al  Al6  1  0.250000  0.639668  0.436219  1
+  Al  Al7  1  0.750000  0.853248  0.936344  1
+  Ir  Ir8  1  0.250000  0.779217  0.112017  1
+  Ir  Ir9  1  0.250000  0.273232  0.379584  1
+  Ir  Ir10  1  0.750000  0.731334  0.616835  1
+  Pt  Pt11  1  0.750000  0.215676  0.891885  1

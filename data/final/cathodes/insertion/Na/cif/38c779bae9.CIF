@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Na(As2Rh3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.33423100
+_cell_length_b   7.33423130
+_cell_length_c   3.72732900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999413
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(As2Rh3)2
+_chemical_formula_sum   'Na1 As4 Rh6'
+_cell_volume   173.63512036
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.500000  1
+  As  As1  1  0.666667  0.333333  0.500000  1
+  As  As2  1  0.186548  0.373378  0.000000  1
+  As  As3  1  0.186831  0.813452  0.000000  1
+  As  As4  1  0.626622  0.813169  0.000000  1
+  Rh  Rh5  1  0.462344  0.927523  0.500000  1
+  Rh  Rh6  1  0.465179  0.537656  0.500000  1
+  Rh  Rh7  1  0.072477  0.534821  0.500000  1
+  Rh  Rh8  1  0.801465  0.601210  0.000000  1
+  Rh  Rh9  1  0.799745  0.198535  0.000000  1
+  Rh  Rh10  1  0.398790  0.200255  0.000000  1

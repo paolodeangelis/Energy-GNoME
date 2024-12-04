@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Na(MoN)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17055939
+_cell_length_b   6.17056004
+_cell_length_c   6.17056069
+_cell_angle_alpha   93.32084518
+_cell_angle_beta   93.32084365
+_cell_angle_gamma   152.14658646
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(MoN)4
+_chemical_formula_sum   'Na1 Mo4 N4'
+_cell_volume   106.54401999
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Mo  Mo1  1  0.814165  0.382126  0.196291  1
+  Mo  Mo2  1  0.617875  0.814165  0.432039  1
+  Mo  Mo3  1  0.382126  0.185836  0.567962  1
+  Mo  Mo4  1  0.185836  0.617875  0.803709  1
+  N  N5  1  0.400971  0.723379  0.124349  1
+  N  N6  1  0.723379  0.599030  0.322406  1
+  N  N7  1  0.276622  0.400971  0.677595  1
+  N  N8  1  0.599030  0.276622  0.875652  1

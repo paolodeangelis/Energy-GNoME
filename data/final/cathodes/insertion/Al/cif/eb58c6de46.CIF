@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2KAlP2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.44686197
+_cell_length_b   9.44686273
+_cell_length_c   9.44686148
+_cell_angle_alpha   139.14623953
+_cell_angle_beta   132.49440366
+_cell_angle_gamma   64.41181194
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2KAlP2
+_chemical_formula_sum   'Cs4 K2 Al2 P4'
+_cell_volume   401.12916527
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.593906  0.324504  0.269401  1
+  Cs  Cs1  1  0.406094  0.675496  0.730599  1
+  Cs  Cs2  1  0.055104  0.824504  0.230599  1
+  Cs  Cs3  1  0.944896  0.175496  0.769401  1
+  K  K4  1  0.500000  0.250000  0.750000  1
+  K  K5  1  0.500000  0.750000  0.250000  1
+  Al  Al6  1  0.000000  0.250000  0.250000  1
+  Al  Al7  1  0.000000  0.750000  0.750000  1
+  P  P8  1  0.254599  0.079704  0.174895  1
+  P  P9  1  0.745401  0.920296  0.825105  1
+  P  P10  1  0.904810  0.579704  0.325105  1
+  P  P11  1  0.095190  0.420296  0.674895  1

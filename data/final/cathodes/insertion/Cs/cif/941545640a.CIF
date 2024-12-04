@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CsZnInF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.74561322
+_cell_length_b   7.74561364
+_cell_length_c   7.74561367
+_cell_angle_alpha   121.42256402
+_cell_angle_beta   118.79865228
+_cell_angle_gamma   89.82359477
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsZnInF6
+_chemical_formula_sum   'Cs2 Zn2 In2 F12'
+_cell_volume   327.82171814
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.853557  0.603557  0.250000  1
+  Cs  Cs1  1  0.146443  0.396443  0.750000  1
+  Zn  Zn2  1  0.500000  0.000000  0.000000  1
+  Zn  Zn3  1  0.500000  0.500000  0.500000  1
+  In  In4  1  0.500000  0.000000  0.500000  1
+  In  In5  1  0.000000  0.000000  0.000000  1
+  F  F6  1  0.828150  0.078150  0.750000  1
+  F  F7  1  0.442015  0.692015  0.750000  1
+  F  F8  1  0.819803  0.675885  0.738107  1
+  F  F9  1  0.437778  0.081695  0.761893  1
+  F  F10  1  0.819803  0.081695  0.143918  1
+  F  F11  1  0.437778  0.675885  0.356082  1
+  F  F12  1  0.171850  0.921850  0.250000  1
+  F  F13  1  0.557985  0.307985  0.250000  1
+  F  F14  1  0.180197  0.324115  0.261893  1
+  F  F15  1  0.562222  0.918305  0.238107  1
+  F  F16  1  0.180197  0.918305  0.856082  1
+  F  F17  1  0.562222  0.324115  0.643918  1

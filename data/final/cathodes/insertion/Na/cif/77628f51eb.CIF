@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaHf2Sc(SbPt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.41363899
+_cell_length_b   6.41363860
+_cell_length_c   7.85929663
+_cell_angle_alpha   65.91893522
+_cell_angle_beta   65.91893387
+_cell_angle_gamma   90.00000199
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaHf2Sc(SbPt)4
+_chemical_formula_sum   'Na1 Hf2 Sc1 Sb4 Pt4'
+_cell_volume   264.03636262
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Hf  Hf1  1  0.499999  0.499999  0.000000  1
+  Hf  Hf2  1  0.750000  0.250000  0.500001  1
+  Sc  Sc3  1  0.250000  0.750000  0.500001  1
+  Sb  Sb4  1  0.496866  0.996867  0.006268  1
+  Sb  Sb5  1  0.758475  0.758475  0.483049  1
+  Sb  Sb6  1  0.241525  0.241525  0.516951  1
+  Sb  Sb7  1  0.003135  0.503135  0.993730  1
+  Pt  Pt8  1  0.610765  0.600539  0.259221  1
+  Pt  Pt9  1  0.130015  0.140238  0.259222  1
+  Pt  Pt10  1  0.399460  0.869986  0.740778  1
+  Pt  Pt11  1  0.859760  0.389236  0.740779  1

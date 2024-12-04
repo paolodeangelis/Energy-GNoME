@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tb9Er7(AlNi)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.43511055
+_cell_length_b   9.44781999
+_cell_length_c   9.44781900
+_cell_angle_alpha   59.99999296
+_cell_angle_beta   59.95542333
+_cell_angle_gamma   59.95541904
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb9Er7(AlNi)4
+_chemical_formula_sum   'Tb9 Er7 Al4 Ni4'
+_cell_volume   595.11676740
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.186543  0.813280  0.813280  1
+  Tb  Tb1  1  0.813276  0.186522  0.186522  1
+  Tb  Tb2  1  0.813276  0.186522  0.813679  1
+  Tb  Tb3  1  0.186543  0.813280  0.186896  1
+  Tb  Tb4  1  0.813276  0.813679  0.186522  1
+  Tb  Tb5  1  0.186543  0.186896  0.813280  1
+  Tb  Tb6  1  0.599818  0.600400  0.600400  1
+  Tb  Tb7  1  0.599818  0.600400  0.199381  1
+  Tb  Tb8  1  0.599818  0.199381  0.600400  1
+  Er  Er9  1  0.199390  0.600203  0.600203  1
+  Er  Er10  1  0.060054  0.440361  0.440361  1
+  Er  Er11  1  0.440325  0.060100  0.060100  1
+  Er  Er12  1  0.440325  0.060100  0.439474  1
+  Er  Er13  1  0.060054  0.440361  0.059225  1
+  Er  Er14  1  0.440325  0.439474  0.060100  1
+  Er  Er15  1  0.060054  0.059225  0.440361  1
+  Al  Al16  1  0.827750  0.826226  0.826226  1
+  Al  Al17  1  0.827750  0.826226  0.519796  1
+  Al  Al18  1  0.827750  0.519796  0.826226  1
+  Al  Al19  1  0.519843  0.826718  0.826718  1
+  Ni  Ni20  1  0.390506  0.392268  0.392268  1
+  Ni  Ni21  1  0.390506  0.392268  0.824957  1
+  Ni  Ni22  1  0.390506  0.824957  0.392268  1
+  Ni  Ni23  1  0.825950  0.391350  0.391350  1

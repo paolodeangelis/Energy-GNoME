@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaHo(NbSe2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08661700
+_cell_length_b   6.08661643
+_cell_length_c   14.63022900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000852
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaHo(NbSe2)6
+_chemical_formula_sum   'Ca1 Ho1 Nb6 Se12'
+_cell_volume   469.38977744
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.666667  0.333333  0.750000  1
+  Ho  Ho1  1  0.333333  0.666667  0.250000  1
+  Nb  Nb2  1  0.333333  0.666667  0.004564  1
+  Nb  Nb3  1  0.000000  0.000000  0.003293  1
+  Nb  Nb4  1  0.666667  0.333333  0.001987  1
+  Nb  Nb5  1  0.333333  0.666667  0.495436  1
+  Nb  Nb6  1  0.000000  0.000000  0.496707  1
+  Nb  Nb7  1  0.666667  0.333333  0.498013  1
+  Se  Se8  1  0.672094  0.665529  0.382331  1
+  Se  Se9  1  0.665950  0.672875  0.610603  1
+  Se  Se10  1  0.006925  0.672875  0.889397  1
+  Se  Se11  1  0.665950  0.993075  0.889397  1
+  Se  Se12  1  0.672094  0.006565  0.117669  1
+  Se  Se13  1  0.334471  0.006565  0.382331  1
+  Se  Se14  1  0.006925  0.334050  0.610603  1
+  Se  Se15  1  0.327125  0.993075  0.610603  1
+  Se  Se16  1  0.993435  0.665529  0.117669  1
+  Se  Se17  1  0.327125  0.334050  0.889397  1
+  Se  Se18  1  0.993435  0.327906  0.382331  1
+  Se  Se19  1  0.334471  0.327906  0.117669  1

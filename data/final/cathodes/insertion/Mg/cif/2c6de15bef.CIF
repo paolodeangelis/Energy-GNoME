@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MgCd2Rh3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22456048
+_cell_length_b   6.22456087
+_cell_length_c   6.22456193
+_cell_angle_alpha   61.40461225
+_cell_angle_beta   61.40460663
+_cell_angle_gamma   61.40461780
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCd2Rh3O8
+_chemical_formula_sum   'Mg1 Cd2 Rh3 O8'
+_cell_volume   175.91460165
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.625000  0.625000  0.625000  1
+  Cd  Cd1  1  0.243618  0.243618  0.243618  1
+  Cd  Cd2  1  0.006382  0.006382  0.006382  1
+  Rh  Rh3  1  0.625000  0.625000  0.125000  1
+  Rh  Rh4  1  0.625000  0.125000  0.625000  1
+  Rh  Rh5  1  0.125000  0.625000  0.625000  1
+  O  O6  1  0.861142  0.861142  0.428587  1
+  O  O7  1  0.861142  0.428587  0.861142  1
+  O  O8  1  0.428587  0.861142  0.861142  1
+  O  O9  1  0.857555  0.857555  0.857555  1
+  O  O10  1  0.388858  0.388858  0.821413  1
+  O  O11  1  0.388858  0.821413  0.388858  1
+  O  O12  1  0.821413  0.388858  0.388858  1
+  O  O13  1  0.392445  0.392445  0.392445  1

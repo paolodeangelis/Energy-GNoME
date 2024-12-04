@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2FeCo3P4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22357700
+_cell_length_b   7.11716356
+_cell_length_c   5.22204303
+_cell_angle_alpha   68.47588245
+_cell_angle_beta   90.00004387
+_cell_angle_gamma   90.00004027
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2FeCo3P4
+_chemical_formula_sum   'K2 Fe1 Co3 P4'
+_cell_volume   180.60145360
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.997758  0.000001  0.999999  1
+  K  K1  1  0.502237  0.999999  0.500000  1
+  Fe  Fe2  1  0.249957  0.500000  0.500002  1
+  Co  Co3  1  0.250027  0.499999  0.000000  1
+  Co  Co4  1  0.749952  0.500001  0.000000  1
+  Co  Co5  1  0.750053  0.499999  0.500000  1
+  P  P6  1  0.497283  0.679795  0.162796  1
+  P  P7  1  0.002724  0.679841  0.657483  1
+  P  P8  1  0.002725  0.320158  0.342516  1
+  P  P9  1  0.497285  0.320204  0.837204  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbTi2RhS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.96910408
+_cell_length_b   8.96910293
+_cell_length_c   8.96910300
+_cell_angle_alpha   38.60998799
+_cell_angle_beta   38.60999718
+_cell_angle_gamma   38.60999408
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbTi2RhS6
+_chemical_formula_sum   'Rb1 Ti2 Rh1 S6'
+_cell_volume   252.48374873
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000076  0.000076  0.000076  1
+  Ti  Ti1  1  0.501416  0.501416  0.501416  1
+  Ti  Ti2  1  0.832323  0.832323  0.832323  1
+  Rh  Rh3  1  0.166419  0.166419  0.166419  1
+  S  S4  1  0.552820  0.223496  0.893943  1
+  S  S5  1  0.893943  0.552820  0.223496  1
+  S  S6  1  0.223496  0.893943  0.552820  1
+  S  S7  1  0.775549  0.111419  0.442539  1
+  S  S8  1  0.111419  0.442539  0.775549  1
+  S  S9  1  0.442539  0.775549  0.111419  1

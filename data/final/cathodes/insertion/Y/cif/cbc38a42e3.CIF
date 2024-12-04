@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Y2GaP6(IrRh)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.66711500
+_cell_length_b   9.66711460
+_cell_length_c   3.93723200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999201
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2GaP6(IrRh)6
+_chemical_formula_sum   'Y2 Ga1 P6 Ir6 Rh6'
+_cell_volume   318.65110212
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.333333  0.666667  0.749983  1
+  Y  Y1  1  0.666667  0.333333  0.250017  1
+  Ga  Ga2  1  0.000000  0.000000  0.500000  1
+  P  P3  1  0.404008  0.283466  0.750217  1
+  P  P4  1  0.716534  0.120543  0.750217  1
+  P  P5  1  0.879457  0.595992  0.750217  1
+  P  P6  1  0.595992  0.716534  0.249783  1
+  P  P7  1  0.283466  0.879457  0.249783  1
+  P  P8  1  0.120543  0.404008  0.249783  1
+  Ir  Ir9  1  0.453832  0.067805  0.750259  1
+  Ir  Ir10  1  0.932195  0.386026  0.750259  1
+  Ir  Ir11  1  0.613974  0.546168  0.750259  1
+  Ir  Ir12  1  0.546168  0.932195  0.249741  1
+  Ir  Ir13  1  0.067805  0.613974  0.249741  1
+  Ir  Ir14  1  0.386026  0.453832  0.249741  1
+  Rh  Rh15  1  0.160004  0.280009  0.751904  1
+  Rh  Rh16  1  0.719991  0.879995  0.751904  1
+  Rh  Rh17  1  0.120005  0.839996  0.751904  1
+  Rh  Rh18  1  0.839996  0.719991  0.248096  1
+  Rh  Rh19  1  0.280009  0.120005  0.248096  1
+  Rh  Rh20  1  0.879995  0.160004  0.248096  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_GdEr7(AlCo)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.33311792
+_cell_length_b   9.33311920
+_cell_length_c   9.33192100
+_cell_angle_alpha   60.00425027
+_cell_angle_beta   60.00424576
+_cell_angle_gamma   59.99150969
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdEr7(AlCo)2
+_chemical_formula_sum   'Gd2 Er14 Al4 Co4'
+_cell_volume   574.79055849
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.562317  0.562317  0.937683  1
+  Gd  Gd1  1  0.937683  0.937683  0.562317  1
+  Er  Er2  1  0.349058  0.349058  0.349441  1
+  Er  Er3  1  0.349058  0.349058  0.952444  1
+  Er  Er4  1  0.349441  0.952444  0.349058  1
+  Er  Er5  1  0.952444  0.349441  0.349058  1
+  Er  Er6  1  0.807755  0.192245  0.192245  1
+  Er  Er7  1  0.192245  0.807755  0.807755  1
+  Er  Er8  1  0.192245  0.807755  0.192245  1
+  Er  Er9  1  0.807755  0.192245  0.807755  1
+  Er  Er10  1  0.192288  0.192288  0.807712  1
+  Er  Er11  1  0.807712  0.807712  0.192288  1
+  Er  Er12  1  0.938586  0.561414  0.561414  1
+  Er  Er13  1  0.561414  0.938586  0.938586  1
+  Er  Er14  1  0.561414  0.938586  0.561414  1
+  Er  Er15  1  0.938586  0.561414  0.938586  1
+  Al  Al16  1  0.577499  0.577499  0.576548  1
+  Al  Al17  1  0.577499  0.577499  0.268454  1
+  Al  Al18  1  0.576548  0.268454  0.577499  1
+  Al  Al19  1  0.268454  0.576548  0.577499  1
+  Co  Co20  1  0.140673  0.140673  0.139993  1
+  Co  Co21  1  0.140673  0.140673  0.578663  1
+  Co  Co22  1  0.139993  0.578663  0.140673  1
+  Co  Co23  1  0.578663  0.139993  0.140673  1

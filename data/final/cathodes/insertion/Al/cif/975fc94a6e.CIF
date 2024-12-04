@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbDyAl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13124300
+_cell_length_b   6.55401200
+_cell_length_c   9.43901400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbDyAl
+_chemical_formula_sum   'Tb4 Dy4 Al4'
+_cell_volume   317.43619477
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.250000  0.808851  0.927351  1
+  Tb  Tb1  1  0.250000  0.308851  0.572649  1
+  Tb  Tb2  1  0.750000  0.191149  0.072649  1
+  Tb  Tb3  1  0.750000  0.691149  0.427351  1
+  Dy  Dy4  1  0.250000  0.972586  0.289783  1
+  Dy  Dy5  1  0.250000  0.472586  0.210217  1
+  Dy  Dy6  1  0.750000  0.027414  0.710217  1
+  Dy  Dy7  1  0.750000  0.527414  0.789783  1
+  Al  Al8  1  0.250000  0.290751  0.897720  1
+  Al  Al9  1  0.250000  0.790751  0.602280  1
+  Al  Al10  1  0.750000  0.709249  0.102280  1
+  Al  Al11  1  0.750000  0.209249  0.397720  1

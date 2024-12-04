@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu4AlRe2Os5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30171153
+_cell_length_b   5.29538000
+_cell_length_c   8.77755000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.96048184
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4AlRe2Os5
+_chemical_formula_sum   'Lu4 Al1 Re2 Os5'
+_cell_volume   213.49611236
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.334136  0.667069  0.438264  1
+  Lu  Lu1  1  0.669223  0.334611  0.563512  1
+  Lu  Lu2  1  0.669223  0.334611  0.936488  1
+  Lu  Lu3  1  0.334136  0.667069  0.061736  1
+  Al  Al4  1  0.341549  0.170774  0.250000  1
+  Re  Re5  1  0.171153  0.342001  0.750000  1
+  Re  Re6  1  0.171153  0.829153  0.750000  1
+  Os  Os7  1  0.832323  0.655904  0.250000  1
+  Os  Os8  1  0.654437  0.827219  0.750000  1
+  Os  Os9  1  0.995172  0.997586  0.002263  1
+  Os  Os10  1  0.832323  0.176418  0.250000  1
+  Os  Os11  1  0.995172  0.997586  0.497737  1

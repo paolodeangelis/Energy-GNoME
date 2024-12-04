@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaCo2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02850386
+_cell_length_b   8.08820748
+_cell_length_c   8.02850506
+_cell_angle_alpha   109.57880363
+_cell_angle_beta   109.12657234
+_cell_angle_gamma   109.40709545
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCo2(Sb6Os)2
+_chemical_formula_sum   'Na1 Co2 Sb12 Os2'
+_cell_volume   402.80828869
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.000000  0.500000  0.000000  1
+  Co  Co2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.340577  0.184740  0.844163  1
+  Sb  Sb4  1  0.659423  0.815260  0.155837  1
+  Sb  Sb5  1  0.667296  0.506473  0.839177  1
+  Sb  Sb6  1  0.332704  0.493527  0.160823  1
+  Sb  Sb7  1  0.178926  0.836275  0.330764  1
+  Sb  Sb8  1  0.821074  0.163725  0.669236  1
+  Sb  Sb9  1  0.505511  0.836275  0.657349  1
+  Sb  Sb10  1  0.494489  0.163725  0.342651  1
+  Sb  Sb11  1  0.847301  0.343138  0.179377  1
+  Sb  Sb12  1  0.152699  0.656862  0.820623  1
+  Sb  Sb13  1  0.836239  0.656862  0.504163  1
+  Sb  Sb14  1  0.163761  0.343138  0.495837  1
+  Os  Os15  1  0.000000  0.000000  0.500000  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

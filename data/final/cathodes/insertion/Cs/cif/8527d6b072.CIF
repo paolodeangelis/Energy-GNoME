@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2K2NiP4Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55639891
+_cell_length_b   7.55639871
+_cell_length_c   6.03402982
+_cell_angle_alpha   88.66404659
+_cell_angle_beta   91.33595130
+_cell_angle_gamma   125.36738775
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2K2NiP4Pd
+_chemical_formula_sum   'Cs2 K2 Ni1 P4 Pd1'
+_cell_volume   280.85935208
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.401035  0.598965  0.249667  1
+  Cs  Cs1  1  0.598965  0.401035  0.750333  1
+  K  K2  1  0.786545  0.213455  0.252442  1
+  K  K3  1  0.213455  0.786545  0.747558  1
+  Ni  Ni4  1  0.000000  0.000000  0.000000  1
+  P  P5  1  0.948372  0.736954  0.232687  1
+  P  P6  1  0.051628  0.263046  0.767313  1
+  P  P7  1  0.263046  0.051628  0.232687  1
+  P  P8  1  0.736954  0.948372  0.767313  1
+  Pd  Pd9  1  0.000000  0.000000  0.500000  1

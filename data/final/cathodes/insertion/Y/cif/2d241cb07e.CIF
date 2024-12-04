@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_YCr4(AuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.60333641
+_cell_length_b   6.60332297
+_cell_length_c   6.60331248
+_cell_angle_alpha   70.52332020
+_cell_angle_beta   70.53354216
+_cell_angle_gamma   109.47040298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YCr4(AuO4)3
+_chemical_formula_sum   'Y1 Cr4 Au3 O12'
+_cell_volume   221.64940412
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.999995  0.999920  0.000045  1
+  Cr  Cr1  1  0.999760  0.499705  0.000132  1
+  Cr  Cr2  1  0.499630  0.499812  0.500299  1
+  Cr  Cr3  1  0.500264  0.000154  0.999767  1
+  Cr  Cr4  1  0.000216  0.000341  0.499792  1
+  Au  Au5  1  0.500008  0.999996  0.500001  1
+  Au  Au6  1  0.500020  0.500013  0.999988  1
+  Au  Au7  1  0.000014  0.500013  0.500002  1
+  O  O8  1  0.878053  0.706983  0.828897  1
+  O  O9  1  0.464130  0.293057  0.828923  1
+  O  O10  1  0.535891  0.706961  0.171074  1
+  O  O11  1  0.121993  0.293064  0.171044  1
+  O  O12  1  0.829172  0.121994  0.707089  1
+  O  O13  1  0.829029  0.536215  0.292909  1
+  O  O14  1  0.170843  0.463735  0.707202  1
+  O  O15  1  0.170979  0.878091  0.292802  1
+  O  O16  1  0.293178  0.171113  0.535742  1
+  O  O17  1  0.706823  0.171066  0.122070  1
+  O  O18  1  0.293165  0.828857  0.877937  1
+  O  O19  1  0.706838  0.828910  0.464283  1

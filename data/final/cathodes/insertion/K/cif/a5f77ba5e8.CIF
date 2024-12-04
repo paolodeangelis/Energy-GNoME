@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K4CaMnIn2F14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.12589207
+_cell_length_b   8.12589074
+_cell_length_c   8.17096299
+_cell_angle_alpha   120.91569876
+_cell_angle_beta   117.82553629
+_cell_angle_gamma   90.80240449
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4CaMnIn2F14
+_chemical_formula_sum   'K4 Ca1 Mn1 In2 F14'
+_cell_volume   385.76797150
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.500000  0.500000  0.000000  1
+  K  K1  1  0.000000  0.000000  0.000000  1
+  K  K2  1  0.000000  0.500000  0.000000  1
+  K  K3  1  0.000000  0.000000  0.500000  1
+  Ca  Ca4  1  0.500000  0.000000  0.000000  1
+  Mn  Mn5  1  0.500000  0.500000  0.500000  1
+  In  In6  1  0.000000  0.500000  0.500000  1
+  In  In7  1  0.500000  0.000000  0.500000  1
+  F  F8  1  0.871939  0.588978  0.279357  1
+  F  F9  1  0.190378  0.907418  0.279357  1
+  F  F10  1  0.175570  0.810064  0.760441  1
+  F  F11  1  0.456776  0.693826  0.386050  1
+  F  F12  1  0.450376  0.084871  0.760441  1
+  F  F13  1  0.192224  0.429274  0.386050  1
+  F  F14  1  0.807776  0.570726  0.613950  1
+  F  F15  1  0.549624  0.915129  0.239559  1
+  F  F16  1  0.543224  0.306174  0.613950  1
+  F  F17  1  0.824430  0.189936  0.239559  1
+  F  F18  1  0.396567  0.260545  0.157111  1
+  F  F19  1  0.128061  0.411022  0.720643  1
+  F  F20  1  0.809622  0.092582  0.720643  1
+  F  F21  1  0.603433  0.739455  0.842889  1

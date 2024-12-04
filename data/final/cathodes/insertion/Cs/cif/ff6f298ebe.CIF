@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CsBaFeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.78686623
+_cell_length_b   6.78686647
+_cell_length_c   13.16943900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   126.96656831
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBaFeO3
+_chemical_formula_sum   'Cs4 Ba4 Fe4 O12'
+_cell_volume   484.66909278
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.460034  0.539966  0.644399  1
+  Cs  Cs1  1  0.539966  0.460034  0.355601  1
+  Cs  Cs2  1  0.039966  0.960034  0.144399  1
+  Cs  Cs3  1  0.960034  0.039966  0.855601  1
+  Ba  Ba4  1  0.646825  0.353175  0.920184  1
+  Ba  Ba5  1  0.853175  0.146825  0.420184  1
+  Ba  Ba6  1  0.146825  0.853175  0.579816  1
+  Ba  Ba7  1  0.353175  0.646825  0.079816  1
+  Fe  Fe8  1  0.227568  0.772432  0.335111  1
+  Fe  Fe9  1  0.727568  0.272432  0.164889  1
+  Fe  Fe10  1  0.772432  0.227568  0.664889  1
+  Fe  Fe11  1  0.272432  0.727568  0.835111  1
+  O  O12  1  0.980959  0.519041  0.750000  1
+  O  O13  1  0.519041  0.980959  0.250000  1
+  O  O14  1  0.019041  0.480959  0.250000  1
+  O  O15  1  0.480959  0.019041  0.750000  1
+  O  O16  1  0.419820  0.580180  0.882154  1
+  O  O17  1  0.580180  0.419820  0.117846  1
+  O  O18  1  0.080180  0.919820  0.382154  1
+  O  O19  1  0.682737  0.317263  0.548943  1
+  O  O20  1  0.182737  0.817263  0.951057  1
+  O  O21  1  0.817263  0.182737  0.048943  1
+  O  O22  1  0.317263  0.682737  0.451057  1
+  O  O23  1  0.919820  0.080180  0.617846  1

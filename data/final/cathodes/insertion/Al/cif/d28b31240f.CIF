@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Tb6AlGaTc
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.61015108
+_cell_length_b   8.61015258
+_cell_length_c   8.61015100
+_cell_angle_alpha   112.87386266
+_cell_angle_beta   111.38874902
+_cell_angle_gamma   104.27655273
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb6AlGaTc
+_chemical_formula_sum   'Tb12 Al2 Ga2 Tc2'
+_cell_volume   488.28892749
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.046910  0.740935  0.305976  1
+  Tb  Tb1  1  0.953090  0.259065  0.694024  1
+  Tb  Tb2  1  0.565041  0.259065  0.305976  1
+  Tb  Tb3  1  0.434959  0.740935  0.694024  1
+  Tb  Tb4  1  0.661861  0.848128  0.186268  1
+  Tb  Tb5  1  0.338140  0.524407  0.186268  1
+  Tb  Tb6  1  0.338139  0.151872  0.813732  1
+  Tb  Tb7  1  0.661860  0.475593  0.813732  1
+  Tb  Tb8  1  0.186123  0.228017  0.414139  1
+  Tb  Tb9  1  0.813877  0.228017  0.041895  1
+  Tb  Tb10  1  0.186123  0.771983  0.958105  1
+  Tb  Tb11  1  0.813877  0.771983  0.585861  1
+  Al  Al12  1  0.000000  0.500000  0.500000  1
+  Al  Al13  1  0.500000  0.000000  0.500000  1
+  Ga  Ga14  1  0.882176  0.882176  0.000000  1
+  Ga  Ga15  1  0.117824  0.117824  0.000000  1
+  Tc  Tc16  1  0.681237  0.500000  0.181237  1
+  Tc  Tc17  1  0.318763  0.500000  0.818763  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KFe2(Sb6Rh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07712616
+_cell_length_b   8.05922338
+_cell_length_c   8.07712604
+_cell_angle_alpha   109.49886240
+_cell_angle_beta   109.52797527
+_cell_angle_gamma   109.47670701
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KFe2(Sb6Rh)2
+_chemical_formula_sum   'K1 Fe2 Sb12 Rh2'
+_cell_volume   404.29863451
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.000000  0.000000  1
+  Fe  Fe2  1  0.000000  0.000000  0.500000  1
+  Sb  Sb3  1  0.847482  0.667146  0.501460  1
+  Sb  Sb4  1  0.152518  0.332854  0.498540  1
+  Sb  Sb5  1  0.165686  0.667146  0.819665  1
+  Sb  Sb6  1  0.834314  0.332854  0.180335  1
+  Sb  Sb7  1  0.656130  0.500295  0.844165  1
+  Sb  Sb8  1  0.343870  0.499705  0.155835  1
+  Sb  Sb9  1  0.663523  0.825644  0.162120  1
+  Sb  Sb10  1  0.336477  0.174356  0.837880  1
+  Sb  Sb11  1  0.501182  0.846996  0.666851  1
+  Sb  Sb12  1  0.498818  0.153004  0.333149  1
+  Sb  Sb13  1  0.180144  0.846996  0.345815  1
+  Sb  Sb14  1  0.819856  0.153004  0.654185  1
+  Rh  Rh15  1  0.500000  0.500000  0.500000  1
+  Rh  Rh16  1  0.000000  0.500000  0.000000  1

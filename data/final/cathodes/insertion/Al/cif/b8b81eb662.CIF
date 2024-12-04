@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al4Ir3Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.03505000
+_cell_length_b   4.25045200
+_cell_length_c   8.53109800
+_cell_angle_alpha   90.00021568
+_cell_angle_beta   89.99996202
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al4Ir3Os
+_chemical_formula_sum   'Al8 Ir6 Os2'
+_cell_volume   218.83708418
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.498793  0.749996  0.127156  1
+  Al  Al1  1  0.001209  0.749999  0.127156  1
+  Al  Al2  1  0.501213  0.250000  0.372845  1
+  Al  Al3  1  0.998789  0.249998  0.372845  1
+  Al  Al4  1  0.998815  0.750003  0.622949  1
+  Al  Al5  1  0.501181  0.750002  0.622949  1
+  Al  Al6  1  0.001184  0.249999  0.877051  1
+  Al  Al7  1  0.498814  0.250000  0.877051  1
+  Ir  Ir8  1  0.750002  0.249998  0.122804  1
+  Ir  Ir9  1  0.250000  0.749998  0.377192  1
+  Ir  Ir10  1  0.749997  0.250003  0.627706  1
+  Ir  Ir11  1  0.249999  0.749997  0.872295  1
+  Ir  Ir12  1  0.249998  0.250001  0.625862  1
+  Ir  Ir13  1  0.749999  0.750000  0.874136  1
+  Os  Os14  1  0.250002  0.249998  0.123744  1
+  Os  Os15  1  0.750001  0.749999  0.376258  1

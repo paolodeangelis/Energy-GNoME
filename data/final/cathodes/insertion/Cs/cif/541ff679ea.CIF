@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsPr(AgSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.83561800
+_cell_length_b   9.44980381
+_cell_length_c   8.35219400
+_cell_angle_alpha   89.83578484
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsPr(AgSb)2
+_chemical_formula_sum   'Cs2 Pr2 Ag4 Sb4'
+_cell_volume   381.65729447
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.500688  0.241273  1
+  Cs  Cs1  1  0.750000  0.499312  0.758727  1
+  Pr  Pr2  1  0.250000  0.000743  0.255672  1
+  Pr  Pr3  1  0.750000  0.999257  0.744328  1
+  Ag  Ag4  1  0.250000  0.801048  0.583211  1
+  Ag  Ag5  1  0.750000  0.198952  0.416789  1
+  Ag  Ag6  1  0.250000  0.183218  0.916369  1
+  Ag  Ag7  1  0.750000  0.816782  0.083631  1
+  Sb  Sb8  1  0.750000  0.795807  0.417669  1
+  Sb  Sb9  1  0.250000  0.204193  0.582331  1
+  Sb  Sb10  1  0.750000  0.194816  0.083659  1
+  Sb  Sb11  1  0.250000  0.805184  0.916341  1

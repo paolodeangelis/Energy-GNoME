@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsZn(In4Ir)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.14928700
+_cell_length_b   9.01584783
+_cell_length_c   4.25909600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.49081308
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsZn(In4Ir)2
+_chemical_formula_sum   'Cs1 Zn1 In8 Ir2'
+_cell_volume   302.74198389
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.000000  1
+  Zn  Zn1  1  0.500000  0.000000  0.000000  1
+  In  In2  1  0.581453  0.802396  0.500000  1
+  In  In3  1  0.220944  0.802396  0.500000  1
+  In  In4  1  0.207256  0.414510  0.500000  1
+  In  In5  1  0.792744  0.585490  0.500000  1
+  In  In6  1  0.779056  0.197604  0.500000  1
+  In  In7  1  0.418547  0.197604  0.500000  1
+  In  In8  1  0.000000  0.500000  0.000000  1
+  In  In9  1  0.500000  0.500000  0.000000  1
+  Ir  Ir10  1  0.336981  0.673963  0.000000  1
+  Ir  Ir11  1  0.663019  0.326037  0.000000  1

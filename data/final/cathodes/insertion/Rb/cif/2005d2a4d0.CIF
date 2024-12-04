@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_RbAl2GeAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15805551
+_cell_length_b   8.15805497
+_cell_length_c   8.15805533
+_cell_angle_alpha   150.21263628
+_cell_angle_beta   150.21263400
+_cell_angle_gamma   42.62936025
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbAl2GeAs
+_chemical_formula_sum   'Rb1 Al2 Ge1 As1'
+_cell_volume   133.66061112
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000686  0.000686  0.000000  1
+  Al  Al1  1  0.750624  0.250624  0.500000  1
+  Al  Al2  1  0.250624  0.750624  0.500000  1
+  Ge  Ge3  1  0.348693  0.348693  0.000000  1
+  As  As4  1  0.649374  0.649374  0.000000  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaFe3NiP12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.74640232
+_cell_length_b   6.74640313
+_cell_length_c   6.74640200
+_cell_angle_alpha   109.42285908
+_cell_angle_beta   109.42286715
+_cell_angle_gamma   109.42286656
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaFe3NiP12
+_chemical_formula_sum   'Na1 Fe3 Ni1 P12'
+_cell_volume   236.79359973
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.000000  0.000000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.000000  0.000000  0.500000  1
+  Ni  Ni4  1  0.500000  0.500000  0.500000  1
+  P  P5  1  0.149223  0.797679  0.649254  1
+  P  P6  1  0.140272  0.500687  0.348544  1
+  P  P7  1  0.859728  0.499313  0.651456  1
+  P  P8  1  0.348544  0.140272  0.500687  1
+  P  P9  1  0.797679  0.649254  0.149223  1
+  P  P10  1  0.850777  0.202321  0.350746  1
+  P  P11  1  0.649254  0.149223  0.797679  1
+  P  P12  1  0.499313  0.651456  0.859728  1
+  P  P13  1  0.651456  0.859728  0.499313  1
+  P  P14  1  0.500687  0.348544  0.140272  1
+  P  P15  1  0.350746  0.850777  0.202321  1
+  P  P16  1  0.202321  0.350746  0.850777  1

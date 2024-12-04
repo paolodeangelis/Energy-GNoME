@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaSn(RhO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36043641
+_cell_length_b   6.36043598
+_cell_length_c   6.36043683
+_cell_angle_alpha   50.64068215
+_cell_angle_beta   50.64067485
+_cell_angle_gamma   50.64068755
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSn(RhO3)2
+_chemical_formula_sum   'Ca1 Sn1 Rh2 O6'
+_cell_volume   141.76939790
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Sn  Sn1  1  0.500000  0.500000  0.500000  1
+  Rh  Rh2  1  0.172590  0.172590  0.172590  1
+  Rh  Rh3  1  0.827410  0.827410  0.827410  1
+  O  O4  1  0.419540  0.785348  0.105019  1
+  O  O5  1  0.894980  0.580461  0.214653  1
+  O  O6  1  0.785347  0.105019  0.419541  1
+  O  O7  1  0.214653  0.894981  0.580460  1
+  O  O8  1  0.105020  0.419540  0.785347  1
+  O  O9  1  0.580461  0.214652  0.894981  1

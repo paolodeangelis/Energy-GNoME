@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_LiGaPtO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16397600
+_cell_length_b   5.92289239
+_cell_length_c   8.62332502
+_cell_angle_alpha   89.99927438
+_cell_angle_beta   90.00098904
+_cell_angle_gamma   90.08948936
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiGaPtO4
+_chemical_formula_sum   'Li4 Ga4 Pt4 O16'
+_cell_volume   314.82485080
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.249963  0.499995  0.638858  1
+  Li  Li1  1  0.749989  0.999948  0.138754  1
+  Li  Li2  1  0.250012  0.000038  0.861261  1
+  Li  Li3  1  0.750036  0.500010  0.361173  1
+  Ga  Ga4  1  0.250135  0.749888  0.250003  1
+  Ga  Ga5  1  0.749815  0.250059  0.749957  1
+  Ga  Ga6  1  0.749917  0.750164  0.749989  1
+  Ga  Ga7  1  0.250133  0.249870  0.249960  1
+  Pt  Pt8  1  0.999969  0.999993  0.500011  1
+  Pt  Pt9  1  0.499999  0.999982  0.500014  1
+  Pt  Pt10  1  0.500165  0.500004  0.999947  1
+  Pt  Pt11  1  0.999841  0.500016  0.999943  1
+  O  O12  1  0.971197  0.000616  0.737455  1
+  O  O13  1  0.471225  0.500518  0.237475  1
+  O  O14  1  0.971151  0.500611  0.762578  1
+  O  O15  1  0.471216  0.000504  0.262556  1
+  O  O16  1  0.528771  0.999497  0.737448  1
+  O  O17  1  0.028830  0.499389  0.237467  1
+  O  O18  1  0.528788  0.499489  0.762567  1
+  O  O19  1  0.028822  0.999387  0.262559  1
+  O  O20  1  0.750265  0.727333  0.987037  1
+  O  O21  1  0.250283  0.227379  0.487019  1
+  O  O22  1  0.749705  0.272655  0.987019  1
+  O  O23  1  0.249755  0.772639  0.487050  1
+  O  O24  1  0.750277  0.227389  0.512951  1
+  O  O25  1  0.250271  0.727366  0.012995  1
+  O  O26  1  0.749737  0.772650  0.512981  1
+  O  O27  1  0.249734  0.272611  0.012974  1

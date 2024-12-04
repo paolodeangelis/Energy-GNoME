@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y9Mg(Zn2Bi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.71486030
+_cell_length_b   8.71486008
+_cell_length_c   8.71485886
+_cell_angle_alpha   125.31810278
+_cell_angle_beta   125.31809534
+_cell_angle_gamma   81.01181876
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y9Mg(Zn2Bi)2
+_chemical_formula_sum   'Y9 Mg1 Zn4 Bi2'
+_cell_volume   424.63141985
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.000000  0.000000  0.000000  1
+  Y  Y1  1  0.794142  0.305104  0.816014  1
+  Y  Y2  1  0.205858  0.694896  0.183986  1
+  Y  Y3  1  0.489090  0.978128  0.183986  1
+  Y  Y4  1  0.305104  0.489090  0.510962  1
+  Y  Y5  1  0.021872  0.205858  0.510962  1
+  Y  Y6  1  0.510910  0.021872  0.816014  1
+  Y  Y7  1  0.694896  0.510910  0.489038  1
+  Y  Y8  1  0.978128  0.794142  0.489038  1
+  Mg  Mg9  1  0.500000  0.500000  0.000000  1
+  Zn  Zn10  1  0.130647  0.637091  0.767740  1
+  Zn  Zn11  1  0.869353  0.362909  0.232260  1
+  Zn  Zn12  1  0.637091  0.869353  0.506444  1
+  Zn  Zn13  1  0.362909  0.130647  0.493556  1
+  Bi  Bi14  1  0.248070  0.248070  0.000000  1
+  Bi  Bi15  1  0.751930  0.751930  0.000000  1

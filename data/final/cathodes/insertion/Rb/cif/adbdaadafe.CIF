@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_RbThGe4N7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36042600
+_cell_length_b   6.36042557
+_cell_length_c   10.45969500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000223
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbThGe4N7
+_chemical_formula_sum   'Rb2 Th2 Ge8 N14'
+_cell_volume   366.45615625
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.333333  0.666667  0.362171  1
+  Rb  Rb1  1  0.666667  0.333333  0.862171  1
+  Th  Th2  1  0.333333  0.666667  0.735474  1
+  Th  Th3  1  0.666667  0.333333  0.235474  1
+  Ge  Ge4  1  0.826365  0.652729  0.546140  1
+  Ge  Ge5  1  0.173635  0.826365  0.046140  1
+  Ge  Ge6  1  0.652729  0.826365  0.046140  1
+  Ge  Ge7  1  0.347271  0.173635  0.546140  1
+  Ge  Ge8  1  0.826365  0.173635  0.546140  1
+  Ge  Ge9  1  0.173635  0.347271  0.046140  1
+  Ge  Ge10  1  0.000000  0.000000  0.814090  1
+  Ge  Ge11  1  0.000000  0.000000  0.314090  1
+  N  N12  1  0.000000  0.000000  0.621735  1
+  N  N13  1  0.000000  0.000000  0.121735  1
+  N  N14  1  0.157595  0.315190  0.870720  1
+  N  N15  1  0.842405  0.157595  0.370720  1
+  N  N16  1  0.315190  0.157595  0.370720  1
+  N  N17  1  0.684810  0.842405  0.870720  1
+  N  N18  1  0.157595  0.842405  0.870720  1
+  N  N19  1  0.842405  0.684810  0.370720  1
+  N  N20  1  0.983442  0.491722  0.603284  1
+  N  N21  1  0.491722  0.983442  0.103284  1
+  N  N22  1  0.491722  0.508278  0.103284  1
+  N  N23  1  0.508278  0.491722  0.603284  1
+  N  N24  1  0.016558  0.508278  0.103284  1
+  N  N25  1  0.508278  0.016558  0.603284  1

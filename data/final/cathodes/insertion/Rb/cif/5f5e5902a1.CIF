@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Rb2Ti(BrO3)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.89270832
+_cell_length_b   7.89270766
+_cell_length_c   7.89270736
+_cell_angle_alpha   96.73993223
+_cell_angle_beta   96.73993000
+_cell_angle_gamma   96.73993961
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2Ti(BrO3)6
+_chemical_formula_sum   'Rb2 Ti1 Br6 O18'
+_cell_volume   480.59677161
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.824760  0.824760  0.824760  1
+  Rb  Rb1  1  0.175240  0.175240  0.175240  1
+  Ti  Ti2  1  0.500000  0.500000  0.500000  1
+  Br  Br3  1  0.295056  0.833800  0.679319  1
+  Br  Br4  1  0.166200  0.320681  0.704944  1
+  Br  Br5  1  0.833800  0.679319  0.295056  1
+  Br  Br6  1  0.679319  0.295056  0.833800  1
+  Br  Br7  1  0.704944  0.166200  0.320681  1
+  Br  Br8  1  0.320681  0.704944  0.166200  1
+  O  O9  1  0.295416  0.365547  0.890840  1
+  O  O10  1  0.365547  0.890840  0.295416  1
+  O  O11  1  0.109160  0.704584  0.634453  1
+  O  O12  1  0.111758  0.674631  0.097811  1
+  O  O13  1  0.315417  0.328641  0.550140  1
+  O  O14  1  0.674631  0.097811  0.111758  1
+  O  O15  1  0.890840  0.295416  0.365547  1
+  O  O16  1  0.325369  0.902189  0.888242  1
+  O  O17  1  0.684583  0.671359  0.449860  1
+  O  O18  1  0.328641  0.550140  0.315417  1
+  O  O19  1  0.704584  0.634453  0.109160  1
+  O  O20  1  0.671359  0.449860  0.684583  1
+  O  O21  1  0.634453  0.109160  0.704584  1
+  O  O22  1  0.097811  0.111758  0.674631  1
+  O  O23  1  0.902189  0.888242  0.325369  1
+  O  O24  1  0.550140  0.315417  0.328641  1
+  O  O25  1  0.888242  0.325369  0.902189  1
+  O  O26  1  0.449860  0.684583  0.671359  1

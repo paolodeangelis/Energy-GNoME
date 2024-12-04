@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaFePtO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.08306400
+_cell_length_b   9.23096900
+_cell_length_c   10.98495900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaFePtO4
+_chemical_formula_sum   'Na4 Fe4 Pt4 O16'
+_cell_volume   312.62828843
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.757425  0.098400  1
+  Na  Na1  1  0.000000  0.257425  0.901600  1
+  Na  Na2  1  0.500000  0.237265  0.408781  1
+  Na  Na3  1  0.500000  0.737265  0.591219  1
+  Fe  Fe4  1  0.000000  0.415416  0.645907  1
+  Fe  Fe5  1  0.000000  0.915416  0.354093  1
+  Fe  Fe6  1  0.000000  0.435605  0.130621  1
+  Fe  Fe7  1  0.000000  0.935605  0.869379  1
+  Pt  Pt8  1  0.500000  0.586058  0.850373  1
+  Pt  Pt9  1  0.500000  0.086058  0.149627  1
+  Pt  Pt10  1  0.500000  0.554680  0.361814  1
+  Pt  Pt11  1  0.500000  0.054680  0.638186  1
+  O  O12  1  0.000000  0.417717  0.322166  1
+  O  O13  1  0.000000  0.917717  0.677834  1
+  O  O14  1  0.500000  0.577502  0.176951  1
+  O  O15  1  0.500000  0.077502  0.823049  1
+  O  O16  1  0.000000  0.196546  0.597947  1
+  O  O17  1  0.000000  0.696546  0.402053  1
+  O  O18  1  0.500000  0.799487  0.911420  1
+  O  O19  1  0.500000  0.299487  0.088580  1
+  O  O20  1  0.000000  0.534745  0.963793  1
+  O  O21  1  0.000000  0.034745  0.036207  1
+  O  O22  1  0.500000  0.480015  0.539990  1
+  O  O23  1  0.500000  0.980015  0.460010  1
+  O  O24  1  0.000000  0.120425  0.267904  1
+  O  O25  1  0.000000  0.620425  0.732096  1
+  O  O26  1  0.500000  0.887115  0.230106  1
+  O  O27  1  0.500000  0.387115  0.769894  1

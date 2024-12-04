@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CsGaSeF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24598268
+_cell_length_b   12.05407204
+_cell_length_c   8.92842005
+_cell_angle_alpha   90.00653132
+_cell_angle_beta   68.45292705
+_cell_angle_gamma   90.01120372
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsGaSeF
+_chemical_formula_sum   'Cs4 Ga4 Se4 F4'
+_cell_volume   525.13676378
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.749883  0.307670  0.095743  1
+  Cs  Cs1  1  0.250860  0.807639  0.404294  1
+  Cs  Cs2  1  0.748890  0.192324  0.595814  1
+  Cs  Cs3  1  0.250462  0.692269  0.904126  1
+  Ga  Ga4  1  0.287738  0.039845  0.995149  1
+  Ga  Ga5  1  0.712154  0.540029  0.504968  1
+  Ga  Ga6  1  0.287710  0.460142  0.494725  1
+  Ga  Ga7  1  0.712077  0.960105  0.005185  1
+  Se  Se8  1  0.859083  0.017763  0.227664  1
+  Se  Se9  1  0.140647  0.517906  0.272342  1
+  Se  Se10  1  0.859122  0.482006  0.727324  1
+  Se  Se11  1  0.140613  0.982196  0.772668  1
+  F  F12  1  0.652816  0.802894  0.038086  1
+  F  F13  1  0.347205  0.302971  0.461769  1
+  F  F14  1  0.653445  0.697230  0.538018  1
+  F  F15  1  0.347298  0.197008  0.962119  1

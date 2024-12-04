@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf4Al2(ReMo)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24130900
+_cell_length_b   5.27835922
+_cell_length_c   8.73075100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.76806862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4Al2(ReMo)3
+_chemical_formula_sum   'Hf4 Al2 Re3 Mo3'
+_cell_volume   209.66753585
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.334049  0.668100  0.436568  1
+  Hf  Hf1  1  0.667068  0.334135  0.932773  1
+  Hf  Hf2  1  0.667068  0.334135  0.567227  1
+  Hf  Hf3  1  0.334049  0.668100  0.063432  1
+  Al  Al4  1  0.998365  0.996730  0.999172  1
+  Al  Al5  1  0.998365  0.996730  0.500828  1
+  Re  Re6  1  0.660581  0.830346  0.750000  1
+  Re  Re7  1  0.830094  0.660185  0.250000  1
+  Re  Re8  1  0.169763  0.830346  0.750000  1
+  Mo  Mo9  1  0.170694  0.341390  0.750000  1
+  Mo  Mo10  1  0.829205  0.169902  0.250000  1
+  Mo  Mo11  1  0.340699  0.169902  0.250000  1

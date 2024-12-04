@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CsNi8Bi8As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.08492200
+_cell_length_b   10.08492200
+_cell_length_c   4.30314200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNi8Bi8As
+_chemical_formula_sum   'Cs1 Ni8 Bi8 As1'
+_cell_volume   437.65386167
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.500000  0.514317  1
+  Ni  Ni1  1  0.089694  0.814945  0.507352  1
+  Ni  Ni2  1  0.910306  0.185055  0.507352  1
+  Ni  Ni3  1  0.814945  0.910306  0.507352  1
+  Ni  Ni4  1  0.185055  0.089694  0.507352  1
+  Ni  Ni5  1  0.194465  0.937856  0.995163  1
+  Ni  Ni6  1  0.805535  0.062144  0.995163  1
+  Ni  Ni7  1  0.937856  0.805535  0.995163  1
+  Ni  Ni8  1  0.062144  0.194465  0.995163  1
+  Bi  Bi9  1  0.351129  0.880458  0.496468  1
+  Bi  Bi10  1  0.648871  0.119542  0.496468  1
+  Bi  Bi11  1  0.880458  0.648871  0.496468  1
+  Bi  Bi12  1  0.119542  0.351129  0.496468  1
+  Bi  Bi13  1  0.167202  0.669352  0.006005  1
+  Bi  Bi14  1  0.832798  0.330648  0.006005  1
+  Bi  Bi15  1  0.669352  0.832798  0.006005  1
+  Bi  Bi16  1  0.330648  0.167202  0.006005  1
+  As  As17  1  0.000000  0.000000  0.255129  1

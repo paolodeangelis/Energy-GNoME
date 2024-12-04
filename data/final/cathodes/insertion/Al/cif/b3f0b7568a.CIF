@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Nd12Al3SnI12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.02880935
+_cell_length_b   11.02880907
+_cell_length_c   11.02880925
+_cell_angle_alpha   109.82184848
+_cell_angle_beta   109.82184811
+_cell_angle_gamma   109.82185195
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd12Al3SnI12
+_chemical_formula_sum   'Nd12 Al3 Sn1 I12'
+_cell_volume   1019.04952237
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.750000  0.236944  0.263056  1
+  Nd  Nd1  1  0.488233  0.750000  0.011767  1
+  Nd  Nd2  1  0.021134  0.264338  0.003342  1
+  Nd  Nd3  1  0.264338  0.003342  0.021134  1
+  Nd  Nd4  1  0.236944  0.263056  0.750000  1
+  Nd  Nd5  1  0.263056  0.750000  0.236944  1
+  Nd  Nd6  1  0.235662  0.478866  0.496658  1
+  Nd  Nd7  1  0.478866  0.496658  0.235662  1
+  Nd  Nd8  1  0.750000  0.011767  0.488233  1
+  Nd  Nd9  1  0.496658  0.235662  0.478866  1
+  Nd  Nd10  1  0.003342  0.021134  0.264338  1
+  Nd  Nd11  1  0.011767  0.488233  0.750000  1
+  Al  Al12  1  0.999159  0.250000  0.500841  1
+  Al  Al13  1  0.250000  0.500841  0.999159  1
+  Al  Al14  1  0.500841  0.999159  0.250000  1
+  Sn  Sn15  1  0.250000  0.250000  0.250000  1
+  I  I16  1  0.757664  0.742336  0.250000  1
+  I  I17  1  0.505582  0.250000  0.994418  1
+  I  I18  1  0.250000  0.994418  0.505582  1
+  I  I19  1  0.514016  0.506805  0.756830  1
+  I  I20  1  0.506805  0.756830  0.514016  1
+  I  I21  1  0.756830  0.514016  0.506805  1
+  I  I22  1  0.742336  0.250000  0.757664  1
+  I  I23  1  0.250000  0.757664  0.742336  1
+  I  I24  1  0.985984  0.743170  0.993195  1
+  I  I25  1  0.994418  0.505582  0.250000  1
+  I  I26  1  0.993195  0.985984  0.743170  1
+  I  I27  1  0.743170  0.993195  0.985984  1

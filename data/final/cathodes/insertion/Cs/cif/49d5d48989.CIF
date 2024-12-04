@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_CsCo3AsO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.67015966
+_cell_length_b   7.61339355
+_cell_length_c   5.66995162
+_cell_angle_alpha   85.87935140
+_cell_angle_beta   120.10837914
+_cell_angle_gamma   72.88789666
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCo3AsO8
+_chemical_formula_sum   'Cs1 Co3 As1 O8'
+_cell_volume   195.10951025
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.500000  0.500000  1
+  Co  Co1  1  0.000000  0.000000  0.500000  1
+  Co  Co2  1  0.000000  0.000000  0.000000  1
+  Co  Co3  1  0.500000  0.000000  0.000000  1
+  As  As4  1  0.500000  0.000000  0.500000  1
+  O  O5  1  0.421090  0.860088  0.716876  1
+  O  O6  1  0.578910  0.139912  0.283124  1
+  O  O7  1  0.915740  0.867617  0.214795  1
+  O  O8  1  0.084260  0.132383  0.785205  1
+  O  O9  1  0.911251  0.859240  0.720794  1
+  O  O10  1  0.418202  0.859166  0.227680  1
+  O  O11  1  0.088749  0.140760  0.279206  1
+  O  O12  1  0.581798  0.140834  0.772320  1

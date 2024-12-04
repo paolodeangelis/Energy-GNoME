@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Mg(ZrSe2)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.57691300
+_cell_length_b   7.57691299
+_cell_length_c   13.24921700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99998693
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg(ZrSe2)8
+_chemical_formula_sum   'Mg1 Zr8 Se16'
+_cell_volume   658.72705799
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.000000  0.000000  0.000000  1
+  Zr  Zr1  1  0.502472  0.497528  0.748956  1
+  Zr  Zr2  1  0.497528  0.502472  0.251044  1
+  Zr  Zr3  1  0.502472  0.004944  0.748956  1
+  Zr  Zr4  1  0.497528  0.995056  0.251044  1
+  Zr  Zr5  1  0.995056  0.497528  0.748956  1
+  Zr  Zr6  1  0.004944  0.502472  0.251044  1
+  Zr  Zr7  1  0.000000  0.000000  0.740119  1
+  Zr  Zr8  1  0.000000  0.000000  0.259881  1
+  Se  Se9  1  0.834645  0.669292  0.127943  1
+  Se  Se10  1  0.831580  0.663160  0.625871  1
+  Se  Se11  1  0.834645  0.165355  0.127943  1
+  Se  Se12  1  0.831580  0.168420  0.625871  1
+  Se  Se13  1  0.333333  0.666667  0.128035  1
+  Se  Se14  1  0.333333  0.666667  0.632015  1
+  Se  Se15  1  0.330708  0.165355  0.127943  1
+  Se  Se16  1  0.336840  0.168420  0.625871  1
+  Se  Se17  1  0.669292  0.834645  0.872057  1
+  Se  Se18  1  0.663160  0.831580  0.374129  1
+  Se  Se19  1  0.666667  0.333333  0.871965  1
+  Se  Se20  1  0.666667  0.333333  0.367985  1
+  Se  Se21  1  0.165355  0.834645  0.872057  1
+  Se  Se22  1  0.168420  0.831580  0.374129  1
+  Se  Se23  1  0.165355  0.330708  0.872057  1
+  Se  Se24  1  0.168420  0.336840  0.374129  1

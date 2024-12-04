@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_TbAl3Cr(CuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.27367703
+_cell_length_b   6.27367663
+_cell_length_c   6.27367557
+_cell_angle_alpha   109.49564899
+_cell_angle_beta   109.49565490
+_cell_angle_gamma   109.49564667
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbAl3Cr(CuO4)3
+_chemical_formula_sum   'Tb1 Al3 Cr1 Cu3 O12'
+_cell_volume   189.91139294
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000000  0.000000  0.000000  1
+  Al  Al1  1  0.000000  0.000000  0.500000  1
+  Al  Al2  1  0.000000  0.500000  0.000000  1
+  Al  Al3  1  0.500000  0.000000  0.000000  1
+  Cr  Cr4  1  0.500000  0.500000  0.500000  1
+  Cu  Cu5  1  0.000000  0.500000  0.500000  1
+  Cu  Cu6  1  0.500000  0.000000  0.500000  1
+  Cu  Cu7  1  0.500000  0.500000  0.000000  1
+  O  O8  1  0.304391  0.130956  0.827184  1
+  O  O9  1  0.695609  0.869044  0.172816  1
+  O  O10  1  0.701873  0.523290  0.835232  1
+  O  O11  1  0.476710  0.164768  0.298127  1
+  O  O12  1  0.164768  0.298127  0.476710  1
+  O  O13  1  0.827184  0.304391  0.130956  1
+  O  O14  1  0.869044  0.172816  0.695609  1
+  O  O15  1  0.835232  0.701873  0.523290  1
+  O  O16  1  0.298127  0.476710  0.164768  1
+  O  O17  1  0.523290  0.835232  0.701873  1
+  O  O18  1  0.172816  0.695609  0.869044  1
+  O  O19  1  0.130956  0.827184  0.304391  1

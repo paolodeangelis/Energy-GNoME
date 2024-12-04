@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2NdU(CuTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39778500
+_cell_length_b   8.86887612
+_cell_length_c   11.55850695
+_cell_angle_alpha   89.44402577
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   75.64473566
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2NdU(CuTe3)2
+_chemical_formula_sum   'Cs2 Nd1 U1 Cu2 Te6'
+_cell_volume   436.72330886
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.743472  0.513056  0.247659  1
+  Cs  Cs1  1  0.256529  0.486944  0.752341  1
+  Nd  Nd2  1  0.000000  0.000000  0.000000  1
+  U  U3  1  0.000000  0.000000  0.500000  1
+  Cu  Cu4  1  0.466272  0.067458  0.249609  1
+  Cu  Cu5  1  0.533729  0.932542  0.750391  1
+  Te  Te6  1  0.376287  0.247429  0.065667  1
+  Te  Te7  1  0.058309  0.883383  0.259527  1
+  Te  Te8  1  0.383240  0.233522  0.441720  1
+  Te  Te9  1  0.616762  0.766477  0.558280  1
+  Te  Te10  1  0.941691  0.116618  0.740473  1
+  Te  Te11  1  0.623715  0.752570  0.934333  1

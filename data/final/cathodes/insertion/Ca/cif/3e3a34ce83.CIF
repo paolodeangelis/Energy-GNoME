@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CaTm3(Pt2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22018729
+_cell_length_b   7.21720568
+_cell_length_c   7.21720500
+_cell_angle_alpha   59.99999853
+_cell_angle_beta   60.01365802
+_cell_angle_gamma   60.01365755
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTm3(Pt2O7)2
+_chemical_formula_sum   'Ca1 Tm3 Pt4 O14'
+_cell_volume   265.98748790
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.125000  0.625000  0.625000  1
+  Tm  Tm1  1  0.625000  0.625000  0.125000  1
+  Tm  Tm2  1  0.625000  0.625000  0.625000  1
+  Tm  Tm3  1  0.625000  0.125000  0.625000  1
+  Pt  Pt4  1  0.125000  0.125000  0.125000  1
+  Pt  Pt5  1  0.625000  0.125000  0.125000  1
+  Pt  Pt6  1  0.125000  0.625000  0.125000  1
+  Pt  Pt7  1  0.125000  0.125000  0.625000  1
+  O  O8  1  0.028136  0.462195  0.462195  1
+  O  O9  1  0.782535  0.784526  0.216470  1
+  O  O10  1  0.782535  0.216470  0.216470  1
+  O  O11  1  0.467465  0.033530  0.465474  1
+  O  O12  1  0.028136  0.047472  0.462195  1
+  O  O13  1  0.028136  0.462195  0.047472  1
+  O  O14  1  0.738294  0.753902  0.753902  1
+  O  O15  1  0.511706  0.496098  0.496098  1
+  O  O16  1  0.782535  0.216470  0.784526  1
+  O  O17  1  0.221864  0.787805  0.202528  1
+  O  O18  1  0.221864  0.202528  0.787805  1
+  O  O19  1  0.467465  0.033530  0.033530  1
+  O  O20  1  0.467465  0.465474  0.033530  1
+  O  O21  1  0.221864  0.787805  0.787805  1

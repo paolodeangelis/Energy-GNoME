@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce6Er4Al(GaRu2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38149340
+_cell_length_b   8.38149250
+_cell_length_c   8.38149379
+_cell_angle_alpha   110.16280722
+_cell_angle_beta   110.16281212
+_cell_angle_gamma   110.16280989
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce6Er4Al(GaRu2)3
+_chemical_formula_sum   'Ce6 Er4 Al1 Ga3 Ru6'
+_cell_volume   441.26776150
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.715815  0.509200  0.998094  1
+  Ce  Ce1  1  0.998094  0.715815  0.509200  1
+  Ce  Ce2  1  0.509200  0.998094  0.715815  1
+  Ce  Ce3  1  0.245039  0.189969  0.939952  1
+  Ce  Ce4  1  0.939952  0.245039  0.189969  1
+  Ce  Ce5  1  0.189969  0.939952  0.245039  1
+  Er  Er6  1  0.768595  0.768595  0.768595  1
+  Er  Er7  1  0.310422  0.562844  0.753193  1
+  Er  Er8  1  0.753193  0.310422  0.562844  1
+  Er  Er9  1  0.562844  0.753193  0.310422  1
+  Al  Al10  1  0.401911  0.401911  0.401911  1
+  Ga  Ga11  1  0.100479  0.500531  0.002939  1
+  Ga  Ga12  1  0.002939  0.100479  0.500531  1
+  Ga  Ga13  1  0.500531  0.002939  0.100479  1
+  Ru  Ru14  1  0.886130  0.114432  0.752122  1
+  Ru  Ru15  1  0.752122  0.886130  0.114432  1
+  Ru  Ru16  1  0.114432  0.752122  0.886130  1
+  Ru  Ru17  1  0.239127  0.621640  0.387568  1
+  Ru  Ru18  1  0.387568  0.239127  0.621640  1
+  Ru  Ru19  1  0.621640  0.387568  0.239127  1

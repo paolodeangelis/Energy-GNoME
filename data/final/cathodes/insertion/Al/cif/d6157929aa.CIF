@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y12AlCo2Si2Hg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.45378259
+_cell_length_b   8.45376072
+_cell_length_c   8.45378340
+_cell_angle_alpha   112.71696045
+_cell_angle_beta   110.68152238
+_cell_angle_gamma   105.10859632
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y12AlCo2Si2Hg
+_chemical_formula_sum   'Y12 Al1 Co2 Si2 Hg1'
+_cell_volume   462.92135807
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.436239  0.240616  0.195625  1
+  Y  Y1  1  0.563761  0.759384  0.804375  1
+  Y  Y2  1  0.044991  0.240616  0.804377  1
+  Y  Y3  1  0.955009  0.759384  0.195623  1
+  Y  Y4  1  0.185467  0.284613  0.470084  1
+  Y  Y5  1  0.814533  0.715387  0.529916  1
+  Y  Y6  1  0.185470  0.715387  0.900855  1
+  Y  Y7  1  0.814530  0.284613  0.099145  1
+  Y  Y8  1  0.307229  0.617518  0.310291  1
+  Y  Y9  1  0.692771  0.382482  0.689709  1
+  Y  Y10  1  0.307227  0.996934  0.689707  1
+  Y  Y11  1  0.692773  0.003066  0.310293  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  Co  Co13  1  0.107110  0.607109  0.499999  1
+  Co  Co14  1  0.892890  0.392891  0.500001  1
+  Si  Si15  1  0.359833  0.000000  0.359833  1
+  Si  Si16  1  0.640167  0.000000  0.640167  1
+  Hg  Hg17  1  0.500000  0.500000  0.000000  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2RbInAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.83552323
+_cell_length_b   9.83552232
+_cell_length_c   9.83552321
+_cell_angle_alpha   130.17025856
+_cell_angle_beta   136.47111558
+_cell_angle_gamma   68.27893386
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2RbInAs2
+_chemical_formula_sum   'Cs4 Rb2 In2 As4'
+_cell_volume   492.04322226
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.676233  0.463231  0.786999  1
+  Cs  Cs1  1  0.823767  0.110766  0.286999  1
+  Cs  Cs2  1  0.176233  0.889234  0.713001  1
+  Cs  Cs3  1  0.323767  0.536769  0.213001  1
+  Rb  Rb4  1  0.750000  0.000000  0.750000  1
+  Rb  Rb5  1  0.250000  0.000000  0.250000  1
+  In  In6  1  0.250000  0.500000  0.750000  1
+  In  In7  1  0.750000  0.500000  0.250000  1
+  As  As8  1  0.410818  0.226410  0.815592  1
+  As  As9  1  0.589182  0.773590  0.184408  1
+  As  As10  1  0.089182  0.404774  0.315592  1
+  As  As11  1  0.910818  0.595226  0.684408  1

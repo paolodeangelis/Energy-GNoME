@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Rb3Ba3AlAs4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.69548300
+_cell_length_b   10.69548413
+_cell_length_c   8.03883200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999960
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3Ba3AlAs4
+_chemical_formula_sum   'Rb6 Ba6 Al2 As8'
+_cell_volume   796.38750133
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.731447  0.865724  0.173541  1
+  Rb  Rb1  1  0.865724  0.134276  0.673541  1
+  Rb  Rb2  1  0.865724  0.731447  0.673541  1
+  Rb  Rb3  1  0.134276  0.268553  0.173541  1
+  Rb  Rb4  1  0.134276  0.865724  0.173541  1
+  Rb  Rb5  1  0.268553  0.134276  0.673541  1
+  Ba  Ba6  1  0.050718  0.525360  0.498629  1
+  Ba  Ba7  1  0.474640  0.949282  0.498629  1
+  Ba  Ba8  1  0.474640  0.525360  0.498629  1
+  Ba  Ba9  1  0.525360  0.474640  0.998629  1
+  Ba  Ba10  1  0.525360  0.050718  0.998629  1
+  Ba  Ba11  1  0.949282  0.474640  0.998629  1
+  Al  Al12  1  0.333333  0.666667  0.877660  1
+  Al  Al13  1  0.666667  0.333333  0.377660  1
+  As  As14  1  0.666667  0.333333  0.705191  1
+  As  As15  1  0.593128  0.796565  0.776612  1
+  As  As16  1  0.796565  0.203435  0.276612  1
+  As  As17  1  0.796565  0.593128  0.276612  1
+  As  As18  1  0.333333  0.666667  0.205191  1
+  As  As19  1  0.203435  0.406872  0.776612  1
+  As  As20  1  0.203435  0.796565  0.776612  1
+  As  As21  1  0.406872  0.203435  0.276612  1

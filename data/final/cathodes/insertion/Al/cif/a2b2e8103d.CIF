@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Al20Co2(IrRh)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.89331000
+_cell_length_b   7.89382700
+_cell_length_c   7.83450900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99771674
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al20Co2(IrRh)3
+_chemical_formula_sum   'Al20 Co2 Ir3 Rh3'
+_cell_volume   422.76514166
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.999965  0.999930  0.000390  1
+  Al  Al1  1  0.999965  0.999930  0.499610  1
+  Al  Al2  1  0.474313  0.948627  0.250000  1
+  Al  Al3  1  0.526142  0.477336  0.750000  1
+  Al  Al4  1  0.951194  0.477336  0.750000  1
+  Al  Al5  1  0.049652  0.526663  0.250000  1
+  Al  Al6  1  0.477011  0.526662  0.250000  1
+  Al  Al7  1  0.523433  0.046867  0.750000  1
+  Al  Al8  1  0.196338  0.392675  0.936951  1
+  Al  Al9  1  0.804075  0.197177  0.437407  1
+  Al  Al10  1  0.393102  0.197177  0.437407  1
+  Al  Al11  1  0.604857  0.802975  0.939520  1
+  Al  Al12  1  0.198118  0.802975  0.939521  1
+  Al  Al13  1  0.802189  0.604375  0.059989  1
+  Al  Al14  1  0.804075  0.197177  0.062593  1
+  Al  Al15  1  0.802189  0.604375  0.440011  1
+  Al  Al16  1  0.393102  0.197177  0.062593  1
+  Al  Al17  1  0.604857  0.802975  0.560480  1
+  Al  Al18  1  0.196338  0.392675  0.563049  1
+  Al  Al19  1  0.198118  0.802975  0.560479  1
+  Co  Co20  1  0.333231  0.666463  0.750000  1
+  Co  Co21  1  0.666568  0.333137  0.250000  1
+  Ir  Ir22  1  0.130749  0.261496  0.250000  1
+  Ir  Ir23  1  0.869024  0.130209  0.750000  1
+  Ir  Ir24  1  0.261185  0.130208  0.750000  1
+  Rh  Rh25  1  0.740382  0.869845  0.250000  1
+  Rh  Rh26  1  0.129463  0.869847  0.250000  1
+  Rh  Rh27  1  0.870365  0.740737  0.750000  1

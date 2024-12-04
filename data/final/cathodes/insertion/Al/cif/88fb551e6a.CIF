@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MnAl7(IrRu)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.01362100
+_cell_length_b   4.23864000
+_cell_length_c   8.51250400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.99984974
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAl7(IrRu)4
+_chemical_formula_sum   'Mn1 Al7 Ir4 Ru4'
+_cell_volume   216.98010502
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.999810  0.749999  0.125006  1
+  Al  Al1  1  0.500943  0.749999  0.125009  1
+  Al  Al2  1  0.999977  0.250001  0.375407  1
+  Al  Al3  1  0.500010  0.250001  0.375681  1
+  Al  Al4  1  0.499065  0.749999  0.625000  1
+  Al  Al5  1  0.000029  0.749999  0.625007  1
+  Al  Al6  1  0.500018  0.250001  0.874312  1
+  Al  Al7  1  0.999980  0.250001  0.874584  1
+  Ir  Ir8  1  0.750048  0.250001  0.124997  1
+  Ir  Ir9  1  0.250697  0.749999  0.373203  1
+  Ir  Ir10  1  0.749204  0.250001  0.624998  1
+  Ir  Ir11  1  0.250708  0.749999  0.876802  1
+  Ru  Ru12  1  0.245526  0.250001  0.124996  1
+  Ru  Ru13  1  0.751454  0.749999  0.371779  1
+  Ru  Ru14  1  0.251075  0.250001  0.624999  1
+  Ru  Ru15  1  0.751454  0.749999  0.878218  1

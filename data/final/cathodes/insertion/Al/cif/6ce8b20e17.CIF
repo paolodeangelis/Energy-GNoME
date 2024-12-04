@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Y4Sc2AlInPt4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42590100
+_cell_length_b   7.23550344
+_cell_length_c   8.20137118
+_cell_angle_alpha   90.64395751
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y4Sc2AlInPt4
+_chemical_formula_sum   'Y4 Sc2 Al1 In1 Pt4'
+_cell_volume   262.62102176
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.250000  0.050495  0.679655  1
+  Y  Y1  1  0.250000  0.515619  0.819159  1
+  Y  Y2  1  0.750000  0.985158  0.336703  1
+  Y  Y3  1  0.750000  0.453418  0.171786  1
+  Sc  Sc4  1  0.250000  0.633151  0.434801  1
+  Sc  Sc5  1  0.750000  0.864941  0.937765  1
+  Al  Al6  1  0.750000  0.365131  0.560995  1
+  In  In7  1  0.250000  0.137964  0.070069  1
+  Pt  Pt8  1  0.250000  0.268272  0.395432  1
+  Pt  Pt9  1  0.250000  0.745283  0.114831  1
+  Pt  Pt10  1  0.750000  0.736866  0.616139  1
+  Pt  Pt11  1  0.750000  0.243703  0.862667  1

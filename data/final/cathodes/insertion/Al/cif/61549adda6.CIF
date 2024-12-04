@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu4AlTc4Ru3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26990451
+_cell_length_b   5.22695995
+_cell_length_c   8.93657100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.90754258
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4AlTc4Ru3
+_chemical_formula_sum   'Lu4 Al1 Tc4 Ru3'
+_cell_volume   213.38177451
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.331502  0.664249  0.439265  1
+  Lu  Lu1  1  0.669489  0.333357  0.563865  1
+  Lu  Lu2  1  0.669489  0.333357  0.936135  1
+  Lu  Lu3  1  0.331502  0.664249  0.060735  1
+  Al  Al4  1  0.334943  0.170167  0.250000  1
+  Tc  Tc5  1  0.175826  0.346333  0.750000  1
+  Tc  Tc6  1  0.174261  0.831416  0.750000  1
+  Tc  Tc7  1  0.832791  0.665209  0.250000  1
+  Tc  Tc8  1  0.665346  0.831940  0.750000  1
+  Ru  Ru9  1  0.991838  0.987357  0.003285  1
+  Ru  Ru10  1  0.831179  0.185005  0.250000  1
+  Ru  Ru11  1  0.991838  0.987357  0.496715  1

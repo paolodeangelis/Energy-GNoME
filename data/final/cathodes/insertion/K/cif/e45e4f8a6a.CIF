@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K2Ba(POs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.03497454
+_cell_length_b   9.03497455
+_cell_length_c   6.91176141
+_cell_angle_alpha   66.98203342
+_cell_angle_beta   66.98203707
+_cell_angle_gamma   36.78304432
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ba(POs)6
+_chemical_formula_sum   'K2 Ba1 P6 Os6'
+_cell_volume   307.82667861
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.671497  0.671497  0.000384  1
+  K  K1  1  0.328503  0.328503  0.999616  1
+  Ba  Ba2  1  0.000000  0.000000  0.000000  1
+  P  P3  1  0.885041  0.885041  0.689959  1
+  P  P4  1  0.218405  0.218405  0.690024  1
+  P  P5  1  0.551837  0.551837  0.689717  1
+  P  P6  1  0.448163  0.448163  0.310283  1
+  P  P7  1  0.781595  0.781595  0.309976  1
+  P  P8  1  0.114959  0.114959  0.310041  1
+  Os  Os9  1  0.750323  0.249677  0.500000  1
+  Os  Os10  1  0.083573  0.583060  0.499271  1
+  Os  Os11  1  0.416940  0.916427  0.500729  1
+  Os  Os12  1  0.583060  0.083573  0.499271  1
+  Os  Os13  1  0.916427  0.416940  0.500729  1
+  Os  Os14  1  0.249677  0.750323  0.500000  1

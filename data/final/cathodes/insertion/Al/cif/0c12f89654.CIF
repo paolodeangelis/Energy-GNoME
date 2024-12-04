@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y10AlGa2Sb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.81742141
+_cell_length_b   8.80358889
+_cell_length_c   6.52674800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01703008
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y10AlGa2Sb3
+_chemical_formula_sum   'Y10 Al1 Ga2 Sb3'
+_cell_volume   438.68650456
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.329207  0.667316  0.002392  1
+  Y  Y1  1  0.658576  0.332061  0.497444  1
+  Y  Y2  1  0.658576  0.332061  0.002556  1
+  Y  Y3  1  0.329207  0.667316  0.497608  1
+  Y  Y4  1  0.237309  0.002606  0.250000  1
+  Y  Y5  1  0.243251  0.232133  0.750000  1
+  Y  Y6  1  0.011412  0.768523  0.750000  1
+  Y  Y7  1  0.011989  0.246669  0.250000  1
+  Y  Y8  1  0.760975  0.752414  0.250000  1
+  Y  Y9  1  0.753496  0.000034  0.750000  1
+  Al  Al10  1  0.998872  0.600668  0.250000  1
+  Ga  Ga11  1  0.396486  0.397266  0.250000  1
+  Ga  Ga12  1  0.397935  0.999611  0.750000  1
+  Sb  Sb13  1  0.609403  0.000309  0.250000  1
+  Sb  Sb14  1  0.605656  0.607850  0.750000  1
+  Sb  Sb15  1  0.997650  0.393163  0.750000  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_SmTh2(AlIr)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.12810600
+_cell_length_b   7.21440407
+_cell_length_c   4.16446300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.60507660
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmTh2(AlIr)3
+_chemical_formula_sum   'Sm1 Th2 Al3 Ir3'
+_cell_volume   186.19962942
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.415293  0.000000  0.500000  1
+  Th  Th1  1  0.000655  0.418971  0.500000  1
+  Th  Th2  1  0.581684  0.581029  0.500000  1
+  Al  Al3  1  0.761533  0.000000  0.000000  1
+  Al  Al4  1  0.006590  0.775866  0.000000  1
+  Al  Al5  1  0.230724  0.224134  0.000000  1
+  Ir  Ir6  1  0.330061  0.648287  0.000000  1
+  Ir  Ir7  1  0.681776  0.351713  0.000000  1
+  Ir  Ir8  1  0.991684  0.000000  0.500000  1

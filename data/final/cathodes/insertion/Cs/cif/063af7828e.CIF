@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CsBa2NiH12Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66343100
+_cell_length_b   5.66343115
+_cell_length_c   9.29671700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000498
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBa2NiH12Pt
+_chemical_formula_sum   'Cs1 Ba2 Ni1 H12 Pt1'
+_cell_volume   258.23758965
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000000  0.000000  0.986711  1
+  Ba  Ba1  1  0.666667  0.333333  0.369776  1
+  Ba  Ba2  1  0.333333  0.666667  0.654166  1
+  Ni  Ni3  1  0.666667  0.333333  0.732334  1
+  H  H4  1  0.192761  0.807239  0.369059  1
+  H  H5  1  0.614477  0.807239  0.369059  1
+  H  H6  1  0.192761  0.385523  0.369059  1
+  H  H7  1  0.798895  0.201105  0.637005  1
+  H  H8  1  0.402212  0.201105  0.637005  1
+  H  H9  1  0.798895  0.597788  0.637005  1
+  H  H10  1  0.543245  0.086490  0.833580  1
+  H  H11  1  0.543245  0.456755  0.833580  1
+  H  H12  1  0.913510  0.456755  0.833580  1
+  H  H13  1  0.466134  0.932267  0.157456  1
+  H  H14  1  0.466134  0.533866  0.157456  1
+  H  H15  1  0.067733  0.533866  0.157456  1
+  Pt  Pt16  1  0.333333  0.666667  0.265709  1

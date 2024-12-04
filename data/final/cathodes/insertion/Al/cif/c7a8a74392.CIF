@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Hf10AlSn5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41760456
+_cell_length_b   8.41760416
+_cell_length_c   5.70899300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.10540061
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf10AlSn5
+_chemical_formula_sum   'Hf10 Al1 Sn5'
+_cell_volume   349.94913339
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.748196  0.748196  0.750000  1
+  Hf  Hf1  1  0.245082  0.011321  0.750000  1
+  Hf  Hf2  1  0.011321  0.245082  0.750000  1
+  Hf  Hf3  1  0.242977  0.242977  0.250000  1
+  Hf  Hf4  1  0.758387  0.999290  0.250000  1
+  Hf  Hf5  1  0.999290  0.758387  0.250000  1
+  Hf  Hf6  1  0.662026  0.334938  0.997666  1
+  Hf  Hf7  1  0.334938  0.662026  0.997666  1
+  Hf  Hf8  1  0.334938  0.662026  0.502334  1
+  Hf  Hf9  1  0.662026  0.334938  0.502334  1
+  Al  Al10  1  0.394024  0.394024  0.750000  1
+  Sn  Sn11  1  0.610241  0.002287  0.750000  1
+  Sn  Sn12  1  0.002287  0.610241  0.750000  1
+  Sn  Sn13  1  0.604944  0.604944  0.250000  1
+  Sn  Sn14  1  0.392249  0.997074  0.250000  1
+  Sn  Sn15  1  0.997074  0.392249  0.250000  1

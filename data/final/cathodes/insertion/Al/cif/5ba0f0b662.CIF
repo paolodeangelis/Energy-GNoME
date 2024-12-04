@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ho9Er(AlSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.78981143
+_cell_length_b   8.81392479
+_cell_length_c   6.45598800
+_cell_angle_alpha   90.00440741
+_cell_angle_beta   89.98208083
+_cell_angle_gamma   119.99280627
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho9Er(AlSb)3
+_chemical_formula_sum   'Ho9 Er1 Al3 Sb3'
+_cell_volume   433.18528818
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.332809  0.679018  0.002218  1
+  Ho  Ho1  1  0.666708  0.326436  0.497884  1
+  Ho  Ho2  1  0.666680  0.325837  0.002150  1
+  Ho  Ho3  1  0.233478  0.989754  0.250391  1
+  Ho  Ho4  1  0.760297  0.001681  0.749714  1
+  Ho  Ho5  1  0.988102  0.233607  0.250016  1
+  Ho  Ho6  1  0.763159  0.764432  0.250142  1
+  Ho  Ho7  1  0.244162  0.233268  0.749975  1
+  Ho  Ho8  1  0.012038  0.769506  0.749641  1
+  Er  Er9  1  0.332672  0.679171  0.497765  1
+  Al  Al10  1  0.598417  0.998530  0.251112  1
+  Al  Al11  1  0.404823  0.002819  0.748943  1
+  Al  Al12  1  0.995276  0.599230  0.250727  1
+  Sb  Sb13  1  0.387926  0.392361  0.250656  1
+  Sb  Sb14  1  0.608892  0.607433  0.749500  1
+  Sb  Sb15  1  0.004564  0.396915  0.749165  1

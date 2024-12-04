@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Lu12AlNi4Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07289767
+_cell_length_b   8.07289802
+_cell_length_c   8.07289793
+_cell_angle_alpha   111.72972251
+_cell_angle_beta   110.20993481
+_cell_angle_gamma   106.51763474
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu12AlNi4Os
+_chemical_formula_sum   'Lu12 Al1 Ni4 Os1'
+_cell_volume   404.13357814
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.676698  0.873482  0.196784  1
+  Lu  Lu1  1  0.323302  0.520086  0.196784  1
+  Lu  Lu2  1  0.819223  0.778692  0.597915  1
+  Lu  Lu3  1  0.180777  0.778692  0.959469  1
+  Lu  Lu4  1  0.819223  0.221308  0.040531  1
+  Lu  Lu5  1  0.180777  0.221308  0.402085  1
+  Lu  Lu6  1  0.676698  0.479914  0.803216  1
+  Lu  Lu7  1  0.323302  0.126518  0.803216  1
+  Lu  Lu8  1  0.581623  0.271796  0.309825  1
+  Lu  Lu9  1  0.418377  0.728204  0.690175  1
+  Lu  Lu10  1  0.038029  0.728204  0.309825  1
+  Lu  Lu11  1  0.961971  0.271796  0.690175  1
+  Al  Al12  1  0.500000  0.000000  0.500000  1
+  Ni  Ni13  1  0.356094  0.500000  0.856094  1
+  Ni  Ni14  1  0.643906  0.500000  0.143906  1
+  Ni  Ni15  1  0.879338  0.879338  0.000000  1
+  Ni  Ni16  1  0.120662  0.120662  0.000000  1
+  Os  Os17  1  0.000000  0.500000  0.500000  1

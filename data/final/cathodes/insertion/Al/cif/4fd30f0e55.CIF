@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Lu6Zr8Al8Os7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.27123559
+_cell_length_b   9.27123501
+_cell_length_c   9.27123600
+_cell_angle_alpha   60.00000360
+_cell_angle_beta   60.00000566
+_cell_angle_gamma   60.00000377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu6Zr8Al8Os7
+_chemical_formula_sum   'Lu6 Zr8 Al8 Os7'
+_cell_volume   563.50514777
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.695996  0.695996  0.304004  1
+  Lu  Lu1  1  0.304004  0.695996  0.304004  1
+  Lu  Lu2  1  0.695996  0.304004  0.304004  1
+  Lu  Lu3  1  0.304004  0.304004  0.695996  1
+  Lu  Lu4  1  0.695996  0.304004  0.695996  1
+  Lu  Lu5  1  0.304004  0.695996  0.695996  1
+  Zr  Zr6  1  0.876840  0.876840  0.369480  1
+  Zr  Zr7  1  0.876840  0.369480  0.876840  1
+  Zr  Zr8  1  0.369480  0.876840  0.876840  1
+  Zr  Zr9  1  0.876840  0.876840  0.876840  1
+  Zr  Zr10  1  0.123160  0.123160  0.630520  1
+  Zr  Zr11  1  0.123160  0.630520  0.123160  1
+  Zr  Zr12  1  0.630520  0.123160  0.123160  1
+  Zr  Zr13  1  0.123160  0.123160  0.123160  1
+  Al  Al14  1  0.665193  0.665193  0.004422  1
+  Al  Al15  1  0.665193  0.004422  0.665193  1
+  Al  Al16  1  0.004422  0.665193  0.665193  1
+  Al  Al17  1  0.665193  0.665193  0.665193  1
+  Al  Al18  1  0.334807  0.334807  0.995578  1
+  Al  Al19  1  0.334807  0.995578  0.334807  1
+  Al  Al20  1  0.995578  0.334807  0.334807  1
+  Al  Al21  1  0.334807  0.334807  0.334807  1
+  Os  Os22  1  0.000000  0.000000  0.000000  1
+  Os  Os23  1  0.000000  0.000000  0.500000  1
+  Os  Os24  1  0.500000  0.000000  0.500000  1
+  Os  Os25  1  0.000000  0.500000  0.500000  1
+  Os  Os26  1  0.500000  0.500000  0.000000  1
+  Os  Os27  1  0.000000  0.500000  0.000000  1
+  Os  Os28  1  0.500000  0.000000  0.000000  1

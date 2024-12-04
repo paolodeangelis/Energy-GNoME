@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Y2SbPd8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.16921600
+_cell_length_b   4.16921600
+_cell_length_c   11.52990500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2SbPd8
+_chemical_formula_sum   'Y2 Sb1 Pd8'
+_cell_volume   200.41698317
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.500000  0.500000  0.824461  1
+  Y  Y1  1  0.500000  0.500000  0.175539  1
+  Sb  Sb2  1  0.000000  0.000000  0.500000  1
+  Pd  Pd3  1  0.500000  0.000000  0.000000  1
+  Pd  Pd4  1  0.000000  0.500000  0.000000  1
+  Pd  Pd5  1  0.500000  0.000000  0.643706  1
+  Pd  Pd6  1  0.000000  0.500000  0.643706  1
+  Pd  Pd7  1  0.500000  0.000000  0.356294  1
+  Pd  Pd8  1  0.000000  0.500000  0.356294  1
+  Pd  Pd9  1  0.000000  0.000000  0.822203  1
+  Pd  Pd10  1  0.000000  0.000000  0.177797  1

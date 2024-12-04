@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CsNaNi3S4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71153592
+_cell_length_b   5.71153570
+_cell_length_c   8.01792641
+_cell_angle_alpha   100.57484790
+_cell_angle_beta   100.57485010
+_cell_angle_gamma   118.99576165
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNaNi3S4
+_chemical_formula_sum   'Cs1 Na1 Ni3 S4'
+_cell_volume   213.29584341
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.323553  0.323553  0.647107  1
+  Na  Na1  1  0.590051  0.590051  0.180101  1
+  Ni  Ni2  1  0.012592  0.012592  0.025183  1
+  Ni  Ni3  1  0.011632  0.511632  0.023263  1
+  Ni  Ni4  1  0.511632  0.011632  0.023263  1
+  S  S5  1  0.748147  0.082436  0.830584  1
+  S  S6  1  0.940148  0.279809  0.219958  1
+  S  S7  1  0.082436  0.748147  0.830584  1
+  S  S8  1  0.279809  0.940148  0.219958  1

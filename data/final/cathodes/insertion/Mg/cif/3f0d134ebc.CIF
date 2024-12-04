@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_MgCdBi2(Rh2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18985470
+_cell_length_b   7.18985426
+_cell_length_c   7.07867059
+_cell_angle_alpha   60.59056338
+_cell_angle_beta   60.59056934
+_cell_angle_gamma   61.05433099
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCdBi2(Rh2O7)2
+_chemical_formula_sum   'Mg1 Cd1 Bi2 Rh4 O14'
+_cell_volume   263.08705912
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.125000  0.125000  0.125000  1
+  Cd  Cd1  1  0.125000  0.125000  0.625000  1
+  Bi  Bi2  1  0.125000  0.625000  0.125000  1
+  Bi  Bi3  1  0.625000  0.125000  0.125000  1
+  Rh  Rh4  1  0.625000  0.625000  0.625000  1
+  Rh  Rh5  1  0.625000  0.625000  0.125000  1
+  Rh  Rh6  1  0.125000  0.625000  0.625000  1
+  Rh  Rh7  1  0.625000  0.125000  0.625000  1
+  O  O8  1  0.242837  0.242837  0.242810  1
+  O  O9  1  0.291275  0.711895  0.287033  1
+  O  O10  1  0.947886  0.947886  0.536740  1
+  O  O11  1  0.542010  0.959253  0.537791  1
+  O  O12  1  0.711501  0.711501  0.288378  1
+  O  O13  1  0.959253  0.542010  0.537791  1
+  O  O14  1  0.707990  0.290747  0.712209  1
+  O  O15  1  0.302114  0.302114  0.713260  1
+  O  O16  1  0.711895  0.291275  0.287033  1
+  O  O17  1  0.290747  0.707990  0.712209  1
+  O  O18  1  0.958725  0.538105  0.962967  1
+  O  O19  1  0.538499  0.538499  0.961622  1
+  O  O20  1  0.007163  0.007163  0.007190  1
+  O  O21  1  0.538105  0.958725  0.962967  1

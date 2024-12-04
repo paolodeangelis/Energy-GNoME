@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Sr3Al3Si2SbO14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.29808600
+_cell_length_b   8.29808576
+_cell_length_c   5.07268500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000096
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3Al3Si2SbO14
+_chemical_formula_sum   'Sr3 Al3 Si2 Sb1 O14'
+_cell_volume   302.49929891
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.571588  0.571588  0.000000  1
+  Sr  Sr1  1  0.428412  0.000000  0.000000  1
+  Sr  Sr2  1  0.000000  0.428412  0.000000  1
+  Al  Al3  1  0.255133  0.255133  0.500000  1
+  Al  Al4  1  0.000000  0.744867  0.500000  1
+  Al  Al5  1  0.744867  0.000000  0.500000  1
+  Si  Si6  1  0.333333  0.666667  0.525084  1
+  Si  Si7  1  0.666667  0.333333  0.474916  1
+  Sb  Sb8  1  0.000000  0.000000  0.000000  1
+  O  O9  1  0.101763  0.223698  0.234926  1
+  O  O10  1  0.776302  0.878066  0.234926  1
+  O  O11  1  0.121934  0.898237  0.234926  1
+  O  O12  1  0.878066  0.776302  0.765074  1
+  O  O13  1  0.898237  0.121934  0.765074  1
+  O  O14  1  0.223698  0.101763  0.765074  1
+  O  O15  1  0.304553  0.470149  0.654533  1
+  O  O16  1  0.529851  0.834403  0.654533  1
+  O  O17  1  0.165597  0.695447  0.654533  1
+  O  O18  1  0.333333  0.666667  0.207135  1
+  O  O19  1  0.666667  0.333333  0.792865  1
+  O  O20  1  0.470149  0.304553  0.345467  1
+  O  O21  1  0.695447  0.165597  0.345467  1
+  O  O22  1  0.834403  0.529851  0.345467  1

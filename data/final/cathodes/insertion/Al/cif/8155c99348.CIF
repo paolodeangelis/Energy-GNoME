@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Li2La3AlPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60561485
+_cell_length_b   7.45368125
+_cell_length_c   4.10909200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.34135181
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2La3AlPt3
+_chemical_formula_sum   'Li2 La3 Al1 Pt3'
+_cell_volume   203.06073381
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.767563  0.768395  0.500000  1
+  Li  Li1  1  0.232437  0.000831  0.500000  1
+  La  La2  1  0.409942  0.410637  0.000000  1
+  La  La3  1  0.590058  0.000694  0.000000  1
+  La  La4  1  0.000000  0.585896  0.000000  1
+  Al  Al5  1  0.000000  0.232836  0.500000  1
+  Pt  Pt6  1  0.318840  0.646592  0.500000  1
+  Pt  Pt7  1  0.000000  0.026371  0.000000  1
+  Pt  Pt8  1  0.681160  0.327749  0.500000  1

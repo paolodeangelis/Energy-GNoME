@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_RbCuPt3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.13752277
+_cell_length_b   6.13755072
+_cell_length_c   7.86611100
+_cell_angle_alpha   69.08315690
+_cell_angle_beta   69.08335699
+_cell_angle_gamma   60.23805406
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCuPt3O8
+_chemical_formula_sum   'Rb1 Cu1 Pt3 O8'
+_cell_volume   234.29485389
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.500000  0.500000  0.500000  1
+  Cu  Cu1  1  0.500000  0.500000  0.000000  1
+  Pt  Pt2  1  0.000000  0.000000  0.000000  1
+  Pt  Pt3  1  0.000000  0.500000  0.000000  1
+  Pt  Pt4  1  0.500000  0.000000  0.000000  1
+  O  O5  1  0.709015  0.709017  0.860356  1
+  O  O6  1  0.709344  0.211026  0.858793  1
+  O  O7  1  0.211029  0.709342  0.858796  1
+  O  O8  1  0.210349  0.210351  0.858550  1
+  O  O9  1  0.789651  0.789649  0.141450  1
+  O  O10  1  0.788971  0.290658  0.141204  1
+  O  O11  1  0.290656  0.788974  0.141207  1
+  O  O12  1  0.290985  0.290983  0.139644  1

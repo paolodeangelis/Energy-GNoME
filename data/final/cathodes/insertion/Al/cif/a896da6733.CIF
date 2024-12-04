@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlFe3Cl7O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.16869710
+_cell_length_b   6.91519034
+_cell_length_c   6.91519100
+_cell_angle_alpha   61.16645154
+_cell_angle_beta   63.24943960
+_cell_angle_gamma   63.24942752
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlFe3Cl7O
+_chemical_formula_sum   'Al1 Fe3 Cl7 O1'
+_cell_volume   255.99075919
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.491149  0.519046  0.519046  1
+  Fe  Fe1  1  0.994897  0.505518  0.505518  1
+  Fe  Fe2  1  0.473504  0.523156  0.976555  1
+  Fe  Fe3  1  0.473504  0.976555  0.523156  1
+  Cl  Cl4  1  0.232152  0.262454  0.262454  1
+  Cl  Cl5  1  0.689195  0.275404  0.275404  1
+  Cl  Cl6  1  0.263046  0.268691  0.741005  1
+  Cl  Cl7  1  0.263046  0.741005  0.268691  1
+  Cl  Cl8  1  0.744255  0.253329  0.736229  1
+  Cl  Cl9  1  0.744255  0.736229  0.253329  1
+  Cl  Cl10  1  0.756690  0.745389  0.745389  1
+  O  O11  1  0.374308  0.693225  0.693225  1

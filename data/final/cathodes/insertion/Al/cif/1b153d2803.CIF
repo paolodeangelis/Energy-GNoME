@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Pr5Al2Os3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.64336320
+_cell_length_b   8.64336301
+_cell_length_c   8.64336300
+_cell_angle_alpha   109.47122061
+_cell_angle_beta   109.47122016
+_cell_angle_gamma   109.47122487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr5Al2Os3
+_chemical_formula_sum   'Pr10 Al4 Os6'
+_cell_volume   497.08007816
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.250000  0.681901  0.431901  1
+  Pr  Pr1  1  0.750000  0.818099  0.068099  1
+  Pr  Pr2  1  0.431901  0.250000  0.681901  1
+  Pr  Pr3  1  0.681901  0.431901  0.250000  1
+  Pr  Pr4  1  0.068099  0.750000  0.818099  1
+  Pr  Pr5  1  0.818099  0.068099  0.750000  1
+  Pr  Pr6  1  0.213231  0.213231  0.213231  1
+  Pr  Pr7  1  0.500000  0.000000  0.286769  1
+  Pr  Pr8  1  0.286769  0.500000  0.000000  1
+  Pr  Pr9  1  0.000000  0.286769  0.500000  1
+  Al  Al10  1  0.590149  0.590149  0.590149  1
+  Al  Al11  1  0.500000  0.000000  0.909851  1
+  Al  Al12  1  0.909851  0.500000  0.000000  1
+  Al  Al13  1  0.000000  0.909851  0.500000  1
+  Os  Os14  1  0.250000  0.115962  0.865962  1
+  Os  Os15  1  0.750000  0.384038  0.634038  1
+  Os  Os16  1  0.865961  0.250000  0.115962  1
+  Os  Os17  1  0.115962  0.865961  0.250000  1
+  Os  Os18  1  0.634038  0.750000  0.384038  1
+  Os  Os19  1  0.384038  0.634038  0.750000  1

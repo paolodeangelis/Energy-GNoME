@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Ho6Ti12Al4Ir6Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.07966874
+_cell_length_b   9.07966828
+_cell_length_c   9.07967000
+_cell_angle_alpha   60.00000101
+_cell_angle_beta   60.00000269
+_cell_angle_gamma   59.99999801
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho6Ti12Al4Ir6Rh
+_chemical_formula_sum   'Ho6 Ti12 Al4 Ir6 Rh1'
+_cell_volume   529.29166910
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.699697  0.300302  0.300302  1
+  Ho  Ho1  1  0.300302  0.699697  0.699697  1
+  Ho  Ho2  1  0.300302  0.699697  0.300302  1
+  Ho  Ho3  1  0.300302  0.300302  0.699697  1
+  Ho  Ho4  1  0.699697  0.300302  0.699697  1
+  Ho  Ho5  1  0.699697  0.699697  0.300302  1
+  Ti  Ti6  1  0.326314  0.326314  0.326314  1
+  Ti  Ti7  1  0.326314  0.326314  0.021060  1
+  Ti  Ti8  1  0.021060  0.326314  0.326314  1
+  Ti  Ti9  1  0.326314  0.021060  0.326314  1
+  Ti  Ti10  1  0.669993  0.669993  0.669993  1
+  Ti  Ti11  1  0.669993  0.669993  0.990021  1
+  Ti  Ti12  1  0.669993  0.990021  0.669993  1
+  Ti  Ti13  1  0.990021  0.669993  0.669993  1
+  Ti  Ti14  1  0.117966  0.117966  0.117966  1
+  Ti  Ti15  1  0.117966  0.117966  0.646104  1
+  Ti  Ti16  1  0.646104  0.117966  0.117966  1
+  Ti  Ti17  1  0.117966  0.646104  0.117966  1
+  Al  Al18  1  0.881830  0.881830  0.881830  1
+  Al  Al19  1  0.881830  0.881830  0.354510  1
+  Al  Al20  1  0.881830  0.354510  0.881830  1
+  Al  Al21  1  0.354510  0.881830  0.881830  1
+  Ir  Ir22  1  0.502486  0.997514  0.997514  1
+  Ir  Ir23  1  0.997514  0.502486  0.502486  1
+  Ir  Ir24  1  0.997514  0.502486  0.997514  1
+  Ir  Ir25  1  0.997514  0.997514  0.502486  1
+  Ir  Ir26  1  0.502486  0.997514  0.502486  1
+  Ir  Ir27  1  0.502486  0.502486  0.997514  1
+  Rh  Rh28  1  0.000000  0.000000  0.000000  1

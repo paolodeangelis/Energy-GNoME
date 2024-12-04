@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbNa3(Ga2Te3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.72129397
+_cell_length_b   7.72129275
+_cell_length_c   9.37209946
+_cell_angle_alpha   82.14043417
+_cell_angle_beta   82.14043810
+_cell_angle_gamma   120.13360058
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNa3(Ga2Te3)2
+_chemical_formula_sum   'Rb1 Na3 Ga4 Te6'
+_cell_volume   464.73852946
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.500000  0.500000  0.500000  1
+  Na  Na1  1  0.665798  0.334202  0.000000  1
+  Na  Na2  1  0.334202  0.665798  0.000000  1
+  Na  Na3  1  0.000000  0.000000  0.000000  1
+  Ga  Ga4  1  0.879119  0.211966  0.362243  1
+  Ga  Ga5  1  0.788034  0.120881  0.637757  1
+  Ga  Ga6  1  0.211966  0.879119  0.362243  1
+  Ga  Ga7  1  0.120881  0.788034  0.637757  1
+  Te  Te8  1  0.413151  0.047898  0.764100  1
+  Te  Te9  1  0.047898  0.413151  0.764100  1
+  Te  Te10  1  0.952102  0.586849  0.235900  1
+  Te  Te11  1  0.775961  0.775961  0.767139  1
+  Te  Te12  1  0.586849  0.952102  0.235900  1
+  Te  Te13  1  0.224039  0.224039  0.232861  1

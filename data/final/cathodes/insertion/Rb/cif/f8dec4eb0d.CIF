@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_RbNa2AlO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.03699500
+_cell_length_b   6.72790500
+_cell_length_c   10.31818200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNa2AlO3
+_chemical_formula_sum   'Rb4 Na8 Al4 O12'
+_cell_volume   419.08667320
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.750000  0.648042  0.983073  1
+  Rb  Rb1  1  0.250000  0.851958  0.483073  1
+  Rb  Rb2  1  0.250000  0.351958  0.016927  1
+  Rb  Rb3  1  0.750000  0.148042  0.516927  1
+  Na  Na4  1  0.005020  0.989617  0.767001  1
+  Na  Na5  1  0.994980  0.510383  0.267001  1
+  Na  Na6  1  0.005020  0.489617  0.732999  1
+  Na  Na7  1  0.494980  0.989617  0.767001  1
+  Na  Na8  1  0.994980  0.010383  0.232999  1
+  Na  Na9  1  0.505020  0.010383  0.232999  1
+  Na  Na10  1  0.505020  0.510383  0.267001  1
+  Na  Na11  1  0.494980  0.489617  0.732999  1
+  Al  Al12  1  0.250000  0.847814  0.004640  1
+  Al  Al13  1  0.250000  0.347814  0.495360  1
+  Al  Al14  1  0.750000  0.652186  0.504640  1
+  Al  Al15  1  0.750000  0.152186  0.995360  1
+  O  O16  1  0.250000  0.724034  0.156361  1
+  O  O17  1  0.000000  0.500000  0.500000  1
+  O  O18  1  0.500000  0.500000  0.500000  1
+  O  O19  1  0.250000  0.202963  0.639829  1
+  O  O20  1  0.750000  0.797037  0.360171  1
+  O  O21  1  0.250000  0.702963  0.860171  1
+  O  O22  1  0.750000  0.297037  0.139829  1
+  O  O23  1  0.750000  0.775966  0.656361  1
+  O  O24  1  0.500000  0.000000  0.000000  1
+  O  O25  1  0.000000  0.000000  0.000000  1
+  O  O26  1  0.750000  0.275966  0.843639  1
+  O  O27  1  0.250000  0.224034  0.343639  1

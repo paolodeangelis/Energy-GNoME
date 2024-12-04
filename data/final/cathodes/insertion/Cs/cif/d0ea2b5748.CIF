@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2TbU(CuS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99095300
+_cell_length_b   8.04742781
+_cell_length_c   10.30824136
+_cell_angle_alpha   89.70273596
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   75.64290129
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2TbU(CuS3)2
+_chemical_formula_sum   'Cs2 Tb1 U1 Cu2 S6'
+_cell_volume   320.72464411
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.741151  0.517699  0.235156  1
+  Cs  Cs1  1  0.258850  0.482301  0.764844  1
+  Tb  Tb2  1  0.000000  0.000000  0.000000  1
+  U  U3  1  0.000000  0.000000  0.500000  1
+  Cu  Cu4  1  0.463992  0.072018  0.252254  1
+  Cu  Cu5  1  0.536009  0.927983  0.747746  1
+  S  S6  1  0.386578  0.226846  0.062547  1
+  S  S7  1  0.050593  0.898813  0.261080  1
+  S  S8  1  0.390793  0.218414  0.445139  1
+  S  S9  1  0.609208  0.781586  0.554861  1
+  S  S10  1  0.949408  0.101187  0.738920  1
+  S  S11  1  0.613423  0.773154  0.937453  1

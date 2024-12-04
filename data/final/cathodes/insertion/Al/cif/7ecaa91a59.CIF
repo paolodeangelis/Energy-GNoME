@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_TbCeAlInRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.13142400
+_cell_length_b   7.41112200
+_cell_length_c   16.39078400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbCeAlInRh2
+_chemical_formula_sum   'Tb4 Ce4 Al4 In4 Rh8'
+_cell_volume   501.86101170
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.250000  0.175320  0.558635  1
+  Tb  Tb1  1  0.750000  0.824680  0.441365  1
+  Tb  Tb2  1  0.250000  0.675320  0.941365  1
+  Tb  Tb3  1  0.750000  0.324680  0.058635  1
+  Ce  Ce4  1  0.250000  0.051009  0.785655  1
+  Ce  Ce5  1  0.750000  0.948991  0.214345  1
+  Ce  Ce6  1  0.250000  0.551009  0.714345  1
+  Ce  Ce7  1  0.750000  0.448991  0.285655  1
+  Al  Al8  1  0.250000  0.003035  0.061100  1
+  Al  Al9  1  0.750000  0.996965  0.938900  1
+  Al  Al10  1  0.250000  0.503035  0.438900  1
+  Al  Al11  1  0.750000  0.496965  0.561100  1
+  In  In12  1  0.250000  0.113370  0.352191  1
+  In  In13  1  0.750000  0.886630  0.647809  1
+  In  In14  1  0.250000  0.613370  0.147809  1
+  In  In15  1  0.750000  0.386630  0.852191  1
+  Rh  Rh16  1  0.750000  0.289013  0.434889  1
+  Rh  Rh17  1  0.250000  0.710987  0.565111  1
+  Rh  Rh18  1  0.750000  0.789013  0.065111  1
+  Rh  Rh19  1  0.250000  0.210987  0.934889  1
+  Rh  Rh20  1  0.750000  0.770173  0.816596  1
+  Rh  Rh21  1  0.250000  0.229827  0.183404  1
+  Rh  Rh22  1  0.750000  0.270173  0.683404  1
+  Rh  Rh23  1  0.250000  0.729827  0.316596  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Th5Al2Tc2Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56230445
+_cell_length_b   8.56478621
+_cell_length_c   8.56541528
+_cell_angle_alpha   109.45264163
+_cell_angle_beta   109.57540804
+_cell_angle_gamma   109.53429279
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th5Al2Tc2Ru
+_chemical_formula_sum   'Th10 Al4 Tc4 Ru2'
+_cell_volume   482.65174145
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.463644  0.157082  0.211909  1
+  Th  Th1  1  0.155455  0.211115  0.462777  1
+  Th  Th2  1  0.212341  0.462856  0.155448  1
+  Th  Th3  1  0.406573  0.689692  0.906770  1
+  Th  Th4  1  0.690367  0.906230  0.406655  1
+  Th  Th5  1  0.905966  0.406665  0.689324  1
+  Th  Th6  1  0.658001  0.102054  0.853786  1
+  Th  Th7  1  0.100329  0.851965  0.657065  1
+  Th  Th8  1  0.852098  0.657961  0.101775  1
+  Th  Th9  1  0.624525  0.624674  0.624750  1
+  Al  Al10  1  0.407338  0.308846  0.907613  1
+  Al  Al11  1  0.308809  0.909279  0.408559  1
+  Al  Al12  1  0.909746  0.408029  0.309743  1
+  Al  Al13  1  0.004724  0.004919  0.005031  1
+  Tc  Tc14  1  0.029782  0.157747  0.780444  1
+  Tc  Tc15  1  0.158886  0.781314  0.031117  1
+  Tc  Tc16  1  0.781983  0.031339  0.158432  1
+  Tc  Tc17  1  0.659329  0.533482  0.285496  1
+  Ru  Ru18  1  0.533295  0.284744  0.659278  1
+  Ru  Ru19  1  0.286813  0.660008  0.534030  1

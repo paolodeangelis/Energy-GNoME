@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na3Fe3PtO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.09604700
+_cell_length_b   5.30467995
+_cell_length_c   5.77038777
+_cell_angle_alpha   72.12407756
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Fe3PtO8
+_chemical_formula_sum   'Na3 Fe3 Pt1 O8'
+_cell_volume   177.59195019
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.236918  0.000000  0.000000  1
+  Na  Na1  1  0.500000  0.500000  0.000000  1
+  Na  Na2  1  0.763082  0.000000  0.000000  1
+  Fe  Fe3  1  0.747782  0.500000  0.500000  1
+  Fe  Fe4  1  0.252218  0.500000  0.500000  1
+  Fe  Fe5  1  0.500000  0.000000  0.500000  1
+  Pt  Pt6  1  0.000000  0.000000  0.500000  1
+  O  O7  1  0.500000  0.731344  0.296401  1
+  O  O8  1  0.746928  0.229612  0.306670  1
+  O  O9  1  0.000000  0.733042  0.306580  1
+  O  O10  1  0.253072  0.229612  0.306670  1
+  O  O11  1  0.000000  0.266958  0.693420  1
+  O  O12  1  0.253072  0.770388  0.693330  1
+  O  O13  1  0.500000  0.268656  0.703599  1
+  O  O14  1  0.746928  0.770388  0.693330  1

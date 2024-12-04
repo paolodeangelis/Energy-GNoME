@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pr2AlPtI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43468600
+_cell_length_b   4.43468760
+_cell_length_c   17.16857400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000301
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2AlPtI
+_chemical_formula_sum   'Pr4 Al2 Pt2 I2'
+_cell_volume   292.40900922
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.000000  0.000000  0.606911  1
+  Pr  Pr1  1  0.000000  0.000000  0.394541  1
+  Pr  Pr2  1  0.000000  0.000000  0.106911  1
+  Pr  Pr3  1  0.000000  0.000000  0.894541  1
+  Al  Al4  1  0.666667  0.333333  0.502289  1
+  Al  Al5  1  0.333333  0.666667  0.002289  1
+  Pt  Pt6  1  0.666667  0.333333  0.997198  1
+  Pt  Pt7  1  0.333333  0.666667  0.497198  1
+  I  I8  1  0.666667  0.333333  0.249061  1
+  I  I9  1  0.333333  0.666667  0.749061  1

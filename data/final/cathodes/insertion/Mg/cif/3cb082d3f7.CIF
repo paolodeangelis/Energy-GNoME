@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Mg4Te(PN2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.33415239
+_cell_length_b   7.33415329
+_cell_length_c   7.33415300
+_cell_angle_alpha   109.47122259
+_cell_angle_beta   109.47122507
+_cell_angle_gamma   109.47121763
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg4Te(PN2)6
+_chemical_formula_sum   'Mg4 Te1 P6 N12'
+_cell_volume   303.68823637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.373926  0.373926  0.373926  1
+  Mg  Mg1  1  0.000000  0.626074  0.000000  1
+  Mg  Mg2  1  0.626074  0.000000  0.000000  1
+  Mg  Mg3  1  0.000000  0.000000  0.626074  1
+  Te  Te4  1  0.000000  0.000000  0.000000  1
+  P  P5  1  0.500000  0.250000  0.750000  1
+  P  P6  1  0.500000  0.750000  0.250000  1
+  P  P7  1  0.750000  0.250000  0.500000  1
+  P  P8  1  0.250000  0.500000  0.750000  1
+  P  P9  1  0.750000  0.500000  0.250000  1
+  P  P10  1  0.250000  0.750000  0.500000  1
+  N  N11  1  0.000000  0.719478  0.428935  1
+  N  N12  1  0.280522  0.709457  0.280522  1
+  N  N13  1  0.290543  0.571065  0.571065  1
+  N  N14  1  0.571065  0.571065  0.290543  1
+  N  N15  1  0.571065  0.290543  0.571065  1
+  N  N16  1  0.719478  0.000000  0.428935  1
+  N  N17  1  0.428935  0.000000  0.719478  1
+  N  N18  1  0.719478  0.428935  0.000000  1
+  N  N19  1  0.280522  0.280522  0.709457  1
+  N  N20  1  0.709457  0.280522  0.280522  1
+  N  N21  1  0.000000  0.428935  0.719478  1
+  N  N22  1  0.428935  0.719478  0.000000  1

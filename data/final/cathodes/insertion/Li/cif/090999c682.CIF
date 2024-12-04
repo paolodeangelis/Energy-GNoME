@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_LiBi3(Rh2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.31628107
+_cell_length_b   7.15010621
+_cell_length_c   7.31628100
+_cell_angle_alpha   59.22816837
+_cell_angle_beta   59.99999580
+_cell_angle_gamma   59.22817251
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiBi3(Rh2O7)2
+_chemical_formula_sum   'Li1 Bi3 Rh4 O14'
+_cell_volume   267.43110021
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.125000  0.625000  0.125000  1
+  Bi  Bi1  1  0.125000  0.125000  0.125000  1
+  Bi  Bi2  1  0.625000  0.125000  0.125000  1
+  Bi  Bi3  1  0.125000  0.125000  0.625000  1
+  Rh  Rh4  1  0.625000  0.625000  0.625000  1
+  Rh  Rh5  1  0.625000  0.625000  0.125000  1
+  Rh  Rh6  1  0.125000  0.625000  0.625000  1
+  Rh  Rh7  1  0.625000  0.125000  0.625000  1
+  O  O8  1  0.243758  0.268726  0.243758  1
+  O  O9  1  0.295324  0.710932  0.295324  1
+  O  O10  1  0.957293  0.962867  0.539921  1
+  O  O11  1  0.539921  0.962867  0.539921  1
+  O  O12  1  0.698419  0.710932  0.295324  1
+  O  O13  1  0.954676  0.539068  0.551581  1
+  O  O14  1  0.710079  0.287133  0.710079  1
+  O  O15  1  0.292707  0.287133  0.710079  1
+  O  O16  1  0.710079  0.287133  0.292707  1
+  O  O17  1  0.295324  0.710932  0.698419  1
+  O  O18  1  0.954676  0.539068  0.954676  1
+  O  O19  1  0.551581  0.539068  0.954676  1
+  O  O20  1  0.006242  0.981274  0.006242  1
+  O  O21  1  0.539921  0.962867  0.957293  1

@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_RbEr7(Sn11Ru3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.86014800
+_cell_length_b   9.86014917
+_cell_length_c   10.16539900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999609
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbEr7(Sn11Ru3)2
+_chemical_formula_sum   'Rb1 Er7 Sn22 Ru6'
+_cell_volume   855.89797200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.500000  1
+  Er  Er1  1  0.000000  0.000000  0.000000  1
+  Er  Er2  1  0.482947  0.517053  0.307288  1
+  Er  Er3  1  0.517053  0.482947  0.692712  1
+  Er  Er4  1  0.482947  0.965896  0.307288  1
+  Er  Er5  1  0.517053  0.034104  0.692712  1
+  Er  Er6  1  0.034104  0.517053  0.307288  1
+  Er  Er7  1  0.965896  0.482947  0.692712  1
+  Sn  Sn8  1  0.349875  0.000000  0.000000  1
+  Sn  Sn9  1  0.650125  0.000000  0.000000  1
+  Sn  Sn10  1  0.000000  0.349875  0.000000  1
+  Sn  Sn11  1  0.000000  0.650125  0.000000  1
+  Sn  Sn12  1  0.650125  0.650125  0.000000  1
+  Sn  Sn13  1  0.349875  0.349875  0.000000  1
+  Sn  Sn14  1  0.333333  0.666667  0.821288  1
+  Sn  Sn15  1  0.666667  0.333333  0.178712  1
+  Sn  Sn16  1  0.777029  0.222971  0.459377  1
+  Sn  Sn17  1  0.222971  0.777029  0.540623  1
+  Sn  Sn18  1  0.777029  0.554058  0.459377  1
+  Sn  Sn19  1  0.222971  0.445942  0.540623  1
+  Sn  Sn20  1  0.445942  0.222971  0.459377  1
+  Sn  Sn21  1  0.554058  0.777029  0.540623  1
+  Sn  Sn22  1  0.333333  0.666667  0.125646  1
+  Sn  Sn23  1  0.666667  0.333333  0.874354  1
+  Sn  Sn24  1  0.129277  0.870723  0.253692  1
+  Sn  Sn25  1  0.870723  0.129277  0.746308  1
+  Sn  Sn26  1  0.129277  0.258553  0.253692  1
+  Sn  Sn27  1  0.870723  0.741447  0.746308  1
+  Sn  Sn28  1  0.741447  0.870723  0.253692  1
+  Sn  Sn29  1  0.258553  0.129277  0.746308  1
+  Ru  Ru30  1  0.831946  0.168054  0.204618  1
+  Ru  Ru31  1  0.168054  0.831946  0.795382  1
+  Ru  Ru32  1  0.831946  0.663893  0.204618  1
+  Ru  Ru33  1  0.168054  0.336107  0.795382  1
+  Ru  Ru34  1  0.336107  0.168054  0.204618  1
+  Ru  Ru35  1  0.663893  0.831946  0.795382  1

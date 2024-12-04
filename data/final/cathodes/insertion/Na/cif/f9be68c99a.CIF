@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Na2TaCr3S8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.97131500
+_cell_length_b   6.02310660
+_cell_length_c   6.94399912
+_cell_angle_alpha   89.99996899
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2TaCr3S8
+_chemical_formula_sum   'Na4 Ta2 Cr6 S16'
+_cell_volume   584.34252264
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250000  0.661309  0.734221  1
+  Na  Na1  1  0.750000  0.338691  0.265779  1
+  Na  Na2  1  0.750000  0.988576  0.733600  1
+  Na  Na3  1  0.250000  0.011424  0.266400  1
+  Ta  Ta4  1  0.500000  0.500000  0.000000  1
+  Ta  Ta5  1  0.000000  0.500000  0.000000  1
+  Cr  Cr6  1  0.498875  0.999335  0.750167  1
+  Cr  Cr7  1  0.001125  0.999335  0.750167  1
+  Cr  Cr8  1  0.501125  0.000665  0.249833  1
+  Cr  Cr9  1  0.998875  0.000665  0.249833  1
+  Cr  Cr10  1  0.000000  0.500000  0.500000  1
+  Cr  Cr11  1  0.500000  0.500000  0.500000  1
+  S  S12  1  0.600589  0.162945  0.000025  1
+  S  S13  1  0.906485  0.166186  0.499951  1
+  S  S14  1  0.406485  0.833814  0.500049  1
+  S  S15  1  0.100589  0.837055  0.999975  1
+  S  S16  1  0.399411  0.837055  0.999975  1
+  S  S17  1  0.093515  0.833814  0.500049  1
+  S  S18  1  0.593515  0.166186  0.499951  1
+  S  S19  1  0.899411  0.162945  0.000025  1
+  S  S20  1  0.401145  0.330066  0.745895  1
+  S  S21  1  0.098855  0.330066  0.745895  1
+  S  S22  1  0.598855  0.669934  0.254105  1
+  S  S23  1  0.901145  0.669934  0.254105  1
+  S  S24  1  0.598366  0.669177  0.745520  1
+  S  S25  1  0.901634  0.669177  0.745520  1
+  S  S26  1  0.401634  0.330823  0.254480  1
+  S  S27  1  0.098366  0.330823  0.254480  1

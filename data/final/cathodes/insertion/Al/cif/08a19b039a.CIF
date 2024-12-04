@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LaNdAlInRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.12795200
+_cell_length_b   7.68624000
+_cell_length_c   16.80316800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNdAlInRh2
+_chemical_formula_sum   'La4 Nd4 Al4 In4 Rh8'
+_cell_volume   533.13813598
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.250000  0.676570  0.560431  1
+  La  La1  1  0.750000  0.323430  0.439569  1
+  La  La2  1  0.750000  0.823430  0.060431  1
+  La  La3  1  0.250000  0.176570  0.939569  1
+  Nd  Nd4  1  0.250000  0.543354  0.784684  1
+  Nd  Nd5  1  0.750000  0.456646  0.215316  1
+  Nd  Nd6  1  0.750000  0.956646  0.284684  1
+  Nd  Nd7  1  0.250000  0.043354  0.715316  1
+  Al  Al8  1  0.250000  0.500159  0.062262  1
+  Al  Al9  1  0.750000  0.499841  0.937738  1
+  Al  Al10  1  0.750000  0.999841  0.562262  1
+  Al  Al11  1  0.250000  0.000159  0.437738  1
+  In  In12  1  0.250000  0.627940  0.347733  1
+  In  In13  1  0.750000  0.372060  0.652267  1
+  In  In14  1  0.750000  0.872060  0.847733  1
+  In  In15  1  0.250000  0.127940  0.152267  1
+  Rh  Rh16  1  0.250000  0.745954  0.177859  1
+  Rh  Rh17  1  0.750000  0.254046  0.822141  1
+  Rh  Rh18  1  0.750000  0.754046  0.677859  1
+  Rh  Rh19  1  0.250000  0.245954  0.322141  1
+  Rh  Rh20  1  0.250000  0.707804  0.937481  1
+  Rh  Rh21  1  0.750000  0.292196  0.062519  1
+  Rh  Rh22  1  0.750000  0.792196  0.437481  1
+  Rh  Rh23  1  0.250000  0.207804  0.562519  1

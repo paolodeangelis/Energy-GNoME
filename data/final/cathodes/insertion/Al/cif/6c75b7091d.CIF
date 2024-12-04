@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Sr21MgAl6(GaSn3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.25036673
+_cell_length_b   12.21356535
+_cell_length_c   12.21356470
+_cell_angle_alpha   60.30954002
+_cell_angle_beta   59.90027650
+_cell_angle_gamma   59.90027499
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr21MgAl6(GaSn3)2
+_chemical_formula_sum   'Sr21 Mg1 Al6 Ga2 Sn6'
+_cell_volume   1293.19881932
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.870598  0.870004  0.388800  1
+  Sr  Sr1  1  0.609930  0.130053  0.130053  1
+  Sr  Sr2  1  0.870598  0.388800  0.870004  1
+  Sr  Sr3  1  0.129964  0.130053  0.130053  1
+  Sr  Sr4  1  0.388750  0.870567  0.870567  1
+  Sr  Sr5  1  0.870114  0.870567  0.870567  1
+  Sr  Sr6  1  0.173040  0.826807  0.499650  1
+  Sr  Sr7  1  0.827948  0.499260  0.499260  1
+  Sr  Sr8  1  0.129931  0.131178  0.608961  1
+  Sr  Sr9  1  0.828435  0.173241  0.499672  1
+  Sr  Sr10  1  0.173533  0.499260  0.499260  1
+  Sr  Sr11  1  0.129931  0.608961  0.131178  1
+  Sr  Sr12  1  0.498652  0.499672  0.173241  1
+  Sr  Sr13  1  0.499918  0.172656  0.827509  1
+  Sr  Sr14  1  0.499918  0.827509  0.172656  1
+  Sr  Sr15  1  0.500504  0.499650  0.826807  1
+  Sr  Sr16  1  0.498652  0.173241  0.499672  1
+  Sr  Sr17  1  0.173040  0.499650  0.826807  1
+  Sr  Sr18  1  0.000115  0.999885  0.999885  1
+  Sr  Sr19  1  0.500504  0.826807  0.499650  1
+  Sr  Sr20  1  0.828435  0.499672  0.173241  1
+  Mg  Mg21  1  0.500048  0.499952  0.499952  1
+  Al  Al22  1  0.694218  0.917195  0.694368  1
+  Al  Al23  1  0.694218  0.694368  0.917195  1
+  Al  Al24  1  0.694579  0.694151  0.694151  1
+  Al  Al25  1  0.305179  0.084301  0.305341  1
+  Al  Al26  1  0.917119  0.694151  0.694151  1
+  Al  Al27  1  0.305179  0.305341  0.084301  1
+  Ga  Ga28  1  0.080254  0.306483  0.306483  1
+  Ga  Ga29  1  0.306779  0.306483  0.306483  1
+  Sn  Sn30  1  0.784717  0.215350  0.784627  1
+  Sn  Sn31  1  0.783736  0.216264  0.216264  1
+  Sn  Sn32  1  0.215306  0.784627  0.215350  1
+  Sn  Sn33  1  0.216136  0.783864  0.783864  1
+  Sn  Sn34  1  0.784717  0.784627  0.215350  1
+  Sn  Sn35  1  0.215306  0.215350  0.784627  1

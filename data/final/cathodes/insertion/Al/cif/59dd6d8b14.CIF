@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeDyScAlIr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.95609300
+_cell_length_b   4.37221500
+_cell_length_c   8.20369000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeDyScAlIr2
+_chemical_formula_sum   'Ce2 Dy2 Sc2 Al2 Ir4'
+_cell_volume   249.50320602
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.963822  0.250000  0.181462  1
+  Ce  Ce1  1  0.463822  0.250000  0.318538  1
+  Dy  Dy2  1  0.030476  0.750000  0.822954  1
+  Dy  Dy3  1  0.530476  0.750000  0.677046  1
+  Sc  Sc4  1  0.866179  0.250000  0.565442  1
+  Sc  Sc5  1  0.366179  0.250000  0.934558  1
+  Al  Al6  1  0.137288  0.750000  0.443193  1
+  Al  Al7  1  0.637288  0.750000  0.056807  1
+  Ir  Ir8  1  0.745547  0.250000  0.893892  1
+  Ir  Ir9  1  0.245547  0.250000  0.606108  1
+  Ir  Ir10  1  0.256688  0.750000  0.124318  1
+  Ir  Ir11  1  0.756688  0.750000  0.375682  1

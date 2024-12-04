@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb3ThAl4Ru3Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.04750300
+_cell_length_b   7.02922460
+_cell_length_c   8.17567100
+_cell_angle_alpha   90.14530133
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3ThAl4Ru3Rh
+_chemical_formula_sum   'Tb3 Th1 Al4 Ru3 Rh1'
+_cell_volume   232.60369522
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.750000  0.463506  0.815984  1
+  Tb  Tb1  1  0.750000  0.958759  0.681269  1
+  Tb  Tb2  1  0.250000  0.035239  0.318834  1
+  Th  Th3  1  0.250000  0.534915  0.181762  1
+  Al  Al4  1  0.250000  0.635925  0.562894  1
+  Al  Al5  1  0.750000  0.359633  0.444885  1
+  Al  Al6  1  0.750000  0.875207  0.056310  1
+  Al  Al7  1  0.250000  0.133159  0.938738  1
+  Ru  Ru8  1  0.250000  0.764329  0.880623  1
+  Ru  Ru9  1  0.750000  0.245085  0.123669  1
+  Ru  Ru10  1  0.750000  0.729279  0.373095  1
+  Rh  Rh11  1  0.250000  0.264965  0.621935  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf3Sc4AlPt4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49200900
+_cell_length_b   6.70635906
+_cell_length_c   8.00958869
+_cell_angle_alpha   93.15537654
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Sc4AlPt4
+_chemical_formula_sum   'Hf3 Sc4 Al1 Pt4'
+_cell_volume   240.92325210
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.250000  0.359760  0.572387  1
+  Hf  Hf1  1  0.250000  0.850399  0.934164  1
+  Hf  Hf2  1  0.750000  0.649392  0.421667  1
+  Sc  Sc3  1  0.250000  0.983726  0.313713  1
+  Sc  Sc4  1  0.250000  0.463291  0.171019  1
+  Sc  Sc5  1  0.750000  0.029506  0.688040  1
+  Sc  Sc6  1  0.750000  0.506098  0.839790  1
+  Al  Al7  1  0.750000  0.146099  0.072317  1
+  Pt  Pt8  1  0.250000  0.239585  0.886911  1
+  Pt  Pt9  1  0.250000  0.754325  0.598842  1
+  Pt  Pt10  1  0.750000  0.763743  0.108172  1
+  Pt  Pt11  1  0.750000  0.254076  0.392977  1

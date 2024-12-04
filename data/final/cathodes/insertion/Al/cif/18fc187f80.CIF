@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tb8Al3Fe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.25017400
+_cell_length_b   10.25017393
+_cell_length_c   6.90407900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000022
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb8Al3Fe
+_chemical_formula_sum   'Tb16 Al6 Fe2'
+_cell_volume   628.20133582
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.825297  0.650594  0.495211  1
+  Tb  Tb1  1  0.349406  0.174703  0.495211  1
+  Tb  Tb2  1  0.825297  0.174703  0.495211  1
+  Tb  Tb3  1  0.174703  0.349406  0.995211  1
+  Tb  Tb4  1  0.650594  0.825297  0.995211  1
+  Tb  Tb5  1  0.174703  0.825297  0.995211  1
+  Tb  Tb6  1  0.666667  0.333333  0.171257  1
+  Tb  Tb7  1  0.333333  0.666667  0.671257  1
+  Tb  Tb8  1  0.535172  0.070342  0.789700  1
+  Tb  Tb9  1  0.929658  0.464828  0.789700  1
+  Tb  Tb10  1  0.535172  0.464828  0.789700  1
+  Tb  Tb11  1  0.464828  0.929658  0.289700  1
+  Tb  Tb12  1  0.070342  0.535172  0.289700  1
+  Tb  Tb13  1  0.464828  0.535172  0.289700  1
+  Tb  Tb14  1  0.000000  0.000000  0.774247  1
+  Tb  Tb15  1  0.000000  0.000000  0.274247  1
+  Al  Al16  1  0.836811  0.673623  0.034271  1
+  Al  Al17  1  0.326377  0.163189  0.034271  1
+  Al  Al18  1  0.836811  0.163189  0.034271  1
+  Al  Al19  1  0.163189  0.326377  0.534271  1
+  Al  Al20  1  0.673623  0.836811  0.534271  1
+  Al  Al21  1  0.163189  0.836811  0.534271  1
+  Fe  Fe22  1  0.666667  0.333333  0.559989  1
+  Fe  Fe23  1  0.333333  0.666667  0.059989  1

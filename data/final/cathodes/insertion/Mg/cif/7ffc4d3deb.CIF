@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_DyMg3P7N12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32630066
+_cell_length_b   7.32630172
+_cell_length_c   7.32630137
+_cell_angle_alpha   109.50630022
+_cell_angle_beta   109.50630127
+_cell_angle_gamma   109.50629457
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyMg3P7N12
+_chemical_formula_sum   'Dy1 Mg3 P7 N12'
+_cell_volume   302.32016105
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.332128  0.332128  0.332128  1
+  Mg  Mg1  1  0.001820  0.654602  0.001820  1
+  Mg  Mg2  1  0.654602  0.001820  0.001820  1
+  Mg  Mg3  1  0.001820  0.001820  0.654602  1
+  P  P4  1  0.504226  0.251150  0.755892  1
+  P  P5  1  0.504226  0.755892  0.251150  1
+  P  P6  1  0.755892  0.251150  0.504226  1
+  P  P7  1  0.251150  0.504226  0.755892  1
+  P  P8  1  0.755892  0.504226  0.251150  1
+  P  P9  1  0.251150  0.755892  0.504226  1
+  P  P10  1  0.971189  0.971189  0.971189  1
+  N  N11  1  0.002256  0.726573  0.432274  1
+  N  N12  1  0.281705  0.704706  0.281705  1
+  N  N13  1  0.280953  0.572316  0.572316  1
+  N  N14  1  0.572316  0.572316  0.280953  1
+  N  N15  1  0.572316  0.280953  0.572316  1
+  N  N16  1  0.726573  0.002256  0.432274  1
+  N  N17  1  0.432274  0.002256  0.726573  1
+  N  N18  1  0.726573  0.432274  0.002256  1
+  N  N19  1  0.281705  0.281705  0.704706  1
+  N  N20  1  0.704706  0.281705  0.281705  1
+  N  N21  1  0.002256  0.432274  0.726573  1
+  N  N22  1  0.432274  0.726573  0.002256  1

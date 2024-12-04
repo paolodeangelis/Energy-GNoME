@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_DyAlTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07154514
+_cell_length_b   5.06605818
+_cell_length_c   4.93937695
+_cell_angle_alpha   90.07236410
+_cell_angle_beta   89.96416301
+_cell_angle_gamma   119.96486355
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyAlTeO6
+_chemical_formula_sum   'Dy1 Al1 Te1 O6'
+_cell_volume   109.94274627
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.000263  0.000136  0.999989  1
+  Al  Al1  1  0.333271  0.666639  0.499999  1
+  Te  Te2  1  0.666660  0.333334  0.499966  1
+  O  O3  1  0.363564  0.366107  0.283160  1
+  O  O4  1  0.003033  0.636572  0.283276  1
+  O  O5  1  0.633325  0.996317  0.283134  1
+  O  O6  1  0.003017  0.366468  0.716741  1
+  O  O7  1  0.633300  0.636974  0.716903  1
+  O  O8  1  0.363569  0.997455  0.716831  1

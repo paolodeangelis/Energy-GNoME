@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaY2Ag(Ir2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27662357
+_cell_length_b   7.27662431
+_cell_length_c   7.20161920
+_cell_angle_alpha   59.71079168
+_cell_angle_beta   59.71078955
+_cell_angle_gamma   60.46662729
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaY2Ag(Ir2O7)2
+_chemical_formula_sum   'Na1 Y2 Ag1 Ir4 O14'
+_cell_volume   269.37491672
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.125000  0.125000  0.125000  1
+  Y  Y1  1  0.625000  0.125000  0.125000  1
+  Y  Y2  1  0.125000  0.625000  0.125000  1
+  Ag  Ag3  1  0.125000  0.125000  0.625000  1
+  Ir  Ir4  1  0.125000  0.625000  0.625000  1
+  Ir  Ir5  1  0.625000  0.125000  0.625000  1
+  Ir  Ir6  1  0.625000  0.625000  0.125000  1
+  Ir  Ir7  1  0.625000  0.625000  0.625000  1
+  O  O8  1  0.709143  0.709143  0.290530  1
+  O  O9  1  0.305333  0.305333  0.688485  1
+  O  O10  1  0.691325  0.301456  0.708582  1
+  O  O11  1  0.298033  0.693451  0.293957  1
+  O  O12  1  0.301456  0.691325  0.708582  1
+  O  O13  1  0.693451  0.298033  0.293957  1
+  O  O14  1  0.540857  0.540857  0.959470  1
+  O  O15  1  0.944667  0.944667  0.561515  1
+  O  O16  1  0.558675  0.948544  0.541418  1
+  O  O17  1  0.951967  0.556549  0.956043  1
+  O  O18  1  0.948544  0.558675  0.541418  1
+  O  O19  1  0.556549  0.951967  0.956043  1
+  O  O20  1  0.251821  0.251821  0.267428  1
+  O  O21  1  0.998179  0.998179  0.982572  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KBa3(Ni3N2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30614383
+_cell_length_b   6.32792613
+_cell_length_c   7.43861626
+_cell_angle_alpha   90.25664414
+_cell_angle_beta   89.81572783
+_cell_angle_gamma   111.97410265
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa3(Ni3N2)2
+_chemical_formula_sum   'K1 Ba3 Ni6 N4'
+_cell_volume   275.26918100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.173407  0.831765  0.093716  1
+  Ba  Ba1  1  0.668565  0.335206  0.405247  1
+  Ba  Ba2  1  0.331709  0.670036  0.592620  1
+  Ba  Ba3  1  0.838061  0.166160  0.913344  1
+  Ni  Ni4  1  0.173051  0.323979  0.258413  1
+  Ni  Ni5  1  0.322978  0.171479  0.738598  1
+  Ni  Ni6  1  0.823701  0.671783  0.757512  1
+  Ni  Ni7  1  0.672963  0.823400  0.243169  1
+  Ni  Ni8  1  0.028913  0.038427  0.500580  1
+  Ni  Ni9  1  0.526495  0.526943  0.999871  1
+  N  N10  1  0.920909  0.071373  0.277842  1
+  N  N11  1  0.066632  0.921580  0.718594  1
+  N  N12  1  0.571288  0.418519  0.777660  1
+  N  N13  1  0.422331  0.570352  0.222835  1

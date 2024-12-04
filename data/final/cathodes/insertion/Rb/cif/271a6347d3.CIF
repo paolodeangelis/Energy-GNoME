@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_RbMnCo3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.69734105
+_cell_length_b   7.57306697
+_cell_length_c   5.71011678
+_cell_angle_alpha   91.08254399
+_cell_angle_beta   120.13733268
+_cell_angle_gamma   110.57534632
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMnCo3O8
+_chemical_formula_sum   'Rb1 Mn1 Co3 O8'
+_cell_volume   193.58338233
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.500000  0.500000  1
+  Mn  Mn1  1  0.500000  0.000000  0.500000  1
+  Co  Co2  1  0.000000  0.000000  0.000000  1
+  Co  Co3  1  0.500000  0.000000  0.000000  1
+  Co  Co4  1  0.000000  0.000000  0.500000  1
+  O  O5  1  0.573720  0.858756  0.278844  1
+  O  O6  1  0.072651  0.857340  0.279866  1
+  O  O7  1  0.577042  0.857417  0.788153  1
+  O  O8  1  0.078625  0.861530  0.788393  1
+  O  O9  1  0.921375  0.138470  0.211607  1
+  O  O10  1  0.422958  0.142583  0.211847  1
+  O  O11  1  0.927349  0.142660  0.720134  1
+  O  O12  1  0.426280  0.141244  0.721156  1

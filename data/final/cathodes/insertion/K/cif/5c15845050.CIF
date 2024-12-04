@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2FeP4Ir3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54232600
+_cell_length_b   7.14581706
+_cell_length_c   5.54283487
+_cell_angle_alpha   67.13172560
+_cell_angle_beta   89.99990696
+_cell_angle_gamma   89.99995574
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2FeP4Ir3
+_chemical_formula_sum   'K2 Fe1 P4 Ir3'
+_cell_volume   202.26672971
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.993971  0.000001  0.999999  1
+  K  K1  1  0.505991  0.999999  0.500001  1
+  Fe  Fe2  1  0.249954  0.499999  0.499999  1
+  P  P3  1  0.488766  0.688563  0.166577  1
+  P  P4  1  0.011253  0.688578  0.644449  1
+  P  P5  1  0.011256  0.311422  0.355550  1
+  P  P6  1  0.488769  0.311439  0.833422  1
+  Ir  Ir7  1  0.249996  0.500001  0.000001  1
+  Ir  Ir8  1  0.750027  0.500001  0.000000  1
+  Ir  Ir9  1  0.750019  0.499997  0.500000  1

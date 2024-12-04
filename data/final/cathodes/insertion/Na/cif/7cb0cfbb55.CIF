@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaCo(PdO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18971577
+_cell_length_b   5.19579243
+_cell_length_c   5.99431212
+_cell_angle_alpha   73.08623528
+_cell_angle_beta   98.35393790
+_cell_angle_gamma   120.04039320
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCo(PdO3)2
+_chemical_formula_sum   'Na1 Co1 Pd2 O6'
+_cell_volume   133.87023165
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.331617  0.165949  0.500012  1
+  Co  Co1  1  0.999041  0.999484  0.999991  1
+  Pd  Pd2  1  0.668706  0.334310  0.999965  1
+  Pd  Pd3  1  0.333671  0.666905  0.999960  1
+  O  O4  1  0.321103  0.943807  0.175564  1
+  O  O5  1  0.002912  0.260490  0.176421  1
+  O  O6  1  0.675907  0.615807  0.177846  1
+  O  O7  1  0.676057  0.060088  0.822171  1
+  O  O8  1  0.321206  0.377326  0.824456  1
+  O  O9  1  0.003116  0.742500  0.823613  1

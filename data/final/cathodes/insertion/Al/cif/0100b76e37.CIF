@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy3Ho(ErAl)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07175500
+_cell_length_b   6.56286885
+_cell_length_c   9.39435900
+_cell_angle_alpha   90.02917665
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3Ho(ErAl)4
+_chemical_formula_sum   'Dy3 Ho1 Er4 Al4'
+_cell_volume   312.69366863
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.250000  0.812092  0.928577  1
+  Dy  Dy1  1  0.250000  0.312694  0.571533  1
+  Dy  Dy2  1  0.750000  0.187552  0.071200  1
+  Ho  Ho3  1  0.750000  0.687488  0.428652  1
+  Er  Er4  1  0.250000  0.969719  0.288824  1
+  Er  Er5  1  0.250000  0.469385  0.211293  1
+  Er  Er6  1  0.750000  0.030244  0.711030  1
+  Er  Er7  1  0.750000  0.530296  0.788917  1
+  Al  Al8  1  0.250000  0.290310  0.895935  1
+  Al  Al9  1  0.250000  0.790466  0.603682  1
+  Al  Al10  1  0.750000  0.709744  0.104405  1
+  Al  Al11  1  0.750000  0.210012  0.395952  1

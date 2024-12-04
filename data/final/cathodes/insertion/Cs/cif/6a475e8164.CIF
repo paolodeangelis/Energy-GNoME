@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CsBiP2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99102961
+_cell_length_b   6.99102915
+_cell_length_c   6.96536863
+_cell_angle_alpha   96.90114547
+_cell_angle_beta   96.90113765
+_cell_angle_gamma   97.54725484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBiP2S7
+_chemical_formula_sum   'Cs1 Bi1 P2 S7'
+_cell_volume   331.82314354
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.100517  0.899482  0.000000  1
+  Bi  Bi1  1  0.512906  0.487095  0.500000  1
+  P  P2  1  0.670270  0.947057  0.406704  1
+  P  P3  1  0.052943  0.329730  0.593296  1
+  S  S4  1  0.655602  0.699610  0.214269  1
+  S  S5  1  0.574168  0.152664  0.252524  1
+  S  S6  1  0.109265  0.454611  0.354088  1
+  S  S7  1  0.981577  0.018424  0.500000  1
+  S  S8  1  0.545389  0.890735  0.645912  1
+  S  S9  1  0.847336  0.425832  0.747476  1
+  S  S10  1  0.300390  0.344397  0.785731  1

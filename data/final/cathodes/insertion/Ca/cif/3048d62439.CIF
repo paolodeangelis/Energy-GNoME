@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaTb6CoCl12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.82335807
+_cell_length_b   8.82335808
+_cell_length_c   8.82335705
+_cell_angle_alpha   106.47104400
+_cell_angle_beta   106.47104625
+_cell_angle_gamma   106.47104181
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTb6CoCl12
+_chemical_formula_sum   'Ca1 Tb6 Co1 Cl12'
+_cell_volume   580.12428953
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.500000  0.500000  1
+  Tb  Tb1  1  0.314988  0.106390  0.022966  1
+  Tb  Tb2  1  0.022966  0.314988  0.106390  1
+  Tb  Tb3  1  0.106390  0.022966  0.314988  1
+  Tb  Tb4  1  0.685012  0.893610  0.977034  1
+  Tb  Tb5  1  0.977034  0.685012  0.893610  1
+  Tb  Tb6  1  0.893610  0.977034  0.685012  1
+  Co  Co7  1  0.000000  0.000000  0.000000  1
+  Cl  Cl8  1  0.679831  0.216533  0.071409  1
+  Cl  Cl9  1  0.071409  0.679831  0.216533  1
+  Cl  Cl10  1  0.216533  0.071409  0.679831  1
+  Cl  Cl11  1  0.320169  0.783467  0.928591  1
+  Cl  Cl12  1  0.928591  0.320169  0.783467  1
+  Cl  Cl13  1  0.783467  0.928591  0.320169  1
+  Cl  Cl14  1  0.452741  0.159498  0.372711  1
+  Cl  Cl15  1  0.372711  0.452741  0.159498  1
+  Cl  Cl16  1  0.159498  0.372711  0.452741  1
+  Cl  Cl17  1  0.547259  0.840502  0.627289  1
+  Cl  Cl18  1  0.627289  0.547259  0.840502  1
+  Cl  Cl19  1  0.840502  0.627289  0.547259  1

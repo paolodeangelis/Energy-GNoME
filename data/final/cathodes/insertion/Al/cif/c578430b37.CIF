@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Li2Th3AlAu3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26036100
+_cell_length_b   7.33547798
+_cell_length_c   4.38456300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.66181667
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Th3AlAu3
+_chemical_formula_sum   'Li2 Th3 Al1 Au3'
+_cell_volume   202.91468877
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.998188  0.772199  0.000000  1
+  Li  Li1  1  0.225989  0.227801  0.000000  1
+  Th  Th2  1  0.005944  0.421564  0.500000  1
+  Th  Th3  1  0.584380  0.578436  0.500000  1
+  Th  Th4  1  0.419753  0.000000  0.500000  1
+  Al  Al5  1  0.770502  0.000000  0.000000  1
+  Au  Au6  1  0.337286  0.674168  0.000000  1
+  Au  Au7  1  0.663120  0.325832  0.000000  1
+  Au  Au8  1  0.994838  0.000000  0.500000  1

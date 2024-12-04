@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs4Na2LuAlAs4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.80264780
+_cell_length_b   7.10991079
+_cell_length_c   9.79198447
+_cell_angle_alpha   111.28745873
+_cell_angle_beta   110.32579979
+_cell_angle_gamma   90.00000271
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4Na2LuAlAs4
+_chemical_formula_sum   'Cs4 Na2 Lu1 Al1 As4'
+_cell_volume   409.47728562
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.174140  0.448708  0.353653  1
+  Cs  Cs1  1  0.679511  0.904945  0.353653  1
+  Cs  Cs2  1  0.325860  0.095056  0.646348  1
+  Cs  Cs3  1  0.820488  0.551292  0.646348  1
+  Na  Na4  1  0.250000  0.500000  0.000000  1
+  Na  Na5  1  0.750001  0.500000  0.000000  1
+  Lu  Lu6  1  0.250000  0.000000  0.000000  1
+  Al  Al7  1  0.750001  0.000000  0.000000  1
+  As  As8  1  0.604064  0.295369  0.173582  1
+  As  As9  1  0.069518  0.878213  0.173582  1
+  As  As10  1  0.895936  0.121788  0.826418  1
+  As  As11  1  0.430482  0.704632  0.826418  1

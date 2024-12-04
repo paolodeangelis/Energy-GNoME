@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaLaMnPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61846439
+_cell_length_b   5.31499126
+_cell_length_c   5.61846400
+_cell_angle_alpha   58.09254779
+_cell_angle_beta   60.00000227
+_cell_angle_gamma   58.09254697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLaMnPt3
+_chemical_formula_sum   'Na1 La1 Mn1 Pt3'
+_cell_volume   115.10136283
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.751054  0.746837  0.751054  1
+  La  La1  1  0.502839  0.491484  0.502839  1
+  Mn  Mn2  1  0.124072  0.627784  0.124072  1
+  Pt  Pt3  1  0.122834  0.127965  0.626369  1
+  Pt  Pt4  1  0.626369  0.127965  0.122834  1
+  Pt  Pt5  1  0.122834  0.127965  0.122834  1

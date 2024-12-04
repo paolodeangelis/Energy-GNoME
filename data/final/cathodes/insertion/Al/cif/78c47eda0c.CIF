@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbNd2Th(AlRh)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28835400
+_cell_length_b   7.03122421
+_cell_length_c   8.09876014
+_cell_angle_alpha   90.71336288
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbNd2Th(AlRh)4
+_chemical_formula_sum   'Tb1 Nd2 Th1 Al4 Rh4'
+_cell_volume   244.17795382
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.750000  0.459373  0.814383  1
+  Nd  Nd1  1  0.750000  0.959488  0.681140  1
+  Nd  Nd2  1  0.250000  0.039959  0.320856  1
+  Th  Th3  1  0.250000  0.538686  0.175759  1
+  Al  Al4  1  0.250000  0.629205  0.564565  1
+  Al  Al5  1  0.750000  0.364814  0.443266  1
+  Al  Al6  1  0.750000  0.872808  0.060131  1
+  Al  Al7  1  0.250000  0.136129  0.935890  1
+  Rh  Rh8  1  0.250000  0.761306  0.890907  1
+  Rh  Rh9  1  0.750000  0.245511  0.117726  1
+  Rh  Rh10  1  0.750000  0.724842  0.373803  1
+  Rh  Rh11  1  0.250000  0.267880  0.621572  1

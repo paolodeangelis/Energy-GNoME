@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CsK3(AlI4)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56171700
+_cell_length_b   9.21348751
+_cell_length_c   16.81793523
+_cell_angle_alpha   89.31837955
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsK3(AlI4)4
+_chemical_formula_sum   'Cs1 K3 Al4 I16'
+_cell_volume   1326.55989284
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.058522  0.649856  1
+  K  K1  1  0.250000  0.447760  0.148398  1
+  K  K2  1  0.750000  0.944548  0.349144  1
+  K  K3  1  0.750000  0.559320  0.856005  1
+  Al  Al4  1  0.250000  0.303372  0.902176  1
+  Al  Al5  1  0.750000  0.781340  0.606041  1
+  Al  Al6  1  0.750000  0.703082  0.105873  1
+  Al  Al7  1  0.250000  0.210229  0.385790  1
+  I  I8  1  0.250000  0.137130  0.024345  1
+  I  I9  1  0.750000  0.633615  0.478859  1
+  I  I10  1  0.750000  0.866684  0.982299  1
+  I  I11  1  0.250000  0.380442  0.503917  1
+  I  I12  1  0.250000  0.939520  0.425622  1
+  I  I13  1  0.750000  0.434283  0.066361  1
+  I  I14  1  0.750000  0.054979  0.570343  1
+  I  I15  1  0.250000  0.572980  0.940419  1
+  I  I16  1  0.990867  0.758600  0.193057  1
+  I  I17  1  0.006267  0.261368  0.299250  1
+  I  I18  1  0.494001  0.249671  0.817035  1
+  I  I19  1  0.510887  0.716459  0.692936  1
+  I  I20  1  0.005999  0.249671  0.817035  1
+  I  I21  1  0.989113  0.716459  0.692936  1
+  I  I22  1  0.509133  0.758600  0.193057  1
+  I  I23  1  0.493733  0.261368  0.299250  1

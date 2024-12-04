@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_SmTiAlO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.73555900
+_cell_length_b   7.53703400
+_cell_length_c   8.55926000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmTiAlO5
+_chemical_formula_sum   'Sm4 Ti4 Al4 O20'
+_cell_volume   370.00913379
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.000000  0.358985  0.328689  1
+  Sm  Sm1  1  0.000000  0.641015  0.671311  1
+  Sm  Sm2  1  0.000000  0.858985  0.171311  1
+  Sm  Sm3  1  0.000000  0.141015  0.828689  1
+  Ti  Ti4  1  0.500000  0.124473  0.144617  1
+  Ti  Ti5  1  0.500000  0.875527  0.855383  1
+  Ti  Ti6  1  0.500000  0.624473  0.355383  1
+  Ti  Ti7  1  0.500000  0.375527  0.644617  1
+  Al  Al8  1  0.244474  0.500000  0.000000  1
+  Al  Al9  1  0.755526  0.000000  0.500000  1
+  Al  Al10  1  0.755526  0.500000  0.000000  1
+  Al  Al11  1  0.244474  0.000000  0.500000  1
+  O  O12  1  0.000000  0.342534  0.055377  1
+  O  O13  1  0.000000  0.657466  0.944623  1
+  O  O14  1  0.000000  0.842534  0.444623  1
+  O  O15  1  0.000000  0.157466  0.555377  1
+  O  O16  1  0.500000  0.349120  0.070330  1
+  O  O17  1  0.500000  0.650880  0.929670  1
+  O  O18  1  0.500000  0.849120  0.429670  1
+  O  O19  1  0.500000  0.150880  0.570330  1
+  O  O20  1  0.254910  0.104783  0.293412  1
+  O  O21  1  0.254910  0.895217  0.706588  1
+  O  O22  1  0.745090  0.604783  0.206588  1
+  O  O23  1  0.745090  0.395217  0.793412  1
+  O  O24  1  0.745090  0.895217  0.706588  1
+  O  O25  1  0.745090  0.104783  0.293412  1
+  O  O26  1  0.254910  0.395217  0.793412  1
+  O  O27  1  0.254910  0.604783  0.206588  1
+  O  O28  1  0.280778  0.000000  0.000000  1
+  O  O29  1  0.719222  0.500000  0.500000  1
+  O  O30  1  0.719222  0.000000  0.000000  1
+  O  O31  1  0.280778  0.500000  0.500000  1

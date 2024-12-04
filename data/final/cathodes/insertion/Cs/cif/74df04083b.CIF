@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_CsGaSi3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45969365
+_cell_length_b   7.90662878
+_cell_length_c   8.19644803
+_cell_angle_alpha   109.35035253
+_cell_angle_beta   104.46305025
+_cell_angle_gamma   104.12776934
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsGaSi3O8
+_chemical_formula_sum   'Cs2 Ga2 Si6 O16'
+_cell_volume   412.44041097
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.149106  0.304465  0.299341  1
+  Cs  Cs1  1  0.850894  0.695535  0.700659  1
+  Ga  Ga2  1  0.214764  0.815891  0.213980  1
+  Ga  Ga3  1  0.785236  0.184109  0.786020  1
+  Si  Si4  1  0.240525  0.209528  0.824611  1
+  Si  Si5  1  0.759475  0.790472  0.175389  1
+  Si  Si6  1  0.343026  0.613207  0.863071  1
+  Si  Si7  1  0.357192  0.853697  0.621876  1
+  Si  Si8  1  0.656974  0.386793  0.136929  1
+  Si  Si9  1  0.642808  0.146303  0.378124  1
+  O  O10  1  0.285717  0.692650  0.703179  1
+  O  O11  1  0.714283  0.307350  0.296821  1
+  O  O12  1  0.403225  0.055775  0.295768  1
+  O  O13  1  0.415135  0.290220  0.029674  1
+  O  O14  1  0.596775  0.944225  0.704232  1
+  O  O15  1  0.584865  0.709780  0.970326  1
+  O  O16  1  0.258771  0.730842  0.398091  1
+  O  O17  1  0.281565  0.378533  0.747509  1
+  O  O18  1  0.741229  0.269158  0.601909  1
+  O  O19  1  0.718435  0.621467  0.252491  1
+  O  O20  1  0.217940  0.650189  0.996700  1
+  O  O21  1  0.256343  0.017350  0.681805  1
+  O  O22  1  0.782060  0.349811  0.003300  1
+  O  O23  1  0.743657  0.982650  0.318195  1
+  O  O24  1  0.971860  0.845860  0.152547  1
+  O  O25  1  0.028140  0.154140  0.847453  1

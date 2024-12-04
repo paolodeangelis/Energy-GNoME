@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al4Fe2IrPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.93228600
+_cell_length_b   4.19075900
+_cell_length_c   8.38451500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00009613
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al4Fe2IrPt
+_chemical_formula_sum   'Al8 Fe4 Ir2 Pt2'
+_cell_volume   208.44559075
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.997596  0.750001  0.121523  1
+  Al  Al1  1  0.502391  0.750001  0.121525  1
+  Al  Al2  1  0.002395  0.250001  0.378469  1
+  Al  Al3  1  0.497595  0.250001  0.378471  1
+  Al  Al4  1  0.497480  0.750001  0.628609  1
+  Al  Al5  1  0.002529  0.750001  0.628613  1
+  Al  Al6  1  0.502511  0.250001  0.871391  1
+  Al  Al7  1  0.997500  0.250001  0.871394  1
+  Fe  Fe8  1  0.749993  0.250001  0.127817  1
+  Fe  Fe9  1  0.249994  0.750001  0.372181  1
+  Fe  Fe10  1  0.750007  0.250001  0.622607  1
+  Fe  Fe11  1  0.250007  0.750001  0.877404  1
+  Ir  Ir12  1  0.250004  0.250001  0.624125  1
+  Ir  Ir13  1  0.750003  0.750001  0.875885  1
+  Pt  Pt14  1  0.249997  0.250001  0.125769  1
+  Pt  Pt15  1  0.749998  0.750001  0.374218  1

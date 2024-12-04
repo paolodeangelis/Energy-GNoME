@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Rb2Fe(GeO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08867936
+_cell_length_b   6.08867932
+_cell_length_c   11.26629700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.74923018
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2Fe(GeO3)2
+_chemical_formula_sum   'Rb4 Fe2 Ge4 O12'
+_cell_volume   382.29522864
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.786310  0.435237  0.924507  1
+  Rb  Rb1  1  0.564763  0.213690  0.575493  1
+  Rb  Rb2  1  0.213690  0.564763  0.424507  1
+  Rb  Rb3  1  0.435237  0.786310  0.075493  1
+  Fe  Fe4  1  0.687037  0.312963  0.250000  1
+  Fe  Fe5  1  0.312963  0.687037  0.750000  1
+  Ge  Ge6  1  0.830716  0.865684  0.362392  1
+  Ge  Ge7  1  0.134316  0.169284  0.137608  1
+  Ge  Ge8  1  0.169284  0.134316  0.862392  1
+  Ge  Ge9  1  0.865684  0.830716  0.637608  1
+  O  O10  1  0.623284  0.990267  0.333006  1
+  O  O11  1  0.551124  0.710594  0.622725  1
+  O  O12  1  0.710594  0.551124  0.377275  1
+  O  O13  1  0.376716  0.009733  0.833006  1
+  O  O14  1  0.993413  0.993413  0.500000  1
+  O  O15  1  0.448876  0.289406  0.122725  1
+  O  O16  1  0.060620  0.939380  0.250000  1
+  O  O17  1  0.289406  0.448876  0.877275  1
+  O  O18  1  0.006587  0.006587  0.000000  1
+  O  O19  1  0.939380  0.060620  0.750000  1
+  O  O20  1  0.009733  0.376716  0.166994  1
+  O  O21  1  0.990267  0.623284  0.666994  1

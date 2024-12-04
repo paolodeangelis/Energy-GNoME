@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_La4DyAlSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.41282460
+_cell_length_b   9.41282418
+_cell_length_c   9.41282411
+_cell_angle_alpha   96.34430803
+_cell_angle_beta   96.34430773
+_cell_angle_gamma   141.16856985
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La4DyAlSn2
+_chemical_formula_sum   'La8 Dy2 Al2 Sn4'
+_cell_volume   493.19798539
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.913521  0.219151  0.132672  1
+  La  La1  1  0.219151  0.086479  0.305629  1
+  La  La2  1  0.780849  0.913521  0.694371  1
+  La  La3  1  0.086479  0.780849  0.867328  1
+  La  La4  1  0.719151  0.413521  0.132672  1
+  La  La5  1  0.280849  0.586479  0.867328  1
+  La  La6  1  0.586479  0.719151  0.305629  1
+  La  La7  1  0.413521  0.280849  0.694371  1
+  Dy  Dy8  1  0.750000  0.250000  0.500000  1
+  Dy  Dy9  1  0.250000  0.750000  0.500000  1
+  Al  Al10  1  0.750000  0.750000  0.000000  1
+  Al  Al11  1  0.250000  0.250000  0.000000  1
+  Sn  Sn12  1  0.844654  0.655346  0.500000  1
+  Sn  Sn13  1  0.655346  0.155346  0.810692  1
+  Sn  Sn14  1  0.344654  0.844654  0.189308  1
+  Sn  Sn15  1  0.155346  0.344654  0.500000  1

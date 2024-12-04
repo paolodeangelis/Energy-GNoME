@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na3Fe2RhO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32413936
+_cell_length_b   5.32415922
+_cell_length_c   5.68110906
+_cell_angle_alpha   98.98720123
+_cell_angle_beta   98.98665058
+_cell_angle_gamma   120.00452648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Fe2RhO6
+_chemical_formula_sum   'Na3 Fe2 Rh1 O6'
+_cell_volume   132.47669805
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.835074  0.164931  0.500001  1
+  Na  Na1  1  0.499999  0.499999  0.499999  1
+  Na  Na2  1  0.164925  0.835068  0.499997  1
+  Fe  Fe3  1  0.666829  0.333278  0.000023  1
+  Fe  Fe4  1  0.333171  0.666722  0.999977  1
+  Rh  Rh5  1  0.000000  0.000000  0.000000  1
+  O  O6  1  0.406140  0.068184  0.203695  1
+  O  O7  1  0.068183  0.406140  0.203694  1
+  O  O8  1  0.729839  0.729840  0.203527  1
+  O  O9  1  0.270162  0.270161  0.796473  1
+  O  O10  1  0.931816  0.593859  0.796307  1
+  O  O11  1  0.593859  0.931815  0.796306  1

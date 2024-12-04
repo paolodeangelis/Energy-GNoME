@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al8Os3RuPt4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.96935104
+_cell_length_b   5.96930804
+_cell_length_c   6.22949400
+_cell_angle_alpha   90.00642133
+_cell_angle_beta   90.00645008
+_cell_angle_gamma   90.00011446
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al8Os3RuPt4
+_chemical_formula_sum   'Al8 Os3 Ru1 Pt4'
+_cell_volume   221.97490361
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.500029  0.999980  0.250261  1
+  Al  Al1  1  0.500044  0.500005  0.250266  1
+  Al  Al2  1  0.999996  0.999977  0.250419  1
+  Al  Al3  1  0.000005  0.500035  0.250422  1
+  Al  Al4  1  0.999968  0.999979  0.749574  1
+  Al  Al5  1  0.999960  0.500005  0.749578  1
+  Al  Al6  1  0.500005  0.999986  0.749741  1
+  Al  Al7  1  0.499995  0.500028  0.749737  1
+  Os  Os8  1  0.249945  0.250001  0.999999  1
+  Os  Os9  1  0.750061  0.749999  0.000001  1
+  Os  Os10  1  0.250065  0.249999  0.499997  1
+  Ru  Ru11  1  0.749923  0.750000  0.500006  1
+  Pt  Pt12  1  0.249959  0.749999  0.000019  1
+  Pt  Pt13  1  0.749963  0.249999  0.499978  1
+  Pt  Pt14  1  0.250042  0.750000  0.500020  1
+  Pt  Pt15  1  0.750045  0.250000  0.999981  1

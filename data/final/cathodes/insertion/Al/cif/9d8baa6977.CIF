@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce3Sm3Y4(Al2Ru3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.49226666
+_cell_length_b   8.49226692
+_cell_length_c   8.49226672
+_cell_angle_alpha   110.18191055
+_cell_angle_beta   110.18191140
+_cell_angle_gamma   110.18191929
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce3Sm3Y4(Al2Ru3)2
+_chemical_formula_sum   'Ce3 Sm3 Y4 Al4 Ru6'
+_cell_volume   458.64000378
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.251213  0.199286  0.944651  1
+  Ce  Ce1  1  0.944651  0.251213  0.199286  1
+  Ce  Ce2  1  0.199286  0.944651  0.251213  1
+  Sm  Sm3  1  0.722473  0.506761  0.994021  1
+  Sm  Sm4  1  0.994021  0.722473  0.506761  1
+  Sm  Sm5  1  0.506761  0.994021  0.722473  1
+  Y  Y6  1  0.778552  0.778552  0.778552  1
+  Y  Y7  1  0.312948  0.565408  0.752625  1
+  Y  Y8  1  0.752625  0.312948  0.565408  1
+  Y  Y9  1  0.565408  0.752625  0.312948  1
+  Al  Al10  1  0.409787  0.409787  0.409787  1
+  Al  Al11  1  0.096770  0.498224  0.003729  1
+  Al  Al12  1  0.003729  0.096770  0.498224  1
+  Al  Al13  1  0.498224  0.003729  0.096770  1
+  Ru  Ru14  1  0.908950  0.121270  0.754409  1
+  Ru  Ru15  1  0.754409  0.908950  0.121270  1
+  Ru  Ru16  1  0.121270  0.754409  0.908950  1
+  Ru  Ru17  1  0.223076  0.590980  0.364867  1
+  Ru  Ru18  1  0.364867  0.223076  0.590980  1
+  Ru  Ru19  1  0.590980  0.364867  0.223076  1

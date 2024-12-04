@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsRb2AsSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.39348400
+_cell_length_b   10.39348400
+_cell_length_c   10.39348400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRb2AsSe3
+_chemical_formula_sum   'Cs4 Rb8 As4 Se12'
+_cell_volume   1122.75101274
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.927874  0.427874  0.072126  1
+  Cs  Cs1  1  0.427874  0.072126  0.927874  1
+  Cs  Cs2  1  0.072126  0.927874  0.427874  1
+  Cs  Cs3  1  0.572126  0.572126  0.572126  1
+  Rb  Rb4  1  0.184340  0.684340  0.815660  1
+  Rb  Rb5  1  0.684340  0.815660  0.184340  1
+  Rb  Rb6  1  0.815660  0.184340  0.684340  1
+  Rb  Rb7  1  0.315660  0.315660  0.315660  1
+  Rb  Rb8  1  0.689988  0.189988  0.310012  1
+  Rb  Rb9  1  0.189988  0.310012  0.689988  1
+  Rb  Rb10  1  0.310012  0.689988  0.189988  1
+  Rb  Rb11  1  0.810012  0.810012  0.810012  1
+  As  As12  1  0.482022  0.982022  0.517978  1
+  As  As13  1  0.982022  0.517978  0.482022  1
+  As  As14  1  0.517978  0.482022  0.982022  1
+  As  As15  1  0.017978  0.017978  0.017978  1
+  Se  Se16  1  0.003775  0.795275  0.089857  1
+  Se  Se17  1  0.910143  0.503775  0.704725  1
+  Se  Se18  1  0.295275  0.410143  0.996225  1
+  Se  Se19  1  0.503775  0.704725  0.910143  1
+  Se  Se20  1  0.410143  0.996225  0.295275  1
+  Se  Se21  1  0.795275  0.089857  0.003775  1
+  Se  Se22  1  0.996225  0.295275  0.410143  1
+  Se  Se23  1  0.089857  0.003775  0.795275  1
+  Se  Se24  1  0.704725  0.910143  0.503775  1
+  Se  Se25  1  0.496225  0.204725  0.589857  1
+  Se  Se26  1  0.589857  0.496225  0.204725  1
+  Se  Se27  1  0.204725  0.589857  0.496225  1

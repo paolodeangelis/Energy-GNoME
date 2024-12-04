@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2RbHoAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.99392648
+_cell_length_b   9.99392522
+_cell_length_c   9.99392684
+_cell_angle_alpha   130.48198181
+_cell_angle_beta   136.36653885
+_cell_angle_gamma   68.10061356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2RbHoAs2
+_chemical_formula_sum   'Cs4 Rb2 Ho2 As4'
+_cell_volume   514.89144703
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.685836  0.464995  0.779160  1
+  Cs  Cs1  1  0.814164  0.093325  0.279160  1
+  Cs  Cs2  1  0.185836  0.906675  0.720840  1
+  Cs  Cs3  1  0.314164  0.535005  0.220840  1
+  Rb  Rb4  1  0.750000  0.000000  0.750000  1
+  Rb  Rb5  1  0.250000  0.000000  0.250000  1
+  Ho  Ho6  1  0.250000  0.500000  0.750000  1
+  Ho  Ho7  1  0.750000  0.500000  0.250000  1
+  As  As8  1  0.409635  0.222555  0.812920  1
+  As  As9  1  0.590365  0.777445  0.187080  1
+  As  As10  1  0.090365  0.403284  0.312920  1
+  As  As11  1  0.909635  0.596716  0.687080  1

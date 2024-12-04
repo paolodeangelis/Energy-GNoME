@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cs12KRb5(GaSb4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.30018900
+_cell_length_b   11.27153049
+_cell_length_c   11.92165800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.08413987
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs12KRb5(GaSb4)2
+_chemical_formula_sum   'Cs12 K1 Rb5 Ga2 Sb8'
+_cell_volume   1313.91432371
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.418336  0.209103  0.041605  1
+  Cs  Cs1  1  0.790765  0.209103  0.041605  1
+  Cs  Cs2  1  0.791110  0.582219  0.040878  1
+  Cs  Cs3  1  0.791110  0.582219  0.459122  1
+  Cs  Cs4  1  0.418336  0.209103  0.458395  1
+  Cs  Cs5  1  0.790765  0.209103  0.458395  1
+  Cs  Cs6  1  0.208815  0.790832  0.541962  1
+  Cs  Cs7  1  0.582018  0.790832  0.541962  1
+  Cs  Cs8  1  0.209145  0.418290  0.541612  1
+  Cs  Cs9  1  0.209145  0.418290  0.958388  1
+  Cs  Cs10  1  0.208815  0.790832  0.958038  1
+  Cs  Cs11  1  0.582018  0.790832  0.958038  1
+  K  K12  1  0.880385  0.760769  0.750000  1
+  Rb  Rb13  1  0.118888  0.237776  0.250000  1
+  Rb  Rb14  1  0.119033  0.880833  0.250000  1
+  Rb  Rb15  1  0.761801  0.880833  0.250000  1
+  Rb  Rb16  1  0.237744  0.118691  0.750000  1
+  Rb  Rb17  1  0.880947  0.118691  0.750000  1
+  Ga  Ga18  1  0.333322  0.666642  0.250000  1
+  Ga  Ga19  1  0.666629  0.333260  0.750000  1
+  Sb  Sb20  1  0.999126  0.998253  0.998386  1
+  Sb  Sb21  1  0.056051  0.527707  0.250000  1
+  Sb  Sb22  1  0.471657  0.527707  0.250000  1
+  Sb  Sb23  1  0.472178  0.944356  0.250000  1
+  Sb  Sb24  1  0.999126  0.998253  0.501614  1
+  Sb  Sb25  1  0.527932  0.055864  0.750000  1
+  Sb  Sb26  1  0.531223  0.474805  0.750000  1
+  Sb  Sb27  1  0.943582  0.474805  0.750000  1

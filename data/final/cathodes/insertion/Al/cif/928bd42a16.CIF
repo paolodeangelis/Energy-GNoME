@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zr4Ti2Al2Mo3Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32432403
+_cell_length_b   5.32432490
+_cell_length_c   8.83896900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.73462244
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4Ti2Al2Mo3Pt
+_chemical_formula_sum   'Zr4 Ti2 Al2 Mo3 Pt1'
+_cell_volume   219.71455325
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.332289  0.667711  0.190856  1
+  Zr  Zr1  1  0.664027  0.335973  0.315315  1
+  Zr  Zr2  1  0.664027  0.335973  0.684685  1
+  Zr  Zr3  1  0.332289  0.667711  0.809144  1
+  Ti  Ti4  1  0.995929  0.004071  0.245138  1
+  Ti  Ti5  1  0.995929  0.004071  0.754862  1
+  Al  Al6  1  0.835209  0.645836  0.000000  1
+  Al  Al7  1  0.354164  0.164791  0.000000  1
+  Mo  Mo8  1  0.166483  0.342381  0.500000  1
+  Mo  Mo9  1  0.657619  0.833517  0.500000  1
+  Mo  Mo10  1  0.164864  0.835136  0.500000  1
+  Pt  Pt11  1  0.837324  0.162676  0.000000  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbHo3(AlIr3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.70332786
+_cell_length_b   9.44556313
+_cell_length_c   9.44556325
+_cell_angle_alpha   34.57305523
+_cell_angle_beta   30.99901616
+_cell_angle_gamma   30.99902258
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbHo3(AlIr3)2
+_chemical_formula_sum   'Tb1 Ho3 Al2 Ir6'
+_cell_volume   216.42573991
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.818265  0.808833  0.808833  1
+  Ho  Ho1  1  0.319531  0.308002  0.308002  1
+  Ho  Ho2  1  0.679928  0.692076  0.692076  1
+  Ho  Ho3  1  0.180094  0.192385  0.192385  1
+  Al  Al4  1  0.749968  0.249887  0.249887  1
+  Al  Al5  1  0.250073  0.750097  0.750097  1
+  Ir  Ir6  1  0.500955  0.499538  0.499538  1
+  Ir  Ir7  1  0.999945  0.000040  0.000040  1
+  Ir  Ir8  1  0.250273  0.249571  0.749204  1
+  Ir  Ir9  1  0.750348  0.749669  0.250698  1
+  Ir  Ir10  1  0.250273  0.749204  0.249571  1
+  Ir  Ir11  1  0.750348  0.250698  0.749669  1

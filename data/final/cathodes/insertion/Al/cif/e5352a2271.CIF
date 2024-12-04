@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Tb2Al2Ga7Ir3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.58776437
+_cell_length_b   7.58776557
+_cell_length_c   9.52859400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.69058481
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2Al2Ga7Ir3
+_chemical_formula_sum   'Tb4 Al4 Ga14 Ir6'
+_cell_volume   476.57674127
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000902  0.669489  0.250000  1
+  Tb  Tb1  1  0.999098  0.330511  0.750000  1
+  Tb  Tb2  1  0.669489  0.000902  0.250000  1
+  Tb  Tb3  1  0.330511  0.999098  0.750000  1
+  Al  Al4  1  0.332275  0.332275  0.552897  1
+  Al  Al5  1  0.667725  0.667725  0.447103  1
+  Al  Al6  1  0.667725  0.667725  0.052897  1
+  Al  Al7  1  0.332275  0.332275  0.947103  1
+  Ga  Ga8  1  0.126729  0.126729  0.250000  1
+  Ga  Ga9  1  0.873271  0.873271  0.750000  1
+  Ga  Ga10  1  0.000985  0.335245  0.079084  1
+  Ga  Ga11  1  0.999015  0.664755  0.920916  1
+  Ga  Ga12  1  0.999015  0.664755  0.579084  1
+  Ga  Ga13  1  0.335245  0.000985  0.420916  1
+  Ga  Ga14  1  0.000985  0.335245  0.420916  1
+  Ga  Ga15  1  0.664755  0.999015  0.579084  1
+  Ga  Ga16  1  0.664755  0.999015  0.920916  1
+  Ga  Ga17  1  0.335245  0.000985  0.079084  1
+  Ga  Ga18  1  0.346497  0.549277  0.250000  1
+  Ga  Ga19  1  0.653503  0.450723  0.750000  1
+  Ga  Ga20  1  0.549277  0.346497  0.250000  1
+  Ga  Ga21  1  0.450723  0.653503  0.750000  1
+  Ir  Ir22  1  0.669289  0.330711  0.000000  1
+  Ir  Ir23  1  0.330711  0.669289  0.000000  1
+  Ir  Ir24  1  0.330711  0.669289  0.500000  1
+  Ir  Ir25  1  0.669289  0.330711  0.500000  1
+  Ir  Ir26  1  0.000000  0.000000  0.000000  1
+  Ir  Ir27  1  0.000000  0.000000  0.500000  1
