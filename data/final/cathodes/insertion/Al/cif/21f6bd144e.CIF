@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb3Ho(AlRe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.38797755
+_cell_length_b   9.38797778
+_cell_length_c   9.32866503
+_cell_angle_alpha   34.18244415
+_cell_angle_beta   34.18244288
+_cell_angle_gamma   33.11475450
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Ho(AlRe3)2
+_chemical_formula_sum   'Tb3 Ho1 Al2 Re6'
+_cell_volume   226.89166575
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.182911  0.182911  0.194640  1
+  Tb  Tb1  1  0.817019  0.817019  0.805290  1
+  Tb  Tb2  1  0.317180  0.317180  0.305273  1
+  Ho  Ho3  1  0.682503  0.682503  0.695451  1
+  Al  Al4  1  0.249882  0.249882  0.749802  1
+  Al  Al5  1  0.750096  0.750096  0.250227  1
+  Re  Re6  1  0.000130  0.000130  0.999841  1
+  Re  Re7  1  0.500080  0.500080  0.499799  1
+  Re  Re8  1  0.749596  0.249939  0.249998  1
+  Re  Re9  1  0.250537  0.750128  0.749839  1
+  Re  Re10  1  0.249939  0.749596  0.249998  1
+  Re  Re11  1  0.750128  0.250537  0.749839  1

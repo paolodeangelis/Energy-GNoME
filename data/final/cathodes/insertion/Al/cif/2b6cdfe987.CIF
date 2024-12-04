@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tm2Lu2AlIr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.37707982
+_cell_length_b   9.37707982
+_cell_length_c   9.38655000
+_cell_angle_alpha   59.96658621
+_cell_angle_beta   59.96658620
+_cell_angle_gamma   60.06683684
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2Lu2AlIr
+_chemical_formula_sum   'Tm8 Lu8 Al4 Ir4'
+_cell_volume   583.61355338
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.445102  0.445102  0.054898  1
+  Tm  Tm1  1  0.054898  0.054898  0.445102  1
+  Tm  Tm2  1  0.188541  0.811459  0.811459  1
+  Tm  Tm3  1  0.811459  0.188541  0.188541  1
+  Tm  Tm4  1  0.811459  0.188541  0.811459  1
+  Tm  Tm5  1  0.188541  0.811459  0.188541  1
+  Tm  Tm6  1  0.811074  0.811074  0.188926  1
+  Tm  Tm7  1  0.188926  0.188926  0.811074  1
+  Lu  Lu8  1  0.602292  0.602292  0.602341  1
+  Lu  Lu9  1  0.602292  0.602292  0.193075  1
+  Lu  Lu10  1  0.602341  0.193075  0.602292  1
+  Lu  Lu11  1  0.193075  0.602341  0.602292  1
+  Lu  Lu12  1  0.054185  0.445815  0.445815  1
+  Lu  Lu13  1  0.445815  0.054185  0.054185  1
+  Lu  Lu14  1  0.445815  0.054185  0.445815  1
+  Lu  Lu15  1  0.054185  0.445815  0.054185  1
+  Al  Al16  1  0.828529  0.828529  0.828349  1
+  Al  Al17  1  0.828529  0.828529  0.514590  1
+  Al  Al18  1  0.828349  0.514590  0.828529  1
+  Al  Al19  1  0.514590  0.828349  0.828529  1
+  Ir  Ir20  1  0.390992  0.390992  0.392706  1
+  Ir  Ir21  1  0.390992  0.390992  0.825310  1
+  Ir  Ir22  1  0.392706  0.825310  0.390992  1
+  Ir  Ir23  1  0.825310  0.392706  0.390992  1

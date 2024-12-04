@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CsGaFeF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48182835
+_cell_length_b   7.48182894
+_cell_length_c   7.48182853
+_cell_angle_alpha   119.62718491
+_cell_angle_beta   120.45501492
+_cell_angle_gamma   89.93032885
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsGaFeF6
+_chemical_formula_sum   'Cs2 Ga2 Fe2 F12'
+_cell_volume   295.94407525
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.625342  0.875342  0.750000  1
+  Cs  Cs1  1  0.374658  0.124658  0.250000  1
+  Ga  Ga2  1  0.000000  0.500000  0.000000  1
+  Ga  Ga3  1  0.000000  0.000000  0.500000  1
+  Fe  Fe4  1  0.500000  0.500000  0.000000  1
+  Fe  Fe5  1  0.000000  0.500000  0.500000  1
+  F  F6  1  0.054046  0.804046  0.250000  1
+  F  F7  1  0.669127  0.419127  0.250000  1
+  F  F8  1  0.060279  0.836124  0.641629  1
+  F  F9  1  0.694495  0.418650  0.858371  1
+  F  F10  1  0.694495  0.836124  0.275845  1
+  F  F11  1  0.060279  0.418650  0.224155  1
+  F  F12  1  0.945954  0.195954  0.750000  1
+  F  F13  1  0.330873  0.580873  0.750000  1
+  F  F14  1  0.939721  0.163876  0.358371  1
+  F  F15  1  0.305505  0.581350  0.141629  1
+  F  F16  1  0.305505  0.163876  0.724155  1
+  F  F17  1  0.939721  0.581350  0.775845  1

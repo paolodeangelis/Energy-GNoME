@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CsVCoNiSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.37913301
+_cell_length_b   10.37913240
+_cell_length_c   7.65123500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   148.82025743
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsVCoNiSe4
+_chemical_formula_sum   'Cs2 V2 Co2 Ni2 Se8'
+_cell_volume   426.72927170
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.183023  0.813436  0.750000  1
+  Cs  Cs1  1  0.813436  0.183023  0.250000  1
+  V  V2  1  0.646607  0.846363  0.750000  1
+  V  V3  1  0.846363  0.646607  0.250000  1
+  Co  Co4  1  0.347007  0.146505  0.250000  1
+  Co  Co5  1  0.146505  0.347007  0.750000  1
+  Ni  Ni6  1  0.742140  0.742140  0.500000  1
+  Ni  Ni7  1  0.742140  0.742140  0.000000  1
+  Se  Se8  1  0.597194  0.402913  0.003029  1
+  Se  Se9  1  0.402913  0.597195  0.503029  1
+  Se  Se10  1  0.990051  0.998893  0.750000  1
+  Se  Se11  1  0.402913  0.597195  0.996971  1
+  Se  Se12  1  0.187506  0.799472  0.250000  1
+  Se  Se13  1  0.799472  0.187506  0.750000  1
+  Se  Se14  1  0.998893  0.990051  0.250000  1
+  Se  Se15  1  0.597194  0.402913  0.496971  1

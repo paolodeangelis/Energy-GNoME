@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Nd2Al4Ga8Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04126900
+_cell_length_b   6.04126900
+_cell_length_c   15.87906900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2Al4Ga8Rh
+_chemical_formula_sum   'Nd4 Al8 Ga16 Rh2'
+_cell_volume   579.53728771
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.750000  0.250000  0.249018  1
+  Nd  Nd1  1  0.250000  0.750000  0.249018  1
+  Nd  Nd2  1  0.250000  0.750000  0.750982  1
+  Nd  Nd3  1  0.750000  0.250000  0.750982  1
+  Al  Al4  1  0.500187  0.000187  0.913835  1
+  Al  Al5  1  0.000187  0.999813  0.913835  1
+  Al  Al6  1  0.499813  0.500187  0.913835  1
+  Al  Al7  1  0.999813  0.499813  0.913835  1
+  Al  Al8  1  0.499813  0.999813  0.086165  1
+  Al  Al9  1  0.999813  0.000187  0.086165  1
+  Al  Al10  1  0.500187  0.499813  0.086165  1
+  Al  Al11  1  0.000187  0.500187  0.086165  1
+  Ga  Ga12  1  0.250000  0.250000  0.188248  1
+  Ga  Ga13  1  0.750000  0.750000  0.188248  1
+  Ga  Ga14  1  0.750000  0.750000  0.811752  1
+  Ga  Ga15  1  0.250000  0.250000  0.811752  1
+  Ga  Ga16  1  0.250000  0.250000  0.343875  1
+  Ga  Ga17  1  0.750000  0.750000  0.343875  1
+  Ga  Ga18  1  0.750000  0.750000  0.656125  1
+  Ga  Ga19  1  0.250000  0.250000  0.656125  1
+  Ga  Ga20  1  0.579591  0.079591  0.431812  1
+  Ga  Ga21  1  0.079591  0.920409  0.431812  1
+  Ga  Ga22  1  0.420409  0.579591  0.431812  1
+  Ga  Ga23  1  0.920409  0.420409  0.431812  1
+  Ga  Ga24  1  0.420409  0.920409  0.568188  1
+  Ga  Ga25  1  0.920409  0.079591  0.568188  1
+  Ga  Ga26  1  0.579591  0.420409  0.568188  1
+  Ga  Ga27  1  0.079591  0.579591  0.568188  1
+  Rh  Rh28  1  0.750000  0.250000  0.000000  1
+  Rh  Rh29  1  0.250000  0.750000  0.000000  1

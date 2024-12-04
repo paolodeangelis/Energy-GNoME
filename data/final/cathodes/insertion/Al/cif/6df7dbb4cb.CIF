@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_TiAlRh3Se8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22281237
+_cell_length_b   7.22281156
+_cell_length_c   7.22281237
+_cell_angle_alpha   62.54728219
+_cell_angle_beta   62.54727155
+_cell_angle_gamma   62.54727745
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiAlRh3Se8
+_chemical_formula_sum   'Ti1 Al1 Rh3 Se8'
+_cell_volume   281.56250045
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.593475  0.593475  0.593475  1
+  Al  Al1  1  0.011030  0.011030  0.011030  1
+  Rh  Rh2  1  0.624870  0.624870  0.141663  1
+  Rh  Rh3  1  0.624870  0.141663  0.624870  1
+  Rh  Rh4  1  0.141663  0.624870  0.624870  1
+  Se  Se5  1  0.366109  0.366109  0.876538  1
+  Se  Se6  1  0.366109  0.876538  0.366109  1
+  Se  Se7  1  0.876538  0.366109  0.366109  1
+  Se  Se8  1  0.388269  0.388269  0.388269  1
+  Se  Se9  1  0.861470  0.861470  0.414000  1
+  Se  Se10  1  0.861470  0.414000  0.861470  1
+  Se  Se11  1  0.414000  0.861470  0.861470  1
+  Se  Se12  1  0.870126  0.870126  0.870126  1

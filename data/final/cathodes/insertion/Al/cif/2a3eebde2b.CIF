@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_AlV3RuS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.82859051
+_cell_length_b   6.82859046
+_cell_length_c   6.82248137
+_cell_angle_alpha   59.97037341
+_cell_angle_beta   59.97037623
+_cell_angle_gamma   60.00000420
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlV3RuS8
+_chemical_formula_sum   'Al1 V3 Ru1 S8'
+_cell_volume   224.85103754
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.998459  0.998459  0.004624  1
+  V  V1  1  0.604434  0.192248  0.598883  1
+  V  V2  1  0.192248  0.604434  0.598883  1
+  V  V3  1  0.604434  0.604434  0.598883  1
+  Ru  Ru4  1  0.607922  0.607922  0.176232  1
+  S  S5  1  0.369747  0.369747  0.890761  1
+  S  S6  1  0.366449  0.891246  0.375858  1
+  S  S7  1  0.891246  0.366449  0.375858  1
+  S  S8  1  0.366449  0.366449  0.375858  1
+  S  S9  1  0.864400  0.864400  0.406800  1
+  S  S10  1  0.862464  0.409284  0.865786  1
+  S  S11  1  0.409284  0.862464  0.865786  1
+  S  S12  1  0.862464  0.862464  0.865786  1

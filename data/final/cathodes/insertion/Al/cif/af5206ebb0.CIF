@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ce3Er13(AlCo)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.33413011
+_cell_length_b   9.38793678
+_cell_length_c   9.38793600
+_cell_angle_alpha   60.00000273
+_cell_angle_beta   59.80913045
+_cell_angle_gamma   59.80913838
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce3Er13(AlCo)4
+_chemical_formula_sum   'Ce3 Er13 Al4 Co4'
+_cell_volume   580.01628132
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.592122  0.597182  0.597182  1
+  Ce  Ce1  1  0.592122  0.597182  0.213515  1
+  Ce  Ce2  1  0.592122  0.213515  0.597182  1
+  Er  Er3  1  0.194705  0.601765  0.601765  1
+  Er  Er4  1  0.060522  0.440561  0.440561  1
+  Er  Er5  1  0.441780  0.058803  0.058803  1
+  Er  Er6  1  0.441780  0.058803  0.440615  1
+  Er  Er7  1  0.060522  0.440561  0.058355  1
+  Er  Er8  1  0.441780  0.440615  0.058803  1
+  Er  Er9  1  0.060522  0.058355  0.440561  1
+  Er  Er10  1  0.185885  0.814321  0.814321  1
+  Er  Er11  1  0.810511  0.188352  0.188352  1
+  Er  Er12  1  0.810511  0.188352  0.812786  1
+  Er  Er13  1  0.185885  0.814321  0.185473  1
+  Er  Er14  1  0.810511  0.812786  0.188352  1
+  Er  Er15  1  0.185885  0.185473  0.814321  1
+  Al  Al16  1  0.827044  0.828110  0.828110  1
+  Al  Al17  1  0.827044  0.828110  0.516735  1
+  Al  Al18  1  0.827044  0.516735  0.828110  1
+  Al  Al19  1  0.516747  0.827751  0.827751  1
+  Co  Co20  1  0.406615  0.388529  0.388529  1
+  Co  Co21  1  0.406615  0.388529  0.816327  1
+  Co  Co22  1  0.406615  0.816327  0.388529  1
+  Co  Co23  1  0.815111  0.394963  0.394963  1

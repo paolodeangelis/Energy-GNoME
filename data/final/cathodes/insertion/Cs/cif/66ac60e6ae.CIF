@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CsFePO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.52364600
+_cell_length_b   9.39161700
+_cell_length_c   9.79010600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsFePO4
+_chemical_formula_sum   'Cs4 Fe4 P4 O16'
+_cell_volume   507.87122240
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.503528  0.008893  0.297914  1
+  Cs  Cs1  1  0.003528  0.991107  0.702086  1
+  Cs  Cs2  1  0.503528  0.508893  0.202086  1
+  Cs  Cs3  1  0.003528  0.491107  0.797914  1
+  Fe  Fe4  1  0.987703  0.328242  0.418799  1
+  Fe  Fe5  1  0.487703  0.671758  0.581201  1
+  Fe  Fe6  1  0.987703  0.828242  0.081201  1
+  Fe  Fe7  1  0.487703  0.171758  0.918799  1
+  P  P8  1  0.994905  0.201925  0.091186  1
+  P  P9  1  0.494905  0.798075  0.908814  1
+  P  P10  1  0.994905  0.701925  0.408814  1
+  P  P11  1  0.494905  0.298075  0.591186  1
+  O  O12  1  0.317034  0.255824  0.474513  1
+  O  O13  1  0.817034  0.744176  0.525487  1
+  O  O14  1  0.317034  0.755824  0.025487  1
+  O  O15  1  0.817034  0.244176  0.974513  1
+  O  O16  1  0.251876  0.260084  0.053227  1
+  O  O17  1  0.751876  0.739916  0.946773  1
+  O  O18  1  0.251876  0.760084  0.446773  1
+  O  O19  1  0.751876  0.239916  0.553227  1
+  O  O20  1  0.007319  0.038453  0.109809  1
+  O  O21  1  0.507319  0.961547  0.890191  1
+  O  O22  1  0.007319  0.538453  0.390191  1
+  O  O23  1  0.507319  0.461547  0.609809  1
+  O  O24  1  0.404633  0.229257  0.725818  1
+  O  O25  1  0.904633  0.770743  0.274182  1
+  O  O26  1  0.404633  0.729257  0.774182  1
+  O  O27  1  0.904633  0.270743  0.225818  1

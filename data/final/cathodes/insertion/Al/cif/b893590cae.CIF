@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y6AlCoIr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.39501700
+_cell_length_b   8.39505127
+_cell_length_c   8.39501593
+_cell_angle_alpha   111.87035153
+_cell_angle_beta   110.26247405
+_cell_angle_gamma   106.32995197
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y6AlCoIr
+_chemical_formula_sum   'Y12 Al2 Co2 Ir2'
+_cell_volume   454.34047344
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.047429  0.742525  0.304903  1
+  Y  Y1  1  0.952571  0.257475  0.695097  1
+  Y  Y2  1  0.562377  0.257475  0.304904  1
+  Y  Y3  1  0.437623  0.742525  0.695096  1
+  Y  Y4  1  0.678997  0.867646  0.188649  1
+  Y  Y5  1  0.321002  0.509650  0.188649  1
+  Y  Y6  1  0.321003  0.132354  0.811351  1
+  Y  Y7  1  0.678998  0.490350  0.811351  1
+  Y  Y8  1  0.181194  0.218556  0.399750  1
+  Y  Y9  1  0.818805  0.218556  0.037362  1
+  Y  Y10  1  0.181195  0.781444  0.962638  1
+  Y  Y11  1  0.818806  0.781444  0.600250  1
+  Al  Al12  1  0.000000  0.500000  0.500000  1
+  Al  Al13  1  0.500000  0.000000  0.500000  1
+  Co  Co14  1  0.888844  0.888842  0.999998  1
+  Co  Co15  1  0.111156  0.111158  0.000002  1
+  Ir  Ir16  1  0.666541  0.500000  0.166541  1
+  Ir  Ir17  1  0.333459  0.500000  0.833459  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_K4Li2AlInBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.95895246
+_cell_length_b   10.95895117
+_cell_length_c   6.87540697
+_cell_angle_alpha   90.22827241
+_cell_angle_beta   89.77172891
+_cell_angle_gamma   100.32455083
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4Li2AlInBi4
+_chemical_formula_sum   'K8 Li4 Al2 In2 Bi8'
+_cell_volume   812.34609180
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.577533  0.919543  0.245265  1
+  K  K1  1  0.668424  0.331576  0.221156  1
+  K  K2  1  0.331576  0.668424  0.778844  1
+  K  K3  1  0.080457  0.422467  0.245265  1
+  K  K4  1  0.919543  0.577533  0.754735  1
+  K  K5  1  0.422467  0.080457  0.754735  1
+  K  K6  1  0.829254  0.170746  0.731238  1
+  K  K7  1  0.170746  0.829254  0.268762  1
+  Li  Li8  1  0.877595  0.877595  0.500000  1
+  Li  Li9  1  0.122405  0.122405  0.500000  1
+  Li  Li10  1  0.620173  0.620173  0.000000  1
+  Li  Li11  1  0.379827  0.379827  0.000000  1
+  Al  Al12  1  0.372319  0.372319  0.500000  1
+  Al  Al13  1  0.627681  0.627681  0.500000  1
+  In  In14  1  0.867263  0.867263  0.000000  1
+  In  In15  1  0.132737  0.132737  0.000000  1
+  Bi  Bi16  1  0.104521  0.895479  0.765980  1
+  Bi  Bi17  1  0.597645  0.402355  0.717834  1
+  Bi  Bi18  1  0.895479  0.104521  0.234020  1
+  Bi  Bi19  1  0.402355  0.597645  0.282166  1
+  Bi  Bi20  1  0.357172  0.154414  0.262459  1
+  Bi  Bi21  1  0.154414  0.357172  0.737541  1
+  Bi  Bi22  1  0.642828  0.845586  0.737541  1
+  Bi  Bi23  1  0.845586  0.642828  0.262459  1

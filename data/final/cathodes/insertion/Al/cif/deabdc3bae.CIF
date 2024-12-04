@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiTb8AlCo2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.51156054
+_cell_length_b   9.51156100
+_cell_length_c   9.53706100
+_cell_angle_alpha   59.91127179
+_cell_angle_beta   59.91127018
+_cell_angle_gamma   59.88853563
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTb8AlCo2
+_chemical_formula_sum   'Li2 Tb16 Al2 Co4'
+_cell_volume   608.76991908
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.819483  0.819483  0.535180  1
+  Li  Li1  1  0.819483  0.819483  0.825853  1
+  Tb  Tb2  1  0.442611  0.442611  0.057389  1
+  Tb  Tb3  1  0.596788  0.596788  0.600554  1
+  Tb  Tb4  1  0.191792  0.811886  0.811763  1
+  Tb  Tb5  1  0.067238  0.067238  0.432762  1
+  Tb  Tb6  1  0.439264  0.061107  0.058497  1
+  Tb  Tb7  1  0.811886  0.191792  0.811763  1
+  Tb  Tb8  1  0.439264  0.061107  0.441131  1
+  Tb  Tb9  1  0.596244  0.212572  0.595593  1
+  Tb  Tb10  1  0.809296  0.809296  0.190704  1
+  Tb  Tb11  1  0.212572  0.596244  0.595593  1
+  Tb  Tb12  1  0.811886  0.191792  0.184558  1
+  Tb  Tb13  1  0.061107  0.439264  0.441131  1
+  Tb  Tb14  1  0.191792  0.811886  0.184558  1
+  Tb  Tb15  1  0.596788  0.596788  0.205869  1
+  Tb  Tb16  1  0.187828  0.187828  0.812172  1
+  Tb  Tb17  1  0.061107  0.439264  0.058497  1
+  Al  Al18  1  0.509432  0.825340  0.832613  1
+  Al  Al19  1  0.825340  0.509432  0.832613  1
+  Co  Co20  1  0.393100  0.393100  0.387445  1
+  Co  Co21  1  0.827703  0.394895  0.388701  1
+  Co  Co22  1  0.394895  0.827703  0.388701  1
+  Co  Co23  1  0.393100  0.393100  0.826357  1

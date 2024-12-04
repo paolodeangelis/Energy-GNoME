@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_AlBi6(PtO9)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.20037500
+_cell_length_b   9.20037940
+_cell_length_c   5.11669000
+_cell_angle_alpha   90.00001246
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99996620
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlBi6(PtO9)2
+_chemical_formula_sum   'Al1 Bi6 Pt2 O18'
+_cell_volume   375.08625640
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.000000  0.000000  0.499983  1
+  Bi  Bi1  1  0.000003  0.364997  0.500008  1
+  Bi  Bi2  1  0.285407  0.285397  0.999984  1
+  Bi  Bi3  1  0.999991  0.714593  0.999984  1
+  Bi  Bi4  1  0.635003  0.635007  0.500008  1
+  Bi  Bi5  1  0.364993  0.999997  0.500008  1
+  Bi  Bi6  1  0.714602  0.000010  0.999984  1
+  Pt  Pt7  1  0.333333  0.666667  0.999696  1
+  Pt  Pt8  1  0.666667  0.333333  0.000353  1
+  O  O9  1  0.085542  0.199279  0.713553  1
+  O  O10  1  0.226770  0.456726  0.219722  1
+  O  O11  1  0.129956  0.595086  0.781806  1
+  O  O12  1  0.404914  0.534868  0.781805  1
+  O  O13  1  0.229956  0.773230  0.219722  1
+  O  O14  1  0.113736  0.914457  0.713553  1
+  O  O15  1  0.543274  0.770044  0.219723  1
+  O  O16  1  0.199274  0.085539  0.286445  1
+  O  O17  1  0.465132  0.870044  0.781806  1
+  O  O18  1  0.800722  0.886264  0.713553  1
+  O  O19  1  0.456764  0.226768  0.780325  1
+  O  O20  1  0.595064  0.129939  0.218147  1
+  O  O21  1  0.534875  0.404936  0.218148  1
+  O  O22  1  0.773232  0.229996  0.780325  1
+  O  O23  1  0.914461  0.113734  0.286445  1
+  O  O24  1  0.770004  0.543235  0.780325  1
+  O  O25  1  0.870061  0.465125  0.218146  1
+  O  O26  1  0.886266  0.800727  0.286445  1

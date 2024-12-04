@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_AlCrS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.59039700
+_cell_length_b   9.75278100
+_cell_length_c   11.85753000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCrS3
+_chemical_formula_sum   'Al4 Cr4 S12'
+_cell_volume   415.20748754
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.750000  0.268235  0.793923  1
+  Al  Al1  1  0.250000  0.731765  0.206077  1
+  Al  Al2  1  0.750000  0.768235  0.706077  1
+  Al  Al3  1  0.250000  0.231765  0.293923  1
+  Cr  Cr4  1  0.250000  0.404581  0.609688  1
+  Cr  Cr5  1  0.750000  0.595419  0.390312  1
+  Cr  Cr6  1  0.250000  0.904581  0.890312  1
+  Cr  Cr7  1  0.750000  0.095419  0.109688  1
+  S  S8  1  0.250000  0.924804  0.096060  1
+  S  S9  1  0.750000  0.075196  0.903940  1
+  S  S10  1  0.250000  0.424804  0.403940  1
+  S  S11  1  0.750000  0.575196  0.596060  1
+  S  S12  1  0.750000  0.093794  0.317566  1
+  S  S13  1  0.250000  0.906206  0.682434  1
+  S  S14  1  0.750000  0.593794  0.182434  1
+  S  S15  1  0.250000  0.406206  0.817566  1
+  S  S16  1  0.250000  0.261241  0.106513  1
+  S  S17  1  0.750000  0.738759  0.893487  1
+  S  S18  1  0.250000  0.761241  0.393487  1
+  S  S19  1  0.750000  0.238759  0.606513  1

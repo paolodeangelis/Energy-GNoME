@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Nb8Al(Os2W)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.86328100
+_cell_length_b   9.86328100
+_cell_length_c   5.15882200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb8Al(Os2W)2
+_chemical_formula_sum   'Nb16 Al2 Os8 W4'
+_cell_volume   501.87244944
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.395713  0.395713  0.000194  1
+  Nb  Nb1  1  0.895713  0.104287  0.500194  1
+  Nb  Nb2  1  0.104287  0.895713  0.500194  1
+  Nb  Nb3  1  0.604287  0.604287  0.000194  1
+  Nb  Nb4  1  0.127867  0.465067  0.999937  1
+  Nb  Nb5  1  0.965067  0.372133  0.499937  1
+  Nb  Nb6  1  0.034933  0.627867  0.499937  1
+  Nb  Nb7  1  0.872133  0.534933  0.999937  1
+  Nb  Nb8  1  0.372133  0.965067  0.499937  1
+  Nb  Nb9  1  0.627867  0.034933  0.499937  1
+  Nb  Nb10  1  0.465067  0.127867  0.999937  1
+  Nb  Nb11  1  0.534933  0.872133  0.999937  1
+  Nb  Nb12  1  0.317961  0.682039  0.248178  1
+  Nb  Nb13  1  0.682039  0.317961  0.248178  1
+  Nb  Nb14  1  0.182039  0.182039  0.748178  1
+  Nb  Nb15  1  0.817961  0.817961  0.748178  1
+  Al  Al16  1  0.000000  0.000000  0.004242  1
+  Al  Al17  1  0.500000  0.500000  0.504242  1
+  Os  Os18  1  0.255565  0.935992  0.000189  1
+  Os  Os19  1  0.435992  0.244435  0.500189  1
+  Os  Os20  1  0.564008  0.755565  0.500189  1
+  Os  Os21  1  0.744435  0.064008  0.000189  1
+  Os  Os22  1  0.244435  0.435992  0.500189  1
+  Os  Os23  1  0.755565  0.564008  0.500189  1
+  Os  Os24  1  0.935992  0.255565  0.000189  1
+  Os  Os25  1  0.064008  0.744435  0.000189  1
+  W  W26  1  0.181547  0.181547  0.249255  1
+  W  W27  1  0.681547  0.318453  0.749255  1
+  W  W28  1  0.318453  0.681547  0.749255  1
+  W  W29  1  0.818453  0.818453  0.249255  1

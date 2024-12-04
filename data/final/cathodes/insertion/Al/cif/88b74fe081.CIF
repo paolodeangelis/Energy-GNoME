@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Al3CrBi2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88177400
+_cell_length_b   7.83120400
+_cell_length_c   8.29901100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3CrBi2O9
+_chemical_formula_sum   'Al6 Cr2 Bi4 O18'
+_cell_volume   382.26383353
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.499922  0.146497  0.840148  1
+  Al  Al1  1  0.499922  0.853503  0.159852  1
+  Al  Al2  1  0.500078  0.646497  0.659852  1
+  Al  Al3  1  0.500078  0.353503  0.340148  1
+  Al  Al4  1  0.737440  0.000000  0.500000  1
+  Al  Al5  1  0.262560  0.500000  0.000000  1
+  Cr  Cr6  1  0.258178  0.000000  0.500000  1
+  Cr  Cr7  1  0.741822  0.500000  0.000000  1
+  Bi  Bi8  1  0.998927  0.326605  0.672116  1
+  Bi  Bi9  1  0.998927  0.673395  0.327884  1
+  Bi  Bi10  1  0.001073  0.826605  0.827884  1
+  Bi  Bi11  1  0.001073  0.173395  0.172116  1
+  O  O12  1  0.011510  0.352910  0.936132  1
+  O  O13  1  0.011510  0.647090  0.063868  1
+  O  O14  1  0.988490  0.852910  0.563868  1
+  O  O15  1  0.988490  0.147090  0.436132  1
+  O  O16  1  0.488159  0.359157  0.913494  1
+  O  O17  1  0.488159  0.640843  0.086506  1
+  O  O18  1  0.511841  0.859157  0.586506  1
+  O  O19  1  0.511841  0.140843  0.413494  1
+  O  O20  1  0.249749  0.875752  0.285346  1
+  O  O21  1  0.249749  0.124248  0.714654  1
+  O  O22  1  0.750251  0.375752  0.214654  1
+  O  O23  1  0.750251  0.624248  0.785346  1
+  O  O24  1  0.503761  0.000000  0.000000  1
+  O  O25  1  0.496239  0.500000  0.500000  1
+  O  O26  1  0.253350  0.374721  0.210264  1
+  O  O27  1  0.253350  0.625279  0.789736  1
+  O  O28  1  0.746650  0.874721  0.289736  1
+  O  O29  1  0.746650  0.125279  0.710264  1

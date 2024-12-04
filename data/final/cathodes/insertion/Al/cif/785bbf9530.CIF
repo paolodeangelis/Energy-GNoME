@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_BaMnAl(CoO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70254178
+_cell_length_b   7.04950336
+_cell_length_c   5.71682725
+_cell_angle_alpha   91.12853609
+_cell_angle_beta   120.02444202
+_cell_angle_gamma   111.86419601
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaMnAl(CoO4)2
+_chemical_formula_sum   'Ba1 Mn1 Al1 Co2 O8'
+_cell_volume   178.49171017
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.500000  0.500000  1
+  Mn  Mn1  1  0.500000  0.000000  0.500000  1
+  Al  Al2  1  0.000000  0.000000  0.000000  1
+  Co  Co3  1  0.500000  0.000000  0.000000  1
+  Co  Co4  1  0.000000  0.000000  0.500000  1
+  O  O5  1  0.565740  0.843784  0.275291  1
+  O  O6  1  0.066932  0.841755  0.277304  1
+  O  O7  1  0.564257  0.840517  0.780050  1
+  O  O8  1  0.073508  0.847548  0.785840  1
+  O  O9  1  0.926492  0.152452  0.214160  1
+  O  O10  1  0.435743  0.159483  0.219950  1
+  O  O11  1  0.933068  0.158245  0.722696  1
+  O  O12  1  0.434260  0.156216  0.724709  1

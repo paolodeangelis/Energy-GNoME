@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CsTa(AgTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.25212960
+_cell_length_b   11.25212956
+_cell_length_c   8.84208600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   146.70488631
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTa(AgTe2)2
+_chemical_formula_sum   'Cs2 Ta2 Ag4 Te8'
+_cell_volume   614.55136745
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.455905  0.824645  0.750000  1
+  Cs  Cs1  1  0.824645  0.455905  0.250000  1
+  Ta  Ta2  1  0.514349  0.299378  0.750000  1
+  Ta  Ta3  1  0.299378  0.514349  0.250000  1
+  Ag  Ag4  1  0.384720  0.384720  0.000000  1
+  Ag  Ag5  1  0.384720  0.384720  0.500000  1
+  Ag  Ag6  1  0.019653  0.796724  0.750000  1
+  Ag  Ag7  1  0.796724  0.019653  0.250000  1
+  Te  Te8  1  0.657328  0.645423  0.750000  1
+  Te  Te9  1  0.645423  0.657328  0.250000  1
+  Te  Te10  1  0.289949  0.062298  0.999992  1
+  Te  Te11  1  0.062298  0.289949  0.499992  1
+  Te  Te12  1  0.417738  0.838341  0.250000  1
+  Te  Te13  1  0.062298  0.289949  0.000008  1
+  Te  Te14  1  0.289949  0.062298  0.500008  1
+  Te  Te15  1  0.838341  0.417738  0.750000  1

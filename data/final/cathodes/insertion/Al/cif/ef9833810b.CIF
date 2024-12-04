@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb2Ho2AlRu7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37674909
+_cell_length_b   5.37674824
+_cell_length_c   8.60254004
+_cell_angle_alpha   89.99861486
+_cell_angle_beta   90.00137126
+_cell_angle_gamma   119.96963883
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2Ho2AlRu7
+_chemical_formula_sum   'Tb2 Ho2 Al1 Ru7'
+_cell_volume   215.44161337
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.666679  0.333321  0.570070  1
+  Tb  Tb1  1  0.333321  0.666679  0.429930  1
+  Ho  Ho2  1  0.333286  0.666714  0.064383  1
+  Ho  Ho3  1  0.666714  0.333286  0.935617  1
+  Al  Al4  1  0.000000  0.000000  0.500000  1
+  Ru  Ru5  1  0.000000  0.000000  0.000000  1
+  Ru  Ru6  1  0.171279  0.342394  0.749425  1
+  Ru  Ru7  1  0.171199  0.828801  0.749423  1
+  Ru  Ru8  1  0.657606  0.828721  0.749425  1
+  Ru  Ru9  1  0.828721  0.657606  0.250575  1
+  Ru  Ru10  1  0.828801  0.171199  0.250577  1
+  Ru  Ru11  1  0.342394  0.171279  0.250575  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CsNa3(Ga2Se3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22648935
+_cell_length_b   7.22648991
+_cell_length_c   8.98163199
+_cell_angle_alpha   82.06392285
+_cell_angle_beta   82.06392420
+_cell_angle_gamma   120.22073335
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNa3(Ga2Se3)2
+_chemical_formula_sum   'Cs1 Na3 Ga4 Se6'
+_cell_volume   389.42782692
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.500000  0.500000  1
+  Na  Na1  1  0.658238  0.341762  0.000000  1
+  Na  Na2  1  0.341762  0.658238  0.000000  1
+  Na  Na3  1  0.000000  0.000000  0.000000  1
+  Ga  Ga4  1  0.880825  0.214505  0.355187  1
+  Ga  Ga5  1  0.785495  0.119175  0.644813  1
+  Ga  Ga6  1  0.214505  0.880825  0.355187  1
+  Ga  Ga7  1  0.119175  0.785495  0.644813  1
+  Se  Se8  1  0.409437  0.030122  0.770714  1
+  Se  Se9  1  0.030122  0.409437  0.770714  1
+  Se  Se10  1  0.969878  0.590563  0.229286  1
+  Se  Se11  1  0.785747  0.785747  0.772981  1
+  Se  Se12  1  0.590563  0.969878  0.229286  1
+  Se  Se13  1  0.214253  0.214253  0.227019  1

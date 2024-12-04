@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb2Dy2AlRu7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.34051300
+_cell_length_b   5.34051231
+_cell_length_c   8.68071800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99998567
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2Dy2AlRu7
+_chemical_formula_sum   'Yb2 Dy2 Al1 Ru7'
+_cell_volume   214.41355608
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.666667  0.333333  0.939726  1
+  Yb  Yb1  1  0.333333  0.666667  0.060274  1
+  Dy  Dy2  1  0.333333  0.666667  0.423778  1
+  Dy  Dy3  1  0.666667  0.333333  0.576222  1
+  Al  Al4  1  0.000000  0.000000  0.500000  1
+  Ru  Ru5  1  0.000000  0.000000  0.000000  1
+  Ru  Ru6  1  0.829113  0.170887  0.252466  1
+  Ru  Ru7  1  0.829113  0.658224  0.252466  1
+  Ru  Ru8  1  0.341776  0.170887  0.252466  1
+  Ru  Ru9  1  0.170887  0.829113  0.747534  1
+  Ru  Ru10  1  0.170887  0.341776  0.747534  1
+  Ru  Ru11  1  0.658224  0.829113  0.747534  1

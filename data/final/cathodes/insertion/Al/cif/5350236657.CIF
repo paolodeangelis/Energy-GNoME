@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_TmLu9(AlSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.64690577
+_cell_length_b   8.67319891
+_cell_length_c   6.31404200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.68420575
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmLu9(AlSb)3
+_chemical_formula_sum   'Tm1 Lu9 Al3 Sb3'
+_cell_volume   411.38774067
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.764207  0.765016  0.250000  1
+  Lu  Lu1  1  0.332833  0.679194  0.002894  1
+  Lu  Lu2  1  0.666559  0.325579  0.497232  1
+  Lu  Lu3  1  0.666559  0.325579  0.002768  1
+  Lu  Lu4  1  0.332833  0.679194  0.497106  1
+  Lu  Lu5  1  0.233520  0.989093  0.250000  1
+  Lu  Lu6  1  0.759667  0.002284  0.750000  1
+  Lu  Lu7  1  0.987531  0.233293  0.250000  1
+  Lu  Lu8  1  0.242729  0.231368  0.750000  1
+  Lu  Lu9  1  0.013158  0.770953  0.750000  1
+  Al  Al10  1  0.599844  0.999276  0.250000  1
+  Al  Al11  1  0.403832  0.003796  0.750000  1
+  Al  Al12  1  0.995060  0.600134  0.250000  1
+  Sb  Sb13  1  0.387483  0.391501  0.250000  1
+  Sb  Sb14  1  0.609119  0.607288  0.750000  1
+  Sb  Sb15  1  0.005066  0.396452  0.750000  1

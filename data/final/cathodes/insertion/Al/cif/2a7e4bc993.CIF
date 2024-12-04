@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li3Ce2Nd2AlPt4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10769200
+_cell_length_b   7.20776508
+_cell_length_c   8.50781415
+_cell_angle_alpha   89.24672659
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ce2Nd2AlPt4
+_chemical_formula_sum   'Li3 Ce2 Nd2 Al1 Pt4'
+_cell_volume   251.87145772
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.250000  0.631074  0.440113  1
+  Li  Li1  1  0.250000  0.126765  0.058680  1
+  Li  Li2  1  0.750000  0.375323  0.558731  1
+  Ce  Ce3  1  0.250000  0.044707  0.688938  1
+  Ce  Ce4  1  0.250000  0.539460  0.809944  1
+  Nd  Nd5  1  0.750000  0.454374  0.187086  1
+  Nd  Nd6  1  0.750000  0.954246  0.314140  1
+  Al  Al7  1  0.750000  0.871089  0.940629  1
+  Pt  Pt8  1  0.250000  0.755679  0.099445  1
+  Pt  Pt9  1  0.250000  0.246403  0.386843  1
+  Pt  Pt10  1  0.750000  0.758158  0.638693  1
+  Pt  Pt11  1  0.750000  0.242722  0.876758  1

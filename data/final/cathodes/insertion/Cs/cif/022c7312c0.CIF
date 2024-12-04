@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsU4Te4Se3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34392100
+_cell_length_b   8.13498694
+_cell_length_c   9.88511182
+_cell_angle_alpha   90.47798601
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsU4Te4Se3
+_chemical_formula_sum   'Cs1 U4 Te4 Se3'
+_cell_volume   349.30536214
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.250000  0.141793  0.933074  1
+  U  U1  1  0.250000  0.286461  0.602983  1
+  U  U2  1  0.250000  0.726779  0.860894  1
+  U  U3  1  0.750000  0.731909  0.367992  1
+  U  U4  1  0.750000  0.232959  0.191872  1
+  Te  Te5  1  0.250000  0.026619  0.340051  1
+  Te  Te6  1  0.250000  0.522663  0.159163  1
+  Te  Te7  1  0.750000  0.980652  0.666812  1
+  Te  Te8  1  0.750000  0.451386  0.822746  1
+  Se  Se9  1  0.250000  0.653693  0.559471  1
+  Se  Se10  1  0.750000  0.864895  0.055265  1
+  Se  Se11  1  0.750000  0.380190  0.439677  1

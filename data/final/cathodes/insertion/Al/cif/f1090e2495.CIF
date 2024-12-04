@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al4Ni2OsRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.82043600
+_cell_length_b   5.82046400
+_cell_length_c   6.07847200
+_cell_angle_alpha   89.99984584
+_cell_angle_beta   90.00019270
+_cell_angle_gamma   90.00043313
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al4Ni2OsRu
+_chemical_formula_sum   'Al8 Ni4 Os2 Ru2'
+_cell_volume   205.92427523
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.500029  0.000014  0.251056  1
+  Al  Al1  1  0.500042  0.499969  0.251059  1
+  Al  Al2  1  0.999999  0.000007  0.251176  1
+  Al  Al3  1  0.000009  0.500005  0.251176  1
+  Al  Al4  1  0.999974  0.000019  0.748825  1
+  Al  Al5  1  0.999964  0.499967  0.748825  1
+  Al  Al6  1  0.499999  0.000013  0.748944  1
+  Al  Al7  1  0.499986  0.500002  0.748940  1
+  Ni  Ni8  1  0.249946  0.750001  0.000062  1
+  Ni  Ni9  1  0.749939  0.250000  0.499940  1
+  Ni  Ni10  1  0.250061  0.749998  0.500060  1
+  Ni  Ni11  1  0.750056  0.249999  0.999938  1
+  Os  Os12  1  0.249941  0.250000  0.999999  1
+  Os  Os13  1  0.750059  0.749999  0.000001  1
+  Ru  Ru14  1  0.250011  0.249998  0.500036  1
+  Ru  Ru15  1  0.749990  0.750001  0.499964  1

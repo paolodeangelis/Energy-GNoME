@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LuAlTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.03611900
+_cell_length_b   5.03638788
+_cell_length_c   9.62964100
+_cell_angle_alpha   89.99543808
+_cell_angle_beta   90.00228677
+_cell_angle_gamma   120.00174814
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuAlTeO6
+_chemical_formula_sum   'Lu2 Al2 Te2 O12'
+_cell_volume   211.51843777
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.000000  0.000000  0.500000  1
+  Al  Al2  1  0.333332  0.666666  0.250000  1
+  Al  Al3  1  0.666668  0.333334  0.750000  1
+  Te  Te4  1  0.333578  0.666789  0.750000  1
+  Te  Te5  1  0.666422  0.333211  0.250000  1
+  O  O6  1  0.358380  0.361502  0.139403  1
+  O  O7  1  0.638476  0.996905  0.139397  1
+  O  O8  1  0.003080  0.641595  0.139387  1
+  O  O9  1  0.641620  0.638498  0.860597  1
+  O  O10  1  0.361524  0.003095  0.860603  1
+  O  O11  1  0.996920  0.358405  0.860613  1
+  O  O12  1  0.638476  0.641572  0.360603  1
+  O  O13  1  0.358380  0.996878  0.360597  1
+  O  O14  1  0.003080  0.361485  0.360613  1
+  O  O15  1  0.361524  0.358428  0.639397  1
+  O  O16  1  0.641620  0.003122  0.639403  1
+  O  O17  1  0.996920  0.638515  0.639387  1

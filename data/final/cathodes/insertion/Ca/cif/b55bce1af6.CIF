@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CaCoTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06891861
+_cell_length_b   5.04983179
+_cell_length_c   5.15695082
+_cell_angle_alpha   90.39526224
+_cell_angle_beta   89.58898590
+_cell_angle_gamma   120.04476114
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCoTeO6
+_chemical_formula_sum   'Ca1 Co1 Te1 O6'
+_cell_volume   114.26295331
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.999102  0.999082  0.000017  1
+  Co  Co1  1  0.328150  0.661217  0.500094  1
+  Te  Te2  1  0.666022  0.333201  0.499907  1
+  O  O3  1  0.371721  0.381895  0.290218  1
+  O  O4  1  0.007592  0.630515  0.290218  1
+  O  O5  1  0.621950  0.992764  0.289389  1
+  O  O6  1  0.009860  0.379688  0.709220  1
+  O  O7  1  0.623288  0.630023  0.710905  1
+  O  O8  1  0.372314  0.991616  0.710032  1

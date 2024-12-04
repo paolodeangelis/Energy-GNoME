@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Zr5AlTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57000302
+_cell_length_b   8.34598048
+_cell_length_c   8.34597996
+_cell_angle_alpha   83.60677610
+_cell_angle_beta   70.50687403
+_cell_angle_gamma   70.50688083
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr5AlTe2
+_chemical_formula_sum   'Zr10 Al2 Te4'
+_cell_volume   344.77847941
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.250000  0.500000  0.500000  1
+  Zr  Zr1  1  0.750000  0.500000  0.500000  1
+  Zr  Zr2  1  0.074090  0.139883  0.711937  1
+  Zr  Zr3  1  0.925910  0.860117  0.288063  1
+  Zr  Zr4  1  0.786027  0.288063  0.139883  1
+  Zr  Zr5  1  0.425910  0.288063  0.860117  1
+  Zr  Zr6  1  0.213973  0.711937  0.860117  1
+  Zr  Zr7  1  0.574090  0.711937  0.139883  1
+  Zr  Zr8  1  0.713973  0.860117  0.711937  1
+  Zr  Zr9  1  0.286027  0.139883  0.288063  1
+  Al  Al10  1  0.250000  0.000000  0.000000  1
+  Al  Al11  1  0.750000  0.000000  0.000000  1
+  Te  Te12  1  0.165458  0.500000  0.169084  1
+  Te  Te13  1  0.834542  0.500000  0.830916  1
+  Te  Te14  1  0.334542  0.830916  0.500000  1
+  Te  Te15  1  0.665458  0.169084  0.500000  1

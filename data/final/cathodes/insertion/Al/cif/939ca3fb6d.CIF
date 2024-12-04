@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Er10AlInBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.96417834
+_cell_length_b   8.97826136
+_cell_length_c   6.44685900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.60215645
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er10AlInBi4
+_chemical_formula_sum   'Er10 Al1 In1 Bi4'
+_cell_volume   451.13723297
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.665482  0.325268  0.005392  1
+  Er  Er1  1  0.329947  0.672882  0.005501  1
+  Er  Er2  1  0.329947  0.672882  0.494499  1
+  Er  Er3  1  0.665482  0.325268  0.494608  1
+  Er  Er4  1  0.762746  0.762421  0.750000  1
+  Er  Er5  1  0.234549  0.997811  0.750000  1
+  Er  Er6  1  0.997960  0.233740  0.750000  1
+  Er  Er7  1  0.236034  0.230636  0.250000  1
+  Er  Er8  1  0.763732  0.008531  0.250000  1
+  Er  Er9  1  0.013869  0.770416  0.250000  1
+  Al  Al10  1  0.397683  0.001603  0.250000  1
+  In  In11  1  0.002215  0.396673  0.250000  1
+  Bi  Bi12  1  0.393704  0.394678  0.750000  1
+  Bi  Bi13  1  0.601027  0.996803  0.750000  1
+  Bi  Bi14  1  0.995714  0.600898  0.750000  1
+  Bi  Bi15  1  0.609909  0.609489  0.250000  1

@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_NaAl3Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.77722280
+_cell_length_b   9.77722257
+_cell_length_c   9.77722367
+_cell_angle_alpha   90.82910482
+_cell_angle_beta   90.82910572
+_cell_angle_gamma   90.82910156
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaAl3Se5
+_chemical_formula_sum   'Na4 Al12 Se20'
+_cell_volume   934.34830671
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.256970  0.000000  0.743030  1
+  Na  Na1  1  0.743030  0.256970  0.000000  1
+  Na  Na2  1  0.000000  0.743030  0.256970  1
+  Na  Na3  1  0.500000  0.500000  0.500000  1
+  Al  Al4  1  0.839162  0.880312  0.571546  1
+  Al  Al5  1  0.571546  0.839162  0.880312  1
+  Al  Al6  1  0.880312  0.571546  0.839162  1
+  Al  Al7  1  0.160838  0.428454  0.119688  1
+  Al  Al8  1  0.119688  0.160838  0.428454  1
+  Al  Al9  1  0.428454  0.119688  0.160838  1
+  Al  Al10  1  0.744364  0.162080  0.346724  1
+  Al  Al11  1  0.346724  0.744364  0.162080  1
+  Al  Al12  1  0.162080  0.346724  0.744364  1
+  Al  Al13  1  0.255636  0.653276  0.837920  1
+  Al  Al14  1  0.837920  0.255636  0.653276  1
+  Al  Al15  1  0.653276  0.837920  0.255636  1
+  Se  Se16  1  0.181096  0.818904  0.000000  1
+  Se  Se17  1  0.818904  0.000000  0.181096  1
+  Se  Se18  1  0.181659  0.181659  0.181659  1
+  Se  Se19  1  0.818341  0.818341  0.818341  1
+  Se  Se20  1  0.000000  0.181096  0.818904  1
+  Se  Se21  1  0.928414  0.500000  0.071586  1
+  Se  Se22  1  0.071586  0.928414  0.500000  1
+  Se  Se23  1  0.500000  0.071586  0.928414  1
+  Se  Se24  1  0.746640  0.697121  0.428895  1
+  Se  Se25  1  0.428895  0.746640  0.697121  1
+  Se  Se26  1  0.697121  0.428895  0.746640  1
+  Se  Se27  1  0.253360  0.571105  0.302879  1
+  Se  Se28  1  0.302879  0.253360  0.571105  1
+  Se  Se29  1  0.571105  0.302879  0.253360  1
+  Se  Se30  1  0.680509  0.071641  0.572158  1
+  Se  Se31  1  0.572158  0.680509  0.071641  1
+  Se  Se32  1  0.071641  0.572158  0.680509  1
+  Se  Se33  1  0.319491  0.427842  0.928359  1
+  Se  Se34  1  0.928359  0.319491  0.427842  1
+  Se  Se35  1  0.427842  0.928359  0.319491  1

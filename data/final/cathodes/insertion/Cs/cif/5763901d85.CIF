@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Cs4K(MoS4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.14414615
+_cell_length_b   12.14414571
+_cell_length_c   12.14412200
+_cell_angle_alpha   132.40404789
+_cell_angle_beta   127.48900050
+_cell_angle_gamma   73.56297442
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4K(MoS4)2
+_chemical_formula_sum   'Cs8 K2 Mo4 S16'
+_cell_volume   1024.23523921
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.497718  0.247718  0.250000  1
+  Cs  Cs1  1  0.002270  0.752270  0.250000  1
+  Cs  Cs2  1  0.575420  0.717798  0.142367  1
+  Cs  Cs3  1  0.424580  0.282202  0.857633  1
+  Cs  Cs4  1  0.502282  0.752282  0.750000  1
+  Cs  Cs5  1  0.075430  0.433052  0.357633  1
+  Cs  Cs6  1  0.924570  0.566948  0.642367  1
+  Cs  Cs7  1  0.997730  0.247730  0.750000  1
+  K  K8  1  0.249997  0.999997  0.250000  1
+  K  K9  1  0.750003  0.000003  0.750000  1
+  Mo  Mo10  1  0.133013  0.918633  0.785609  1
+  Mo  Mo11  1  0.866987  0.081367  0.214391  1
+  Mo  Mo12  1  0.366977  0.652596  0.285609  1
+  Mo  Mo13  1  0.633023  0.347404  0.714391  1
+  S  S14  1  0.581080  0.601799  0.360470  1
+  S  S15  1  0.753554  0.997566  0.244052  1
+  S  S16  1  0.891596  0.884542  0.992940  1
+  S  S17  1  0.758683  0.398246  0.979316  1
+  S  S18  1  0.741329  0.220611  0.139530  1
+  S  S19  1  0.746487  0.490498  0.744052  1
+  S  S20  1  0.246446  0.002434  0.755948  1
+  S  S21  1  0.241317  0.601754  0.020684  1
+  S  S22  1  0.253513  0.509502  0.255948  1
+  S  S23  1  0.258671  0.779389  0.860470  1
+  S  S24  1  0.108404  0.115458  0.007060  1
+  S  S25  1  0.918930  0.779367  0.520684  1
+  S  S26  1  0.081070  0.220633  0.479316  1
+  S  S27  1  0.608398  0.101345  0.492940  1
+  S  S28  1  0.418920  0.398201  0.639530  1
+  S  S29  1  0.391602  0.898655  0.507060  1

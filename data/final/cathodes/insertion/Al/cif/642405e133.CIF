@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Er12AlTlInFe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.33919166
+_cell_length_b   8.33919137
+_cell_length_c   8.33919090
+_cell_angle_alpha   109.98924879
+_cell_angle_beta   109.82705121
+_cell_angle_gamma   108.60089236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er12AlTlInFe2
+_chemical_formula_sum   'Er12 Al1 Tl1 In1 Fe2'
+_cell_volume   446.34843519
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.304781  0.304098  0.608880  1
+  Er  Er1  1  0.695219  0.695902  0.391120  1
+  Er  Er2  1  0.304781  0.695902  0.000683  1
+  Er  Er3  1  0.695219  0.304098  0.999317  1
+  Er  Er4  1  0.448443  0.204273  0.244171  1
+  Er  Er5  1  0.551557  0.795727  0.755829  1
+  Er  Er6  1  0.960103  0.204273  0.755829  1
+  Er  Er7  1  0.204785  0.960255  0.755470  1
+  Er  Er8  1  0.039897  0.795727  0.244171  1
+  Er  Er9  1  0.795215  0.039745  0.244530  1
+  Er  Er10  1  0.204785  0.449314  0.244530  1
+  Er  Er11  1  0.795215  0.550686  0.755470  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  Tl  Tl13  1  0.000000  0.500000  0.500000  1
+  In  In14  1  0.500000  0.000000  0.500000  1
+  Fe  Fe15  1  0.387886  0.387886  0.000000  1
+  Fe  Fe16  1  0.612114  0.612114  0.000000  1

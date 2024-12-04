@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu4AlOs7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33472000
+_cell_length_b   5.33472170
+_cell_length_c   8.59575200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99998949
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4AlOs7
+_chemical_formula_sum   'Lu4 Al1 Os7'
+_cell_volume   211.85462639
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.333333  0.666667  0.436105  1
+  Lu  Lu1  1  0.666667  0.333333  0.563895  1
+  Lu  Lu2  1  0.666667  0.333333  0.929831  1
+  Lu  Lu3  1  0.333333  0.666667  0.070169  1
+  Al  Al4  1  0.000000  0.000000  0.000000  1
+  Os  Os5  1  0.171693  0.343387  0.751408  1
+  Os  Os6  1  0.171693  0.828307  0.751408  1
+  Os  Os7  1  0.343387  0.171693  0.248592  1
+  Os  Os8  1  0.828307  0.656613  0.248592  1
+  Os  Os9  1  0.656613  0.828307  0.751408  1
+  Os  Os10  1  0.828307  0.171693  0.248592  1
+  Os  Os11  1  0.000000  0.000000  0.500000  1

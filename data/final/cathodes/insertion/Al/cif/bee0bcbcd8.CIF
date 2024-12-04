@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La4Al3OsI2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.38946600
+_cell_length_b   4.38946558
+_cell_length_c   17.85063500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001826
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La4Al3OsI2
+_chemical_formula_sum   'La4 Al3 Os1 I2'
+_cell_volume   297.85682696
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.395947  1
+  La  La1  1  0.000000  0.000000  0.881020  1
+  La  La2  1  0.000000  0.000000  0.604963  1
+  La  La3  1  0.000000  0.000000  0.118651  1
+  Al  Al4  1  0.333333  0.666667  0.993128  1
+  Al  Al5  1  0.333333  0.666667  0.500629  1
+  Al  Al6  1  0.666667  0.333333  0.006598  1
+  Os  Os7  1  0.666667  0.333333  0.500088  1
+  I  I8  1  0.333333  0.666667  0.247332  1
+  I  I9  1  0.666667  0.333333  0.751643  1

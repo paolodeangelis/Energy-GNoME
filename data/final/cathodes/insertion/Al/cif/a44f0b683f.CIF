@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeTmTiAlIr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.88280800
+_cell_length_b   4.32426700
+_cell_length_c   7.95657000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeTmTiAlIr2
+_chemical_formula_sum   'Ce2 Tm2 Ti2 Al2 Ir4'
+_cell_volume   236.81218460
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.035164  0.750000  0.819234  1
+  Ce  Ce1  1  0.535164  0.750000  0.680766  1
+  Tm  Tm2  1  0.969387  0.250000  0.182918  1
+  Tm  Tm3  1  0.469387  0.250000  0.317082  1
+  Ti  Ti4  1  0.128099  0.750000  0.434901  1
+  Ti  Ti5  1  0.628099  0.750000  0.065099  1
+  Al  Al6  1  0.861419  0.250000  0.557021  1
+  Al  Al7  1  0.361419  0.250000  0.942979  1
+  Ir  Ir8  1  0.739201  0.250000  0.888205  1
+  Ir  Ir9  1  0.239201  0.250000  0.611795  1
+  Ir  Ir10  1  0.266730  0.750000  0.122441  1
+  Ir  Ir11  1  0.766730  0.750000  0.377559  1

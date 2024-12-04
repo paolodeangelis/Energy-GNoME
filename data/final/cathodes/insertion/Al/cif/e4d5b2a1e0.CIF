@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Lu9Th7(AlCo)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.29909005
+_cell_length_b   9.32209130
+_cell_length_c   9.37489800
+_cell_angle_alpha   59.64986151
+_cell_angle_beta   60.22161551
+_cell_angle_gamma   60.45734315
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu9Th7(AlCo)4
+_chemical_formula_sum   'Lu9 Th7 Al4 Co4'
+_cell_volume   576.01950704
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.057220  0.442780  0.057220  1
+  Lu  Lu1  1  0.442194  0.446659  0.053444  1
+  Lu  Lu2  1  0.053444  0.057702  0.442194  1
+  Lu  Lu3  1  0.180730  0.815475  0.821336  1
+  Lu  Lu4  1  0.821336  0.182459  0.180730  1
+  Lu  Lu5  1  0.816991  0.183009  0.816991  1
+  Lu  Lu6  1  0.184775  0.815225  0.184775  1
+  Lu  Lu7  1  0.817415  0.813106  0.183631  1
+  Lu  Lu8  1  0.183631  0.185847  0.817415  1
+  Th  Th9  1  0.595267  0.597765  0.601569  1
+  Th  Th10  1  0.600827  0.594567  0.204319  1
+  Th  Th11  1  0.601569  0.205400  0.595267  1
+  Th  Th12  1  0.204319  0.600288  0.600827  1
+  Th  Th13  1  0.061078  0.438458  0.434299  1
+  Th  Th14  1  0.434299  0.066165  0.061078  1
+  Th  Th15  1  0.440764  0.059236  0.440764  1
+  Al  Al16  1  0.828169  0.829439  0.830235  1
+  Al  Al17  1  0.830253  0.828232  0.512191  1
+  Al  Al18  1  0.830235  0.512157  0.828169  1
+  Al  Al19  1  0.512191  0.829324  0.830253  1
+  Co  Co20  1  0.382696  0.390089  0.398691  1
+  Co  Co21  1  0.396776  0.380228  0.825126  1
+  Co  Co22  1  0.398691  0.828523  0.382696  1
+  Co  Co23  1  0.825126  0.397868  0.396776  1

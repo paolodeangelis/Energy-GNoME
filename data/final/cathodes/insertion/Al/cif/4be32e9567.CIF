@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Lu12AlCo4Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.11617008
+_cell_length_b   8.11616967
+_cell_length_c   8.11616982
+_cell_angle_alpha   111.92399066
+_cell_angle_beta   109.86587305
+_cell_angle_gamma   106.66673295
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu12AlCo4Sn
+_chemical_formula_sum   'Lu12 Al1 Co4 Sn1'
+_cell_volume   410.68375200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.439222  0.234662  0.204559  1
+  Lu  Lu1  1  0.560778  0.765338  0.795441  1
+  Lu  Lu2  1  0.030102  0.234662  0.795441  1
+  Lu  Lu3  1  0.969898  0.765338  0.204559  1
+  Lu  Lu4  1  0.182641  0.280609  0.463251  1
+  Lu  Lu5  1  0.817359  0.719391  0.536749  1
+  Lu  Lu6  1  0.182641  0.719391  0.902032  1
+  Lu  Lu7  1  0.817359  0.280609  0.097968  1
+  Lu  Lu8  1  0.322538  0.632583  0.310045  1
+  Lu  Lu9  1  0.677462  0.367417  0.689955  1
+  Lu  Lu10  1  0.322538  0.012493  0.689955  1
+  Lu  Lu11  1  0.677462  0.987507  0.310045  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  Co  Co13  1  0.343495  0.000000  0.343495  1
+  Co  Co14  1  0.656505  0.000000  0.656505  1
+  Co  Co15  1  0.115957  0.615957  0.500000  1
+  Co  Co16  1  0.884043  0.384043  0.500000  1
+  Sn  Sn17  1  0.500000  0.500000  0.000000  1

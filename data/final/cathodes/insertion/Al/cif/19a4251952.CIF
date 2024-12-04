@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Tb12AlCo4Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38166779
+_cell_length_b   8.38166740
+_cell_length_c   8.38166750
+_cell_angle_alpha   112.02460921
+_cell_angle_beta   109.28455913
+_cell_angle_gamma   107.14165935
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb12AlCo4Sn
+_chemical_formula_sum   'Tb12 Al1 Co4 Sn1'
+_cell_volume   452.45339300
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.435247  0.233185  0.202062  1
+  Tb  Tb1  1  0.564753  0.766815  0.797938  1
+  Tb  Tb2  1  0.031123  0.233185  0.797938  1
+  Tb  Tb3  1  0.968877  0.766815  0.202062  1
+  Tb  Tb4  1  0.181496  0.282511  0.464008  1
+  Tb  Tb5  1  0.818504  0.717489  0.535992  1
+  Tb  Tb6  1  0.181496  0.717489  0.898985  1
+  Tb  Tb7  1  0.818504  0.282511  0.101015  1
+  Tb  Tb8  1  0.323581  0.636274  0.312693  1
+  Tb  Tb9  1  0.676419  0.363726  0.687307  1
+  Tb  Tb10  1  0.323581  0.010888  0.687307  1
+  Tb  Tb11  1  0.676419  0.989112  0.312693  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  Co  Co13  1  0.336320  0.000000  0.336320  1
+  Co  Co14  1  0.663680  0.000000  0.663680  1
+  Co  Co15  1  0.113104  0.613104  0.500000  1
+  Co  Co16  1  0.886896  0.386896  0.500000  1
+  Sn  Sn17  1  0.500000  0.500000  0.000000  1

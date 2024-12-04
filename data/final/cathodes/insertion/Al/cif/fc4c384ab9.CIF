@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy3Th(AlRe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39985000
+_cell_length_b   5.39985063
+_cell_length_c   9.08812400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999616
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3Th(AlRe3)2
+_chemical_formula_sum   'Dy3 Th1 Al2 Re6'
+_cell_volume   229.49241424
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.333333  0.666667  0.065419  1
+  Dy  Dy1  1  0.666667  0.333333  0.570242  1
+  Dy  Dy2  1  0.666667  0.333333  0.932139  1
+  Th  Th3  1  0.333333  0.666667  0.431201  1
+  Al  Al4  1  0.000000  0.000000  0.999480  1
+  Al  Al5  1  0.000000  0.000000  0.501328  1
+  Re  Re6  1  0.830543  0.661085  0.248218  1
+  Re  Re7  1  0.169610  0.830390  0.751845  1
+  Re  Re8  1  0.660780  0.830390  0.751845  1
+  Re  Re9  1  0.338915  0.169457  0.248218  1
+  Re  Re10  1  0.830543  0.169457  0.248218  1
+  Re  Re11  1  0.169610  0.339220  0.751845  1

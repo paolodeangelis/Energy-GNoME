@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li3Pr4AlPtRh3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14394600
+_cell_length_b   7.17489167
+_cell_length_c   8.52810358
+_cell_angle_alpha   89.71651523
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Pr4AlPtRh3
+_chemical_formula_sum   'Li3 Pr4 Al1 Pt1 Rh3'
+_cell_volume   253.55757317
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.250000  0.128597  0.058076  1
+  Li  Li1  1  0.750000  0.373906  0.553128  1
+  Li  Li2  1  0.250000  0.632060  0.443729  1
+  Pr  Pr3  1  0.250000  0.536766  0.812546  1
+  Pr  Pr4  1  0.250000  0.039025  0.688599  1
+  Pr  Pr5  1  0.750000  0.956244  0.315570  1
+  Pr  Pr6  1  0.750000  0.458377  0.176605  1
+  Al  Al7  1  0.750000  0.867370  0.943805  1
+  Pt  Pt8  1  0.250000  0.256006  0.379449  1
+  Rh  Rh9  1  0.250000  0.760004  0.100859  1
+  Rh  Rh10  1  0.750000  0.758067  0.640787  1
+  Rh  Rh11  1  0.750000  0.233578  0.886848  1

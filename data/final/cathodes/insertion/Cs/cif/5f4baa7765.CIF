@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2Sc2FeCuSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.40669602
+_cell_length_b   8.40669592
+_cell_length_c   10.39220900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   152.56990756
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Sc2FeCuSe6
+_chemical_formula_sum   'Cs2 Sc2 Fe1 Cu1 Se6'
+_cell_volume   338.33328601
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.242356  0.757642  0.250000  1
+  Cs  Cs1  1  0.753142  0.246856  0.750000  1
+  Sc  Sc2  1  0.503771  0.496227  0.985070  1
+  Sc  Sc3  1  0.503771  0.496227  0.514930  1
+  Fe  Fe4  1  0.966214  0.033785  0.250000  1
+  Cu  Cu5  1  0.032862  0.967137  0.750000  1
+  Se  Se6  1  0.890475  0.109524  0.056088  1
+  Se  Se7  1  0.552894  0.447105  0.250000  1
+  Se  Se8  1  0.890475  0.109524  0.443911  1
+  Se  Se9  1  0.111796  0.888203  0.551561  1
+  Se  Se10  1  0.440441  0.559558  0.750000  1
+  Se  Se11  1  0.111796  0.888203  0.948438  1

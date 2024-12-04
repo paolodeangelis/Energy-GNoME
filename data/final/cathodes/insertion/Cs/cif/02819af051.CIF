@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Cs3BaNaI6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.43903371
+_cell_length_b   10.43903412
+_cell_length_c   10.43903510
+_cell_angle_alpha   92.18498890
+_cell_angle_beta   92.18498927
+_cell_angle_gamma   92.18499096
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3BaNaI6
+_chemical_formula_sum   'Cs6 Ba2 Na2 I12'
+_cell_volume   1135.03119421
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.869441  0.630559  0.250000  1
+  Cs  Cs1  1  0.630559  0.250000  0.869441  1
+  Cs  Cs2  1  0.250000  0.869441  0.630559  1
+  Cs  Cs3  1  0.130559  0.369441  0.750000  1
+  Cs  Cs4  1  0.369441  0.750000  0.130559  1
+  Cs  Cs5  1  0.750000  0.130559  0.369441  1
+  Ba  Ba6  1  0.250000  0.250000  0.250000  1
+  Ba  Ba7  1  0.750000  0.750000  0.750000  1
+  Na  Na8  1  0.000000  0.000000  0.000000  1
+  Na  Na9  1  0.500000  0.500000  0.500000  1
+  I  I10  1  0.200779  0.540954  0.414226  1
+  I  I11  1  0.040954  0.700779  0.914226  1
+  I  I12  1  0.914226  0.040954  0.700779  1
+  I  I13  1  0.799221  0.459046  0.585774  1
+  I  I14  1  0.700779  0.914226  0.040954  1
+  I  I15  1  0.459046  0.585774  0.799221  1
+  I  I16  1  0.585774  0.799221  0.459046  1
+  I  I17  1  0.540954  0.414226  0.200779  1
+  I  I18  1  0.085774  0.959046  0.299221  1
+  I  I19  1  0.959046  0.299221  0.085774  1
+  I  I20  1  0.299221  0.085774  0.959046  1
+  I  I21  1  0.414226  0.200779  0.540954  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K3Al2Sb2P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20696100
+_cell_length_b   7.92050284
+_cell_length_c   11.03646855
+_cell_angle_alpha   69.47501877
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Al2Sb2P
+_chemical_formula_sum   'K6 Al4 Sb4 P2'
+_cell_volume   508.13450018
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.250000  0.473357  0.416206  1
+  K  K1  1  0.750000  0.126599  0.923517  1
+  K  K2  1  0.750000  0.458964  0.161101  1
+  K  K3  1  0.250000  0.541036  0.838899  1
+  K  K4  1  0.750000  0.526643  0.583794  1
+  K  K5  1  0.250000  0.873401  0.076483  1
+  Al  Al6  1  0.000511  0.022551  0.359435  1
+  Al  Al7  1  0.500511  0.977449  0.640565  1
+  Al  Al8  1  0.499489  0.022551  0.359435  1
+  Al  Al9  1  0.999489  0.977449  0.640565  1
+  Sb  Sb10  1  0.250000  0.263606  0.180337  1
+  Sb  Sb11  1  0.750000  0.736394  0.819663  1
+  Sb  Sb12  1  0.250000  0.175801  0.738442  1
+  Sb  Sb13  1  0.750000  0.824199  0.261558  1
+  P  P14  1  0.250000  0.833803  0.528528  1
+  P  P15  1  0.750000  0.166197  0.471472  1

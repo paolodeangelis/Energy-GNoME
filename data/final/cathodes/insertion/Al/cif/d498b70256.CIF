@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Al2Ni4Pt5W
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.69082500
+_cell_length_b   3.81218200
+_cell_length_c   11.64794300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2Ni4Pt5W
+_chemical_formula_sum   'Al2 Ni4 Pt5 W1'
+_cell_volume   163.88768355
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.000000  0.000000  0.340481  1
+  Al  Al1  1  0.000000  0.000000  0.659519  1
+  Ni  Ni2  1  0.500000  0.500000  0.000000  1
+  Ni  Ni3  1  0.000000  0.500000  0.151635  1
+  Ni  Ni4  1  0.000000  0.500000  0.500000  1
+  Ni  Ni5  1  0.000000  0.500000  0.848365  1
+  Pt  Pt6  1  0.500000  0.500000  0.328214  1
+  Pt  Pt7  1  0.500000  0.500000  0.671786  1
+  Pt  Pt8  1  0.500000  0.000000  0.159341  1
+  Pt  Pt9  1  0.500000  0.000000  0.500000  1
+  Pt  Pt10  1  0.500000  0.000000  0.840659  1
+  W  W11  1  0.000000  0.000000  0.000000  1

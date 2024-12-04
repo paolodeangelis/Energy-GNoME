@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CsAl2GeAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41718012
+_cell_length_b   8.41718057
+_cell_length_c   8.41717810
+_cell_angle_alpha   150.99347412
+_cell_angle_beta   150.99347900
+_cell_angle_gamma   41.48500861
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsAl2GeAs
+_chemical_formula_sum   'Cs1 Al2 Ge1 As1'
+_cell_volume   139.90916424
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.000101  0.000101  0.000000  1
+  Al  Al1  1  0.750785  0.250785  0.500000  1
+  Al  Al2  1  0.250785  0.750785  0.500000  1
+  Ge  Ge3  1  0.344804  0.344804  0.000000  1
+  As  As4  1  0.653524  0.653524  0.000000  1

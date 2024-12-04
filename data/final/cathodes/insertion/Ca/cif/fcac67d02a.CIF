@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca2MnAlF10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.55398350
+_cell_length_b   5.47460285
+_cell_length_c   7.77186445
+_cell_angle_alpha   70.13575939
+_cell_angle_beta   68.58109967
+_cell_angle_gamma   70.89662802
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2MnAlF10
+_chemical_formula_sum   'Ca2 Mn1 Al1 F10'
+_cell_volume   201.25170958
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.552786  0.462617  0.238809  1
+  Ca  Ca1  1  0.447214  0.537383  0.761191  1
+  Mn  Mn2  1  0.000000  0.000000  0.500000  1
+  Al  Al3  1  0.000000  0.000000  0.000000  1
+  F  F4  1  0.753239  0.788849  0.617567  1
+  F  F5  1  0.204094  0.238078  0.887136  1
+  F  F6  1  0.246761  0.211151  0.382433  1
+  F  F7  1  0.795906  0.761922  0.112864  1
+  F  F8  1  0.074370  0.924856  0.768600  1
+  F  F9  1  0.925630  0.075144  0.231400  1
+  F  F10  1  0.295119  0.724813  0.033122  1
+  F  F11  1  0.285164  0.691101  0.477107  1
+  F  F12  1  0.704881  0.275187  0.966878  1
+  F  F13  1  0.714836  0.308899  0.522893  1

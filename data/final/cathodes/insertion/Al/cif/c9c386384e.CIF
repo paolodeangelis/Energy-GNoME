@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ta15Nb5(AlOs4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.90393310
+_cell_length_b   9.90393310
+_cell_length_c   5.17918203
+_cell_angle_alpha   89.99127825
+_cell_angle_beta   89.99127825
+_cell_angle_gamma   89.98608059
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta15Nb5(AlOs4)2
+_chemical_formula_sum   'Ta15 Nb5 Al2 Os8'
+_cell_volume   508.01501507
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.129410  0.465987  0.999847  1
+  Ta  Ta1  1  0.966026  0.370697  0.499845  1
+  Ta  Ta2  1  0.034191  0.629324  0.499618  1
+  Ta  Ta3  1  0.870372  0.533645  0.999877  1
+  Ta  Ta4  1  0.370697  0.966026  0.499845  1
+  Ta  Ta5  1  0.629324  0.034191  0.499618  1
+  Ta  Ta6  1  0.465987  0.129410  0.999847  1
+  Ta  Ta7  1  0.533645  0.870372  0.999877  1
+  Ta  Ta8  1  0.183568  0.183568  0.249752  1
+  Ta  Ta9  1  0.683484  0.316132  0.749866  1
+  Ta  Ta10  1  0.316132  0.683484  0.749866  1
+  Ta  Ta11  1  0.815940  0.815940  0.250275  1
+  Ta  Ta12  1  0.316312  0.683539  0.249944  1
+  Ta  Ta13  1  0.683539  0.316312  0.249944  1
+  Ta  Ta14  1  0.183712  0.183712  0.750132  1
+  Nb  Nb15  1  0.396322  0.396322  0.999914  1
+  Nb  Nb16  1  0.896510  0.104625  0.500366  1
+  Nb  Nb17  1  0.104625  0.896510  0.500366  1
+  Nb  Nb18  1  0.603157  0.603157  0.000318  1
+  Nb  Nb19  1  0.817133  0.817133  0.749783  1
+  Al  Al20  1  0.999937  0.999937  0.999951  1
+  Al  Al21  1  0.499929  0.499929  0.499953  1
+  Os  Os22  1  0.256940  0.936905  0.999625  1
+  Os  Os23  1  0.436681  0.243245  0.500241  1
+  Os  Os24  1  0.562871  0.756694  0.499305  1
+  Os  Os25  1  0.742559  0.064153  0.001426  1
+  Os  Os26  1  0.243245  0.436681  0.500241  1
+  Os  Os27  1  0.756694  0.562871  0.499305  1
+  Os  Os28  1  0.936905  0.256940  0.999625  1
+  Os  Os29  1  0.064153  0.742559  0.001426  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoEr3(AlRe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37323900
+_cell_length_b   5.37323971
+_cell_length_c   8.92781900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000182
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoEr3(AlRe3)2
+_chemical_formula_sum   'Ho1 Er3 Al2 Re6'
+_cell_volume   223.22784887
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.333333  0.666667  0.433713  1
+  Er  Er1  1  0.666667  0.333333  0.566683  1
+  Er  Er2  1  0.666667  0.333333  0.933508  1
+  Er  Er3  1  0.333333  0.666667  0.066413  1
+  Al  Al4  1  0.000000  0.000000  0.500052  1
+  Al  Al5  1  0.000000  0.000000  0.000012  1
+  Re  Re6  1  0.830198  0.169802  0.249642  1
+  Re  Re7  1  0.830198  0.660396  0.249642  1
+  Re  Re8  1  0.339604  0.169802  0.249642  1
+  Re  Re9  1  0.169745  0.830255  0.750231  1
+  Re  Re10  1  0.169745  0.339488  0.750231  1
+  Re  Re11  1  0.660512  0.830255  0.750231  1

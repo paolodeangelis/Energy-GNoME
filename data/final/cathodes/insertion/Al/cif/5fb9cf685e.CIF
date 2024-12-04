@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ho3Mg3AlAgPb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46730200
+_cell_length_b   7.46730267
+_cell_length_c   4.51805300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999704
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3Mg3AlAgPb
+_chemical_formula_sum   'Ho3 Mg3 Al1 Ag1 Pb1'
+_cell_volume   218.17723639
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.587986  0.013569  0.000000  1
+  Ho  Ho1  1  0.986431  0.574418  0.000000  1
+  Ho  Ho2  1  0.425582  0.412014  0.000000  1
+  Mg  Mg3  1  0.242230  0.007752  0.500000  1
+  Mg  Mg4  1  0.992248  0.234479  0.500000  1
+  Mg  Mg5  1  0.765521  0.757770  0.500000  1
+  Al  Al6  1  0.666667  0.333333  0.500000  1
+  Ag  Ag7  1  0.000000  0.000000  0.000000  1
+  Pb  Pb8  1  0.333333  0.666667  0.500000  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CsRb3V2(NiSe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.52645642
+_cell_length_b   12.99602149
+_cell_length_c   7.63746957
+_cell_angle_alpha   85.31630599
+_cell_angle_beta   63.08227106
+_cell_angle_gamma   31.51053716
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRb3V2(NiSe4)2
+_chemical_formula_sum   'Cs1 Rb3 V2 Ni2 Se8'
+_cell_volume   508.92250003
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.072465  0.072465  0.427535  1
+  Rb  Rb1  1  0.822554  0.822554  0.177446  1
+  Rb  Rb2  1  0.427589  0.427589  0.072411  1
+  Rb  Rb3  1  0.177811  0.177811  0.822189  1
+  V  V4  1  0.999023  0.999023  0.000977  1
+  V  V5  1  0.250749  0.250749  0.249251  1
+  Ni  Ni6  1  0.499160  0.499160  0.500840  1
+  Ni  Ni7  1  0.750376  0.750376  0.749624  1
+  Se  Se8  1  0.535957  0.861463  0.150767  1
+  Se  Se9  1  0.861463  0.535957  0.451813  1
+  Se  Se10  1  0.796617  0.096439  0.388206  1
+  Se  Se11  1  0.096439  0.796617  0.718738  1
+  Se  Se12  1  0.152417  0.453086  0.533216  1
+  Se  Se13  1  0.453086  0.152417  0.861280  1
+  Se  Se14  1  0.387065  0.717229  0.794436  1
+  Se  Se15  1  0.717229  0.387065  0.101270  1

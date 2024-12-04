@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbCe(AlRu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.04743000
+_cell_length_b   4.01074500
+_cell_length_c   8.23478300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbCe(AlRu)2
+_chemical_formula_sum   'Tb2 Ce2 Al4 Ru4'
+_cell_volume   232.75980297
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.958807  0.250000  0.186198  1
+  Tb  Tb1  1  0.458807  0.250000  0.313802  1
+  Ce  Ce2  1  0.034126  0.750000  0.823614  1
+  Ce  Ce3  1  0.534126  0.750000  0.676386  1
+  Al  Al4  1  0.870017  0.250000  0.556903  1
+  Al  Al5  1  0.370017  0.250000  0.943097  1
+  Al  Al6  1  0.133859  0.750000  0.439255  1
+  Al  Al7  1  0.633859  0.750000  0.060745  1
+  Ru  Ru8  1  0.741810  0.250000  0.868224  1
+  Ru  Ru9  1  0.241810  0.250000  0.631776  1
+  Ru  Ru10  1  0.261381  0.750000  0.115381  1
+  Ru  Ru11  1  0.761381  0.750000  0.384619  1

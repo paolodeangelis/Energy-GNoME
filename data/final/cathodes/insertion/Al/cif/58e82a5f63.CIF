@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Al2VPt7Rh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87714200
+_cell_length_b   3.92526500
+_cell_length_c   11.66154000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2VPt7Rh2
+_chemical_formula_sum   'Al2 V1 Pt7 Rh2'
+_cell_volume   177.47475915
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.000000  0.000000  0.333885  1
+  Al  Al1  1  0.000000  0.000000  0.666115  1
+  V  V2  1  0.000000  0.000000  0.000000  1
+  Pt  Pt3  1  0.500000  0.500000  0.000000  1
+  Pt  Pt4  1  0.500000  0.500000  0.329931  1
+  Pt  Pt5  1  0.500000  0.500000  0.670069  1
+  Pt  Pt6  1  0.500000  0.000000  0.500000  1
+  Pt  Pt7  1  0.000000  0.500000  0.162249  1
+  Pt  Pt8  1  0.000000  0.500000  0.500000  1
+  Pt  Pt9  1  0.000000  0.500000  0.837751  1
+  Rh  Rh10  1  0.500000  0.000000  0.160107  1
+  Rh  Rh11  1  0.500000  0.000000  0.839893  1

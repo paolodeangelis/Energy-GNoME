@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba2LiAlSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.27882966
+_cell_length_b   9.27883050
+_cell_length_c   9.27883044
+_cell_angle_alpha   135.90856633
+_cell_angle_beta   135.91719180
+_cell_angle_gamma   64.11504980
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiAlSn2
+_chemical_formula_sum   'Ba4 Li2 Al2 Sn4'
+_cell_volume   381.47922755
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.097025  0.842145  0.254880  1
+  Ba  Ba1  1  0.902975  0.157855  0.745120  1
+  Ba  Ba2  1  0.412735  0.657855  0.754880  1
+  Ba  Ba3  1  0.587265  0.342145  0.245120  1
+  Li  Li4  1  0.500000  0.250000  0.750000  1
+  Li  Li5  1  0.500000  0.750000  0.250000  1
+  Al  Al6  1  0.000000  0.250000  0.250000  1
+  Al  Al7  1  0.000000  0.750000  0.750000  1
+  Sn  Sn8  1  0.659227  0.899933  0.759293  1
+  Sn  Sn9  1  0.140642  0.399933  0.740707  1
+  Sn  Sn10  1  0.859358  0.600067  0.259293  1
+  Sn  Sn11  1  0.340773  0.100067  0.240707  1

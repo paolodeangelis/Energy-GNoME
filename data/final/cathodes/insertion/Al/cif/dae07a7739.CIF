@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Hf6Al16Ir5PdPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.73634637
+_cell_length_b   8.73017687
+_cell_length_c   8.73017596
+_cell_angle_alpha   60.00947807
+_cell_angle_beta   59.97661847
+_cell_angle_gamma   59.97662475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf6Al16Ir5PdPt
+_chemical_formula_sum   'Hf6 Al16 Ir5 Pd1 Pt1'
+_cell_volume   470.69372486
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.681550  0.318450  0.318450  1
+  Hf  Hf1  1  0.318450  0.681550  0.681550  1
+  Hf  Hf2  1  0.316637  0.684992  0.315008  1
+  Hf  Hf3  1  0.683363  0.315008  0.684992  1
+  Hf  Hf4  1  0.316637  0.315008  0.684992  1
+  Hf  Hf5  1  0.683363  0.684992  0.315008  1
+  Al  Al6  1  0.340102  0.337641  0.337641  1
+  Al  Al7  1  0.659898  0.662359  0.662359  1
+  Al  Al8  1  0.338142  0.337842  0.985872  1
+  Al  Al9  1  0.338142  0.985872  0.337842  1
+  Al  Al10  1  0.661858  0.662158  0.014128  1
+  Al  Al11  1  0.661858  0.014128  0.662158  1
+  Al  Al12  1  0.984614  0.337641  0.337641  1
+  Al  Al13  1  0.015386  0.662359  0.662359  1
+  Al  Al14  1  0.121546  0.120735  0.120735  1
+  Al  Al15  1  0.878454  0.879265  0.879265  1
+  Al  Al16  1  0.123152  0.115409  0.638289  1
+  Al  Al17  1  0.123152  0.638289  0.115409  1
+  Al  Al18  1  0.876848  0.884591  0.361711  1
+  Al  Al19  1  0.876848  0.361711  0.884591  1
+  Al  Al20  1  0.636986  0.120735  0.120735  1
+  Al  Al21  1  0.363014  0.879265  0.879265  1
+  Ir  Ir22  1  0.500000  0.000000  0.000000  1
+  Ir  Ir23  1  0.000000  0.500000  0.000000  1
+  Ir  Ir24  1  0.500000  0.000000  0.500000  1
+  Ir  Ir25  1  0.000000  0.000000  0.500000  1
+  Ir  Ir26  1  0.500000  0.500000  0.000000  1
+  Pd  Pd27  1  0.000000  0.000000  0.000000  1
+  Pt  Pt28  1  0.000000  0.500000  0.500000  1

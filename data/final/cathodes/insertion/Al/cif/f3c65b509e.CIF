@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NdThAlRu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88327474
+_cell_length_b   5.88327447
+_cell_length_c   7.10831397
+_cell_angle_alpha   87.72753335
+_cell_angle_beta   92.27246320
+_cell_angle_gamma   118.24006721
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdThAlRu2
+_chemical_formula_sum   'Nd2 Th2 Al2 Ru4'
+_cell_volume   216.52264889
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.343783  0.656217  0.083500  1
+  Nd  Nd1  1  0.656217  0.343783  0.916500  1
+  Th  Th2  1  0.167249  0.832751  0.592013  1
+  Th  Th3  1  0.832751  0.167249  0.407987  1
+  Al  Al4  1  0.000000  0.000000  0.000000  1
+  Al  Al5  1  0.500000  0.500000  0.500000  1
+  Ru  Ru6  1  0.863968  0.648810  0.267828  1
+  Ru  Ru7  1  0.648810  0.863968  0.732172  1
+  Ru  Ru8  1  0.136032  0.351190  0.732172  1
+  Ru  Ru9  1  0.351190  0.136032  0.267828  1

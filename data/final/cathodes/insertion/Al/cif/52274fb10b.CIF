@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_BeAlGaO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.52245100
+_cell_length_b   5.63672400
+_cell_length_c   9.77271600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeAlGaO4
+_chemical_formula_sum   'Be4 Al4 Ga4 O16'
+_cell_volume   249.12420080
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.069180  0.250000  0.410142  1
+  Be  Be1  1  0.930820  0.750000  0.589858  1
+  Be  Be2  1  0.430820  0.250000  0.910142  1
+  Be  Be3  1  0.569180  0.750000  0.089858  1
+  Al  Al4  1  0.500000  0.500000  0.500000  1
+  Al  Al5  1  0.000000  0.500000  0.000000  1
+  Al  Al6  1  0.500000  0.000000  0.500000  1
+  Al  Al7  1  0.000000  0.000000  0.000000  1
+  Ga  Ga8  1  0.492263  0.750000  0.775460  1
+  Ga  Ga9  1  0.992263  0.250000  0.724540  1
+  Ga  Ga10  1  0.507737  0.250000  0.224540  1
+  Ga  Ga11  1  0.007737  0.750000  0.275460  1
+  O  O12  1  0.756150  0.519731  0.658326  1
+  O  O13  1  0.256150  0.480269  0.841674  1
+  O  O14  1  0.243850  0.019731  0.341674  1
+  O  O15  1  0.743850  0.980269  0.158326  1
+  O  O16  1  0.256150  0.019731  0.841674  1
+  O  O17  1  0.243850  0.480269  0.341674  1
+  O  O18  1  0.756150  0.980269  0.658326  1
+  O  O19  1  0.743850  0.519731  0.158326  1
+  O  O20  1  0.219671  0.750000  0.084663  1
+  O  O21  1  0.719671  0.250000  0.415337  1
+  O  O22  1  0.780329  0.250000  0.915337  1
+  O  O23  1  0.280329  0.750000  0.584663  1
+  O  O24  1  0.749944  0.750000  0.436825  1
+  O  O25  1  0.249944  0.250000  0.063175  1
+  O  O26  1  0.250056  0.250000  0.563175  1
+  O  O27  1  0.750056  0.750000  0.936825  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ca6Tc2SeN6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25926155
+_cell_length_b   6.25926173
+_cell_length_c   6.25926259
+_cell_angle_alpha   95.76194547
+_cell_angle_beta   95.76195872
+_cell_angle_gamma   95.76195720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca6Tc2SeN6
+_chemical_formula_sum   'Ca6 Tc2 Se1 N6'
+_cell_volume   241.23946149
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.614747  0.112813  0.789549  1
+  Ca  Ca1  1  0.112813  0.789549  0.614747  1
+  Ca  Ca2  1  0.789549  0.614747  0.112813  1
+  Ca  Ca3  1  0.385253  0.887187  0.210451  1
+  Ca  Ca4  1  0.887187  0.210451  0.385253  1
+  Ca  Ca5  1  0.210451  0.385253  0.887187  1
+  Tc  Tc6  1  0.621114  0.621114  0.621114  1
+  Tc  Tc7  1  0.378886  0.378886  0.378886  1
+  Se  Se8  1  0.000000  0.000000  0.000000  1
+  N  N9  1  0.720708  0.849685  0.463317  1
+  N  N10  1  0.849685  0.463317  0.720708  1
+  N  N11  1  0.463317  0.720708  0.849685  1
+  N  N12  1  0.279292  0.150315  0.536683  1
+  N  N13  1  0.150315  0.536683  0.279292  1
+  N  N14  1  0.536683  0.279292  0.150315  1

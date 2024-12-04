@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CsMnGaF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.56141407
+_cell_length_b   7.56141385
+_cell_length_c   7.56141371
+_cell_angle_alpha   119.95049181
+_cell_angle_beta   120.22737502
+_cell_angle_gamma   89.84619771
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsMnGaF6
+_chemical_formula_sum   'Cs2 Mn2 Ga2 F12'
+_cell_volume   305.28465831
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.371013  0.621013  0.750000  1
+  Cs  Cs1  1  0.628987  0.378987  0.250000  1
+  Mn  Mn2  1  0.000000  0.000000  0.500000  1
+  Mn  Mn3  1  0.000000  0.500000  0.000000  1
+  Ga  Ga4  1  0.000000  0.000000  0.000000  1
+  Ga  Ga5  1  0.500000  0.000000  0.500000  1
+  F  F6  1  0.302128  0.052128  0.250000  1
+  F  F7  1  0.916571  0.666571  0.250000  1
+  F  F8  1  0.338005  0.699437  0.278927  1
+  F  F9  1  0.920510  0.059078  0.221073  1
+  F  F10  1  0.338005  0.059078  0.638568  1
+  F  F11  1  0.920510  0.699437  0.861432  1
+  F  F12  1  0.697872  0.947872  0.750000  1
+  F  F13  1  0.083429  0.333429  0.750000  1
+  F  F14  1  0.661995  0.300563  0.721073  1
+  F  F15  1  0.079490  0.940922  0.778927  1
+  F  F16  1  0.661995  0.940922  0.361432  1
+  F  F17  1  0.079490  0.300563  0.138568  1

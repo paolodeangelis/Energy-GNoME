@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Pr10Al4(OsRu)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.62430755
+_cell_length_b   8.60530624
+_cell_length_c   8.62430758
+_cell_angle_alpha   109.25153588
+_cell_angle_beta   109.95984258
+_cell_angle_gamma   109.29164842
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr10Al4(OsRu)3
+_chemical_formula_sum   'Pr10 Al4 Os3 Ru3'
+_cell_volume   492.14976194
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.248830  0.682435  0.433314  1
+  Pr  Pr1  1  0.750879  0.817565  0.066395  1
+  Pr  Pr2  1  0.433843  0.250000  0.683843  1
+  Pr  Pr3  1  0.682397  0.433532  0.250507  1
+  Pr  Pr4  1  0.066469  0.750000  0.816469  1
+  Pr  Pr5  1  0.816974  0.066468  0.748864  1
+  Pr  Pr6  1  0.214367  0.214645  0.214946  1
+  Pr  Pr7  1  0.499677  0.999554  0.285342  1
+  Pr  Pr8  1  0.285789  0.500446  0.000123  1
+  Pr  Pr9  1  0.000301  0.285355  0.499722  1
+  Al  Al10  1  0.589903  0.589216  0.590298  1
+  Al  Al11  1  0.500322  0.000723  0.910477  1
+  Al  Al12  1  0.909754  0.499277  0.999600  1
+  Al  Al13  1  0.001082  0.910784  0.500687  1
+  Os  Os14  1  0.250021  0.116921  0.866601  1
+  Os  Os15  1  0.749681  0.383079  0.633100  1
+  Os  Os16  1  0.866635  0.250000  0.116636  1
+  Ru  Ru17  1  0.116175  0.866189  0.249974  1
+  Ru  Ru18  1  0.633118  0.750000  0.383118  1
+  Ru  Ru19  1  0.383784  0.633810  0.749985  1

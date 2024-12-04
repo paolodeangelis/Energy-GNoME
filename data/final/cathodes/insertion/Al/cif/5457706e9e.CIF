@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ho4Ti3AlIr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32551700
+_cell_length_b   6.90945103
+_cell_length_c   7.96183883
+_cell_angle_alpha   92.68713894
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho4Ti3AlIr4
+_chemical_formula_sum   'Ho4 Ti3 Al1 Ir4'
+_cell_volume   237.69341272
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.250000  0.980784  0.315839  1
+  Ho  Ho1  1  0.250000  0.472611  0.173728  1
+  Ho  Ho2  1  0.750000  0.026605  0.686708  1
+  Ho  Ho3  1  0.750000  0.513482  0.823981  1
+  Ti  Ti4  1  0.250000  0.365812  0.568967  1
+  Ti  Ti5  1  0.250000  0.864590  0.939149  1
+  Ti  Ti6  1  0.750000  0.634535  0.431371  1
+  Al  Al7  1  0.750000  0.144928  0.069820  1
+  Ir  Ir8  1  0.250000  0.222776  0.880378  1
+  Ir  Ir9  1  0.250000  0.726290  0.599931  1
+  Ir  Ir10  1  0.750000  0.771601  0.110401  1
+  Ir  Ir11  1  0.750000  0.275986  0.399729  1

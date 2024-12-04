@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y3Ho2AlBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.01558239
+_cell_length_b   9.01558238
+_cell_length_c   6.48179200
+_cell_angle_alpha   90.00004530
+_cell_angle_beta   90.00005162
+_cell_angle_gamma   119.91526743
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Ho2AlBi2
+_chemical_formula_sum   'Y6 Ho4 Al2 Bi4'
+_cell_volume   456.65001079
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.760875  0.760875  0.249996  1
+  Y  Y1  1  0.238381  0.998908  0.249999  1
+  Y  Y2  1  0.998908  0.238381  0.249999  1
+  Y  Y3  1  0.233654  0.233654  0.750002  1
+  Y  Y4  1  0.764076  0.012717  0.750000  1
+  Y  Y5  1  0.012717  0.764076  0.750000  1
+  Ho  Ho6  1  0.669050  0.326357  0.507059  1
+  Ho  Ho7  1  0.326357  0.669050  0.507059  1
+  Ho  Ho8  1  0.326357  0.669048  0.992939  1
+  Ho  Ho9  1  0.669048  0.326357  0.992939  1
+  Al  Al10  1  0.396875  0.001270  0.750000  1
+  Al  Al11  1  0.001270  0.396875  0.750000  1
+  Bi  Bi12  1  0.394782  0.394782  0.250006  1
+  Bi  Bi13  1  0.601438  0.996086  0.249998  1
+  Bi  Bi14  1  0.996086  0.601438  0.249998  1
+  Bi  Bi15  1  0.610125  0.610125  0.750005  1

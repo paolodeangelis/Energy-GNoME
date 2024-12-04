@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb3Ho3(LuAl2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07963500
+_cell_length_b   6.52790705
+_cell_length_c   9.39426089
+_cell_angle_alpha   89.86505297
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Ho3(LuAl2)2
+_chemical_formula_sum   'Tb3 Ho3 Lu2 Al4'
+_cell_volume   311.50705098
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.750000  0.688857  0.429149  1
+  Tb  Tb1  1  0.250000  0.311136  0.575003  1
+  Tb  Tb2  1  0.750000  0.186935  0.070704  1
+  Ho  Ho3  1  0.250000  0.811547  0.925055  1
+  Ho  Ho4  1  0.250000  0.472732  0.211653  1
+  Ho  Ho5  1  0.250000  0.971542  0.287615  1
+  Lu  Lu6  1  0.750000  0.528116  0.790099  1
+  Lu  Lu7  1  0.750000  0.027149  0.710654  1
+  Al  Al8  1  0.750000  0.206940  0.397832  1
+  Al  Al9  1  0.250000  0.794030  0.604558  1
+  Al  Al10  1  0.750000  0.707071  0.100529  1
+  Al  Al11  1  0.250000  0.293948  0.897148  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ho4Sc2AlInPt4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42982400
+_cell_length_b   7.17068451
+_cell_length_c   8.17434293
+_cell_angle_alpha   90.22067088
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho4Sc2AlInPt4
+_chemical_formula_sum   'Ho4 Sc2 Al1 In1 Pt4'
+_cell_volume   259.65501753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.250000  0.049925  0.678951  1
+  Ho  Ho1  1  0.250000  0.516809  0.821005  1
+  Ho  Ho2  1  0.750000  0.986754  0.337247  1
+  Ho  Ho3  1  0.750000  0.456324  0.174411  1
+  Sc  Sc4  1  0.250000  0.633468  0.434401  1
+  Sc  Sc5  1  0.750000  0.866535  0.935724  1
+  Al  Al6  1  0.750000  0.363429  0.562986  1
+  In  In7  1  0.250000  0.137953  0.068538  1
+  Pt  Pt8  1  0.250000  0.263798  0.394449  1
+  Pt  Pt9  1  0.250000  0.741309  0.110479  1
+  Pt  Pt10  1  0.750000  0.735675  0.615110  1
+  Pt  Pt11  1  0.750000  0.248022  0.866700  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CaSm(AgO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.67154142
+_cell_length_b   6.67154147
+_cell_length_c   6.67154158
+_cell_angle_alpha   126.14051573
+_cell_angle_beta   126.14050884
+_cell_angle_gamma   79.65732242
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSm(AgO2)4
+_chemical_formula_sum   'Ca1 Sm1 Ag4 O8'
+_cell_volume   187.10226211
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Sm  Sm1  1  0.750000  0.250000  0.500000  1
+  Ag  Ag2  1  0.373508  0.125373  0.747707  1
+  Ag  Ag3  1  0.377666  0.625802  0.252293  1
+  Ag  Ag4  1  0.874627  0.622334  0.248136  1
+  Ag  Ag5  1  0.374198  0.626492  0.751864  1
+  O  O6  1  0.040121  0.000296  0.645110  1
+  O  O7  1  0.604989  0.959879  0.960175  1
+  O  O8  1  0.999704  0.644814  0.039825  1
+  O  O9  1  0.404094  0.860302  0.155388  1
+  O  O10  1  0.751294  0.595906  0.456208  1
+  O  O11  1  0.139698  0.295087  0.543792  1
+  O  O12  1  0.355186  0.395011  0.354890  1
+  O  O13  1  0.704913  0.248706  0.844612  1

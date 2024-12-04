@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_PrEr3Sc2(AlPt2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44516100
+_cell_length_b   7.21125427
+_cell_length_c   8.05304278
+_cell_angle_alpha   90.66663189
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrEr3Sc2(AlPt2)2
+_chemical_formula_sum   'Pr1 Er3 Sc2 Al2 Pt4'
+_cell_volume   258.12431394
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.750000  0.478369  0.170200  1
+  Er  Er1  1  0.250000  0.558375  0.819324  1
+  Er  Er2  1  0.250000  0.022423  0.671724  1
+  Er  Er3  1  0.750000  0.949278  0.326172  1
+  Sc  Sc4  1  0.250000  0.124758  0.062744  1
+  Sc  Sc5  1  0.750000  0.373285  0.566087  1
+  Al  Al6  1  0.250000  0.643029  0.439103  1
+  Al  Al7  1  0.750000  0.860426  0.935177  1
+  Pt  Pt8  1  0.250000  0.765907  0.121890  1
+  Pt  Pt9  1  0.250000  0.262026  0.389072  1
+  Pt  Pt10  1  0.750000  0.741627  0.622795  1
+  Pt  Pt11  1  0.750000  0.220497  0.875714  1

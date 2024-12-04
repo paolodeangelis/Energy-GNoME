@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_AlCrSn2(BO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89492505
+_cell_length_b   7.33825715
+_cell_length_c   7.90254100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01913455
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCrSn2(BO4)2
+_chemical_formula_sum   'Al2 Cr2 Sn4 B4 O16'
+_cell_volume   341.85186034
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.500000  0.000000  0.000000  1
+  Al  Al1  1  0.500000  0.500000  0.500000  1
+  Cr  Cr2  1  0.000000  0.500000  0.500000  1
+  Cr  Cr3  1  0.000000  0.000000  0.000000  1
+  Sn  Sn4  1  0.255518  0.095019  0.640327  1
+  Sn  Sn5  1  0.255518  0.595019  0.859673  1
+  Sn  Sn6  1  0.744482  0.904981  0.359673  1
+  Sn  Sn7  1  0.744482  0.404981  0.140327  1
+  B  B8  1  0.748052  0.725459  0.766083  1
+  B  B9  1  0.748052  0.225459  0.733917  1
+  B  B10  1  0.251948  0.774541  0.266083  1
+  B  B11  1  0.251948  0.274541  0.233917  1
+  O  O12  1  0.955099  0.168444  0.799961  1
+  O  O13  1  0.955099  0.668444  0.700039  1
+  O  O14  1  0.451091  0.336124  0.308967  1
+  O  O15  1  0.736912  0.096658  0.125899  1
+  O  O16  1  0.044901  0.331556  0.299961  1
+  O  O17  1  0.263088  0.903342  0.874101  1
+  O  O18  1  0.740908  0.340251  0.595074  1
+  O  O19  1  0.259092  0.159749  0.095074  1
+  O  O20  1  0.548909  0.163876  0.808967  1
+  O  O21  1  0.044901  0.831556  0.200039  1
+  O  O22  1  0.259092  0.659749  0.404926  1
+  O  O23  1  0.736912  0.596658  0.374101  1
+  O  O24  1  0.548909  0.663876  0.691033  1
+  O  O25  1  0.740908  0.840251  0.904926  1
+  O  O26  1  0.263088  0.403342  0.625899  1
+  O  O27  1  0.451091  0.836124  0.191033  1

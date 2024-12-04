@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ho3AlIn2PdAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79916200
+_cell_length_b   7.79916191
+_cell_length_c   3.75273100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.54745973
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3AlIn2PdAu2
+_chemical_formula_sum   'Ho3 Al1 In2 Pd1 Au2'
+_cell_volume   196.58555281
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.997207  0.598786  0.000000  1
+  Ho  Ho1  1  0.409609  0.409609  0.000000  1
+  Ho  Ho2  1  0.598786  0.997207  0.000000  1
+  Al  Al3  1  0.746865  0.746865  0.500000  1
+  In  In4  1  0.000459  0.257438  0.500000  1
+  In  In5  1  0.257438  0.000459  0.500000  1
+  Pd  Pd6  1  0.976293  0.976293  0.000000  1
+  Au  Au7  1  0.344510  0.668833  0.500000  1
+  Au  Au8  1  0.668833  0.344510  0.500000  1

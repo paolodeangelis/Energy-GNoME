@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Y12Al(InOs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.44975630
+_cell_length_b   8.44975698
+_cell_length_c   8.44975700
+_cell_angle_alpha   110.48310271
+_cell_angle_beta   110.48310443
+_cell_angle_gamma   107.46586990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y12Al(InOs)2
+_chemical_formula_sum   'Y12 Al1 In2 Os2'
+_cell_volume   463.99500052
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.443774  0.194051  0.249723  1
+  Y  Y1  1  0.556226  0.805949  0.750277  1
+  Y  Y2  1  0.944329  0.194051  0.750277  1
+  Y  Y3  1  0.194051  0.944329  0.750277  1
+  Y  Y4  1  0.055671  0.805949  0.249723  1
+  Y  Y5  1  0.805949  0.055671  0.249723  1
+  Y  Y6  1  0.194051  0.443774  0.249723  1
+  Y  Y7  1  0.805949  0.556226  0.750277  1
+  Y  Y8  1  0.316155  0.316155  0.632311  1
+  Y  Y9  1  0.683845  0.683845  0.367689  1
+  Y  Y10  1  0.316155  0.683845  0.000000  1
+  Y  Y11  1  0.683845  0.316155  0.000000  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  In  In13  1  0.500000  0.000000  0.500000  1
+  In  In14  1  0.000000  0.500000  0.500000  1
+  Os  Os15  1  0.344820  0.344820  0.000000  1
+  Os  Os16  1  0.655180  0.655180  0.000000  1

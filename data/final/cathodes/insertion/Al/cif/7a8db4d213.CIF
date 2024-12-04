@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb5Sc(AlPt2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47608500
+_cell_length_b   7.26438804
+_cell_length_c   8.15936320
+_cell_angle_alpha   89.25011994
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb5Sc(AlPt2)2
+_chemical_formula_sum   'Tb5 Sc1 Al2 Pt4'
+_cell_volume   265.28728092
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.250000  0.997209  0.330533  1
+  Tb  Tb1  1  0.750000  0.052083  0.683475  1
+  Tb  Tb2  1  0.250000  0.445621  0.171075  1
+  Tb  Tb3  1  0.750000  0.513503  0.824882  1
+  Tb  Tb4  1  0.750000  0.637614  0.428521  1
+  Sc  Sc5  1  0.250000  0.869996  0.938933  1
+  Al  Al6  1  0.250000  0.357647  0.568469  1
+  Al  Al7  1  0.750000  0.136909  0.067729  1
+  Pt  Pt8  1  0.250000  0.236023  0.882466  1
+  Pt  Pt9  1  0.750000  0.764455  0.097714  1
+  Pt  Pt10  1  0.250000  0.734639  0.625889  1
+  Pt  Pt11  1  0.750000  0.254303  0.380312  1

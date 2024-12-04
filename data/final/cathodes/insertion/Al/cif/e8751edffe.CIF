@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CePr3Al2(ZnIr2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.12773361
+_cell_length_b   4.19959200
+_cell_length_c   8.28779620
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.11538082
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CePr3Al2(ZnIr2)2
+_chemical_formula_sum   'Ce1 Pr3 Al2 Zn2 Ir4'
+_cell_volume   248.08285007
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.467057  0.250000  0.316175  1
+  Pr  Pr1  1  0.966742  0.250000  0.186330  1
+  Pr  Pr2  1  0.038889  0.750000  0.815017  1
+  Pr  Pr3  1  0.537938  0.750000  0.685527  1
+  Al  Al4  1  0.133342  0.750000  0.437649  1
+  Al  Al5  1  0.636575  0.750000  0.061921  1
+  Zn  Zn6  1  0.856119  0.250000  0.565529  1
+  Zn  Zn7  1  0.360947  0.250000  0.937227  1
+  Ir  Ir8  1  0.734377  0.250000  0.891752  1
+  Ir  Ir9  1  0.235940  0.250000  0.596669  1
+  Ir  Ir10  1  0.276231  0.750000  0.135613  1
+  Ir  Ir11  1  0.755843  0.750000  0.370591  1

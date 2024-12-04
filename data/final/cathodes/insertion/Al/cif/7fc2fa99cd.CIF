@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Al3Cu(RhS4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.04985720
+_cell_length_b   7.04985753
+_cell_length_c   7.00222300
+_cell_angle_alpha   60.22326752
+_cell_angle_beta   60.22326597
+_cell_angle_gamma   60.63607236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3Cu(RhS4)2
+_chemical_formula_sum   'Al3 Cu1 Rh2 S8'
+_cell_volume   248.08324503
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.870912  0.870912  0.390203  1
+  Al  Al1  1  0.870912  0.870912  0.867972  1
+  Al  Al2  1  0.251871  0.251871  0.248129  1
+  Cu  Cu3  1  0.499837  0.499837  0.500163  1
+  Rh  Rh4  1  0.873098  0.382304  0.872298  1
+  Rh  Rh5  1  0.382304  0.873098  0.872298  1
+  S  S6  1  0.634197  0.634197  0.636573  1
+  S  S7  1  0.634197  0.634197  0.095033  1
+  S  S8  1  0.101611  0.631232  0.633578  1
+  S  S9  1  0.631232  0.101611  0.633578  1
+  S  S10  1  0.117426  0.651336  0.115619  1
+  S  S11  1  0.651336  0.117426  0.115619  1
+  S  S12  1  0.115533  0.115533  0.653994  1
+  S  S13  1  0.115533  0.115533  0.114940  1

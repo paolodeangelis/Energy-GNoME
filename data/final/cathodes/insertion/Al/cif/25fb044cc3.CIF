@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Lu10AlGaSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66659629
+_cell_length_b   8.67218582
+_cell_length_c   6.27182600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.87622613
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu10AlGaSb4
+_chemical_formula_sum   'Lu10 Al1 Ga1 Sb4'
+_cell_volume   408.73524496
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.668824  0.326460  0.003772  1
+  Lu  Lu1  1  0.324761  0.666446  0.003884  1
+  Lu  Lu2  1  0.324761  0.666446  0.496116  1
+  Lu  Lu3  1  0.668824  0.326460  0.496228  1
+  Lu  Lu4  1  0.761095  0.760943  0.750000  1
+  Lu  Lu5  1  0.237964  0.998364  0.750000  1
+  Lu  Lu6  1  0.998525  0.238598  0.750000  1
+  Lu  Lu7  1  0.235106  0.236750  0.250000  1
+  Lu  Lu8  1  0.766524  0.014429  0.250000  1
+  Lu  Lu9  1  0.012285  0.764057  0.250000  1
+  Al  Al10  1  0.396407  0.001458  0.250000  1
+  Ga  Ga11  1  0.001488  0.395147  0.250000  1
+  Sb  Sb12  1  0.393812  0.393895  0.750000  1
+  Sb  Sb13  1  0.601868  0.995179  0.750000  1
+  Sb  Sb14  1  0.995067  0.602562  0.750000  1
+  Sb  Sb15  1  0.612692  0.612808  0.250000  1

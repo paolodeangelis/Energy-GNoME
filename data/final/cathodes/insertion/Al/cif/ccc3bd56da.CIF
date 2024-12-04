@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ti8Al15Ir5PtRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66767601
+_cell_length_b   8.66746695
+_cell_length_c   8.66767606
+_cell_angle_alpha   120.20330729
+_cell_angle_beta   119.81826292
+_cell_angle_gamma   89.98233906
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8Al15Ir5PtRh
+_chemical_formula_sum   'Ti8 Al15 Ir5 Pt1 Rh1'
+_cell_volume   460.36568652
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.790640  0.291686  0.074893  1
+  Ti  Ti1  1  0.216793  0.291686  0.501047  1
+  Ti  Ti2  1  0.207302  0.707310  0.500008  1
+  Ti  Ti3  1  0.216822  0.715702  0.925033  1
+  Ti  Ti4  1  0.790670  0.715702  0.498880  1
+  Ti  Ti5  1  0.784576  0.284528  0.499951  1
+  Ti  Ti6  1  0.379037  0.123661  0.744624  1
+  Ti  Ti7  1  0.378928  0.634340  0.255412  1
+  Al  Al8  1  0.996703  0.496594  0.499891  1
+  Al  Al9  1  0.154340  0.346123  0.191782  1
+  Al  Al10  1  0.154442  0.962768  0.808327  1
+  Al  Al11  1  0.150985  0.346865  0.804066  1
+  Al  Al12  1  0.542798  0.346865  0.195882  1
+  Al  Al13  1  0.844545  0.649976  0.805432  1
+  Al  Al14  1  0.844638  0.039293  0.194655  1
+  Al  Al15  1  0.842575  0.654885  0.187595  1
+  Al  Al16  1  0.467289  0.654885  0.812310  1
+  Al  Al17  1  0.384412  0.123307  0.261285  1
+  Al  Al18  1  0.862023  0.123307  0.738895  1
+  Al  Al19  1  0.621026  0.877133  0.256108  1
+  Al  Al20  1  0.620960  0.364867  0.743907  1
+  Al  Al21  1  0.615659  0.876483  0.739367  1
+  Al  Al22  1  0.137115  0.876483  0.260823  1
+  Ir  Ir23  1  0.001476  0.999975  0.501965  1
+  Ir  Ir24  1  0.498010  0.999975  0.998499  1
+  Ir  Ir25  1  0.497475  0.497527  0.000053  1
+  Ir  Ir26  1  0.498021  0.499525  0.497918  1
+  Ir  Ir27  1  0.001608  0.499525  0.001505  1
+  Pt  Pt28  1  0.998963  0.998885  0.999923  1
+  Rh  Rh29  1  0.500171  0.000135  0.499964  1

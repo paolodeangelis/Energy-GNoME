@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cs4TaV(Te4Au)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.74674559
+_cell_length_b   14.01093731
+_cell_length_c   8.45002156
+_cell_angle_alpha   85.21564517
+_cell_angle_beta   62.45735556
+_cell_angle_gamma   32.32698717
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4TaV(Te4Au)2
+_chemical_formula_sum   'Cs4 Ta1 V1 Te8 Au2'
+_cell_volume   673.11205734
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.679785  0.679785  0.320215  1
+  Cs  Cs1  1  0.320215  0.320215  0.679785  1
+  Cs  Cs2  1  0.931062  0.931062  0.568938  1
+  Cs  Cs3  1  0.568938  0.568938  0.931062  1
+  Ta  Ta4  1  0.750000  0.750000  0.750000  1
+  V  V5  1  0.500000  0.500000  0.500000  1
+  Te  Te6  1  0.360819  0.024514  0.939621  1
+  Te  Te7  1  0.675049  0.939621  0.024514  1
+  Te  Te8  1  0.939621  0.675049  0.360819  1
+  Te  Te9  1  0.024514  0.360819  0.675049  1
+  Te  Te10  1  0.237170  0.872994  0.570460  1
+  Te  Te11  1  0.570460  0.319372  0.237170  1
+  Te  Te12  1  0.319372  0.570460  0.872994  1
+  Te  Te13  1  0.872994  0.237170  0.319372  1
+  Au  Au14  1  0.000000  0.000000  0.000000  1
+  Au  Au15  1  0.250000  0.250000  0.250000  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ho11Th5(AlCo)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.31776622
+_cell_length_b   9.38499478
+_cell_length_c   9.38499600
+_cell_angle_alpha   60.02159301
+_cell_angle_beta   60.23668651
+_cell_angle_gamma   60.23669128
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho11Th5(AlCo)4
+_chemical_formula_sum   'Ho11 Th5 Al4 Co4'
+_cell_volume   582.47963489
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.190253  0.809762  0.809762  1
+  Ho  Ho1  1  0.194902  0.805857  0.189166  1
+  Ho  Ho2  1  0.810043  0.189127  0.805932  1
+  Ho  Ho3  1  0.194902  0.189166  0.805857  1
+  Ho  Ho4  1  0.810043  0.805932  0.189127  1
+  Ho  Ho5  1  0.933514  0.566477  0.566477  1
+  Ho  Ho6  1  0.565456  0.934547  0.934547  1
+  Ho  Ho7  1  0.564046  0.934673  0.564876  1
+  Ho  Ho8  1  0.936448  0.564801  0.934698  1
+  Ho  Ho9  1  0.564046  0.564876  0.934673  1
+  Ho  Ho10  1  0.936448  0.934698  0.564801  1
+  Th  Th11  1  0.343795  0.350484  0.350484  1
+  Th  Th12  1  0.347531  0.347865  0.957176  1
+  Th  Th13  1  0.347531  0.957176  0.347865  1
+  Th  Th14  1  0.955280  0.350440  0.350440  1
+  Th  Th15  1  0.813986  0.185857  0.185857  1
+  Al  Al16  1  0.576925  0.579229  0.579229  1
+  Al  Al17  1  0.577460  0.578821  0.266272  1
+  Al  Al18  1  0.577460  0.266272  0.578821  1
+  Al  Al19  1  0.264652  0.579235  0.579235  1
+  Co  Co20  1  0.129575  0.147583  0.147583  1
+  Co  Co21  1  0.145221  0.141387  0.568193  1
+  Co  Co22  1  0.145221  0.568193  0.141387  1
+  Co  Co23  1  0.575257  0.147548  0.147548  1

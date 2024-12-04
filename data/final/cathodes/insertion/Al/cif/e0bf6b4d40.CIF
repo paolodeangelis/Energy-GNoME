@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Nd2Ti2AlCrO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.61325500
+_cell_length_b   8.68116800
+_cell_length_c   5.83309200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2Ti2AlCrO10
+_chemical_formula_sum   'Nd4 Ti4 Al2 Cr2 O20'
+_cell_volume   385.52039962
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.140381  0.172020  0.000978  1
+  Nd  Nd1  1  0.640380  0.327980  0.000978  1
+  Nd  Nd2  1  0.359619  0.672020  0.000978  1
+  Nd  Nd3  1  0.859619  0.827980  0.000978  1
+  Ti  Ti4  1  0.878312  0.143711  0.497007  1
+  Ti  Ti5  1  0.378312  0.356290  0.497007  1
+  Ti  Ti6  1  0.621687  0.643711  0.497007  1
+  Ti  Ti7  1  0.121688  0.856290  0.497007  1
+  Al  Al8  1  0.500000  0.000000  0.246760  1
+  Al  Al9  1  0.000000  0.500000  0.246760  1
+  Cr  Cr10  1  0.500000  0.000000  0.752258  1
+  Cr  Cr11  1  0.000000  0.500000  0.752258  1
+  O  O12  1  0.659112  0.053685  0.010237  1
+  O  O13  1  0.159112  0.446315  0.010237  1
+  O  O14  1  0.840889  0.553685  0.010237  1
+  O  O15  1  0.340889  0.946314  0.010237  1
+  O  O16  1  0.399340  0.207201  0.258925  1
+  O  O17  1  0.899340  0.292799  0.258925  1
+  O  O18  1  0.100659  0.707201  0.258925  1
+  O  O19  1  0.600659  0.792799  0.258925  1
+  O  O20  1  0.000000  0.000000  0.282389  1
+  O  O21  1  0.500000  0.500000  0.282389  1
+  O  O22  1  0.656056  0.070631  0.488895  1
+  O  O23  1  0.156055  0.429369  0.488895  1
+  O  O24  1  0.843945  0.570631  0.488895  1
+  O  O25  1  0.343945  0.929369  0.488895  1
+  O  O26  1  0.000000  0.000000  0.713537  1
+  O  O27  1  0.500000  0.500000  0.713537  1
+  O  O28  1  0.394320  0.213793  0.746481  1
+  O  O29  1  0.894320  0.286207  0.746481  1
+  O  O30  1  0.105679  0.713793  0.746481  1
+  O  O31  1  0.605679  0.786207  0.746481  1

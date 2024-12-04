@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tb7Y(AlNi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.47959255
+_cell_length_b   9.47959293
+_cell_length_c   9.48448500
+_cell_angle_alpha   59.98293079
+_cell_angle_beta   59.98292947
+_cell_angle_gamma   60.03414260
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb7Y(AlNi)2
+_chemical_formula_sum   'Tb14 Y2 Al4 Ni4'
+_cell_volume   602.66766897
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.600232  0.600232  0.601222  1
+  Tb  Tb1  1  0.600232  0.600232  0.198312  1
+  Tb  Tb2  1  0.601222  0.198312  0.600232  1
+  Tb  Tb3  1  0.198312  0.601222  0.600232  1
+  Tb  Tb4  1  0.058069  0.441931  0.441931  1
+  Tb  Tb5  1  0.441931  0.058069  0.058069  1
+  Tb  Tb6  1  0.441931  0.058069  0.441931  1
+  Tb  Tb7  1  0.058069  0.441931  0.058069  1
+  Tb  Tb8  1  0.441829  0.441829  0.058171  1
+  Tb  Tb9  1  0.058171  0.058171  0.441829  1
+  Tb  Tb10  1  0.185458  0.814542  0.814542  1
+  Tb  Tb11  1  0.814542  0.185458  0.185458  1
+  Tb  Tb12  1  0.814542  0.185458  0.814542  1
+  Tb  Tb13  1  0.185458  0.814542  0.185458  1
+  Y  Y14  1  0.813821  0.813821  0.186179  1
+  Y  Y15  1  0.186179  0.186179  0.813821  1
+  Al  Al16  1  0.826529  0.826529  0.826779  1
+  Al  Al17  1  0.826529  0.826529  0.520161  1
+  Al  Al18  1  0.826779  0.520161  0.826529  1
+  Al  Al19  1  0.520161  0.826779  0.826529  1
+  Ni  Ni20  1  0.392154  0.392154  0.393862  1
+  Ni  Ni21  1  0.392154  0.392154  0.821831  1
+  Ni  Ni22  1  0.393862  0.821831  0.392154  1
+  Ni  Ni23  1  0.821831  0.393862  0.392154  1

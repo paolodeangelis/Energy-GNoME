@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ho16AlIn6Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.61330300
+_cell_length_b   10.61330410
+_cell_length_c   6.80993300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999968
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho16AlIn6Au
+_chemical_formula_sum   'Ho16 Al1 In6 Au1'
+_cell_volume   664.31589444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.522069  0.044136  0.510324  1
+  Ho  Ho1  1  0.955864  0.477931  0.510324  1
+  Ho  Ho2  1  0.522069  0.477931  0.510324  1
+  Ho  Ho3  1  0.476951  0.953902  0.008325  1
+  Ho  Ho4  1  0.046098  0.523049  0.008325  1
+  Ho  Ho5  1  0.476951  0.523049  0.008325  1
+  Ho  Ho6  1  0.170008  0.340015  0.727409  1
+  Ho  Ho7  1  0.659985  0.829992  0.727409  1
+  Ho  Ho8  1  0.170008  0.829992  0.727409  1
+  Ho  Ho9  1  0.826439  0.652879  0.220913  1
+  Ho  Ho10  1  0.347121  0.173561  0.220913  1
+  Ho  Ho11  1  0.826439  0.173561  0.220913  1
+  Ho  Ho12  1  0.666667  0.333333  0.865130  1
+  Ho  Ho13  1  0.333333  0.666667  0.353317  1
+  Ho  Ho14  1  0.000000  0.000000  0.489357  1
+  Ho  Ho15  1  0.000000  0.000000  0.995123  1
+  Al  Al16  1  0.333333  0.666667  0.797845  1
+  In  In17  1  0.835725  0.671451  0.743632  1
+  In  In18  1  0.328549  0.164275  0.743632  1
+  In  In19  1  0.835725  0.164275  0.743632  1
+  In  In20  1  0.164170  0.328340  0.248444  1
+  In  In21  1  0.671660  0.835830  0.248444  1
+  In  In22  1  0.164170  0.835830  0.248444  1
+  Au  Au23  1  0.666667  0.333333  0.280127  1

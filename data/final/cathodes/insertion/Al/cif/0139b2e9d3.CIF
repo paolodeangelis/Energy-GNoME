@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Er5(AlTe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.63593131
+_cell_length_b   8.63593008
+_cell_length_c   7.90427700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.82974394
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er5(AlTe)2
+_chemical_formula_sum   'Er10 Al4 Te4'
+_cell_volume   477.93934505
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.000000  0.000000  0.000000  1
+  Er  Er1  1  0.500000  0.500000  0.500000  1
+  Er  Er2  1  0.798097  0.539208  0.167588  1
+  Er  Er3  1  0.460792  0.201903  0.832412  1
+  Er  Er4  1  0.960792  0.701903  0.667588  1
+  Er  Er5  1  0.298097  0.039208  0.332412  1
+  Er  Er6  1  0.201903  0.460792  0.832412  1
+  Er  Er7  1  0.539208  0.798097  0.167588  1
+  Er  Er8  1  0.039208  0.298097  0.332412  1
+  Er  Er9  1  0.701903  0.960792  0.667588  1
+  Al  Al10  1  0.875991  0.875991  0.377447  1
+  Al  Al11  1  0.124009  0.124009  0.622553  1
+  Al  Al12  1  0.624009  0.624009  0.877447  1
+  Al  Al13  1  0.375991  0.375991  0.122553  1
+  Te  Te14  1  0.204357  0.795643  0.000000  1
+  Te  Te15  1  0.704357  0.295643  0.500000  1
+  Te  Te16  1  0.795643  0.204357  0.000000  1
+  Te  Te17  1  0.295643  0.704357  0.500000  1

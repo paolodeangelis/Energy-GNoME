@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Dy12AlIn(CoNi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.34123546
+_cell_length_b   8.34123438
+_cell_length_c   8.34123527
+_cell_angle_alpha   113.00504171
+_cell_angle_beta   109.59521433
+_cell_angle_gamma   105.89140937
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy12AlIn(CoNi)2
+_chemical_formula_sum   'Dy12 Al1 In1 Co2 Ni2'
+_cell_volume   445.03519635
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.181193  0.280468  0.461661  1
+  Dy  Dy1  1  0.818807  0.719532  0.538339  1
+  Dy  Dy2  1  0.181193  0.719532  0.900725  1
+  Dy  Dy3  1  0.818807  0.280468  0.099275  1
+  Dy  Dy4  1  0.328160  0.639975  0.311814  1
+  Dy  Dy5  1  0.671840  0.360025  0.688186  1
+  Dy  Dy6  1  0.328160  0.016347  0.688186  1
+  Dy  Dy7  1  0.671840  0.983653  0.311814  1
+  Dy  Dy8  1  0.432073  0.233974  0.198099  1
+  Dy  Dy9  1  0.567927  0.766026  0.801901  1
+  Dy  Dy10  1  0.035874  0.233974  0.801901  1
+  Dy  Dy11  1  0.964126  0.766026  0.198099  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  In  In13  1  0.500000  0.500000  0.000000  1
+  Co  Co14  1  0.334047  0.000000  0.334047  1
+  Co  Co15  1  0.665953  0.000000  0.665953  1
+  Ni  Ni16  1  0.118608  0.618608  0.500000  1
+  Ni  Ni17  1  0.881392  0.381392  0.500000  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sr4AlTcO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.90975642
+_cell_length_b   6.90975554
+_cell_length_c   5.48686700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   133.14527306
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4AlTcO8
+_chemical_formula_sum   'Sr4 Al1 Tc1 O8'
+_cell_volume   191.13836379
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.648067  0.351933  0.000000  1
+  Sr  Sr1  1  0.144104  0.855896  0.500000  1
+  Sr  Sr2  1  0.855896  0.144104  0.500000  1
+  Sr  Sr3  1  0.351933  0.648067  0.000000  1
+  Al  Al4  1  0.000000  0.000000  0.000000  1
+  Tc  Tc5  1  0.500000  0.500000  0.500000  1
+  O  O6  1  0.752880  0.752880  0.247893  1
+  O  O7  1  0.247120  0.247120  0.752107  1
+  O  O8  1  0.247120  0.247120  0.247893  1
+  O  O9  1  0.752880  0.752880  0.752107  1
+  O  O10  1  0.845582  0.154418  0.000000  1
+  O  O11  1  0.339783  0.660217  0.500000  1
+  O  O12  1  0.660217  0.339783  0.500000  1
+  O  O13  1  0.154418  0.845582  0.000000  1

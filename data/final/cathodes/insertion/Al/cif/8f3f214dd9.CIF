@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb4AlTc7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33190200
+_cell_length_b   5.33190150
+_cell_length_c   9.11109700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000313
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4AlTc7
+_chemical_formula_sum   'Tb4 Al1 Tc7'
+_cell_volume   224.31874382
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.333333  0.666667  0.433517  1
+  Tb  Tb1  1  0.666667  0.333333  0.566483  1
+  Tb  Tb2  1  0.666667  0.333333  0.935478  1
+  Tb  Tb3  1  0.333333  0.666667  0.064522  1
+  Al  Al4  1  0.000000  0.000000  0.500000  1
+  Tc  Tc5  1  0.000000  0.000000  0.000000  1
+  Tc  Tc6  1  0.830241  0.169759  0.250715  1
+  Tc  Tc7  1  0.830241  0.660483  0.250715  1
+  Tc  Tc8  1  0.339517  0.169759  0.250715  1
+  Tc  Tc9  1  0.169759  0.830241  0.749285  1
+  Tc  Tc10  1  0.169759  0.339517  0.749285  1
+  Tc  Tc11  1  0.660483  0.830241  0.749285  1

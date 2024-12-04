@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Rb3AlSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.63593900
+_cell_length_b   8.42763427
+_cell_length_c   11.02774223
+_cell_angle_alpha   52.27236678
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3AlSe3
+_chemical_formula_sum   'Rb12 Al4 Se12'
+_cell_volume   1002.33885320
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.577046  0.652929  0.106108  1
+  Rb  Rb1  1  0.077046  0.347071  0.393892  1
+  Rb  Rb2  1  0.422954  0.347071  0.893892  1
+  Rb  Rb3  1  0.922954  0.652929  0.606108  1
+  Rb  Rb4  1  0.305547  0.867658  0.917654  1
+  Rb  Rb5  1  0.805547  0.132342  0.582346  1
+  Rb  Rb6  1  0.694453  0.132342  0.082346  1
+  Rb  Rb7  1  0.194453  0.867658  0.417654  1
+  Rb  Rb8  1  0.868244  0.615750  0.023450  1
+  Rb  Rb9  1  0.368244  0.384250  0.476550  1
+  Rb  Rb10  1  0.131756  0.384250  0.976550  1
+  Rb  Rb11  1  0.631756  0.615750  0.523450  1
+  Al  Al12  1  0.556259  0.936823  0.657141  1
+  Al  Al13  1  0.056259  0.063177  0.842859  1
+  Al  Al14  1  0.443741  0.063177  0.342859  1
+  Al  Al15  1  0.943741  0.936823  0.157141  1
+  Se  Se16  1  0.106729  0.853736  0.116956  1
+  Se  Se17  1  0.606729  0.146264  0.383044  1
+  Se  Se18  1  0.893271  0.146264  0.883044  1
+  Se  Se19  1  0.393271  0.853736  0.616956  1
+  Se  Se20  1  0.834109  0.656184  0.307223  1
+  Se  Se21  1  0.334109  0.343816  0.192777  1
+  Se  Se22  1  0.165891  0.343816  0.692777  1
+  Se  Se23  1  0.665891  0.656184  0.807223  1
+  Se  Se24  1  0.046260  0.878767  0.743869  1
+  Se  Se25  1  0.546260  0.121233  0.756131  1
+  Se  Se26  1  0.953740  0.121233  0.256131  1
+  Se  Se27  1  0.453740  0.878767  0.243869  1

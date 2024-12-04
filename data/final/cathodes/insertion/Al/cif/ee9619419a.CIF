@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuTh3(AlRu)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03145200
+_cell_length_b   7.11437020
+_cell_length_c   8.34883536
+_cell_angle_alpha   90.05456661
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTh3(AlRu)4
+_chemical_formula_sum   'Lu1 Th3 Al4 Ru4'
+_cell_volume   239.45485849
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.750000  0.544170  0.816241  1
+  Th  Th1  1  0.250000  0.962210  0.316158  1
+  Th  Th2  1  0.250000  0.462712  0.177607  1
+  Th  Th3  1  0.750000  0.039606  0.687371  1
+  Al  Al4  1  0.250000  0.378061  0.562996  1
+  Al  Al5  1  0.250000  0.859837  0.940185  1
+  Al  Al6  1  0.750000  0.627016  0.448081  1
+  Al  Al7  1  0.750000  0.128652  0.053923  1
+  Ru  Ru8  1  0.250000  0.238132  0.873400  1
+  Ru  Ru9  1  0.250000  0.745210  0.624126  1
+  Ru  Ru10  1  0.750000  0.756449  0.127715  1
+  Ru  Ru11  1  0.750000  0.257944  0.372199  1

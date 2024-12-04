@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy5Sc(AlPt2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47608500
+_cell_length_b   7.26438816
+_cell_length_c   8.15936300
+_cell_angle_alpha   89.25011755
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy5Sc(AlPt2)2
+_chemical_formula_sum   'Dy5 Sc1 Al2 Pt4'
+_cell_volume   265.28727880
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.250000  0.996895  0.331224  1
+  Dy  Dy1  1  0.750000  0.052747  0.683018  1
+  Dy  Dy2  1  0.250000  0.445143  0.170796  1
+  Dy  Dy3  1  0.750000  0.513890  0.825531  1
+  Dy  Dy4  1  0.750000  0.637331  0.428996  1
+  Sc  Sc5  1  0.250000  0.870433  0.939064  1
+  Al  Al6  1  0.250000  0.357805  0.568325  1
+  Al  Al7  1  0.750000  0.136960  0.067460  1
+  Pt  Pt8  1  0.250000  0.236631  0.881466  1
+  Pt  Pt9  1  0.750000  0.763989  0.098987  1
+  Pt  Pt10  1  0.250000  0.734453  0.625511  1
+  Pt  Pt11  1  0.750000  0.253725  0.379619  1

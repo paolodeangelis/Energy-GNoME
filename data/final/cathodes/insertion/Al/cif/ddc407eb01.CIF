@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AlRhCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04518954
+_cell_length_b   6.04518842
+_cell_length_c   6.59933523
+_cell_angle_alpha   81.46703935
+_cell_angle_beta   81.46704491
+_cell_angle_gamma   119.96250903
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlRhCl6
+_chemical_formula_sum   'Al1 Rh1 Cl6'
+_cell_volume   199.53557710
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.166703  0.833297  0.000000  1
+  Rh  Rh1  1  0.833295  0.166705  0.000000  1
+  Cl  Cl2  1  0.209864  0.206851  0.788731  1
+  Cl  Cl3  1  0.793149  0.790136  0.211269  1
+  Cl  Cl4  1  0.073677  0.434637  0.210673  1
+  Cl  Cl5  1  0.565363  0.926323  0.789327  1
+  Cl  Cl6  1  0.929094  0.571146  0.789341  1
+  Cl  Cl7  1  0.428854  0.070906  0.210659  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Na3Ca3AlBiSb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.16688100
+_cell_length_b   10.16688142
+_cell_length_c   7.66915900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999537
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Ca3AlBiSb3
+_chemical_formula_sum   'Na6 Ca6 Al2 Bi2 Sb6'
+_cell_volume   686.52110440
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.856296  0.143704  0.548896  1
+  Na  Na1  1  0.287409  0.143704  0.548896  1
+  Na  Na2  1  0.856296  0.712591  0.548896  1
+  Na  Na3  1  0.143704  0.856296  0.048896  1
+  Na  Na4  1  0.712591  0.856296  0.048896  1
+  Na  Na5  1  0.143704  0.287409  0.048896  1
+  Ca  Ca6  1  0.480493  0.519507  0.728194  1
+  Ca  Ca7  1  0.039014  0.519507  0.728194  1
+  Ca  Ca8  1  0.480493  0.960986  0.728194  1
+  Ca  Ca9  1  0.519507  0.480493  0.228194  1
+  Ca  Ca10  1  0.960986  0.480493  0.228194  1
+  Ca  Ca11  1  0.519507  0.039014  0.228194  1
+  Al  Al12  1  0.666667  0.333333  0.865829  1
+  Al  Al13  1  0.333333  0.666667  0.365829  1
+  Bi  Bi14  1  0.666667  0.333333  0.496556  1
+  Bi  Bi15  1  0.333333  0.666667  0.996556  1
+  Sb  Sb16  1  0.812080  0.187920  0.963902  1
+  Sb  Sb17  1  0.375840  0.187920  0.963902  1
+  Sb  Sb18  1  0.812080  0.624160  0.963902  1
+  Sb  Sb19  1  0.187920  0.812080  0.463902  1
+  Sb  Sb20  1  0.624160  0.812080  0.463902  1
+  Sb  Sb21  1  0.187920  0.375840  0.463902  1

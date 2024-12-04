@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Hf3Zr3AlCoSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43670500
+_cell_length_b   7.71268092
+_cell_length_c   7.71229500
+_cell_angle_alpha   120.00013537
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Zr3AlCoSe
+_chemical_formula_sum   'Hf3 Zr3 Al1 Co1 Se1'
+_cell_volume   177.03587915
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.000000  0.246409  0.005228  1
+  Hf  Hf1  1  0.000000  0.758800  0.753589  1
+  Hf  Hf2  1  0.000000  0.994752  0.241174  1
+  Zr  Zr3  1  0.500000  0.587497  0.989629  1
+  Zr  Zr4  1  0.500000  0.402112  0.412494  1
+  Zr  Zr5  1  0.500000  0.010353  0.597876  1
+  Al  Al6  1  0.000000  0.666662  0.333338  1
+  Co  Co7  1  0.500000  0.999990  0.999993  1
+  Se  Se8  1  0.000000  0.333325  0.666678  1

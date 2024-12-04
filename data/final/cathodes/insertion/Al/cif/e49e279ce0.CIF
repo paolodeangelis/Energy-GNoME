@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Er4Ti3AlIr4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31055200
+_cell_length_b   6.91122938
+_cell_length_c   7.98073340
+_cell_angle_alpha   92.84456997
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er4Ti3AlIr4
+_chemical_formula_sum   'Er4 Ti3 Al1 Ir4'
+_cell_volume   237.46277953
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.250000  0.978400  0.316423  1
+  Er  Er1  1  0.250000  0.471719  0.173276  1
+  Er  Er2  1  0.750000  0.027377  0.685702  1
+  Er  Er3  1  0.750000  0.515579  0.824858  1
+  Ti  Ti4  1  0.250000  0.364841  0.568392  1
+  Ti  Ti5  1  0.250000  0.866167  0.939494  1
+  Ti  Ti6  1  0.750000  0.634064  0.432092  1
+  Al  Al7  1  0.750000  0.144534  0.068156  1
+  Ir  Ir8  1  0.250000  0.224421  0.879253  1
+  Ir  Ir9  1  0.250000  0.726574  0.602003  1
+  Ir  Ir10  1  0.750000  0.771996  0.112421  1
+  Ir  Ir11  1  0.750000  0.274326  0.397930  1

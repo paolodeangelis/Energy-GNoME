@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ho2ScAlIr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.94322600
+_cell_length_b   4.25905700
+_cell_length_c   8.29120100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2ScAlIr2
+_chemical_formula_sum   'Ho4 Sc2 Al2 Ir4'
+_cell_volume   245.18404051
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.964001  0.250000  0.176924  1
+  Ho  Ho1  1  0.464001  0.250000  0.323076  1
+  Ho  Ho2  1  0.026708  0.750000  0.827747  1
+  Ho  Ho3  1  0.526708  0.750000  0.672253  1
+  Sc  Sc4  1  0.867893  0.250000  0.560344  1
+  Sc  Sc5  1  0.367893  0.250000  0.939656  1
+  Al  Al6  1  0.139213  0.750000  0.439905  1
+  Al  Al7  1  0.639213  0.750000  0.060095  1
+  Ir  Ir8  1  0.741036  0.250000  0.886986  1
+  Ir  Ir9  1  0.241036  0.250000  0.613014  1
+  Ir  Ir10  1  0.261148  0.750000  0.124451  1
+  Ir  Ir11  1  0.761148  0.750000  0.375549  1

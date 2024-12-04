@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Er2HfAlIr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44353400
+_cell_length_b   6.88273547
+_cell_length_c   8.02610657
+_cell_angle_alpha   87.98509841
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er2HfAlIr2
+_chemical_formula_sum   'Er4 Hf2 Al2 Ir4'
+_cell_volume   245.31601832
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.250000  0.523932  0.165964  1
+  Er  Er1  1  0.750000  0.476068  0.834036  1
+  Er  Er2  1  0.750000  0.977659  0.698437  1
+  Er  Er3  1  0.250000  0.022341  0.301563  1
+  Hf  Hf4  1  0.250000  0.640697  0.575825  1
+  Hf  Hf5  1  0.750000  0.359303  0.424175  1
+  Al  Al6  1  0.750000  0.849134  0.070301  1
+  Al  Al7  1  0.250000  0.150866  0.929699  1
+  Ir  Ir8  1  0.250000  0.775694  0.890217  1
+  Ir  Ir9  1  0.750000  0.224306  0.109783  1
+  Ir  Ir10  1  0.750000  0.739694  0.396792  1
+  Ir  Ir11  1  0.250000  0.260306  0.603208  1

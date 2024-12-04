@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y10Al2SiSb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.46148200
+_cell_length_b   8.77321163
+_cell_length_c   8.72888800
+_cell_angle_alpha   119.98525214
+_cell_angle_beta   90.00001773
+_cell_angle_gamma   89.99991930
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y10Al2SiSb3
+_chemical_formula_sum   'Y10 Al2 Si1 Sb3'
+_cell_volume   428.59274803
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.499872  0.341663  0.678746  1
+  Y  Y1  1  0.499886  0.651591  0.317209  1
+  Y  Y2  1  0.000116  0.651594  0.317211  1
+  Y  Y3  1  0.000127  0.341655  0.678737  1
+  Y  Y4  1  0.749997  0.246661  0.008572  1
+  Y  Y5  1  0.749996  0.754750  0.763361  1
+  Y  Y6  1  0.750004  0.001166  0.237405  1
+  Y  Y7  1  0.250004  0.752251  0.999097  1
+  Y  Y8  1  0.250002  0.243580  0.230661  1
+  Y  Y9  1  0.249996  0.012605  0.767466  1
+  Al  Al10  1  0.749999  0.604970  0.001084  1
+  Al  Al11  1  0.750000  0.395684  0.400008  1
+  Si  Si12  1  0.250002  0.394586  0.996939  1
+  Sb  Sb13  1  0.750001  0.996325  0.605794  1
+  Sb  Sb14  1  0.250001  0.608403  0.603983  1
+  Sb  Sb15  1  0.249999  0.002519  0.393725  1

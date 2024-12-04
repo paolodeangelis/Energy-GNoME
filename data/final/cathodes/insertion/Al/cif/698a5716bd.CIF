@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Tm6Th2Al2FeCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.38860684
+_cell_length_b   9.38860773
+_cell_length_c   9.41646400
+_cell_angle_alpha   59.90180991
+_cell_angle_beta   59.90180676
+_cell_angle_gamma   59.81945949
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm6Th2Al2FeCo
+_chemical_formula_sum   'Tm12 Th4 Al4 Fe2 Co2'
+_cell_volume   585.24097470
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.811708  0.189034  0.189978  1
+  Tm  Tm1  1  0.189034  0.811708  0.809281  1
+  Tm  Tm2  1  0.189034  0.811708  0.189978  1
+  Tm  Tm3  1  0.811708  0.189034  0.809281  1
+  Tm  Tm4  1  0.189172  0.189172  0.810828  1
+  Tm  Tm5  1  0.809988  0.809988  0.190012  1
+  Tm  Tm6  1  0.935065  0.562155  0.565470  1
+  Tm  Tm7  1  0.562155  0.935065  0.937309  1
+  Tm  Tm8  1  0.562155  0.935065  0.565470  1
+  Tm  Tm9  1  0.935065  0.562155  0.937309  1
+  Tm  Tm10  1  0.563210  0.563210  0.936790  1
+  Tm  Tm11  1  0.935207  0.935207  0.564793  1
+  Th  Th12  1  0.346934  0.346934  0.348806  1
+  Th  Th13  1  0.346934  0.346934  0.957326  1
+  Th  Th14  1  0.345668  0.959574  0.347380  1
+  Th  Th15  1  0.959574  0.345668  0.347380  1
+  Al  Al16  1  0.578730  0.578730  0.579708  1
+  Al  Al17  1  0.578730  0.578730  0.262830  1
+  Al  Al18  1  0.578532  0.262757  0.579354  1
+  Al  Al19  1  0.262757  0.578532  0.579354  1
+  Fe  Fe20  1  0.145495  0.145495  0.141411  1
+  Fe  Fe21  1  0.145495  0.145495  0.567600  1
+  Co  Co22  1  0.144545  0.573105  0.141176  1
+  Co  Co23  1  0.573105  0.144545  0.141176  1

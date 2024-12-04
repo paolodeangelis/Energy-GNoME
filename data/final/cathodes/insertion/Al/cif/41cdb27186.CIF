@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb3NdLu2(AlPt2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49697500
+_cell_length_b   7.38852044
+_cell_length_c   8.14969554
+_cell_angle_alpha   90.21749793
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3NdLu2(AlPt2)2
+_chemical_formula_sum   'Tb3 Nd1 Lu2 Al2 Pt4'
+_cell_volume   270.77976528
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.750000  0.435644  0.178187  1
+  Tb  Tb1  1  0.250000  0.059731  0.674722  1
+  Tb  Tb2  1  0.750000  0.987266  0.330084  1
+  Nd  Nd3  1  0.250000  0.512536  0.830869  1
+  Lu  Lu4  1  0.750000  0.868904  0.934368  1
+  Lu  Lu5  1  0.250000  0.631344  0.432477  1
+  Al  Al6  1  0.750000  0.356748  0.564925  1
+  Al  Al7  1  0.250000  0.141784  0.067082  1
+  Pt  Pt8  1  0.750000  0.728014  0.611965  1
+  Pt  Pt9  1  0.750000  0.234629  0.878588  1
+  Pt  Pt10  1  0.250000  0.260686  0.377777  1
+  Pt  Pt11  1  0.250000  0.782714  0.118959  1

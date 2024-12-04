@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CaAg2Bi(Pt2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21862210
+_cell_length_b   7.30088614
+_cell_length_c   7.17523100
+_cell_angle_alpha   60.56772337
+_cell_angle_beta   60.19864828
+_cell_angle_gamma   61.26023368
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAg2Bi(Pt2O7)2
+_chemical_formula_sum   'Ca1 Ag2 Bi1 Pt4 O14'
+_cell_volume   271.42382611
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.625000  0.125000  0.125000  1
+  Ag  Ag1  1  0.125000  0.125000  0.625000  1
+  Ag  Ag2  1  0.125000  0.125000  0.125000  1
+  Bi  Bi3  1  0.125000  0.625000  0.125000  1
+  Pt  Pt4  1  0.625000  0.625000  0.125000  1
+  Pt  Pt5  1  0.625000  0.125000  0.625000  1
+  Pt  Pt6  1  0.125000  0.625000  0.625000  1
+  Pt  Pt7  1  0.625000  0.625000  0.625000  1
+  O  O8  1  0.221576  0.252848  0.262789  1
+  O  O9  1  0.028424  0.997152  0.987211  1
+  O  O10  1  0.548393  0.954677  0.537515  1
+  O  O11  1  0.293939  0.700910  0.291492  1
+  O  O12  1  0.535569  0.537354  0.963538  1
+  O  O13  1  0.956061  0.549090  0.536340  1
+  O  O14  1  0.548393  0.954677  0.959416  1
+  O  O15  1  0.955322  0.954166  0.545255  1
+  O  O16  1  0.956061  0.549090  0.958508  1
+  O  O17  1  0.701607  0.295323  0.290584  1
+  O  O18  1  0.293939  0.700910  0.713660  1
+  O  O19  1  0.701607  0.295323  0.712485  1
+  O  O20  1  0.294678  0.295834  0.704745  1
+  O  O21  1  0.714431  0.712646  0.286462  1

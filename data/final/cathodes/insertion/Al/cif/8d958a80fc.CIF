@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Lu5AlTcTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.62499104
+_cell_length_b   8.62499208
+_cell_length_c   7.73681685
+_cell_angle_alpha   91.17152181
+_cell_angle_beta   91.17152309
+_cell_angle_gamma   126.51292918
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu5AlTcTe2
+_chemical_formula_sum   'Lu10 Al2 Tc2 Te4'
+_cell_volume   462.10124586
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.500000  0.500000  0.500000  1
+  Lu  Lu2  1  0.809526  0.563639  0.185059  1
+  Lu  Lu3  1  0.436361  0.190474  0.814941  1
+  Lu  Lu4  1  0.965596  0.720747  0.656452  1
+  Lu  Lu5  1  0.279253  0.034404  0.343548  1
+  Lu  Lu6  1  0.190474  0.436361  0.814941  1
+  Lu  Lu7  1  0.563639  0.809526  0.185059  1
+  Lu  Lu8  1  0.034404  0.279253  0.343548  1
+  Lu  Lu9  1  0.720747  0.965596  0.656452  1
+  Al  Al10  1  0.623200  0.623200  0.877654  1
+  Al  Al11  1  0.376800  0.376800  0.122346  1
+  Tc  Tc12  1  0.880791  0.880791  0.382808  1
+  Tc  Tc13  1  0.119209  0.119209  0.617192  1
+  Te  Te14  1  0.212561  0.787439  0.000000  1
+  Te  Te15  1  0.707065  0.292935  0.500000  1
+  Te  Te16  1  0.787439  0.212561  0.000000  1
+  Te  Te17  1  0.292935  0.707065  0.500000  1

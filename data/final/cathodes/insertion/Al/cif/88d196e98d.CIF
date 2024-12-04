@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KRb2AlBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.85849103
+_cell_length_b   9.85849232
+_cell_length_c   9.85849262
+_cell_angle_alpha   128.18904893
+_cell_angle_beta   70.81853315
+_cell_angle_gamma   135.25958079
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRb2AlBi2
+_chemical_formula_sum   'K2 Rb4 Al2 Bi4'
+_cell_volume   519.39054434
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.750000  0.250000  0.500000  1
+  K  K1  1  0.250000  0.750000  0.500000  1
+  Rb  Rb2  1  0.324390  0.709132  0.033523  1
+  Rb  Rb3  1  0.175610  0.209132  0.384742  1
+  Rb  Rb4  1  0.824390  0.790867  0.615258  1
+  Rb  Rb5  1  0.675610  0.290868  0.966478  1
+  Al  Al6  1  0.250000  0.250000  0.000000  1
+  Al  Al7  1  0.749999  0.749999  0.000000  1
+  Bi  Bi8  1  0.909557  0.188308  0.097866  1
+  Bi  Bi9  1  0.590442  0.688308  0.278751  1
+  Bi  Bi10  1  0.409557  0.311692  0.721250  1
+  Bi  Bi11  1  0.090443  0.811692  0.902135  1

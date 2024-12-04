@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyHoTh2AlRe7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44806500
+_cell_length_b   5.44806465
+_cell_length_c   9.04026800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000819
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyHoTh2AlRe7
+_chemical_formula_sum   'Dy1 Ho1 Th2 Al1 Re7'
+_cell_volume   232.37876234
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.666667  0.333333  0.562245  1
+  Ho  Ho1  1  0.333333  0.666667  0.437728  1
+  Th  Th2  1  0.666667  0.333333  0.931903  1
+  Th  Th3  1  0.333333  0.666667  0.068108  1
+  Al  Al4  1  0.000000  0.000000  0.000011  1
+  Re  Re5  1  0.000000  0.000000  0.499988  1
+  Re  Re6  1  0.829795  0.170205  0.255913  1
+  Re  Re7  1  0.829795  0.659590  0.255913  1
+  Re  Re8  1  0.340410  0.170205  0.255913  1
+  Re  Re9  1  0.170211  0.829789  0.744092  1
+  Re  Re10  1  0.170211  0.340422  0.744092  1
+  Re  Re11  1  0.659578  0.829789  0.744092  1

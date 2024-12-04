@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf4AlRe6Tc
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24428900
+_cell_length_b   5.24428918
+_cell_length_c   8.67285300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999253
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4AlRe6Tc
+_chemical_formula_sum   'Hf4 Al1 Re6 Tc1'
+_cell_volume   206.56935726
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.333333  0.666667  0.431957  1
+  Hf  Hf1  1  0.666667  0.333333  0.938171  1
+  Hf  Hf2  1  0.666667  0.333333  0.568043  1
+  Hf  Hf3  1  0.333333  0.666667  0.061829  1
+  Al  Al4  1  0.000000  0.000000  0.500000  1
+  Re  Re5  1  0.170315  0.340632  0.748975  1
+  Re  Re6  1  0.829685  0.170315  0.251025  1
+  Re  Re7  1  0.340632  0.170315  0.251025  1
+  Re  Re8  1  0.659368  0.829685  0.748975  1
+  Re  Re9  1  0.829685  0.659368  0.251025  1
+  Re  Re10  1  0.170315  0.829685  0.748975  1
+  Tc  Tc11  1  0.000000  0.000000  0.000000  1

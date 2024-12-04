@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Cs2LiErAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.04965482
+_cell_length_b   11.04965480
+_cell_length_c   6.89944300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.86272008
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2LiErAs2
+_chemical_formula_sum   'Cs8 Li4 Er4 As8'
+_cell_volume   821.24796526
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.071858  0.428142  0.750000  1
+  Cs  Cs1  1  0.674753  0.325247  0.790377  1
+  Cs  Cs2  1  0.325247  0.674753  0.209623  1
+  Cs  Cs3  1  0.571858  0.928142  0.750000  1
+  Cs  Cs4  1  0.428142  0.071858  0.250000  1
+  Cs  Cs5  1  0.928142  0.571858  0.250000  1
+  Cs  Cs6  1  0.825247  0.174753  0.290377  1
+  Cs  Cs7  1  0.174753  0.825247  0.709623  1
+  Li  Li8  1  0.119751  0.119751  0.500000  1
+  Li  Li9  1  0.880249  0.880249  0.500000  1
+  Li  Li10  1  0.380249  0.380249  0.000000  1
+  Li  Li11  1  0.619751  0.619751  0.000000  1
+  Er  Er12  1  0.868838  0.868838  0.000000  1
+  Er  Er13  1  0.368838  0.368838  0.500000  1
+  Er  Er14  1  0.631162  0.631162  0.500000  1
+  Er  Er15  1  0.131162  0.131162  0.000000  1
+  As  As16  1  0.834979  0.665021  0.750000  1
+  As  As17  1  0.083695  0.916305  0.232463  1
+  As  As18  1  0.416305  0.583695  0.732463  1
+  As  As19  1  0.583695  0.416305  0.267537  1
+  As  As20  1  0.665021  0.834979  0.250000  1
+  As  As21  1  0.165021  0.334979  0.250000  1
+  As  As22  1  0.334979  0.165021  0.750000  1
+  As  As23  1  0.916305  0.083695  0.767537  1

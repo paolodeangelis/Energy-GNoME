@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y12Al2Co3Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.36986159
+_cell_length_b   8.36986037
+_cell_length_c   8.36986221
+_cell_angle_alpha   107.20461433
+_cell_angle_beta   109.42984823
+_cell_angle_gamma   111.81201999
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y12Al2Co3Ni
+_chemical_formula_sum   'Y12 Al2 Co3 Ni1'
+_cell_volume   450.63972790
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.697840  0.261227  0.959067  1
+  Y  Y1  1  0.301208  0.739069  0.040278  1
+  Y  Y2  1  0.697840  0.738773  0.436612  1
+  Y  Y3  1  0.301208  0.260931  0.562140  1
+  Y  Y4  1  0.811980  0.133399  0.324578  1
+  Y  Y5  1  0.811980  0.487402  0.678581  1
+  Y  Y6  1  0.191178  0.866601  0.678581  1
+  Y  Y7  1  0.191178  0.512598  0.324578  1
+  Y  Y8  1  0.598400  0.780646  0.817753  1
+  Y  Y9  1  0.962898  0.783972  0.178926  1
+  Y  Y10  1  0.037106  0.219354  0.817753  1
+  Y  Y11  1  0.394953  0.216028  0.178926  1
+  Al  Al12  1  0.496633  0.500000  0.996633  1
+  Al  Al13  1  0.499776  0.000000  0.499776  1
+  Co  Co14  1  0.165343  0.500000  0.665343  1
+  Co  Co15  1  0.997878  0.113128  0.111006  1
+  Co  Co16  1  0.997878  0.886872  0.884750  1
+  Ni  Ni17  1  0.844722  0.500000  0.344722  1

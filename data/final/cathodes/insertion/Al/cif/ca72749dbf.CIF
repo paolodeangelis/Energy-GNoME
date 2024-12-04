@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_TbYMn2Al2O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.67402700
+_cell_length_b   7.28905800
+_cell_length_c   8.45580900
+_cell_angle_alpha   90.00014907
+_cell_angle_beta   90.00002020
+_cell_angle_gamma   90.00001572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbYMn2Al2O10
+_chemical_formula_sum   'Tb2 Y2 Mn4 Al4 O20'
+_cell_volume   349.71798596
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000000  0.633095  0.331191  1
+  Tb  Tb1  1  0.000000  0.366905  0.668809  1
+  Y  Y2  1  0.000000  0.133199  0.168756  1
+  Y  Y3  1  0.000000  0.866801  0.831244  1
+  Mn  Mn4  1  0.253974  0.500001  0.000000  1
+  Mn  Mn5  1  0.745994  0.999999  0.499999  1
+  Mn  Mn6  1  0.746027  0.499999  0.000000  1
+  Mn  Mn7  1  0.254008  0.000001  0.500000  1
+  Al  Al8  1  0.499999  0.892748  0.141911  1
+  Al  Al9  1  0.500001  0.107252  0.858090  1
+  Al  Al10  1  0.500000  0.392716  0.358097  1
+  Al  Al11  1  0.500000  0.607285  0.641903  1
+  O  O12  1  0.280772  0.500000  0.500000  1
+  O  O13  1  0.719460  0.000000  0.000000  1
+  O  O14  1  0.719228  0.500000  0.500000  1
+  O  O15  1  0.280538  0.000000  0.000000  1
+  O  O16  1  0.000000  0.662663  0.056133  1
+  O  O17  1  0.000000  0.337337  0.943866  1
+  O  O18  1  0.000000  0.162598  0.443627  1
+  O  O19  1  0.000000  0.837402  0.556374  1
+  O  O20  1  0.500000  0.657929  0.071207  1
+  O  O21  1  0.500000  0.342072  0.928792  1
+  O  O22  1  0.500000  0.157934  0.428839  1
+  O  O23  1  0.500000  0.842066  0.571161  1
+  O  O24  1  0.251261  0.895159  0.289612  1
+  O  O25  1  0.251260  0.104842  0.710388  1
+  O  O26  1  0.748763  0.394989  0.210345  1
+  O  O27  1  0.748764  0.605010  0.789656  1
+  O  O28  1  0.748739  0.104841  0.710388  1
+  O  O29  1  0.748739  0.895158  0.289612  1
+  O  O30  1  0.251237  0.605010  0.789656  1
+  O  O31  1  0.251237  0.394990  0.210344  1

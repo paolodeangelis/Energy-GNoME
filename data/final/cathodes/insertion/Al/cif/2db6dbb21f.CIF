@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Gd2ScAlPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49826400
+_cell_length_b   7.45068000
+_cell_length_c   8.09087900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd2ScAlPt2
+_chemical_formula_sum   'Gd4 Sc2 Al2 Pt4'
+_cell_volume   271.16682606
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.750000  0.443070  0.177495  1
+  Gd  Gd1  1  0.250000  0.056930  0.677495  1
+  Gd  Gd2  1  0.750000  0.979461  0.327907  1
+  Gd  Gd3  1  0.250000  0.520539  0.827907  1
+  Sc  Sc4  1  0.750000  0.875003  0.934203  1
+  Sc  Sc5  1  0.250000  0.624997  0.434203  1
+  Al  Al6  1  0.750000  0.358398  0.565915  1
+  Al  Al7  1  0.250000  0.141602  0.065915  1
+  Pt  Pt8  1  0.750000  0.719892  0.615343  1
+  Pt  Pt9  1  0.750000  0.234400  0.879138  1
+  Pt  Pt10  1  0.250000  0.265600  0.379138  1
+  Pt  Pt11  1  0.250000  0.780108  0.115343  1

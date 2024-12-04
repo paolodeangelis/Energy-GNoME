@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Mn2Al3CrS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15847908
+_cell_length_b   7.18971264
+_cell_length_c   7.15835200
+_cell_angle_alpha   60.14466225
+_cell_angle_beta   60.00130929
+_cell_angle_gamma   60.14418185
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Al3CrS8
+_chemical_formula_sum   'Mn2 Al3 Cr1 S8'
+_cell_volume   261.08339907
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.874552  0.876612  0.874436  1
+  Mn  Mn1  1  0.125444  0.123419  0.125550  1
+  Al  Al2  1  0.500007  0.500005  0.499984  1
+  Al  Al3  1  0.500008  0.499998  0.000003  1
+  Al  Al4  1  0.000002  0.500000  0.500009  1
+  Cr  Cr5  1  0.499993  0.999949  0.500010  1
+  S  S6  1  0.739456  0.738897  0.739516  1
+  S  S7  1  0.260550  0.261110  0.717845  1
+  S  S8  1  0.260428  0.718505  0.260526  1
+  S  S9  1  0.717794  0.261161  0.260523  1
+  S  S10  1  0.739566  0.281512  0.739465  1
+  S  S11  1  0.282201  0.738834  0.739480  1
+  S  S12  1  0.260539  0.261100  0.260501  1
+  S  S13  1  0.739463  0.738890  0.282153  1

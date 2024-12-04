@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Cs2Cd2(SiO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.50425500
+_cell_length_b   6.70276110
+_cell_length_c   12.30986307
+_cell_angle_alpha   60.17163086
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Cd2(SiO3)3
+_chemical_formula_sum   'Cs4 Cd4 Si6 O18'
+_cell_volume   537.14765037
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.383340  0.431372  0.769852  1
+  Cs  Cs1  1  0.616660  0.431372  0.269852  1
+  Cs  Cs2  1  0.665248  0.816107  0.902125  1
+  Cs  Cs3  1  0.334752  0.816107  0.402125  1
+  Cd  Cd4  1  0.836899  0.881615  0.587044  1
+  Cd  Cd5  1  0.163101  0.881615  0.087044  1
+  Cd  Cd6  1  0.929787  0.349407  0.857338  1
+  Cd  Cd7  1  0.070213  0.349407  0.357338  1
+  Si  Si8  1  0.574913  0.114345  0.088646  1
+  Si  Si9  1  0.425087  0.114345  0.588646  1
+  Si  Si10  1  0.238217  0.423991  0.054300  1
+  Si  Si11  1  0.761783  0.423991  0.554300  1
+  Si  Si12  1  0.141719  0.875253  0.815845  1
+  Si  Si13  1  0.858281  0.875253  0.315845  1
+  O  O14  1  0.836405  0.489732  0.656564  1
+  O  O15  1  0.163595  0.489732  0.156564  1
+  O  O16  1  0.441489  0.309364  0.096481  1
+  O  O17  1  0.558511  0.309364  0.596481  1
+  O  O18  1  0.457370  0.890141  0.118157  1
+  O  O19  1  0.542630  0.890141  0.618157  1
+  O  O20  1  0.053439  0.006134  0.885087  1
+  O  O21  1  0.946561  0.006134  0.385087  1
+  O  O22  1  0.884383  0.261268  0.521646  1
+  O  O23  1  0.115617  0.261268  0.021646  1
+  O  O24  1  0.673199  0.233886  0.954093  1
+  O  O25  1  0.326801  0.233886  0.454093  1
+  O  O26  1  0.999979  0.749252  0.768194  1
+  O  O27  1  0.000021  0.749252  0.268194  1
+  O  O28  1  0.275866  0.670996  0.921511  1
+  O  O29  1  0.724134  0.670996  0.421511  1
+  O  O30  1  0.719525  0.051037  0.204556  1
+  O  O31  1  0.280475  0.051037  0.704556  1

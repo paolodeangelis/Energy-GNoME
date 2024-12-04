@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbTh3(AlOs)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.07407900
+_cell_length_b   7.07966016
+_cell_length_c   8.36337700
+_cell_angle_alpha   89.51737557
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbTh3(AlOs)4
+_chemical_formula_sum   'Tb1 Th3 Al4 Os4'
+_cell_volume   241.21711774
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.750000  0.459867  0.816120  1
+  Th  Th1  1  0.250000  0.034877  0.315873  1
+  Th  Th2  1  0.250000  0.536090  0.178571  1
+  Th  Th3  1  0.750000  0.963526  0.686322  1
+  Al  Al4  1  0.250000  0.139416  0.940289  1
+  Al  Al5  1  0.250000  0.625937  0.561703  1
+  Al  Al6  1  0.750000  0.869570  0.054682  1
+  Al  Al7  1  0.750000  0.368798  0.446347  1
+  Os  Os8  1  0.250000  0.258128  0.622546  1
+  Os  Os9  1  0.250000  0.768347  0.876052  1
+  Os  Os10  1  0.750000  0.737150  0.373909  1
+  Os  Os11  1  0.750000  0.238295  0.127584  1

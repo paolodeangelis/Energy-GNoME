@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ho12AlIn(CoOs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.37848651
+_cell_length_b   8.37846741
+_cell_length_c   8.37848656
+_cell_angle_alpha   112.67008598
+_cell_angle_beta   110.86440768
+_cell_angle_gamma   104.97629477
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho12AlIn(CoOs)2
+_chemical_formula_sum   'Ho12 Al1 In1 Co2 Os2'
+_cell_volume   450.57530525
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.435922  0.240769  0.195153  1
+  Ho  Ho1  1  0.564078  0.759231  0.804847  1
+  Ho  Ho2  1  0.045616  0.240769  0.804847  1
+  Ho  Ho3  1  0.954384  0.759231  0.195153  1
+  Ho  Ho4  1  0.180770  0.281297  0.462068  1
+  Ho  Ho5  1  0.819230  0.718703  0.537932  1
+  Ho  Ho6  1  0.180771  0.718703  0.899473  1
+  Ho  Ho7  1  0.819229  0.281297  0.100527  1
+  Ho  Ho8  1  0.324763  0.642140  0.317378  1
+  Ho  Ho9  1  0.675237  0.357860  0.682622  1
+  Ho  Ho10  1  0.324763  0.007385  0.682623  1
+  Ho  Ho11  1  0.675237  0.992615  0.317377  1
+  Al  Al12  1  0.000000  0.000000  0.000000  1
+  In  In13  1  0.500000  0.500000  0.000000  1
+  Co  Co14  1  0.111794  0.611794  0.499999  1
+  Co  Co15  1  0.888206  0.388206  0.500001  1
+  Os  Os16  1  0.324167  0.000000  0.324167  1
+  Os  Os17  1  0.675833  0.000000  0.675833  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y5AlBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.02886957
+_cell_length_b   9.02887001
+_cell_length_c   6.52608600
+_cell_angle_alpha   89.99990907
+_cell_angle_beta   89.99991155
+_cell_angle_gamma   119.88155075
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y5AlBi2
+_chemical_formula_sum   'Y10 Al2 Bi4'
+_cell_volume   461.28287331
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.669092  0.326625  0.506429  1
+  Y  Y1  1  0.326625  0.669092  0.506429  1
+  Y  Y2  1  0.326623  0.669088  0.993570  1
+  Y  Y3  1  0.669088  0.326623  0.993570  1
+  Y  Y4  1  0.760977  0.760977  0.250000  1
+  Y  Y5  1  0.238675  0.998965  0.250000  1
+  Y  Y6  1  0.998965  0.238675  0.250000  1
+  Y  Y7  1  0.233258  0.233258  0.750000  1
+  Y  Y8  1  0.763780  0.012310  0.750000  1
+  Y  Y9  1  0.012310  0.763780  0.750000  1
+  Al  Al10  1  0.396250  0.001133  0.749999  1
+  Al  Al11  1  0.001133  0.396250  0.749999  1
+  Bi  Bi12  1  0.394322  0.394322  0.250006  1
+  Bi  Bi13  1  0.602156  0.996385  0.249996  1
+  Bi  Bi14  1  0.996385  0.602156  0.249996  1
+  Bi  Bi15  1  0.610360  0.610360  0.750006  1

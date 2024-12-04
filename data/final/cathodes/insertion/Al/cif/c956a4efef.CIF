@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li3Nd4Al(IrRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.08430500
+_cell_length_b   7.10756331
+_cell_length_c   8.50188156
+_cell_angle_alpha   90.49397607
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Nd4Al(IrRh)2
+_chemical_formula_sum   'Li3 Nd4 Al1 Ir2 Rh2'
+_cell_volume   246.79582735
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.250000  0.626508  0.550531  1
+  Li  Li1  1  0.750000  0.370538  0.445242  1
+  Li  Li2  1  0.750000  0.871892  0.057424  1
+  Nd  Nd3  1  0.250000  0.544959  0.179251  1
+  Nd  Nd4  1  0.750000  0.461153  0.818482  1
+  Nd  Nd5  1  0.750000  0.956058  0.682226  1
+  Nd  Nd6  1  0.250000  0.039808  0.317709  1
+  Al  Al7  1  0.250000  0.129768  0.945609  1
+  Ir  Ir8  1  0.750000  0.241032  0.104789  1
+  Ir  Ir9  1  0.750000  0.752967  0.371279  1
+  Rh  Rh10  1  0.250000  0.763906  0.881453  1
+  Rh  Rh11  1  0.250000  0.241410  0.646006  1

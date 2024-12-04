@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Cs(Nb3S4)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.34094122
+_cell_length_b   10.34094105
+_cell_length_c   9.76969927
+_cell_angle_alpha   61.88339863
+_cell_angle_beta   61.88340089
+_cell_angle_gamma   38.44051282
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs(Nb3S4)4
+_chemical_formula_sum   'Cs1 Nb12 S16'
+_cell_volume   562.83116854
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.374759  0.374759  0.998930  1
+  Nb  Nb1  1  0.932144  0.932144  0.511874  1
+  Nb  Nb2  1  0.431298  0.431298  0.517897  1
+  Nb  Nb3  1  0.131084  0.131084  0.373567  1
+  Nb  Nb4  1  0.633566  0.633566  0.368939  1
+  Nb  Nb5  1  0.059147  0.059147  0.114884  1
+  Nb  Nb6  1  0.561853  0.561853  0.115749  1
+  Nb  Nb7  1  0.072132  0.565544  0.487723  1
+  Nb  Nb8  1  0.565544  0.072132  0.487723  1
+  Nb  Nb9  1  0.882567  0.355193  0.624853  1
+  Nb  Nb10  1  0.355193  0.882567  0.624853  1
+  Nb  Nb11  1  0.923869  0.451883  0.885735  1
+  Nb  Nb12  1  0.451883  0.923869  0.885735  1
+  S  S13  1  0.525342  0.525342  0.643781  1
+  S  S14  1  0.017870  0.017870  0.651576  1
+  S  S15  1  0.701368  0.701368  0.060903  1
+  S  S16  1  0.196362  0.196362  0.056791  1
+  S  S17  1  0.406454  0.406454  0.294186  1
+  S  S18  1  0.902765  0.902765  0.291597  1
+  S  S19  1  0.479349  0.981909  0.348254  1
+  S  S20  1  0.981909  0.479349  0.348254  1
+  S  S21  1  0.298329  0.799912  0.941263  1
+  S  S22  1  0.799912  0.298329  0.941263  1
+  S  S23  1  0.598823  0.092072  0.711399  1
+  S  S24  1  0.092072  0.598823  0.711399  1
+  S  S25  1  0.707429  0.707429  0.662280  1
+  S  S26  1  0.208925  0.208925  0.671716  1
+  S  S27  1  0.291575  0.791476  0.333438  1
+  S  S28  1  0.791476  0.291575  0.333438  1

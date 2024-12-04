@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_CsUCl4O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26166485
+_cell_length_b   7.26166404
+_cell_length_c   8.49757372
+_cell_angle_alpha   110.82422748
+_cell_angle_beta   110.82422541
+_cell_angle_gamma   33.34628166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsUCl4O
+_chemical_formula_sum   'Cs1 U1 Cl4 O1'
+_cell_volume   228.72613609
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.995503  0.004498  0.000000  1
+  U  U1  1  0.504875  0.495124  0.500000  1
+  Cl  Cl2  1  0.358086  0.360642  0.196614  1
+  Cl  Cl3  1  0.632394  0.636395  0.357262  1
+  Cl  Cl4  1  0.363605  0.367606  0.642738  1
+  Cl  Cl5  1  0.639358  0.641914  0.803386  1
+  O  O6  1  0.005469  0.994531  0.500000  1

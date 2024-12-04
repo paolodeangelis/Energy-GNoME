@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Th3Al2CdCu3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.09133907
+_cell_length_b   7.19096641
+_cell_length_c   4.29012400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.46583980
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th3Al2CdCu3
+_chemical_formula_sum   'Th3 Al2 Cd1 Cu3'
+_cell_volume   188.56373096
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.000000  0.418830  0.500000  1
+  Th  Th1  1  0.574523  0.574077  0.500000  1
+  Th  Th2  1  0.425477  0.999555  0.500000  1
+  Al  Al3  1  0.231966  0.236686  0.000000  1
+  Al  Al4  1  0.768034  0.004721  0.000000  1
+  Cd  Cd5  1  0.000000  0.760878  0.000000  1
+  Cu  Cu6  1  0.344771  0.665879  0.000000  1
+  Cu  Cu7  1  0.655229  0.321107  0.000000  1
+  Cu  Cu8  1  0.000000  0.018267  0.500000  1

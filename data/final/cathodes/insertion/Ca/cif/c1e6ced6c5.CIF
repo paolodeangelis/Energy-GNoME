@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaTb6CoBr12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.24669862
+_cell_length_b   9.24669807
+_cell_length_c   9.24669913
+_cell_angle_alpha   107.01456511
+_cell_angle_beta   107.01455345
+_cell_angle_gamma   107.01455875
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTb6CoBr12
+_chemical_formula_sum   'Ca1 Tb6 Co1 Br12'
+_cell_volume   658.16257238
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.500000  0.500000  1
+  Tb  Tb1  1  0.977839  0.900885  0.694528  1
+  Tb  Tb2  1  0.022161  0.099115  0.305472  1
+  Tb  Tb3  1  0.099115  0.305472  0.022161  1
+  Tb  Tb4  1  0.305472  0.022161  0.099115  1
+  Tb  Tb5  1  0.900885  0.694528  0.977839  1
+  Tb  Tb6  1  0.694528  0.977839  0.900885  1
+  Co  Co7  1  0.000000  0.000000  0.000000  1
+  Br  Br8  1  0.545781  0.623951  0.844998  1
+  Br  Br9  1  0.454219  0.376049  0.155002  1
+  Br  Br10  1  0.320532  0.928098  0.778651  1
+  Br  Br11  1  0.376049  0.155002  0.454219  1
+  Br  Br12  1  0.928098  0.778651  0.320532  1
+  Br  Br13  1  0.679468  0.071902  0.221349  1
+  Br  Br14  1  0.071902  0.221349  0.679468  1
+  Br  Br15  1  0.778651  0.320532  0.928098  1
+  Br  Br16  1  0.221349  0.679468  0.071902  1
+  Br  Br17  1  0.844998  0.545781  0.623951  1
+  Br  Br18  1  0.155002  0.454219  0.376049  1
+  Br  Br19  1  0.623951  0.844998  0.545781  1

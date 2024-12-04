@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Th3AlPd(PtAu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79648234
+_cell_length_b   7.54530726
+_cell_length_c   3.85197300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.93990297
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th3AlPd(PtAu)2
+_chemical_formula_sum   'Th3 Al1 Pd1 Pt2 Au2'
+_cell_volume   198.30346995
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.405076  0.397369  0.500000  1
+  Th  Th1  1  0.594924  0.992294  0.500000  1
+  Th  Th2  1  0.000000  0.611271  0.500000  1
+  Al  Al3  1  0.000000  0.255708  0.000000  1
+  Pd  Pd4  1  0.000000  0.036764  0.500000  1
+  Pt  Pt5  1  0.693079  0.328502  0.000000  1
+  Pt  Pt6  1  0.306921  0.635423  0.000000  1
+  Au  Au7  1  0.733325  0.737997  0.000000  1
+  Au  Au8  1  0.266675  0.004672  0.000000  1

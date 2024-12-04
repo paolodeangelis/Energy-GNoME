@@ -32,6 +32,10 @@ PALETTE = [
     "#009b8f",
     "#73bced",
 ]
+FONT = {
+    "name": "Roboto",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Roboto",
+}
 WORKING_IONS = ["Li", "Na", "Mg", "K", "Ca", "Cs"]
 WORKING_IONS_ACTIVE = ["Li", "Na", "Mg"]
 CATHODE_TYPE = ["insertion"]
@@ -65,7 +69,7 @@ HOVER_COL = [
     ("Working Ion", "@{Working Ion}"),
     ("Average Voltage", "@{Average Voltage (V)}{0.2f} V"),
     ("AI-experts confidence", "@{AI-experts confidence (-)}{0.2f}"),
-    ("Max Volume expansion", "@{Max Volume expansion (-)}{0.2f} %"),
+    ("Max Volume expansion", "@{Max Volume expansion (-)}{0.2f} L/L"),
     ("Volumetric capacity", "@{Volumetric capacity (mAh/L)}{0.2f} mAh/L"),
     ("Gravimetric capacity", "@{Gravimetric capacity (mAh/g)}{0.2f} mAh/g"),
     ("Volumetric energy", "@{Volumetric energy (Wh/L)}{0.2f} Wh/L"),
@@ -90,9 +94,8 @@ SIDEBAR_WIDGET_W = 290
 PLOT_SIZE = [850, 550]  # WxH
 TABLE_FORMATTER = {
     "File": HTMLTemplateFormatter(
-        template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/cif/test1.cif?download=1" download="<%= value %>.cif" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.cif </a></code>'  # noqa: E501, W505
-    )
-    # HTMLTemplateFormatter(template=r'<code><a href="file:///C:/Users/Paolo/OneDrive%20-%20Politecnico%20di%20Torino/3-Articoli/2024-GNoME/plots/<%= value %>.cif?download=1" download="realname.cif" > <%= value %>.cif </a></code>') # noqa: E501, W505
+        template=r'<code><a href="https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/<%= _folder_path %>/<%= value %>.cif?download=1" download="<%= value %>.cif" target="_blank" > <i class="fas fa-external-link-alt"></i> <%= value %>.CIF </a></code>'
+    )  # noqa: E501, W505
 }
 ABOUT_W = 600
 ABOUT_MSG = f"""
@@ -203,6 +206,7 @@ def initialize_data() -> pd.DataFrame:
         df["Working Ion"] = ion
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
+        df["_folder_path"] = f"data/final/cathodes/{ctype}/{ion}/cif"
         # Downcast float64 to float32 for memory efficiency
         float_cols = df.select_dtypes(include=["float64"]).columns
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
@@ -993,6 +997,8 @@ pn.template.FastListTemplate(
     site=SITE,
     title=TITLE,
     logo=LOGO,
+    font=FONT["name"],
+    font_url=FONT["url"],
     meta_author=META["authors"],
     meta_viewport=META["viewport"],
     meta_keywords=META["keywords"],

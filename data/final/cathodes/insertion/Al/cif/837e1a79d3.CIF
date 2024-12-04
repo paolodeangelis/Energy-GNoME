@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Y4AlCoTc6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29149600
+_cell_length_b   5.29149503
+_cell_length_c   9.00452900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99998103
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y4AlCoTc6
+_chemical_formula_sum   'Y4 Al1 Co1 Tc6'
+_cell_volume   218.34767956
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.333333  0.666667  0.430598  1
+  Y  Y1  1  0.666667  0.333333  0.569402  1
+  Y  Y2  1  0.666667  0.333333  0.936502  1
+  Y  Y3  1  0.333333  0.666667  0.063498  1
+  Al  Al4  1  0.000000  0.000000  0.500000  1
+  Co  Co5  1  0.000000  0.000000  0.000000  1
+  Tc  Tc6  1  0.830785  0.169215  0.247696  1
+  Tc  Tc7  1  0.830785  0.661570  0.247696  1
+  Tc  Tc8  1  0.338430  0.169215  0.247696  1
+  Tc  Tc9  1  0.169215  0.830785  0.752304  1
+  Tc  Tc10  1  0.169215  0.338430  0.752304  1
+  Tc  Tc11  1  0.661570  0.830785  0.752304  1

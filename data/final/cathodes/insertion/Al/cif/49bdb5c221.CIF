@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs4Li2TiAlAs4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.20579269
+_cell_length_b   13.20579190
+_cell_length_c   13.20579219
+_cell_angle_alpha   152.15253191
+_cell_angle_beta   39.12688042
+_cell_angle_gamma   153.06944788
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4Li2TiAlAs4
+_chemical_formula_sum   'Cs4 Li2 Ti1 Al1 As4'
+_cell_volume   486.37003904
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.369346  0.764381  0.125703  1
+  Cs  Cs1  1  0.130654  0.256357  0.395036  1
+  Cs  Cs2  1  0.861320  0.735618  0.604964  1
+  Cs  Cs3  1  0.638680  0.243643  0.874297  1
+  Li  Li4  1  0.750001  0.250001  0.500000  1
+  Li  Li5  1  0.250001  0.750000  0.500000  1
+  Ti  Ti6  1  0.250001  0.250001  0.000000  1
+  Al  Al7  1  0.750000  0.750000  0.000000  1
+  As  As8  1  0.948490  0.230278  0.171475  1
+  As  As9  1  0.551510  0.722984  0.281789  1
+  As  As10  1  0.441196  0.269722  0.718211  1
+  As  As11  1  0.058804  0.777014  0.828525  1

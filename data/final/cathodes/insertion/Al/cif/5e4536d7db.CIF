@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr4AlPt5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94146215
+_cell_length_b   5.94146233
+_cell_length_c   8.01999957
+_cell_angle_alpha   91.88091080
+_cell_angle_beta   88.11908866
+_cell_angle_gamma   122.07498201
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4AlPt5
+_chemical_formula_sum   'Sr4 Al1 Pt5'
+_cell_volume   239.72870713
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.162942  0.837056  0.107034  1
+  Sr  Sr1  1  0.658146  0.341852  0.414429  1
+  Sr  Sr2  1  0.341852  0.658146  0.585571  1
+  Sr  Sr3  1  0.837056  0.162942  0.892966  1
+  Al  Al4  1  0.499999  0.499999  0.000000  1
+  Pt  Pt5  1  0.160970  0.332399  0.233295  1
+  Pt  Pt6  1  0.667601  0.839030  0.233295  1
+  Pt  Pt7  1  0.000000  0.000000  0.500000  1
+  Pt  Pt8  1  0.332399  0.160970  0.766705  1
+  Pt  Pt9  1  0.839030  0.667601  0.766705  1

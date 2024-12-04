@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsCe2SbS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.96830531
+_cell_length_b   6.96830526
+_cell_length_c   8.14222906
+_cell_angle_alpha   98.44603313
+_cell_angle_beta   98.44603656
+_cell_angle_gamma   108.50165467
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCe2SbS8
+_chemical_formula_sum   'Cs1 Ce2 Sb1 S8'
+_cell_volume   362.88828467
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.540239  0.540239  0.160119  1
+  Ce  Ce1  1  0.923372  0.423257  0.693300  1
+  Ce  Ce2  1  0.423257  0.923372  0.693300  1
+  Sb  Sb3  1  0.988497  0.988497  0.954149  1
+  S  S4  1  0.700827  0.038182  0.472297  1
+  S  S5  1  0.038182  0.700827  0.472297  1
+  S  S6  1  0.518775  0.220209  0.486636  1
+  S  S7  1  0.220209  0.518775  0.486636  1
+  S  S8  1  0.699129  0.699129  0.769944  1
+  S  S9  1  0.186472  0.186472  0.771831  1
+  S  S10  1  0.744821  0.219521  0.927398  1
+  S  S11  1  0.219521  0.744821  0.927398  1

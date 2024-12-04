@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb3DyAlTc7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33540900
+_cell_length_b   5.33540798
+_cell_length_c   9.07801900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99997532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3DyAlTc7
+_chemical_formula_sum   'Tb3 Dy1 Al1 Tc7'
+_cell_volume   223.79850352
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.333333  0.666667  0.434476  1
+  Tb  Tb1  1  0.666667  0.333333  0.565469  1
+  Tb  Tb2  1  0.666667  0.333333  0.935428  1
+  Dy  Dy3  1  0.333333  0.666667  0.064684  1
+  Al  Al4  1  0.000000  0.000000  0.500000  1
+  Tc  Tc5  1  0.000000  0.000000  0.000061  1
+  Tc  Tc6  1  0.830130  0.169870  0.250097  1
+  Tc  Tc7  1  0.830130  0.660259  0.250097  1
+  Tc  Tc8  1  0.339741  0.169870  0.250097  1
+  Tc  Tc9  1  0.169883  0.830117  0.749864  1
+  Tc  Tc10  1  0.169883  0.339766  0.749864  1
+  Tc  Tc11  1  0.660234  0.830117  0.749864  1

@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_AlCu6WS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55742700
+_cell_length_b   7.55742782
+_cell_length_c   12.46540300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999205
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCu6WS8
+_chemical_formula_sum   'Al2 Cu12 W2 S16'
+_cell_volume   616.57364710
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.000000  0.000000  0.851374  1
+  Al  Al1  1  0.000000  0.000000  0.351374  1
+  Cu  Cu2  1  0.839509  0.679020  0.106116  1
+  Cu  Cu3  1  0.504244  0.495756  0.352885  1
+  Cu  Cu4  1  0.008488  0.504244  0.852885  1
+  Cu  Cu5  1  0.839509  0.160491  0.106116  1
+  Cu  Cu6  1  0.495756  0.504244  0.852885  1
+  Cu  Cu7  1  0.160491  0.320980  0.606116  1
+  Cu  Cu8  1  0.504244  0.008488  0.352885  1
+  Cu  Cu9  1  0.991512  0.495756  0.352885  1
+  Cu  Cu10  1  0.160491  0.839509  0.606116  1
+  Cu  Cu11  1  0.495756  0.991512  0.852885  1
+  Cu  Cu12  1  0.679020  0.839509  0.606116  1
+  Cu  Cu13  1  0.320980  0.160491  0.106116  1
+  W  W14  1  0.333333  0.666667  0.480937  1
+  W  W15  1  0.666667  0.333333  0.980937  1
+  S  S16  1  0.000000  0.000000  0.034451  1
+  S  S17  1  0.330251  0.165126  0.290270  1
+  S  S18  1  0.834874  0.165126  0.290270  1
+  S  S19  1  0.006553  0.503277  0.540719  1
+  S  S20  1  0.834874  0.669749  0.290270  1
+  S  S21  1  0.666667  0.333333  0.799272  1
+  S  S22  1  0.165126  0.330251  0.790270  1
+  S  S23  1  0.496723  0.503277  0.540719  1
+  S  S24  1  0.000000  0.000000  0.534451  1
+  S  S25  1  0.333333  0.666667  0.299272  1
+  S  S26  1  0.993447  0.496723  0.040719  1
+  S  S27  1  0.496723  0.993447  0.540719  1
+  S  S28  1  0.165126  0.834874  0.790270  1
+  S  S29  1  0.669749  0.834874  0.790270  1
+  S  S30  1  0.503277  0.006553  0.040719  1
+  S  S31  1  0.503277  0.496723  0.040719  1

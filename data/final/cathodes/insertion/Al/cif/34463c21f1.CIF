@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MnAl12Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98217368
+_cell_length_b   4.98217392
+_cell_length_c   8.99140600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   98.20579140
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAl12Os
+_chemical_formula_sum   'Mn1 Al12 Os1'
+_cell_volume   220.90016881
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.539835  0.539835  0.750000  1
+  Al  Al1  1  0.976083  0.616257  0.250000  1
+  Al  Al2  1  0.392990  0.031902  0.750000  1
+  Al  Al3  1  0.031902  0.392990  0.750000  1
+  Al  Al4  1  0.616257  0.976083  0.250000  1
+  Al  Al5  1  0.677695  0.324209  0.505202  1
+  Al  Al6  1  0.677695  0.324209  0.994798  1
+  Al  Al7  1  0.324209  0.677695  0.505202  1
+  Al  Al8  1  0.324209  0.677695  0.994798  1
+  Al  Al9  1  0.134659  0.134659  0.403365  1
+  Al  Al10  1  0.855684  0.855684  0.603549  1
+  Al  Al11  1  0.134659  0.134659  0.096635  1
+  Al  Al12  1  0.855684  0.855684  0.896451  1
+  Os  Os13  1  0.458439  0.458439  0.250000  1

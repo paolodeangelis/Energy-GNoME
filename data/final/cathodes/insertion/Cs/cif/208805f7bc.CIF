@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CsV3NiO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70416825
+_cell_length_b   6.70452497
+_cell_length_c   6.70427920
+_cell_angle_alpha   103.73046536
+_cell_angle_beta   103.73570748
+_cell_angle_gamma   103.72960220
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsV3NiO9
+_chemical_formula_sum   'Cs1 V3 Ni1 O9'
+_cell_volume   270.23852212
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.475395  0.475411  0.475432  1
+  V  V1  1  0.883921  0.480876  0.036599  1
+  V  V2  1  0.036553  0.883913  0.480838  1
+  V  V3  1  0.480888  0.036590  0.883924  1
+  Ni  Ni4  1  0.002463  0.002406  0.002415  1
+  O  O5  1  0.333473  0.061612  0.054585  1
+  O  O6  1  0.054570  0.333447  0.061657  1
+  O  O7  1  0.874496  0.613705  0.304555  1
+  O  O8  1  0.061595  0.054540  0.333396  1
+  O  O9  1  0.304530  0.874530  0.613726  1
+  O  O10  1  0.925255  0.967040  0.671855  1
+  O  O11  1  0.613716  0.304578  0.874532  1
+  O  O12  1  0.967017  0.671863  0.925253  1
+  O  O13  1  0.671918  0.925281  0.967024  1

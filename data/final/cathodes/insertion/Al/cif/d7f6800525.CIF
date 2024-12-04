@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Er12AlCo4Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18137045
+_cell_length_b   8.18137064
+_cell_length_c   8.18137104
+_cell_angle_alpha   106.43360104
+_cell_angle_beta   110.77287337
+_cell_angle_gamma   111.24960486
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er12AlCo4Ir
+_chemical_formula_sum   'Er12 Al1 Co4 Ir1'
+_cell_volume   420.66665424
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.693153  0.276600  0.969752  1
+  Er  Er1  1  0.306847  0.723400  0.030248  1
+  Er  Er2  1  0.693153  0.723400  0.416555  1
+  Er  Er3  1  0.306847  0.276600  0.583445  1
+  Er  Er4  1  0.804340  0.121191  0.316851  1
+  Er  Er5  1  0.804340  0.487489  0.683149  1
+  Er  Er6  1  0.195660  0.878809  0.683149  1
+  Er  Er7  1  0.195660  0.512511  0.316851  1
+  Er  Er8  1  0.599051  0.782205  0.816846  1
+  Er  Er9  1  0.965357  0.782205  0.183154  1
+  Er  Er10  1  0.034643  0.217795  0.816846  1
+  Er  Er11  1  0.400949  0.217795  0.183154  1
+  Al  Al12  1  0.500000  0.000000  0.500000  1
+  Co  Co13  1  0.874016  0.500000  0.374016  1
+  Co  Co14  1  0.125984  0.500000  0.625984  1
+  Co  Co15  1  0.000000  0.112654  0.112654  1
+  Co  Co16  1  0.000000  0.887346  0.887346  1
+  Ir  Ir17  1  0.500000  0.500000  0.000000  1

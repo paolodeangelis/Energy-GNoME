@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_La10AlInSi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.04537400
+_cell_length_b   9.30705890
+_cell_length_c   8.04537400
+_cell_angle_alpha   115.60846822
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.60846822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La10AlInSi4
+_chemical_formula_sum   'La10 Al1 In1 Si4'
+_cell_volume   476.78391523
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.975891  0.951781  0.975891  1
+  La  La1  1  0.524109  0.048219  0.524109  1
+  La  La2  1  0.534096  0.721141  0.680683  1
+  La  La3  1  0.187047  0.721141  0.040461  1
+  La  La4  1  0.680683  0.721141  0.187047  1
+  La  La5  1  0.040461  0.721141  0.534096  1
+  La  La6  1  0.459539  0.278859  0.312953  1
+  La  La7  1  0.819317  0.278859  0.965904  1
+  La  La8  1  0.312953  0.278859  0.819317  1
+  La  La9  1  0.965904  0.278859  0.459539  1
+  Al  Al10  1  0.750000  0.500000  0.750000  1
+  In  In11  1  0.250000  0.500000  0.250000  1
+  Si  Si12  1  0.886154  0.000000  0.613846  1
+  Si  Si13  1  0.113846  0.000000  0.386154  1
+  Si  Si14  1  0.613846  0.000000  0.113846  1
+  Si  Si15  1  0.386154  0.000000  0.886154  1

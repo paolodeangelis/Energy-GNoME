@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsMn(SO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11677350
+_cell_length_b   5.13776896
+_cell_length_c   8.77371821
+_cell_angle_alpha   89.98219938
+_cell_angle_beta   89.45188565
+_cell_angle_gamma   119.80968359
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsMn(SO4)2
+_chemical_formula_sum   'Cs1 Mn1 S2 O8'
+_cell_volume   200.11861095
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.997290  0.996251  0.500547  1
+  Mn  Mn1  1  0.000754  0.004647  0.000176  1
+  S  S2  1  0.276838  0.639953  0.184130  1
+  S  S3  1  0.723272  0.359369  0.815904  1
+  O  O4  1  0.051870  0.312934  0.152610  1
+  O  O5  1  0.530253  0.748215  0.077215  1
+  O  O6  1  0.471672  0.225088  0.924025  1
+  O  O7  1  0.108819  0.812744  0.165161  1
+  O  O8  1  0.918782  0.692835  0.843733  1
+  O  O9  1  0.924162  0.221051  0.836167  1
+  O  O10  1  0.357593  0.665008  0.345246  1
+  O  O11  1  0.638694  0.321905  0.655086  1
