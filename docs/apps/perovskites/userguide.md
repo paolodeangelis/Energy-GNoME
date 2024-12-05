@@ -61,7 +61,7 @@ $$
 
 where:
 
-* $n(x)$ is the min-max normalization function $n(X) = \frac{x-\mathrm{min}(x)}{\mathrm{max}(x)-\mathrm{min}(x)}$;
+* $n(x)$ is the min-max normalization function $n(x) = \frac{x-\mathrm{min}(x)}{\mathrm{max}(x)-\mathrm{min}(x)}$;
 * $|E_g(X) - 1.34|$ is the distance of the predicted band gap from the ideal 1.34 eV value;
 * $P(x)$ is the confidence level of the AI-Experts;
 * $\Delta H_f(x)$ is the formation energy of the material;
