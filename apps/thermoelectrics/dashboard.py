@@ -12,9 +12,9 @@ import requests
 SITE = "Energy-GNoME"
 SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
 FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/favicon.png"
-TITLE = "Perovskite materials explorer"
-LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_perovskite.png"
-DATA_PATH = "./data/final/perovskites/{modeltype}/candidates.json"
+TITLE = "Thermoelectric materials explorer"
+LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
+DATA_PATH = "./data/final/thermoelectrics/{temperature}K/candidates.json"
 BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.bib"
 RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.ris"
 RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.rtf"
@@ -37,10 +37,10 @@ FONT = {
     "name": "Roboto",
     "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Roboto",
 }
-MODEL_TYPE = ["Pure Models", "Mixed Models"]
-MODEL_ACTIVE = ["Pure Models"]
-CATEGORY = "Model type"
-CATEGORY_ACTIVE = MODEL_ACTIVE
+TEMPERATURE = [300, 430, 560, 690, 820, 950]
+TEMPERATURE_ACTIVE = [300]
+CATEGORY = "Working Temperature (K)"
+CATEGORY_ACTIVE = TEMPERATURE_ACTIVE
 ANGSTROM_SYMBOL = "\u212B"
 CUBE_SYMBOL = "\u00B3"
 COLUMNS = [
@@ -51,11 +51,12 @@ COLUMNS = [
     "Formula",
     f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})",
     f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
-    "Model type",
-    "Average Band Gap (eV)",
-    "Average Band Gap (deviation) (eV)",
+    "Average zT (-)",
+    "Average zT (deviation) (-)",
     "AI-experts confidence (-)",
-    "AI-experts confidence (deviation) (-)",
+    # "AI-experts confidence (deviation) (-)",
+    "Working Temperature (K)",
+    "Notes",
     "Ranking",
     "File",
 ]
@@ -63,13 +64,13 @@ HOVER_COL = [
     ("Material Id", "@{Material Id}"),
     ("Formula", "@{Formula}"),
     ("Formation Energy (eV/atom)", "@{Formation Energy (eV/atom)}{0.2f}"),
-    ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
+    ("Average zT (-)", "@{Average zT (-)}{0.2f}"),
     ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
 ]
 COLUMNS_ACTIVE = [
     "Material Id",
     "Formula",
-    "Average Band Gap (eV)",
+    "Average zT (-)",
     "AI-experts confidence (-)",
     "Ranking",
     "File",
@@ -88,7 +89,7 @@ ABOUT_W = 600
 ABOUT_MSG = f"""
 # Usage
 
-This dashboard allows you to explore candidate perovskite materials from the GNoME database.
+This dashboard allows you to explore candidate thermoelectric materials from the GNoME database.
 
 On the left sidebar, you can dynamically filter the materials displayed on the scatter plot and in the table below. Use the sliders to set thresholds for various properties, which act as filters to narrow down the database to the most relevant materials for your needs.
 
@@ -104,8 +105,8 @@ If you find this dataset valuable, please consider citing the original work:
 
 """
 META = {
-    "description": "Explore advanced perovskite material analysis and Artificial Intelligence screening with interactive tools from the GNoME database.",
-    "keywords": "perovskite materials, GNoME database, material analysis, battery research, interactive dashboard, artificial intelligence",
+    "description": "Explore advanced thermoelectric material analysis and Artificial Intelligence screening with interactive tools from the GNoME database.",
+    "keywords": "thermoelectric materials, GNoME database, material analysis, battery research, interactive dashboard, artificial intelligence",
     "authors": "Paolo De Angelis, Giulio Barletta, Giovanni Trezza",
     "viewport": f"width={SIDEBAR_W + SIDEBAR_WIDGET_W + PLOT_SIZE[0] + ABOUT_W:d}px, initial-scale=1",
 }
@@ -187,9 +188,8 @@ def initialize_data() -> pd.DataFrame:
     """
 
     # Use a generator to load and process data lazily
-    def load_and_process(modeltype):
-        _modeltype = "_".join(modeltype.split()).lower()
-        path = DATA_PATH.format(modeltype=_modeltype)
+    def load_and_process(workingT):
+        path = DATA_PATH.format(temperature=workingT)
         df = pd.read_json(path)
         df = df.rename(
             columns={
@@ -197,18 +197,18 @@ def initialize_data() -> pd.DataFrame:
                 "Density (A^3/atom)": f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
             }
         )
-        df["Model type"] = modeltype
+        df["Working Temperature (K)"] = workingT
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
-        df["_folder_path"] = f"data/final/perovskite/{modeltype}/cif"
+        df["_folder_path"] = f"data/final/thermoelectrics/{workingT}K/cif"
         # Downcast float64 to float32 for memory efficiency
         float_cols = df.select_dtypes(include=["float64"]).columns
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
         return df
 
-    # Merge datasets for all models
+    # Merge datasets for all temperatures
     merged_df = pd.concat(
-        (load_and_process(modeltype) for modeltype in MODEL_TYPE),
+        (load_and_process(workingT) for workingT in TEMPERATURE),
         ignore_index=True,
     )
 
@@ -230,8 +230,8 @@ table = pn.widgets.Tabulator(
 global all_columns
 all_columns = df.columns.unique()
 
-global all_models
-all_models = MODEL_TYPE  # df[CATEGORY].unique()
+global all_temperatures
+all_temperatures = TEMPERATURE
 
 
 # Functions
@@ -365,7 +365,6 @@ def build_interactive_table(
     w_property4: pn.widgets.FloatSlider,
     w_property5: pn.widgets.FloatSlider,
     w_property6: pn.widgets.FloatSlider,
-    w_property7: pn.widgets.FloatSlider,
     # sliders
     # s_classifier_mean: pn.widgets.RangeSlider,
     columns: list,
@@ -387,13 +386,13 @@ def build_interactive_table(
     """
     # Calculate ranking based on weights and normalize
     ranking = (
-        w_property1 * min_max_norm(abs(df["Average Band Gap (eV)"] - 1.34))
+        w_property1 * min_max_norm(df["Average zT (-)"])
         + w_property2 * min_max_norm(df["AI-experts confidence (-)"])
         + w_property3 * min_max_norm(df["Formation Energy (eV/atom)"])
         + w_property4 * min_max_norm(df[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"])
         + w_property5 * min_max_norm(df[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"])
-        + w_property6 * min_max_norm(df["Average Band Gap (deviation) (eV)"])
-        + w_property7 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
+        + w_property6 * min_max_norm(df["Average zT (deviation) (-)"])
+        # + w_property7 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
     )
     # Add the ranking to the DataFrame and normalize
     df["Ranking"] = min_max_norm(ranking)
@@ -417,12 +416,12 @@ def build_interactive_table(
                 table.add_filter(pn.bind(apply_range_filter, column=column, value_range=slider))
     # Apply category filters for categories
     if categories:
-        hidden_models = set(all_models) - set(categories)
-        for model in hidden_models:
-            table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=model))
+        hidden_temps = set(all_temperatures) - set(categories)
+        for temp in hidden_temps:
+            table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=temp))
     # Add download section
     filename, button = table.download_menu(
-        text_kwargs={"name": "Enter filename", "value": "perovskite_candidates.csv"},
+        text_kwargs={"name": "Enter filename", "value": "thermoelectric_candidates.csv"},
         button_kwargs={"name": "Download table"},
     )
     return pn.Column(filename, button, table)
@@ -432,7 +431,7 @@ def build_interactive_table(
 #     tooltips=[
 #         ("Material Id", "@{Material Id}"),
 #         (f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", "@{Volume (A^3)}{0.2f}"),
-#         ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
+#         ("Average zT (-)", "@{Average zT (-)}{0.2f}"),
 #         ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
 #         # ("Property 3", "@{Property 3}{0.2f}"),
 #     ],
@@ -449,7 +448,7 @@ def build_interactive_plot(
     categories: list = None,
 ) -> hvplot:
     """
-    Builds an interactive scatter plot based on selected filters and model selection.
+    Builds an interactive scatter plot based on selected filters and working temperature selection.
 
     Args:
         s_property1-5 (pn.widgets.RangeSlider): Property filters.
@@ -462,7 +461,7 @@ def build_interactive_plot(
 
     # Apply filters based on sliders
     filters = [
-        ("Average Band Gap (eV)", s_property1),
+        ("Average zT (-)", s_property1),
         ("AI-experts confidence (-)", s_property2),
         ("Formation Energy (eV/atom)", s_property3),
         (f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", s_property4),
@@ -494,7 +493,7 @@ def build_interactive_plot(
     # Background scatter plot with all data
     back_scatter = df.hvplot.scatter(
         x="AI-experts confidence (-)",
-        y="Average Band Gap (eV)",
+        y="Average zT (-)",
         s=100,
         alpha=0.25,
         color="#444",
@@ -505,13 +504,13 @@ def build_interactive_plot(
         logx=False,
         logy=False,
         xlabel="AI-experts confidence (-)",
-        ylabel="Average Band Gap (eV)",
+        ylabel="Average zT (-)",
     )
 
     # Foreground scatter plot with filtered data
     front_scatter = plot_df.hvplot.scatter(
         x="AI-experts confidence (-)",
-        y="Average Band Gap (eV)",
+        y="Average zT (-)",
         s=100,
         # noqa:E501 hover_cols=['ID', 'Category 1', 'Property 1',
         # 'Property 2', 'Property 3', 'Property 4', 'File'],  hover_cols='all',
@@ -523,7 +522,7 @@ def build_interactive_plot(
         logx=False,
         logy=False,
         xlabel="AI-experts confidence (-)",
-        ylabel="Average Band Gap (eV)",
+        ylabel="Average zT (-)",
         cmap=PALETTE,
         # tools=[hover],
         hover_tooltips=HOVER_COL,
@@ -545,26 +544,26 @@ weights = {}
 weights_helper = {}
 # Property 1
 w_property1 = pn.widgets.FloatSlider(
-    name="Deviation from ideal Band Gap (eV)",
+    name="Average zT (-)",
     start=-10,
     end=10,
     step=0.5,
-    value=-1,
+    value=3,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property1_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the deviation from ideal Band Gap (eV) in the <b><i>ranking function</i></b>. This deviation is evaluated as the difference between the average predicted Band Gap (eV) and its ideal value (1.34 eV)."
+    value="Adjust the weight of the 'Average zT (-)' property in the <b><i>ranking function</i></b>. This deviation is evaluated as the difference between the average predicted zT (-) and its ideal value (1.34 eV)."
 )
-weights["Deviation from ideal Band Gap (eV)"] = w_property1
-weights_helper["Deviation from ideal Band Gap (eV)"] = w_property1_help
+weights["Average zT (-)"] = w_property1
+weights_helper["Average zT (-)"] = w_property1_help
 # Property 2
 w_property2 = pn.widgets.FloatSlider(
     name="AI-experts confidence (-)",
     start=-10,
     end=10,
     step=0.5,
-    value=4,
+    value=2,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
@@ -620,49 +619,49 @@ weights[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = w_property5
 weights_helper[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = w_property5_help
 # Property 6
 w_property6 = pn.widgets.FloatSlider(
-    name="Average Band Gap (deviation) (eV)",
+    name="Average zT (deviation) (-)",
     start=-10,
     end=10,
     step=0.5,
-    value=-2,
+    value=-1,
     sizing_mode="fixed",
     width=SIDEBAR_WIDGET_W,
 )
 w_property6_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'Average Band Gap (deviation) (eV)' property in the <b><i>ranking function</i></b>."
+    value="Adjust the weight of the 'Average zT (deviation) (-)' property in the <b><i>ranking function</i></b>."
 )
-weights["Average Band Gap (deviation) (eV)"] = w_property6
-weights_helper["Average Band Gap (deviation) (eV)"] = w_property6_help
+weights["Average zT (deviation) (-)"] = w_property6
+weights_helper["Average zT (deviation) (-)"] = w_property6_help
 # Property 7
-w_property7 = pn.widgets.FloatSlider(
-    name="AI-experts confidence (deviation) (-)",
-    start=-10,
-    end=10,
-    step=0.5,
-    value=-2,
-    sizing_mode="fixed",
-    width=SIDEBAR_WIDGET_W,
-)
-w_property7_help = pn.widgets.TooltipIcon(
-    value="Adjust the weight of the 'AI-experts confidence (deviation) (-)' property in the <b><i>ranking function</i></b>."
-)
-weights["AI-experts confidence (deviation) (-)"] = w_property7
-weights_helper["AI-experts confidence (deviation) (-)"] = w_property7_help
+# w_property7 = pn.widgets.FloatSlider(
+#     name="AI-experts confidence (deviation) (-)",
+#     start=-10,
+#     end=10,
+#     step=0.5,
+#     value=-2,
+#     sizing_mode="fixed",
+#     width=SIDEBAR_WIDGET_W,
+# )
+# w_property7_help = pn.widgets.TooltipIcon(
+#     value="Adjust the weight of the 'AI-experts confidence (deviation) (-)' property in the <b><i>ranking function</i></b>." # noqa: W505
+# )
+# weights["AI-experts confidence (deviation) (-)"] = w_property7
+# weights_helper["AI-experts confidence (deviation) (-)"] = w_property7_help
 
 # (2) Widget SIDEBAR : properties range
 sliders = {}
 sliders_helper = {}
 # Property 1
-s_property1 = create_range_slider("Average Band Gap (eV)", "Average Band Gap (eV)")
+s_property1 = create_range_slider("Average zT (-)", "Average zT (-)")
 s_property1_help = pn.widgets.TooltipIcon(
-    value="<b>Average Band Gap (eV)</b>: Average band gap predicted by the ensemble committee of four E3NN models."
+    value="<b>Average zT (-)</b>: Average zT predicted by the ensemble committee of four E3NN models."
 )
-sliders["Average Band Gap (eV)"] = s_property1
-sliders_helper["Average Band Gap (eV)"] = s_property1_help
+sliders["Average zT (-)"] = s_property1
+sliders_helper["Average zT (-)"] = s_property1_help
 # Property 2
 s_property2 = create_range_slider("AI-experts confidence (-)", "AI-experts confidence (-)")
 s_property2_help = pn.widgets.TooltipIcon(
-    value="<b>AI-experts confidence (-)</b>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a perovskite."
+    value="<b>AI-experts confidence (-)</b>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a thermoelectric."
 )
 sliders["AI-experts confidence (-)"] = s_property2
 sliders_helper["AI-experts confidence (-)"] = s_property2_help
@@ -693,14 +692,14 @@ s_property5_help = pn.widgets.TooltipIcon(
 sliders[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5
 sliders_helper[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5_help
 
-# (3) Widget SIDEBAR: Models selection
-select_models = pn.widgets.MultiChoice(
-    value=MODEL_ACTIVE,
-    options=MODEL_TYPE,
+# (3) Widget SIDEBAR: Temperature selection
+select_temps = pn.widgets.MultiChoice(
+    value=TEMPERATURE_ACTIVE,
+    options=TEMPERATURE,
     #  sizing_mode='stretch_width',
     width=SIDEBAR_WIDGET_W,
     sizing_mode="fixed",
-    description="Add or remove <i>perovskite</i> candidate datapoints with predictions from a specific <i>model</i>",
+    description="Add or remove <i>thermoelectric</i> candidate datapoints with predictions at a specific <i>working temperature</i>",
 )
 
 
@@ -723,11 +722,11 @@ downloadable_table = pn.bind(
     w_property4=w_property4,
     w_property5=w_property5,
     w_property6=w_property6,
-    w_property7=w_property7,
+    # w_property7=w_property7,
     # sliders
     # s_classifier_mean=s_classifier_mean,
     columns=select_properties,
-    categories=select_models,
+    categories=select_temps,
     sliders=sliders,
 )
 
@@ -739,7 +738,7 @@ plot = pn.bind(
     s_property3=s_property3,
     s_property4=s_property4,
     s_property5=s_property5,
-    categories=select_models,
+    categories=select_temps,
 )
 
 # Widget MAIN: Text
@@ -803,7 +802,7 @@ The control panel below has two tabs:
 
 controls_tabs = pn.Tabs(("Properties", sliders_col), ("Ranking", weights_col))
 
-box_select_models = pn.Column(
+box_select_temps = pn.Column(
     pn.Row(
         pn.pane.Markdown(
             """
@@ -817,11 +816,11 @@ ul {
     margin-block-end: 0.3em;
 }
 </style>
-## Regressor models
-Easily manage perovkite predictions associated with a specific regressor model."""
+## Working temperatures
+Easily manage thermoelectric predictions associated with a specific working temperature."""
         ),
     ),
-    select_models,
+    select_temps,
 )
 
 divider_sb = pn.layout.Divider(margin=(-5, 0, -5, 0))
@@ -840,7 +839,7 @@ pn.template.FastListTemplate(
     meta_viewport=META["viewport"],
     meta_keywords=META["keywords"],
     meta_description=META["description"],
-    sidebar=[box_select_models, divider_sb, controls_tabs_intro, controls_tabs],
+    sidebar=[box_select_temps, divider_sb, controls_tabs_intro, controls_tabs],
     main=[
         pn.Row(plot, about_box),
         pn.Column(select_properties, downloadable_table),
