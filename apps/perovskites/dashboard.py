@@ -670,7 +670,7 @@ sliders_helper["AI-experts confidence (-)"] = s_property2_help
 # Property 3
 s_property3 = create_range_slider("Formation Energy (eV/atom)", "Formation Energy (eV/atom)")
 s_property3_help = pn.widgets.TooltipIcon(
-    value="<b>Formation Energy per Atom (eV/atom) (-)</b> Measure of the average energy required to form the molecule from its constituent atoms."
+    value="<b>Formation Energy per Atom (eV/atom)</b>: Measure of the average energy required to form the molecule from its constituent atoms."
 )
 sliders["Formation Energy (eV/atom)"] = s_property3
 sliders_helper["Formation Energy (eV/atom)"] = s_property3_help
@@ -679,7 +679,7 @@ s_property4 = create_range_slider(
     f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"
 )
 s_property4_help = pn.widgets.TooltipIcon(
-    value=f"<b>Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})</b> Three-dimensional space occupied by the molecule."
+    value=f"<b>Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})</b>: Three-dimensional space occupied by the molecule."
 )
 sliders[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = s_property4
 sliders_helper[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = s_property4_help
@@ -689,7 +689,7 @@ s_property5 = create_range_slider(
     f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
 )
 s_property5_help = pn.widgets.TooltipIcon(
-    value=f"<b>Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)</b> Average space per atom within the molecule."
+    value=f"<b>Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)</b>: Average space per atom within the molecule."
 )
 sliders[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5
 sliders_helper[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5_help
