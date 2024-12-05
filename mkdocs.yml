@@ -15,7 +15,7 @@ extra_css:
 theme:
   name: material
   custom_dir: docs/overrides
-  logo: assets/img/logo.png
+  logo: assets/img/logo_alt.png
   favicon: assets/img/favicon.png
   font:
     text: Roboto
@@ -76,9 +76,12 @@ nav:
     - More Sections...: documentation/details.md
   - Applications:
     - Overview: apps/index.md
-    - Database 1: apps/database1.md
-    - Database 2: apps/database2.md
-    - Database 3: apps/database3.md
+    - Cathodes:
+        - User guide: apps/cathodes/userguide.md
+        - Dashboard: apps/cathodes/dashboard.html
+    - Perovskites:
+        - User guide: apps/perovskites/userguide.md
+        - Dashboard: apps/perovskites/dashboard.html
 
 extra:
   homepage: /

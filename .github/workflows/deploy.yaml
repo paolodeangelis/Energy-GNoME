@@ -48,7 +48,9 @@ jobs:
       - name: Build Panel Apps
         run: |
           panel convert apps/cathodes/dashboard.py --compiled --to pyodide-worker --out site/apps/cathodes/ --requirements apps/app-requirements.txt
-          panel convert apps/perovskite/dashboard.py --compiled --to pyodide-worker --out site/apps/perovskite/ --requirements apps/app-requirements.txt
+          panel convert apps/perovskites/dashboard.py --compiled --to pyodide-worker --out site/apps/perovskites/ --requirements apps/app-requirements.txt
+          panel convert apps/thermoelectrics/dashboard.py --compiled --to pyodide-worker --out site/apps/thermoelectrics/ --requirements apps/app-requirements.txt
+
       - name: List site contents  # Add this step to debug
         run: |
           ls -R site/
