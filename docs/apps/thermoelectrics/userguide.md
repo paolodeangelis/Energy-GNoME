@@ -111,4 +111,4 @@ If you find this dataset useful, please cite the original work to acknowledge th
 
 !!! quote ""
 
-    De Angelis,P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications." arXiv, November 15, 2024. DOI: [10.48550/arXiv.2411.10125.](https://arxiv.org/abs/2411.10125)
+    De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications." arXiv, November 15, 2024. DOI: [10.48550/arXiv.2411.10125.](https://arxiv.org/abs/2411.10125)
