@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ba6LuIn(Tc2O9)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94498400
+_cell_length_b   5.94498349
+_cell_length_c   14.40588400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001398
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6LuIn(Tc2O9)2
+_chemical_formula_sum   'Ba6 Lu1 In1 Tc4 O18'
+_cell_volume   440.93221164
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.333333  0.666667  0.593760  1
+  Ba  Ba1  1  0.666667  0.333333  0.091357  1
+  Ba  Ba2  1  0.666667  0.333333  0.406240  1
+  Ba  Ba3  1  0.333333  0.666667  0.908643  1
+  Ba  Ba4  1  0.000000  0.000000  0.752331  1
+  Ba  Ba5  1  0.000000  0.000000  0.247669  1
+  Lu  Lu6  1  0.000000  0.000000  0.500000  1
+  In  In7  1  0.000000  0.000000  0.000000  1
+  Tc  Tc8  1  0.333333  0.666667  0.337145  1
+  Tc  Tc9  1  0.666667  0.333333  0.836640  1
+  Tc  Tc10  1  0.666667  0.333333  0.662855  1
+  Tc  Tc11  1  0.333333  0.666667  0.163360  1
+  O  O12  1  0.172687  0.827313  0.086937  1
+  O  O13  1  0.172687  0.345374  0.086937  1
+  O  O14  1  0.654626  0.827313  0.086937  1
+  O  O15  1  0.348167  0.174083  0.586748  1
+  O  O16  1  0.827313  0.654626  0.913063  1
+  O  O17  1  0.825917  0.174083  0.586748  1
+  O  O18  1  0.825917  0.651833  0.586748  1
+  O  O19  1  0.174083  0.825917  0.413252  1
+  O  O20  1  0.651833  0.825917  0.413252  1
+  O  O21  1  0.345374  0.172687  0.913063  1
+  O  O22  1  0.827313  0.172687  0.913063  1
+  O  O23  1  0.174083  0.348167  0.413252  1
+  O  O24  1  0.491288  0.982576  0.249685  1
+  O  O25  1  0.508712  0.491288  0.750315  1
+  O  O26  1  0.982576  0.491288  0.750315  1
+  O  O27  1  0.017424  0.508712  0.249685  1
+  O  O28  1  0.491288  0.508712  0.249685  1
+  O  O29  1  0.508712  0.017424  0.750315  1

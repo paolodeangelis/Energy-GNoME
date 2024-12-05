@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Hg3Bi2(SeF4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.22242600
+_cell_length_b   8.22242567
+_cell_length_c   12.20982231
+_cell_angle_alpha   75.94428297
+_cell_angle_beta   75.94428334
+_cell_angle_gamma   50.05336475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hg3Bi2(SeF4)2
+_chemical_formula_sum   'Hg6 Bi4 Se4 F16'
+_cell_volume   609.69646591
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.500000  0.000000  0.000000  1
+  Hg  Hg1  1  0.000000  0.500000  0.500000  1
+  Hg  Hg2  1  0.261431  0.234513  0.744804  1
+  Hg  Hg3  1  0.765487  0.738569  0.755196  1
+  Hg  Hg4  1  0.738569  0.765487  0.255196  1
+  Hg  Hg5  1  0.234513  0.261431  0.244804  1
+  Bi  Bi6  1  0.199545  0.728979  0.935057  1
+  Bi  Bi7  1  0.271021  0.800455  0.564943  1
+  Bi  Bi8  1  0.800455  0.271021  0.064943  1
+  Bi  Bi9  1  0.728979  0.199545  0.435057  1
+  Se  Se10  1  0.606071  0.100238  0.800654  1
+  Se  Se11  1  0.899762  0.393929  0.699346  1
+  Se  Se12  1  0.393929  0.899762  0.199346  1
+  Se  Se13  1  0.100238  0.606071  0.300654  1
+  F  F14  1  0.405576  0.398033  0.031284  1
+  F  F15  1  0.601967  0.594424  0.468716  1
+  F  F16  1  0.594424  0.601967  0.968716  1
+  F  F17  1  0.398033  0.405576  0.531284  1
+  F  F18  1  0.161427  0.639688  0.787304  1
+  F  F19  1  0.360312  0.838573  0.712696  1
+  F  F20  1  0.838573  0.360312  0.212696  1
+  F  F21  1  0.639688  0.161427  0.287304  1
+  F  F22  1  0.944530  0.723706  0.020378  1
+  F  F23  1  0.276294  0.055470  0.479622  1
+  F  F24  1  0.055470  0.276294  0.979622  1
+  F  F25  1  0.723706  0.944530  0.520378  1
+  F  F26  1  0.092206  0.907239  0.094930  1
+  F  F27  1  0.092761  0.907794  0.405070  1
+  F  F28  1  0.907794  0.092761  0.905070  1
+  F  F29  1  0.907239  0.092206  0.594930  1

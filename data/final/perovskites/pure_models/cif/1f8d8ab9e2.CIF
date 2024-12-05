@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr3TaNbNiO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71051300
+_cell_length_b   5.71051297
+_cell_length_c   7.02643200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000598
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3TaNbNiO9
+_chemical_formula_sum   'Sr3 Ta1 Nb1 Ni1 O9'
+_cell_volume   198.43382309
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.333333  0.666667  0.001093  1
+  Sr  Sr1  1  0.666667  0.333333  0.663065  1
+  Sr  Sr2  1  0.000000  0.000000  0.335337  1
+  Ta  Ta3  1  0.666667  0.333333  0.178637  1
+  Nb  Nb4  1  0.000000  0.000000  0.819508  1
+  Ni  Ni5  1  0.333333  0.666667  0.498491  1
+  O  O6  1  0.995614  0.497807  0.327707  1
+  O  O7  1  0.502193  0.497807  0.327707  1
+  O  O8  1  0.502193  0.004386  0.327707  1
+  O  O9  1  0.669456  0.834727  0.672451  1
+  O  O10  1  0.165273  0.834727  0.672451  1
+  O  O11  1  0.165273  0.330544  0.672451  1
+  O  O12  1  0.832382  0.167618  0.001130  1
+  O  O13  1  0.832382  0.664764  0.001130  1
+  O  O14  1  0.335236  0.167618  0.001130  1

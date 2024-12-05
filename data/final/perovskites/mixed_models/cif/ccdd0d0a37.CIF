@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2CoTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.12422365
+_cell_length_b   6.14312411
+_cell_length_c   6.16238575
+_cell_angle_alpha   49.29462372
+_cell_angle_beta   49.66525082
+_cell_angle_gamma   49.48826722
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CoTeO6
+_chemical_formula_sum   'Na2 Co1 Te1 O6'
+_cell_volume   123.15366865
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.857734  0.860168  0.858836  1
+  Na  Na1  1  0.137308  0.137662  0.138888  1
+  Co  Co2  1  0.667552  0.656989  0.668547  1
+  Te  Te3  1  0.336607  0.336434  0.337195  1
+  O  O4  1  0.687144  0.054695  0.464305  1
+  O  O5  1  0.460390  0.689277  0.056046  1
+  O  O6  1  0.053413  0.463695  0.687882  1
+  O  O7  1  0.322690  0.931391  0.541647  1
+  O  O8  1  0.543990  0.323899  0.929182  1
+  O  O9  1  0.933171  0.545790  0.317472  1

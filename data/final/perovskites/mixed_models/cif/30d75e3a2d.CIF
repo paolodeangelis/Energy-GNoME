@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2CuH6Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83859722
+_cell_length_b   5.83859767
+_cell_length_c   6.14301076
+_cell_angle_alpha   117.58878021
+_cell_angle_beta   117.58879164
+_cell_angle_gamma   91.45905663
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2CuH6Au
+_chemical_formula_sum   'Rb2 Cu1 H6 Au1'
+_cell_volume   156.63342202
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.750000  0.750000  0.000000  1
+  Rb  Rb1  1  0.250000  0.250000  0.000000  1
+  Cu  Cu2  1  0.000000  0.500000  0.500000  1
+  H  H3  1  0.830629  0.330629  0.161258  1
+  H  H4  1  0.706261  0.206261  0.500000  1
+  H  H5  1  0.699898  0.800102  0.500000  1
+  H  H6  1  0.293739  0.793739  0.500000  1
+  H  H7  1  0.300102  0.199898  0.500000  1
+  H  H8  1  0.169371  0.669371  0.838742  1
+  Au  Au9  1  0.500000  0.000000  0.500000  1

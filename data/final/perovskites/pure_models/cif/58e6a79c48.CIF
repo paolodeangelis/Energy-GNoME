@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaBi(CO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44425946
+_cell_length_b   6.44426171
+_cell_length_c   6.44426122
+_cell_angle_alpha   45.92905489
+_cell_angle_beta   45.92904969
+_cell_angle_gamma   45.92905790
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBi(CO3)2
+_chemical_formula_sum   'Na1 Bi1 C2 O6'
+_cell_volume   125.98997047
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Bi  Bi1  1  0.500000  0.500000  0.500000  1
+  C  C2  1  0.247277  0.247277  0.247277  1
+  C  C3  1  0.752723  0.752723  0.752723  1
+  O  O4  1  0.995749  0.235137  0.511293  1
+  O  O5  1  0.488707  0.004251  0.764863  1
+  O  O6  1  0.764863  0.488707  0.004251  1
+  O  O7  1  0.235137  0.511293  0.995749  1
+  O  O8  1  0.511293  0.995749  0.235137  1
+  O  O9  1  0.004251  0.764863  0.488707  1

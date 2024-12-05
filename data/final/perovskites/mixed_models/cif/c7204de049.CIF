@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_SrCa3Nb2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.75471600
+_cell_length_b   5.75471592
+_cell_length_c   15.30766000
+_cell_angle_alpha   90.00001594
+_cell_angle_beta   90.00001744
+_cell_angle_gamma   120.00005332
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCa3Nb2O9
+_chemical_formula_sum   'Sr2 Ca6 Nb4 O18'
+_cell_volume   439.02271499
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.999999  0.999999  0.250055  1
+  Sr  Sr1  1  0.000001  0.000001  0.749945  1
+  Ca  Ca2  1  0.666665  0.333333  0.142212  1
+  Ca  Ca3  1  0.333334  0.666667  0.645721  1
+  Ca  Ca4  1  0.333335  0.666667  0.857788  1
+  Ca  Ca5  1  0.666666  0.333333  0.354279  1
+  Ca  Ca6  1  0.000000  0.000000  0.000000  1
+  Ca  Ca7  1  0.000000  0.000000  0.500000  1
+  Nb  Nb8  1  0.666667  0.333334  0.650531  1
+  Nb  Nb9  1  0.666668  0.333334  0.851633  1
+  Nb  Nb10  1  0.333333  0.666666  0.349469  1
+  Nb  Nb11  1  0.333332  0.666666  0.148367  1
+  O  O12  1  0.058101  0.343711  0.096844  1
+  O  O13  1  0.342538  0.284045  0.599144  1
+  O  O14  1  0.657462  0.715955  0.400856  1
+  O  O15  1  0.446048  0.026692  0.751115  1
+  O  O16  1  0.419355  0.446046  0.248885  1
+  O  O17  1  0.343712  0.285611  0.903156  1
+  O  O18  1  0.285609  0.941897  0.096844  1
+  O  O19  1  0.580645  0.553954  0.751115  1
+  O  O20  1  0.941899  0.656289  0.903156  1
+  O  O21  1  0.973306  0.419355  0.751115  1
+  O  O22  1  0.026694  0.580645  0.248885  1
+  O  O23  1  0.553952  0.973308  0.248885  1
+  O  O24  1  0.284044  0.941506  0.400856  1
+  O  O25  1  0.058492  0.342538  0.400856  1
+  O  O26  1  0.715956  0.058494  0.599144  1
+  O  O27  1  0.714391  0.058103  0.903156  1
+  O  O28  1  0.941508  0.657462  0.599144  1
+  O  O29  1  0.656288  0.714389  0.096844  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2TePbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23786837
+_cell_length_b   6.23786902
+_cell_length_c   6.23786769
+_cell_angle_alpha   52.89747659
+_cell_angle_beta   52.89746619
+_cell_angle_gamma   52.89748334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2TePbO6
+_chemical_formula_sum   'Na2 Te1 Pb1 O6'
+_cell_volume   143.04862403
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.861940  0.861940  0.861940  1
+  Na  Na1  1  0.136433  0.136433  0.136433  1
+  Te  Te2  1  0.339773  0.339773  0.339773  1
+  Pb  Pb3  1  0.656144  0.656144  0.656144  1
+  O  O4  1  0.676855  0.091299  0.449920  1
+  O  O5  1  0.449920  0.676855  0.091299  1
+  O  O6  1  0.091299  0.449920  0.676855  1
+  O  O7  1  0.277549  0.975071  0.535015  1
+  O  O8  1  0.535015  0.277549  0.975071  1
+  O  O9  1  0.975071  0.535015  0.277549  1

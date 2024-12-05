@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba4Sc(RuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.24712462
+_cell_length_b   10.24712457
+_cell_length_c   10.24712507
+_cell_angle_alpha   33.26945800
+_cell_angle_beta   33.26945851
+_cell_angle_gamma   33.26945592
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Sc(RuO4)3
+_chemical_formula_sum   'Ba4 Sc1 Ru3 O12'
+_cell_volume   288.28346321
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.712169  0.712169  0.712169  1
+  Ba  Ba1  1  0.287831  0.287831  0.287831  1
+  Ba  Ba2  1  0.872543  0.872543  0.872543  1
+  Ba  Ba3  1  0.127457  0.127457  0.127457  1
+  Sc  Sc4  1  0.000000  0.000000  0.000000  1
+  Ru  Ru5  1  0.411475  0.411475  0.411475  1
+  Ru  Ru6  1  0.500000  0.500000  0.500000  1
+  Ru  Ru7  1  0.588525  0.588525  0.588525  1
+  O  O8  1  0.212279  0.212279  0.699291  1
+  O  O9  1  0.699291  0.212279  0.212279  1
+  O  O10  1  0.212279  0.699291  0.212279  1
+  O  O11  1  0.787721  0.300709  0.787721  1
+  O  O12  1  0.787721  0.787721  0.300709  1
+  O  O13  1  0.300709  0.787721  0.787721  1
+  O  O14  1  0.387551  0.387551  0.855020  1
+  O  O15  1  0.855020  0.387551  0.387551  1
+  O  O16  1  0.144980  0.612449  0.612449  1
+  O  O17  1  0.612449  0.612449  0.144980  1
+  O  O18  1  0.612449  0.144980  0.612449  1
+  O  O19  1  0.387551  0.855020  0.387551  1

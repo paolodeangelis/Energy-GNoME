@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiDy(CoH3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77287912
+_cell_length_b   4.77287943
+_cell_length_c   4.77287961
+_cell_angle_alpha   59.87435170
+_cell_angle_beta   59.87434620
+_cell_angle_gamma   59.87435209
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiDy(CoH3)2
+_chemical_formula_sum   'Li1 Dy1 Co2 H6'
+_cell_volume   76.66310777
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.750000  0.750000  0.750000  1
+  Dy  Dy1  1  0.250000  0.250000  0.250000  1
+  Co  Co2  1  0.000486  0.000486  0.000486  1
+  Co  Co3  1  0.499514  0.499514  0.499514  1
+  H  H4  1  0.749999  0.257917  0.242084  1
+  H  H5  1  0.749726  0.750272  0.250001  1
+  H  H6  1  0.242082  0.750001  0.257917  1
+  H  H7  1  0.750274  0.249999  0.749726  1
+  H  H8  1  0.257916  0.242085  0.749999  1
+  H  H9  1  0.250001  0.749726  0.750273  1

@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Ba6Li2Nb2P2O17
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83781300
+_cell_length_b   5.83781621
+_cell_length_c   14.66925300
+_cell_angle_alpha   90.00007046
+_cell_angle_beta   89.99983946
+_cell_angle_gamma   120.00007139
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6Li2Nb2P2O17
+_chemical_formula_sum   'Ba6 Li2 Nb2 P2 O17'
+_cell_volume   432.95116770
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.999999  0.999994  0.999999  1
+  Ba  Ba1  1  0.666668  0.333331  0.176672  1
+  Ba  Ba2  1  0.333333  0.666668  0.338040  1
+  Ba  Ba3  1  0.000000  0.000003  0.500000  1
+  Ba  Ba4  1  0.666668  0.333337  0.661960  1
+  Ba  Ba5  1  0.333332  0.666667  0.823327  1
+  Li  Li6  1  0.000001  0.000000  0.278220  1
+  Li  Li7  1  0.000003  0.000002  0.721784  1
+  Nb  Nb8  1  0.666669  0.333338  0.411448  1
+  Nb  Nb9  1  0.333334  0.666669  0.588553  1
+  P  P10  1  0.333331  0.666665  0.107520  1
+  P  P11  1  0.666667  0.333337  0.892479  1
+  O  O12  1  0.666660  0.333331  0.997627  1
+  O  O13  1  0.188322  0.376636  0.145897  1
+  O  O14  1  0.188322  0.811673  0.145897  1
+  O  O15  1  0.623367  0.811680  0.145898  1
+  O  O16  1  0.827484  0.654969  0.338586  1
+  O  O17  1  0.827484  0.172517  0.338586  1
+  O  O18  1  0.345030  0.172516  0.338586  1
+  O  O19  1  0.500001  0.500003  0.500000  1
+  O  O20  1  0.000002  0.500003  0.500000  1
+  O  O21  1  0.500000  0.000001  0.500000  1
+  O  O22  1  0.172516  0.827486  0.661414  1
+  O  O23  1  0.654970  0.827488  0.661414  1
+  O  O24  1  0.172518  0.345037  0.661413  1
+  O  O25  1  0.811675  0.623352  0.854102  1
+  O  O26  1  0.376633  0.188315  0.854101  1
+  O  O27  1  0.811675  0.188319  0.854102  1
+  O  O28  1  0.333336  0.666666  0.002371  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SmNi4(AuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54255288
+_cell_length_b   6.54255284
+_cell_length_c   6.54255200
+_cell_angle_alpha   109.47122112
+_cell_angle_beta   109.47122099
+_cell_angle_gamma   109.47122040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmNi4(AuO4)3
+_chemical_formula_sum   'Sm1 Ni4 Au3 O12'
+_cell_volume   215.58561048
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.000000  0.000000  0.000000  1
+  Ni  Ni1  1  0.000000  0.000000  0.500000  1
+  Ni  Ni2  1  0.000000  0.500000  0.000000  1
+  Ni  Ni3  1  0.500000  0.000000  0.000000  1
+  Ni  Ni4  1  0.500000  0.500000  0.500000  1
+  Au  Au5  1  0.000000  0.500000  0.500000  1
+  Au  Au6  1  0.500000  0.000000  0.500000  1
+  Au  Au7  1  0.500000  0.500000  0.000000  1
+  O  O8  1  0.295744  0.122305  0.826560  1
+  O  O9  1  0.704256  0.877695  0.173440  1
+  O  O10  1  0.704256  0.530816  0.826560  1
+  O  O11  1  0.469184  0.173440  0.295744  1
+  O  O12  1  0.173440  0.295744  0.469184  1
+  O  O13  1  0.826560  0.295744  0.122305  1
+  O  O14  1  0.877695  0.173440  0.704256  1
+  O  O15  1  0.826560  0.704256  0.530816  1
+  O  O16  1  0.295744  0.469184  0.173440  1
+  O  O17  1  0.530816  0.826560  0.704256  1
+  O  O18  1  0.173440  0.704256  0.877695  1
+  O  O19  1  0.122305  0.826560  0.295744  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbCa(CO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.07537008
+_cell_length_b   7.07558725
+_cell_length_c   7.07547821
+_cell_angle_alpha   45.19288694
+_cell_angle_beta   45.19270604
+_cell_angle_gamma   45.19305431
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCa(CO3)2
+_chemical_formula_sum   'Rb1 Ca1 C2 O6'
+_cell_volume   162.35157472
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.500000  0.500000  0.500000  1
+  Ca  Ca1  1  0.000000  0.000000  0.000000  1
+  C  C2  1  0.260301  0.260341  0.260318  1
+  C  C3  1  0.739699  0.739659  0.739682  1
+  O  O4  1  0.153915  0.531054  0.093825  1
+  O  O5  1  0.531019  0.093846  0.153927  1
+  O  O6  1  0.906197  0.846043  0.468963  1
+  O  O7  1  0.093802  0.153957  0.531037  1
+  O  O8  1  0.468981  0.906154  0.846073  1
+  O  O9  1  0.846084  0.468946  0.906174  1

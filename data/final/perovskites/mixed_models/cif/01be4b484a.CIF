@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2AuICl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.14495706
+_cell_length_b   8.14495699
+_cell_length_c   8.14495722
+_cell_angle_alpha   120.88565296
+_cell_angle_beta   120.88564691
+_cell_angle_gamma   88.47273255
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2AuICl6
+_chemical_formula_sum   'Cs2 Au1 I1 Cl6'
+_cell_volume   376.81746758
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.750000  0.250000  0.500000  1
+  Cs  Cs1  1  0.250000  0.750000  0.500000  1
+  Au  Au2  1  0.000000  0.000000  0.000000  1
+  I  I3  1  0.500000  0.500000  0.000000  1
+  Cl  Cl4  1  0.281257  0.281257  0.000000  1
+  Cl  Cl5  1  0.793287  0.206713  0.000000  1
+  Cl  Cl6  1  0.206713  0.793287  0.000000  1
+  Cl  Cl7  1  0.793287  0.793287  0.586573  1
+  Cl  Cl8  1  0.718743  0.718743  0.000000  1
+  Cl  Cl9  1  0.206713  0.206713  0.413427  1

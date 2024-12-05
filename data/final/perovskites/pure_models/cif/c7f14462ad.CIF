@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2NaLuCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.54220618
+_cell_length_b   7.54244728
+_cell_length_c   7.54260500
+_cell_angle_alpha   59.99773358
+_cell_angle_beta   59.99569063
+_cell_angle_gamma   89.99523778
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2NaLuCl6
+_chemical_formula_sum   'Rb2 Na1 Lu1 Cl6'
+_cell_volume   303.38348161
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.249992  0.749995  0.500003  1
+  Rb  Rb1  1  0.749995  0.249989  0.500034  1
+  Na  Na2  1  0.500003  0.499999  0.999995  1
+  Lu  Lu3  1  0.999999  0.000014  0.999998  1
+  Cl  Cl4  1  0.241438  0.241439  0.999992  1
+  Cl  Cl5  1  0.758567  0.241445  0.999989  1
+  Cl  Cl6  1  0.241464  0.758573  0.999986  1
+  Cl  Cl7  1  0.758559  0.758560  0.000001  1
+  Cl  Cl8  1  0.758535  0.758532  0.482906  1
+  Cl  Cl9  1  0.241449  0.241455  0.517097  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Yb2CoNiH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.88212514
+_cell_length_b   4.88140918
+_cell_length_c   4.88213314
+_cell_angle_alpha   119.99524064
+_cell_angle_beta   90.02626456
+_cell_angle_gamma   119.99520955
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2CoNiH6
+_chemical_formula_sum   'Yb2 Co1 Ni1 H6'
+_cell_volume   82.26437824
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.750026  0.499999  0.249973  1
+  Yb  Yb1  1  0.249973  0.499999  0.750027  1
+  Co  Co2  1  0.000000  0.999999  0.000000  1
+  Ni  Ni3  1  0.500000  0.000000  0.500000  1
+  H  H4  1  0.243501  0.487011  0.243501  1
+  H  H5  1  0.756282  0.000000  0.243719  1
+  H  H6  1  0.243500  0.999991  0.243500  1
+  H  H7  1  0.756499  0.000008  0.756499  1
+  H  H8  1  0.756499  0.512988  0.756499  1
+  H  H9  1  0.243718  0.999999  0.756282  1

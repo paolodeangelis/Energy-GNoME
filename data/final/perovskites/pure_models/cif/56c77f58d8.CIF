@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_HoBi3(AuO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97795719
+_cell_length_b   5.64576900
+_cell_length_c   13.29380025
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   91.19096726
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoBi3(AuO3)4
+_chemical_formula_sum   'Ho1 Bi3 Au4 O12'
+_cell_volume   298.49600927
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.748203  0.750000  0.577881  1
+  Bi  Bi1  1  0.268488  0.750000  0.075185  1
+  Bi  Bi2  1  0.280458  0.250000  0.428547  1
+  Bi  Bi3  1  0.719895  0.250000  0.925313  1
+  Au  Au4  1  0.074389  0.750000  0.824849  1
+  Au  Au5  1  0.082666  0.250000  0.666640  1
+  Au  Au6  1  0.918594  0.250000  0.172152  1
+  Au  Au7  1  0.917085  0.750000  0.333910  1
+  O  O8  1  0.163795  0.499344  0.254114  1
+  O  O9  1  0.828028  0.988247  0.736658  1
+  O  O10  1  0.828028  0.511753  0.736658  1
+  O  O11  1  0.163795  0.000656  0.254114  1
+  O  O12  1  0.739454  0.489578  0.070688  1
+  O  O13  1  0.743915  0.509934  0.432504  1
+  O  O14  1  0.249514  0.989966  0.926829  1
+  O  O15  1  0.270407  0.996027  0.576967  1
+  O  O16  1  0.743915  0.990066  0.432504  1
+  O  O17  1  0.739454  0.010422  0.070688  1
+  O  O18  1  0.270407  0.503973  0.576967  1
+  O  O19  1  0.249514  0.510034  0.926829  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2ScPtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70339600
+_cell_length_b   5.73310179
+_cell_length_c   9.90608879
+_cell_angle_alpha   54.52880130
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2ScPtO6
+_chemical_formula_sum   'Sr4 Sc2 Pt2 O12'
+_cell_volume   263.79530690
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.481883  0.753417  0.250303  1
+  Sr  Sr1  1  0.518117  0.246583  0.749697  1
+  Sr  Sr2  1  0.981883  0.246583  0.249697  1
+  Sr  Sr3  1  0.018117  0.753417  0.750303  1
+  Sc  Sc4  1  0.000000  0.000000  0.000000  1
+  Sc  Sc5  1  0.500000  0.000000  0.500000  1
+  Pt  Pt6  1  0.000000  0.500000  0.500000  1
+  Pt  Pt7  1  0.500000  0.500000  0.000000  1
+  O  O8  1  0.720519  0.200506  0.030673  1
+  O  O9  1  0.279481  0.799494  0.969327  1
+  O  O10  1  0.220519  0.799494  0.469327  1
+  O  O11  1  0.779481  0.200506  0.530673  1
+  O  O12  1  0.008319  0.685757  0.255372  1
+  O  O13  1  0.991681  0.314243  0.744628  1
+  O  O14  1  0.508319  0.314243  0.244628  1
+  O  O15  1  0.491681  0.685757  0.755372  1
+  O  O16  1  0.230338  0.249605  0.030947  1
+  O  O17  1  0.769662  0.750395  0.969053  1
+  O  O18  1  0.730338  0.750395  0.469053  1
+  O  O19  1  0.269662  0.249605  0.530947  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BiMoClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49340714
+_cell_length_b   6.49340717
+_cell_length_c   7.20699208
+_cell_angle_alpha   104.19159810
+_cell_angle_beta   104.19160058
+_cell_angle_gamma   70.94973710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiMoClO4
+_chemical_formula_sum   'Bi2 Mo2 Cl2 O8'
+_cell_volume   273.91020642
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.784726  0.784726  0.360652  1
+  Bi  Bi1  1  0.215274  0.215274  0.639348  1
+  Mo  Mo2  1  0.361432  0.361432  0.229391  1
+  Mo  Mo3  1  0.638568  0.638568  0.770610  1
+  Cl  Cl4  1  0.008042  0.008042  0.265742  1
+  Cl  Cl5  1  0.991958  0.991958  0.734258  1
+  O  O6  1  0.706529  0.706529  0.030909  1
+  O  O7  1  0.536686  0.536686  0.292992  1
+  O  O8  1  0.493538  0.113078  0.334139  1
+  O  O9  1  0.113078  0.493538  0.334139  1
+  O  O10  1  0.886922  0.506462  0.665861  1
+  O  O11  1  0.506462  0.886922  0.665861  1
+  O  O12  1  0.463314  0.463314  0.707008  1
+  O  O13  1  0.293471  0.293471  0.969090  1

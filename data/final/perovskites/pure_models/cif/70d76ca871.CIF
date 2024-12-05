@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Cs4NaLiFe2F12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29150485
+_cell_length_b   6.29150380
+_cell_length_c   10.87219300
+_cell_angle_alpha   106.81840212
+_cell_angle_beta   73.18160078
+_cell_angle_gamma   119.99999923
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4NaLiFe2F12
+_chemical_formula_sum   'Cs4 Na1 Li1 Fe2 F12'
+_cell_volume   351.28164673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.287209  0.712792  0.138375  1
+  Cs  Cs1  1  0.867789  0.132210  0.396630  1
+  Cs  Cs2  1  0.132211  0.867790  0.603369  1
+  Cs  Cs3  1  0.712791  0.287209  0.861625  1
+  Na  Na4  1  0.000000  0.000000  0.000000  1
+  Li  Li5  1  0.500000  0.499999  0.499999  1
+  Fe  Fe6  1  0.587255  0.412745  0.238237  1
+  Fe  Fe7  1  0.412746  0.587254  0.761764  1
+  F  F8  1  0.772535  0.678553  0.133483  1
+  F  F9  1  0.321445  0.227464  0.133483  1
+  F  F10  1  0.772534  0.227464  0.133483  1
+  F  F11  1  0.406097  0.593901  0.363437  1
+  F  F12  1  0.824366  0.593901  0.363437  1
+  F  F13  1  0.406098  0.175634  0.363437  1
+  F  F14  1  0.593903  0.824367  0.636563  1
+  F  F15  1  0.175633  0.406097  0.636563  1
+  F  F16  1  0.593902  0.406097  0.636563  1
+  F  F17  1  0.227465  0.772535  0.866517  1
+  F  F18  1  0.678554  0.772535  0.866517  1
+  F  F19  1  0.227465  0.321444  0.866517  1

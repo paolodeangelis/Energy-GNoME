@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Yb2FeMoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54372500
+_cell_length_b   5.39346958
+_cell_length_c   9.38532882
+_cell_angle_alpha   55.65233193
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2FeMoO6
+_chemical_formula_sum   'Yb4 Fe2 Mo2 O12'
+_cell_volume   231.68847760
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.942507  0.267768  0.246058  1
+  Yb  Yb1  1  0.442507  0.732232  0.253942  1
+  Yb  Yb2  1  0.057493  0.732232  0.753942  1
+  Yb  Yb3  1  0.557493  0.267768  0.746058  1
+  Fe  Fe4  1  0.000000  0.500000  0.500000  1
+  Fe  Fe5  1  0.500000  0.500000  0.000000  1
+  Mo  Mo6  1  0.000000  0.000000  0.000000  1
+  Mo  Mo7  1  0.500000  0.000000  0.500000  1
+  O  O8  1  0.702208  0.354690  0.447790  1
+  O  O9  1  0.202208  0.645310  0.052210  1
+  O  O10  1  0.297792  0.645310  0.552210  1
+  O  O11  1  0.797792  0.354690  0.947790  1
+  O  O12  1  0.789329  0.758576  0.550908  1
+  O  O13  1  0.289329  0.241424  0.949092  1
+  O  O14  1  0.210671  0.241424  0.449092  1
+  O  O15  1  0.710671  0.758576  0.050908  1
+  O  O16  1  0.531342  0.153817  0.248053  1
+  O  O17  1  0.031342  0.846183  0.251947  1
+  O  O18  1  0.968658  0.153817  0.748053  1
+  O  O19  1  0.468658  0.846183  0.751947  1

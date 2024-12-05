@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_InAg10(PbO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.84895999
+_cell_length_b   8.84896101
+_cell_length_c   5.99630127
+_cell_angle_alpha   70.21304995
+_cell_angle_beta   70.21304783
+_cell_angle_gamma   71.96443999
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InAg10(PbO4)3
+_chemical_formula_sum   'In1 Ag10 Pb3 O12'
+_cell_volume   405.51836225
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.418013  0.581987  0.000000  1
+  Ag  Ag1  1  0.252143  0.250641  0.001307  1
+  Ag  Ag2  1  0.747827  0.749467  0.499481  1
+  Ag  Ag3  1  0.250533  0.252173  0.500519  1
+  Ag  Ag4  1  0.749359  0.747857  0.998693  1
+  Ag  Ag5  1  0.499307  0.998662  0.750832  1
+  Ag  Ag6  1  0.001338  0.500693  0.249168  1
+  Ag  Ag7  1  0.116126  0.612480  0.634112  1
+  Ag  Ag8  1  0.612882  0.117056  0.137481  1
+  Ag  Ag9  1  0.387520  0.883874  0.365888  1
+  Ag  Ag10  1  0.882944  0.387118  0.862519  1
+  Pb  Pb11  1  0.915441  0.084559  0.500000  1
+  Pb  Pb12  1  0.577650  0.422350  0.500000  1
+  Pb  Pb13  1  0.088954  0.911046  0.000000  1
+  O  O14  1  0.653319  0.534556  0.718955  1
+  O  O15  1  0.157533  0.034544  0.216106  1
+  O  O16  1  0.531742  0.657605  0.210947  1
+  O  O17  1  0.035116  0.155621  0.717605  1
+  O  O18  1  0.348361  0.840475  0.783328  1
+  O  O19  1  0.844138  0.347447  0.281908  1
+  O  O20  1  0.342395  0.468258  0.789053  1
+  O  O21  1  0.844379  0.964884  0.282395  1
+  O  O22  1  0.465444  0.346681  0.281045  1
+  O  O23  1  0.965456  0.842467  0.783894  1
+  O  O24  1  0.652553  0.155862  0.718092  1
+  O  O25  1  0.159525  0.651639  0.216672  1

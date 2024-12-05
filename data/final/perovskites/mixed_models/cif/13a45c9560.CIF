@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2TaMoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90366837
+_cell_length_b   5.90367664
+_cell_length_c   5.90367700
+_cell_angle_alpha   89.99996706
+_cell_angle_beta   120.00006368
+_cell_angle_gamma   120.00006354
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2TaMoO6
+_chemical_formula_sum   'Ba2 Ta1 Mo1 O6'
+_cell_volume   145.49611453
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.500001  0.750001  0.249999  1
+  Ba  Ba1  1  0.500000  0.250000  0.750000  1
+  Ta  Ta2  1  0.000000  0.500000  0.499999  1
+  Mo  Mo3  1  0.000000  0.000000  0.000000  1
+  O  O4  1  0.518358  0.259179  0.259178  1
+  O  O5  1  0.000000  0.740819  0.259178  1
+  O  O6  1  0.000000  0.259180  0.259179  1
+  O  O7  1  0.000000  0.740819  0.740819  1
+  O  O8  1  0.481636  0.740818  0.740818  1
+  O  O9  1  0.000000  0.259179  0.740820  1

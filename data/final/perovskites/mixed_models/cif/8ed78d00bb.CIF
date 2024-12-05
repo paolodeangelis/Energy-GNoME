@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TiAg2TeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.38787151
+_cell_length_b   6.38787095
+_cell_length_c   6.38787025
+_cell_angle_alpha   49.20074036
+_cell_angle_beta   49.20074607
+_cell_angle_gamma   49.20074963
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiAg2TeO6
+_chemical_formula_sum   'Ti1 Ag2 Te1 O6'
+_cell_volume   137.21148627
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.658500  0.658500  0.658500  1
+  Ag  Ag1  1  0.858504  0.858504  0.858504  1
+  Ag  Ag2  1  0.137245  0.137245  0.137245  1
+  Te  Te3  1  0.339146  0.339146  0.339146  1
+  O  O4  1  0.677039  0.062271  0.460997  1
+  O  O5  1  0.460997  0.677039  0.062271  1
+  O  O6  1  0.062271  0.460997  0.677039  1
+  O  O7  1  0.316115  0.947084  0.543100  1
+  O  O8  1  0.543100  0.316115  0.947084  1
+  O  O9  1  0.947084  0.543100  0.316115  1

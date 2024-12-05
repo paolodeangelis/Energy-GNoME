@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ca4Bi2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.82154100
+_cell_length_b   5.82154177
+_cell_length_c   15.35873000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000129
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca4Bi2O9
+_chemical_formula_sum   'Ca8 Bi4 O18'
+_cell_volume   450.77716767
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.333333  0.666667  0.022955  1
+  Ca  Ca1  1  0.333333  0.666667  0.307965  1
+  Ca  Ca2  1  0.333333  0.666667  0.807965  1
+  Ca  Ca3  1  0.333333  0.666667  0.522955  1
+  Ca  Ca4  1  0.666667  0.333333  0.192035  1
+  Ca  Ca5  1  0.666667  0.333333  0.692035  1
+  Ca  Ca6  1  0.666667  0.333333  0.477045  1
+  Ca  Ca7  1  0.666667  0.333333  0.977045  1
+  Bi  Bi8  1  0.000000  0.000000  0.145384  1
+  Bi  Bi9  1  0.000000  0.000000  0.354616  1
+  Bi  Bi10  1  0.000000  0.000000  0.645384  1
+  Bi  Bi11  1  0.000000  0.000000  0.854616  1
+  O  O12  1  0.000000  0.729363  0.750000  1
+  O  O13  1  0.038995  0.692398  0.412475  1
+  O  O14  1  0.307602  0.961005  0.912475  1
+  O  O15  1  0.038995  0.346597  0.912475  1
+  O  O16  1  0.000000  0.270637  0.250000  1
+  O  O17  1  0.270637  0.270637  0.750000  1
+  O  O18  1  0.307602  0.346597  0.412475  1
+  O  O19  1  0.653403  0.961005  0.412475  1
+  O  O20  1  0.346597  0.307602  0.087525  1
+  O  O21  1  0.270637  0.000000  0.250000  1
+  O  O22  1  0.653403  0.692398  0.912475  1
+  O  O23  1  0.346597  0.038995  0.587525  1
+  O  O24  1  0.692398  0.653403  0.587525  1
+  O  O25  1  0.729363  0.729363  0.250000  1
+  O  O26  1  0.961005  0.653403  0.087525  1
+  O  O27  1  0.692398  0.038995  0.087525  1
+  O  O28  1  0.729363  0.000000  0.750000  1
+  O  O29  1  0.961005  0.307602  0.587525  1

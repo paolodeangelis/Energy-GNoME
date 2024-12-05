@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba4Sc(IrO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.32654991
+_cell_length_b   10.32655006
+_cell_length_c   10.32655018
+_cell_angle_alpha   32.98841702
+_cell_angle_beta   32.98841682
+_cell_angle_gamma   32.98841258
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Sc(IrO4)3
+_chemical_formula_sum   'Ba4 Sc1 Ir3 O12'
+_cell_volume   290.50431538
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.710331  0.710331  0.710331  1
+  Ba  Ba1  1  0.289669  0.289669  0.289669  1
+  Ba  Ba2  1  0.875119  0.875119  0.875119  1
+  Ba  Ba3  1  0.124881  0.124881  0.124881  1
+  Sc  Sc4  1  0.000000  0.000000  0.000000  1
+  Ir  Ir5  1  0.412143  0.412143  0.412143  1
+  Ir  Ir6  1  0.500000  0.500000  0.500000  1
+  Ir  Ir7  1  0.587857  0.587857  0.587857  1
+  O  O8  1  0.211447  0.211447  0.699794  1
+  O  O9  1  0.699794  0.211447  0.211447  1
+  O  O10  1  0.211447  0.699794  0.211447  1
+  O  O11  1  0.788553  0.300206  0.788553  1
+  O  O12  1  0.788553  0.788553  0.300206  1
+  O  O13  1  0.300206  0.788553  0.788553  1
+  O  O14  1  0.386160  0.386160  0.857685  1
+  O  O15  1  0.857685  0.386160  0.386160  1
+  O  O16  1  0.142315  0.613840  0.613840  1
+  O  O17  1  0.613840  0.613840  0.142315  1
+  O  O18  1  0.613840  0.142315  0.613840  1
+  O  O19  1  0.386160  0.857685  0.386160  1

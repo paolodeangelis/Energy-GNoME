@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LaSm3(AuO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97263267
+_cell_length_b   5.68349400
+_cell_length_c   13.08453833
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.66890475
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaSm3(AuO3)4
+_chemical_formula_sum   'La1 Sm3 Au4 O12'
+_cell_volume   295.42345170
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.736386  0.750000  0.578853  1
+  Sm  Sm1  1  0.262156  0.750000  0.077996  1
+  Sm  Sm2  1  0.259723  0.250000  0.418949  1
+  Sm  Sm3  1  0.739958  0.250000  0.923499  1
+  Au  Au4  1  0.071544  0.750000  0.833063  1
+  Au  Au5  1  0.068472  0.250000  0.671163  1
+  Au  Au6  1  0.929778  0.250000  0.168717  1
+  Au  Au7  1  0.929349  0.750000  0.328267  1
+  O  O8  1  0.185012  0.499729  0.248373  1
+  O  O9  1  0.817636  0.004235  0.755170  1
+  O  O10  1  0.817636  0.495765  0.755170  1
+  O  O11  1  0.185012  0.000271  0.248373  1
+  O  O12  1  0.742687  0.499894  0.075725  1
+  O  O13  1  0.741781  0.497187  0.420246  1
+  O  O14  1  0.259238  0.999060  0.926023  1
+  O  O15  1  0.254963  0.007903  0.574210  1
+  O  O16  1  0.741781  0.002813  0.420246  1
+  O  O17  1  0.742687  0.000106  0.075725  1
+  O  O18  1  0.254963  0.492097  0.574210  1
+  O  O19  1  0.259238  0.500940  0.926023  1

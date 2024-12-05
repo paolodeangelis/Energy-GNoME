@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiPr2AuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.63972480
+_cell_length_b   5.63972455
+_cell_length_c   5.67511735
+_cell_angle_alpha   119.85104413
+_cell_angle_beta   119.85103895
+_cell_angle_gamma   58.51766716
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiPr2AuO6
+_chemical_formula_sum   'Li1 Pr2 Au1 O6'
+_cell_volume   126.42298832
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.500000  0.000000  1
+  Pr  Pr1  1  0.247863  0.247863  0.231406  1
+  Pr  Pr2  1  0.752137  0.752137  0.768593  1
+  Au  Au3  1  0.000000  0.000000  0.500001  1
+  O  O4  1  0.692808  0.191666  0.194764  1
+  O  O5  1  0.191666  0.692808  0.194764  1
+  O  O6  1  0.756485  0.756485  0.352275  1
+  O  O7  1  0.243514  0.243514  0.647725  1
+  O  O8  1  0.808333  0.307192  0.805235  1
+  O  O9  1  0.307192  0.808333  0.805235  1

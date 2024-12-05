@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaNd3(RhO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41009938
+_cell_length_b   5.85264558
+_cell_length_c   7.79039600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.91699219
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaNd3(RhO3)4
+_chemical_formula_sum   'Ca1 Nd3 Rh4 O12'
+_cell_volume   246.67012079
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.021900  0.930135  0.750000  1
+  Nd  Nd1  1  0.522973  0.574044  0.250000  1
+  Nd  Nd2  1  0.975973  0.073408  0.250000  1
+  Nd  Nd3  1  0.474515  0.425789  0.750000  1
+  Rh  Rh4  1  0.499459  0.999702  0.996353  1
+  Rh  Rh5  1  0.000905  0.502623  0.503461  1
+  Rh  Rh6  1  0.499459  0.999702  0.503647  1
+  Rh  Rh7  1  0.000905  0.502623  0.996539  1
+  O  O8  1  0.390274  0.965311  0.250000  1
+  O  O9  1  0.106714  0.462597  0.250000  1
+  O  O10  1  0.614098  0.039584  0.750000  1
+  O  O11  1  0.889693  0.547158  0.750000  1
+  O  O12  1  0.807872  0.799718  0.058177  1
+  O  O13  1  0.688208  0.303018  0.447102  1
+  O  O14  1  0.184918  0.194795  0.555354  1
+  O  O15  1  0.320568  0.691129  0.952076  1
+  O  O16  1  0.184918  0.194795  0.944646  1
+  O  O17  1  0.320568  0.691129  0.547924  1
+  O  O18  1  0.807872  0.799718  0.441823  1
+  O  O19  1  0.688208  0.303018  0.052898  1

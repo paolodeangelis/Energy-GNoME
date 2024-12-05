@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrCo2GeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98593453
+_cell_length_b   6.09194321
+_cell_length_c   8.56182300
+_cell_angle_alpha   89.99996238
+_cell_angle_beta   89.99998851
+_cell_angle_gamma   75.21552952
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCo2GeO6
+_chemical_formula_sum   'Sr2 Co4 Ge2 O12'
+_cell_volume   251.44725236
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.499999  0.168157  1
+  Sr  Sr1  1  0.500001  0.500000  0.668035  1
+  Co  Co2  1  0.500000  0.000000  0.833729  1
+  Co  Co3  1  0.500000  0.000000  0.499307  1
+  Co  Co4  1  0.000000  0.000000  0.333739  1
+  Co  Co5  1  0.000000  0.000000  0.999317  1
+  Ge  Ge6  1  0.000000  0.000000  0.666194  1
+  Ge  Ge7  1  0.500000  0.000000  0.166143  1
+  O  O8  1  0.780634  0.170389  0.166387  1
+  O  O9  1  0.280632  0.170392  0.666398  1
+  O  O10  1  0.219365  0.829611  0.166388  1
+  O  O11  1  0.719368  0.829608  0.666398  1
+  O  O12  1  0.278888  0.171331  0.001517  1
+  O  O13  1  0.778900  0.171326  0.501518  1
+  O  O14  1  0.279463  0.170986  0.331772  1
+  O  O15  1  0.779451  0.170996  0.831763  1
+  O  O16  1  0.720537  0.829014  0.331772  1
+  O  O17  1  0.220549  0.829005  0.831763  1
+  O  O18  1  0.721112  0.828668  0.001517  1
+  O  O19  1  0.221100  0.828675  0.501518  1

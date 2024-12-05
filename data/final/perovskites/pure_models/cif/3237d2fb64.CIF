@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Cs3NaI2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.56204600
+_cell_length_b   6.56204467
+_cell_length_c   15.19488800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000671
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3NaI2O9
+_chemical_formula_sum   'Cs6 Na2 I4 O18'
+_cell_volume   566.63912542
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.333333  0.666667  0.097263  1
+  Cs  Cs1  1  0.666667  0.333333  0.902737  1
+  Cs  Cs2  1  0.666667  0.333333  0.597263  1
+  Cs  Cs3  1  0.333333  0.666667  0.402737  1
+  Cs  Cs4  1  0.000000  0.000000  0.250000  1
+  Cs  Cs5  1  0.000000  0.000000  0.750000  1
+  Na  Na6  1  0.000000  0.000000  0.000000  1
+  Na  Na7  1  0.000000  0.000000  0.500000  1
+  I  I8  1  0.333333  0.666667  0.653070  1
+  I  I9  1  0.666667  0.333333  0.346930  1
+  I  I10  1  0.666667  0.333333  0.153070  1
+  I  I11  1  0.333333  0.666667  0.846930  1
+  O  O12  1  0.539344  0.078689  0.250000  1
+  O  O13  1  0.460656  0.921311  0.750000  1
+  O  O14  1  0.921311  0.460656  0.250000  1
+  O  O15  1  0.078689  0.539344  0.750000  1
+  O  O16  1  0.539344  0.460656  0.250000  1
+  O  O17  1  0.460656  0.539344  0.750000  1
+  O  O18  1  0.191731  0.383464  0.595069  1
+  O  O19  1  0.808269  0.616536  0.404931  1
+  O  O20  1  0.616536  0.808269  0.595069  1
+  O  O21  1  0.808269  0.616536  0.095069  1
+  O  O22  1  0.383464  0.191731  0.404931  1
+  O  O23  1  0.191731  0.383464  0.904931  1
+  O  O24  1  0.191731  0.808269  0.595069  1
+  O  O25  1  0.383464  0.191731  0.095069  1
+  O  O26  1  0.808269  0.191731  0.404931  1
+  O  O27  1  0.616536  0.808269  0.904931  1
+  O  O28  1  0.808269  0.191731  0.095069  1
+  O  O29  1  0.191731  0.808269  0.904931  1

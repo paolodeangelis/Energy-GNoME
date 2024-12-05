@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba4Ti(RuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.15804844
+_cell_length_b   10.15804856
+_cell_length_c   10.15804782
+_cell_angle_alpha   33.19087351
+_cell_angle_beta   33.19087399
+_cell_angle_gamma   33.19086870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Ti(RuO4)3
+_chemical_formula_sum   'Ba4 Ti1 Ru3 O12'
+_cell_volume   279.62139162
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.711242  0.711242  0.711242  1
+  Ba  Ba1  1  0.288758  0.288758  0.288758  1
+  Ba  Ba2  1  0.873753  0.873753  0.873753  1
+  Ba  Ba3  1  0.126247  0.126247  0.126247  1
+  Ti  Ti4  1  0.000000  0.000000  0.000000  1
+  Ru  Ru5  1  0.410856  0.410856  0.410856  1
+  Ru  Ru6  1  0.500000  0.500000  0.500000  1
+  Ru  Ru7  1  0.589144  0.589144  0.589144  1
+  O  O8  1  0.203380  0.203380  0.710829  1
+  O  O9  1  0.710829  0.203380  0.203380  1
+  O  O10  1  0.203380  0.710829  0.203380  1
+  O  O11  1  0.796620  0.289171  0.796620  1
+  O  O12  1  0.796620  0.796620  0.289171  1
+  O  O13  1  0.289171  0.796620  0.796620  1
+  O  O14  1  0.388296  0.388296  0.856954  1
+  O  O15  1  0.856954  0.388296  0.388296  1
+  O  O16  1  0.143046  0.611704  0.611704  1
+  O  O17  1  0.611704  0.611704  0.143046  1
+  O  O18  1  0.611704  0.143046  0.611704  1
+  O  O19  1  0.388296  0.856954  0.388296  1

@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ba2NiPtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83295600
+_cell_length_b   5.83302274
+_cell_length_c   14.34852700
+_cell_angle_alpha   90.00015844
+_cell_angle_beta   89.99930002
+_cell_angle_gamma   120.00102884
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2NiPtO6
+_chemical_formula_sum   'Ba6 Ni3 Pt3 O18'
+_cell_volume   422.78134702
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.333328  0.666659  0.089002  1
+  Ba  Ba1  1  0.999993  0.999996  0.248592  1
+  Ba  Ba2  1  0.333329  0.666665  0.406358  1
+  Ba  Ba3  1  0.666671  0.333339  0.593670  1
+  Ba  Ba4  1  0.000013  0.000009  0.751581  1
+  Ba  Ba5  1  0.666683  0.333336  0.910785  1
+  Ni  Ni6  1  0.999944  0.000000  0.000039  1
+  Ni  Ni7  1  0.666664  0.333336  0.346470  1
+  Ni  Ni8  1  0.333363  0.666658  0.653446  1
+  Pt  Pt9  1  0.666721  0.333351  0.158678  1
+  Pt  Pt10  1  0.000002  0.000000  0.499989  1
+  Pt  Pt11  1  0.333352  0.666656  0.841317  1
+  O  O12  1  0.339319  0.169657  0.081833  1
+  O  O13  1  0.830310  0.169669  0.081837  1
+  O  O14  1  0.830307  0.660632  0.081837  1
+  O  O15  1  0.973302  0.486651  0.246363  1
+  O  O16  1  0.513313  0.486668  0.246366  1
+  O  O17  1  0.513316  0.026652  0.246369  1
+  O  O18  1  0.320314  0.160155  0.420425  1
+  O  O19  1  0.839853  0.160153  0.420427  1
+  O  O20  1  0.839854  0.679700  0.420427  1
+  O  O21  1  0.160121  0.839885  0.579578  1
+  O  O22  1  0.160130  0.320250  0.579582  1
+  O  O23  1  0.679737  0.839867  0.579587  1
+  O  O24  1  0.486626  0.973246  0.753624  1
+  O  O25  1  0.486617  0.513399  0.753625  1
+  O  O26  1  0.026767  0.513390  0.753625  1
+  O  O27  1  0.169804  0.830213  0.918186  1
+  O  O28  1  0.169802  0.339586  0.918188  1
+  O  O29  1  0.660444  0.830221  0.918192  1

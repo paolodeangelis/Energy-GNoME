@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Al6Cd3PbO13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.63325114
+_cell_length_b   7.81103740
+_cell_length_c   7.63325156
+_cell_angle_alpha   109.94372036
+_cell_angle_beta   108.99461338
+_cell_angle_gamma   109.94372879
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al6Cd3PbO13
+_chemical_formula_sum   'Al6 Cd3 Pb1 O13'
+_cell_volume   348.28930216
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.250348  0.504221  0.746035  1
+  Al  Al1  1  0.746035  0.504221  0.250348  1
+  Al  Al2  1  0.253965  0.758186  0.504313  1
+  Al  Al3  1  0.749652  0.253874  0.495687  1
+  Al  Al4  1  0.495687  0.253874  0.749652  1
+  Al  Al5  1  0.504313  0.758186  0.253965  1
+  Cd  Cd6  1  0.302655  0.993108  0.000000  1
+  Cd  Cd7  1  0.697345  0.690453  0.697345  1
+  Cd  Cd8  1  0.000000  0.993108  0.302655  1
+  Pb  Pb9  1  0.000000  0.300524  0.000000  1
+  O  O10  1  0.000000  0.948833  0.000000  1
+  O  O11  1  0.000000  0.555703  0.270902  1
+  O  O12  1  0.452359  0.453723  0.721678  1
+  O  O13  1  0.000000  0.270838  0.541572  1
+  O  O14  1  0.269319  0.001364  0.547641  1
+  O  O15  1  0.729098  0.284801  0.729098  1
+  O  O16  1  0.278322  0.732045  0.730681  1
+  O  O17  1  0.730681  0.732045  0.278322  1
+  O  O18  1  0.541572  0.270838  0.000000  1
+  O  O19  1  0.270902  0.555703  0.000000  1
+  O  O20  1  0.458428  0.729265  0.458428  1
+  O  O21  1  0.547641  0.001364  0.269319  1
+  O  O22  1  0.721678  0.453723  0.452359  1

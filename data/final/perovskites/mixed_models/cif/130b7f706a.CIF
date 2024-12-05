@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LaHo(CuO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.91451700
+_cell_length_b   12.50499300
+_cell_length_c   5.39506500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaHo(CuO3)2
+_chemical_formula_sum   'La2 Ho2 Cu4 O12'
+_cell_volume   264.09386827
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.281141  0.416441  0.749999  1
+  La  La1  1  0.718859  0.916441  0.749999  1
+  Ho  Ho2  1  0.232148  0.083907  0.250000  1
+  Ho  Ho3  1  0.767852  0.583907  0.250000  1
+  Cu  Cu4  1  0.917780  0.324877  0.250000  1
+  Cu  Cu5  1  0.082220  0.824877  0.250000  1
+  Cu  Cu6  1  0.899171  0.172063  0.749999  1
+  Cu  Cu7  1  0.100829  0.672063  0.749999  1
+  O  O8  1  0.138792  0.243955  0.003668  1
+  O  O9  1  0.861208  0.743955  0.003668  1
+  O  O10  1  0.768591  0.422004  0.020319  1
+  O  O11  1  0.231409  0.922004  0.020319  1
+  O  O12  1  0.768591  0.422004  0.479682  1
+  O  O13  1  0.231409  0.922004  0.479682  1
+  O  O14  1  0.138792  0.243955  0.496333  1
+  O  O15  1  0.861208  0.743955  0.496333  1
+  O  O16  1  0.723069  0.085397  0.504733  1
+  O  O17  1  0.276931  0.585397  0.504733  1
+  O  O18  1  0.723069  0.085397  0.995268  1
+  O  O19  1  0.276931  0.585397  0.995268  1

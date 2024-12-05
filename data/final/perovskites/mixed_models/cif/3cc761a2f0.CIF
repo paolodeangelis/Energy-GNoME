@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2LuInBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.29969318
+_cell_length_b   8.29969262
+_cell_length_c   8.52539054
+_cell_angle_alpha   119.99725116
+_cell_angle_beta   119.99725170
+_cell_angle_gamma   59.74911574
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2LuInBr6
+_chemical_formula_sum   'Cs2 Lu1 In1 Br6'
+_cell_volume   414.48716493
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.248907  0.248907  0.243397  1
+  Cs  Cs1  1  0.751093  0.751093  0.756604  1
+  Lu  Lu2  1  0.500000  0.500000  0.000000  1
+  In  In3  1  0.000000  0.000000  0.499999  1
+  Br  Br4  1  0.693707  0.225843  0.184195  1
+  Br  Br5  1  0.225843  0.693707  0.184195  1
+  Br  Br6  1  0.727248  0.727248  0.300375  1
+  Br  Br7  1  0.272752  0.272752  0.699625  1
+  Br  Br8  1  0.774157  0.306294  0.815804  1
+  Br  Br9  1  0.306294  0.774157  0.815804  1

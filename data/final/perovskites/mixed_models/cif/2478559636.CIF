@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TePb2SeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.77586200
+_cell_length_b   4.52622133
+_cell_length_c   6.90999123
+_cell_angle_alpha   74.03704186
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TePb2SeO6
+_chemical_formula_sum   'Te1 Pb2 Se1 O6'
+_cell_volume   173.68093180
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.750000  0.096404  0.853305  1
+  Pb  Pb1  1  0.250000  0.636102  0.682673  1
+  Pb  Pb2  1  0.750000  0.358180  0.326385  1
+  Se  Se3  1  0.250000  0.906772  0.164807  1
+  O  O4  1  0.019405  0.805713  0.335267  1
+  O  O5  1  0.510227  0.212200  0.656731  1
+  O  O6  1  0.989773  0.212200  0.656731  1
+  O  O7  1  0.480595  0.805713  0.335267  1
+  O  O8  1  0.250000  0.298173  0.107554  1
+  O  O9  1  0.750000  0.668543  0.881282  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaGaCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.80145000
+_cell_length_b   6.54330175
+_cell_length_c   8.23864022
+_cell_angle_alpha   87.49634966
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaGaCl3
+_chemical_formula_sum   'Na4 Ga4 Cl12'
+_cell_volume   581.72775855
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500000  0.000000  0.500000  1
+  Na  Na1  1  0.500000  0.500000  0.000000  1
+  Na  Na2  1  0.000000  0.000000  0.500000  1
+  Na  Na3  1  0.000000  0.500000  0.000000  1
+  Ga  Ga4  1  0.250000  0.034472  0.959629  1
+  Ga  Ga5  1  0.750000  0.857101  0.761161  1
+  Ga  Ga6  1  0.750000  0.965528  0.040371  1
+  Ga  Ga7  1  0.250000  0.142899  0.238839  1
+  Cl  Cl8  1  0.584971  0.663877  0.692341  1
+  Cl  Cl9  1  0.415029  0.336123  0.307659  1
+  Cl  Cl10  1  0.915029  0.663877  0.692341  1
+  Cl  Cl11  1  0.750000  0.306497  0.073704  1
+  Cl  Cl12  1  0.083238  0.160706  0.818138  1
+  Cl  Cl13  1  0.583238  0.839294  0.181862  1
+  Cl  Cl14  1  0.916762  0.839294  0.181862  1
+  Cl  Cl15  1  0.416762  0.160706  0.818138  1
+  Cl  Cl16  1  0.084971  0.336123  0.307659  1
+  Cl  Cl17  1  0.750000  0.111996  0.565273  1
+  Cl  Cl18  1  0.250000  0.888004  0.434727  1
+  Cl  Cl19  1  0.250000  0.693503  0.926296  1

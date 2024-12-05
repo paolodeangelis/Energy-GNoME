@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_ErBi(AuO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92045800
+_cell_length_b   13.18948900
+_cell_length_c   5.61121000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErBi(AuO3)2
+_chemical_formula_sum   'Er2 Bi2 Au4 O12'
+_cell_volume   290.14914700
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.763530  0.420881  0.749999  1
+  Er  Er1  1  0.236471  0.920881  0.749999  1
+  Bi  Bi2  1  0.701773  0.069513  0.249999  1
+  Bi  Bi3  1  0.298228  0.569513  0.249999  1
+  Au  Au4  1  0.085447  0.331620  0.249999  1
+  Au  Au5  1  0.914554  0.831621  0.249999  1
+  Au  Au6  1  0.061889  0.170874  0.749999  1
+  Au  Au7  1  0.938112  0.670874  0.749999  1
+  O  O8  1  0.820855  0.261935  0.987695  1
+  O  O9  1  0.179147  0.761935  0.987695  1
+  O  O10  1  0.231297  0.067787  0.988618  1
+  O  O11  1  0.768705  0.567787  0.988618  1
+  O  O12  1  0.231297  0.067787  0.511382  1
+  O  O13  1  0.768705  0.567787  0.511382  1
+  O  O14  1  0.820855  0.261935  0.512305  1
+  O  O15  1  0.179147  0.761935  0.512305  1
+  O  O16  1  0.284703  0.423836  0.502023  1
+  O  O17  1  0.715299  0.923836  0.502023  1
+  O  O18  1  0.284703  0.423836  0.997976  1
+  O  O19  1  0.715299  0.923836  0.997976  1

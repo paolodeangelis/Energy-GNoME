@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_K17Rb(GaBi4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.84150774
+_cell_length_b   10.86143661
+_cell_length_c   11.41230797
+_cell_angle_alpha   90.04184581
+_cell_angle_beta   90.01362171
+_cell_angle_gamma   119.89950032
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K17Rb(GaBi4)2
+_chemical_formula_sum   'K17 Rb1 Ga2 Bi8'
+_cell_volume   1164.98348921
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.792612  0.207581  0.040836  1
+  K  K1  1  0.414895  0.207543  0.040996  1
+  K  K2  1  0.586483  0.793514  0.540991  1
+  K  K3  1  0.207059  0.793504  0.540931  1
+  K  K4  1  0.792811  0.585618  0.458793  1
+  K  K5  1  0.791277  0.206865  0.458833  1
+  K  K6  1  0.792726  0.585417  0.040623  1
+  K  K7  1  0.415497  0.206860  0.458792  1
+  K  K8  1  0.585341  0.792443  0.958995  1
+  K  K9  1  0.207299  0.414584  0.959717  1
+  K  K10  1  0.207183  0.792424  0.959148  1
+  K  K11  1  0.117641  0.235423  0.249164  1
+  K  K12  1  0.881249  0.117285  0.750400  1
+  K  K13  1  0.236121  0.117304  0.750393  1
+  K  K14  1  0.763994  0.881847  0.249833  1
+  K  K15  1  0.117725  0.881811  0.249845  1
+  K  K16  1  0.882038  0.763946  0.750242  1
+  Rb  Rb17  1  0.209263  0.418537  0.541154  1
+  Ga  Ga18  1  0.333853  0.667447  0.248716  1
+  Ga  Ga19  1  0.666005  0.332289  0.751443  1
+  Bi  Bi20  1  0.482375  0.517882  0.248676  1
+  Bi  Bi21  1  0.963665  0.482419  0.751452  1
+  Bi  Bi22  1  0.517531  0.035146  0.749961  1
+  Bi  Bi23  1  0.482310  0.964516  0.250099  1
+  Bi  Bi24  1  0.035258  0.517692  0.248696  1
+  Bi  Bi25  1  0.518853  0.482234  0.751501  1
+  Bi  Bi26  1  0.000206  0.000412  0.999917  1
+  Bi  Bi27  1  0.998728  0.997460  0.499851  1

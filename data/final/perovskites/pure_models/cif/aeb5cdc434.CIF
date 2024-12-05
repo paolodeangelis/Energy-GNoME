@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_InNi2BiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41858938
+_cell_length_b   5.41850277
+_cell_length_c   5.78536800
+_cell_angle_alpha   62.06168181
+_cell_angle_beta   62.05260399
+_cell_angle_gamma   59.99857358
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InNi2BiO6
+_chemical_formula_sum   'In1 Ni2 Bi1 O6'
+_cell_volume   123.70938115
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.793322  0.793368  0.619800  1
+  Ni  Ni1  1  0.002832  0.002870  0.991494  1
+  Ni  Ni2  1  0.504564  0.504648  0.486287  1
+  Bi  Bi3  1  0.299967  0.299878  0.100141  1
+  O  O4  1  0.211251  0.892462  0.286876  1
+  O  O5  1  0.892498  0.609402  0.286835  1
+  O  O6  1  0.609407  0.211344  0.286747  1
+  O  O7  1  0.709997  0.115980  0.790338  1
+  O  O8  1  0.116053  0.383694  0.790402  1
+  O  O9  1  0.383680  0.709926  0.790371  1

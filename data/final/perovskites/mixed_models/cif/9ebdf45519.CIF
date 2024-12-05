@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K5Bi2Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11377900
+_cell_length_b   6.11410877
+_cell_length_c   21.22357500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99821041
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K5Bi2Au
+_chemical_formula_sum   'K10 Bi4 Au2'
+_cell_volume   687.06828179
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.666661  0.333323  0.050285  1
+  K  K1  1  0.999987  0.999972  0.147449  1
+  K  K2  1  0.666680  0.333360  0.250000  1
+  K  K3  1  0.999987  0.999972  0.352551  1
+  K  K4  1  0.666661  0.333323  0.449714  1
+  K  K5  1  0.333339  0.666676  0.550286  1
+  K  K6  1  0.000013  0.000027  0.647449  1
+  K  K7  1  0.333319  0.666639  0.750000  1
+  K  K8  1  0.000013  0.000027  0.852551  1
+  K  K9  1  0.333339  0.666676  0.949714  1
+  Bi  Bi10  1  0.333317  0.666633  0.119564  1
+  Bi  Bi11  1  0.333317  0.666633  0.380436  1
+  Bi  Bi12  1  0.666683  0.333366  0.619564  1
+  Bi  Bi13  1  0.666683  0.333366  0.880436  1
+  Au  Au14  1  0.333336  0.666671  0.250000  1
+  Au  Au15  1  0.666664  0.333328  0.750000  1

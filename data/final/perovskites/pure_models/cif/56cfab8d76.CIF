@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaPb4ClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.57015500
+_cell_length_b   8.57015500
+_cell_length_c   6.47473300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaPb4ClO4
+_chemical_formula_sum   'Na2 Pb8 Cl2 O8'
+_cell_volume   475.55331929
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500000  0.000000  0.934691  1
+  Na  Na1  1  0.000000  0.500000  0.065309  1
+  Pb  Pb2  1  0.199452  0.139337  0.222663  1
+  Pb  Pb3  1  0.360663  0.699452  0.222663  1
+  Pb  Pb4  1  0.639337  0.300548  0.222663  1
+  Pb  Pb5  1  0.300548  0.360663  0.777337  1
+  Pb  Pb6  1  0.139337  0.800548  0.777337  1
+  Pb  Pb7  1  0.860663  0.199452  0.777337  1
+  Pb  Pb8  1  0.800548  0.860663  0.222663  1
+  Pb  Pb9  1  0.699452  0.639337  0.777337  1
+  Cl  Cl10  1  0.000000  0.500000  0.492418  1
+  Cl  Cl11  1  0.500000  0.000000  0.507582  1
+  O  O12  1  0.748231  0.089630  0.065187  1
+  O  O13  1  0.410370  0.248231  0.065187  1
+  O  O14  1  0.251769  0.910370  0.065187  1
+  O  O15  1  0.589630  0.751769  0.065187  1
+  O  O16  1  0.910370  0.748231  0.934813  1
+  O  O17  1  0.248231  0.589630  0.934813  1
+  O  O18  1  0.089630  0.251769  0.934813  1
+  O  O19  1  0.751769  0.410370  0.934813  1

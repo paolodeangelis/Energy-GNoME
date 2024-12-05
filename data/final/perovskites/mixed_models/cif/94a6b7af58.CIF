@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2TbIO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89918829
+_cell_length_b   5.89918899
+_cell_length_c   5.89918800
+_cell_angle_alpha   60.00000552
+_cell_angle_beta   60.00000160
+_cell_angle_gamma   60.00000499
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2TbIO6
+_chemical_formula_sum   'K2 Tb1 I1 O6'
+_cell_volume   145.16497580
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.250000  0.250000  0.250000  1
+  K  K1  1  0.750000  0.750000  0.750000  1
+  Tb  Tb2  1  0.000000  0.000000  0.000000  1
+  I  I3  1  0.500001  0.500001  0.500001  1
+  O  O4  1  0.728610  0.271391  0.271391  1
+  O  O5  1  0.271391  0.728610  0.271391  1
+  O  O6  1  0.728609  0.728609  0.271393  1
+  O  O7  1  0.271391  0.271391  0.728610  1
+  O  O8  1  0.728609  0.271393  0.728609  1
+  O  O9  1  0.271393  0.728609  0.728609  1

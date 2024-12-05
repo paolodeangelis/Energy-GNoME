@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Rb2Ti(SeO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09865900
+_cell_length_b   8.09907301
+_cell_length_c   10.00021000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99500484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2Ti(SeO3)3
+_chemical_formula_sum   'Rb4 Ti2 Se6 O18'
+_cell_volume   568.08070259
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.333357  0.666677  0.059374  1
+  Rb  Rb1  1  0.333357  0.666677  0.440626  1
+  Rb  Rb2  1  0.666627  0.333313  0.559203  1
+  Rb  Rb3  1  0.666627  0.333313  0.940798  1
+  Ti  Ti4  1  0.000030  0.000018  0.999810  1
+  Ti  Ti5  1  0.000030  0.000018  0.500190  1
+  Se  Se6  1  0.768034  0.072830  0.250000  1
+  Se  Se7  1  0.304819  0.231954  0.250000  1
+  Se  Se8  1  0.927219  0.695266  0.250000  1
+  Se  Se9  1  0.072866  0.305041  0.750001  1
+  Se  Se10  1  0.694912  0.767863  0.750001  1
+  Se  Se11  1  0.232176  0.927068  0.750001  1
+  O  O12  1  0.161393  0.225635  0.113046  1
+  O  O13  1  0.774360  0.935811  0.113053  1
+  O  O14  1  0.064222  0.838577  0.113063  1
+  O  O15  1  0.536661  0.009243  0.250000  1
+  O  O16  1  0.990764  0.527465  0.250000  1
+  O  O17  1  0.472557  0.463330  0.250000  1
+  O  O18  1  0.064222  0.838577  0.386937  1
+  O  O19  1  0.774360  0.935811  0.386947  1
+  O  O20  1  0.161393  0.225635  0.386953  1
+  O  O21  1  0.935694  0.161125  0.613454  1
+  O  O22  1  0.838872  0.774582  0.613449  1
+  O  O23  1  0.225460  0.064271  0.613441  1
+  O  O24  1  0.527309  0.536604  0.750001  1
+  O  O25  1  0.009186  0.472636  0.750001  1
+  O  O26  1  0.463458  0.990682  0.750001  1
+  O  O27  1  0.935694  0.161125  0.886545  1
+  O  O28  1  0.838872  0.774582  0.886551  1
+  O  O29  1  0.225460  0.064271  0.886559  1

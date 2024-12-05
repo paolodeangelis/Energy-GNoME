@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_PrNdGaBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.51207966
+_cell_length_b   7.51207907
+_cell_length_c   5.63386481
+_cell_angle_alpha   90.90831462
+_cell_angle_beta   90.90831389
+_cell_angle_gamma   102.05156689
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrNdGaBiO6
+_chemical_formula_sum   'Pr2 Nd2 Ga2 Bi2 O12'
+_cell_volume   310.82067722
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.707754  0.916352  0.472906  1
+  Pr  Pr1  1  0.916352  0.707754  0.972906  1
+  Nd  Nd2  1  0.609884  0.401568  0.435248  1
+  Nd  Nd3  1  0.401568  0.609884  0.935248  1
+  Ga  Ga4  1  0.805625  0.192250  0.004167  1
+  Ga  Ga5  1  0.192250  0.805625  0.504167  1
+  Bi  Bi6  1  0.095181  0.313340  0.466802  1
+  Bi  Bi7  1  0.313340  0.095181  0.966802  1
+  O  O8  1  0.323903  0.369317  0.215555  1
+  O  O9  1  0.369317  0.323903  0.715555  1
+  O  O10  1  0.577620  0.121243  0.163312  1
+  O  O11  1  0.121243  0.577620  0.663312  1
+  O  O12  1  0.921508  0.017984  0.131134  1
+  O  O13  1  0.779030  0.221680  0.681243  1
+  O  O14  1  0.017984  0.921508  0.631134  1
+  O  O15  1  0.221680  0.779030  0.181243  1
+  O  O16  1  0.898941  0.409992  0.183780  1
+  O  O17  1  0.409992  0.898941  0.683780  1
+  O  O18  1  0.649599  0.667226  0.204653  1
+  O  O19  1  0.667226  0.649599  0.704653  1

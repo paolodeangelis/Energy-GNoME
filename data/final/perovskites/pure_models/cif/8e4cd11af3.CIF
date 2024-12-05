@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Cs3LiMgCoH9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02003135
+_cell_length_b   8.02003218
+_cell_length_c   8.02003124
+_cell_angle_alpha   46.18763677
+_cell_angle_beta   46.18763430
+_cell_angle_gamma   46.18765715
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3LiMgCoH9
+_chemical_formula_sum   'Cs3 Li1 Mg1 Co1 H9'
+_cell_volume   245.11221190
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.996298  0.996298  0.996298  1
+  Cs  Cs1  1  0.784845  0.784845  0.784845  1
+  Cs  Cs2  1  0.214275  0.214275  0.214275  1
+  Li  Li3  1  0.615827  0.615827  0.615827  1
+  Mg  Mg4  1  0.381527  0.381527  0.381527  1
+  Co  Co5  1  0.499010  0.499010  0.499010  1
+  H  H6  1  0.022640  0.493341  0.493341  1
+  H  H7  1  0.493341  0.022640  0.493341  1
+  H  H8  1  0.493341  0.493341  0.022640  1
+  H  H9  1  0.696220  0.338458  0.338458  1
+  H  H10  1  0.338458  0.696220  0.338458  1
+  H  H11  1  0.338458  0.338458  0.696220  1
+  H  H12  1  0.656820  0.656820  0.312118  1
+  H  H13  1  0.656820  0.312118  0.656820  1
+  H  H14  1  0.312118  0.656820  0.656820  1

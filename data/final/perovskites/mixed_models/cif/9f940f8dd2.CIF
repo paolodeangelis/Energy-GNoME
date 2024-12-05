@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrAl(CoO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.92872029
+_cell_length_b   6.08728697
+_cell_length_c   8.47612200
+_cell_angle_alpha   89.99996235
+_cell_angle_beta   89.99998838
+_cell_angle_gamma   74.62595005
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrAl(CoO3)2
+_chemical_formula_sum   'Sr2 Al2 Co4 O12'
+_cell_volume   245.20498320
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.499999  0.170783  1
+  Sr  Sr1  1  0.500001  0.500000  0.670537  1
+  Al  Al2  1  0.000000  0.000000  0.666238  1
+  Al  Al3  1  0.500000  0.000000  0.166183  1
+  Co  Co4  1  0.500000  0.000000  0.833724  1
+  Co  Co5  1  0.500000  0.000000  0.498691  1
+  Co  Co6  1  0.000000  0.000000  0.333676  1
+  Co  Co7  1  0.000000  0.000000  0.998638  1
+  O  O8  1  0.778653  0.169539  0.164070  1
+  O  O9  1  0.278654  0.169546  0.663995  1
+  O  O10  1  0.221346  0.830461  0.164071  1
+  O  O11  1  0.721346  0.830454  0.663995  1
+  O  O12  1  0.272756  0.170132  0.001761  1
+  O  O13  1  0.772767  0.170136  0.501718  1
+  O  O14  1  0.279425  0.169423  0.332954  1
+  O  O15  1  0.779419  0.169413  0.832933  1
+  O  O16  1  0.720575  0.830577  0.332954  1
+  O  O17  1  0.220581  0.830588  0.832933  1
+  O  O18  1  0.727244  0.829867  0.001761  1
+  O  O19  1  0.227233  0.829865  0.501718  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CaPb2(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.98098800
+_cell_length_b   10.43034800
+_cell_length_c   12.15045000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaPb2(BrO)2
+_chemical_formula_sum   'Ca4 Pb8 Br8 O8'
+_cell_volume   757.99107532
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.250000  0.050091  0.069699  1
+  Ca  Ca1  1  0.750000  0.949909  0.930301  1
+  Ca  Ca2  1  0.750000  0.550091  0.430301  1
+  Ca  Ca3  1  0.250000  0.449909  0.569699  1
+  Pb  Pb4  1  0.250000  0.361722  0.291193  1
+  Pb  Pb5  1  0.750000  0.638278  0.708807  1
+  Pb  Pb6  1  0.750000  0.861722  0.208807  1
+  Pb  Pb7  1  0.250000  0.138278  0.791193  1
+  Pb  Pb8  1  0.250000  0.781183  0.557964  1
+  Pb  Pb9  1  0.750000  0.218817  0.442036  1
+  Pb  Pb10  1  0.750000  0.281183  0.942036  1
+  Pb  Pb11  1  0.250000  0.718817  0.057964  1
+  Br  Br12  1  0.250000  0.070004  0.329983  1
+  Br  Br13  1  0.750000  0.929996  0.670017  1
+  Br  Br14  1  0.750000  0.570004  0.170017  1
+  Br  Br15  1  0.250000  0.429996  0.829983  1
+  Br  Br16  1  0.250000  0.813703  0.820236  1
+  Br  Br17  1  0.750000  0.186297  0.179764  1
+  Br  Br18  1  0.750000  0.313703  0.679764  1
+  Br  Br19  1  0.250000  0.686297  0.320236  1
+  O  O20  1  0.001977  0.380955  0.428271  1
+  O  O21  1  0.501977  0.619045  0.571729  1
+  O  O22  1  0.998023  0.880955  0.071729  1
+  O  O23  1  0.498023  0.119045  0.928271  1
+  O  O24  1  0.998023  0.619045  0.571729  1
+  O  O25  1  0.498023  0.380955  0.428271  1
+  O  O26  1  0.001977  0.119045  0.928271  1
+  O  O27  1  0.501977  0.880955  0.071729  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_YbTe(PbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.84406900
+_cell_length_b   5.96866799
+_cell_length_c   8.33318971
+_cell_angle_alpha   91.00996832
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbTe(PbO3)2
+_chemical_formula_sum   'Yb2 Te2 Pb4 O12'
+_cell_volume   290.62739551
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.500000  0.500000  0.500000  1
+  Yb  Yb1  1  0.000000  0.000000  0.000000  1
+  Te  Te2  1  0.500000  0.500000  0.000000  1
+  Te  Te3  1  0.000000  0.000000  0.500000  1
+  Pb  Pb4  1  0.986807  0.486714  0.756265  1
+  Pb  Pb5  1  0.513193  0.986714  0.256265  1
+  Pb  Pb6  1  0.013193  0.513286  0.243735  1
+  Pb  Pb7  1  0.486807  0.013286  0.743735  1
+  O  O8  1  0.513322  0.568646  0.771767  1
+  O  O9  1  0.986678  0.068646  0.271767  1
+  O  O10  1  0.486678  0.431354  0.228233  1
+  O  O11  1  0.013322  0.931354  0.728233  1
+  O  O12  1  0.217813  0.757080  0.452600  1
+  O  O13  1  0.282187  0.257080  0.952600  1
+  O  O14  1  0.782187  0.242920  0.547400  1
+  O  O15  1  0.717813  0.742920  0.047400  1
+  O  O16  1  0.744502  0.792105  0.465580  1
+  O  O17  1  0.755498  0.292105  0.965580  1
+  O  O18  1  0.255498  0.207895  0.534420  1
+  O  O19  1  0.244502  0.707895  0.034420  1

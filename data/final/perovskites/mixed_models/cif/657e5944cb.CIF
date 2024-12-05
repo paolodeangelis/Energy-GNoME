@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_AgBi(AuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.74043475
+_cell_length_b   6.74043366
+_cell_length_c   6.74043426
+_cell_angle_alpha   125.41699532
+_cell_angle_beta   125.41698098
+_cell_angle_gamma   80.84849625
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgBi(AuO2)4
+_chemical_formula_sum   'Ag1 Bi1 Au4 O8'
+_cell_volume   196.05201176
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.750000  0.250000  0.500000  1
+  Bi  Bi1  1  0.000000  0.000000  0.000000  1
+  Au  Au2  1  0.375027  0.635755  0.759699  1
+  Au  Au3  1  0.364245  0.123944  0.739273  1
+  Au  Au4  1  0.876056  0.615329  0.240301  1
+  Au  Au5  1  0.384671  0.624973  0.260727  1
+  O  O6  1  0.053319  0.403880  0.054530  1
+  O  O7  1  0.737008  0.283030  0.114827  1
+  O  O8  1  0.168202  0.622179  0.885173  1
+  O  O9  1  0.349349  0.998790  0.945470  1
+  O  O10  1  0.716970  0.831798  0.453977  1
+  O  O11  1  0.001210  0.946681  0.350560  1
+  O  O12  1  0.377821  0.262992  0.546023  1
+  O  O13  1  0.596120  0.650651  0.649440  1

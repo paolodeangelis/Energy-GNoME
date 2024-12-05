@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiCa(NiH3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.81059717
+_cell_length_b   4.81059304
+_cell_length_c   4.81224800
+_cell_angle_alpha   120.01131321
+_cell_angle_beta   120.01135063
+_cell_angle_gamma   89.95787513
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa(NiH3)2
+_chemical_formula_sum   'Li1 Ca1 Ni2 H6'
+_cell_volume   78.74832893
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.749997  0.749998  0.000000  1
+  Ca  Ca1  1  0.249998  0.249999  0.000000  1
+  Ni  Ni2  1  0.499988  0.000012  0.499999  1
+  Ni  Ni3  1  0.000012  0.499987  0.499998  1
+  H  H4  1  0.250049  0.750049  0.000098  1
+  H  H5  1  0.749951  0.750048  0.499999  1
+  H  H6  1  0.749950  0.249951  0.499999  1
+  H  H7  1  0.250048  0.750048  0.500000  1
+  H  H8  1  0.250048  0.249951  0.499999  1
+  H  H9  1  0.749951  0.249950  0.999902  1

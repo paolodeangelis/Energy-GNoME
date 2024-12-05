@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Cs2Bi(CO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.53256200
+_cell_length_b   9.41559600
+_cell_length_c   10.19399600
+_cell_angle_alpha   89.99983570
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Bi(CO3)3
+_chemical_formula_sum   'Cs4 Bi2 C6 O18'
+_cell_volume   531.02939752
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.919081  0.845558  1
+  Cs  Cs1  1  0.500000  0.080919  0.345558  1
+  Cs  Cs2  1  0.500000  0.631035  0.171513  1
+  Cs  Cs3  1  0.500000  0.368965  0.671513  1
+  Bi  Bi4  1  0.000000  0.305687  0.103371  1
+  Bi  Bi5  1  0.000000  0.694313  0.603368  1
+  C  C6  1  0.000000  0.951414  0.126201  1
+  C  C7  1  0.000000  0.048585  0.626202  1
+  C  C8  1  0.000000  0.585186  0.895611  1
+  C  C9  1  0.000000  0.414814  0.395608  1
+  C  C10  1  0.500000  0.743569  0.501160  1
+  C  C11  1  0.500000  0.256433  0.001163  1
+  O  O12  1  0.000000  0.074226  0.188356  1
+  O  O13  1  0.000000  0.925771  0.688356  1
+  O  O14  1  0.799576  0.892682  0.098013  1
+  O  O15  1  0.200424  0.892682  0.098013  1
+  O  O16  1  0.200424  0.107317  0.598015  1
+  O  O17  1  0.799576  0.107317  0.598015  1
+  O  O18  1  0.000000  0.533685  0.015744  1
+  O  O19  1  0.000000  0.466316  0.515740  1
+  O  O20  1  0.200725  0.611520  0.836793  1
+  O  O21  1  0.799275  0.611520  0.836793  1
+  O  O22  1  0.799275  0.388478  0.336791  1
+  O  O23  1  0.200725  0.388478  0.336791  1
+  O  O24  1  0.500000  0.693232  0.618979  1
+  O  O25  1  0.500000  0.306769  0.118982  1
+  O  O26  1  0.705270  0.768890  0.442037  1
+  O  O27  1  0.294730  0.768890  0.442037  1
+  O  O28  1  0.294730  0.231112  0.942040  1
+  O  O29  1  0.705270  0.231112  0.942040  1

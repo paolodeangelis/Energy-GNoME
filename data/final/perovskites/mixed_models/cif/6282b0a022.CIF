@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiCa2BrO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40952437
+_cell_length_b   5.52429400
+_cell_length_c   7.59480152
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.96752083
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa2BrO6
+_chemical_formula_sum   'Li2 Ca4 Br2 O12'
+_cell_volume   226.96151599
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.500000  0.000000  1
+  Li  Li1  1  0.000000  0.000000  0.500000  1
+  Ca  Ca2  1  0.491065  0.951319  0.751757  1
+  Ca  Ca3  1  0.008935  0.451319  0.748243  1
+  Ca  Ca4  1  0.508935  0.048681  0.248243  1
+  Ca  Ca5  1  0.991065  0.548681  0.251757  1
+  Br  Br6  1  0.500000  0.500000  0.500000  1
+  Br  Br7  1  0.000000  0.000000  0.000000  1
+  O  O8  1  0.313859  0.232156  0.544548  1
+  O  O9  1  0.186141  0.732156  0.955452  1
+  O  O10  1  0.686141  0.767844  0.455452  1
+  O  O11  1  0.813859  0.267844  0.044548  1
+  O  O12  1  0.576808  0.524903  0.732163  1
+  O  O13  1  0.923192  0.024903  0.767837  1
+  O  O14  1  0.423192  0.475097  0.267837  1
+  O  O15  1  0.076808  0.975097  0.232163  1
+  O  O16  1  0.229679  0.689988  0.536634  1
+  O  O17  1  0.270321  0.189988  0.963366  1
+  O  O18  1  0.770321  0.310012  0.463366  1
+  O  O19  1  0.729679  0.810012  0.036634  1

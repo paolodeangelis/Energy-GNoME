@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Al2BiTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.51787900
+_cell_length_b   8.51787900
+_cell_length_c   13.58447300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2BiTe4
+_chemical_formula_sum   'Al8 Bi4 Te16'
+_cell_volume   985.61142212
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.500000  0.000000  0.750000  1
+  Al  Al1  1  0.000000  0.500000  0.750000  1
+  Al  Al2  1  0.000000  0.500000  0.000000  1
+  Al  Al3  1  0.000000  0.500000  0.250000  1
+  Al  Al4  1  0.500000  0.000000  0.500000  1
+  Al  Al5  1  0.500000  0.000000  0.250000  1
+  Al  Al6  1  0.000000  0.500000  0.500000  1
+  Al  Al7  1  0.500000  0.000000  0.000000  1
+  Bi  Bi8  1  0.000000  0.000000  0.116758  1
+  Bi  Bi9  1  0.000000  0.000000  0.883242  1
+  Bi  Bi10  1  0.500000  0.500000  0.383242  1
+  Bi  Bi11  1  0.500000  0.500000  0.616758  1
+  Te  Te12  1  0.667093  0.827170  0.875384  1
+  Te  Te13  1  0.167093  0.327170  0.624616  1
+  Te  Te14  1  0.832907  0.672830  0.624616  1
+  Te  Te15  1  0.167093  0.672830  0.375384  1
+  Te  Te16  1  0.672830  0.167093  0.624616  1
+  Te  Te17  1  0.827170  0.332907  0.875384  1
+  Te  Te18  1  0.672830  0.832907  0.375384  1
+  Te  Te19  1  0.667093  0.172830  0.124616  1
+  Te  Te20  1  0.172830  0.332907  0.124616  1
+  Te  Te21  1  0.327170  0.832907  0.624616  1
+  Te  Te22  1  0.172830  0.667093  0.875384  1
+  Te  Te23  1  0.832907  0.327170  0.375384  1
+  Te  Te24  1  0.827170  0.667093  0.124616  1
+  Te  Te25  1  0.332907  0.172830  0.875384  1
+  Te  Te26  1  0.327170  0.167093  0.375384  1
+  Te  Te27  1  0.332907  0.827170  0.124616  1

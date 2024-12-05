@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaTl3(GaI3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.35964565
+_cell_length_b   7.80572996
+_cell_length_c   9.59270000
+_cell_angle_alpha   90.51269923
+_cell_angle_beta   90.82997354
+_cell_angle_gamma   88.40673129
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTl3(GaI3)4
+_chemical_formula_sum   'Na1 Tl3 Ga4 I12'
+_cell_volume   999.81569204
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.500000  0.000000  1
+  Tl  Tl1  1  0.500000  0.000000  0.500000  1
+  Tl  Tl2  1  0.500000  0.500000  0.000000  1
+  Tl  Tl3  1  0.000000  0.000000  0.500000  1
+  Ga  Ga4  1  0.246570  0.044992  0.976487  1
+  Ga  Ga5  1  0.752082  0.855317  0.775501  1
+  Ga  Ga6  1  0.753430  0.955008  0.023513  1
+  Ga  Ga7  1  0.247918  0.144683  0.224499  1
+  I  I8  1  0.757763  0.288083  0.065426  1
+  I  I9  1  0.601474  0.660904  0.692321  1
+  I  I10  1  0.088955  0.340107  0.292782  1
+  I  I11  1  0.398526  0.339096  0.307679  1
+  I  I12  1  0.087453  0.175428  0.837947  1
+  I  I13  1  0.597527  0.853376  0.168059  1
+  I  I14  1  0.912547  0.824572  0.162053  1
+  I  I15  1  0.402473  0.146624  0.831941  1
+  I  I16  1  0.242237  0.711917  0.934574  1
+  I  I17  1  0.749558  0.115473  0.599777  1
+  I  I18  1  0.250442  0.884527  0.400223  1
+  I  I19  1  0.911045  0.659893  0.707218  1

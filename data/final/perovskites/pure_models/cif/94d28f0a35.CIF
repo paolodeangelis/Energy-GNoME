@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2TcHgF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.60505765
+_cell_length_b   6.60494572
+_cell_length_c   6.15882896
+_cell_angle_alpha   119.85344076
+_cell_angle_beta   119.85300740
+_cell_angle_gamma   58.71518059
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2TcHgF6
+_chemical_formula_sum   'Na2 Tc1 Hg1 F6'
+_cell_volume   188.48449471
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.731049  0.731049  0.327801  1
+  Na  Na1  1  0.268952  0.268952  0.672200  1
+  Tc  Tc2  1  0.500000  0.500000  0.500000  1
+  Hg  Hg3  1  0.000000  0.000000  0.000000  1
+  F  F4  1  0.395183  0.395172  0.113001  1
+  F  F5  1  0.837474  0.424657  0.516772  1
+  F  F6  1  0.424642  0.837485  0.516770  1
+  F  F7  1  0.575359  0.162515  0.483230  1
+  F  F8  1  0.162526  0.575344  0.483228  1
+  F  F9  1  0.604816  0.604827  0.886998  1

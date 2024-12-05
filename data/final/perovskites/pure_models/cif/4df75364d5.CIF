@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba3LiBi6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.08513175
+_cell_length_b   7.08333484
+_cell_length_c   14.79082900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   83.02179671
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3LiBi6
+_chemical_formula_sum   'Ba6 Li2 Bi12'
+_cell_volume   736.79926219
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.516417  0.516209  0.217816  1
+  Ba  Ba1  1  0.483583  0.483791  0.782184  1
+  Ba  Ba2  1  0.983583  0.983791  0.217816  1
+  Ba  Ba3  1  0.016417  0.016209  0.782184  1
+  Ba  Ba4  1  0.750000  0.250000  0.500671  1
+  Ba  Ba5  1  0.250000  0.750000  0.499329  1
+  Li  Li6  1  0.750000  0.750000  0.001391  1
+  Li  Li7  1  0.250000  0.250000  0.998609  1
+  Bi  Bi8  1  0.750000  0.750000  0.428224  1
+  Bi  Bi9  1  0.250000  0.250000  0.571776  1
+  Bi  Bi10  1  0.750000  0.250000  0.000768  1
+  Bi  Bi11  1  0.250000  0.750000  0.999232  1
+  Bi  Bi12  1  0.009722  0.491204  0.132240  1
+  Bi  Bi13  1  0.990278  0.508796  0.867760  1
+  Bi  Bi14  1  0.070897  0.428454  0.341427  1
+  Bi  Bi15  1  0.429103  0.071546  0.341427  1
+  Bi  Bi16  1  0.929103  0.571546  0.658573  1
+  Bi  Bi17  1  0.570897  0.928454  0.658573  1
+  Bi  Bi18  1  0.490278  0.008796  0.132240  1
+  Bi  Bi19  1  0.509722  0.991204  0.867760  1

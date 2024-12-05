@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2BiPtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.19705879
+_cell_length_b   6.19705989
+_cell_length_c   6.19705840
+_cell_angle_alpha   53.18072451
+_cell_angle_beta   53.18072294
+_cell_angle_gamma   53.18072793
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2BiPtO6
+_chemical_formula_sum   'Na2 Bi1 Pt1 O6'
+_cell_volume   141.40201904
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.137395  0.137395  0.137395  1
+  Na  Na1  1  0.861715  0.861715  0.861715  1
+  Bi  Bi2  1  0.658217  0.658217  0.658217  1
+  Pt  Pt3  1  0.337838  0.337838  0.337838  1
+  O  O4  1  0.684544  0.084813  0.449091  1
+  O  O5  1  0.449091  0.684544  0.084813  1
+  O  O6  1  0.084813  0.449091  0.684544  1
+  O  O7  1  0.276124  0.966274  0.543991  1
+  O  O8  1  0.966274  0.543991  0.276124  1
+  O  O9  1  0.543991  0.276124  0.966274  1

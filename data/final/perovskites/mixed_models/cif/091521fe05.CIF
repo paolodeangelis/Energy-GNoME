@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiCa2TcH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18494827
+_cell_length_b   5.18494787
+_cell_length_c   5.18494700
+_cell_angle_alpha   120.00000083
+_cell_angle_beta   119.99999826
+_cell_angle_gamma   59.99999491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa2TcH6
+_chemical_formula_sum   'Li1 Ca2 Tc1 H6'
+_cell_volume   98.56395736
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500001  0.500001  0.500002  1
+  Ca  Ca1  1  0.750000  0.750000  0.249999  1
+  Ca  Ca2  1  0.249999  0.249999  0.749998  1
+  Tc  Tc3  1  0.000000  0.000000  0.000000  1
+  H  H4  1  0.243680  0.243680  0.243679  1
+  H  H5  1  0.756320  0.243680  0.243681  1
+  H  H6  1  0.243680  0.756320  0.243681  1
+  H  H7  1  0.756319  0.756319  0.756318  1
+  H  H8  1  0.756321  0.243680  0.756321  1
+  H  H9  1  0.243680  0.756321  0.756321  1

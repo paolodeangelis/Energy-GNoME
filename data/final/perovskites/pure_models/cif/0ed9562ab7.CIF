@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_LaPr5(BO3)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.89246076
+_cell_length_b   6.88342017
+_cell_length_c   9.96452431
+_cell_angle_alpha   70.07220451
+_cell_angle_beta   70.09628104
+_cell_angle_gamma   60.11455748
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaPr5(BO3)6
+_chemical_formula_sum   'La1 Pr5 B6 O18'
+_cell_volume   376.80980453
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.343653  0.828441  0.500920  1
+  Pr  Pr1  1  0.000404  0.499795  0.500021  1
+  Pr  Pr2  1  0.500161  0.000030  0.999792  1
+  Pr  Pr3  1  0.828523  0.343292  0.000902  1
+  Pr  Pr4  1  0.657160  0.171223  0.499092  1
+  Pr  Pr5  1  0.171512  0.656456  0.999291  1
+  B  B6  1  0.082453  0.150426  0.252191  1
+  B  B7  1  0.851017  0.917380  0.246844  1
+  B  B8  1  0.916541  0.850039  0.747794  1
+  B  B9  1  0.149426  0.083364  0.753428  1
+  B  B10  1  0.315950  0.683687  0.249416  1
+  B  B11  1  0.684748  0.315079  0.750314  1
+  O  O12  1  0.035614  0.214441  0.389022  1
+  O  O13  1  0.786835  0.963529  0.110244  1
+  O  O14  1  0.962146  0.786576  0.611001  1
+  O  O15  1  0.213411  0.036773  0.890020  1
+  O  O16  1  0.129383  0.304497  0.115043  1
+  O  O17  1  0.697718  0.870426  0.384624  1
+  O  O18  1  0.870068  0.695790  0.884979  1
+  O  O19  1  0.303116  0.131161  0.616111  1
+  O  O20  1  0.472359  0.620508  0.112894  1
+  O  O21  1  0.378810  0.526748  0.386150  1
+  O  O22  1  0.527972  0.378843  0.886813  1
+  O  O23  1  0.622695  0.470570  0.613069  1
+  O  O24  1  0.084215  0.709264  0.247144  1
+  O  O25  1  0.290265  0.916397  0.250989  1
+  O  O26  1  0.915860  0.290728  0.752923  1
+  O  O27  1  0.709292  0.083665  0.747853  1
+  O  O28  1  0.875190  0.125330  0.249608  1
+  O  O29  1  0.123504  0.875544  0.751513  1

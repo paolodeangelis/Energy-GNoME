@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaTe(PbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90172940
+_cell_length_b   5.96820100
+_cell_length_c   8.38114962
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.16774457
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTe(PbO3)2
+_chemical_formula_sum   'Ca2 Te2 Pb4 O12'
+_cell_volume   295.20551478
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.500000  0.000000  1
+  Ca  Ca1  1  0.500001  0.000000  0.499999  1
+  Te  Te2  1  0.500000  0.000000  0.999999  1
+  Te  Te3  1  0.000001  0.500000  0.500000  1
+  Pb  Pb4  1  0.992287  0.035466  0.249952  1
+  Pb  Pb5  1  0.507712  0.535467  0.250048  1
+  Pb  Pb6  1  0.492287  0.464534  0.749952  1
+  Pb  Pb7  1  0.007713  0.964534  0.750048  1
+  O  O8  1  0.764477  0.808477  0.038613  1
+  O  O9  1  0.686355  0.265999  0.042937  1
+  O  O10  1  0.422388  0.978487  0.227083  1
+  O  O11  1  0.077611  0.478486  0.272918  1
+  O  O12  1  0.813644  0.765998  0.457063  1
+  O  O13  1  0.735524  0.308477  0.461387  1
+  O  O14  1  0.264476  0.691524  0.538613  1
+  O  O15  1  0.186356  0.234001  0.542937  1
+  O  O16  1  0.922389  0.521514  0.727082  1
+  O  O17  1  0.577611  0.021514  0.772917  1
+  O  O18  1  0.313644  0.734002  0.957063  1
+  O  O19  1  0.235523  0.191523  0.961387  1

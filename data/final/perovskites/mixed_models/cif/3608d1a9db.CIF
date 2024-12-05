@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Sr2Ir3Pd(PbO7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.41447970
+_cell_length_b   7.37527587
+_cell_length_c   7.41448036
+_cell_angle_alpha   60.06625492
+_cell_angle_beta   59.87806113
+_cell_angle_gamma   60.06625174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Ir3Pd(PbO7)2
+_chemical_formula_sum   'Sr2 Ir3 Pd1 Pb2 O14'
+_cell_volume   286.71884291
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.125000  0.625000  0.125000  1
+  Sr  Sr1  1  0.125000  0.125000  0.125000  1
+  Ir  Ir2  1  0.125000  0.625000  0.625000  1
+  Ir  Ir3  1  0.625000  0.125000  0.625000  1
+  Ir  Ir4  1  0.625000  0.625000  0.125000  1
+  Pd  Pd5  1  0.625000  0.625000  0.625000  1
+  Pb  Pb6  1  0.625000  0.125000  0.125000  1
+  Pb  Pb7  1  0.125000  0.125000  0.625000  1
+  O  O8  1  0.696894  0.712988  0.289953  1
+  O  O9  1  0.302245  0.298627  0.692032  1
+  O  O10  1  0.704526  0.290462  0.704526  1
+  O  O11  1  0.304674  0.700293  0.304674  1
+  O  O12  1  0.289953  0.712988  0.696894  1
+  O  O13  1  0.692032  0.298627  0.302245  1
+  O  O14  1  0.553106  0.537012  0.960047  1
+  O  O15  1  0.947755  0.951373  0.557968  1
+  O  O16  1  0.545474  0.959538  0.545474  1
+  O  O17  1  0.945326  0.549707  0.945326  1
+  O  O18  1  0.960047  0.537012  0.553106  1
+  O  O19  1  0.557968  0.951373  0.947755  1
+  O  O20  1  0.265648  0.233277  0.265648  1
+  O  O21  1  0.984352  0.016723  0.984352  1

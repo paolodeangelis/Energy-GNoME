@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Sr6Li17Pb6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.16002200
+_cell_length_b   10.16002168
+_cell_length_c   10.16002200
+_cell_angle_alpha   120.00000104
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000104
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr6Li17Pb6
+_chemical_formula_sum   'Sr6 Li17 Pb6'
+_cell_volume   741.59863167
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.779174  0.000000  0.220825  1
+  Sr  Sr1  1  0.220826  0.441652  0.220826  1
+  Sr  Sr2  1  0.220826  0.000000  0.220826  1
+  Sr  Sr3  1  0.779174  0.000000  0.779174  1
+  Sr  Sr4  1  0.220825  0.000000  0.779174  1
+  Sr  Sr5  1  0.779174  0.558349  0.779174  1
+  Li  Li6  1  0.366776  0.733552  0.100329  1
+  Li  Li7  1  0.829097  0.658194  0.170904  1
+  Li  Li8  1  0.512710  0.341807  0.170904  1
+  Li  Li9  1  0.829097  0.341807  0.170904  1
+  Li  Li10  1  0.100329  0.733552  0.366776  1
+  Li  Li11  1  0.633224  0.733552  0.366776  1
+  Li  Li12  1  0.633224  0.266447  0.366776  1
+  Li  Li13  1  0.829097  0.658194  0.487290  1
+  Li  Li14  1  0.500000  0.000000  0.500000  1
+  Li  Li15  1  0.170904  0.341807  0.512710  1
+  Li  Li16  1  0.366776  0.733552  0.633224  1
+  Li  Li17  1  0.366776  0.266447  0.633224  1
+  Li  Li18  1  0.899671  0.266447  0.633224  1
+  Li  Li19  1  0.170904  0.658194  0.829097  1
+  Li  Li20  1  0.487290  0.658194  0.829097  1
+  Li  Li21  1  0.170904  0.341807  0.829097  1
+  Li  Li22  1  0.633224  0.266447  0.899671  1
+  Pb  Pb23  1  0.500000  0.000000  0.000000  1
+  Pb  Pb24  1  0.000000  0.500000  0.000000  1
+  Pb  Pb25  1  0.500000  0.500000  0.000000  1
+  Pb  Pb26  1  0.000000  0.000000  0.500000  1
+  Pb  Pb27  1  0.000000  0.500000  0.500000  1
+  Pb  Pb28  1  0.500000  0.500000  0.500000  1

@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Nd2SmIn3O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.52367000
+_cell_length_b   6.52367091
+_cell_length_c   12.50368900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999537
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2SmIn3O9
+_chemical_formula_sum   'Nd4 Sm2 In6 O18'
+_cell_volume   460.84283970
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.666667  0.333333  0.961295  1
+  Nd  Nd1  1  0.333333  0.666667  0.461295  1
+  Nd  Nd2  1  0.666667  0.333333  0.461295  1
+  Nd  Nd3  1  0.333333  0.666667  0.961295  1
+  Sm  Sm4  1  0.000000  0.000000  0.998569  1
+  Sm  Sm5  1  0.000000  0.000000  0.498569  1
+  In  In6  1  0.667666  0.667666  0.726940  1
+  In  In7  1  0.000000  0.332334  0.726940  1
+  In  In8  1  0.332334  0.332334  0.226940  1
+  In  In9  1  0.000000  0.667666  0.226940  1
+  In  In10  1  0.332334  0.000000  0.726940  1
+  In  In11  1  0.667666  0.000000  0.226940  1
+  O  O12  1  0.694282  0.694282  0.895936  1
+  O  O13  1  0.000000  0.305718  0.895936  1
+  O  O14  1  0.305718  0.305718  0.395936  1
+  O  O15  1  0.000000  0.694282  0.395936  1
+  O  O16  1  0.305718  0.000000  0.895936  1
+  O  O17  1  0.694282  0.000000  0.395936  1
+  O  O18  1  0.646481  0.646481  0.559014  1
+  O  O19  1  0.000000  0.353519  0.559014  1
+  O  O20  1  0.353519  0.353519  0.059014  1
+  O  O21  1  0.000000  0.646481  0.059014  1
+  O  O22  1  0.353519  0.000000  0.559014  1
+  O  O23  1  0.646481  0.000000  0.059014  1
+  O  O24  1  0.000000  0.000000  0.698629  1
+  O  O25  1  0.000000  0.000000  0.198629  1
+  O  O26  1  0.666667  0.333333  0.750215  1
+  O  O27  1  0.333333  0.666667  0.250215  1
+  O  O28  1  0.666667  0.333333  0.250215  1
+  O  O29  1  0.333333  0.666667  0.750215  1

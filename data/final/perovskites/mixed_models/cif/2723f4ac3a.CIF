@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsGa(CO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48614639
+_cell_length_b   7.48614551
+_cell_length_c   7.48614571
+_cell_angle_alpha   37.71141399
+_cell_angle_beta   37.71141621
+_cell_angle_gamma   37.71140997
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsGa(CO3)2
+_chemical_formula_sum   'Cs1 Ga1 C2 O6'
+_cell_volume   140.83317972
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.500000  0.500000  1
+  Ga  Ga1  1  0.000000  0.000000  0.000000  1
+  C  C2  1  0.280377  0.280377  0.280377  1
+  C  C3  1  0.719623  0.719623  0.719623  1
+  O  O4  1  0.225486  0.568396  0.039720  1
+  O  O5  1  0.568397  0.039720  0.225486  1
+  O  O6  1  0.960280  0.774513  0.431603  1
+  O  O7  1  0.039719  0.225487  0.568397  1
+  O  O8  1  0.431603  0.960280  0.774514  1
+  O  O9  1  0.774513  0.431604  0.960279  1

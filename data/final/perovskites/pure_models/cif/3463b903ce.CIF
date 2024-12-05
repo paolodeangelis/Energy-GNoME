@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2CuAgF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71327844
+_cell_length_b   5.71391245
+_cell_length_c   5.71320167
+_cell_angle_alpha   61.23848479
+_cell_angle_beta   61.23723508
+_cell_angle_gamma   61.23206068
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CuAgF6
+_chemical_formula_sum   'Na2 Cu1 Ag1 F6'
+_cell_volume   135.54694519
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.225585  0.225596  0.225563  1
+  Na  Na1  1  0.777399  0.777397  0.777339  1
+  Cu  Cu2  1  0.000189  0.000108  0.000341  1
+  Ag  Ag3  1  0.500082  0.500075  0.500114  1
+  F  F4  1  0.340222  0.794377  0.113741  1
+  F  F5  1  0.886306  0.659754  0.204353  1
+  F  F6  1  0.794381  0.113775  0.340203  1
+  F  F7  1  0.204390  0.886320  0.659700  1
+  F  F8  1  0.113751  0.340204  0.794365  1
+  F  F9  1  0.659704  0.204401  0.886289  1

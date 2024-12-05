@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_RbBaBiTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04757400
+_cell_length_b   6.07679300
+_cell_length_c   8.58621212
+_cell_angle_alpha   89.99057773
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBaBiTeO6
+_chemical_formula_sum   'Rb2 Ba2 Bi2 Te2 O12'
+_cell_volume   315.54204901
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.250000  0.752605  0.000548  1
+  Rb  Rb1  1  0.750000  0.247395  0.999452  1
+  Ba  Ba2  1  0.250000  0.751947  0.500051  1
+  Ba  Ba3  1  0.750000  0.248053  0.499949  1
+  Bi  Bi4  1  0.750000  0.748652  0.761297  1
+  Bi  Bi5  1  0.250000  0.251348  0.238703  1
+  Te  Te6  1  0.250000  0.250112  0.742227  1
+  Te  Te7  1  0.750000  0.749888  0.257773  1
+  O  O8  1  0.250000  0.260858  0.967431  1
+  O  O9  1  0.250000  0.239064  0.509805  1
+  O  O10  1  0.750000  0.760936  0.490195  1
+  O  O11  1  0.750000  0.739142  0.032569  1
+  O  O12  1  0.479891  0.478701  0.725453  1
+  O  O13  1  0.020219  0.020791  0.735984  1
+  O  O14  1  0.479781  0.020791  0.735984  1
+  O  O15  1  0.020109  0.478701  0.725453  1
+  O  O16  1  0.979781  0.979209  0.264016  1
+  O  O17  1  0.520109  0.521299  0.274547  1
+  O  O18  1  0.979891  0.521299  0.274547  1
+  O  O19  1  0.520219  0.979209  0.264016  1

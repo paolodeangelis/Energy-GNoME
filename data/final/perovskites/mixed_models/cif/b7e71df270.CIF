@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_K2Ge3PbO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.10222740
+_cell_length_b   8.10222720
+_cell_length_c   8.10222753
+_cell_angle_alpha   83.30527694
+_cell_angle_beta   83.30527020
+_cell_angle_gamma   83.30528256
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ge3PbO9
+_chemical_formula_sum   'K4 Ge6 Pb2 O18'
+_cell_volume   521.78347841
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.010605  0.224979  0.774859  1
+  K  K1  1  0.495284  0.495284  0.495284  1
+  K  K2  1  0.774859  0.010605  0.224979  1
+  K  K3  1  0.224979  0.774859  0.010605  1
+  Ge  Ge4  1  0.457191  0.978637  0.550473  1
+  Ge  Ge5  1  0.550473  0.457191  0.978637  1
+  Ge  Ge6  1  0.485251  0.104156  0.899453  1
+  Ge  Ge7  1  0.104156  0.899453  0.485251  1
+  Ge  Ge8  1  0.978637  0.550473  0.457191  1
+  Ge  Ge9  1  0.899453  0.485251  0.104156  1
+  Pb  Pb10  1  0.255751  0.255751  0.255751  1
+  Pb  Pb11  1  0.777279  0.777279  0.777279  1
+  O  O12  1  0.900398  0.690335  0.004274  1
+  O  O13  1  0.547940  0.659971  0.874924  1
+  O  O14  1  0.090838  0.363423  0.065588  1
+  O  O15  1  0.159817  0.407840  0.463250  1
+  O  O16  1  0.497639  0.323109  0.835086  1
+  O  O17  1  0.874924  0.547940  0.659971  1
+  O  O18  1  0.004274  0.900398  0.690335  1
+  O  O19  1  0.065588  0.090838  0.363423  1
+  O  O20  1  0.363423  0.065588  0.090838  1
+  O  O21  1  0.690335  0.004274  0.900398  1
+  O  O22  1  0.752994  0.365612  0.033739  1
+  O  O23  1  0.407840  0.463250  0.159817  1
+  O  O24  1  0.659971  0.874924  0.547940  1
+  O  O25  1  0.033739  0.752994  0.365612  1
+  O  O26  1  0.463250  0.159817  0.407840  1
+  O  O27  1  0.323109  0.835086  0.497639  1
+  O  O28  1  0.835086  0.497639  0.323109  1
+  O  O29  1  0.365612  0.033739  0.752994  1

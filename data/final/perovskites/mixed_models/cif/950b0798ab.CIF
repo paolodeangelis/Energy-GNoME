@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_K2Ce(SiO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18759700
+_cell_length_b   7.18759710
+_cell_length_c   10.68208000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999493
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ce(SiO3)3
+_chemical_formula_sum   'K4 Ce2 Si6 O18'
+_cell_volume   477.91858966
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.333333  0.666667  0.057326  1
+  K  K1  1  0.666667  0.333333  0.557326  1
+  K  K2  1  0.333333  0.666667  0.442674  1
+  K  K3  1  0.666667  0.333333  0.942674  1
+  Ce  Ce4  1  0.000000  0.000000  0.000000  1
+  Ce  Ce5  1  0.000000  0.000000  0.500000  1
+  Si  Si6  1  0.605010  0.732432  0.750000  1
+  Si  Si7  1  0.872578  0.605010  0.250000  1
+  Si  Si8  1  0.732432  0.127422  0.250000  1
+  Si  Si9  1  0.267568  0.872578  0.750000  1
+  Si  Si10  1  0.127422  0.394990  0.750000  1
+  Si  Si11  1  0.394990  0.267568  0.250000  1
+  O  O12  1  0.267235  0.246512  0.379348  1
+  O  O13  1  0.020724  0.267235  0.879348  1
+  O  O14  1  0.246512  0.979276  0.879348  1
+  O  O15  1  0.753488  0.020724  0.379348  1
+  O  O16  1  0.979276  0.732765  0.379348  1
+  O  O17  1  0.732765  0.753488  0.879348  1
+  O  O18  1  0.732765  0.753488  0.620652  1
+  O  O19  1  0.979276  0.732765  0.120652  1
+  O  O20  1  0.753488  0.020724  0.120652  1
+  O  O21  1  0.246512  0.979276  0.620652  1
+  O  O22  1  0.020724  0.267235  0.620652  1
+  O  O23  1  0.267235  0.246512  0.120652  1
+  O  O24  1  0.485932  0.095668  0.250000  1
+  O  O25  1  0.390264  0.485932  0.750000  1
+  O  O26  1  0.095668  0.609736  0.750000  1
+  O  O27  1  0.904332  0.390264  0.250000  1
+  O  O28  1  0.609736  0.514068  0.250000  1
+  O  O29  1  0.514068  0.904332  0.750000  1

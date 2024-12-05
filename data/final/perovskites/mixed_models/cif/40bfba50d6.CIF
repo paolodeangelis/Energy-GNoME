@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Cs2Na(CO3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66548000
+_cell_length_b   9.64180300
+_cell_length_c   10.43890400
+_cell_angle_alpha   89.99983448
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Na(CO3)3
+_chemical_formula_sum   'Cs4 Na2 C6 O18'
+_cell_volume   570.22974563
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.909643  0.841628  1
+  Cs  Cs1  1  0.500000  0.090357  0.341628  1
+  Cs  Cs2  1  0.500000  0.619556  0.170936  1
+  Cs  Cs3  1  0.500000  0.380444  0.670936  1
+  Na  Na4  1  0.000000  0.298309  0.102975  1
+  Na  Na5  1  0.000000  0.701691  0.602972  1
+  C  C6  1  0.000000  0.952903  0.125758  1
+  C  C7  1  0.000000  0.047096  0.625759  1
+  C  C8  1  0.000000  0.581047  0.910350  1
+  C  C9  1  0.000000  0.418953  0.410347  1
+  C  C10  1  0.500000  0.746666  0.490662  1
+  C  C11  1  0.500000  0.253336  0.990665  1
+  O  O12  1  0.000000  0.071015  0.182615  1
+  O  O13  1  0.000000  0.928982  0.682615  1
+  O  O14  1  0.804592  0.893512  0.097622  1
+  O  O15  1  0.195408  0.893512  0.097622  1
+  O  O16  1  0.195408  0.106487  0.597624  1
+  O  O17  1  0.804592  0.106487  0.597624  1
+  O  O18  1  0.000000  0.526586  0.022179  1
+  O  O19  1  0.000000  0.473415  0.522175  1
+  O  O20  1  0.193974  0.609494  0.852440  1
+  O  O21  1  0.806026  0.609494  0.852440  1
+  O  O22  1  0.806026  0.390504  0.352438  1
+  O  O23  1  0.193974  0.390504  0.352438  1
+  O  O24  1  0.500000  0.700391  0.606041  1
+  O  O25  1  0.500000  0.299610  0.106044  1
+  O  O26  1  0.696193  0.769526  0.433456  1
+  O  O27  1  0.303807  0.769526  0.433456  1
+  O  O28  1  0.303807  0.230476  0.933459  1
+  O  O29  1  0.696193  0.230476  0.933459  1
