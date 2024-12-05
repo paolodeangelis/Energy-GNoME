@@ -1,22 +1,22 @@
 # Welcome to Your Project
 
-## Choose Your Path
+## Explore the project
 
 <div class="grid cards" markdown>
 
-- :material-book-open-outline: __Documentation__
+- :material-view-dashboard: __Database Dashboards__
 
     ---
 
-    Dive deep into project details, guides, and technical information.
+    Begin exploring, screening, and downloading the Energy-GNoME database effortlessly through the intuitive dashboard interface.
 
-    [:octicons-arrow-right-24: Explore Documentation](./documentation/index.md){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: View Dashboards](./apps/index.md){ .md-button .md-button--primary }
 
-- :material-database-outline: __Applications__
+- :material-database-outline: __About the Database__
 
     ---
 
-    Interact with our suite of database applications.
+    Learn about the methodology and the research work behind this database.
 
     [:octicons-arrow-right-24: View Applications](./apps/index.md){ .md-button .md-button--primary }
 
