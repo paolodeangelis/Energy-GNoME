@@ -22,7 +22,7 @@ RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/a
 ARTICLE_DOI = "10.48550/arXiv.2411.10125"
 ARTICLE_TEXT_CITE = f'De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: <a href="https://doi.org/{ARTICLE_DOI}" target="_blank">{ARTICLE_DOI}</a>.'
 DOC_PAGE = "https://paolodeangelis.github.io/Energy-GNoME/..."
-ACCENT = "#3abccd"
+ACCENT = "#4fc4d3"
 PALETTE = [
     "#50c4d3",
     "#efa04b",
