@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -34,7 +36,7 @@ jobs:
       - name: Install dependencies MkDocs
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material
+          pip install mkdocs "mkdocs-material[imaging]" mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin  mkdocs-git-committers-plugin-2 mkdocs-git-authors-plugin
       
       - name: Install dependencies Apps
         run: |
