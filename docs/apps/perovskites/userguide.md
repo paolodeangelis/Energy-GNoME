@@ -68,7 +68,7 @@ where:
 * $V(x)$ is the volume occupied by the molecule;
 * $\rho (x)$ is the atomic density of the material;
 * $\sigma (E_g(x))$ is the standard deviation of the predicted band gap;
-* $\sigma (P(x))$ is the standard deviation of the AIexperts prediction.
+* $\sigma (P(x))$ is the standard deviation of the AI-experts prediction.
 
 This way, the ranking score can be tailored according to specific research priorities (e.g., emphasizing band gap over density).
 The [table](#table) updates dynamically to reflect the new ranking, ensuring that the most relevant materials are highlighted.
@@ -126,4 +126,6 @@ For more detailed instructions and advanced use cases, please refer to the [docu
 
 If you find this dataset useful, please cite the original work to acknowledge the efforts of the creators:
 
-[De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications." arXiv, November 15, 2024. DOI: 10.48550/arXiv.2411.10125.](https://arxiv.org/abs/2411.10125)
+!!! quote ""
+
+    De Angelis,P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications." arXiv, November 15, 2024. DOI: [10.48550/arXiv.2411.10125.](https://arxiv.org/abs/2411.10125)
