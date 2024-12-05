@@ -198,14 +198,10 @@ def initialize_data() -> pd.DataFrame:
                 "Density (A^3/atom)": f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
             }
         )
-        df["Model type"] = modeltype
-        df["Ranking"] = 1.0
-        df["File"] = df["Material Id"]
-        df["_folder_path"] = f"data/final/perovskite/{modeltype}/cif"
         df["Model type"] = modeltype  # " ".join([s.capitalize() for s in modeltype.split("_")])
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
-        df["_folder_path"] = f"data/final/perovskites/{modeltype}/cif"
+        df["_folder_path"] = f"data/final/perovskites/{_modeltype}/cif"
         # Downcast float64 to float32 for memory efficiency
         float_cols = df.select_dtypes(include=["float64"]).columns
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
@@ -823,7 +819,7 @@ ul {
 }
 </style>
 ## Regressor models
-Easily manage perovkite predictions associated with a specific regressor model."""
+Easily manage perovskite predictions associated with a specific regressor model."""
         ),
     ),
     select_models,
