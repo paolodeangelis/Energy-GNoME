@@ -14,7 +14,7 @@ SITE = "Energy-GNoME"
 SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
 FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/favicon.png"
 TITLE = "Cathode materials explorer"
-LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
+LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/logo_alt.png"
 DATA_PATH_TEMPLATE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/cathodes/{ctype}/{ion}/candidates.json"
 BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.bib"
 RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.ris"
@@ -38,7 +38,7 @@ FONT = {
     "name": "Roboto",
     "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Roboto",
 }
-WORKING_IONS = ["Li", "Na", "Mg", "K", "Ca", "Cs"]
+WORKING_IONS = ["Li", "Na", "Mg", "K", "Ca", "Cs", "Al", "Rb", "Y"]
 WORKING_IONS_ACTIVE = ["Li", "Na", "Mg"]
 CATHODE_TYPE = ["insertion"]
 CATEGORY = "Working Ion"
@@ -65,6 +65,7 @@ COLUMNS = [
     "Gravimetric energy (Wh/kg)",
     "Ranking",
     "File",
+    "Note",
 ]
 HOVER_COL = [
     ("Material Id", "@{Material Id}"),
@@ -89,6 +90,7 @@ COLUMNS_ACTIVE = [
     "AI-experts confidence (-)",
     "Ranking",
     "File",
+    "Note",
 ]
 N_ROW = 12
 SIDEBAR_W = 350
@@ -210,6 +212,7 @@ def initialize_data() -> pd.DataFrame:
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
         df["_folder_path"] = f"data/final/cathodes/{ctype}/{ion}/cif"
+        df.insert(len(df.columns) - 1, "Note", df.pop("Note"))
         # Downcast float64 to float32 for memory efficiency
         float_cols = df.select_dtypes(include=["float64"]).columns
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
@@ -437,17 +440,31 @@ def build_interactive_table(
     if sliders:
         for column, slider in sliders.items():
             if column in df.columns:  # Ensure the column exists in the DataFrame
-                table.add_filter(pn.bind(apply_range_filter, column=column, value_range=slider))
+                table.add_filter(
+                    pn.bind(
+                        apply_range_filter, column=column, value_range=slider.param.value_throttled
+                    )
+                )
     # Apply category filters for categories
     if categories:
         hidden_ions = set(all_ions) - set(categories)
         for ion in hidden_ions:
             table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=ion))
     # Add download section
-    filename, button = table.download_menu(
-        text_kwargs={"name": "Enter filename", "value": "cathode_candidates.csv"},
-        button_kwargs={"name": "Download table"},
-    )
+    # filename, button = table.download_menu(
+    #     text_kwargs={"name": "Enter filename", "value": "cathode_candidates.csv"},
+    #     button_kwargs={"name": "Download table"},
+    # )
+    filename = pn.widgets.TextInput(name="Enter filename", value="cathode_candidates.csv")
+
+    def down_load_menu(filename):
+        sio = StringIO()
+        table.current_view.to_csv(sio)
+        sio.seek(0)
+        button = pn.widgets.FileDownload(sio, embed=True, filename=filename)
+        return button
+
+    button = pn.bind(down_load_menu, filename)
     return pn.Column(filename, button, table)
 
 

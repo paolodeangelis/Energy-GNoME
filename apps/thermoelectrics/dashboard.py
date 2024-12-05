@@ -13,8 +13,8 @@ SITE = "Energy-GNoME"
 SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
 FAVICON = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/favicon.png"
 TITLE = "Thermoelectric materials explorer"
-LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/img/apps/app_battery.png"
-DATA_PATH = "./data/final/thermoelectrics/{temperature}K/candidates.json"
+LOGO = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/logo_alt.png"
+DATA_PATH = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/data/final/thermoelectrics/{temperature}K/candidates.json"
 BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.bib"
 RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.ris"
 RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.rtf"
@@ -413,17 +413,31 @@ def build_interactive_table(
     if sliders:
         for column, slider in sliders.items():
             if column in df.columns:  # Ensure the column exists in the DataFrame
-                table.add_filter(pn.bind(apply_range_filter, column=column, value_range=slider))
+                table.add_filter(
+                    pn.bind(
+                        apply_range_filter, column=column, value_range=slider.param.value_throttled
+                    )
+                )
     # Apply category filters for categories
     if categories:
         hidden_temps = set(all_temperatures) - set(categories)
         for temp in hidden_temps:
             table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=temp))
     # Add download section
-    filename, button = table.download_menu(
-        text_kwargs={"name": "Enter filename", "value": "thermoelectric_candidates.csv"},
-        button_kwargs={"name": "Download table"},
-    )
+    # filename, button = table.download_menu(
+    #     text_kwargs={"name": "Enter filename", "value": "thermoelectric_candidates.csv"},
+    #     button_kwargs={"name": "Download table"},
+    # )
+    filename = pn.widgets.TextInput(name="Enter filename", value="thermoelectric_candidates.csv")
+
+    def down_load_menu(filename):
+        sio = StringIO()
+        table.current_view.to_csv(sio)
+        sio.seek(0)
+        button = pn.widgets.FileDownload(sio, embed=True, filename=filename)
+        return button
+
+    button = pn.bind(down_load_menu, filename)
     return pn.Column(filename, button, table)
 
 
