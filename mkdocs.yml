@@ -54,41 +54,35 @@ theme:
         # icon: material/brightness-4
         name: Switch to light mode
   features:
-    # - navigation.instant
-    # - navigation.instant.prefetch
+    - navigation.instant
+    - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.instant.preview
-    # - navigation.tabs
     - navigation.sections
     # - navigation.expand
     - navigation.top
+    - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.home
+    - navigation.tracking
     - navigation.path
     - navigation.indexes
+    # - navigation.footer
+    - toc.follow
+    # - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
     - search.highlight
     - search.share
     - search.suggest
     - header.autohide
     - announce.autohide
+    # - announce.dismiss
+
   hide:
     # - announce
-
-nav:
-  - Home: index.md
-  - Documentation:
-    - Overview: documentation/index.md
-    - More Sections...: documentation/details.md
-  - Applications:
-    - Overview: apps/index.md
-    - Cathodes:
-        - User guide: apps/cathodes/userguide.md
-        - Dashboard: apps/cathodes/dashboard.html
-    - Perovskites:
-        - User guide: apps/perovskites/userguide.md
-        - Dashboard: apps/perovskites/dashboard.html
-    - Thermoelectrics:
-        - User guide: apps/thermoelectrics/userguide.md
-        - Dashboard: apps/thermoelectrics/dashboard.html
 
 extra:
   homepage: /
@@ -106,6 +100,11 @@ extra:
       link: https://www.linkedin.com/company/small-lab/
 
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -114,9 +113,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
-  - attr_list
-  - def_list
-  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -137,3 +133,20 @@ plugins:
   #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
+
+
+nav:
+  - Home: index.md
+  - Documentation:
+    - Overview: docs/index.md
+    - More Sections...: docs/details.md
+  - Dashboard:
+    - Overview: apps/index.md
+    - Cathodes:
+        - User guide: apps/cathodes/userguide.md
+        - Dashboard: apps/cathodes/dashboard.html
+    - Perovskites:
+        - User guide: apps/perovskites/userguide.md
+        - Dashboard: apps/perovskites/dashboard.html
+  - About the Database: about_db/index.md
+  - Contribute: contribute/index.md
