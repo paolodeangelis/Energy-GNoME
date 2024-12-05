@@ -1,0 +1,16 @@
+path: data/final/thermoelectrics/430K/candidates.json
+note: ""
+columns:
+  MaterialId: Material Id
+  Composition: Composition
+  Crystal System: Crystal System
+  Formation Energy Per Atom: Formation Energy (eV/atom)
+  Reduced Formula: Formula
+  Volume: Volume (A^3)
+  Density: Density (A^3/atom)
+  temperature(K): Working Temperature (K)
+  mean_regressors: Average zT (-)
+  std_regressors: Average zT (deviation) (-)
+  mean_classifiers: AI-experts confidence (-)
+  # classifier_std: AI-experts confidence (deviation) (-)
+  Notes: Notes

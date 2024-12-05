@@ -86,6 +86,6 @@ Interactive database exploration
 
 ## Quick Links
 
-- [GitHub Repository](https://github.com/yourusername/your-repo)
+- [GitHub Repository](https://github.com/paolodeangelis/Energy-GNoME)
 - [Project Overview](/documentation/)
 - [Application Suite](/apps/)
