@@ -6,6 +6,7 @@ import hvplot.pandas
 import numpy as np
 import pandas as pd
 import panel as pn
+import param
 import requests
 
 # CONSTANTS (settings)
@@ -201,6 +202,10 @@ def initialize_data() -> pd.DataFrame:
         df["Ranking"] = 1.0
         df["File"] = df["Material Id"]
         df["_folder_path"] = f"data/final/perovskite/{modeltype}/cif"
+        df["Model type"] = modeltype  # " ".join([s.capitalize() for s in modeltype.split("_")])
+        df["Ranking"] = 1.0
+        df["File"] = df["Material Id"]
+        df["_folder_path"] = f"data/final/perovskites/{modeltype}/cif"
         # Downcast float64 to float32 for memory efficiency
         float_cols = df.select_dtypes(include=["float64"]).columns
         df[float_cols] = df[float_cols].apply(pd.to_numeric, downcast="float")
