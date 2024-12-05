@@ -123,7 +123,7 @@ META = {
     "description": "Explore advanced cathode material analysis and Artificial Intelligence screening with interactive tools from the GNoME database.",
     "keywords": "cathode materials, GNoME database, material analysis, battery research, interactive dashboard, artificial intelligence",
     "authors": "Paolo De Angelis, Giulio Barletta, Giovanni Trezza",
-    "viewport": f"width={SIDEBAR_W+SIDEBAR_WIDGET_W+PLOT_SIZE[0]+ABOUT_W:d}px, initial-scale=1",
+    "viewport": f"width={SIDEBAR_W + SIDEBAR_WIDGET_W + PLOT_SIZE[0] + ABOUT_W:d}px, initial-scale=1",
 }
 FOOTER = f"""
 <link rel="stylesheet"
