@@ -12,6 +12,10 @@ repo_url: https://github.com/paolodeangelis/Energy-GNoME/
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 theme:
   name: material
   custom_dir: docs/overrides
@@ -105,6 +109,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.arithmatex:
+    generic: true
   - attr_list
   - def_list
   - md_in_html
@@ -121,10 +127,10 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  - git-committers:
-      enabled: true
-      repository: paolodeangelis/Energy-GNoME
-      branch: main
-      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-committers:
+  #     enabled: true
+  #     repository: paolodeangelis/Energy-GNoME
+  #     branch: main
+  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
