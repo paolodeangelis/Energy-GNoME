@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ni4Sb12Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94161460
+_cell_length_b   7.94161450
+_cell_length_c   7.94161500
+_cell_angle_alpha   109.47122192
+_cell_angle_beta   109.47122166
+_cell_angle_gamma   109.47121987
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni4Sb12Cl
+_chemical_formula_sum   'Ni4 Sb12 Cl1'
+_cell_volume   385.57115718
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.500000  0.000000  0.000000  1
+  Ni  Ni1  1  0.000000  0.500000  0.000000  1
+  Ni  Ni2  1  0.000000  0.000000  0.500000  1
+  Ni  Ni3  1  0.500000  0.500000  0.500000  1
+  Sb  Sb4  1  0.337606  0.495989  0.158382  1
+  Sb  Sb5  1  0.662394  0.820776  0.158382  1
+  Sb  Sb6  1  0.841618  0.337606  0.179224  1
+  Sb  Sb7  1  0.179224  0.841618  0.337606  1
+  Sb  Sb8  1  0.495989  0.158382  0.337606  1
+  Sb  Sb9  1  0.158382  0.337606  0.495989  1
+  Sb  Sb10  1  0.841618  0.662394  0.504011  1
+  Sb  Sb11  1  0.820776  0.158382  0.662394  1
+  Sb  Sb12  1  0.504011  0.841618  0.662394  1
+  Sb  Sb13  1  0.158382  0.662394  0.820776  1
+  Sb  Sb14  1  0.337606  0.179224  0.841618  1
+  Sb  Sb15  1  0.662394  0.504011  0.841618  1
+  Cl  Cl16  1  0.000000  0.000000  0.000000  1

@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ba2Ni(AsRh)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.78820500
+_cell_length_b   11.78820500
+_cell_length_c   4.29922500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Ni(AsRh)6
+_chemical_formula_sum   'Ba4 Ni2 As12 Rh12'
+_cell_volume   597.42794625
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.151863  0.651863  0.750709  1
+  Ba  Ba1  1  0.348137  0.151863  0.249291  1
+  Ba  Ba2  1  0.651863  0.848137  0.249291  1
+  Ba  Ba3  1  0.848137  0.348137  0.750709  1
+  Ni  Ni4  1  0.000000  0.000000  0.000000  1
+  Ni  Ni5  1  0.500000  0.500000  0.000000  1
+  As  As6  1  0.866397  0.112909  0.273085  1
+  As  As7  1  0.366397  0.387091  0.726915  1
+  As  As8  1  0.584554  0.084554  0.771404  1
+  As  As9  1  0.633603  0.612909  0.726915  1
+  As  As10  1  0.612909  0.366397  0.273085  1
+  As  As11  1  0.084554  0.415446  0.228596  1
+  As  As12  1  0.387091  0.633603  0.273085  1
+  As  As13  1  0.915446  0.584554  0.228596  1
+  As  As14  1  0.112909  0.133603  0.726915  1
+  As  As15  1  0.415446  0.915446  0.771404  1
+  As  As16  1  0.133603  0.887091  0.273085  1
+  As  As17  1  0.887091  0.866397  0.726915  1
+  Rh  Rh18  1  0.548182  0.286593  0.765792  1
+  Rh  Rh19  1  0.048182  0.213407  0.234208  1
+  Rh  Rh20  1  0.713407  0.548182  0.234208  1
+  Rh  Rh21  1  0.286593  0.451818  0.234208  1
+  Rh  Rh22  1  0.335106  0.835106  0.268654  1
+  Rh  Rh23  1  0.835106  0.664894  0.731346  1
+  Rh  Rh24  1  0.951818  0.786593  0.234208  1
+  Rh  Rh25  1  0.213407  0.951818  0.765792  1
+  Rh  Rh26  1  0.786593  0.048182  0.765792  1
+  Rh  Rh27  1  0.164894  0.335106  0.731346  1
+  Rh  Rh28  1  0.451818  0.713407  0.765792  1
+  Rh  Rh29  1  0.664894  0.164894  0.268654  1

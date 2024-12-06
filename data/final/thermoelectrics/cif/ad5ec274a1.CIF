@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LaCo(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.98425407
+_cell_length_b   6.89891721
+_cell_length_c   6.92297352
+_cell_angle_alpha   119.74300540
+_cell_angle_beta   120.15229602
+_cell_angle_gamma   90.24443174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCo(Sn2Ru)3
+_chemical_formula_sum   'La1 Co1 Sn6 Ru3'
+_cell_volume   235.73743055
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.998877  0.007035  0.000000  1
+  Co  Co1  1  0.407871  0.747489  0.000000  1
+  Sn  Sn2  1  0.474014  0.108022  0.000000  1
+  Sn  Sn3  1  0.119259  0.476984  0.000000  1
+  Sn  Sn4  1  0.877279  0.882291  0.351713  1
+  Sn  Sn5  1  0.525566  0.530578  0.648287  1
+  Sn  Sn6  1  0.004025  0.504107  0.507315  1
+  Sn  Sn7  1  0.496709  0.996791  0.492685  1
+  Ru  Ru8  1  0.752478  0.403765  0.000000  1
+  Ru  Ru9  1  0.254926  0.254434  0.665931  1
+  Ru  Ru10  1  0.588995  0.588503  0.334069  1

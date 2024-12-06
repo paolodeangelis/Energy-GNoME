@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CrAg2Sn3Se8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.92035528
+_cell_length_b   7.92035601
+_cell_length_c   7.92035539
+_cell_angle_alpha   61.08237386
+_cell_angle_beta   61.08237121
+_cell_angle_gamma   61.08238189
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrAg2Sn3Se8
+_chemical_formula_sum   'Cr1 Ag2 Sn3 Se8'
+_cell_volume   359.89391954
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.000000  0.000000  0.000000  1
+  Ag  Ag1  1  0.386567  0.386567  0.386567  1
+  Ag  Ag2  1  0.613433  0.613433  0.613433  1
+  Sn  Sn3  1  0.000000  0.500000  0.000000  1
+  Sn  Sn4  1  0.000000  0.000000  0.500000  1
+  Sn  Sn5  1  0.500000  0.000000  0.000000  1
+  Se  Se6  1  0.773717  0.216172  0.773717  1
+  Se  Se7  1  0.752573  0.752573  0.752573  1
+  Se  Se8  1  0.783828  0.226283  0.226283  1
+  Se  Se9  1  0.226283  0.226283  0.783828  1
+  Se  Se10  1  0.226283  0.783828  0.226283  1
+  Se  Se11  1  0.247427  0.247427  0.247427  1
+  Se  Se12  1  0.216172  0.773717  0.773717  1
+  Se  Se13  1  0.773717  0.773717  0.216172  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_AcFeNi(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09250775
+_cell_length_b   8.12790782
+_cell_length_c   8.12898828
+_cell_angle_alpha   109.57555235
+_cell_angle_beta   109.55021157
+_cell_angle_gamma   109.38901081
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcFeNi(Sb6Os)2
+_chemical_formula_sum   'Ac1 Fe1 Ni1 Sb12 Os2'
+_cell_volume   411.08568797
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ac  Ac0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Ni  Ni2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.844773  0.668894  0.500963  1
+  Sb  Sb4  1  0.155227  0.331106  0.499037  1
+  Sb  Sb5  1  0.155861  0.656997  0.817905  1
+  Sb  Sb6  1  0.844139  0.343003  0.182095  1
+  Sb  Sb7  1  0.662089  0.501485  0.844439  1
+  Sb  Sb8  1  0.337911  0.498515  0.155561  1
+  Sb  Sb9  1  0.668872  0.824337  0.166728  1
+  Sb  Sb10  1  0.331128  0.175663  0.833272  1
+  Sb  Sb11  1  0.499687  0.841769  0.657269  1
+  Sb  Sb12  1  0.500313  0.158231  0.342731  1
+  Sb  Sb13  1  0.175164  0.843291  0.340687  1
+  Sb  Sb14  1  0.824836  0.156709  0.659313  1
+  Os  Os15  1  0.500000  0.500000  0.500000  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

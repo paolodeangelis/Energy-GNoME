@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_SrNi(As4Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.42593428
+_cell_length_b   7.47085860
+_cell_length_c   7.42593376
+_cell_angle_alpha   109.59382328
+_cell_angle_beta   109.34834758
+_cell_angle_gamma   109.59382491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrNi(As4Ru)3
+_chemical_formula_sum   'Sr1 Ni1 As12 Ru3'
+_cell_volume   316.65867406
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.000000  0.000000  1
+  Ni  Ni1  1  0.000000  0.500000  0.000000  1
+  As  As2  1  0.850020  0.651492  0.500537  1
+  As  As3  1  0.149980  0.348508  0.499463  1
+  As  As4  1  0.148951  0.649147  0.801644  1
+  As  As5  1  0.851049  0.350853  0.198356  1
+  As  As6  1  0.652693  0.500197  0.851049  1
+  As  As7  1  0.347307  0.499803  0.148951  1
+  As  As8  1  0.650517  0.801472  0.149980  1
+  As  As9  1  0.349483  0.198528  0.850020  1
+  As  As10  1  0.500537  0.849047  0.650517  1
+  As  As11  1  0.499463  0.150953  0.349483  1
+  As  As12  1  0.198356  0.847504  0.347307  1
+  As  As13  1  0.801644  0.152496  0.652693  1
+  Ru  Ru14  1  0.500000  0.500000  0.500000  1
+  Ru  Ru15  1  0.500000  0.000000  0.000000  1
+  Ru  Ru16  1  0.000000  0.000000  0.500000  1

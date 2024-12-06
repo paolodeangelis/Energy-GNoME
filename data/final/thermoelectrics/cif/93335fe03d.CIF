@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbTe3PdPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.44651929
+_cell_length_b   8.44651930
+_cell_length_c   8.46877354
+_cell_angle_alpha   57.11008287
+_cell_angle_beta   57.11008034
+_cell_angle_gamma   56.87760715
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbTe3PdPt
+_chemical_formula_sum   'Rb2 Te6 Pd2 Pt2'
+_cell_volume   397.99754462
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.793094  0.793094  0.797742  1
+  Rb  Rb1  1  0.206906  0.206906  0.202258  1
+  Te  Te2  1  0.766992  0.766992  0.279640  1
+  Te  Te3  1  0.280790  0.766355  0.767738  1
+  Te  Te4  1  0.766355  0.280790  0.767738  1
+  Te  Te5  1  0.719210  0.233645  0.232262  1
+  Te  Te6  1  0.233008  0.233008  0.720360  1
+  Te  Te7  1  0.233645  0.719210  0.232262  1
+  Pd  Pd8  1  0.500000  0.000000  0.500000  1
+  Pd  Pd9  1  0.000000  0.500000  0.500000  1
+  Pt  Pt10  1  0.000000  0.000000  0.000000  1
+  Pt  Pt11  1  0.500000  0.500000  0.000000  1

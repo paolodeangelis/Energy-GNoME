@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ti10Sn5BiSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.20311071
+_cell_length_b   8.20311006
+_cell_length_c   5.53812014
+_cell_angle_alpha   90.03672291
+_cell_angle_beta   90.03672880
+_cell_angle_gamma   119.82750819
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10Sn5BiSe
+_chemical_formula_sum   'Ti10 Sn5 Bi1 Se1'
+_cell_volume   323.29724594
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.668675  0.332936  0.501935  1
+  Ti  Ti1  1  0.332936  0.668675  0.501935  1
+  Ti  Ti2  1  0.332918  0.669008  0.997772  1
+  Ti  Ti3  1  0.669008  0.332918  0.997772  1
+  Ti  Ti4  1  0.747706  0.747706  0.235277  1
+  Ti  Ti5  1  0.252972  0.994214  0.236106  1
+  Ti  Ti6  1  0.994214  0.252972  0.236106  1
+  Ti  Ti7  1  0.254601  0.254601  0.762194  1
+  Ti  Ti8  1  0.744950  0.000911  0.764594  1
+  Ti  Ti9  1  0.000911  0.744950  0.764594  1
+  Sn  Sn10  1  0.606116  0.999622  0.250552  1
+  Sn  Sn11  1  0.999622  0.606116  0.250552  1
+  Sn  Sn12  1  0.610270  0.610270  0.750056  1
+  Sn  Sn13  1  0.393141  0.000614  0.749756  1
+  Sn  Sn14  1  0.000614  0.393141  0.749756  1
+  Bi  Bi15  1  0.391482  0.391482  0.250467  1
+  Se  Se16  1  0.999863  0.999863  0.500575  1

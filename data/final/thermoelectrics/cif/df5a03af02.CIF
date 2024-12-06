@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_NaSi(SbRh2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.56915100
+_cell_length_b   7.56915121
+_cell_length_c   3.85094800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000347
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSi(SbRh2)3
+_chemical_formula_sum   'Na1 Si1 Sb3 Rh6'
+_cell_volume   191.07005169
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Si  Si1  1  0.333333  0.666667  0.000000  1
+  Sb  Sb2  1  0.814257  0.185743  0.500000  1
+  Sb  Sb3  1  0.371486  0.185743  0.500000  1
+  Sb  Sb4  1  0.814257  0.628514  0.500000  1
+  Rh  Rh5  1  0.210401  0.789599  0.500000  1
+  Rh  Rh6  1  0.210401  0.420801  0.500000  1
+  Rh  Rh7  1  0.527807  0.055615  0.000000  1
+  Rh  Rh8  1  0.944385  0.472193  0.000000  1
+  Rh  Rh9  1  0.527807  0.472193  0.000000  1
+  Rh  Rh10  1  0.579199  0.789599  0.500000  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaMn(Sb4Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.17599252
+_cell_length_b   8.12825101
+_cell_length_c   8.17599339
+_cell_angle_alpha   109.35297218
+_cell_angle_beta   109.58921020
+_cell_angle_gamma   109.35297511
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMn(Sb4Ru)3
+_chemical_formula_sum   'Na1 Mn1 Sb12 Ru3'
+_cell_volume   418.87835618
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.500000  0.000000  1
+  Sb  Sb2  1  0.157966  0.818706  0.661835  1
+  Sb  Sb3  1  0.842034  0.181294  0.338165  1
+  Sb  Sb4  1  0.841335  0.503444  0.655781  1
+  Sb  Sb5  1  0.158665  0.496556  0.344219  1
+  Sb  Sb6  1  0.814445  0.662110  0.158665  1
+  Sb  Sb7  1  0.185555  0.337890  0.841335  1
+  Sb  Sb8  1  0.503868  0.660740  0.842034  1
+  Sb  Sb9  1  0.496132  0.339260  0.157966  1
+  Sb  Sb10  1  0.655781  0.152336  0.814445  1
+  Sb  Sb11  1  0.344219  0.847664  0.185555  1
+  Sb  Sb12  1  0.661835  0.843128  0.503868  1
+  Sb  Sb13  1  0.338165  0.156872  0.496132  1
+  Ru  Ru14  1  0.000000  0.000000  0.500000  1
+  Ru  Ru15  1  0.500000  0.000000  0.000000  1
+  Ru  Ru16  1  0.500000  0.500000  0.500000  1

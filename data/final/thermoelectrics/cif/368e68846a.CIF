@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ti3(NbTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.53090610
+_cell_length_b   7.53090612
+_cell_length_c   7.50648115
+_cell_angle_alpha   92.93005367
+_cell_angle_beta   94.05197464
+_cell_angle_gamma   151.47595133
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3(NbTe2)2
+_chemical_formula_sum   'Ti3 Nb2 Te4'
+_cell_volume   196.97832763
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.374645  0.309908  0.684553  1
+  Ti  Ti1  1  0.316231  0.618953  0.935184  1
+  Ti  Ti2  1  0.683188  0.382959  0.066148  1
+  Nb  Nb3  1  0.000881  0.000182  0.001063  1
+  Nb  Nb4  1  0.621104  0.684269  0.305373  1
+  Te  Te5  1  0.719063  0.942755  0.661818  1
+  Te  Te6  1  0.288187  0.057110  0.345297  1
+  Te  Te7  1  0.059486  0.720459  0.779946  1
+  Te  Te8  1  0.937215  0.283405  0.220619  1

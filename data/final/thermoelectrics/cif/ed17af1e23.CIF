@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Nd4Ho(SnSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.94201000
+_cell_length_b   8.94201110
+_cell_length_c   8.34441500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   124.72382217
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd4Ho(SnSb)2
+_chemical_formula_sum   'Nd8 Ho2 Sn4 Sb4'
+_cell_volume   548.38943199
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.031077  0.306138  0.334818  1
+  Nd  Nd1  1  0.968923  0.693862  0.665182  1
+  Nd  Nd2  1  0.468923  0.193862  0.834818  1
+  Nd  Nd3  1  0.806138  0.531077  0.165182  1
+  Nd  Nd4  1  0.531077  0.806138  0.165182  1
+  Nd  Nd5  1  0.193862  0.468923  0.834818  1
+  Nd  Nd6  1  0.693862  0.968923  0.665182  1
+  Nd  Nd7  1  0.306138  0.031077  0.334818  1
+  Ho  Ho8  1  0.000000  0.000000  0.000000  1
+  Ho  Ho9  1  0.500000  0.500000  0.500000  1
+  Sn  Sn10  1  0.366454  0.366454  0.133717  1
+  Sn  Sn11  1  0.633546  0.633546  0.866283  1
+  Sn  Sn12  1  0.133546  0.133546  0.633717  1
+  Sn  Sn13  1  0.866454  0.866454  0.366283  1
+  Sb  Sb14  1  0.800838  0.199162  0.000000  1
+  Sb  Sb15  1  0.199162  0.800838  0.000000  1
+  Sb  Sb16  1  0.699162  0.300838  0.500000  1
+  Sb  Sb17  1  0.300838  0.699162  0.500000  1

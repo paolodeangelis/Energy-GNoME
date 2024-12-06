@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KLu(AgTe2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.01055058
+_cell_length_b   12.01055055
+_cell_length_c   11.00282800
+_cell_angle_alpha   90.13345834
+_cell_angle_beta   90.13345834
+_cell_angle_gamma   14.87961710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLu(AgTe2)4
+_chemical_formula_sum   'K1 Lu1 Ag4 Te8'
+_cell_volume   407.57295348
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.500000  0.500000  0.500000  1
+  Ag  Ag2  1  0.243682  0.243682  0.120803  1
+  Ag  Ag3  1  0.846608  0.846608  0.458028  1
+  Ag  Ag4  1  0.153392  0.153392  0.541972  1
+  Ag  Ag5  1  0.756318  0.756318  0.879197  1
+  Te  Te6  1  0.918184  0.918184  0.662842  1
+  Te  Te7  1  0.081816  0.081816  0.337158  1
+  Te  Te8  1  0.578698  0.578698  0.724276  1
+  Te  Te9  1  0.421302  0.421302  0.275724  1
+  Te  Te10  1  0.649218  0.649218  0.001563  1
+  Te  Te11  1  0.350782  0.350782  0.998437  1
+  Te  Te12  1  0.741584  0.741584  0.343802  1
+  Te  Te13  1  0.258416  0.258416  0.656198  1

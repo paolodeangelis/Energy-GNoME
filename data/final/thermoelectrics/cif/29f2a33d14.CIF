@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_KTl3(In3Te5)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.13733719
+_cell_length_b   11.13733610
+_cell_length_c   11.13733800
+_cell_angle_alpha   89.66165601
+_cell_angle_beta   89.66165090
+_cell_angle_gamma   89.66165479
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KTl3(In3Te5)4
+_chemical_formula_sum   'K1 Tl3 In12 Te20'
+_cell_volume   1381.40640675
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.500000  0.500000  0.500000  1
+  Tl  Tl1  1  0.252988  0.000000  0.747012  1
+  Tl  Tl2  1  0.747012  0.252988  0.000000  1
+  Tl  Tl3  1  0.000000  0.747012  0.252988  1
+  In  In4  1  0.841278  0.877639  0.573628  1
+  In  In5  1  0.573628  0.841278  0.877639  1
+  In  In6  1  0.877639  0.573628  0.841278  1
+  In  In7  1  0.158722  0.426372  0.122361  1
+  In  In8  1  0.122361  0.158722  0.426372  1
+  In  In9  1  0.426372  0.122361  0.158722  1
+  In  In10  1  0.746619  0.166656  0.340480  1
+  In  In11  1  0.340480  0.746619  0.166656  1
+  In  In12  1  0.166656  0.340480  0.746619  1
+  In  In13  1  0.253381  0.659520  0.833344  1
+  In  In14  1  0.833344  0.253381  0.659520  1
+  In  In15  1  0.659520  0.833344  0.253381  1
+  Te  Te16  1  0.170957  0.829043  0.000000  1
+  Te  Te17  1  0.829043  0.000000  0.170957  1
+  Te  Te18  1  0.170114  0.170114  0.170114  1
+  Te  Te19  1  0.829886  0.829886  0.829886  1
+  Te  Te20  1  0.000000  0.170957  0.829043  1
+  Te  Te21  1  0.917812  0.500000  0.082188  1
+  Te  Te22  1  0.082188  0.917812  0.500000  1
+  Te  Te23  1  0.500000  0.082188  0.917812  1
+  Te  Te24  1  0.754772  0.684802  0.434770  1
+  Te  Te25  1  0.434770  0.754772  0.684802  1
+  Te  Te26  1  0.684802  0.434770  0.754772  1
+  Te  Te27  1  0.245228  0.565230  0.315198  1
+  Te  Te28  1  0.315198  0.245228  0.565230  1
+  Te  Te29  1  0.565230  0.315198  0.245228  1
+  Te  Te30  1  0.671751  0.071863  0.571037  1
+  Te  Te31  1  0.571037  0.671751  0.071863  1
+  Te  Te32  1  0.071863  0.571037  0.671751  1
+  Te  Te33  1  0.328249  0.428963  0.928137  1
+  Te  Te34  1  0.928137  0.328249  0.428963  1
+  Te  Te35  1  0.428963  0.928137  0.328249  1

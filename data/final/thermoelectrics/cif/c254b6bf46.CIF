@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NbTc(Te4I)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.98559623
+_cell_length_b   8.33237711
+_cell_length_c   8.91709626
+_cell_angle_alpha   115.06863006
+_cell_angle_beta   102.35528367
+_cell_angle_gamma   101.18727267
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbTc(Te4I)2
+_chemical_formula_sum   'Nb1 Tc1 Te8 I2'
+_cell_volume   434.83437786
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.221498  0.000518  0.998974  1
+  Tc  Tc1  1  0.777856  0.000144  0.999750  1
+  Te  Te2  1  0.113835  0.320798  0.173998  1
+  Te  Te3  1  0.021481  0.889140  0.197951  1
+  Te  Te4  1  0.398740  0.860218  0.715212  1
+  Te  Te5  1  0.616840  0.139584  0.283488  1
+  Te  Te6  1  0.871021  0.679745  0.825757  1
+  Te  Te7  1  0.550583  0.232543  0.950702  1
+  Te  Te8  1  0.467827  0.767080  0.046291  1
+  Te  Te9  1  0.964736  0.115021  0.802659  1
+  I  I10  1  0.242943  0.384929  0.576082  1
+  I  I11  1  0.752641  0.610279  0.429136  1

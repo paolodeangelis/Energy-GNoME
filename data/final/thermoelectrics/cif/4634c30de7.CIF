@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbMg(In4Rh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.11860872
+_cell_length_b   9.11860771
+_cell_length_c   4.18789400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.66129849
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMg(In4Rh)2
+_chemical_formula_sum   'Rb1 Mg1 In8 Rh2'
+_cell_volume   302.59069546
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Mg  Mg1  1  0.500000  0.500000  0.000000  1
+  In  In2  1  0.580575  0.784458  0.500000  1
+  In  In3  1  0.206208  0.793792  0.500000  1
+  In  In4  1  0.215542  0.419425  0.500000  1
+  In  In5  1  0.784458  0.580575  0.500000  1
+  In  In6  1  0.793792  0.206208  0.500000  1
+  In  In7  1  0.419425  0.215542  0.500000  1
+  In  In8  1  0.000000  0.500000  0.000000  1
+  In  In9  1  0.500000  0.000000  0.000000  1
+  Rh  Rh10  1  0.332695  0.667305  0.000000  1
+  Rh  Rh11  1  0.667305  0.332695  0.000000  1

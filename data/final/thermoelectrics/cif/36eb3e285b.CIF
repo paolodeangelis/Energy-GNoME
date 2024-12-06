@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Ca2Yb3(GaSb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49000700
+_cell_length_b   12.11453725
+_cell_length_c   14.04954709
+_cell_angle_alpha   89.84369953
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Yb3(GaSb3)2
+_chemical_formula_sum   'Ca4 Yb6 Ga4 Sb12'
+_cell_volume   764.21323739
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.000000  0.500000  1
+  Ca  Ca1  1  0.500000  0.500000  0.000000  1
+  Ca  Ca2  1  0.500000  0.408612  0.247028  1
+  Ca  Ca3  1  0.500000  0.591388  0.752972  1
+  Yb  Yb4  1  0.500000  0.670939  0.481325  1
+  Yb  Yb5  1  0.500000  0.329061  0.518675  1
+  Yb  Yb6  1  0.500000  0.829443  0.981489  1
+  Yb  Yb7  1  0.500000  0.170557  0.018511  1
+  Yb  Yb8  1  0.500000  0.908615  0.253166  1
+  Yb  Yb9  1  0.500000  0.091385  0.746834  1
+  Ga  Ga10  1  0.000000  0.329426  0.711467  1
+  Ga  Ga11  1  0.000000  0.670574  0.288533  1
+  Ga  Ga12  1  0.000000  0.831378  0.788726  1
+  Ga  Ga13  1  0.000000  0.168622  0.211274  1
+  Sb  Sb14  1  0.000000  0.973422  0.100333  1
+  Sb  Sb15  1  0.000000  0.026578  0.899667  1
+  Sb  Sb16  1  0.000000  0.474358  0.399949  1
+  Sb  Sb17  1  0.000000  0.525642  0.600051  1
+  Sb  Sb18  1  0.500000  0.162615  0.323229  1
+  Sb  Sb19  1  0.500000  0.837385  0.676771  1
+  Sb  Sb20  1  0.500000  0.663069  0.176821  1
+  Sb  Sb21  1  0.500000  0.336931  0.823179  1
+  Sb  Sb22  1  0.000000  0.344440  0.090853  1
+  Sb  Sb23  1  0.000000  0.655560  0.909147  1
+  Sb  Sb24  1  0.000000  0.845273  0.408645  1
+  Sb  Sb25  1  0.000000  0.154727  0.591355  1

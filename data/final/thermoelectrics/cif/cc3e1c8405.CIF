@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Th3Co3SbTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.30727317
+_cell_length_b   8.29746329
+_cell_length_c   8.29746272
+_cell_angle_alpha   109.42370591
+_cell_angle_beta   109.47619919
+_cell_angle_gamma   109.47620017
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th3Co3SbTe3
+_chemical_formula_sum   'Th6 Co6 Sb2 Te6'
+_cell_volume   440.48212760
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.372773  0.245466  0.622401  1
+  Th  Th1  1  0.749179  0.876228  0.128983  1
+  Th  Th2  1  0.249179  0.628983  0.376228  1
+  Th  Th3  1  0.627802  0.375221  0.252937  1
+  Th  Th4  1  0.872773  0.122401  0.745466  1
+  Th  Th5  1  0.127802  0.752937  0.875221  1
+  Co  Co6  1  0.124295  0.875271  0.249410  1
+  Co  Co7  1  0.624295  0.749410  0.375271  1
+  Co  Co8  1  0.874833  0.249109  0.124251  1
+  Co  Co9  1  0.251166  0.126121  0.875210  1
+  Co  Co10  1  0.751166  0.375210  0.626121  1
+  Co  Co11  1  0.374833  0.624251  0.749109  1
+  Sb  Sb12  1  0.499170  0.999659  0.337753  1
+  Sb  Sb13  1  0.999170  0.837753  0.499659  1
+  Te  Te14  1  0.000748  0.342482  0.501222  1
+  Te  Te15  1  0.841740  0.501280  0.999647  1
+  Te  Te16  1  0.500748  0.001222  0.842482  1
+  Te  Te17  1  0.658293  0.658783  0.658567  1
+  Te  Te18  1  0.158293  0.158567  0.158783  1
+  Te  Te19  1  0.341740  0.499647  0.001280  1

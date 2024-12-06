@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GdCu3(NiTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.13395432
+_cell_length_b   15.13395388
+_cell_length_c   12.80417700
+_cell_angle_alpha   61.91481173
+_cell_angle_beta   61.91481330
+_cell_angle_gamma   22.30138941
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdCu3(NiTe2)2
+_chemical_formula_sum   'Gd1 Cu3 Ni2 Te4'
+_cell_volume   976.38030801
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.501632  0.501632  0.499133  1
+  Cu  Cu1  1  0.000307  0.000307  0.999736  1
+  Cu  Cu2  1  0.805717  0.805717  0.855632  1
+  Cu  Cu3  1  0.303903  0.303903  0.361279  1
+  Ni  Ni4  1  0.193409  0.193409  0.145265  1
+  Ni  Ni5  1  0.694852  0.694852  0.639168  1
+  Te  Te6  1  0.878771  0.878771  0.442682  1
+  Te  Te7  1  0.384000  0.384000  0.958727  1
+  Te  Te8  1  0.120970  0.120970  0.559071  1
+  Te  Te9  1  0.616438  0.616438  0.039308  1

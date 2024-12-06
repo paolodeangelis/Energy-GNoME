@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LaMn2(Sb6Pt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.13112485
+_cell_length_b   8.13892503
+_cell_length_c   8.13112639
+_cell_angle_alpha   109.41227021
+_cell_angle_beta   109.55206753
+_cell_angle_gamma   109.41062437
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaMn2(Sb6Pt)2
+_chemical_formula_sum   'La1 Mn2 Sb12 Pt2'
+_cell_volume   414.43182007
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.000000  0.500000  1
+  Mn  Mn2  1  0.500000  0.000000  0.000000  1
+  Sb  Sb3  1  0.327579  0.162422  0.834843  1
+  Sb  Sb4  1  0.672421  0.837578  0.165157  1
+  Sb  Sb5  1  0.653327  0.503099  0.849773  1
+  Sb  Sb6  1  0.346673  0.496901  0.150227  1
+  Sb  Sb7  1  0.179542  0.851322  0.346676  1
+  Sb  Sb8  1  0.820458  0.148678  0.653324  1
+  Sb  Sb9  1  0.504646  0.851322  0.671780  1
+  Sb  Sb10  1  0.495354  0.148678  0.328220  1
+  Sb  Sb11  1  0.830960  0.327751  0.179755  1
+  Sb  Sb12  1  0.169040  0.672249  0.820245  1
+  Sb  Sb13  1  0.852003  0.672249  0.503209  1
+  Sb  Sb14  1  0.147997  0.327751  0.496791  1
+  Pt  Pt15  1  0.000000  0.500000  0.000000  1
+  Pt  Pt16  1  0.500000  0.500000  0.500000  1

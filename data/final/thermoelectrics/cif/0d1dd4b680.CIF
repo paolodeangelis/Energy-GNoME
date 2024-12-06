@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Cu2SnSbRh4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39904400
+_cell_length_b   6.21274100
+_cell_length_c   13.21566600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00239047
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu2SnSbRh4
+_chemical_formula_sum   'Cu6 Sn3 Sb3 Rh12'
+_cell_volume   361.18575098
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.999883  0.499999  0.998280  1
+  Cu  Cu1  1  0.499925  0.000000  0.166705  1
+  Cu  Cu2  1  0.000267  0.499999  0.335326  1
+  Cu  Cu3  1  0.500067  0.000000  0.501549  1
+  Cu  Cu4  1  0.000382  0.499999  0.666740  1
+  Cu  Cu5  1  0.499809  0.000000  0.831662  1
+  Sn  Sn6  1  0.500020  0.499999  0.500866  1
+  Sn  Sn7  1  0.999934  0.000000  0.666656  1
+  Sn  Sn8  1  0.499671  0.499999  0.832404  1
+  Sb  Sb9  1  0.999795  0.000000  0.998892  1
+  Sb  Sb10  1  0.500159  0.499999  0.166701  1
+  Sb  Sb11  1  0.000209  0.000000  0.334403  1
+  Rh  Rh12  1  0.499738  0.247015  0.003142  1
+  Rh  Rh13  1  0.499738  0.752984  0.003142  1
+  Rh  Rh14  1  0.000034  0.250734  0.166646  1
+  Rh  Rh15  1  0.000034  0.749266  0.166646  1
+  Rh  Rh16  1  0.500189  0.247052  0.330206  1
+  Rh  Rh17  1  0.500189  0.752947  0.330206  1
+  Rh  Rh18  1  0.000168  0.248412  0.497113  1
+  Rh  Rh19  1  0.000168  0.751588  0.497113  1
+  Rh  Rh20  1  0.499988  0.248710  0.666626  1
+  Rh  Rh21  1  0.499988  0.751289  0.666626  1
+  Rh  Rh22  1  0.999814  0.248482  0.836174  1
+  Rh  Rh23  1  0.999814  0.751518  0.836174  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CrGaTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10490400
+_cell_length_b   11.24712500
+_cell_length_c   13.59164900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrGaTe3
+_chemical_formula_sum   'Cr4 Ga4 Te12'
+_cell_volume   627.50425821
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.250000  0.404990  0.610747  1
+  Cr  Cr1  1  0.750000  0.595010  0.389253  1
+  Cr  Cr2  1  0.250000  0.904990  0.889253  1
+  Cr  Cr3  1  0.750000  0.095010  0.110747  1
+  Ga  Ga4  1  0.750000  0.266648  0.793795  1
+  Ga  Ga5  1  0.250000  0.733352  0.206205  1
+  Ga  Ga6  1  0.750000  0.766648  0.706205  1
+  Ga  Ga7  1  0.250000  0.233352  0.293795  1
+  Te  Te8  1  0.250000  0.930137  0.093307  1
+  Te  Te9  1  0.750000  0.069863  0.906693  1
+  Te  Te10  1  0.250000  0.430137  0.406693  1
+  Te  Te11  1  0.750000  0.569863  0.593307  1
+  Te  Te12  1  0.750000  0.086648  0.317522  1
+  Te  Te13  1  0.250000  0.913352  0.682478  1
+  Te  Te14  1  0.750000  0.586648  0.182478  1
+  Te  Te15  1  0.250000  0.413352  0.817522  1
+  Te  Te16  1  0.250000  0.260864  0.102504  1
+  Te  Te17  1  0.750000  0.739136  0.897496  1
+  Te  Te18  1  0.250000  0.760864  0.397496  1
+  Te  Te19  1  0.750000  0.239136  0.602504  1

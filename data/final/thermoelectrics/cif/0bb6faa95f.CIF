@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Dy2ErCu4(SiSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18504955
+_cell_length_b   8.18505004
+_cell_length_c   8.18504847
+_cell_angle_alpha   149.31412400
+_cell_angle_beta   132.27067352
+_cell_angle_gamma   57.81789284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2ErCu4(SiSn)2
+_chemical_formula_sum   'Dy2 Er1 Cu4 Si2 Sn2'
+_cell_volume   205.54640444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.124439  0.124439  0.000000  1
+  Dy  Dy1  1  0.875561  0.875561  0.000000  1
+  Er  Er2  1  0.500000  0.000000  0.500000  1
+  Cu  Cu3  1  0.463690  0.652666  0.811024  1
+  Cu  Cu4  1  0.841643  0.652666  0.188976  1
+  Cu  Cu5  1  0.158357  0.347334  0.811024  1
+  Cu  Cu6  1  0.536310  0.347334  0.188976  1
+  Si  Si7  1  0.181420  0.500000  0.681420  1
+  Si  Si8  1  0.818580  0.500000  0.318580  1
+  Sn  Sn9  1  0.717968  0.217968  0.500000  1
+  Sn  Sn10  1  0.282032  0.782032  0.500000  1

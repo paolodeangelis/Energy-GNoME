@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ho5(GaTe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.59983900
+_cell_length_b   8.59984051
+_cell_length_c   7.88286300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.43053619
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho5(GaTe)2
+_chemical_formula_sum   'Ho10 Ga4 Te4'
+_cell_volume   475.03522678
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.041164  0.295921  0.331707  1
+  Ho  Ho1  1  0.958836  0.704079  0.668293  1
+  Ho  Ho2  1  0.458836  0.204079  0.831707  1
+  Ho  Ho3  1  0.795921  0.541164  0.168293  1
+  Ho  Ho4  1  0.541164  0.795921  0.168293  1
+  Ho  Ho5  1  0.204079  0.458836  0.831707  1
+  Ho  Ho6  1  0.704079  0.958836  0.668293  1
+  Ho  Ho7  1  0.295921  0.041164  0.331707  1
+  Ho  Ho8  1  0.000000  0.000000  0.000000  1
+  Ho  Ho9  1  0.500000  0.500000  0.500000  1
+  Ga  Ga10  1  0.373193  0.373193  0.125755  1
+  Ga  Ga11  1  0.626807  0.626807  0.874245  1
+  Ga  Ga12  1  0.126807  0.126807  0.625755  1
+  Ga  Ga13  1  0.873193  0.873193  0.374245  1
+  Te  Te14  1  0.794799  0.205201  0.000000  1
+  Te  Te15  1  0.205201  0.794799  0.000000  1
+  Te  Te16  1  0.705201  0.294799  0.500000  1
+  Te  Te17  1  0.294799  0.705201  0.500000  1

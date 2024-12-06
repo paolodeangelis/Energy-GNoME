@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrCaCdBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.86583498
+_cell_length_b   7.48920100
+_cell_length_c   9.62628862
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   75.36593400
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCaCdBi2
+_chemical_formula_sum   'Sr2 Ca2 Cd2 Bi4'
+_cell_volume   339.41361278
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.302138  0.527214  0.396233  1
+  Sr  Sr1  1  0.697861  0.027215  0.603768  1
+  Ca  Ca2  1  0.480302  0.220718  0.039209  1
+  Ca  Ca3  1  0.519698  0.720718  0.960791  1
+  Cd  Cd4  1  0.903575  0.894623  0.192828  1
+  Cd  Cd5  1  0.096425  0.394623  0.807172  1
+  Bi  Bi6  1  0.935189  0.496318  0.130502  1
+  Bi  Bi7  1  0.326638  0.015588  0.347396  1
+  Bi  Bi8  1  0.673361  0.515588  0.652604  1
+  Bi  Bi9  1  0.064811  0.996317  0.869498  1

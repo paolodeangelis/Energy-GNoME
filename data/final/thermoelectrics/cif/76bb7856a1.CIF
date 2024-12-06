@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MnNb2Te10Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28905865
+_cell_length_b   7.28905802
+_cell_length_c   15.71934444
+_cell_angle_alpha   89.93969358
+_cell_angle_beta   90.06030645
+_cell_angle_gamma   150.61188015
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnNb2Te10Pd
+_chemical_formula_sum   'Mn1 Nb2 Te10 Pd1'
+_cell_volume   409.83922979
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.000000  0.000000  0.000000  1
+  Nb  Nb1  1  0.489147  0.510853  0.246139  1
+  Nb  Nb2  1  0.510853  0.489147  0.753861  1
+  Te  Te3  1  0.394820  0.605180  0.411954  1
+  Te  Te4  1  0.605180  0.394820  0.588046  1
+  Te  Te5  1  0.609256  0.390744  0.921668  1
+  Te  Te6  1  0.390744  0.609256  0.078332  1
+  Te  Te7  1  0.834405  0.165595  0.252841  1
+  Te  Te8  1  0.165595  0.834405  0.747159  1
+  Te  Te9  1  0.904759  0.095241  0.650373  1
+  Te  Te10  1  0.095241  0.904759  0.349627  1
+  Te  Te11  1  0.100606  0.899394  0.146057  1
+  Te  Te12  1  0.899394  0.100606  0.853943  1
+  Pd  Pd13  1  0.000000  0.000000  0.500000  1

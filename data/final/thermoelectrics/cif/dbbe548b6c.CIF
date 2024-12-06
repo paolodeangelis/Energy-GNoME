@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CaNi(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.90672115
+_cell_length_b   6.90672168
+_cell_length_c   6.89201437
+_cell_angle_alpha   119.91116002
+_cell_angle_beta   119.91116044
+_cell_angle_gamma   89.41694466
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaNi(Sn2Ru)3
+_chemical_formula_sum   'Ca1 Ni1 Sn6 Ru3'
+_cell_volume   234.24381751
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.992726  0.992726  0.986027  1
+  Ni  Ni1  1  0.412798  0.412798  0.664183  1
+  Sn  Sn2  1  0.999153  0.496304  0.499710  1
+  Sn  Sn3  1  0.471018  0.471018  0.360454  1
+  Sn  Sn4  1  0.531268  0.885702  0.001811  1
+  Sn  Sn5  1  0.885702  0.531268  0.001811  1
+  Sn  Sn6  1  0.116278  0.116278  0.653467  1
+  Sn  Sn7  1  0.496304  0.999153  0.499710  1
+  Ru  Ru8  1  0.750655  0.750655  0.340967  1
+  Ru  Ru9  1  0.257222  0.586876  0.995928  1
+  Ru  Ru10  1  0.586876  0.257222  0.995928  1

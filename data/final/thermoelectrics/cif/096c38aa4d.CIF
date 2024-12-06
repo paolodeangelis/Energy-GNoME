@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_InGaCu12(WSe8)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98582000
+_cell_length_b   7.98581951
+_cell_length_c   13.20635200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999375
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InGaCu12(WSe8)2
+_chemical_formula_sum   'In1 Ga1 Cu12 W2 Se16'
+_cell_volume   729.37779061
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.000000  0.000000  0.852903  1
+  Ga  Ga1  1  0.000000  0.000000  0.353020  1
+  Cu  Cu2  1  0.833504  0.667009  0.105762  1
+  Cu  Cu3  1  0.501113  0.498887  0.355178  1
+  Cu  Cu4  1  0.000377  0.500189  0.856093  1
+  Cu  Cu5  1  0.833504  0.166496  0.105762  1
+  Cu  Cu6  1  0.499811  0.500189  0.856093  1
+  Cu  Cu7  1  0.165108  0.330215  0.602263  1
+  Cu  Cu8  1  0.501113  0.002226  0.355178  1
+  Cu  Cu9  1  0.997774  0.498887  0.355178  1
+  Cu  Cu10  1  0.165108  0.834892  0.602263  1
+  Cu  Cu11  1  0.499811  0.999623  0.856093  1
+  Cu  Cu12  1  0.669785  0.834892  0.602263  1
+  Cu  Cu13  1  0.332991  0.166496  0.105762  1
+  W  W14  1  0.333333  0.666667  0.478918  1
+  W  W15  1  0.666667  0.333333  0.979645  1
+  Se  Se16  1  0.000000  0.000000  0.049975  1
+  Se  Se17  1  0.338185  0.169092  0.289971  1
+  Se  Se18  1  0.830908  0.169092  0.289971  1
+  Se  Se19  1  0.004584  0.502293  0.539441  1
+  Se  Se20  1  0.830908  0.661815  0.289971  1
+  Se  Se21  1  0.666667  0.333333  0.797210  1
+  Se  Se22  1  0.177260  0.354519  0.785127  1
+  Se  Se23  1  0.497707  0.502293  0.539441  1
+  Se  Se24  1  0.000000  0.000000  0.539886  1
+  Se  Se25  1  0.333333  0.666667  0.296942  1
+  Se  Se26  1  0.995190  0.497594  0.040667  1
+  Se  Se27  1  0.497707  0.995416  0.539441  1
+  Se  Se28  1  0.177260  0.822740  0.785127  1
+  Se  Se29  1  0.645481  0.822740  0.785127  1
+  Se  Se30  1  0.502406  0.004810  0.040667  1
+  Se  Se31  1  0.502406  0.497594  0.040667  1

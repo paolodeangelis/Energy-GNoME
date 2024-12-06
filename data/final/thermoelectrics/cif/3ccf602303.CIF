@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_YbCo2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.08182928
+_cell_length_b   8.08182954
+_cell_length_c   8.01589258
+_cell_angle_alpha   109.58151825
+_cell_angle_beta   109.47206246
+_cell_angle_gamma   109.69172415
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbCo2(Sb6Os)2
+_chemical_formula_sum   'Yb1 Co2 Sb12 Os2'
+_cell_volume   401.38192612
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.500000  0.000000  0.000000  1
+  Co  Co2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.843542  0.659884  0.503426  1
+  Sb  Sb4  1  0.156458  0.340116  0.496574  1
+  Sb  Sb5  1  0.160040  0.665427  0.825468  1
+  Sb  Sb6  1  0.839960  0.334573  0.174532  1
+  Sb  Sb7  1  0.668294  0.504166  0.847238  1
+  Sb  Sb8  1  0.331706  0.495834  0.152762  1
+  Sb  Sb9  1  0.656928  0.821057  0.152762  1
+  Sb  Sb10  1  0.343072  0.178943  0.847238  1
+  Sb  Sb11  1  0.504331  0.846227  0.667616  1
+  Sb  Sb12  1  0.495669  0.153773  0.332384  1
+  Sb  Sb13  1  0.178610  0.836716  0.332384  1
+  Sb  Sb14  1  0.821390  0.163284  0.667616  1
+  Os  Os15  1  0.500000  0.500000  0.500000  1
+  Os  Os16  1  0.000000  0.000000  0.500000  1

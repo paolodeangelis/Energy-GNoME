@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_NaEu4(InSb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62296200
+_cell_length_b   12.30800100
+_cell_length_c   14.51448400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaEu4(InSb3)2
+_chemical_formula_sum   'Na2 Eu8 In4 Sb12'
+_cell_volume   825.86573454
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Na  Na1  1  0.000000  0.500000  0.500000  1
+  Eu  Eu2  1  0.000000  0.674415  0.978996  1
+  Eu  Eu3  1  0.000000  0.825585  0.478996  1
+  Eu  Eu4  1  0.000000  0.411289  0.744426  1
+  Eu  Eu5  1  0.000000  0.911289  0.755574  1
+  Eu  Eu6  1  0.000000  0.588711  0.255574  1
+  Eu  Eu7  1  0.000000  0.174415  0.521004  1
+  Eu  Eu8  1  0.000000  0.088711  0.244426  1
+  Eu  Eu9  1  0.000000  0.325585  0.021004  1
+  In  In10  1  0.500000  0.666410  0.784157  1
+  In  In11  1  0.500000  0.166410  0.715843  1
+  In  In12  1  0.500000  0.833590  0.284157  1
+  In  In13  1  0.500000  0.333590  0.215843  1
+  Sb  Sb14  1  0.500000  0.966306  0.597303  1
+  Sb  Sb15  1  0.500000  0.848633  0.906924  1
+  Sb  Sb16  1  0.000000  0.662459  0.666551  1
+  Sb  Sb17  1  0.500000  0.466306  0.902697  1
+  Sb  Sb18  1  0.500000  0.651367  0.406924  1
+  Sb  Sb19  1  0.500000  0.151367  0.093076  1
+  Sb  Sb20  1  0.500000  0.033694  0.402697  1
+  Sb  Sb21  1  0.000000  0.162459  0.833449  1
+  Sb  Sb22  1  0.000000  0.837541  0.166551  1
+  Sb  Sb23  1  0.500000  0.533694  0.097303  1
+  Sb  Sb24  1  0.500000  0.348633  0.593076  1
+  Sb  Sb25  1  0.000000  0.337541  0.333449  1

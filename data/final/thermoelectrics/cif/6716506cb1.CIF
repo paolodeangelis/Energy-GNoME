@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_CaHoBi(AsRh2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.13177600
+_cell_length_b   10.13177565
+_cell_length_c   3.95969100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000114
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaHoBi(AsRh2)6
+_chemical_formula_sum   'Ca1 Ho1 Bi1 As6 Rh12'
+_cell_volume   352.01653798
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.333333  0.666667  0.246373  1
+  Ho  Ho1  1  0.666667  0.333333  0.753769  1
+  Bi  Bi2  1  0.000000  0.000000  0.500608  1
+  As  As3  1  0.407224  0.116494  0.255435  1
+  As  As4  1  0.709271  0.592776  0.255435  1
+  As  As5  1  0.883506  0.290729  0.255435  1
+  As  As6  1  0.591229  0.880989  0.743873  1
+  As  As7  1  0.289759  0.408771  0.743873  1
+  As  As8  1  0.119011  0.710241  0.743873  1
+  Rh  Rh9  1  0.450435  0.382421  0.252842  1
+  Rh  Rh10  1  0.931986  0.549565  0.252842  1
+  Rh  Rh11  1  0.617579  0.068014  0.252842  1
+  Rh  Rh12  1  0.553312  0.613862  0.747546  1
+  Rh  Rh13  1  0.060550  0.446688  0.747546  1
+  Rh  Rh14  1  0.386138  0.939450  0.747546  1
+  Rh  Rh15  1  0.158084  0.875064  0.237101  1
+  Rh  Rh16  1  0.716979  0.841916  0.237101  1
+  Rh  Rh17  1  0.124936  0.283021  0.237101  1
+  Rh  Rh18  1  0.839516  0.123426  0.762953  1
+  Rh  Rh19  1  0.283910  0.160484  0.762953  1
+  Rh  Rh20  1  0.876574  0.716090  0.762953  1

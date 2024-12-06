@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CaFeCo(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02649595
+_cell_length_b   8.09334851
+_cell_length_c   8.02705467
+_cell_angle_alpha   109.49542446
+_cell_angle_beta   109.09971471
+_cell_angle_gamma   109.62712425
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaFeCo(Sb6Os)2
+_chemical_formula_sum   'Ca1 Fe1 Co1 Sb12 Os2'
+_cell_volume   402.34880556
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Co  Co2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.836578  0.657970  0.503778  1
+  Sb  Sb4  1  0.163422  0.342030  0.496222  1
+  Sb  Sb5  1  0.154042  0.658075  0.821429  1
+  Sb  Sb6  1  0.845958  0.341925  0.178571  1
+  Sb  Sb7  1  0.665055  0.504865  0.839867  1
+  Sb  Sb8  1  0.334945  0.495135  0.160133  1
+  Sb  Sb9  1  0.659906  0.816731  0.157001  1
+  Sb  Sb10  1  0.340094  0.183269  0.842999  1
+  Sb  Sb11  1  0.503528  0.835717  0.656826  1
+  Sb  Sb12  1  0.496472  0.164283  0.343174  1
+  Sb  Sb13  1  0.178907  0.835705  0.331972  1
+  Sb  Sb14  1  0.821093  0.164295  0.668028  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.000000  0.000000  0.500000  1

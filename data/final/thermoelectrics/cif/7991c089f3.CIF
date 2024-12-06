@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_SmFe3CoSb12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.91717888
+_cell_length_b   7.93552217
+_cell_length_c   7.91718000
+_cell_angle_alpha   109.51816064
+_cell_angle_beta   109.42423650
+_cell_angle_gamma   109.51816470
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmFe3CoSb12
+_chemical_formula_sum   'Sm1 Fe3 Co1 Sb12'
+_cell_volume   382.68608868
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.500000  0.000000  0.000000  1
+  Fe  Fe3  1  0.500000  0.500000  0.500000  1
+  Co  Co4  1  0.000000  0.500000  0.000000  1
+  Sb  Sb5  1  0.162654  0.828917  0.666045  1
+  Sb  Sb6  1  0.837346  0.171083  0.333955  1
+  Sb  Sb7  1  0.664367  0.160834  0.827339  1
+  Sb  Sb8  1  0.503391  0.666262  0.837346  1
+  Sb  Sb9  1  0.666045  0.837128  0.503391  1
+  Sb  Sb10  1  0.496609  0.333738  0.162654  1
+  Sb  Sb11  1  0.335633  0.839166  0.172661  1
+  Sb  Sb12  1  0.172661  0.333496  0.837028  1
+  Sb  Sb13  1  0.827339  0.666504  0.162972  1
+  Sb  Sb14  1  0.333955  0.162872  0.496609  1
+  Sb  Sb15  1  0.837028  0.503532  0.664367  1
+  Sb  Sb16  1  0.162972  0.496468  0.335633  1

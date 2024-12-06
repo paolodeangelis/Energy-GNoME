@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2Ca(SnSb)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.57961434
+_cell_length_b   7.57961436
+_cell_length_c   9.78820390
+_cell_angle_alpha   82.56470173
+_cell_angle_beta   82.56471228
+_cell_angle_gamma   119.52769180
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Ca(SnSb)6
+_chemical_formula_sum   'Na2 Ca1 Sn6 Sb6'
+_cell_volume   472.86760210
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.666651  0.333349  0.000000  1
+  Na  Na1  1  0.333349  0.666651  0.000000  1
+  Ca  Ca2  1  0.000000  0.000000  0.000000  1
+  Sn  Sn3  1  0.542065  0.875183  0.377164  1
+  Sn  Sn4  1  0.209207  0.209207  0.376959  1
+  Sn  Sn5  1  0.875183  0.542065  0.377164  1
+  Sn  Sn6  1  0.457935  0.124817  0.622836  1
+  Sn  Sn7  1  0.124817  0.457935  0.622836  1
+  Sn  Sn8  1  0.790793  0.790793  0.623041  1
+  Sb  Sb9  1  0.405450  0.405450  0.781133  1
+  Sb  Sb10  1  0.073054  0.741181  0.780815  1
+  Sb  Sb11  1  0.741181  0.073054  0.780815  1
+  Sb  Sb12  1  0.594550  0.594550  0.218867  1
+  Sb  Sb13  1  0.258819  0.926946  0.219185  1
+  Sb  Sb14  1  0.926946  0.258819  0.219185  1

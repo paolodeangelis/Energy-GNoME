@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ca4ZnSb4Pt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66612900
+_cell_length_b   7.50313212
+_cell_length_c   7.98063191
+_cell_angle_alpha   90.64325899
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca4ZnSb4Pt3
+_chemical_formula_sum   'Ca4 Zn1 Sb4 Pt3'
+_cell_volume   279.38896220
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.750000  0.003428  0.693192  1
+  Ca  Ca1  1  0.250000  0.010405  0.308143  1
+  Ca  Ca2  1  0.750000  0.482193  0.795970  1
+  Ca  Ca3  1  0.250000  0.499233  0.205371  1
+  Zn  Zn4  1  0.250000  0.815213  0.909789  1
+  Sb  Sb5  1  0.750000  0.313989  0.407382  1
+  Sb  Sb6  1  0.250000  0.193016  0.909008  1
+  Sb  Sb7  1  0.250000  0.684918  0.588262  1
+  Sb  Sb8  1  0.750000  0.805564  0.095798  1
+  Pt  Pt9  1  0.250000  0.303197  0.583595  1
+  Pt  Pt10  1  0.750000  0.694737  0.419488  1
+  Pt  Pt11  1  0.750000  0.194106  0.084003  1

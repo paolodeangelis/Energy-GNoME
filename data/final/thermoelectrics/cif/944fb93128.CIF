@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Co2(SnS)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.51932415
+_cell_length_b   8.51932346
+_cell_length_c   8.51932486
+_cell_angle_alpha   90.04827575
+_cell_angle_beta   90.04826914
+_cell_angle_gamma   90.04827176
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2(SnS)3
+_chemical_formula_sum   'Co8 Sn12 S12'
+_cell_volume   618.32238192
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.270169  0.256812  0.762973  1
+  Co  Co1  1  0.729831  0.743188  0.237027  1
+  Co  Co2  1  0.762973  0.270169  0.256812  1
+  Co  Co3  1  0.237027  0.729831  0.743188  1
+  Co  Co4  1  0.256812  0.762973  0.270169  1
+  Co  Co5  1  0.763865  0.763865  0.763865  1
+  Co  Co6  1  0.743188  0.237027  0.729831  1
+  Co  Co7  1  0.236135  0.236135  0.236135  1
+  Sn  Sn8  1  0.000483  0.333224  0.849516  1
+  Sn  Sn9  1  0.999517  0.666776  0.150484  1
+  Sn  Sn10  1  0.499698  0.167397  0.349882  1
+  Sn  Sn11  1  0.349882  0.499698  0.167397  1
+  Sn  Sn12  1  0.167397  0.349882  0.499698  1
+  Sn  Sn13  1  0.849516  0.000483  0.333224  1
+  Sn  Sn14  1  0.500302  0.832603  0.650118  1
+  Sn  Sn15  1  0.650118  0.500302  0.832603  1
+  Sn  Sn16  1  0.666776  0.150484  0.999517  1
+  Sn  Sn17  1  0.333224  0.849516  0.000483  1
+  Sn  Sn18  1  0.150484  0.999517  0.666776  1
+  Sn  Sn19  1  0.832603  0.650118  0.500302  1
+  S  S20  1  0.997633  0.660600  0.845174  1
+  S  S21  1  0.344344  0.500490  0.839825  1
+  S  S22  1  0.339400  0.154826  0.002367  1
+  S  S23  1  0.845174  0.997633  0.660600  1
+  S  S24  1  0.660600  0.845174  0.997633  1
+  S  S25  1  0.655656  0.499510  0.160175  1
+  S  S26  1  0.160175  0.655656  0.499510  1
+  S  S27  1  0.500490  0.839825  0.344344  1
+  S  S28  1  0.499510  0.160175  0.655656  1
+  S  S29  1  0.154826  0.002367  0.339400  1
+  S  S30  1  0.839825  0.344344  0.500490  1
+  S  S31  1  0.002367  0.339400  0.154826  1

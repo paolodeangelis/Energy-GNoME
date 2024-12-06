@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_SrCu4Bi3(SeO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.14590686
+_cell_length_b   10.14590666
+_cell_length_c   10.14590654
+_cell_angle_alpha   147.72766908
+_cell_angle_beta   147.72766722
+_cell_angle_gamma   46.28755050
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCu4Bi3(SeO)4
+_chemical_formula_sum   'Sr1 Cu4 Bi3 Se4 O4'
+_cell_volume   296.71353651
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.422898  0.422898  0.000000  1
+  Cu  Cu1  1  0.500624  0.998859  0.000000  1
+  Cu  Cu2  1  0.998859  0.500624  0.000000  1
+  Cu  Cu3  1  0.500624  0.500624  0.501767  1
+  Cu  Cu4  1  0.998859  0.998859  0.498233  1
+  Bi  Bi5  1  0.940394  0.940394  0.000000  1
+  Bi  Bi6  1  0.564660  0.064660  0.500000  1
+  Bi  Bi7  1  0.064660  0.564660  0.500000  1
+  Se  Se8  1  0.668069  0.668069  0.000000  1
+  Se  Se9  1  0.169558  0.169558  0.000000  1
+  Se  Se10  1  0.330364  0.830364  0.500000  1
+  Se  Se11  1  0.830364  0.330364  0.500000  1
+  O  O12  1  0.246743  0.758295  0.000000  1
+  O  O13  1  0.758295  0.246743  0.000000  1
+  O  O14  1  0.246743  0.246743  0.488448  1
+  O  O15  1  0.758295  0.758295  0.511552  1

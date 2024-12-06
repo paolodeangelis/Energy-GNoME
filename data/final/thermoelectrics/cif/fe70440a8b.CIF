@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfMg2Zr(SbPt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.38712410
+_cell_length_b   6.38712485
+_cell_length_c   7.84088915
+_cell_angle_alpha   65.96491496
+_cell_angle_beta   65.96491345
+_cell_angle_gamma   90.00000247
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMg2Zr(SbPt)4
+_chemical_formula_sum   'Hf1 Mg2 Zr1 Sb4 Pt4'
+_cell_volume   261.47838297
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.750000  0.250000  0.500001  1
+  Mg  Mg1  1  0.000000  0.000000  0.000000  1
+  Mg  Mg2  1  0.250000  0.750000  0.500001  1
+  Zr  Zr3  1  0.499999  0.499999  0.000000  1
+  Sb  Sb4  1  0.495200  0.995201  0.009599  1
+  Sb  Sb5  1  0.754885  0.754885  0.490230  1
+  Sb  Sb6  1  0.245115  0.245115  0.509770  1
+  Sb  Sb7  1  0.004801  0.504801  0.990399  1
+  Pt  Pt8  1  0.625825  0.612474  0.251528  1
+  Pt  Pt9  1  0.122647  0.135996  0.251529  1
+  Pt  Pt10  1  0.387525  0.877354  0.748471  1
+  Pt  Pt11  1  0.864002  0.374176  0.748472  1

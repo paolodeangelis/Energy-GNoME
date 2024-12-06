@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Fe2CuSb12Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.00565362
+_cell_length_b   8.03888611
+_cell_length_c   8.02950146
+_cell_angle_alpha   109.74616881
+_cell_angle_beta   109.38445992
+_cell_angle_gamma   109.26839305
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2CuSb12Ir
+_chemical_formula_sum   'Fe2 Cu1 Sb12 Ir1'
+_cell_volume   397.86124585
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.000000  0.000000  0.500000  1
+  Fe  Fe1  1  0.000000  0.500000  0.000000  1
+  Cu  Cu2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.669685  0.852260  0.503189  1
+  Sb  Sb4  1  0.853358  0.504477  0.670054  1
+  Sb  Sb5  1  0.498360  0.652584  0.845537  1
+  Sb  Sb6  1  0.672942  0.165997  0.823520  1
+  Sb  Sb7  1  0.849665  0.176483  0.341301  1
+  Sb  Sb8  1  0.150335  0.823517  0.658699  1
+  Sb  Sb9  1  0.166006  0.325796  0.839480  1
+  Sb  Sb10  1  0.146642  0.495523  0.329946  1
+  Sb  Sb11  1  0.330315  0.147740  0.496811  1
+  Sb  Sb12  1  0.501640  0.347416  0.154463  1
+  Sb  Sb13  1  0.327058  0.834003  0.176480  1
+  Sb  Sb14  1  0.833994  0.674204  0.160520  1
+  Ir  Ir15  1  0.500000  0.000000  0.000000  1

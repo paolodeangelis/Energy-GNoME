@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaFe2(CoSb6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98226031
+_cell_length_b   7.98225984
+_cell_length_c   7.97021690
+_cell_angle_alpha   109.48561794
+_cell_angle_beta   109.47447374
+_cell_angle_gamma   109.51473763
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaFe2(CoSb6)2
+_chemical_formula_sum   'Ba1 Fe2 Co2 Sb12'
+_cell_volume   390.63547168
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.500000  0.500000  0.500000  1
+  Co  Co3  1  0.500000  0.000000  0.000000  1
+  Co  Co4  1  0.000000  0.500000  0.000000  1
+  Sb  Sb5  1  0.336979  0.175177  0.835468  1
+  Sb  Sb6  1  0.663021  0.824823  0.164532  1
+  Sb  Sb7  1  0.660292  0.498489  0.835468  1
+  Sb  Sb8  1  0.339708  0.501511  0.164532  1
+  Sb  Sb9  1  0.175111  0.838374  0.339869  1
+  Sb  Sb10  1  0.824889  0.161626  0.660131  1
+  Sb  Sb11  1  0.498505  0.835241  0.660131  1
+  Sb  Sb12  1  0.501495  0.164759  0.339869  1
+  Sb  Sb13  1  0.837516  0.339171  0.176687  1
+  Sb  Sb14  1  0.162484  0.660829  0.823313  1
+  Sb  Sb15  1  0.835928  0.662789  0.498717  1
+  Sb  Sb16  1  0.164072  0.337211  0.501283  1

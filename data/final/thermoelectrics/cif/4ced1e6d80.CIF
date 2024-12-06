@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_GeTe5Rh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03375300
+_cell_length_b   8.31138109
+_cell_length_c   13.79369479
+_cell_angle_alpha   78.12009932
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeTe5Rh2
+_chemical_formula_sum   'Ge2 Te10 Rh4'
+_cell_volume   452.54315922
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.500000  0.165373  0.687062  1
+  Ge  Ge1  1  0.500000  0.834627  0.312938  1
+  Te  Te2  1  0.000000  0.952745  0.107967  1
+  Te  Te3  1  0.000000  0.047255  0.892033  1
+  Te  Te4  1  0.000000  0.467001  0.777891  1
+  Te  Te5  1  0.000000  0.532999  0.222109  1
+  Te  Te6  1  0.500000  0.673344  0.973616  1
+  Te  Te7  1  0.500000  0.326656  0.026384  1
+  Te  Te8  1  0.500000  0.169996  0.282956  1
+  Te  Te9  1  0.500000  0.830004  0.717044  1
+  Te  Te10  1  0.000000  0.237142  0.560978  1
+  Te  Te11  1  0.000000  0.762858  0.439022  1
+  Rh  Rh12  1  0.000000  0.248832  0.151127  1
+  Rh  Rh13  1  0.000000  0.751168  0.848873  1
+  Rh  Rh14  1  0.500000  0.747332  0.150734  1
+  Rh  Rh15  1  0.500000  0.252668  0.849266  1

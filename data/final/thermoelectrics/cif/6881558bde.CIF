@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaCuNi(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.19857195
+_cell_length_b   8.17905099
+_cell_length_c   8.20870500
+_cell_angle_alpha   109.41409154
+_cell_angle_beta   109.49247014
+_cell_angle_gamma   109.33148264
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCuNi(Sb6Os)2
+_chemical_formula_sum   'Ba1 Cu1 Ni1 Sb12 Os2'
+_cell_volume   424.64983077
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Cu  Cu1  1  0.000000  0.500000  0.000000  1
+  Ni  Ni2  1  0.000000  0.000000  0.500000  1
+  Sb  Sb3  1  0.338963  0.180897  0.837232  1
+  Sb  Sb4  1  0.661037  0.819103  0.162768  1
+  Sb  Sb5  1  0.652132  0.497349  0.839416  1
+  Sb  Sb6  1  0.347868  0.502651  0.160584  1
+  Sb  Sb7  1  0.184024  0.847478  0.350605  1
+  Sb  Sb8  1  0.815976  0.152522  0.649395  1
+  Sb  Sb9  1  0.500199  0.843051  0.657606  1
+  Sb  Sb10  1  0.499801  0.156949  0.342394  1
+  Sb  Sb11  1  0.838424  0.341411  0.186681  1
+  Sb  Sb12  1  0.161576  0.658589  0.813319  1
+  Sb  Sb13  1  0.841625  0.660666  0.498767  1
+  Sb  Sb14  1  0.158375  0.339334  0.501233  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.500000  0.500000  0.500000  1

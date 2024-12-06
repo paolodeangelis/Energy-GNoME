@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LaPrZn2(Cd2As3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34050300
+_cell_length_b   4.34246626
+_cell_length_c   22.13747600
+_cell_angle_alpha   90.00044314
+_cell_angle_beta   90.00008618
+_cell_angle_gamma   119.98168356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaPrZn2(Cd2As3)2
+_chemical_formula_sum   'La1 Pr1 Zn2 Cd4 As6'
+_cell_volume   361.42265820
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.998730  0.000847  0.500013  1
+  Pr  Pr1  1  0.998747  0.000818  0.999987  1
+  Zn  Zn2  1  0.630076  0.360699  0.750001  1
+  Zn  Zn3  1  0.270305  0.631316  0.249999  1
+  Cd  Cd4  1  0.670074  0.336729  0.128504  1
+  Cd  Cd5  1  0.335446  0.666245  0.871485  1
+  Cd  Cd6  1  0.335432  0.666249  0.628542  1
+  Cd  Cd7  1  0.670057  0.336723  0.371469  1
+  As  As8  1  0.666822  0.333848  0.578707  1
+  As  As9  1  0.333862  0.668624  0.421310  1
+  As  As10  1  0.333865  0.668624  0.078632  1
+  As  As11  1  0.666826  0.333857  0.921351  1
+  As  As12  1  0.294038  0.696428  0.749998  1
+  As  As13  1  0.598615  0.295092  0.250002  1

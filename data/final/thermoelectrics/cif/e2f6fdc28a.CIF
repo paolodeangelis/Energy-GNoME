@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10NiBi6As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.83979800
+_cell_length_b   8.83979832
+_cell_length_c   5.95293400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999881
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10NiBi6As
+_chemical_formula_sum   'Zr10 Ni1 Bi6 As1'
+_cell_volume   402.85281443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.744975  0.000000  0.243598  1
+  Zr  Zr1  1  0.000000  0.744975  0.243598  1
+  Zr  Zr2  1  0.255025  0.255025  0.243598  1
+  Zr  Zr3  1  0.255025  0.000000  0.756402  1
+  Zr  Zr4  1  0.000000  0.255025  0.756402  1
+  Zr  Zr5  1  0.744975  0.744975  0.756402  1
+  Zr  Zr6  1  0.333333  0.666667  0.500000  1
+  Zr  Zr7  1  0.666667  0.333333  0.500000  1
+  Zr  Zr8  1  0.666667  0.333333  0.000000  1
+  Zr  Zr9  1  0.333333  0.666667  0.000000  1
+  Ni  Ni10  1  0.000000  0.000000  0.000000  1
+  Bi  Bi11  1  0.391911  0.000000  0.250420  1
+  Bi  Bi12  1  0.000000  0.391911  0.250420  1
+  Bi  Bi13  1  0.608089  0.608089  0.250420  1
+  Bi  Bi14  1  0.608089  0.000000  0.749580  1
+  Bi  Bi15  1  0.000000  0.608089  0.749580  1
+  Bi  Bi16  1  0.391911  0.391911  0.749580  1
+  As  As17  1  0.000000  0.000000  0.500000  1

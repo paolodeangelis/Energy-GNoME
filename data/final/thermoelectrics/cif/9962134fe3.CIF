@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ta2Zn(CoSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29765898
+_cell_length_b   7.29765864
+_cell_length_c   7.26563696
+_cell_angle_alpha   99.59542130
+_cell_angle_beta   99.59541825
+_cell_angle_gamma   119.93397211
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2Zn(CoSb)3
+_chemical_formula_sum   'Ta4 Zn2 Co6 Sb6'
+_cell_volume   316.17699381
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.001628  0.499397  0.498571  1
+  Ta  Ta1  1  0.330279  0.164348  0.498407  1
+  Ta  Ta2  1  0.499397  0.001628  0.998570  1
+  Ta  Ta3  1  0.164348  0.330279  0.998407  1
+  Zn  Zn4  1  0.838148  0.667714  0.004432  1
+  Zn  Zn5  1  0.667715  0.838149  0.504431  1
+  Co  Co6  1  0.276354  0.442766  0.368390  1
+  Co  Co7  1  0.621837  0.137124  0.368850  1
+  Co  Co8  1  0.975907  0.793685  0.385442  1
+  Co  Co9  1  0.442766  0.276354  0.868390  1
+  Co  Co10  1  0.137123  0.621837  0.868850  1
+  Co  Co11  1  0.793685  0.975907  0.885444  1
+  Sb  Sb12  1  0.254009  0.749606  0.248389  1
+  Sb  Sb13  1  0.588668  0.430728  0.248667  1
+  Sb  Sb14  1  0.908213  0.069587  0.253853  1
+  Sb  Sb15  1  0.749607  0.254010  0.748389  1
+  Sb  Sb16  1  0.430729  0.588669  0.748667  1
+  Sb  Sb17  1  0.069587  0.908213  0.753853  1

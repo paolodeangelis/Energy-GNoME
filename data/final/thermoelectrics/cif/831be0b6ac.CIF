@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sc3Pa(AgTe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.59109070
+_cell_length_b   8.59109059
+_cell_length_c   8.69886074
+_cell_angle_alpha   119.59101699
+_cell_angle_beta   119.59101579
+_cell_angle_gamma   59.99999691
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc3Pa(AgTe4)2
+_chemical_formula_sum   'Sc3 Pa1 Ag2 Te8'
+_cell_volume   456.77382382
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.500000  0.500000  0.500000  1
+  Sc  Sc1  1  0.500000  0.000000  0.500000  1
+  Sc  Sc2  1  0.000000  0.500000  0.500000  1
+  Pa  Pa3  1  0.500000  0.500000  0.000000  1
+  Ag  Ag4  1  0.869642  0.869642  0.108926  1
+  Ag  Ag5  1  0.130357  0.130357  0.891074  1
+  Te  Te6  1  0.747149  0.747149  0.263794  1
+  Te  Te7  1  0.747151  0.269495  0.263795  1
+  Te  Te8  1  0.269495  0.747151  0.263795  1
+  Te  Te9  1  0.259755  0.259755  0.279264  1
+  Te  Te10  1  0.740245  0.740245  0.720735  1
+  Te  Te11  1  0.730506  0.252850  0.736205  1
+  Te  Te12  1  0.252850  0.730506  0.736205  1
+  Te  Te13  1  0.252851  0.252851  0.736205  1

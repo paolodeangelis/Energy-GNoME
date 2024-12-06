@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Li2Ca4(ZnAs2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.70731871
+_cell_length_b   9.70731921
+_cell_length_c   15.50969400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   154.29490648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Ca4(ZnAs2)3
+_chemical_formula_sum   'Li4 Ca8 Zn6 As12'
+_cell_volume   633.91421492
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.849674  0.150326  0.250000  1
+  Li  Li1  1  0.150326  0.849674  0.750000  1
+  Li  Li2  1  0.563342  0.436658  0.250000  1
+  Li  Li3  1  0.436658  0.563342  0.750000  1
+  Ca  Ca4  1  0.984003  0.015997  0.378293  1
+  Ca  Ca5  1  0.015997  0.984003  0.621707  1
+  Ca  Ca6  1  0.984003  0.015997  0.121707  1
+  Ca  Ca7  1  0.015997  0.984003  0.878293  1
+  Ca  Ca8  1  0.825816  0.174184  0.929679  1
+  Ca  Ca9  1  0.174184  0.825816  0.070321  1
+  Ca  Ca10  1  0.825816  0.174184  0.570321  1
+  Ca  Ca11  1  0.174184  0.825816  0.429679  1
+  Zn  Zn12  1  0.351358  0.648642  0.382684  1
+  Zn  Zn13  1  0.648642  0.351358  0.617316  1
+  Zn  Zn14  1  0.351358  0.648642  0.117316  1
+  Zn  Zn15  1  0.648642  0.351358  0.882684  1
+  Zn  Zn16  1  0.702603  0.297397  0.250000  1
+  Zn  Zn17  1  0.297397  0.702603  0.750000  1
+  As  As18  1  0.777131  0.222869  0.387411  1
+  As  As19  1  0.222869  0.777131  0.612589  1
+  As  As20  1  0.777131  0.222869  0.112589  1
+  As  As21  1  0.222869  0.777131  0.887411  1
+  As  As22  1  0.564720  0.435280  0.479222  1
+  As  As23  1  0.435280  0.564720  0.520778  1
+  As  As24  1  0.564720  0.435280  0.020778  1
+  As  As25  1  0.435280  0.564720  0.979222  1
+  As  As26  1  0.431378  0.568622  0.250000  1
+  As  As27  1  0.568622  0.431378  0.750000  1
+  As  As28  1  0.121269  0.878731  0.250000  1
+  As  As29  1  0.878731  0.121269  0.750000  1

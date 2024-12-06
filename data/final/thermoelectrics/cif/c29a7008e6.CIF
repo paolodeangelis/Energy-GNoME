@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScTiTe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.22652869
+_cell_length_b   8.22652816
+_cell_length_c   13.69003700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   152.13115273
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScTiTe10
+_chemical_formula_sum   'Sc1 Ti1 Te10'
+_cell_volume   433.08413220
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.310739  0.689261  0.250000  1
+  Ti  Ti1  1  0.686067  0.313933  0.750000  1
+  Te  Te2  1  0.781436  0.218564  0.929442  1
+  Te  Te3  1  0.210361  0.789639  0.067056  1
+  Te  Te4  1  0.319518  0.680482  0.750000  1
+  Te  Te5  1  0.670213  0.329787  0.250000  1
+  Te  Te6  1  0.089153  0.910847  0.850542  1
+  Te  Te7  1  0.925783  0.074217  0.150446  1
+  Te  Te8  1  0.925783  0.074217  0.349554  1
+  Te  Te9  1  0.089153  0.910847  0.649458  1
+  Te  Te10  1  0.781436  0.218564  0.570558  1
+  Te  Te11  1  0.210361  0.789639  0.432944  1

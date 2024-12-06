@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Sr2Cu11Si3(NiP)7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.71436924
+_cell_length_b   6.71440116
+_cell_length_c   10.82236580
+_cell_angle_alpha   90.12615021
+_cell_angle_beta   89.87377961
+_cell_angle_gamma   120.20918752
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Cu11Si3(NiP)7
+_chemical_formula_sum   'Sr2 Cu11 Si3 Ni7 P7'
+_cell_volume   421.64273899
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000150  0.999851  0.000206  1
+  Sr  Sr1  1  0.999778  0.000225  0.500621  1
+  Cu  Cu2  1  0.537299  0.076444  0.107230  1
+  Cu  Cu3  1  0.461072  0.538927  0.606136  1
+  Cu  Cu4  1  0.076487  0.538047  0.606526  1
+  Cu  Cu5  1  0.923557  0.462706  0.107228  1
+  Cu  Cu6  1  0.538462  0.461544  0.106944  1
+  Cu  Cu7  1  0.462631  0.924552  0.893419  1
+  Cu  Cu8  1  0.461922  0.538075  0.893975  1
+  Cu  Cu9  1  0.461950  0.923512  0.606527  1
+  Cu  Cu10  1  0.075452  0.537368  0.893421  1
+  Cu  Cu11  1  0.929126  0.463929  0.394425  1
+  Cu  Cu12  1  0.536074  0.070879  0.394425  1
+  Si  Si13  1  0.333077  0.666919  0.070595  1
+  Si  Si14  1  0.662937  0.337076  0.567381  1
+  Si  Si15  1  0.666774  0.333228  0.928652  1
+  Ni  Ni16  1  0.537391  0.462623  0.390343  1
+  Ni  Ni17  1  0.202134  0.405502  0.249344  1
+  Ni  Ni18  1  0.797496  0.202530  0.747538  1
+  Ni  Ni19  1  0.404040  0.202418  0.748624  1
+  Ni  Ni20  1  0.594461  0.797830  0.249355  1
+  Ni  Ni21  1  0.200064  0.799908  0.250143  1
+  Ni  Ni22  1  0.797585  0.596002  0.748624  1
+  P  P23  1  0.832500  0.671546  0.254561  1
+  P  P24  1  0.161341  0.838623  0.749885  1
+  P  P25  1  0.677498  0.838718  0.749842  1
+  P  P26  1  0.328456  0.167520  0.254558  1
+  P  P27  1  0.839647  0.160391  0.250004  1
+  P  P28  1  0.161262  0.322501  0.749844  1
+  P  P29  1  0.339377  0.660607  0.429625  1

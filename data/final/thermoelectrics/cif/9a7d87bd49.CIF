@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiZr2Zn(SbPt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36584646
+_cell_length_b   6.36584755
+_cell_length_c   7.77797125
+_cell_angle_alpha   65.84399184
+_cell_angle_beta   65.84398455
+_cell_angle_gamma   90.00000017
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZr2Zn(SbPt)4
+_chemical_formula_sum   'Li1 Zr2 Zn1 Sb4 Pt4'
+_cell_volume   257.04762753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Zr  Zr1  1  0.500000  0.500000  0.000000  1
+  Zr  Zr2  1  0.750000  0.250000  0.500000  1
+  Zn  Zn3  1  0.250000  0.750000  0.500000  1
+  Sb  Sb4  1  0.496044  0.996043  0.007911  1
+  Sb  Sb5  1  0.758052  0.758052  0.483896  1
+  Sb  Sb6  1  0.241948  0.241948  0.516103  1
+  Sb  Sb7  1  0.003956  0.503956  0.992088  1
+  Pt  Pt8  1  0.616195  0.614924  0.255028  1
+  Pt  Pt9  1  0.128775  0.130046  0.255029  1
+  Pt  Pt10  1  0.869952  0.383805  0.744971  1
+  Pt  Pt11  1  0.385074  0.871221  0.744973  1

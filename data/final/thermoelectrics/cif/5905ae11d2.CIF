@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Pr10HgPb6I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.82797100
+_cell_length_b   9.82799252
+_cell_length_c   6.84810000
+_cell_angle_alpha   90.00003310
+_cell_angle_beta   89.99996578
+_cell_angle_gamma   119.99985647
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr10HgPb6I
+_chemical_formula_sum   'Pr10 Hg1 Pb6 I1'
+_cell_volume   572.83564839
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.666668  0.333333  0.500000  1
+  Pr  Pr1  1  0.333332  0.666667  0.500000  1
+  Pr  Pr2  1  0.333332  0.666666  0.999999  1
+  Pr  Pr3  1  0.666668  0.333334  0.000001  1
+  Pr  Pr4  1  0.723347  0.723347  0.252149  1
+  Pr  Pr5  1  0.276653  0.000000  0.252150  1
+  Pr  Pr6  1  0.000000  0.276653  0.252149  1
+  Pr  Pr7  1  0.276653  0.276653  0.747851  1
+  Pr  Pr8  1  0.723347  0.000000  0.747850  1
+  Pr  Pr9  1  0.000000  0.723347  0.747851  1
+  Hg  Hg10  1  0.000000  0.000000  0.500000  1
+  Pb  Pb11  1  0.379372  0.379372  0.251447  1
+  Pb  Pb12  1  0.620628  0.000000  0.251447  1
+  Pb  Pb13  1  0.000001  0.620631  0.251446  1
+  Pb  Pb14  1  0.620628  0.620628  0.748553  1
+  Pb  Pb15  1  0.379372  0.000000  0.748553  1
+  Pb  Pb16  1  0.999999  0.379369  0.748554  1
+  I  I17  1  0.000000  0.000000  0.000000  1

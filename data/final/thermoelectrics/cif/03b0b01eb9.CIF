@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaCe(CuS)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.59376563
+_cell_length_b   7.59376493
+_cell_length_c   7.59376413
+_cell_angle_alpha   51.63247105
+_cell_angle_beta   51.63247122
+_cell_angle_gamma   51.63247802
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCe(CuS)6
+_chemical_formula_sum   'Na1 Ce1 Cu6 S6'
+_cell_volume   248.66269212
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.333591  0.333591  0.333591  1
+  Ce  Ce1  1  0.666710  0.666710  0.666710  1
+  Cu  Cu2  1  0.872981  0.536376  0.218695  1
+  Cu  Cu3  1  0.536376  0.218695  0.872981  1
+  Cu  Cu4  1  0.218695  0.872981  0.536376  1
+  Cu  Cu5  1  0.784912  0.121232  0.465439  1
+  Cu  Cu6  1  0.465439  0.784912  0.121232  1
+  Cu  Cu7  1  0.121232  0.465439  0.784912  1
+  S  S8  1  0.083779  0.759432  0.417798  1
+  S  S9  1  0.417798  0.083779  0.759432  1
+  S  S10  1  0.759432  0.417798  0.083779  1
+  S  S11  1  0.243855  0.584573  0.910629  1
+  S  S12  1  0.584573  0.910629  0.243855  1
+  S  S13  1  0.910629  0.243855  0.584573  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Zr3Ni4Te8Mo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54566422
+_cell_length_b   7.53430636
+_cell_length_c   8.10720800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.12717812
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3Ni4Te8Mo
+_chemical_formula_sum   'Zr3 Ni4 Te8 Mo1'
+_cell_volume   399.77710643
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.500000  0.000000  0.794288  1
+  Zr  Zr1  1  0.000000  0.000000  0.709605  1
+  Zr  Zr2  1  0.000000  0.000000  0.290581  1
+  Ni  Ni3  1  0.853767  0.880793  0.999629  1
+  Ni  Ni4  1  0.644948  0.886111  0.493260  1
+  Ni  Ni5  1  0.146233  0.119207  0.999629  1
+  Ni  Ni6  1  0.355052  0.113889  0.493260  1
+  Te  Te7  1  0.752123  0.210536  0.014452  1
+  Te  Te8  1  0.737392  0.220251  0.504280  1
+  Te  Te9  1  0.755734  0.683969  0.745668  1
+  Te  Te10  1  0.735790  0.691972  0.243640  1
+  Te  Te11  1  0.247877  0.789464  0.014452  1
+  Te  Te12  1  0.262608  0.779749  0.504280  1
+  Te  Te13  1  0.244266  0.316031  0.745668  1
+  Te  Te14  1  0.264210  0.308028  0.243640  1
+  Mo  Mo15  1  0.500000  0.000000  0.203671  1

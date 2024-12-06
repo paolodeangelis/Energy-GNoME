@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Si(Ag4Te3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.25543500
+_cell_length_b   8.51981100
+_cell_length_c   11.54551900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si(Ag4Te3)2
+_chemical_formula_sum   'Si2 Ag16 Te12'
+_cell_volume   812.05114541
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.751112  0.000000  0.517980  1
+  Si  Si1  1  0.248888  0.500000  0.017980  1
+  Ag  Ag2  1  0.269754  0.000000  0.481167  1
+  Ag  Ag3  1  0.730246  0.500000  0.981167  1
+  Ag  Ag4  1  0.846679  0.200073  0.159418  1
+  Ag  Ag5  1  0.153321  0.299927  0.659418  1
+  Ag  Ag6  1  0.153321  0.700073  0.659418  1
+  Ag  Ag7  1  0.846679  0.799927  0.159418  1
+  Ag  Ag8  1  0.463819  0.196471  0.266080  1
+  Ag  Ag9  1  0.536181  0.303529  0.766080  1
+  Ag  Ag10  1  0.536181  0.696471  0.766080  1
+  Ag  Ag11  1  0.463819  0.803529  0.266080  1
+  Ag  Ag12  1  0.896752  0.213283  0.863088  1
+  Ag  Ag13  1  0.103248  0.286717  0.363088  1
+  Ag  Ag14  1  0.103248  0.713283  0.363088  1
+  Ag  Ag15  1  0.896752  0.786717  0.863088  1
+  Ag  Ag16  1  0.615139  0.500000  0.546830  1
+  Ag  Ag17  1  0.384861  0.000000  0.046830  1
+  Te  Te18  1  0.749251  0.750980  0.398964  1
+  Te  Te19  1  0.250749  0.749020  0.898964  1
+  Te  Te20  1  0.491049  0.500000  0.149784  1
+  Te  Te21  1  0.508951  0.000000  0.649784  1
+  Te  Te22  1  0.002565  0.500000  0.149511  1
+  Te  Te23  1  0.997435  0.000000  0.649511  1
+  Te  Te24  1  0.812450  0.500000  0.745925  1
+  Te  Te25  1  0.187550  0.000000  0.245925  1
+  Te  Te26  1  0.282433  0.500000  0.497504  1
+  Te  Te27  1  0.717567  0.000000  0.997504  1
+  Te  Te28  1  0.749251  0.249020  0.398964  1
+  Te  Te29  1  0.250749  0.250980  0.898964  1

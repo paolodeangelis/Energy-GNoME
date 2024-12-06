@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_SrTm(Cu2P)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81535300
+_cell_length_b   7.31702873
+_cell_length_c   7.31702873
+_cell_angle_alpha   88.96105457
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrTm(Cu2P)4
+_chemical_formula_sum   'Sr1 Tm1 Cu8 P4'
+_cell_volume   204.23625724
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.500000  0.500000  1
+  Tm  Tm1  1  0.500000  0.000000  0.000000  1
+  Cu  Cu2  1  0.500000  0.157584  0.586553  1
+  Cu  Cu3  1  0.500000  0.842416  0.413447  1
+  Cu  Cu4  1  0.000000  0.332142  0.081811  1
+  Cu  Cu5  1  0.000000  0.667858  0.918189  1
+  Cu  Cu6  1  0.500000  0.586553  0.157584  1
+  Cu  Cu7  1  0.500000  0.413447  0.842416  1
+  Cu  Cu8  1  0.000000  0.081811  0.332142  1
+  Cu  Cu9  1  0.000000  0.918189  0.667858  1
+  P  P10  1  0.500000  0.725199  0.725199  1
+  P  P11  1  0.500000  0.274801  0.274801  1
+  P  P12  1  0.000000  0.791224  0.208776  1
+  P  P13  1  0.000000  0.208776  0.791224  1

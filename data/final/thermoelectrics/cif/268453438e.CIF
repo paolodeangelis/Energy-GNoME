@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Lu4GaBiSb4Rh7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.53887234
+_cell_length_b   7.53890230
+_cell_length_c   7.53887230
+_cell_angle_alpha   110.17957379
+_cell_angle_beta   108.06276600
+_cell_angle_gamma   110.17958838
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4GaBiSb4Rh7
+_chemical_formula_sum   'Lu4 Ga1 Bi1 Sb4 Rh7'
+_cell_volume   329.69117754
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.476206  0.462737  0.476206  1
+  Lu  Lu1  1  0.013468  0.537323  0.013468  1
+  Lu  Lu2  1  0.476174  0.000002  0.013461  1
+  Lu  Lu3  1  0.013461  0.000002  0.476174  1
+  Ga  Ga4  1  0.339265  0.000031  0.339265  1
+  Bi  Bi5  1  0.695373  0.000045  0.695373  1
+  Sb  Sb6  1  0.678320  0.686538  0.991811  1
+  Sb  Sb7  1  0.305274  0.313452  0.991817  1
+  Sb  Sb8  1  0.991811  0.686538  0.678320  1
+  Sb  Sb9  1  0.991817  0.313452  0.305274  1
+  Rh  Rh10  1  0.744746  0.499971  0.244704  1
+  Rh  Rh11  1  0.495218  0.250879  0.746207  1
+  Rh  Rh12  1  0.746207  0.250879  0.495218  1
+  Rh  Rh13  1  0.244368  0.749110  0.495338  1
+  Rh  Rh14  1  0.244704  0.499971  0.744746  1
+  Rh  Rh15  1  0.495338  0.749110  0.244368  1
+  Rh  Rh16  1  0.048249  0.999963  0.048249  1

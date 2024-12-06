@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_LaNdNi(Sb2Ir)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56854000
+_cell_length_b   11.20363100
+_cell_length_c   16.07904100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNdNi(Sb2Ir)2
+_chemical_formula_sum   'La4 Nd4 Ni4 Sb16 Ir8'
+_cell_volume   822.99343513
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.250000  0.746601  0.507467  1
+  La  La1  1  0.250000  0.753399  0.007467  1
+  La  La2  1  0.750000  0.253399  0.492533  1
+  La  La3  1  0.750000  0.246601  0.992533  1
+  Nd  Nd4  1  0.250000  0.589079  0.749021  1
+  Nd  Nd5  1  0.250000  0.910921  0.249021  1
+  Nd  Nd6  1  0.750000  0.410921  0.250979  1
+  Nd  Nd7  1  0.750000  0.089079  0.750979  1
+  Ni  Ni8  1  0.250000  0.467550  0.558012  1
+  Ni  Ni9  1  0.250000  0.032450  0.058012  1
+  Ni  Ni10  1  0.750000  0.532450  0.441988  1
+  Ni  Ni11  1  0.750000  0.967550  0.941988  1
+  Sb  Sb12  1  0.250000  0.277108  0.648219  1
+  Sb  Sb13  1  0.250000  0.222892  0.148219  1
+  Sb  Sb14  1  0.750000  0.722892  0.351781  1
+  Sb  Sb15  1  0.750000  0.777108  0.851781  1
+  Sb  Sb16  1  0.250000  0.886959  0.712201  1
+  Sb  Sb17  1  0.250000  0.613041  0.212201  1
+  Sb  Sb18  1  0.750000  0.113041  0.287799  1
+  Sb  Sb19  1  0.750000  0.386959  0.787799  1
+  Sb  Sb20  1  0.250000  0.065785  0.900031  1
+  Sb  Sb21  1  0.250000  0.434215  0.400031  1
+  Sb  Sb22  1  0.750000  0.934215  0.099969  1
+  Sb  Sb23  1  0.750000  0.565785  0.599969  1
+  Sb  Sb24  1  0.250000  0.447778  0.931502  1
+  Sb  Sb25  1  0.250000  0.052222  0.431502  1
+  Sb  Sb26  1  0.750000  0.552222  0.068498  1
+  Sb  Sb27  1  0.750000  0.947778  0.568498  1
+  Ir  Ir28  1  0.250000  0.056560  0.594810  1
+  Ir  Ir29  1  0.250000  0.443440  0.094810  1
+  Ir  Ir30  1  0.750000  0.943440  0.405190  1
+  Ir  Ir31  1  0.750000  0.556560  0.905190  1
+  Ir  Ir32  1  0.250000  0.276378  0.817861  1
+  Ir  Ir33  1  0.250000  0.223622  0.317861  1
+  Ir  Ir34  1  0.750000  0.723622  0.182139  1
+  Ir  Ir35  1  0.750000  0.776378  0.682139  1

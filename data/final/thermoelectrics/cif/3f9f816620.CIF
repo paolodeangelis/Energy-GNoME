@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ba(CrSb3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.28940058
+_cell_length_b   8.28940026
+_cell_length_c   8.28940100
+_cell_angle_alpha   109.47121756
+_cell_angle_beta   109.47121678
+_cell_angle_gamma   109.47122527
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba(CrSb3)4
+_chemical_formula_sum   'Ba1 Cr4 Sb12'
+_cell_volume   438.47769702
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.000000  0.000000  0.500000  1
+  Cr  Cr2  1  0.500000  0.000000  0.000000  1
+  Cr  Cr3  1  0.000000  0.500000  0.000000  1
+  Cr  Cr4  1  0.500000  0.500000  0.500000  1
+  Sb  Sb5  1  0.343204  0.188143  0.844939  1
+  Sb  Sb6  1  0.656796  0.811857  0.155061  1
+  Sb  Sb7  1  0.656796  0.501735  0.844939  1
+  Sb  Sb8  1  0.343204  0.498265  0.155061  1
+  Sb  Sb9  1  0.188143  0.844939  0.343204  1
+  Sb  Sb10  1  0.811857  0.155061  0.656796  1
+  Sb  Sb11  1  0.501735  0.844939  0.656796  1
+  Sb  Sb12  1  0.498265  0.155061  0.343204  1
+  Sb  Sb13  1  0.844939  0.343204  0.188143  1
+  Sb  Sb14  1  0.155061  0.656796  0.811857  1
+  Sb  Sb15  1  0.844939  0.656796  0.501735  1
+  Sb  Sb16  1  0.155061  0.343204  0.498265  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_As2PdRuSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.07312783
+_cell_length_b   6.05956370
+_cell_length_c   6.06179400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.49574328
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   As2PdRuSe2
+_chemical_formula_sum   'As4 Pd2 Ru2 Se4'
+_cell_volume   223.06873022
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.111442  0.873187  0.385398  1
+  As  As1  1  0.873840  0.395036  0.123114  1
+  As  As2  1  0.626160  0.604964  0.623114  1
+  As  As3  1  0.388558  0.126813  0.885398  1
+  Pd  Pd4  1  0.494113  0.993832  0.504425  1
+  Pd  Pd5  1  0.005887  0.006168  0.004425  1
+  Ru  Ru6  1  0.997606  0.504527  0.494097  1
+  Ru  Ru7  1  0.502394  0.495473  0.994097  1
+  Se  Se8  1  0.122682  0.607946  0.878754  1
+  Se  Se9  1  0.889165  0.126399  0.614212  1
+  Se  Se10  1  0.610835  0.873601  0.114212  1
+  Se  Se11  1  0.377318  0.392054  0.378754  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NbCoSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.45592900
+_cell_length_b   11.64396600
+_cell_length_c   13.09255700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbCoSe4
+_chemical_formula_sum   'Nb4 Co4 Se16'
+_cell_volume   526.85391737
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.000000  0.045616  0.998753  1
+  Nb  Nb1  1  0.500000  0.954384  0.498753  1
+  Nb  Nb2  1  0.000000  0.262537  0.496927  1
+  Nb  Nb3  1  0.500000  0.737463  0.996927  1
+  Co  Co4  1  0.000000  0.528557  0.999115  1
+  Co  Co5  1  0.500000  0.471443  0.499115  1
+  Co  Co6  1  0.000000  0.746582  0.493202  1
+  Co  Co7  1  0.500000  0.253418  0.993202  1
+  Se  Se8  1  0.500000  0.116874  0.131390  1
+  Se  Se9  1  0.000000  0.883126  0.631390  1
+  Se  Se10  1  0.500000  0.151602  0.612208  1
+  Se  Se11  1  0.000000  0.848398  0.112208  1
+  Se  Se12  1  0.500000  0.331195  0.363498  1
+  Se  Se13  1  0.000000  0.668805  0.863498  1
+  Se  Se14  1  0.500000  0.434590  0.905890  1
+  Se  Se15  1  0.000000  0.565410  0.405890  1
+  Se  Se16  1  0.000000  0.064753  0.383036  1
+  Se  Se17  1  0.500000  0.935247  0.883036  1
+  Se  Se18  1  0.000000  0.202548  0.870730  1
+  Se  Se19  1  0.500000  0.797452  0.370730  1
+  Se  Se20  1  0.000000  0.347533  0.085951  1
+  Se  Se21  1  0.500000  0.652467  0.585951  1
+  Se  Se22  1  0.000000  0.422139  0.622358  1
+  Se  Se23  1  0.500000  0.577861  0.122358  1

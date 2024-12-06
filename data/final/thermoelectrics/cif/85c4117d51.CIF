@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CuSbPtS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.30553235
+_cell_length_b   8.30553173
+_cell_length_c   6.13713300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   152.48594111
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuSbPtS2
+_chemical_formula_sum   'Cu2 Sb2 Pt2 S4'
+_cell_volume   195.57381063
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.949030  0.050970  0.229960  1
+  Cu  Cu1  1  0.050970  0.949030  0.729960  1
+  Sb  Sb2  1  0.733321  0.266679  0.629587  1
+  Sb  Sb3  1  0.266679  0.733321  0.129587  1
+  Pt  Pt4  1  0.668999  0.331001  0.240341  1
+  Pt  Pt5  1  0.331001  0.668999  0.740341  1
+  S  S6  1  0.920059  0.079941  0.862985  1
+  S  S7  1  0.079941  0.920059  0.362985  1
+  S  S8  1  0.609495  0.390505  0.871127  1
+  S  S9  1  0.390505  0.609495  0.371127  1

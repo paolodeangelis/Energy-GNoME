@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ta3NbSn4(RuPt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64312867
+_cell_length_b   7.64083687
+_cell_length_c   7.64312809
+_cell_angle_alpha   131.70657992
+_cell_angle_beta   131.71738955
+_cell_angle_gamma   70.69039319
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3NbSn4(RuPt)2
+_chemical_formula_sum   'Ta3 Nb1 Sn4 Ru2 Pt2'
+_cell_volume   243.65609018
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.507501  0.750000  0.257501  1
+  Ta  Ta1  1  0.249827  0.992192  0.742051  1
+  Ta  Ta2  1  0.749858  0.507808  0.757635  1
+  Nb  Nb3  1  0.991897  0.250000  0.241897  1
+  Sn  Sn4  1  0.750195  0.995390  0.245550  1
+  Sn  Sn5  1  0.250159  0.504610  0.254805  1
+  Sn  Sn6  1  0.995616  0.750000  0.745616  1
+  Sn  Sn7  1  0.504211  0.250000  0.754211  1
+  Ru  Ru8  1  0.874691  0.625922  0.249950  1
+  Ru  Ru9  1  0.624028  0.874078  0.748769  1
+  Pt  Pt10  1  0.376523  0.124474  0.249968  1
+  Pt  Pt11  1  0.125494  0.375526  0.752048  1

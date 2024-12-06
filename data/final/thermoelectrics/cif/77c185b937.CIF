@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ba2Co18Si3P7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.74224700
+_cell_length_b   6.74224659
+_cell_length_c   10.10055000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999709
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Co18Si3P7
+_chemical_formula_sum   'Ba2 Co18 Si3 P7'
+_cell_volume   397.63532443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000765  1
+  Ba  Ba1  1  0.000000  0.000000  0.500238  1
+  Co  Co2  1  0.538849  0.077698  0.117941  1
+  Co  Co3  1  0.459207  0.540793  0.615121  1
+  Co  Co4  1  0.081586  0.540793  0.615121  1
+  Co  Co5  1  0.922302  0.461151  0.117941  1
+  Co  Co6  1  0.538849  0.461151  0.117941  1
+  Co  Co7  1  0.460743  0.921486  0.881726  1
+  Co  Co8  1  0.460743  0.539257  0.881726  1
+  Co  Co9  1  0.459207  0.918414  0.615121  1
+  Co  Co10  1  0.078514  0.539257  0.881726  1
+  Co  Co11  1  0.924229  0.462114  0.383494  1
+  Co  Co12  1  0.537886  0.075771  0.383494  1
+  Co  Co13  1  0.537886  0.462114  0.383494  1
+  Co  Co14  1  0.203803  0.407606  0.252752  1
+  Co  Co15  1  0.796509  0.203491  0.748696  1
+  Co  Co16  1  0.406979  0.203491  0.748696  1
+  Co  Co17  1  0.592394  0.796197  0.252752  1
+  Co  Co18  1  0.203803  0.796197  0.252752  1
+  Co  Co19  1  0.796509  0.593021  0.748696  1
+  Si  Si20  1  0.333333  0.666667  0.066638  1
+  Si  Si21  1  0.666667  0.333333  0.565609  1
+  Si  Si22  1  0.666667  0.333333  0.933632  1
+  P  P23  1  0.831621  0.663242  0.250234  1
+  P  P24  1  0.168203  0.831797  0.749836  1
+  P  P25  1  0.663592  0.831797  0.749836  1
+  P  P26  1  0.336758  0.168379  0.250234  1
+  P  P27  1  0.831621  0.168379  0.250234  1
+  P  P28  1  0.168203  0.336408  0.749836  1
+  P  P29  1  0.333333  0.666667  0.433718  1

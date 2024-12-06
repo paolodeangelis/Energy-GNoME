@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_BaSn6Ir3Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.09455876
+_cell_length_b   7.09455863
+_cell_length_c   6.99659759
+_cell_angle_alpha   119.11710733
+_cell_angle_beta   119.11711312
+_cell_angle_gamma   92.33853243
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSn6Ir3Ru
+_chemical_formula_sum   'Ba1 Sn6 Ir3 Ru1'
+_cell_volume   250.36940528
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.003596  0.003596  0.002693  1
+  Sn  Sn1  1  0.478176  0.124786  0.004570  1
+  Sn  Sn2  1  0.124786  0.478176  0.004570  1
+  Sn  Sn3  1  0.873984  0.873984  0.350606  1
+  Sn  Sn4  1  0.525764  0.525764  0.647462  1
+  Sn  Sn5  1  0.995842  0.501280  0.501053  1
+  Sn  Sn6  1  0.501280  0.995842  0.501053  1
+  Ir  Ir7  1  0.405619  0.757008  0.997085  1
+  Ir  Ir8  1  0.757008  0.405619  0.997085  1
+  Ir  Ir9  1  0.251568  0.251568  0.666786  1
+  Ru  Ru10  1  0.582377  0.582377  0.327039  1

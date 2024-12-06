@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ho2TmCu4(SiSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.16267807
+_cell_length_b   8.16267992
+_cell_length_c   8.16267830
+_cell_angle_alpha   149.38771006
+_cell_angle_beta   132.04448836
+_cell_angle_gamma   57.97154863
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2TmCu4(SiSn)2
+_chemical_formula_sum   'Ho2 Tm1 Cu4 Si2 Sn2'
+_cell_volume   204.14407688
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.500159  0.000159  0.500000  1
+  Ho  Ho1  1  0.876744  0.876744  0.000000  1
+  Tm  Tm2  1  0.123191  0.123191  0.000000  1
+  Cu  Cu3  1  0.463111  0.653067  0.810044  1
+  Cu  Cu4  1  0.843023  0.653067  0.189956  1
+  Cu  Cu5  1  0.157898  0.346949  0.810947  1
+  Cu  Cu6  1  0.536002  0.346949  0.189053  1
+  Si  Si7  1  0.181163  0.500243  0.680921  1
+  Si  Si8  1  0.819322  0.500243  0.319079  1
+  Sn  Sn9  1  0.718413  0.218413  0.500000  1
+  Sn  Sn10  1  0.280974  0.780974  0.500000  1

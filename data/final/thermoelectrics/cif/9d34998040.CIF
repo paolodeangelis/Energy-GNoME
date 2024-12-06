@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CuGeRhS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.13332194
+_cell_length_b   7.03646998
+_cell_length_c   7.03646904
+_cell_angle_alpha   59.84377726
+_cell_angle_beta   59.54362928
+_cell_angle_gamma   59.54362568
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuGeRhS4
+_chemical_formula_sum   'Cu2 Ge2 Rh2 S8'
+_cell_volume   247.71240933
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.753199  0.746801  0.746801  1
+  Cu  Cu1  1  0.496801  0.503199  0.503199  1
+  Ge  Ge2  1  0.125000  0.125000  0.625000  1
+  Ge  Ge3  1  0.125000  0.625000  0.125000  1
+  Rh  Rh4  1  0.625000  0.125000  0.125000  1
+  Rh  Rh5  1  0.125000  0.125000  0.125000  1
+  S  S6  1  0.882487  0.343986  0.891039  1
+  S  S7  1  0.367513  0.358961  0.906014  1
+  S  S8  1  0.374813  0.364893  0.364893  1
+  S  S9  1  0.895403  0.364893  0.364893  1
+  S  S10  1  0.875187  0.885107  0.885107  1
+  S  S11  1  0.354597  0.885107  0.885107  1
+  S  S12  1  0.367513  0.906014  0.358961  1
+  S  S13  1  0.882487  0.891039  0.343986  1

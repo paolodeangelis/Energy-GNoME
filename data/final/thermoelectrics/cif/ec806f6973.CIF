@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CuS2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76714400
+_cell_length_b   7.60108159
+_cell_length_c   12.30264181
+_cell_angle_alpha   66.05968141
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuS2Br
+_chemical_formula_sum   'Cu4 S8 Br4'
+_cell_volume   407.43969359
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.362077  0.188847  0.751434  1
+  Cu  Cu1  1  0.862077  0.811153  0.748566  1
+  Cu  Cu2  1  0.637923  0.811153  0.248566  1
+  Cu  Cu3  1  0.137923  0.188847  0.251434  1
+  S  S4  1  0.952688  0.671269  0.171629  1
+  S  S5  1  0.452688  0.328731  0.328371  1
+  S  S6  1  0.047312  0.328731  0.828371  1
+  S  S7  1  0.547312  0.671269  0.671629  1
+  S  S8  1  0.179850  0.574766  0.824753  1
+  S  S9  1  0.679850  0.425234  0.675247  1
+  S  S10  1  0.820150  0.425234  0.175247  1
+  S  S11  1  0.320150  0.574766  0.324753  1
+  Br  Br12  1  0.388438  0.093237  0.112414  1
+  Br  Br13  1  0.888438  0.906763  0.387586  1
+  Br  Br14  1  0.611562  0.906763  0.887586  1
+  Br  Br15  1  0.111562  0.093237  0.612414  1

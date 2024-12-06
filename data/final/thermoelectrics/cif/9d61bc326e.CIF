@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_ThCo(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.92495516
+_cell_length_b   6.98885575
+_cell_length_c   6.86382409
+_cell_angle_alpha   120.12827338
+_cell_angle_beta   119.81601525
+_cell_angle_gamma   90.81443643
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ThCo(Sn2Ru)3
+_chemical_formula_sum   'Th1 Co1 Sn6 Ru3'
+_cell_volume   233.37227291
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.982878  0.007929  0.000000  1
+  Co  Co1  1  0.245115  0.602236  0.000000  1
+  Sn  Sn2  1  0.889283  0.530167  0.000000  1
+  Sn  Sn3  1  0.521736  0.875326  0.000000  1
+  Sn  Sn4  1  0.128264  0.129481  0.663183  1
+  Sn  Sn5  1  0.005910  0.508976  0.516532  1
+  Sn  Sn6  1  0.465081  0.466298  0.336817  1
+  Sn  Sn7  1  0.489377  0.992444  0.483468  1
+  Ru  Ru8  1  0.405584  0.403219  0.655711  1
+  Ru  Ru9  1  0.616898  0.236416  0.000000  1
+  Ru  Ru10  1  0.749875  0.747508  0.344289  1

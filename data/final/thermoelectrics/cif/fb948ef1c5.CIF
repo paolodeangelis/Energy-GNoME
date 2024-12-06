@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaNi2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.16222149
+_cell_length_b   8.16032327
+_cell_length_c   8.16032408
+_cell_angle_alpha   109.34193635
+_cell_angle_beta   109.46375503
+_cell_angle_gamma   109.59862287
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNi2(Sb6Os)2
+_chemical_formula_sum   'Ba1 Ni2 Sb12 Os2'
+_cell_volume   418.45591468
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Ni  Ni1  1  0.000000  0.000000  0.500000  1
+  Ni  Ni2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.339094  0.181624  0.837640  1
+  Sb  Sb4  1  0.660906  0.818376  0.162360  1
+  Sb  Sb5  1  0.660906  0.498545  0.842530  1
+  Sb  Sb6  1  0.339094  0.501455  0.157470  1
+  Sb  Sb7  1  0.179595  0.838891  0.340703  1
+  Sb  Sb8  1  0.820405  0.161109  0.659297  1
+  Sb  Sb9  1  0.499852  0.842827  0.657027  1
+  Sb  Sb10  1  0.500148  0.157173  0.342973  1
+  Sb  Sb11  1  0.842839  0.344105  0.181654  1
+  Sb  Sb12  1  0.157161  0.655895  0.818346  1
+  Sb  Sb13  1  0.842839  0.661185  0.498732  1
+  Sb  Sb14  1  0.157161  0.338815  0.501268  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.500000  0.500000  0.500000  1

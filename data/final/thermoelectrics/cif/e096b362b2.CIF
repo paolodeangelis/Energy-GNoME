@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_EuFe2(Sb6Rh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.05034611
+_cell_length_b   8.07267792
+_cell_length_c   8.05034585
+_cell_angle_alpha   109.43007051
+_cell_angle_beta   109.44368004
+_cell_angle_gamma   109.42776374
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuFe2(Sb6Rh)2
+_chemical_formula_sum   'Eu1 Fe2 Sb12 Rh2'
+_cell_volume   403.29649904
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.833316  0.654730  0.502010  1
+  Sb  Sb4  1  0.166684  0.345270  0.497990  1
+  Sb  Sb5  1  0.152720  0.654730  0.821413  1
+  Sb  Sb6  1  0.847280  0.345270  0.178587  1
+  Sb  Sb7  1  0.667857  0.504552  0.836695  1
+  Sb  Sb8  1  0.332143  0.495448  0.163305  1
+  Sb  Sb9  1  0.655508  0.810627  0.155120  1
+  Sb  Sb10  1  0.344492  0.189373  0.844880  1
+  Sb  Sb11  1  0.502623  0.833735  0.655281  1
+  Sb  Sb12  1  0.497377  0.166265  0.344719  1
+  Sb  Sb13  1  0.178455  0.833735  0.331111  1
+  Sb  Sb14  1  0.821545  0.166265  0.668889  1
+  Rh  Rh15  1  0.500000  0.000000  0.000000  1
+  Rh  Rh16  1  0.000000  0.000000  0.500000  1

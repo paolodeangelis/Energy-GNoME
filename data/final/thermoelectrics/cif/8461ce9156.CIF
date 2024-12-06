@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Pr10CuGeBi6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.73612600
+_cell_length_b   9.73612561
+_cell_length_c   6.68154600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000133
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr10CuGeBi6
+_chemical_formula_sum   'Pr10 Cu1 Ge1 Bi6'
+_cell_volume   548.50418126
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.666667  0.333333  0.000000  1
+  Pr  Pr1  1  0.333333  0.666667  0.000000  1
+  Pr  Pr2  1  0.333333  0.666667  0.500000  1
+  Pr  Pr3  1  0.666667  0.333333  0.500000  1
+  Pr  Pr4  1  0.747665  0.747665  0.752348  1
+  Pr  Pr5  1  0.252335  0.000000  0.752348  1
+  Pr  Pr6  1  0.000000  0.252335  0.752348  1
+  Pr  Pr7  1  0.252335  0.252335  0.247652  1
+  Pr  Pr8  1  0.747665  0.000000  0.247652  1
+  Pr  Pr9  1  0.000000  0.747665  0.247652  1
+  Cu  Cu10  1  0.000000  0.000000  0.500000  1
+  Ge  Ge11  1  0.000000  0.000000  0.000000  1
+  Bi  Bi12  1  0.385619  0.385619  0.749584  1
+  Bi  Bi13  1  0.614381  0.000000  0.749584  1
+  Bi  Bi14  1  0.000000  0.614381  0.749584  1
+  Bi  Bi15  1  0.614381  0.614381  0.250416  1
+  Bi  Bi16  1  0.385619  0.000000  0.250416  1
+  Bi  Bi17  1  0.000000  0.385619  0.250416  1

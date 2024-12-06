@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_ErNi(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.89774061
+_cell_length_b   7.01534239
+_cell_length_c   6.83410304
+_cell_angle_alpha   120.39055416
+_cell_angle_beta   119.81240832
+_cell_angle_gamma   90.83658709
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErNi(Sn2Ru)3
+_chemical_formula_sum   'Er1 Ni1 Sn6 Ru3'
+_cell_volume   231.33713593
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.983066  0.021043  0.000000  1
+  Ni  Ni1  1  0.246734  0.596059  0.000000  1
+  Sn  Sn2  1  0.887261  0.534729  0.000000  1
+  Sn  Sn3  1  0.536538  0.876220  0.000000  1
+  Sn  Sn4  1  0.124519  0.119842  0.658794  1
+  Sn  Sn5  1  0.006708  0.511057  0.513757  1
+  Sn  Sn6  1  0.465726  0.461048  0.341206  1
+  Sn  Sn7  1  0.492951  0.997300  0.486243  1
+  Ru  Ru8  1  0.402401  0.402662  0.659687  1
+  Ru  Ru9  1  0.611380  0.237065  0.000000  1
+  Ru  Ru10  1  0.742715  0.742976  0.340313  1

@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Yb6Sb7Pd16Se
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.34946731
+_cell_length_b   9.34946667
+_cell_length_c   9.34946600
+_cell_angle_alpha   59.99999529
+_cell_angle_beta   59.99999755
+_cell_angle_gamma   59.99999406
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb6Sb7Pd16Se
+_chemical_formula_sum   'Yb6 Sb7 Pd16 Se1'
+_cell_volume   577.89038769
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.716533  0.283467  0.283467  1
+  Yb  Yb1  1  0.283467  0.716533  0.716533  1
+  Yb  Yb2  1  0.283467  0.716533  0.283467  1
+  Yb  Yb3  1  0.716533  0.283467  0.716533  1
+  Yb  Yb4  1  0.283467  0.283467  0.716533  1
+  Yb  Yb5  1  0.716533  0.716533  0.283467  1
+  Sb  Sb6  1  0.000000  0.000000  0.000000  1
+  Sb  Sb7  1  0.500000  0.000000  0.000000  1
+  Sb  Sb8  1  0.000000  0.500000  0.500000  1
+  Sb  Sb9  1  0.000000  0.500000  0.000000  1
+  Sb  Sb10  1  0.500000  0.000000  0.500000  1
+  Sb  Sb11  1  0.000000  0.000000  0.500000  1
+  Sb  Sb12  1  0.500000  0.500000  0.000000  1
+  Pd  Pd13  1  0.119354  0.119354  0.119354  1
+  Pd  Pd14  1  0.880646  0.880646  0.880646  1
+  Pd  Pd15  1  0.119354  0.119354  0.641938  1
+  Pd  Pd16  1  0.119354  0.641938  0.119354  1
+  Pd  Pd17  1  0.880646  0.880646  0.358062  1
+  Pd  Pd18  1  0.880646  0.358062  0.880646  1
+  Pd  Pd19  1  0.641938  0.119354  0.119354  1
+  Pd  Pd20  1  0.358062  0.880646  0.880646  1
+  Pd  Pd21  1  0.331716  0.331716  0.331716  1
+  Pd  Pd22  1  0.668284  0.668284  0.668284  1
+  Pd  Pd23  1  0.331716  0.331716  0.004851  1
+  Pd  Pd24  1  0.331716  0.004851  0.331716  1
+  Pd  Pd25  1  0.668284  0.668284  0.995149  1
+  Pd  Pd26  1  0.668284  0.995149  0.668284  1
+  Pd  Pd27  1  0.004851  0.331716  0.331716  1
+  Pd  Pd28  1  0.995149  0.668284  0.668284  1
+  Se  Se29  1  0.500000  0.500000  0.500000  1

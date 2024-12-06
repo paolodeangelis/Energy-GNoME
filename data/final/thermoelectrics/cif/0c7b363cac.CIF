@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Na2Sr2CaSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02718000
+_cell_length_b   8.85311798
+_cell_length_c   18.82863600
+_cell_angle_alpha   62.12715653
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Sr2CaSb4
+_chemical_formula_sum   'Na8 Sr8 Ca4 Sb16'
+_cell_volume   1182.83494485
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.650849  0.761635  0.247963  1
+  Na  Na1  1  0.150849  0.238365  0.252037  1
+  Na  Na2  1  0.349151  0.238365  0.752037  1
+  Na  Na3  1  0.849151  0.761635  0.747963  1
+  Na  Na4  1  0.822620  0.292071  0.375296  1
+  Na  Na5  1  0.322620  0.707929  0.124704  1
+  Na  Na6  1  0.177380  0.707929  0.624704  1
+  Na  Na7  1  0.677380  0.292071  0.875296  1
+  Sr  Sr8  1  0.990121  0.788285  0.403700  1
+  Sr  Sr9  1  0.490121  0.211715  0.096300  1
+  Sr  Sr10  1  0.009048  0.909094  0.903048  1
+  Sr  Sr11  1  0.509048  0.090906  0.596952  1
+  Sr  Sr12  1  0.009879  0.211715  0.596300  1
+  Sr  Sr13  1  0.509879  0.788285  0.903700  1
+  Sr  Sr14  1  0.990952  0.090906  0.096952  1
+  Sr  Sr15  1  0.490952  0.909094  0.403048  1
+  Ca  Ca16  1  0.175034  0.456367  0.873048  1
+  Ca  Ca17  1  0.675034  0.543633  0.626952  1
+  Ca  Ca18  1  0.824966  0.543633  0.126952  1
+  Ca  Ca19  1  0.324966  0.456367  0.373048  1
+  Sb  Sb20  1  0.520050  0.354588  0.246206  1
+  Sb  Sb21  1  0.020050  0.645412  0.253794  1
+  Sb  Sb22  1  0.479950  0.645412  0.753794  1
+  Sb  Sb23  1  0.979950  0.354588  0.746206  1
+  Sb  Sb24  1  0.776353  0.118742  0.248504  1
+  Sb  Sb25  1  0.276353  0.881258  0.251496  1
+  Sb  Sb26  1  0.223647  0.881258  0.751496  1
+  Sb  Sb27  1  0.723647  0.118742  0.748504  1
+  Sb  Sb28  1  0.660745  0.501628  0.460944  1
+  Sb  Sb29  1  0.160745  0.498372  0.039056  1
+  Sb  Sb30  1  0.336829  0.075989  0.960903  1
+  Sb  Sb31  1  0.836829  0.924011  0.539097  1
+  Sb  Sb32  1  0.339255  0.498372  0.539056  1
+  Sb  Sb33  1  0.839255  0.501628  0.960944  1
+  Sb  Sb34  1  0.663171  0.924011  0.039097  1
+  Sb  Sb35  1  0.163171  0.075989  0.460903  1

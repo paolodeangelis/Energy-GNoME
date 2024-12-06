@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaTc2AgSn8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.38944610
+_cell_length_b   7.38944697
+_cell_length_c   7.38944700
+_cell_angle_alpha   123.77995098
+_cell_angle_beta   123.77996484
+_cell_angle_gamma   83.56881196
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaTc2AgSn8
+_chemical_formula_sum   'Ga1 Tc2 Ag1 Sn8'
+_cell_volume   267.16726931
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.000000  0.000000  0.000000  1
+  Tc  Tc1  1  0.767490  0.767490  0.000000  1
+  Tc  Tc2  1  0.232510  0.232510  0.000000  1
+  Ag  Ag3  1  0.500000  0.500000  0.000000  1
+  Sn  Sn4  1  0.698111  0.506287  0.487527  1
+  Sn  Sn5  1  0.506287  0.018761  0.808176  1
+  Sn  Sn6  1  0.210584  0.698111  0.191824  1
+  Sn  Sn7  1  0.789416  0.301889  0.808176  1
+  Sn  Sn8  1  0.493713  0.981239  0.191824  1
+  Sn  Sn9  1  0.301889  0.493713  0.512473  1
+  Sn  Sn10  1  0.981239  0.789416  0.487527  1
+  Sn  Sn11  1  0.018761  0.210584  0.512473  1

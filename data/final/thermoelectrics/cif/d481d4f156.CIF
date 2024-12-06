@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CrFe3(Sb3Te)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.97696334
+_cell_length_b   7.97696313
+_cell_length_c   7.97696300
+_cell_angle_alpha   109.55304182
+_cell_angle_beta   109.55304891
+_cell_angle_gamma   109.55305383
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrFe3(Sb3Te)3
+_chemical_formula_sum   'Cr1 Fe3 Sb9 Te3'
+_cell_volume   389.55441062
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.506658  0.506658  0.506658  1
+  Fe  Fe1  1  0.501036  0.995749  0.000602  1
+  Fe  Fe2  1  0.995749  0.000602  0.501036  1
+  Fe  Fe3  1  0.000602  0.501036  0.995749  1
+  Sb  Sb4  1  0.667509  0.166895  0.835763  1
+  Sb  Sb5  1  0.843996  0.163145  0.319136  1
+  Sb  Sb6  1  0.166895  0.835763  0.667509  1
+  Sb  Sb7  1  0.163145  0.319136  0.843996  1
+  Sb  Sb8  1  0.149132  0.495412  0.327620  1
+  Sb  Sb9  1  0.327620  0.149132  0.495412  1
+  Sb  Sb10  1  0.495412  0.327620  0.149132  1
+  Sb  Sb11  1  0.319136  0.843996  0.163145  1
+  Sb  Sb12  1  0.835763  0.667509  0.166895  1
+  Te  Te13  1  0.666403  0.855581  0.505365  1
+  Te  Te14  1  0.855581  0.505365  0.666403  1
+  Te  Te15  1  0.505365  0.666403  0.855581  1

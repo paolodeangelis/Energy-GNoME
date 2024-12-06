@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BeNb8SiSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79354685
+_cell_length_b   7.79354784
+_cell_length_c   7.79354681
+_cell_angle_alpha   95.61276507
+_cell_angle_beta   95.61276961
+_cell_angle_gamma   143.55143386
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeNb8SiSb4
+_chemical_formula_sum   'Be1 Nb8 Si1 Sb4'
+_cell_volume   267.12592995
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.250000  0.250000  0.000000  1
+  Nb  Nb1  1  0.921137  0.802410  0.713724  1
+  Nb  Nb2  1  0.802410  0.088686  0.881272  1
+  Nb  Nb3  1  0.411314  0.697590  0.118728  1
+  Nb  Nb4  1  0.578863  0.292586  0.881272  1
+  Nb  Nb5  1  0.697590  0.578863  0.286276  1
+  Nb  Nb6  1  0.292586  0.411314  0.713724  1
+  Nb  Nb7  1  0.207414  0.921137  0.118728  1
+  Nb  Nb8  1  0.088686  0.207414  0.286276  1
+  Si  Si9  1  0.750000  0.750000  0.000000  1
+  Sb  Sb10  1  0.641900  0.858100  0.500000  1
+  Sb  Sb11  1  0.141900  0.641900  0.783799  1
+  Sb  Sb12  1  0.858100  0.358100  0.216200  1
+  Sb  Sb13  1  0.358100  0.141900  0.500000  1

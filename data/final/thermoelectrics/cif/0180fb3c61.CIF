@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Pr3Nd7(GeBi3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.73246300
+_cell_length_b   9.73246344
+_cell_length_c   6.64925400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999509
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr3Nd7(GeBi3)2
+_chemical_formula_sum   'Pr3 Nd7 Ge2 Bi6'
+_cell_volume   545.44268133
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.666667  0.333333  0.000000  1
+  Pr  Pr1  1  0.333333  0.666667  0.000000  1
+  Pr  Pr2  1  0.333333  0.666667  0.500000  1
+  Nd  Nd3  1  0.666667  0.333333  0.500000  1
+  Nd  Nd4  1  0.746670  0.746594  0.749953  1
+  Nd  Nd5  1  0.253406  0.000076  0.749953  1
+  Nd  Nd6  1  0.999924  0.253330  0.749953  1
+  Nd  Nd7  1  0.253406  0.253330  0.250047  1
+  Nd  Nd8  1  0.746670  0.000076  0.250047  1
+  Nd  Nd9  1  0.999924  0.746594  0.250047  1
+  Ge  Ge10  1  0.000000  0.000000  0.000000  1
+  Ge  Ge11  1  0.000000  0.000000  0.500000  1
+  Bi  Bi12  1  0.389586  0.389300  0.749782  1
+  Bi  Bi13  1  0.610700  0.000286  0.749782  1
+  Bi  Bi14  1  0.999714  0.610414  0.749782  1
+  Bi  Bi15  1  0.610700  0.610414  0.250218  1
+  Bi  Bi16  1  0.389586  0.000286  0.250218  1
+  Bi  Bi17  1  0.999714  0.389300  0.250218  1

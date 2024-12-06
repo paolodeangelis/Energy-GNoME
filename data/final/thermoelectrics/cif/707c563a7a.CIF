@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2SnBi3Au4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.92553900
+_cell_length_b   5.07645423
+_cell_length_c   11.71344951
+_cell_angle_alpha   87.69315957
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2SnBi3Au4
+_chemical_formula_sum   'Ba2 Sn1 Bi3 Au4'
+_cell_volume   292.64893653
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.250000  0.737891  0.760709  1
+  Ba  Ba1  1  0.750000  0.272911  0.240449  1
+  Sn  Sn2  1  0.750000  0.192026  0.884123  1
+  Bi  Bi3  1  0.750000  0.752640  0.503613  1
+  Bi  Bi4  1  0.250000  0.244289  0.502065  1
+  Bi  Bi5  1  0.250000  0.807132  0.120066  1
+  Au  Au6  1  0.750000  0.684900  0.988125  1
+  Au  Au7  1  0.750000  0.246479  0.650278  1
+  Au  Au8  1  0.250000  0.750351  0.361249  1
+  Au  Au9  1  0.250000  0.311380  0.989323  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce3Zn(CoSb2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.32043439
+_cell_length_b   8.33492756
+_cell_length_c   8.33492803
+_cell_angle_alpha   109.21071355
+_cell_angle_beta   109.62368540
+_cell_angle_gamma   109.62367421
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce3Zn(CoSb2)2
+_chemical_formula_sum   'Ce6 Zn2 Co4 Sb8'
+_cell_volume   444.71717011
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.381670  0.261796  0.637412  1
+  Ce  Ce1  1  0.740263  0.884009  0.109413  1
+  Ce  Ce2  1  0.240263  0.609413  0.384009  1
+  Ce  Ce3  1  0.623996  0.361232  0.241493  1
+  Ce  Ce4  1  0.881670  0.137412  0.761796  1
+  Ce  Ce5  1  0.123996  0.741493  0.861232  1
+  Zn  Zn6  1  0.122800  0.872948  0.247564  1
+  Zn  Zn7  1  0.622800  0.747564  0.372948  1
+  Co  Co8  1  0.874295  0.246920  0.126549  1
+  Co  Co9  1  0.255158  0.129470  0.878857  1
+  Co  Co10  1  0.755158  0.378857  0.629470  1
+  Co  Co11  1  0.374295  0.626549  0.746920  1
+  Sb  Sb12  1  0.996627  0.333024  0.500248  1
+  Sb  Sb13  1  0.833796  0.490305  0.994151  1
+  Sb  Sb14  1  0.496627  0.000248  0.833024  1
+  Sb  Sb15  1  0.661537  0.654889  0.665750  1
+  Sb  Sb16  1  0.161537  0.165750  0.154889  1
+  Sb  Sb17  1  0.333796  0.494151  0.990305  1
+  Sb  Sb18  1  0.509858  0.014340  0.349631  1
+  Sb  Sb19  1  0.009858  0.849631  0.514340  1

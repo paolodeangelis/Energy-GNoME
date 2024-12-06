@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce2NdCu3Sb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.65498526
+_cell_length_b   8.65498648
+_cell_length_c   8.65498533
+_cell_angle_alpha   109.96811718
+_cell_angle_beta   108.48194255
+_cell_angle_gamma   109.96810754
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2NdCu3Sb4
+_chemical_formula_sum   'Ce4 Nd2 Cu6 Sb8'
+_cell_volume   498.97669792
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.250000  0.124592  0.874592  1
+  Ce  Ce1  1  0.750000  0.375408  0.625408  1
+  Ce  Ce2  1  0.125408  0.875408  0.250000  1
+  Ce  Ce3  1  0.374592  0.624592  0.750000  1
+  Nd  Nd4  1  0.875000  0.250000  0.125000  1
+  Nd  Nd5  1  0.625000  0.750000  0.375000  1
+  Cu  Cu6  1  0.375000  0.250000  0.625000  1
+  Cu  Cu7  1  0.125000  0.750000  0.875000  1
+  Cu  Cu8  1  0.250000  0.625104  0.375104  1
+  Cu  Cu9  1  0.750000  0.874896  0.124896  1
+  Cu  Cu10  1  0.624896  0.374896  0.250000  1
+  Cu  Cu11  1  0.875104  0.125104  0.750000  1
+  Sb  Sb12  1  0.660174  0.500627  0.000989  1
+  Sb  Sb13  1  0.500362  0.999373  0.659548  1
+  Sb  Sb14  1  0.999638  0.659185  0.499011  1
+  Sb  Sb15  1  0.839826  0.840815  0.840452  1
+  Sb  Sb16  1  0.500989  0.000627  0.160174  1
+  Sb  Sb17  1  0.159548  0.499373  0.000362  1
+  Sb  Sb18  1  0.999011  0.159185  0.499638  1
+  Sb  Sb19  1  0.340452  0.340815  0.339826  1

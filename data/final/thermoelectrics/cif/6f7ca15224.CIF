@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cd2InSbPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.41517886
+_cell_length_b   6.41517780
+_cell_length_c   7.87979000
+_cell_angle_alpha   65.97862564
+_cell_angle_beta   65.97861031
+_cell_angle_gamma   90.00283480
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2InSbPt2
+_chemical_formula_sum   'Cd4 In2 Sb2 Pt4'
+_cell_volume   265.15638912
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.492474  0.992133  0.015914  1
+  Cd  Cd1  1  0.757522  0.757039  0.485889  1
+  Cd  Cd2  1  0.242136  0.242471  0.515917  1
+  Cd  Cd3  1  0.007045  0.507523  0.985883  1
+  In  In4  1  0.999956  0.000490  0.998901  1
+  In  In5  1  0.250488  0.749972  0.498914  1
+  Sb  Sb6  1  0.500826  0.499945  0.998758  1
+  Sb  Sb7  1  0.749945  0.250821  0.498762  1
+  Pt  Pt8  1  0.625089  0.136420  0.250866  1
+  Pt  Pt9  1  0.125215  0.612883  0.249665  1
+  Pt  Pt10  1  0.862887  0.875211  0.749664  1
+  Pt  Pt11  1  0.386423  0.375089  0.750864  1

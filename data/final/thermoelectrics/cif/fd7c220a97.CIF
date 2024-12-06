@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_MgTaNb(CoSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32345241
+_cell_length_b   7.32838387
+_cell_length_c   7.32867101
+_cell_angle_alpha   119.97262775
+_cell_angle_beta   99.60146439
+_cell_angle_gamma   99.60527057
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTaNb(CoSb)3
+_chemical_formula_sum   'Mg2 Ta2 Nb2 Co6 Sb6'
+_cell_volume   321.21345408
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.004122  0.836891  0.667290  1
+  Mg  Mg1  1  0.504105  0.667295  0.836832  1
+  Ta  Ta2  1  0.998322  0.163262  0.329803  1
+  Ta  Ta3  1  0.498220  0.002137  0.500036  1
+  Nb  Nb4  1  0.998256  0.500368  0.002182  1
+  Nb  Nb5  1  0.498311  0.329719  0.163063  1
+  Co  Co6  1  0.368313  0.622545  0.139498  1
+  Co  Co7  1  0.867988  0.440665  0.274813  1
+  Co  Co8  1  0.367058  0.273812  0.441408  1
+  Co  Co9  1  0.867337  0.138073  0.620392  1
+  Co  Co10  1  0.388840  0.979967  0.793862  1
+  Co  Co11  1  0.888852  0.795226  0.980760  1
+  Sb  Sb12  1  0.254479  0.909543  0.072240  1
+  Sb  Sb13  1  0.747049  0.749716  0.254576  1
+  Sb  Sb14  1  0.248571  0.586734  0.428053  1
+  Sb  Sb15  1  0.748488  0.427821  0.586504  1
+  Sb  Sb16  1  0.247108  0.254261  0.749206  1
+  Sb  Sb17  1  0.754580  0.071961  0.909476  1

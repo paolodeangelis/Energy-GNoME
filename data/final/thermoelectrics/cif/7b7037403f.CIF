@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_TiGaIr3Se8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21033238
+_cell_length_b   7.21033190
+_cell_length_c   7.21033121
+_cell_angle_alpha   63.22368222
+_cell_angle_beta   63.22368332
+_cell_angle_gamma   63.22367325
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiGaIr3Se8
+_chemical_formula_sum   'Ti1 Ga1 Ir3 Se8'
+_cell_volume   284.00087298
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.409790  0.409790  0.409790  1
+  Ga  Ga1  1  0.984355  0.984355  0.984355  1
+  Ir  Ir2  1  0.860212  0.373765  0.373765  1
+  Ir  Ir3  1  0.373765  0.860212  0.373765  1
+  Ir  Ir4  1  0.373765  0.373765  0.860212  1
+  Se  Se5  1  0.130398  0.130398  0.130398  1
+  Se  Se6  1  0.577512  0.141494  0.141494  1
+  Se  Se7  1  0.141494  0.577512  0.141494  1
+  Se  Se8  1  0.141494  0.141494  0.577512  1
+  Se  Se9  1  0.612304  0.612304  0.612304  1
+  Se  Se10  1  0.123457  0.635728  0.635728  1
+  Se  Se11  1  0.635728  0.123457  0.635728  1
+  Se  Se12  1  0.635728  0.635728  0.123457  1

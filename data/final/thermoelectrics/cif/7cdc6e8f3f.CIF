@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_CaEu4(AlSb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53876800
+_cell_length_b   12.27025700
+_cell_length_c   14.41286800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEu4(AlSb3)2
+_chemical_formula_sum   'Ca2 Eu8 Al4 Sb12'
+_cell_volume   802.67928018
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.500000  0.000000  1
+  Ca  Ca1  1  0.500000  0.000000  0.500000  1
+  Eu  Eu2  1  0.500000  0.090889  0.747413  1
+  Eu  Eu3  1  0.500000  0.409111  0.247413  1
+  Eu  Eu4  1  0.500000  0.331009  0.517353  1
+  Eu  Eu5  1  0.500000  0.909111  0.252587  1
+  Eu  Eu6  1  0.500000  0.168991  0.017353  1
+  Eu  Eu7  1  0.500000  0.831009  0.982647  1
+  Eu  Eu8  1  0.500000  0.668991  0.482647  1
+  Eu  Eu9  1  0.500000  0.590889  0.752587  1
+  Al  Al10  1  0.000000  0.168563  0.212692  1
+  Al  Al11  1  0.000000  0.831437  0.787308  1
+  Al  Al12  1  0.000000  0.668563  0.287308  1
+  Al  Al13  1  0.000000  0.331437  0.712692  1
+  Sb  Sb14  1  0.000000  0.843426  0.407608  1
+  Sb  Sb15  1  0.000000  0.156574  0.592392  1
+  Sb  Sb16  1  0.000000  0.656574  0.907608  1
+  Sb  Sb17  1  0.000000  0.343426  0.092392  1
+  Sb  Sb18  1  0.500000  0.337853  0.822604  1
+  Sb  Sb19  1  0.500000  0.662147  0.177396  1
+  Sb  Sb20  1  0.500000  0.837853  0.677396  1
+  Sb  Sb21  1  0.500000  0.162147  0.322604  1
+  Sb  Sb22  1  0.000000  0.522078  0.602172  1
+  Sb  Sb23  1  0.000000  0.477922  0.397828  1
+  Sb  Sb24  1  0.000000  0.022078  0.897828  1
+  Sb  Sb25  1  0.000000  0.977922  0.102172  1

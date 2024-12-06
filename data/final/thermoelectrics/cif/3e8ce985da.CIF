@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Co3Cu2AsS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.81754303
+_cell_length_b   6.82002286
+_cell_length_c   6.82002200
+_cell_angle_alpha   59.99999445
+_cell_angle_beta   59.98796123
+_cell_angle_gamma   59.98796607
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co3Cu2AsS8
+_chemical_formula_sum   'Co3 Cu2 As1 S8'
+_cell_volume   224.18442783
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.125000  0.625000  0.125000  1
+  Co  Co1  1  0.125000  0.125000  0.625000  1
+  Co  Co2  1  0.125000  0.125000  0.125000  1
+  Cu  Cu3  1  0.744921  0.751693  0.751693  1
+  Cu  Cu4  1  0.505079  0.498307  0.498307  1
+  As  As5  1  0.625000  0.125000  0.125000  1
+  S  S6  1  0.904460  0.342187  0.876676  1
+  S  S7  1  0.345540  0.373324  0.907813  1
+  S  S8  1  0.345540  0.373324  0.373324  1
+  S  S9  1  0.914422  0.361859  0.361859  1
+  S  S10  1  0.904460  0.876676  0.876676  1
+  S  S11  1  0.335578  0.888141  0.888141  1
+  S  S12  1  0.345540  0.907813  0.373324  1
+  S  S13  1  0.904460  0.876676  0.342187  1

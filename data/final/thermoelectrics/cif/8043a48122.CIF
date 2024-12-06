@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_FeNi2Sb12Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.00821782
+_cell_length_b   7.94827050
+_cell_length_c   9.23019083
+_cell_angle_alpha   55.07910148
+_cell_angle_beta   54.90629364
+_cell_angle_gamma   70.86176226
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeNi2Sb12Os
+_chemical_formula_sum   'Fe1 Ni2 Sb12 Os1'
+_cell_volume   394.15629986
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.500000  0.000000  0.000000  1
+  Ni  Ni1  1  0.500000  0.000000  0.500000  1
+  Ni  Ni2  1  0.000000  0.500000  0.500000  1
+  Sb  Sb3  1  0.662215  0.675184  0.173177  1
+  Sb  Sb4  1  0.337785  0.324816  0.826823  1
+  Sb  Sb5  1  0.660001  0.659540  0.497504  1
+  Sb  Sb6  1  0.339999  0.340460  0.502496  1
+  Sb  Sb7  1  0.840744  0.153115  0.341157  1
+  Sb  Sb8  1  0.159256  0.846885  0.658843  1
+  Sb  Sb9  1  0.164200  0.845169  0.330070  1
+  Sb  Sb10  1  0.835800  0.154831  0.669930  1
+  Sb  Sb11  1  0.494070  0.824216  0.844359  1
+  Sb  Sb12  1  0.505930  0.175784  0.155641  1
+  Sb  Sb13  1  0.182223  0.505868  0.159618  1
+  Sb  Sb14  1  0.817777  0.494132  0.840382  1
+  Os  Os15  1  0.000000  0.500000  0.000000  1

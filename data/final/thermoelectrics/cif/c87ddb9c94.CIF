@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zr2CuSn2Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47303000
+_cell_length_b   4.47309133
+_cell_length_c   6.85378400
+_cell_angle_alpha   90.00005657
+_cell_angle_beta   90.00073349
+_cell_angle_gamma   59.99928965
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2CuSn2Rh
+_chemical_formula_sum   'Zr2 Cu1 Sn2 Rh1'
+_cell_volume   118.75926837
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.000004  0.999999  0.495949  1
+  Zr  Zr1  1  0.999995  0.000000  0.982351  1
+  Cu  Cu2  1  0.333333  0.333334  0.325420  1
+  Sn  Sn3  1  0.666668  0.666667  0.232389  1
+  Sn  Sn4  1  0.333330  0.333334  0.727325  1
+  Rh  Rh5  1  0.666667  0.666666  0.832566  1

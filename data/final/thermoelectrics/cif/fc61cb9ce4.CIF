@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Ca3La2(SnBi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.44922600
+_cell_length_b   8.50592000
+_cell_length_c   16.20435300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3La2(SnBi)2
+_chemical_formula_sum   'Ca12 La8 Sn8 Bi8'
+_cell_volume   1164.58157809
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.392960  0.834432  0.881291  1
+  Ca  Ca1  1  0.892960  0.665568  0.618709  1
+  Ca  Ca2  1  0.607040  0.165568  0.381291  1
+  Ca  Ca3  1  0.107040  0.334432  0.118709  1
+  Ca  Ca4  1  0.607040  0.165568  0.118709  1
+  Ca  Ca5  1  0.107040  0.334432  0.381291  1
+  Ca  Ca6  1  0.392960  0.834432  0.618709  1
+  Ca  Ca7  1  0.892960  0.665568  0.881291  1
+  Ca  Ca8  1  0.220329  0.506572  0.750000  1
+  Ca  Ca9  1  0.720329  0.993428  0.750000  1
+  Ca  Ca10  1  0.779671  0.493428  0.250000  1
+  Ca  Ca11  1  0.279671  0.006572  0.250000  1
+  La  La12  1  0.549034  0.324477  0.894676  1
+  La  La13  1  0.049034  0.175523  0.605324  1
+  La  La14  1  0.450966  0.675523  0.394676  1
+  La  La15  1  0.950966  0.824477  0.105324  1
+  La  La16  1  0.450966  0.675523  0.105324  1
+  La  La17  1  0.950966  0.824477  0.394676  1
+  La  La18  1  0.549034  0.324477  0.605324  1
+  La  La19  1  0.049034  0.175523  0.894676  1
+  Sn  Sn20  1  0.595220  0.612412  0.750000  1
+  Sn  Sn21  1  0.095220  0.887588  0.750000  1
+  Sn  Sn22  1  0.404780  0.387588  0.250000  1
+  Sn  Sn23  1  0.904780  0.112412  0.250000  1
+  Sn  Sn24  1  0.341272  0.133461  0.750000  1
+  Sn  Sn25  1  0.841272  0.366539  0.750000  1
+  Sn  Sn26  1  0.658728  0.866539  0.250000  1
+  Sn  Sn27  1  0.158728  0.633461  0.250000  1
+  Bi  Bi28  1  0.271914  0.022068  0.044550  1
+  Bi  Bi29  1  0.771914  0.477932  0.455450  1
+  Bi  Bi30  1  0.728086  0.977932  0.544550  1
+  Bi  Bi31  1  0.228086  0.522068  0.955450  1
+  Bi  Bi32  1  0.728086  0.977932  0.955450  1
+  Bi  Bi33  1  0.228086  0.522068  0.544550  1
+  Bi  Bi34  1  0.271914  0.022068  0.455450  1
+  Bi  Bi35  1  0.771914  0.477932  0.044550  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScZn(TcSn4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48478483
+_cell_length_b   7.48478511
+_cell_length_c   7.48478500
+_cell_angle_alpha   125.20296955
+_cell_angle_beta   125.20297107
+_cell_angle_gamma   81.20211107
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScZn(TcSn4)2
+_chemical_formula_sum   'Sc1 Zn1 Tc2 Sn8'
+_cell_volume   269.67301673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.500000  0.500000  0.000000  1
+  Zn  Zn1  1  0.000000  0.000000  0.000000  1
+  Tc  Tc2  1  0.759084  0.759084  0.000000  1
+  Tc  Tc3  1  0.240916  0.240916  0.000000  1
+  Sn  Sn4  1  0.704429  0.515963  0.501059  1
+  Sn  Sn5  1  0.515963  0.014904  0.811536  1
+  Sn  Sn6  1  0.203369  0.704429  0.188464  1
+  Sn  Sn7  1  0.796631  0.295571  0.811536  1
+  Sn  Sn8  1  0.484037  0.985096  0.188464  1
+  Sn  Sn9  1  0.295571  0.484037  0.498941  1
+  Sn  Sn10  1  0.985096  0.796631  0.501059  1
+  Sn  Sn11  1  0.014904  0.203369  0.498941  1

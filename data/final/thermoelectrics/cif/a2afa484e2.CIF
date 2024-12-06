@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LuSiTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22878700
+_cell_length_b   7.22878659
+_cell_length_c   7.66066200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999728
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuSiTe3
+_chemical_formula_sum   'Lu2 Si2 Te6'
+_cell_volume   346.67919276
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.666667  0.333333  0.500000  1
+  Lu  Lu1  1  0.333333  0.666667  0.500000  1
+  Si  Si2  1  0.000000  0.000000  0.349707  1
+  Si  Si3  1  0.000000  0.000000  0.650293  1
+  Te  Te4  1  0.000000  0.664561  0.250518  1
+  Te  Te5  1  0.335439  0.335439  0.250518  1
+  Te  Te6  1  0.000000  0.335439  0.749482  1
+  Te  Te7  1  0.335439  0.000000  0.749482  1
+  Te  Te8  1  0.664561  0.000000  0.250518  1
+  Te  Te9  1  0.664561  0.664561  0.749482  1

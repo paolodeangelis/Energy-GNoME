@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaNbGaCo2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15674325
+_cell_length_b   7.15674386
+_cell_length_c   5.85596400
+_cell_angle_alpha   114.14970651
+_cell_angle_beta   114.14970871
+_cell_angle_gamma   109.29768016
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNbGaCo2Sb
+_chemical_formula_sum   'Ta2 Nb2 Ga2 Co4 Sb2'
+_cell_volume   200.17083727
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.492974  0.507027  0.500000  1
+  Ta  Ta1  1  0.007027  0.992974  0.500000  1
+  Nb  Nb2  1  0.757051  0.242950  0.000000  1
+  Nb  Nb3  1  0.242949  0.757052  0.000000  1
+  Ga  Ga4  1  0.000000  0.000000  0.000000  1
+  Ga  Ga5  1  0.250001  0.750000  0.500000  1
+  Co  Co6  1  0.373978  0.124983  0.999760  1
+  Co  Co7  1  0.625779  0.874776  0.500797  1
+  Co  Co8  1  0.125222  0.374220  0.499202  1
+  Co  Co9  1  0.875017  0.626021  0.000241  1
+  Sb  Sb10  1  0.500000  0.500000  0.000000  1
+  Sb  Sb11  1  0.750000  0.250001  0.500000  1

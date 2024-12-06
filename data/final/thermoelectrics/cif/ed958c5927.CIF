@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na3Tl(AgTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.23079009
+_cell_length_b   4.74745000
+_cell_length_c   8.42174500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   87.98705429
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Tl(AgTe)4
+_chemical_formula_sum   'Na3 Tl1 Ag4 Te4'
+_cell_volume   328.87884146
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.004308  0.249999  0.207279  1
+  Na  Na1  1  0.517597  0.249999  0.301628  1
+  Na  Na2  1  0.481256  0.750000  0.689187  1
+  Tl  Tl3  1  0.983860  0.750000  0.791488  1
+  Ag  Ag4  1  0.368128  0.750000  0.074520  1
+  Ag  Ag5  1  0.836278  0.750000  0.425755  1
+  Ag  Ag6  1  0.232887  0.249999  0.575151  1
+  Ag  Ag7  1  0.632701  0.249999  0.927632  1
+  Te  Te8  1  0.722527  0.750000  0.108846  1
+  Te  Te9  1  0.211817  0.750000  0.393246  1
+  Te  Te10  1  0.738622  0.249999  0.597410  1
+  Te  Te11  1  0.270016  0.249999  0.907864  1

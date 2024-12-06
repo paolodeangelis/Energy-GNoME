@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_NaEu4(AlSb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53099200
+_cell_length_b   12.35907600
+_cell_length_c   14.31845900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaEu4(AlSb3)2
+_chemical_formula_sum   'Na2 Eu8 Al4 Sb12'
+_cell_volume   801.81758834
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500000  0.500000  0.000000  1
+  Na  Na1  1  0.500000  0.000000  0.500000  1
+  Eu  Eu2  1  0.500000  0.090782  0.743926  1
+  Eu  Eu3  1  0.500000  0.409218  0.243926  1
+  Eu  Eu4  1  0.500000  0.328581  0.519595  1
+  Eu  Eu5  1  0.500000  0.909218  0.256074  1
+  Eu  Eu6  1  0.500000  0.171419  0.019595  1
+  Eu  Eu7  1  0.500000  0.828581  0.980405  1
+  Eu  Eu8  1  0.500000  0.671419  0.480405  1
+  Eu  Eu9  1  0.500000  0.590782  0.756074  1
+  Al  Al10  1  0.000000  0.170630  0.212766  1
+  Al  Al11  1  0.000000  0.829370  0.787234  1
+  Al  Al12  1  0.000000  0.670630  0.287234  1
+  Al  Al13  1  0.000000  0.329370  0.712766  1
+  Sb  Sb14  1  0.000000  0.841702  0.405657  1
+  Sb  Sb15  1  0.000000  0.158298  0.594343  1
+  Sb  Sb16  1  0.000000  0.658298  0.905657  1
+  Sb  Sb17  1  0.000000  0.341702  0.094343  1
+  Sb  Sb18  1  0.500000  0.338415  0.822550  1
+  Sb  Sb19  1  0.500000  0.661585  0.177450  1
+  Sb  Sb20  1  0.500000  0.838415  0.677450  1
+  Sb  Sb21  1  0.500000  0.161585  0.322550  1
+  Sb  Sb22  1  0.000000  0.521384  0.601453  1
+  Sb  Sb23  1  0.000000  0.478616  0.398547  1
+  Sb  Sb24  1  0.000000  0.021384  0.898547  1
+  Sb  Sb25  1  0.000000  0.978616  0.101453  1

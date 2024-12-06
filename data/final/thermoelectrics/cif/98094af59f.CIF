@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GeSb7(PtAu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.48927642
+_cell_length_b   6.52082802
+_cell_length_c   6.49293600
+_cell_angle_alpha   90.31268080
+_cell_angle_beta   89.62847804
+_cell_angle_gamma   89.65600837
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeSb7(PtAu)2
+_chemical_formula_sum   'Ge1 Sb7 Pt2 Au2'
+_cell_volume   274.73666681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.385068  0.131195  0.883656  1
+  Sb  Sb1  1  0.121742  0.869316  0.376236  1
+  Sb  Sb2  1  0.870860  0.381646  0.126536  1
+  Sb  Sb3  1  0.625556  0.619690  0.628929  1
+  Sb  Sb4  1  0.371965  0.378442  0.372213  1
+  Sb  Sb5  1  0.130376  0.617165  0.871192  1
+  Sb  Sb6  1  0.877991  0.133309  0.624628  1
+  Sb  Sb7  1  0.613004  0.873992  0.113394  1
+  Pt  Pt8  1  0.999502  0.500673  0.499723  1
+  Pt  Pt9  1  0.496528  0.488385  0.996229  1
+  Au  Au10  1  0.496030  0.002979  0.511040  1
+  Au  Au11  1  0.011378  0.003207  0.996225  1

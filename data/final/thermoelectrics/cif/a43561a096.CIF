@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HgBiSbPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.40013200
+_cell_length_b   7.40013002
+_cell_length_c   5.53243100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   59.63551124
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgBiSbPt3
+_chemical_formula_sum   'Hg2 Bi2 Sb2 Pt6'
+_cell_volume   261.40784621
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.166388  0.486136  0.249999  1
+  Hg  Hg1  1  0.513864  0.833612  0.249999  1
+  Bi  Bi2  1  0.487037  0.165834  0.750000  1
+  Bi  Bi3  1  0.834166  0.512963  0.750000  1
+  Sb  Sb4  1  0.821285  0.178715  0.249999  1
+  Sb  Sb5  1  0.178427  0.821573  0.750000  1
+  Pt  Pt6  1  0.151464  0.151980  0.002235  1
+  Pt  Pt7  1  0.499933  0.500067  0.001416  1
+  Pt  Pt8  1  0.848020  0.848536  0.002235  1
+  Pt  Pt9  1  0.151464  0.151980  0.497766  1
+  Pt  Pt10  1  0.499933  0.500067  0.498585  1
+  Pt  Pt11  1  0.848020  0.848536  0.497766  1

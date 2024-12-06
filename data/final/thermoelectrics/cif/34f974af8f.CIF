@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CaCo2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.03785681
+_cell_length_b   8.10350796
+_cell_length_c   8.03785727
+_cell_angle_alpha   109.46823066
+_cell_angle_beta   109.03585053
+_cell_angle_gamma   109.57843899
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCo2(Sb6Os)2
+_chemical_formula_sum   'Ca1 Co2 Sb12 Os2'
+_cell_volume   404.65582786
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.500000  0.500000  0.500000  1
+  Co  Co2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.836651  0.658027  0.503897  1
+  Sb  Sb4  1  0.163349  0.341973  0.496103  1
+  Sb  Sb5  1  0.154130  0.658027  0.821376  1
+  Sb  Sb6  1  0.845870  0.341973  0.178624  1
+  Sb  Sb7  1  0.664951  0.504882  0.839931  1
+  Sb  Sb8  1  0.335049  0.495118  0.160069  1
+  Sb  Sb9  1  0.659872  0.816751  0.156879  1
+  Sb  Sb10  1  0.340128  0.183249  0.843121  1
+  Sb  Sb11  1  0.503703  0.835778  0.656798  1
+  Sb  Sb12  1  0.496297  0.164222  0.343202  1
+  Sb  Sb13  1  0.178980  0.835778  0.332075  1
+  Sb  Sb14  1  0.821020  0.164222  0.667925  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.000000  0.000000  0.500000  1

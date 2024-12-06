@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_RbCr3FeSb12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.22015509
+_cell_length_b   8.22015641
+_cell_length_c   8.22015635
+_cell_angle_alpha   109.16496209
+_cell_angle_beta   109.16495077
+_cell_angle_gamma   109.16496790
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCr3FeSb12
+_chemical_formula_sum   'Rb1 Cr3 Fe1 Sb12'
+_cell_volume   432.36124872
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.000000  0.000000  0.500000  1
+  Cr  Cr2  1  0.000000  0.500000  0.000000  1
+  Cr  Cr3  1  0.500000  0.000000  0.000000  1
+  Fe  Fe4  1  0.500000  0.500000  0.500000  1
+  Sb  Sb5  1  0.652350  0.804475  0.154399  1
+  Sb  Sb6  1  0.845601  0.347650  0.195525  1
+  Sb  Sb7  1  0.502122  0.829288  0.648598  1
+  Sb  Sb8  1  0.829288  0.648598  0.502122  1
+  Sb  Sb9  1  0.497878  0.170712  0.351402  1
+  Sb  Sb10  1  0.154399  0.652350  0.804475  1
+  Sb  Sb11  1  0.804475  0.154399  0.652350  1
+  Sb  Sb12  1  0.195525  0.845601  0.347650  1
+  Sb  Sb13  1  0.170712  0.351402  0.497878  1
+  Sb  Sb14  1  0.648598  0.502122  0.829288  1
+  Sb  Sb15  1  0.351402  0.497878  0.170712  1
+  Sb  Sb16  1  0.347650  0.195525  0.845601  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ta(NbTe2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.97270333
+_cell_length_b   7.97270359
+_cell_length_c   12.68987465
+_cell_angle_alpha   56.20144086
+_cell_angle_beta   56.20144023
+_cell_angle_gamma   25.00522732
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta(NbTe2)3
+_chemical_formula_sum   'Ta1 Nb3 Te6'
+_cell_volume   280.19737507
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.225729  0.225729  0.610748  1
+  Nb  Nb1  1  0.584251  0.584251  0.854651  1
+  Nb  Nb2  1  0.416303  0.416303  0.145422  1
+  Nb  Nb3  1  0.773279  0.773279  0.389782  1
+  Te  Te4  1  0.572153  0.572153  0.639869  1
+  Te  Te5  1  0.426931  0.426931  0.361638  1
+  Te  Te6  1  0.805370  0.805370  0.710693  1
+  Te  Te7  1  0.195570  0.195570  0.286773  1
+  Te  Te8  1  0.902319  0.902319  0.972500  1
+  Te  Te9  1  0.098097  0.098097  0.027925  1

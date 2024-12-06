@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CuBiPdSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19117400
+_cell_length_b   8.12210000
+_cell_length_c   13.40656900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuBiPdSe3
+_chemical_formula_sum   'Cu4 Bi4 Pd4 Se12'
+_cell_volume   565.26431051
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.472990  0.886918  0.439984  1
+  Cu  Cu1  1  0.972990  0.613082  0.560016  1
+  Cu  Cu2  1  0.527010  0.386918  0.060016  1
+  Cu  Cu3  1  0.027010  0.113082  0.939984  1
+  Bi  Bi4  1  0.400147  0.882625  0.131969  1
+  Bi  Bi5  1  0.900147  0.617375  0.868031  1
+  Bi  Bi6  1  0.599853  0.382625  0.368031  1
+  Bi  Bi7  1  0.099853  0.117375  0.631969  1
+  Pd  Pd8  1  0.006392  0.636939  0.249341  1
+  Pd  Pd9  1  0.506392  0.863061  0.750659  1
+  Pd  Pd10  1  0.993608  0.136939  0.250659  1
+  Pd  Pd11  1  0.493608  0.363061  0.749341  1
+  Se  Se12  1  0.763632  0.636663  0.086825  1
+  Se  Se13  1  0.263632  0.863337  0.913175  1
+  Se  Se14  1  0.236368  0.136663  0.413175  1
+  Se  Se15  1  0.736368  0.363337  0.586825  1
+  Se  Se16  1  0.754219  0.884387  0.296946  1
+  Se  Se17  1  0.254219  0.615613  0.703054  1
+  Se  Se18  1  0.245781  0.384387  0.203054  1
+  Se  Se19  1  0.745781  0.115613  0.796946  1
+  Se  Se20  1  0.237415  0.635331  0.413768  1
+  Se  Se21  1  0.737415  0.864669  0.586232  1
+  Se  Se22  1  0.762585  0.135331  0.086232  1
+  Se  Se23  1  0.262585  0.364669  0.913768  1

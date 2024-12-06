@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbHf(NiSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22103791
+_cell_length_b   6.22103839
+_cell_length_c   7.62343067
+_cell_angle_alpha   65.91942102
+_cell_angle_beta   65.91941973
+_cell_angle_gamma   89.99999718
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbHf(NiSb)2
+_chemical_formula_sum   'Yb2 Hf2 Ni4 Sb4'
+_cell_volume   240.96356039
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.000000  0.000000  0.000000  1
+  Yb  Yb1  1  0.250001  0.750001  0.500000  1
+  Hf  Hf2  1  0.500000  0.500000  0.000000  1
+  Hf  Hf3  1  0.750001  0.249999  0.500000  1
+  Ni  Ni4  1  0.125001  0.144316  0.249999  1
+  Ni  Ni5  1  0.625000  0.605684  0.249999  1
+  Ni  Ni6  1  0.855685  0.375000  0.749999  1
+  Ni  Ni7  1  0.394313  0.874999  0.750001  1
+  Sb  Sb8  1  0.499996  0.999996  0.000010  1
+  Sb  Sb9  1  0.750005  0.750005  0.499990  1
+  Sb  Sb10  1  0.249995  0.249995  0.500011  1
+  Sb  Sb11  1  0.000007  0.500006  0.999988  1

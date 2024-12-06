@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Ba8Sn18BiPb5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.33680116
+_cell_length_b   7.33680157
+_cell_length_c   22.66260620
+_cell_angle_alpha   90.01370781
+_cell_angle_beta   89.98629201
+_cell_angle_gamma   120.10547859
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba8Sn18BiPb5
+_chemical_formula_sum   'Ba8 Sn18 Bi1 Pb5'
+_cell_volume   1055.33759320
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.333302  0.666698  0.135864  1
+  Ba  Ba1  1  0.666698  0.333302  0.864136  1
+  Ba  Ba2  1  0.666714  0.333286  0.635488  1
+  Ba  Ba3  1  0.333286  0.666714  0.364512  1
+  Ba  Ba4  1  0.000000  0.000000  0.000000  1
+  Ba  Ba5  1  0.000000  0.000000  0.500000  1
+  Ba  Ba6  1  0.999816  0.000184  0.250126  1
+  Ba  Ba7  1  0.000184  0.999816  0.749874  1
+  Sn  Sn8  1  0.193694  0.387361  0.625458  1
+  Sn  Sn9  1  0.806306  0.612639  0.374542  1
+  Sn  Sn10  1  0.612639  0.806306  0.625458  1
+  Sn  Sn11  1  0.806829  0.613340  0.125188  1
+  Sn  Sn12  1  0.387361  0.193694  0.374542  1
+  Sn  Sn13  1  0.193171  0.386660  0.874812  1
+  Sn  Sn14  1  0.193231  0.806769  0.624932  1
+  Sn  Sn15  1  0.386660  0.193171  0.125188  1
+  Sn  Sn16  1  0.806769  0.193231  0.375068  1
+  Sn  Sn17  1  0.613340  0.806829  0.874812  1
+  Sn  Sn18  1  0.806786  0.193214  0.125629  1
+  Sn  Sn19  1  0.193214  0.806786  0.874371  1
+  Sn  Sn20  1  0.528928  0.057410  0.249671  1
+  Sn  Sn21  1  0.471072  0.942590  0.750329  1
+  Sn  Sn22  1  0.942590  0.471072  0.249671  1
+  Sn  Sn23  1  0.057410  0.528928  0.750329  1
+  Sn  Sn24  1  0.528980  0.471020  0.249880  1
+  Sn  Sn25  1  0.471020  0.528980  0.750120  1
+  Bi  Bi26  1  0.500000  0.500000  0.500000  1
+  Pb  Pb27  1  0.500000  0.000000  0.000000  1
+  Pb  Pb28  1  0.000000  0.500000  0.000000  1
+  Pb  Pb29  1  0.500000  0.000000  0.500000  1
+  Pb  Pb30  1  0.500000  0.500000  0.000000  1
+  Pb  Pb31  1  0.000000  0.500000  0.500000  1

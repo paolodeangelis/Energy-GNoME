@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ta2GaCo2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15692887
+_cell_length_b   7.15687372
+_cell_length_c   5.85743700
+_cell_angle_alpha   114.15550314
+_cell_angle_beta   114.15537099
+_cell_angle_gamma   109.27917696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2GaCo2Sb
+_chemical_formula_sum   'Ta4 Ga2 Co4 Sb2'
+_cell_volume   200.25356308
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.757078  0.242929  0.000005  1
+  Ta  Ta1  1  0.242920  0.757077  0.999998  1
+  Ta  Ta2  1  0.492923  0.507075  0.500002  1
+  Ta  Ta3  1  0.007080  0.992922  0.499999  1
+  Ga  Ga4  1  0.000001  0.999998  0.000003  1
+  Ga  Ga5  1  0.249996  0.750000  0.499997  1
+  Co  Co6  1  0.375169  0.125171  0.000173  1
+  Co  Co7  1  0.624997  0.874998  0.499828  1
+  Co  Co8  1  0.125001  0.375002  0.500167  1
+  Co  Co9  1  0.874831  0.624831  0.999830  1
+  Sb  Sb10  1  0.500001  0.499997  0.999997  1
+  Sb  Sb11  1  0.750002  0.250003  0.500002  1

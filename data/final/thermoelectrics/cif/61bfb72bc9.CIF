@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NdCo(Sb4Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.08252374
+_cell_length_b   8.08252395
+_cell_length_c   8.13298400
+_cell_angle_alpha   109.59773241
+_cell_angle_beta   109.59773295
+_cell_angle_gamma   109.34441557
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdCo(Sb4Ru)3
+_chemical_formula_sum   'Nd1 Co1 Sb12 Ru3'
+_cell_volume   408.35844575
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.000000  0.000000  0.500000  1
+  Sb  Sb2  1  0.332142  0.177160  0.836378  1
+  Sb  Sb3  1  0.667858  0.822840  0.163622  1
+  Sb  Sb4  1  0.660761  0.503393  0.841769  1
+  Sb  Sb5  1  0.339239  0.496607  0.158231  1
+  Sb  Sb6  1  0.177160  0.845018  0.340783  1
+  Sb  Sb7  1  0.822840  0.154982  0.659217  1
+  Sb  Sb8  1  0.503393  0.842632  0.661624  1
+  Sb  Sb9  1  0.496607  0.157368  0.338376  1
+  Sb  Sb10  1  0.842632  0.339239  0.181008  1
+  Sb  Sb11  1  0.157368  0.660761  0.818992  1
+  Sb  Sb12  1  0.845018  0.667858  0.504236  1
+  Sb  Sb13  1  0.154982  0.332142  0.495764  1
+  Ru  Ru14  1  0.500000  0.000000  0.000000  1
+  Ru  Ru15  1  0.000000  0.500000  0.000000  1
+  Ru  Ru16  1  0.500000  0.500000  0.500000  1

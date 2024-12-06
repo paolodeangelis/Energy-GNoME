@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LaFeCo(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02861037
+_cell_length_b   8.08487807
+_cell_length_c   8.02929436
+_cell_angle_alpha   109.50877453
+_cell_angle_beta   109.17374053
+_cell_angle_gamma   109.56543418
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaFeCo(Sb6Os)2
+_chemical_formula_sum   'La1 Fe1 Co1 Sb12 Os2'
+_cell_volume   402.02208800
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Co  Co2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.341951  0.184816  0.843258  1
+  Sb  Sb4  1  0.658049  0.815184  0.156742  1
+  Sb  Sb5  1  0.664753  0.504479  0.836869  1
+  Sb  Sb6  1  0.335247  0.495521  0.163131  1
+  Sb  Sb7  1  0.178794  0.835679  0.332818  1
+  Sb  Sb8  1  0.821206  0.164321  0.667182  1
+  Sb  Sb9  1  0.502820  0.833251  0.656540  1
+  Sb  Sb10  1  0.497180  0.166749  0.343460  1
+  Sb  Sb11  1  0.845881  0.342704  0.178729  1
+  Sb  Sb12  1  0.154119  0.657296  0.821271  1
+  Sb  Sb13  1  0.833923  0.657334  0.503144  1
+  Sb  Sb14  1  0.166077  0.342666  0.496856  1
+  Os  Os15  1  0.000000  0.000000  0.500000  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cr2SiTe6As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.36176668
+_cell_length_b   8.36176629
+_cell_length_c   8.36176693
+_cell_angle_alpha   49.04516947
+_cell_angle_beta   49.04517435
+_cell_angle_gamma   49.04517569
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr2SiTe6As
+_chemical_formula_sum   'Cr2 Si1 Te6 As1'
+_cell_volume   306.21196837
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.661395  0.661395  0.661395  1
+  Cr  Cr1  1  0.327929  0.327929  0.327929  1
+  Si  Si2  1  0.961524  0.961524  0.961524  1
+  Te  Te3  1  0.468462  0.673625  0.071610  1
+  Te  Te4  1  0.071610  0.468462  0.673625  1
+  Te  Te5  1  0.673625  0.071610  0.468462  1
+  Te  Te6  1  0.267198  0.922167  0.575694  1
+  Te  Te7  1  0.922167  0.575694  0.267198  1
+  Te  Te8  1  0.575694  0.267198  0.922167  1
+  As  As9  1  0.070396  0.070396  0.070396  1

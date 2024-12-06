@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_EuCr2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.20498158
+_cell_length_b   8.23140329
+_cell_length_c   8.20498198
+_cell_angle_alpha   109.38953299
+_cell_angle_beta   109.60829294
+_cell_angle_gamma   109.28640822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuCr2(Sb6Os)2
+_chemical_formula_sum   'Eu1 Cr2 Sb12 Os2'
+_cell_volume   427.26401551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.500000  0.000000  0.000000  1
+  Cr  Cr2  1  0.000000  0.000000  0.500000  1
+  Sb  Sb3  1  0.344248  0.159113  0.496509  1
+  Sb  Sb4  1  0.337396  0.840887  0.185136  1
+  Sb  Sb5  1  0.662604  0.159113  0.814864  1
+  Sb  Sb6  1  0.814710  0.655989  0.152708  1
+  Sb  Sb7  1  0.157131  0.493939  0.336808  1
+  Sb  Sb8  1  0.503281  0.655989  0.841278  1
+  Sb  Sb9  1  0.846885  0.192022  0.345136  1
+  Sb  Sb10  1  0.655752  0.840887  0.503491  1
+  Sb  Sb11  1  0.185290  0.344011  0.847292  1
+  Sb  Sb12  1  0.153115  0.807978  0.654864  1
+  Sb  Sb13  1  0.496719  0.344011  0.158722  1
+  Sb  Sb14  1  0.842869  0.506061  0.663192  1
+  Os  Os15  1  0.500000  0.500000  0.500000  1
+  Os  Os16  1  0.000000  0.500000  0.000000  1

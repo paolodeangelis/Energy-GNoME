@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_CaTbSi(Ni2As)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.33995300
+_cell_length_b   9.33995226
+_cell_length_c   3.82169600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999909
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTbSi(Ni2As)6
+_chemical_formula_sum   'Ca1 Tb1 Si1 Ni12 As6'
+_cell_volume   288.71950241
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.500000  1
+  Tb  Tb1  1  0.666667  0.333333  0.000000  1
+  Si  Si2  1  0.333333  0.666667  0.000000  1
+  Ni  Ni3  1  0.707632  0.089764  0.500000  1
+  Ni  Ni4  1  0.910236  0.617869  0.500000  1
+  Ni  Ni5  1  0.382131  0.292368  0.500000  1
+  Ni  Ni6  1  0.771006  0.719657  0.000000  1
+  Ni  Ni7  1  0.280343  0.051349  0.000000  1
+  Ni  Ni8  1  0.948651  0.228994  0.000000  1
+  Ni  Ni9  1  0.525852  0.753829  0.500000  1
+  Ni  Ni10  1  0.246171  0.772023  0.500000  1
+  Ni  Ni11  1  0.227977  0.474148  0.500000  1
+  Ni  Ni12  1  0.482431  0.942089  0.000000  1
+  Ni  Ni13  1  0.057911  0.540343  0.000000  1
+  Ni  Ni14  1  0.459657  0.517569  0.000000  1
+  As  As15  1  0.439756  0.070408  0.500000  1
+  As  As16  1  0.929592  0.369349  0.500000  1
+  As  As17  1  0.630651  0.560244  0.500000  1
+  As  As18  1  0.734856  0.950727  0.000000  1
+  As  As19  1  0.049273  0.784129  0.000000  1
+  As  As20  1  0.215871  0.265144  0.000000  1

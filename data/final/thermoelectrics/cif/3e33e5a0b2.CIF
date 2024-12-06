@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ta2Te10PdAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.40431609
+_cell_length_b   7.40431627
+_cell_length_c   16.23198878
+_cell_angle_alpha   90.37923247
+_cell_angle_beta   89.62076791
+_cell_angle_gamma   150.84002474
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2Te10PdAu
+_chemical_formula_sum   'Ta2 Te10 Pd1 Au1'
+_cell_volume   433.59384840
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.495251  0.504749  0.747038  1
+  Ta  Ta1  1  0.504749  0.495251  0.252962  1
+  Te  Te2  1  0.149864  0.850136  0.747976  1
+  Te  Te3  1  0.850136  0.149864  0.252024  1
+  Te  Te4  1  0.403708  0.596292  0.097052  1
+  Te  Te5  1  0.596292  0.403708  0.902948  1
+  Te  Te6  1  0.888742  0.111258  0.840496  1
+  Te  Te7  1  0.111258  0.888742  0.159504  1
+  Te  Te8  1  0.103684  0.896316  0.352563  1
+  Te  Te9  1  0.896316  0.103684  0.647437  1
+  Te  Te10  1  0.404652  0.595348  0.411618  1
+  Te  Te11  1  0.595348  0.404652  0.588382  1
+  Pd  Pd12  1  0.000000  0.000000  0.500000  1
+  Au  Au13  1  0.000000  0.000000  0.000000  1

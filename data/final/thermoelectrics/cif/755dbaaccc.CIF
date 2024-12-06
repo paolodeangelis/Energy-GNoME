@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NpTlCuTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36139000
+_cell_length_b   8.29384512
+_cell_length_c   11.36603800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   74.75605152
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NpTlCuTe3
+_chemical_formula_sum   'Np2 Tl2 Cu2 Te6'
+_cell_volume   396.67427767
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Np  Np0  1  0.998746  0.002507  0.494583  1
+  Np  Np1  1  0.001254  0.997493  0.994583  1
+  Tl  Tl2  1  0.248151  0.503698  0.249223  1
+  Tl  Tl3  1  0.751849  0.496302  0.749223  1
+  Cu  Cu4  1  0.528874  0.942251  0.244830  1
+  Cu  Cu5  1  0.471126  0.057749  0.744830  1
+  Te  Te6  1  0.626267  0.747466  0.430111  1
+  Te  Te7  1  0.371393  0.257213  0.561127  1
+  Te  Te8  1  0.628607  0.742787  0.061127  1
+  Te  Te9  1  0.373733  0.252534  0.930111  1
+  Te  Te10  1  0.930639  0.138722  0.244037  1
+  Te  Te11  1  0.069361  0.861278  0.744037  1

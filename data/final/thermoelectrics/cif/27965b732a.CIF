@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_MgTaNb(SbRh)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.63219417
+_cell_length_b   7.62443062
+_cell_length_c   7.62423700
+_cell_angle_alpha   119.91913907
+_cell_angle_beta   99.64199598
+_cell_angle_gamma   99.67353871
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTaNb(SbRh)3
+_chemical_formula_sum   'Mg2 Ta2 Nb2 Sb6 Rh6'
+_cell_volume   362.30101398
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.003554  0.836936  0.667294  1
+  Mg  Mg1  1  0.503579  0.667411  0.836907  1
+  Ta  Ta2  1  0.998631  0.164828  0.331089  1
+  Ta  Ta3  1  0.498714  0.000700  0.498670  1
+  Nb  Nb4  1  0.999067  0.499308  0.000890  1
+  Nb  Nb5  1  0.498926  0.331069  0.165056  1
+  Sb  Sb6  1  0.255585  0.909101  0.070999  1
+  Sb  Sb7  1  0.746718  0.748587  0.254620  1
+  Sb  Sb8  1  0.247646  0.586484  0.429122  1
+  Sb  Sb9  1  0.747393  0.429377  0.586728  1
+  Sb  Sb10  1  0.246533  0.254892  0.749471  1
+  Sb  Sb11  1  0.755651  0.071413  0.909133  1
+  Rh  Rh12  1  0.368896  0.623717  0.140298  1
+  Rh  Rh13  1  0.869012  0.440651  0.275774  1
+  Rh  Rh14  1  0.366681  0.273238  0.442288  1
+  Rh  Rh15  1  0.866583  0.137070  0.618685  1
+  Rh  Rh16  1  0.388416  0.978475  0.792208  1
+  Rh  Rh17  1  0.888417  0.796743  0.980769  1

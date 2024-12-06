@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_InHg2(PtSe2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.75939000
+_cell_length_b   7.75938976
+_cell_length_c   5.35201900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000956
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InHg2(PtSe2)3
+_chemical_formula_sum   'In1 Hg2 Pt3 Se6'
+_cell_volume   279.06372332
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.000000  0.000000  0.000000  1
+  Hg  Hg1  1  0.333333  0.666667  0.655514  1
+  Hg  Hg2  1  0.666667  0.333333  0.344486  1
+  Pt  Pt3  1  0.500000  0.500000  0.000000  1
+  Pt  Pt4  1  0.000000  0.500000  0.000000  1
+  Pt  Pt5  1  0.500000  0.000000  0.000000  1
+  Se  Se6  1  0.816434  0.632868  0.758157  1
+  Se  Se7  1  0.816434  0.183566  0.758157  1
+  Se  Se8  1  0.367132  0.183566  0.758157  1
+  Se  Se9  1  0.183566  0.367132  0.241843  1
+  Se  Se10  1  0.183566  0.816434  0.241843  1
+  Se  Se11  1  0.632868  0.816434  0.241843  1

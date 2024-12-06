@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Co6Ni2IrS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.02938883
+_cell_length_b   7.02938939
+_cell_length_c   7.02203700
+_cell_angle_alpha   60.03457962
+_cell_angle_beta   60.03457696
+_cell_angle_gamma   60.05574642
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co6Ni2IrS8
+_chemical_formula_sum   'Co6 Ni2 Ir1 S8'
+_cell_volume   245.57994499
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.126125  0.126125  0.623188  1
+  Co  Co1  1  0.126125  0.126125  0.124563  1
+  Co  Co2  1  0.377235  0.873810  0.874478  1
+  Co  Co3  1  0.873810  0.377235  0.874478  1
+  Co  Co4  1  0.873150  0.873150  0.379603  1
+  Co  Co5  1  0.873150  0.873150  0.874098  1
+  Ni  Ni6  1  0.617858  0.128065  0.127039  1
+  Ni  Ni7  1  0.128065  0.617858  0.127039  1
+  Ir  Ir8  1  0.501980  0.501980  0.498020  1
+  S  S9  1  0.244127  0.244127  0.255873  1
+  S  S10  1  0.748225  0.748225  0.751775  1
+  S  S11  1  0.748080  0.256820  0.257055  1
+  S  S12  1  0.748080  0.256820  0.738044  1
+  S  S13  1  0.743085  0.743085  0.256915  1
+  S  S14  1  0.256820  0.748080  0.738044  1
+  S  S15  1  0.256820  0.748080  0.257055  1
+  S  S16  1  0.257268  0.257268  0.742732  1

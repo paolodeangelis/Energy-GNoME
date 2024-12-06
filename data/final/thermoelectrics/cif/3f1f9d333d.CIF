@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li2CoTcSn8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.43823398
+_cell_length_b   7.43823392
+_cell_length_c   7.43823401
+_cell_angle_alpha   127.28204156
+_cell_angle_beta   127.28203495
+_cell_angle_gamma   77.79102400
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CoTcSn8
+_chemical_formula_sum   'Li2 Co1 Tc1 Sn8'
+_cell_volume   252.56087718
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.498290  0.498290  0.000000  1
+  Li  Li1  1  0.001710  0.001710  0.000000  1
+  Co  Co2  1  0.750000  0.750000  0.000000  1
+  Tc  Tc3  1  0.250000  0.250000  0.000000  1
+  Sn  Sn4  1  0.197662  0.025223  0.494698  1
+  Sn  Sn5  1  0.025223  0.530525  0.827562  1
+  Sn  Sn6  1  0.702964  0.197662  0.172438  1
+  Sn  Sn7  1  0.302338  0.797036  0.827562  1
+  Sn  Sn8  1  0.969475  0.474777  0.172438  1
+  Sn  Sn9  1  0.797036  0.969475  0.494698  1
+  Sn  Sn10  1  0.474777  0.302338  0.505302  1
+  Sn  Sn11  1  0.530525  0.702964  0.505302  1

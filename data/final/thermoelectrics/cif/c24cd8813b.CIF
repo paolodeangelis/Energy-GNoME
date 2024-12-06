@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BiSb(TeIr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55250600
+_cell_length_b   6.55499106
+_cell_length_c   6.55373113
+_cell_angle_alpha   89.08030103
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiSb(TeIr)2
+_chemical_formula_sum   'Bi2 Sb2 Te4 Ir4'
+_cell_volume   281.45709393
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.870911  0.369877  0.131021  1
+  Bi  Bi1  1  0.370911  0.130123  0.868979  1
+  Sb  Sb2  1  0.128668  0.871792  0.372993  1
+  Sb  Sb3  1  0.628668  0.628208  0.627007  1
+  Te  Te4  1  0.127258  0.629179  0.873112  1
+  Te  Te5  1  0.627258  0.870821  0.126888  1
+  Te  Te6  1  0.874754  0.122938  0.625662  1
+  Te  Te7  1  0.374754  0.377062  0.374338  1
+  Ir  Ir8  1  0.501024  0.995630  0.493454  1
+  Ir  Ir9  1  0.001024  0.504370  0.506546  1
+  Ir  Ir10  1  0.497385  0.508364  0.996914  1
+  Ir  Ir11  1  0.997385  0.991636  0.003086  1

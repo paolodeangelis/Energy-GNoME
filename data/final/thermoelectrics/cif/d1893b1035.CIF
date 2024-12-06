@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sr3Al2(BiAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.05745024
+_cell_length_b   9.05745129
+_cell_length_c   7.10976729
+_cell_angle_alpha   89.21402544
+_cell_angle_beta   89.21402621
+_cell_angle_gamma   75.13537535
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3Al2(BiAs)2
+_chemical_formula_sum   'Sr6 Al4 Bi4 As4'
+_cell_volume   563.66326722
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.002913  0.733016  0.528681  1
+  Sr  Sr1  1  0.266984  0.997087  0.971319  1
+  Sr  Sr2  1  0.997087  0.266984  0.471319  1
+  Sr  Sr3  1  0.733016  0.002913  0.028681  1
+  Sr  Sr4  1  0.414873  0.585127  0.250000  1
+  Sr  Sr5  1  0.585127  0.414873  0.750000  1
+  Al  Al6  1  0.810605  0.591402  0.092528  1
+  Al  Al7  1  0.408598  0.189395  0.407472  1
+  Al  Al8  1  0.189395  0.408598  0.907472  1
+  Al  Al9  1  0.591402  0.810605  0.592528  1
+  Bi  Bi10  1  0.064684  0.713756  0.024272  1
+  Bi  Bi11  1  0.286244  0.935316  0.475728  1
+  Bi  Bi12  1  0.935316  0.286244  0.975728  1
+  Bi  Bi13  1  0.713756  0.064684  0.524272  1
+  As  As14  1  0.738608  0.572154  0.431243  1
+  As  As15  1  0.427846  0.261392  0.068757  1
+  As  As16  1  0.261392  0.427846  0.568757  1
+  As  As17  1  0.572154  0.738608  0.931243  1

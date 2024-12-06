@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Zr3Ni2(Sb2Pd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24029645
+_cell_length_b   6.24028006
+_cell_length_c   7.62175630
+_cell_angle_alpha   66.20222098
+_cell_angle_beta   66.20022657
+_cell_angle_gamma   90.82668300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3Ni2(Sb2Pd)2
+_chemical_formula_sum   'Zr3 Ni2 Sb4 Pd2'
+_cell_volume   242.83764303
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.492389  0.492399  0.015231  1
+  Zr  Zr1  1  0.754091  0.254084  0.491827  1
+  Zr  Zr2  1  0.254064  0.754067  0.491828  1
+  Ni  Ni3  1  0.610553  0.129786  0.259580  1
+  Ni  Ni4  1  0.129782  0.610604  0.259529  1
+  Sb  Sb5  1  0.495922  0.995895  0.008228  1
+  Sb  Sb6  1  0.995908  0.495899  0.008228  1
+  Sb  Sb7  1  0.768180  0.768176  0.463660  1
+  Sb  Sb8  1  0.245891  0.245898  0.508238  1
+  Pd  Pd9  1  0.385338  0.385322  0.746832  1
+  Pd  Pd10  1  0.867883  0.867867  0.746821  1

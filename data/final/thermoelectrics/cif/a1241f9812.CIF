@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScVTe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.28606079
+_cell_length_b   8.28606177
+_cell_length_c   13.61584000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   152.31808347
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScVTe10
+_chemical_formula_sum   'Sc1 V1 Te10'
+_cell_volume   434.29511468
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.689007  0.310993  0.750000  1
+  V  V1  1  0.310140  0.689860  0.250000  1
+  Te  Te2  1  0.790592  0.209408  0.932450  1
+  Te  Te3  1  0.221072  0.778928  0.071288  1
+  Te  Te4  1  0.329107  0.670893  0.750000  1
+  Te  Te5  1  0.683885  0.316115  0.250000  1
+  Te  Te6  1  0.074571  0.925429  0.849841  1
+  Te  Te7  1  0.907693  0.092307  0.151235  1
+  Te  Te8  1  0.907693  0.092307  0.348765  1
+  Te  Te9  1  0.074571  0.925429  0.650159  1
+  Te  Te10  1  0.790592  0.209408  0.567550  1
+  Te  Te11  1  0.221072  0.778928  0.428712  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_GaGe3(SbPt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.46521900
+_cell_length_b   6.59100775
+_cell_length_c   11.77881509
+_cell_angle_alpha   90.32115923
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaGe3(SbPt)4
+_chemical_formula_sum   'Ga2 Ge6 Sb8 Pt8'
+_cell_volume   501.91461797
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.845109  0.239341  0.930086  1
+  Ga  Ga1  1  0.345109  0.260659  0.069915  1
+  Ge  Ge2  1  0.854148  0.257573  0.426393  1
+  Ge  Ge3  1  0.354148  0.242427  0.573606  1
+  Ge  Ge4  1  0.152445  0.755341  0.073208  1
+  Ge  Ge5  1  0.652445  0.744659  0.926793  1
+  Ge  Ge6  1  0.146359  0.744466  0.574469  1
+  Ge  Ge7  1  0.646359  0.755534  0.425530  1
+  Sb  Sb8  1  0.114243  0.989334  0.326276  1
+  Sb  Sb9  1  0.614243  0.510666  0.673724  1
+  Sb  Sb10  1  0.888342  0.488801  0.172761  1
+  Sb  Sb11  1  0.388342  0.011199  0.827239  1
+  Sb  Sb12  1  0.885081  0.009052  0.676251  1
+  Sb  Sb13  1  0.385081  0.490948  0.323749  1
+  Sb  Sb14  1  0.108261  0.507978  0.823825  1
+  Sb  Sb15  1  0.608261  0.992022  0.176175  1
+  Pt  Pt16  1  0.501991  0.110281  0.390385  1
+  Pt  Pt17  1  0.001991  0.389719  0.609615  1
+  Pt  Pt18  1  0.505053  0.611540  0.110787  1
+  Pt  Pt19  1  0.005053  0.888460  0.889213  1
+  Pt  Pt20  1  0.498963  0.890638  0.611610  1
+  Pt  Pt21  1  0.998963  0.609362  0.388390  1
+  Pt  Pt22  1  0.500004  0.397977  0.885102  1
+  Pt  Pt23  1  0.000004  0.102023  0.114898  1

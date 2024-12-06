@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Zr4TiTe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.80005874
+_cell_length_b   7.80005842
+_cell_length_c   9.59155877
+_cell_angle_alpha   53.56177062
+_cell_angle_beta   53.56177581
+_cell_angle_gamma   61.82403863
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4TiTe8
+_chemical_formula_sum   'Zr4 Ti1 Te8'
+_cell_volume   371.20672408
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.735290  0.264710  0.500000  1
+  Zr  Zr1  1  0.264710  0.735290  0.500000  1
+  Zr  Zr2  1  0.749841  0.749841  0.010821  1
+  Zr  Zr3  1  0.250159  0.250159  0.989179  1
+  Ti  Ti4  1  0.000000  0.000000  0.000000  1
+  Te  Te5  1  0.448588  0.448588  0.329788  1
+  Te  Te6  1  0.551412  0.551412  0.670212  1
+  Te  Te7  1  0.545138  0.056460  0.170995  1
+  Te  Te8  1  0.454862  0.943540  0.829005  1
+  Te  Te9  1  0.943540  0.454862  0.829005  1
+  Te  Te10  1  0.056460  0.545138  0.170995  1
+  Te  Te11  1  0.949666  0.949666  0.337261  1
+  Te  Te12  1  0.050334  0.050334  0.662739  1

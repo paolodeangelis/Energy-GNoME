@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_GaSb11(IrPt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.12839879
+_cell_length_b   8.12839797
+_cell_length_c   8.13249338
+_cell_angle_alpha   109.28441892
+_cell_angle_beta   109.74753886
+_cell_angle_gamma   109.36162878
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSb11(IrPt)2
+_chemical_formula_sum   'Ga1 Sb11 Ir2 Pt2'
+_cell_volume   413.72639289
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.842628  0.658705  0.501334  1
+  Sb  Sb1  1  0.842611  0.352853  0.195466  1
+  Sb  Sb2  1  0.139543  0.663874  0.803415  1
+  Sb  Sb3  1  0.342530  0.493885  0.150792  1
+  Sb  Sb4  1  0.149440  0.347260  0.496700  1
+  Sb  Sb5  1  0.656908  0.808262  0.150792  1
+  Sb  Sb6  1  0.186975  0.841279  0.340305  1
+  Sb  Sb7  1  0.664475  0.504877  0.846492  1
+  Sb  Sb8  1  0.817195  0.154812  0.664639  1
+  Sb  Sb9  1  0.341614  0.182017  0.846492  1
+  Sb  Sb10  1  0.509828  0.847443  0.664639  1
+  Sb  Sb11  1  0.499024  0.153331  0.340305  1
+  Ir  Ir12  1  0.003788  0.499247  0.000178  1
+  Ir  Ir13  1  0.500931  0.996390  0.000178  1
+  Pt  Pt14  1  0.997429  0.994056  0.499137  1
+  Pt  Pt15  1  0.505081  0.501708  0.499137  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_V3GaReSe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27852197
+_cell_length_b   7.27789328
+_cell_length_c   7.15629748
+_cell_angle_alpha   59.45588484
+_cell_angle_beta   59.46001216
+_cell_angle_gamma   60.01809648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V3GaReSe8
+_chemical_formula_sum   'V3 Ga1 Re1 Se8'
+_cell_volume   265.87248392
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.606222  0.606212  0.594257  1
+  V  V1  1  0.193311  0.606239  0.594232  1
+  V  V2  1  0.606227  0.193305  0.594247  1
+  Ga  Ga3  1  0.000993  0.001002  0.996989  1
+  Re  Re4  1  0.599085  0.599060  0.202851  1
+  Se  Se5  1  0.859683  0.859691  0.865372  1
+  Se  Se6  1  0.415250  0.859683  0.865355  1
+  Se  Se7  1  0.859680  0.415253  0.865356  1
+  Se  Se8  1  0.862667  0.862687  0.411924  1
+  Se  Se9  1  0.363468  0.363458  0.373308  1
+  Se  Se10  1  0.899707  0.363478  0.373368  1
+  Se  Se11  1  0.363489  0.899725  0.373348  1
+  Se  Se12  1  0.370219  0.370207  0.889392  1

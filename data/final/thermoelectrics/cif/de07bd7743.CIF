@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Na2Ca3AgBi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.14468760
+_cell_length_b   8.14468767
+_cell_length_c   4.75026100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.56091777
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Ca3AgBi3
+_chemical_formula_sum   'Na2 Ca3 Ag1 Bi3'
+_cell_volume   268.50280507
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.236370  0.994381  0.000000  1
+  Na  Na1  1  0.994381  0.236369  0.000000  1
+  Ca  Ca2  1  0.586442  0.994862  0.500001  1
+  Ca  Ca3  1  0.444577  0.444577  0.500001  1
+  Ca  Ca4  1  0.994862  0.586441  0.500001  1
+  Ag  Ag5  1  0.750849  0.750849  0.000000  1
+  Bi  Bi6  1  0.669228  0.340583  0.000000  1
+  Bi  Bi7  1  0.340583  0.669228  0.000000  1
+  Bi  Bi8  1  0.982710  0.982710  0.500001  1

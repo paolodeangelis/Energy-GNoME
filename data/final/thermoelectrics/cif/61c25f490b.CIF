@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_AlV4(Te3Se)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.70476682
+_cell_length_b   7.70476669
+_cell_length_c   7.70476674
+_cell_angle_alpha   119.78902337
+_cell_angle_beta   119.69590175
+_cell_angle_gamma   90.44666558
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlV4(Te3Se)2
+_chemical_formula_sum   'Al1 V4 Te6 Se2'
+_cell_volume   324.66549913
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.005486  0.005486  0.000000  1
+  V  V1  1  0.607412  0.402607  0.204804  1
+  V  V2  1  0.197803  0.402607  0.795196  1
+  V  V3  1  0.602093  0.405375  0.803283  1
+  V  V4  1  0.602093  0.798809  0.196717  1
+  Te  Te5  1  0.859934  0.139450  0.720483  1
+  Te  Te6  1  0.418968  0.139450  0.279517  1
+  Te  Te7  1  0.865212  0.139018  0.273806  1
+  Te  Te8  1  0.865212  0.591406  0.726194  1
+  Te  Te9  1  0.362095  0.628061  0.265966  1
+  Te  Te10  1  0.362095  0.096129  0.734034  1
+  Se  Se11  1  0.377278  0.625799  0.751479  1
+  Se  Se12  1  0.874320  0.625799  0.248521  1

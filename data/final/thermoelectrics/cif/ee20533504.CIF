@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MnCuRhSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.35843852
+_cell_length_b   7.35843933
+_cell_length_c   7.35843940
+_cell_angle_alpha   121.06203199
+_cell_angle_beta   118.74359964
+_cell_angle_gamma   90.18009932
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCuRhSe4
+_chemical_formula_sum   'Mn2 Cu2 Rh2 Se8'
+_cell_volume   282.00436645
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.000000  0.000000  0.500000  1
+  Mn  Mn1  1  0.000000  0.500000  0.000000  1
+  Cu  Cu2  1  0.377620  0.627620  0.750000  1
+  Cu  Cu3  1  0.622380  0.372380  0.250000  1
+  Rh  Rh4  1  0.000000  0.000000  0.000000  1
+  Rh  Rh5  1  0.500000  0.000000  0.500000  1
+  Se  Se6  1  0.240105  0.759275  0.019170  1
+  Se  Se7  1  0.240105  0.220935  0.480830  1
+  Se  Se8  1  0.239063  0.757943  0.481119  1
+  Se  Se9  1  0.776824  0.757943  0.018881  1
+  Se  Se10  1  0.759895  0.240725  0.980830  1
+  Se  Se11  1  0.759895  0.779065  0.519170  1
+  Se  Se12  1  0.760937  0.242057  0.518881  1
+  Se  Se13  1  0.223176  0.242057  0.981119  1

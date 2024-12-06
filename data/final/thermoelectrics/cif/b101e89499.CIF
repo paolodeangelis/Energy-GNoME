@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2Hf3(CuTe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.09383409
+_cell_length_b   7.79932236
+_cell_length_c   14.23255677
+_cell_angle_alpha   94.97848713
+_cell_angle_beta   98.26891771
+_cell_angle_gamma   105.21536668
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Hf3(CuTe4)2
+_chemical_formula_sum   'Na2 Hf3 Cu2 Te8'
+_cell_volume   430.23923312
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.860423  0.515583  0.205260  1
+  Na  Na1  1  0.139577  0.484417  0.794739  1
+  Hf  Hf2  1  0.500000  0.000000  0.000000  1
+  Hf  Hf3  1  0.723634  0.069170  0.378097  1
+  Hf  Hf4  1  0.276365  0.930830  0.621902  1
+  Cu  Cu5  1  0.146480  0.094165  0.198795  1
+  Cu  Cu6  1  0.853519  0.905836  0.801204  1
+  Te  Te7  1  0.160626  0.270541  0.050710  1
+  Te  Te8  1  0.528555  0.869916  0.187195  1
+  Te  Te9  1  0.340554  0.329231  0.351878  1
+  Te  Te10  1  0.114087  0.809528  0.418648  1
+  Te  Te11  1  0.885913  0.190473  0.581351  1
+  Te  Te12  1  0.659447  0.670770  0.648123  1
+  Te  Te13  1  0.471445  0.130084  0.812805  1
+  Te  Te14  1  0.839373  0.729458  0.949289  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TmTh2(CoSn)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36224783
+_cell_length_b   7.24802767
+_cell_length_c   4.00624300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.48810112
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmTh2(CoSn)3
+_chemical_formula_sum   'Tm1 Th2 Co3 Sn3'
+_cell_volume   186.08670911
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.000000  0.593034  0.500000  1
+  Th  Th1  1  0.413841  0.415908  0.500000  1
+  Th  Th2  1  0.586159  0.002067  0.500000  1
+  Co  Co3  1  0.347161  0.666388  0.000000  1
+  Co  Co4  1  0.000000  0.004222  0.500000  1
+  Co  Co5  1  0.652839  0.319225  0.000000  1
+  Sn  Sn6  1  0.759892  0.748740  0.000000  1
+  Sn  Sn7  1  0.000000  0.261568  0.000000  1
+  Sn  Sn8  1  0.240108  0.988848  0.000000  1

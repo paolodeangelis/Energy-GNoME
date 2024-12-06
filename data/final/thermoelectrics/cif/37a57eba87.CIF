@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuNbTe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.44549188
+_cell_length_b   8.44549088
+_cell_length_c   13.71275600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   152.45001369
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuNbTe10
+_chemical_formula_sum   'Lu1 Nb1 Te10'
+_cell_volume   452.38402491
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.683699  0.316301  0.750000  1
+  Nb  Nb1  1  0.312193  0.687807  0.250000  1
+  Te  Te2  1  0.326673  0.673327  0.750000  1
+  Te  Te3  1  0.684465  0.315535  0.250000  1
+  Te  Te4  1  0.068416  0.931584  0.850086  1
+  Te  Te5  1  0.914379  0.085621  0.150571  1
+  Te  Te6  1  0.914379  0.085621  0.349429  1
+  Te  Te7  1  0.068416  0.931584  0.649914  1
+  Te  Te8  1  0.790659  0.209341  0.566970  1
+  Te  Te9  1  0.223033  0.776967  0.432147  1
+  Te  Te10  1  0.223033  0.776967  0.067853  1
+  Te  Te11  1  0.790659  0.209341  0.933030  1

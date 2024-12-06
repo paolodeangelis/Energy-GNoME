@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Bi2IrRhSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39475600
+_cell_length_b   6.39470301
+_cell_length_c   6.39561801
+_cell_angle_alpha   89.87169469
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Bi2IrRhSe2
+_chemical_formula_sum   'Bi4 Ir2 Rh2 Se4'
+_cell_volume   261.53257215
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.130108  0.630310  0.868558  1
+  Bi  Bi1  1  0.630108  0.869690  0.131442  1
+  Bi  Bi2  1  0.869061  0.130676  0.629541  1
+  Bi  Bi3  1  0.369061  0.369324  0.370459  1
+  Ir  Ir4  1  0.514417  0.485308  0.986228  1
+  Ir  Ir5  1  0.014417  0.014692  0.013772  1
+  Rh  Rh6  1  0.485696  0.985957  0.514776  1
+  Rh  Rh7  1  0.985696  0.514043  0.485224  1
+  Se  Se8  1  0.879321  0.377465  0.119420  1
+  Se  Se9  1  0.379321  0.122535  0.880580  1
+  Se  Se10  1  0.121397  0.880751  0.377298  1
+  Se  Se11  1  0.621397  0.619249  0.622702  1

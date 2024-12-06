@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CaTbYb2Bi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.29771432
+_cell_length_b   8.29771342
+_cell_length_c   8.38246230
+_cell_angle_alpha   109.52191769
+_cell_angle_beta   109.52190921
+_cell_angle_gamma   109.05820132
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTbYb2Bi3
+_chemical_formula_sum   'Ca2 Tb2 Yb4 Bi6'
+_cell_volume   445.98333401
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500402  0.002963  0.355491  1
+  Ca  Ca1  1  0.502963  0.000402  0.855491  1
+  Tb  Tb2  1  0.999120  0.855894  0.499303  1
+  Tb  Tb3  1  0.355894  0.499120  0.999303  1
+  Yb  Yb4  1  0.645172  0.644385  0.647664  1
+  Yb  Yb5  1  0.997521  0.354804  0.497203  1
+  Yb  Yb6  1  0.144385  0.145172  0.147664  1
+  Yb  Yb7  1  0.854804  0.497521  0.997203  1
+  Bi  Bi8  1  0.126139  0.748434  0.871572  1
+  Bi  Bi9  1  0.882518  0.124672  0.751044  1
+  Bi  Bi10  1  0.624672  0.382518  0.251044  1
+  Bi  Bi11  1  0.369804  0.248171  0.627722  1
+  Bi  Bi12  1  0.748171  0.869804  0.127722  1
+  Bi  Bi13  1  0.248434  0.626139  0.371572  1

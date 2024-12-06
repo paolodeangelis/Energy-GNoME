@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Gd3Ho(SbTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32768900
+_cell_length_b   4.32722801
+_cell_length_c   18.20505700
+_cell_angle_alpha   90.00376038
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd3Ho(SbTe)4
+_chemical_formula_sum   'Gd3 Ho1 Sb4 Te4'
+_cell_volume   340.92422761
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.250000  0.748419  0.136975  1
+  Gd  Gd1  1  0.750000  0.254979  0.361625  1
+  Gd  Gd2  1  0.250000  0.746751  0.637727  1
+  Ho  Ho3  1  0.750000  0.249457  0.863759  1
+  Sb  Sb4  1  0.250000  0.245871  0.999216  1
+  Sb  Sb5  1  0.750000  0.765623  0.499404  1
+  Sb  Sb6  1  0.250000  0.236978  0.500246  1
+  Sb  Sb7  1  0.750000  0.751603  0.999278  1
+  Te  Te8  1  0.750000  0.249221  0.184904  1
+  Te  Te9  1  0.250000  0.753197  0.314332  1
+  Te  Te10  1  0.750000  0.248925  0.687143  1
+  Te  Te11  1  0.250000  0.748973  0.815391  1

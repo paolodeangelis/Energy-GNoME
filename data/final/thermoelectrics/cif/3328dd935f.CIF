@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaSr2(BeAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.84232587
+_cell_length_b   8.84232644
+_cell_length_c   7.06527332
+_cell_angle_alpha   62.48787510
+_cell_angle_beta   62.48787217
+_cell_angle_gamma   34.93964530
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSr2(BeAs)6
+_chemical_formula_sum   'Na1 Sr2 Be6 As6'
+_cell_volume   276.79993164
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Sr  Sr1  1  0.660367  0.660367  0.680872  1
+  Sr  Sr2  1  0.339633  0.339633  0.319128  1
+  Be  Be3  1  0.082844  0.584178  0.833132  1
+  Be  Be4  1  0.415822  0.917156  0.166868  1
+  Be  Be5  1  0.751452  0.248548  0.500000  1
+  Be  Be6  1  0.248548  0.751452  0.500000  1
+  Be  Be7  1  0.584178  0.082844  0.833132  1
+  Be  Be8  1  0.917156  0.415822  0.166868  1
+  As  As9  1  0.881676  0.881676  0.526022  1
+  As  As10  1  0.215168  0.215168  0.860608  1
+  As  As11  1  0.549022  0.549022  0.194976  1
+  As  As12  1  0.450978  0.450978  0.805024  1
+  As  As13  1  0.784832  0.784832  0.139392  1
+  As  As14  1  0.118324  0.118324  0.473978  1
