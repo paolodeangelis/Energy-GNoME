@@ -54,7 +54,7 @@ COLUMNS = [
     "Average zT (-)",
     "Average zT (deviation) (-)",
     "AI-experts confidence (-)",
-    # "AI-experts confidence (deviation) (-)",
+    "AI-experts confidence (deviation) (-)",
     "Working Temperature (K)",
     "Notes",
     "Ranking",
@@ -365,6 +365,7 @@ def build_interactive_table(
     w_property4: pn.widgets.FloatSlider,
     w_property5: pn.widgets.FloatSlider,
     w_property6: pn.widgets.FloatSlider,
+    w_property7: pn.widgets.FloatSlider,
     # sliders
     # s_classifier_mean: pn.widgets.RangeSlider,
     columns: list,
@@ -392,7 +393,7 @@ def build_interactive_table(
         + w_property4 * min_max_norm(df[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"])
         + w_property5 * min_max_norm(df[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"])
         + w_property6 * min_max_norm(df["Average zT (deviation) (-)"])
-        # + w_property7 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
+        + w_property7 * min_max_norm(df["AI-experts confidence (deviation) (-)"])
     )
     # Add the ranking to the DataFrame and normalize
     df["Ranking"] = min_max_norm(ranking)
@@ -647,20 +648,20 @@ w_property6_help = pn.widgets.TooltipIcon(
 weights["Average zT (deviation) (-)"] = w_property6
 weights_helper["Average zT (deviation) (-)"] = w_property6_help
 # Property 7
-# w_property7 = pn.widgets.FloatSlider(
-#     name="AI-experts confidence (deviation) (-)",
-#     start=-10,
-#     end=10,
-#     step=0.5,
-#     value=-2,
-#     sizing_mode="fixed",
-#     width=SIDEBAR_WIDGET_W,
-# )
-# w_property7_help = pn.widgets.TooltipIcon(
-#     value="Adjust the weight of the 'AI-experts confidence (deviation) (-)' property in the <b><i>ranking function</i></b>." # noqa: W505
-# )
-# weights["AI-experts confidence (deviation) (-)"] = w_property7
-# weights_helper["AI-experts confidence (deviation) (-)"] = w_property7_help
+w_property7 = pn.widgets.FloatSlider(
+    name="AI-experts confidence (deviation) (-)",
+    start=-10,
+    end=10,
+    step=0.5,
+    value=0,
+    sizing_mode="fixed",
+    width=SIDEBAR_WIDGET_W,
+)
+w_property7_help = pn.widgets.TooltipIcon(
+    value="Adjust the weight of the 'AI-experts confidence (deviation) (-)' property in the <b><i>ranking function</i></b>."
+)
+weights["AI-experts confidence (deviation) (-)"] = w_property7
+weights_helper["AI-experts confidence (deviation) (-)"] = w_property7_help
 
 # (2) Widget SIDEBAR : properties range
 sliders = {}
@@ -736,7 +737,7 @@ downloadable_table = pn.bind(
     w_property4=w_property4,
     w_property5=w_property5,
     w_property6=w_property6,
-    # w_property7=w_property7,
+    w_property7=w_property7,
     # sliders
     # s_classifier_mean=s_classifier_mean,
     columns=select_properties,
