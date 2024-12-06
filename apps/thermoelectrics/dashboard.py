@@ -8,6 +8,8 @@ import pandas as pd
 import panel as pn
 import requests
 
+pn.extension(throttled=True)
+
 # CONSTANTS (settings)
 SITE = "Energy-GNoME"
 SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
@@ -265,9 +267,7 @@ def get_raw_file_github(url: str) -> StringIO:
         response.close()  # Ensure the response is always closed properly
 
 
-def apply_range_filter(
-    df: pd.DataFrame, column: str, value_range: pn.widgets.RangeSlider
-) -> pd.DataFrame:
+def apply_range_filter(df: pd.DataFrame, column: str, value_range: tuple) -> pd.DataFrame:
     """
     Apply a range filter to a specified column in the DataFrame.
 
@@ -279,7 +279,7 @@ def apply_range_filter(
     Returns:
         pd.DataFrame: The filtered DataFrame containing rows within the specified range.
     """
-    start, end = value_range if isinstance(value_range, tuple) else value_range.value
+    start, end = value_range
     return df[(df[column] >= start) & (df[column] <= end)]
 
 
@@ -315,6 +315,7 @@ def create_range_slider(col: str, name: str = "filter") -> pn.widgets.RangeSlide
     slider = pn.widgets.RangeSlider(
         start=table.value[col].min(),
         end=table.value[col].max(),
+        value_throttled=(table.value[col].min(), table.value[col].max()),
         name=name,
         sizing_mode="fixed",
         width=SIDEBAR_WIDGET_W,
