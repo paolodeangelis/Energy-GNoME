@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfZr3Ni2(Sb2Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.69157067
+_cell_length_b   7.67866697
+_cell_length_c   6.28061000
+_cell_angle_alpha   114.13981764
+_cell_angle_beta   114.09674733
+_cell_angle_gamma   109.39092410
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZr3Ni2(Sb2Os)2
+_chemical_formula_sum   'Hf1 Zr3 Ni2 Sb4 Os2'
+_cell_volume   247.43382742
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.125000  0.375000  0.995682  1
+  Zr  Zr1  1  0.625001  0.875000  0.004309  1
+  Zr  Zr2  1  0.870040  0.620116  0.494551  1
+  Zr  Zr3  1  0.379959  0.129884  0.504397  1
+  Ni  Ni4  1  0.497794  0.499187  0.000099  1
+  Ni  Ni5  1  0.752206  0.250814  0.503118  1
+  Sb  Sb6  1  0.377640  0.128326  0.002782  1
+  Sb  Sb7  1  0.625000  0.874999  0.497253  1
+  Sb  Sb8  1  0.125000  0.375000  0.503392  1
+  Sb  Sb9  1  0.872359  0.621674  0.996814  1
+  Os  Os10  1  0.000568  0.001654  0.999911  1
+  Os  Os11  1  0.249432  0.748347  0.497689  1

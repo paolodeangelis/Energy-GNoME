@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CeFe3As12Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.25494524
+_cell_length_b   7.28283097
+_cell_length_c   7.28283067
+_cell_angle_alpha   109.54865491
+_cell_angle_beta   109.39368041
+_cell_angle_gamma   109.39367966
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeFe3As12Ru
+_chemical_formula_sum   'Ce1 Fe3 As12 Ru1'
+_cell_volume   296.50182393
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.000000  0.000000  0.500000  1
+  As  As4  1  0.843583  0.658485  0.502496  1
+  As  As5  1  0.156417  0.341515  0.497504  1
+  As  As6  1  0.145546  0.647393  0.807431  1
+  As  As7  1  0.854454  0.352607  0.192569  1
+  As  As8  1  0.658913  0.502496  0.844011  1
+  As  As9  1  0.341087  0.497504  0.155989  1
+  As  As10  1  0.661885  0.807431  0.160038  1
+  As  As11  1  0.338115  0.192569  0.839962  1
+  As  As12  1  0.501847  0.839962  0.647393  1
+  As  As13  1  0.498153  0.160038  0.352607  1
+  As  As14  1  0.814902  0.155989  0.658485  1
+  As  As15  1  0.185098  0.844011  0.341515  1
+  Ru  Ru16  1  0.500000  0.000000  0.000000  1

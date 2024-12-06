@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_GaFe2(Sb6Pt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.06856869
+_cell_length_b   8.09326056
+_cell_length_c   8.06856882
+_cell_angle_alpha   109.41974240
+_cell_angle_beta   109.47465617
+_cell_angle_gamma   109.39570244
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaFe2(Sb6Pt)2
+_chemical_formula_sum   'Ga1 Fe2 Sb12 Pt2'
+_cell_volume   406.21408077
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.500000  0.000000  1
+  Fe  Fe2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.653747  0.804142  0.150396  1
+  Sb  Sb4  1  0.854703  0.346362  0.179987  1
+  Sb  Sb5  1  0.509347  0.834333  0.654669  1
+  Sb  Sb6  1  0.833625  0.653638  0.508341  1
+  Sb  Sb7  1  0.490653  0.165667  0.345331  1
+  Sb  Sb8  1  0.145297  0.653638  0.820013  1
+  Sb  Sb9  1  0.820336  0.165667  0.675014  1
+  Sb  Sb10  1  0.179664  0.834333  0.324986  1
+  Sb  Sb11  1  0.166375  0.346362  0.491659  1
+  Sb  Sb12  1  0.674702  0.514707  0.840005  1
+  Sb  Sb13  1  0.325298  0.485293  0.159995  1
+  Sb  Sb14  1  0.346253  0.195858  0.849604  1
+  Pt  Pt15  1  0.000000  0.000000  0.500000  1
+  Pt  Pt16  1  0.500000  0.000000  0.000000  1

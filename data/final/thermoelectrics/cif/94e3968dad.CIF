@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Fe2CoSb12Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.06299860
+_cell_length_b   8.00218498
+_cell_length_c   9.28190498
+_cell_angle_alpha   54.87768264
+_cell_angle_beta   54.76150715
+_cell_angle_gamma   70.52354386
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2CoSb12Au
+_chemical_formula_sum   'Fe2 Co1 Sb12 Au1'
+_cell_volume   400.08124340
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.500000  0.000000  0.500000  1
+  Fe  Fe1  1  0.000000  0.500000  0.500000  1
+  Co  Co2  1  0.500000  0.000000  0.000000  1
+  Sb  Sb3  1  0.674777  0.674765  0.485125  1
+  Sb  Sb4  1  0.325223  0.325235  0.514875  1
+  Sb  Sb5  1  0.637944  0.667218  0.193277  1
+  Sb  Sb6  1  0.362056  0.332782  0.806723  1
+  Sb  Sb7  1  0.170279  0.861241  0.640686  1
+  Sb  Sb8  1  0.829721  0.138759  0.359314  1
+  Sb  Sb9  1  0.841095  0.161819  0.667993  1
+  Sb  Sb10  1  0.158905  0.838181  0.332007  1
+  Sb  Sb11  1  0.810009  0.496772  0.831328  1
+  Sb  Sb12  1  0.189991  0.503228  0.168672  1
+  Sb  Sb13  1  0.509378  0.170061  0.161232  1
+  Sb  Sb14  1  0.490622  0.829939  0.838768  1
+  Au  Au15  1  0.000000  0.500000  0.000000  1

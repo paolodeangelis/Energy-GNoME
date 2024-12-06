@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaFeCu(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.13415990
+_cell_length_b   8.14555785
+_cell_length_c   8.18884818
+_cell_angle_alpha   109.38772332
+_cell_angle_beta   109.63627921
+_cell_angle_gamma   109.40406037
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaFeCu(Sb6Os)2
+_chemical_formula_sum   'Ba1 Fe1 Cu1 Sb12 Os2'
+_cell_volume   417.59504594
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Cu  Cu2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.332584  0.176326  0.833346  1
+  Sb  Sb4  1  0.667416  0.823674  0.166654  1
+  Sb  Sb5  1  0.651379  0.497778  0.840042  1
+  Sb  Sb6  1  0.348621  0.502222  0.159958  1
+  Sb  Sb7  1  0.182327  0.851407  0.352717  1
+  Sb  Sb8  1  0.817673  0.148593  0.647283  1
+  Sb  Sb9  1  0.499600  0.841884  0.657626  1
+  Sb  Sb10  1  0.500400  0.158116  0.342374  1
+  Sb  Sb11  1  0.840887  0.343019  0.189134  1
+  Sb  Sb12  1  0.159113  0.656981  0.810866  1
+  Sb  Sb13  1  0.844403  0.667925  0.500370  1
+  Sb  Sb14  1  0.155597  0.332075  0.499630  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.500000  0.500000  0.500000  1

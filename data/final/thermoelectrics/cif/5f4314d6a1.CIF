@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LiCa3Ag2Sb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55343500
+_cell_length_b   7.59242036
+_cell_length_c   4.54303600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.17087692
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa3Ag2Sb3
+_chemical_formula_sum   'Li1 Ca3 Ag2 Sb3'
+_cell_volume   225.24293358
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.234521  0.000000  1
+  Ca  Ca1  1  0.000000  0.590514  0.500000  1
+  Ca  Ca2  1  0.428661  0.423821  0.500000  1
+  Ca  Ca3  1  0.571339  0.995160  0.500000  1
+  Ag  Ag4  1  0.754122  0.754273  0.000000  1
+  Ag  Ag5  1  0.245878  0.000152  0.000000  1
+  Sb  Sb6  1  0.000000  0.009391  0.500000  1
+  Sb  Sb7  1  0.327259  0.659715  0.000000  1
+  Sb  Sb8  1  0.672741  0.332455  0.000000  1

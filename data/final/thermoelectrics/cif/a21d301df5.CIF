@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_LaNd2Ni5Sb5Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34048000
+_cell_length_b   9.92326600
+_cell_length_c   13.11054500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNd2Ni5Sb5Pd
+_chemical_formula_sum   'La2 Nd4 Ni10 Sb10 Pd2'
+_cell_volume   564.69395413
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.241998  0.000000  1
+  La  La1  1  0.500000  0.758002  0.500000  1
+  Nd  Nd2  1  0.000000  0.244898  0.324718  1
+  Nd  Nd3  1  0.500000  0.755102  0.175282  1
+  Nd  Nd4  1  0.000000  0.244898  0.675282  1
+  Nd  Nd5  1  0.500000  0.755102  0.824718  1
+  Ni  Ni6  1  0.000000  0.992531  0.160449  1
+  Ni  Ni7  1  0.500000  0.007469  0.339551  1
+  Ni  Ni8  1  0.000000  0.992531  0.839551  1
+  Ni  Ni9  1  0.500000  0.007469  0.660449  1
+  Ni  Ni10  1  0.500000  0.986171  0.000000  1
+  Ni  Ni11  1  0.000000  0.013829  0.500000  1
+  Ni  Ni12  1  0.000000  0.616742  0.321269  1
+  Ni  Ni13  1  0.500000  0.383258  0.178731  1
+  Ni  Ni14  1  0.000000  0.616742  0.678731  1
+  Ni  Ni15  1  0.500000  0.383258  0.821269  1
+  Sb  Sb16  1  0.000000  0.512689  0.140424  1
+  Sb  Sb17  1  0.500000  0.487311  0.359576  1
+  Sb  Sb18  1  0.000000  0.512689  0.859576  1
+  Sb  Sb19  1  0.500000  0.487311  0.640424  1
+  Sb  Sb20  1  0.000000  0.872300  0.334488  1
+  Sb  Sb21  1  0.500000  0.127700  0.165512  1
+  Sb  Sb22  1  0.000000  0.872300  0.665512  1
+  Sb  Sb23  1  0.500000  0.127700  0.834488  1
+  Sb  Sb24  1  0.000000  0.846425  0.000000  1
+  Sb  Sb25  1  0.500000  0.153575  0.500000  1
+  Pd  Pd26  1  0.500000  0.512582  0.000000  1
+  Pd  Pd27  1  0.000000  0.487418  0.500000  1

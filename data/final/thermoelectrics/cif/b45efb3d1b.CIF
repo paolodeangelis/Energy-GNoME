@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_SmFe3CoAs12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.23906208
+_cell_length_b   7.22337969
+_cell_length_c   7.22338020
+_cell_angle_alpha   109.42721097
+_cell_angle_beta   109.51520413
+_cell_angle_gamma   109.51519945
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmFe3CoAs12
+_chemical_formula_sum   'Sm1 Fe3 Co1 As12'
+_cell_volume   290.60646550
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.500000  0.500000  0.500000  1
+  Co  Co4  1  0.500000  0.000000  0.000000  1
+  As  As5  1  0.153618  0.811530  0.655637  1
+  As  As6  1  0.846382  0.188470  0.344363  1
+  As  As7  1  0.657912  0.155893  0.811530  1
+  As  As8  1  0.502019  0.655637  0.844107  1
+  As  As9  1  0.658853  0.844208  0.502611  1
+  As  As10  1  0.497981  0.344363  0.155893  1
+  As  As11  1  0.342088  0.844107  0.188470  1
+  As  As12  1  0.185355  0.341597  0.844208  1
+  As  As13  1  0.814645  0.658403  0.155792  1
+  As  As14  1  0.341147  0.155792  0.497389  1
+  As  As15  1  0.843758  0.502611  0.658403  1
+  As  As16  1  0.156242  0.497389  0.341597  1

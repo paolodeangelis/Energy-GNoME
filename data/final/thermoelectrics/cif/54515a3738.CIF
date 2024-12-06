@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Dy4Ho(GaSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.63787800
+_cell_length_b   8.63787848
+_cell_length_c   7.92162200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.42054674
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy4Ho(GaSb)2
+_chemical_formula_sum   'Dy8 Ho2 Ga4 Sb4'
+_cell_volume   481.66296164
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.038998  0.299970  0.332365  1
+  Dy  Dy1  1  0.961002  0.700030  0.667635  1
+  Dy  Dy2  1  0.461002  0.200030  0.832365  1
+  Dy  Dy3  1  0.799970  0.538998  0.167635  1
+  Dy  Dy4  1  0.538998  0.799970  0.167635  1
+  Dy  Dy5  1  0.200030  0.461002  0.832365  1
+  Dy  Dy6  1  0.700030  0.961002  0.667635  1
+  Dy  Dy7  1  0.299970  0.038998  0.332365  1
+  Ho  Ho8  1  0.000000  0.000000  0.000000  1
+  Ho  Ho9  1  0.500000  0.500000  0.500000  1
+  Ga  Ga10  1  0.374793  0.374793  0.124787  1
+  Ga  Ga11  1  0.625207  0.625207  0.875213  1
+  Ga  Ga12  1  0.125207  0.125207  0.624787  1
+  Ga  Ga13  1  0.874793  0.874793  0.375213  1
+  Sb  Sb14  1  0.794786  0.205214  0.000000  1
+  Sb  Sb15  1  0.205214  0.794786  0.000000  1
+  Sb  Sb16  1  0.705214  0.294786  0.500000  1
+  Sb  Sb17  1  0.294786  0.705214  0.500000  1

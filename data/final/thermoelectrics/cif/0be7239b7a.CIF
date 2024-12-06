@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_DyCo2(NiAs)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82766600
+_cell_length_b   10.71736700
+_cell_length_c   12.24802100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyCo2(NiAs)3
+_chemical_formula_sum   'Dy4 Co8 Ni12 As12'
+_cell_volume   502.44445709
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.250000  0.579690  0.703213  1
+  Dy  Dy1  1  0.250000  0.920310  0.203213  1
+  Dy  Dy2  1  0.750000  0.420310  0.296787  1
+  Dy  Dy3  1  0.750000  0.079690  0.796787  1
+  Co  Co4  1  0.250000  0.879731  0.696489  1
+  Co  Co5  1  0.250000  0.620269  0.196489  1
+  Co  Co6  1  0.750000  0.120269  0.303511  1
+  Co  Co7  1  0.750000  0.379731  0.803511  1
+  Co  Co8  1  0.250000  0.468731  0.932634  1
+  Co  Co9  1  0.250000  0.031269  0.432634  1
+  Co  Co10  1  0.750000  0.531269  0.067366  1
+  Co  Co11  1  0.750000  0.968731  0.567366  1
+  Ni  Ni12  1  0.250000  0.708414  0.991283  1
+  Ni  Ni13  1  0.250000  0.791586  0.491283  1
+  Ni  Ni14  1  0.750000  0.291586  0.008717  1
+  Ni  Ni15  1  0.750000  0.208414  0.508717  1
+  Ni  Ni16  1  0.250000  0.408964  0.487132  1
+  Ni  Ni17  1  0.250000  0.091036  0.987132  1
+  Ni  Ni18  1  0.750000  0.591036  0.512868  1
+  Ni  Ni19  1  0.750000  0.908964  0.012868  1
+  Ni  Ni20  1  0.250000  0.218602  0.177527  1
+  Ni  Ni21  1  0.250000  0.281398  0.677527  1
+  Ni  Ni22  1  0.750000  0.781398  0.822473  1
+  Ni  Ni23  1  0.750000  0.718602  0.322473  1
+  As  As24  1  0.250000  0.420758  0.115428  1
+  As  As25  1  0.250000  0.079242  0.615428  1
+  As  As26  1  0.750000  0.579242  0.884572  1
+  As  As27  1  0.750000  0.920758  0.384572  1
+  As  As28  1  0.250000  0.269184  0.869645  1
+  As  As29  1  0.250000  0.230816  0.369645  1
+  As  As30  1  0.750000  0.730816  0.130355  1
+  As  As31  1  0.750000  0.769184  0.630355  1
+  As  As32  1  0.250000  0.603376  0.389522  1
+  As  As33  1  0.250000  0.896624  0.889522  1
+  As  As34  1  0.750000  0.396624  0.610478  1
+  As  As35  1  0.750000  0.103376  0.110478  1

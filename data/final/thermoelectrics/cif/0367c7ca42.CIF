@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Ca2HgBiAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.65452134
+_cell_length_b   4.65977183
+_cell_length_c   10.43078000
+_cell_angle_alpha   47.66271314
+_cell_angle_beta   63.22614668
+_cell_angle_gamma   60.07373701
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2HgBiAs
+_chemical_formula_sum   'Ca2 Hg1 Bi1 As1'
+_cell_volume   142.60034820
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.785678  0.514608  0.055057  1
+  Ca  Ca1  1  0.242003  0.330899  0.693447  1
+  Hg  Hg2  1  0.644896  0.938597  0.489032  1
+  Bi  Bi3  1  0.029476  0.477886  0.335070  1
+  As  As4  1  0.516411  0.433032  0.866392  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_SrMn2(Sb6Pd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.14584715
+_cell_length_b   8.14584857
+_cell_length_c   8.16470400
+_cell_angle_alpha   109.37410879
+_cell_angle_beta   109.42857968
+_cell_angle_gamma   109.51755244
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrMn2(Sb6Pd)2
+_chemical_formula_sum   'Sr1 Mn2 Sb12 Pd2'
+_cell_volume   417.53254197
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.000000  0.500000  1
+  Mn  Mn2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.330471  0.181760  0.831808  1
+  Sb  Sb4  1  0.669529  0.818240  0.168192  1
+  Sb  Sb5  1  0.650049  0.501337  0.831808  1
+  Sb  Sb6  1  0.349951  0.498663  0.168192  1
+  Sb  Sb7  1  0.181399  0.851684  0.352149  1
+  Sb  Sb8  1  0.818601  0.148316  0.647851  1
+  Sb  Sb9  1  0.499534  0.829250  0.647851  1
+  Sb  Sb10  1  0.500466  0.170750  0.352149  1
+  Sb  Sb11  1  0.847548  0.349707  0.197255  1
+  Sb  Sb12  1  0.152452  0.650293  0.802745  1
+  Sb  Sb13  1  0.834717  0.669878  0.504592  1
+  Sb  Sb14  1  0.165283  0.330122  0.495408  1
+  Pd  Pd15  1  0.500000  0.000000  0.000000  1
+  Pd  Pd16  1  0.000000  0.500000  0.000000  1

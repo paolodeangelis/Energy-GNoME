@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_SiAg3Te4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45724700
+_cell_length_b   7.75716700
+_cell_length_c   8.65455300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiAg3Te4
+_chemical_formula_sum   'Si2 Ag6 Te8'
+_cell_volume   500.64088233
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.003757  0.667661  0.000000  1
+  Si  Si1  1  0.503757  0.332339  0.500000  1
+  Ag  Ag2  1  0.504763  0.349497  0.000000  1
+  Ag  Ag3  1  0.004763  0.650503  0.500000  1
+  Ag  Ag4  1  0.518105  0.826382  0.251549  1
+  Ag  Ag5  1  0.018105  0.173618  0.248451  1
+  Ag  Ag6  1  0.018105  0.173618  0.751549  1
+  Ag  Ag7  1  0.518105  0.826382  0.748451  1
+  Te  Te8  1  0.879735  0.359477  0.000000  1
+  Te  Te9  1  0.379735  0.640523  0.500000  1
+  Te  Te10  1  0.889823  0.832349  0.236466  1
+  Te  Te11  1  0.389823  0.167651  0.263534  1
+  Te  Te12  1  0.389823  0.167651  0.736466  1
+  Te  Te13  1  0.889823  0.832349  0.763534  1
+  Te  Te14  1  0.348389  0.674852  0.000000  1
+  Te  Te15  1  0.848389  0.325148  0.500000  1

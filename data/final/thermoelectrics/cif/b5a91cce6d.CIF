@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaHo(CuSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41079300
+_cell_length_b   4.41079257
+_cell_length_c   16.27412300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001075
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaHo(CuSb)2
+_chemical_formula_sum   'La2 Ho2 Cu4 Sb4'
+_cell_volume   274.19623642
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.500000  1
+  La  La1  1  0.000000  0.000000  0.000000  1
+  Ho  Ho2  1  0.000000  0.000000  0.250000  1
+  Ho  Ho3  1  0.000000  0.000000  0.750000  1
+  Cu  Cu4  1  0.666667  0.333333  0.332920  1
+  Cu  Cu5  1  0.333333  0.666667  0.667080  1
+  Cu  Cu6  1  0.333333  0.666667  0.832920  1
+  Cu  Cu7  1  0.666667  0.333333  0.167080  1
+  Sb  Sb8  1  0.333333  0.666667  0.377912  1
+  Sb  Sb9  1  0.666667  0.333333  0.622088  1
+  Sb  Sb10  1  0.666667  0.333333  0.877912  1
+  Sb  Sb11  1  0.333333  0.666667  0.122088  1

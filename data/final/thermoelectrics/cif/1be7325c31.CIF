@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ti2Fe(TcSn4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50117805
+_cell_length_b   5.53211464
+_cell_length_c   14.14515100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.18618874
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Fe(TcSn4)3
+_chemical_formula_sum   'Ti2 Fe1 Tc3 Sn12'
+_cell_volume   372.10647263
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.500000  0.000000  0.497321  1
+  Ti  Ti1  1  0.500000  0.500000  0.836012  1
+  Fe  Fe2  1  0.000000  0.500000  0.166667  1
+  Tc  Tc3  1  0.000000  0.000000  0.499011  1
+  Tc  Tc4  1  0.000000  0.000000  0.166667  1
+  Tc  Tc5  1  0.000000  0.000000  0.834322  1
+  Sn  Sn6  1  0.167901  0.335156  0.004868  1
+  Sn  Sn7  1  0.663111  0.831556  0.666667  1
+  Sn  Sn8  1  0.832099  0.664844  0.004868  1
+  Sn  Sn9  1  0.336889  0.168444  0.666667  1
+  Sn  Sn10  1  0.167901  0.832745  0.328465  1
+  Sn  Sn11  1  0.832099  0.167255  0.328465  1
+  Sn  Sn12  1  0.500000  0.000000  0.895782  1
+  Sn  Sn13  1  0.000000  0.500000  0.559686  1
+  Sn  Sn14  1  0.000000  0.500000  0.773647  1
+  Sn  Sn15  1  0.500000  0.500000  0.224703  1
+  Sn  Sn16  1  0.500000  0.000000  0.108631  1
+  Sn  Sn17  1  0.500000  0.500000  0.437551  1

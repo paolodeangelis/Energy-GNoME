@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KMn2(Sb6Pd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.17652128
+_cell_length_b   8.17058147
+_cell_length_c   8.21031943
+_cell_angle_alpha   109.57007697
+_cell_angle_beta   109.65042633
+_cell_angle_gamma   109.24841862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMn2(Sb6Pd)2
+_chemical_formula_sum   'K1 Mn2 Sb12 Pd2'
+_cell_volume   421.94775333
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.000000  0.500000  1
+  Mn  Mn2  1  0.500000  0.000000  0.000000  1
+  Sb  Sb3  1  0.670035  0.828152  0.165901  1
+  Sb  Sb4  1  0.834386  0.336487  0.186200  1
+  Sb  Sb5  1  0.498752  0.849911  0.662973  1
+  Sb  Sb6  1  0.852445  0.670819  0.501418  1
+  Sb  Sb7  1  0.501248  0.150089  0.337027  1
+  Sb  Sb8  1  0.165614  0.663513  0.813800  1
+  Sb  Sb9  1  0.818371  0.147898  0.649961  1
+  Sb  Sb10  1  0.181629  0.852102  0.350039  1
+  Sb  Sb11  1  0.147555  0.329181  0.498582  1
+  Sb  Sb12  1  0.650011  0.495862  0.846225  1
+  Sb  Sb13  1  0.349989  0.504138  0.153775  1
+  Sb  Sb14  1  0.329965  0.171848  0.834099  1
+  Pd  Pd15  1  0.000000  0.500000  0.000000  1
+  Pd  Pd16  1  0.500000  0.500000  0.500000  1

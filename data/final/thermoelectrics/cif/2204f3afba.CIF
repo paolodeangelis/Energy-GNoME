@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Sr3Pr2(SnSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.57886200
+_cell_length_b   8.61978300
+_cell_length_c   16.75319600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3Pr2(SnSb)2
+_chemical_formula_sum   'Sr12 Pr8 Sn8 Sb8'
+_cell_volume   1238.86414543
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.470461  0.819998  0.901882  1
+  Sr  Sr1  1  0.970461  0.680002  0.598118  1
+  Sr  Sr2  1  0.529539  0.180002  0.401882  1
+  Sr  Sr3  1  0.029539  0.319998  0.098118  1
+  Sr  Sr4  1  0.529539  0.180002  0.098118  1
+  Sr  Sr5  1  0.029539  0.319998  0.401882  1
+  Sr  Sr6  1  0.470461  0.819998  0.598118  1
+  Sr  Sr7  1  0.970461  0.680002  0.901882  1
+  Sr  Sr8  1  0.280629  0.506718  0.750000  1
+  Sr  Sr9  1  0.780629  0.993282  0.750000  1
+  Sr  Sr10  1  0.719371  0.493282  0.250000  1
+  Sr  Sr11  1  0.219371  0.006718  0.250000  1
+  Pr  Pr12  1  0.617425  0.342076  0.884222  1
+  Pr  Pr13  1  0.117425  0.157924  0.615778  1
+  Pr  Pr14  1  0.382575  0.657924  0.384222  1
+  Pr  Pr15  1  0.882575  0.842076  0.115778  1
+  Pr  Pr16  1  0.382575  0.657924  0.115778  1
+  Pr  Pr17  1  0.882575  0.842076  0.384222  1
+  Pr  Pr18  1  0.617425  0.342076  0.615778  1
+  Pr  Pr19  1  0.117425  0.157924  0.884222  1
+  Sn  Sn20  1  0.667490  0.617217  0.750000  1
+  Sn  Sn21  1  0.167490  0.882783  0.750000  1
+  Sn  Sn22  1  0.332510  0.382783  0.250000  1
+  Sn  Sn23  1  0.832510  0.117217  0.250000  1
+  Sn  Sn24  1  0.408807  0.127195  0.750000  1
+  Sn  Sn25  1  0.908807  0.372805  0.750000  1
+  Sn  Sn26  1  0.591193  0.872805  0.250000  1
+  Sn  Sn27  1  0.091193  0.627195  0.250000  1
+  Sb  Sb28  1  0.217732  0.962461  0.043687  1
+  Sb  Sb29  1  0.717732  0.537539  0.456313  1
+  Sb  Sb30  1  0.782268  0.037539  0.543687  1
+  Sb  Sb31  1  0.282268  0.462461  0.956313  1
+  Sb  Sb32  1  0.782268  0.037539  0.956313  1
+  Sb  Sb33  1  0.282268  0.462461  0.543687  1
+  Sb  Sb34  1  0.217732  0.962461  0.456313  1
+  Sb  Sb35  1  0.717732  0.537539  0.043687  1

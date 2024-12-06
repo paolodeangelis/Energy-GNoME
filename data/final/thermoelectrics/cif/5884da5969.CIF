@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CaSn4(PdRh)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.77263800
+_cell_length_b   7.77263753
+_cell_length_c   4.03540500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999348
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSn4(PdRh)3
+_chemical_formula_sum   'Ca1 Sn4 Pd3 Rh3'
+_cell_volume   211.13228353
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Sn  Sn1  1  0.804066  0.195934  0.500000  1
+  Sn  Sn2  1  0.391869  0.195934  0.500000  1
+  Sn  Sn3  1  0.333333  0.666667  0.000000  1
+  Sn  Sn4  1  0.804066  0.608131  0.500000  1
+  Pd  Pd5  1  0.199869  0.800131  0.500000  1
+  Pd  Pd6  1  0.199869  0.399740  0.500000  1
+  Pd  Pd7  1  0.600260  0.800131  0.500000  1
+  Rh  Rh8  1  0.534785  0.069571  0.000000  1
+  Rh  Rh9  1  0.930429  0.465215  0.000000  1
+  Rh  Rh10  1  0.534785  0.465215  0.000000  1

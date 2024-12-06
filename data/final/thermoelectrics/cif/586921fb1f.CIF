@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Mg5Sc2V(CoSb)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.57329305
+_cell_length_b   8.56232712
+_cell_length_c   8.56232702
+_cell_angle_alpha   60.08474732
+_cell_angle_beta   59.95762935
+_cell_angle_gamma   59.95762785
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg5Sc2V(CoSb)8
+_chemical_formula_sum   'Mg5 Sc2 V1 Co8 Sb8'
+_cell_volume   444.44178849
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.500000  0.500000  0.000000  1
+  Mg  Mg1  1  0.500000  0.000000  0.500000  1
+  Mg  Mg2  1  0.500000  0.500000  0.500000  1
+  Mg  Mg3  1  0.000000  0.500000  0.000000  1
+  Mg  Mg4  1  0.000000  0.000000  0.500000  1
+  Sc  Sc5  1  0.000000  0.500000  0.500000  1
+  Sc  Sc6  1  0.500000  0.000000  0.000000  1
+  V  V7  1  0.000000  0.000000  0.000000  1
+  Co  Co8  1  0.118250  0.115939  0.115939  1
+  Co  Co9  1  0.649870  0.115939  0.115939  1
+  Co  Co10  1  0.115939  0.118250  0.649870  1
+  Co  Co11  1  0.884061  0.350130  0.881750  1
+  Co  Co12  1  0.115939  0.649870  0.118250  1
+  Co  Co13  1  0.350130  0.884061  0.884061  1
+  Co  Co14  1  0.884061  0.881750  0.350130  1
+  Co  Co15  1  0.881750  0.884061  0.884061  1
+  Sb  Sb16  1  0.250000  0.250000  0.250000  1
+  Sb  Sb17  1  0.252466  0.747534  0.252466  1
+  Sb  Sb18  1  0.252466  0.252466  0.747534  1
+  Sb  Sb19  1  0.747202  0.252798  0.252798  1
+  Sb  Sb20  1  0.252798  0.747202  0.747202  1
+  Sb  Sb21  1  0.747534  0.747534  0.252466  1
+  Sb  Sb22  1  0.747534  0.252466  0.747534  1
+  Sb  Sb23  1  0.750000  0.750000  0.750000  1

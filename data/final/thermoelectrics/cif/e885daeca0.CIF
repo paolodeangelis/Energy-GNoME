@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Fe2Ni6RhSe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46892164
+_cell_length_b   7.46892231
+_cell_length_c   7.49990700
+_cell_angle_alpha   59.86266087
+_cell_angle_beta   59.86265787
+_cell_angle_gamma   59.73961160
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2Ni6RhSe8
+_chemical_formula_sum   'Fe2 Ni6 Rh1 Se8'
+_cell_volume   294.64132574
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.634316  0.121592  0.122046  1
+  Fe  Fe1  1  0.121592  0.634316  0.122046  1
+  Ni  Ni2  1  0.123728  0.123728  0.629293  1
+  Ni  Ni3  1  0.123728  0.123728  0.123252  1
+  Ni  Ni4  1  0.371938  0.877136  0.875463  1
+  Ni  Ni5  1  0.877136  0.371938  0.875463  1
+  Ni  Ni6  1  0.876473  0.876473  0.371244  1
+  Ni  Ni7  1  0.876473  0.876473  0.875810  1
+  Rh  Rh8  1  0.497685  0.497685  0.502315  1
+  Se  Se9  1  0.255656  0.255656  0.244344  1
+  Se  Se10  1  0.751993  0.751993  0.748007  1
+  Se  Se11  1  0.735339  0.259223  0.258496  1
+  Se  Se12  1  0.735339  0.259223  0.746942  1
+  Se  Se13  1  0.740478  0.740478  0.259522  1
+  Se  Se14  1  0.259223  0.735339  0.746942  1
+  Se  Se15  1  0.259223  0.735339  0.258496  1
+  Se  Se16  1  0.259680  0.259680  0.740320  1

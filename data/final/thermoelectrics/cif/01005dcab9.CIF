@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_EuFe3As12Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.29268655
+_cell_length_b   7.29268462
+_cell_length_c   7.29268600
+_cell_angle_alpha   109.54325450
+_cell_angle_beta   109.54325197
+_cell_angle_gamma   109.54326012
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuFe3As12Ir
+_chemical_formula_sum   'Eu1 Fe3 As12 Ir1'
+_cell_volume   297.76723049
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.000000  0.000000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.000000  0.000000  0.500000  1
+  As  As4  1  0.858233  0.661046  0.500978  1
+  As  As5  1  0.141767  0.338954  0.499022  1
+  As  As6  1  0.156251  0.658395  0.813781  1
+  As  As7  1  0.843749  0.341605  0.186219  1
+  As  As8  1  0.661046  0.500978  0.858233  1
+  As  As9  1  0.338954  0.499022  0.141767  1
+  As  As10  1  0.658395  0.813781  0.156251  1
+  As  As11  1  0.341605  0.186219  0.843749  1
+  As  As12  1  0.500978  0.858233  0.661046  1
+  As  As13  1  0.499022  0.141767  0.338954  1
+  As  As14  1  0.186219  0.843749  0.341605  1
+  As  As15  1  0.813781  0.156251  0.658395  1
+  Ir  Ir16  1  0.500000  0.500000  0.500000  1

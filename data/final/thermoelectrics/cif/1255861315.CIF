@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LaSb12(IrOs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.17973190
+_cell_length_b   8.16957382
+_cell_length_c   8.17973175
+_cell_angle_alpha   109.40494995
+_cell_angle_beta   109.53618716
+_cell_angle_gamma   109.52285151
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaSb12(IrOs)2
+_chemical_formula_sum   'La1 Sb12 Ir2 Os2'
+_cell_volume   420.51848459
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.000000  1
+  Sb  Sb1  1  0.340142  0.184675  0.844533  1
+  Sb  Sb2  1  0.659858  0.815325  0.155467  1
+  Sb  Sb3  1  0.661477  0.504160  0.842683  1
+  Sb  Sb4  1  0.338523  0.495840  0.157317  1
+  Sb  Sb5  1  0.183165  0.842766  0.338054  1
+  Sb  Sb6  1  0.816835  0.157234  0.661946  1
+  Sb  Sb7  1  0.504713  0.842766  0.659602  1
+  Sb  Sb8  1  0.495287  0.157234  0.340398  1
+  Sb  Sb9  1  0.845416  0.340399  0.183384  1
+  Sb  Sb10  1  0.154584  0.659601  0.816616  1
+  Sb  Sb11  1  0.842985  0.659601  0.505017  1
+  Sb  Sb12  1  0.157015  0.340399  0.494983  1
+  Ir  Ir13  1  0.000000  0.000000  0.500000  1
+  Ir  Ir14  1  0.500000  0.000000  0.000000  1
+  Os  Os15  1  0.000000  0.500000  0.000000  1
+  Os  Os16  1  0.500000  0.500000  0.500000  1

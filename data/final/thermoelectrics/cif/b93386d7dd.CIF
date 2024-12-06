@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NbTe4Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.73453994
+_cell_length_b   8.20312960
+_cell_length_c   8.99975328
+_cell_angle_alpha   116.63819342
+_cell_angle_beta   101.61186179
+_cell_angle_gamma   101.04520153
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbTe4Br
+_chemical_formula_sum   'Nb2 Te8 Br2'
+_cell_volume   412.14836662
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.750209  0.999737  0.000158  1
+  Nb  Nb1  1  0.249791  0.000263  0.999842  1
+  Te  Te2  1  0.127218  0.332082  0.186894  1
+  Te  Te3  1  0.021407  0.873871  0.187603  1
+  Te  Te4  1  0.380772  0.840827  0.694430  1
+  Te  Te5  1  0.619228  0.159173  0.305570  1
+  Te  Te6  1  0.872782  0.667918  0.813106  1
+  Te  Te7  1  0.539086  0.244839  0.931362  1
+  Te  Te8  1  0.460914  0.755161  0.068638  1
+  Te  Te9  1  0.978593  0.126129  0.812397  1
+  Br  Br10  1  0.245864  0.409962  0.559912  1
+  Br  Br11  1  0.754136  0.590038  0.440088  1

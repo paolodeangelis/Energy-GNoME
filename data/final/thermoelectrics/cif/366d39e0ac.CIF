@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaMn(As4Os)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.52420213
+_cell_length_b   7.52420114
+_cell_length_c   7.51243900
+_cell_angle_alpha   109.43955429
+_cell_angle_beta   109.43955161
+_cell_angle_gamma   109.50286997
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaMn(As4Os)3
+_chemical_formula_sum   'Ba1 Mn1 As12 Os3'
+_cell_volume   327.52880441
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.000000  0.500000  1
+  As  As2  1  0.847960  0.645408  0.498733  1
+  As  As3  1  0.152040  0.354592  0.501267  1
+  As  As4  1  0.151008  0.650860  0.802057  1
+  As  As5  1  0.848992  0.349140  0.197943  1
+  As  As6  1  0.650860  0.499851  0.848804  1
+  As  As7  1  0.349140  0.500149  0.151196  1
+  As  As8  1  0.645408  0.797448  0.146675  1
+  As  As9  1  0.354592  0.202552  0.853325  1
+  As  As10  1  0.499851  0.848992  0.651049  1
+  As  As11  1  0.500149  0.151008  0.348951  1
+  As  As12  1  0.202552  0.847960  0.349228  1
+  As  As13  1  0.797448  0.152040  0.650772  1
+  Os  Os14  1  0.500000  0.500000  0.500000  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.000000  0.500000  0.000000  1

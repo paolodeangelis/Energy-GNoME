@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CaCr2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.23392068
+_cell_length_b   8.19951125
+_cell_length_c   8.19951145
+_cell_angle_alpha   109.62012743
+_cell_angle_beta   109.40463559
+_cell_angle_gamma   109.22048645
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCr2(Sb6Os)2
+_chemical_formula_sum   'Ca1 Cr2 Sb12 Os2'
+_cell_volume   427.02779007
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.000000  0.500000  0.000000  1
+  Cr  Cr2  1  0.000000  0.000000  0.500000  1
+  Sb  Sb3  1  0.841064  0.655557  0.503996  1
+  Sb  Sb4  1  0.158936  0.344443  0.496004  1
+  Sb  Sb5  1  0.158936  0.662932  0.814494  1
+  Sb  Sb6  1  0.841064  0.337068  0.185506  1
+  Sb  Sb7  1  0.656111  0.504001  0.841630  1
+  Sb  Sb8  1  0.343889  0.495999  0.158370  1
+  Sb  Sb9  1  0.656111  0.814482  0.152110  1
+  Sb  Sb10  1  0.343889  0.185518  0.847890  1
+  Sb  Sb11  1  0.505417  0.843049  0.662368  1
+  Sb  Sb12  1  0.494583  0.156951  0.337632  1
+  Sb  Sb13  1  0.190627  0.846986  0.343641  1
+  Sb  Sb14  1  0.809373  0.153014  0.656359  1
+  Os  Os15  1  0.500000  0.500000  0.500000  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Er4Tm(InSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.73591808
+_cell_length_b   8.73591884
+_cell_length_c   8.03885200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.16846053
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er4Tm(InSb)2
+_chemical_formula_sum   'Er8 Tm2 In4 Sb4'
+_cell_volume   501.50907224
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.031110  0.305658  0.334702  1
+  Er  Er1  1  0.968890  0.694342  0.665298  1
+  Er  Er2  1  0.468890  0.194342  0.834702  1
+  Er  Er3  1  0.805658  0.531110  0.165298  1
+  Er  Er4  1  0.531110  0.805658  0.165298  1
+  Er  Er5  1  0.194342  0.468890  0.834702  1
+  Er  Er6  1  0.694342  0.968890  0.665298  1
+  Er  Er7  1  0.305658  0.031110  0.334702  1
+  Tm  Tm8  1  0.000000  0.000000  0.000000  1
+  Tm  Tm9  1  0.500000  0.500000  0.500000  1
+  In  In10  1  0.369377  0.369377  0.129992  1
+  In  In11  1  0.630623  0.630623  0.870008  1
+  In  In12  1  0.130623  0.130623  0.629992  1
+  In  In13  1  0.869377  0.869377  0.370008  1
+  Sb  Sb14  1  0.796950  0.203050  0.000000  1
+  Sb  Sb15  1  0.203050  0.796950  0.000000  1
+  Sb  Sb16  1  0.703050  0.296950  0.500000  1
+  Sb  Sb17  1  0.296950  0.703050  0.500000  1

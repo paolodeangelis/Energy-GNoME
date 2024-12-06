@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_EuMn2(FeSb6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.05307330
+_cell_length_b   8.05307304
+_cell_length_c   8.02356500
+_cell_angle_alpha   109.31100236
+_cell_angle_beta   109.40473753
+_cell_angle_gamma   109.84606613
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuMn2(FeSb6)2
+_chemical_formula_sum   'Eu1 Mn2 Fe2 Sb12'
+_cell_volume   399.81962004
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.500000  0.000000  0.000000  1
+  Mn  Mn2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.500000  0.500000  0.500000  1
+  Fe  Fe4  1  0.000000  0.000000  0.500000  1
+  Sb  Sb5  1  0.667986  0.836254  0.504241  1
+  Sb  Sb6  1  0.332014  0.163746  0.495759  1
+  Sb  Sb7  1  0.846210  0.176079  0.342529  1
+  Sb  Sb8  1  0.824680  0.668863  0.164393  1
+  Sb  Sb9  1  0.833550  0.503681  0.657471  1
+  Sb  Sb10  1  0.175320  0.331137  0.835607  1
+  Sb  Sb11  1  0.153790  0.823921  0.657471  1
+  Sb  Sb12  1  0.504471  0.660287  0.835607  1
+  Sb  Sb13  1  0.495529  0.339713  0.164393  1
+  Sb  Sb14  1  0.166450  0.496319  0.342529  1
+  Sb  Sb15  1  0.340724  0.843851  0.184575  1
+  Sb  Sb16  1  0.659276  0.156149  0.815425  1

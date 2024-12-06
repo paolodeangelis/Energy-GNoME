@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Mg2Al(SbPt)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.72682712
+_cell_length_b   7.72682672
+_cell_length_c   7.76228148
+_cell_angle_alpha   99.77734485
+_cell_angle_beta   99.77734749
+_cell_angle_gamma   119.69712847
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2Al(SbPt)3
+_chemical_formula_sum   'Mg4 Al2 Sb6 Pt6'
+_cell_volume   378.86227248
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.330241  0.163700  0.498871  1
+  Mg  Mg1  1  0.999853  0.503565  0.499300  1
+  Mg  Mg2  1  0.163700  0.330240  0.998870  1
+  Mg  Mg3  1  0.503564  0.999853  0.999300  1
+  Al  Al4  1  0.832792  0.671072  0.000776  1
+  Al  Al5  1  0.671071  0.832792  0.500775  1
+  Sb  Sb6  1  0.918049  0.093446  0.248013  1
+  Sb  Sb7  1  0.256282  0.748621  0.249170  1
+  Sb  Sb8  1  0.575320  0.407077  0.255038  1
+  Sb  Sb9  1  0.093446  0.918049  0.748014  1
+  Sb  Sb10  1  0.748620  0.256281  0.749169  1
+  Sb  Sb11  1  0.407077  0.575319  0.755038  1
+  Pt  Pt12  1  0.191285  0.023294  0.118905  1
+  Pt  Pt13  1  0.871810  0.392677  0.119582  1
+  Pt  Pt14  1  0.560922  0.709996  0.135345  1
+  Pt  Pt15  1  0.023294  0.191287  0.618906  1
+  Pt  Pt16  1  0.392676  0.871810  0.619582  1
+  Pt  Pt17  1  0.709994  0.560921  0.635345  1

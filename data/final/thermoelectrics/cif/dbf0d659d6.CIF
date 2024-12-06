@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CaMn2(FeSb6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07614381
+_cell_length_b   8.07614416
+_cell_length_c   8.02276742
+_cell_angle_alpha   109.36065202
+_cell_angle_beta   109.41458899
+_cell_angle_gamma   109.90572155
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMn2(FeSb6)2
+_chemical_formula_sum   'Ca1 Mn2 Fe2 Sb12'
+_cell_volume   401.47682306
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.000000  0.500000  1
+  Mn  Mn2  1  0.500000  0.500000  0.500000  1
+  Fe  Fe3  1  0.000000  0.500000  0.000000  1
+  Fe  Fe4  1  0.500000  0.000000  0.000000  1
+  Sb  Sb5  1  0.340490  0.174905  0.845937  1
+  Sb  Sb6  1  0.156432  0.340365  0.496797  1
+  Sb  Sb7  1  0.659510  0.825095  0.154063  1
+  Sb  Sb8  1  0.328968  0.494552  0.154063  1
+  Sb  Sb9  1  0.671032  0.505448  0.845937  1
+  Sb  Sb10  1  0.504390  0.846529  0.670389  1
+  Sb  Sb11  1  0.843568  0.659635  0.503203  1
+  Sb  Sb12  1  0.836917  0.331141  0.168058  1
+  Sb  Sb13  1  0.176140  0.834001  0.329611  1
+  Sb  Sb14  1  0.495610  0.153471  0.329611  1
+  Sb  Sb15  1  0.823860  0.165999  0.670389  1
+  Sb  Sb16  1  0.163083  0.668859  0.831942  1

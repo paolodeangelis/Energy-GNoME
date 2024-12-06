@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_TlGa3Te5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.79192760
+_cell_length_b   10.79192689
+_cell_length_c   10.79192732
+_cell_angle_alpha   90.15705471
+_cell_angle_beta   90.15705301
+_cell_angle_gamma   90.15705533
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlGa3Te5
+_chemical_formula_sum   'Tl4 Ga12 Te20'
+_cell_volume   1256.87510877
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.251556  0.745682  0.993275  1
+  Tl  Tl1  1  0.492393  0.492393  0.492393  1
+  Tl  Tl2  1  0.993275  0.251556  0.745682  1
+  Tl  Tl3  1  0.745682  0.993275  0.251556  1
+  Ga  Ga4  1  0.574583  0.884181  0.832833  1
+  Ga  Ga5  1  0.884181  0.832833  0.574583  1
+  Ga  Ga6  1  0.258432  0.837726  0.648600  1
+  Ga  Ga7  1  0.162637  0.741452  0.347804  1
+  Ga  Ga8  1  0.837726  0.648600  0.258432  1
+  Ga  Ga9  1  0.832833  0.574583  0.884181  1
+  Ga  Ga10  1  0.114383  0.423273  0.162278  1
+  Ga  Ga11  1  0.741452  0.347804  0.162637  1
+  Ga  Ga12  1  0.648600  0.258432  0.837726  1
+  Ga  Ga13  1  0.347804  0.162637  0.741452  1
+  Ga  Ga14  1  0.423273  0.162278  0.114383  1
+  Ga  Ga15  1  0.162278  0.114383  0.423273  1
+  Te  Te16  1  0.181746  0.999872  0.813530  1
+  Te  Te17  1  0.321678  0.923897  0.420512  1
+  Te  Te18  1  0.497358  0.929562  0.065464  1
+  Te  Te19  1  0.999872  0.813530  0.181746  1
+  Te  Te20  1  0.823563  0.823563  0.823563  1
+  Te  Te21  1  0.700281  0.736349  0.440444  1
+  Te  Te22  1  0.440444  0.700281  0.736349  1
+  Te  Te23  1  0.077636  0.676735  0.575724  1
+  Te  Te24  1  0.299010  0.561328  0.253428  1
+  Te  Te25  1  0.676735  0.575724  0.077636  1
+  Te  Te26  1  0.065464  0.497358  0.929562  1
+  Te  Te27  1  0.923897  0.420512  0.321678  1
+  Te  Te28  1  0.736349  0.440444  0.700281  1
+  Te  Te29  1  0.420512  0.321678  0.923897  1
+  Te  Te30  1  0.253428  0.299010  0.561328  1
+  Te  Te31  1  0.561328  0.253428  0.299010  1
+  Te  Te32  1  0.174656  0.174656  0.174656  1
+  Te  Te33  1  0.813530  0.181746  0.999872  1
+  Te  Te34  1  0.929562  0.065464  0.497358  1
+  Te  Te35  1  0.575724  0.077636  0.676735  1

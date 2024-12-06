@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyNb(CoSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15315800
+_cell_length_b   4.32619100
+_cell_length_c   8.72058200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyNb(CoSb)2
+_chemical_formula_sum   'Dy2 Nb2 Co4 Sb4'
+_cell_volume   232.13959724
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.005465  0.000000  0.377663  1
+  Dy  Dy1  1  0.505466  0.500000  0.622336  1
+  Nb  Nb2  1  0.492384  0.500000  0.121290  1
+  Nb  Nb3  1  0.992383  0.000000  0.878709  1
+  Co  Co4  1  0.734799  0.000000  0.110911  1
+  Co  Co5  1  0.272750  0.500000  0.347159  1
+  Co  Co6  1  0.772752  0.000000  0.652842  1
+  Co  Co7  1  0.234796  0.500000  0.889090  1
+  Sb  Sb8  1  0.987876  0.500000  0.121240  1
+  Sb  Sb9  1  0.506724  0.000000  0.364592  1
+  Sb  Sb10  1  0.006727  0.500000  0.635409  1
+  Sb  Sb11  1  0.487876  0.000000  0.878760  1

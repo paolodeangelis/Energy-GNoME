@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Dy5(InBi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.91201176
+_cell_length_b   8.91201123
+_cell_length_c   8.20619100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.12699765
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy5(InBi)2
+_chemical_formula_sum   'Dy10 In4 Bi4'
+_cell_volume   533.06723216
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.035968  0.304070  0.332988  1
+  Dy  Dy1  1  0.964032  0.695930  0.667012  1
+  Dy  Dy2  1  0.464032  0.195930  0.832988  1
+  Dy  Dy3  1  0.804070  0.535968  0.167012  1
+  Dy  Dy4  1  0.535968  0.804070  0.167012  1
+  Dy  Dy5  1  0.195930  0.464032  0.832988  1
+  Dy  Dy6  1  0.695930  0.964032  0.667012  1
+  Dy  Dy7  1  0.304070  0.035968  0.332988  1
+  Dy  Dy8  1  0.000000  0.000000  0.000000  1
+  Dy  Dy9  1  0.500000  0.500000  0.500000  1
+  In  In10  1  0.371493  0.371493  0.128873  1
+  In  In11  1  0.628507  0.628507  0.871127  1
+  In  In12  1  0.128507  0.128507  0.628873  1
+  In  In13  1  0.871493  0.871493  0.371127  1
+  Bi  Bi14  1  0.794439  0.205561  0.000000  1
+  Bi  Bi15  1  0.205561  0.794439  0.000000  1
+  Bi  Bi16  1  0.705561  0.294439  0.500000  1
+  Bi  Bi17  1  0.294439  0.705561  0.500000  1

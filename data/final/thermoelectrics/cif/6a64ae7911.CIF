@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Fe3CuSb11Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98596791
+_cell_length_b   7.98626599
+_cell_length_c   7.97767316
+_cell_angle_alpha   109.34376307
+_cell_angle_beta   109.33794664
+_cell_angle_gamma   109.78315617
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe3CuSb11Te
+_chemical_formula_sum   'Fe3 Cu1 Sb11 Te1'
+_cell_volume   391.42130178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.500035  0.998062  0.999557  1
+  Fe  Fe1  1  0.998572  0.999734  0.500329  1
+  Fe  Fe2  1  0.002011  0.500610  0.999995  1
+  Cu  Cu3  1  0.500772  0.499991  0.500419  1
+  Sb  Sb4  1  0.851483  0.498570  0.665544  1
+  Sb  Sb5  1  0.501985  0.665707  0.852748  1
+  Sb  Sb6  1  0.674430  0.167740  0.840120  1
+  Sb  Sb7  1  0.839553  0.168894  0.327309  1
+  Sb  Sb8  1  0.162008  0.831073  0.670740  1
+  Sb  Sb9  1  0.170529  0.329594  0.839941  1
+  Sb  Sb10  1  0.148040  0.498388  0.332787  1
+  Sb  Sb11  1  0.332373  0.146370  0.499281  1
+  Sb  Sb12  1  0.497011  0.330084  0.147655  1
+  Sb  Sb13  1  0.318431  0.839785  0.157460  1
+  Sb  Sb14  1  0.833053  0.671404  0.160263  1
+  Te  Te15  1  0.669716  0.853993  0.505851  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaRe2(Sb6Pd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.29504150
+_cell_length_b   8.29504098
+_cell_length_c   8.27236719
+_cell_angle_alpha   109.47833992
+_cell_angle_beta   109.47074860
+_cell_angle_gamma   109.57536705
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaRe2(Sb6Pd)2
+_chemical_formula_sum   'Ba1 Re2 Sb12 Pd2'
+_cell_volume   437.57189602
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Re  Re1  1  0.000000  0.000000  0.500000  1
+  Re  Re2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.339870  0.187801  0.839349  1
+  Sb  Sb4  1  0.660130  0.812199  0.160651  1
+  Sb  Sb5  1  0.651547  0.499477  0.839349  1
+  Sb  Sb6  1  0.348453  0.500523  0.160651  1
+  Sb  Sb7  1  0.186986  0.848066  0.349457  1
+  Sb  Sb8  1  0.813014  0.151934  0.650543  1
+  Sb  Sb9  1  0.498609  0.837530  0.650543  1
+  Sb  Sb10  1  0.501391  0.162470  0.349457  1
+  Sb  Sb11  1  0.844952  0.347770  0.192722  1
+  Sb  Sb12  1  0.155048  0.652230  0.807278  1
+  Sb  Sb13  1  0.840211  0.661809  0.502018  1
+  Sb  Sb14  1  0.159789  0.338191  0.497982  1
+  Pd  Pd15  1  0.500000  0.000000  0.000000  1
+  Pd  Pd16  1  0.000000  0.500000  0.000000  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoLuTa2(SbRh)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.33918502
+_cell_length_b   4.47831800
+_cell_length_c   8.96862344
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.06497233
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoLuTa2(SbRh)4
+_chemical_formula_sum   'Ho1 Lu1 Ta2 Sb4 Rh4'
+_cell_volume   254.60906813
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.005428  0.500000  0.375991  1
+  Lu  Lu1  1  0.505546  0.000000  0.624030  1
+  Ta  Ta2  1  0.495451  0.000000  0.121792  1
+  Ta  Ta3  1  0.994803  0.500000  0.878100  1
+  Sb  Sb4  1  0.986685  0.000000  0.124680  1
+  Sb  Sb5  1  0.510136  0.500000  0.373336  1
+  Sb  Sb6  1  0.009383  0.000000  0.628479  1
+  Sb  Sb7  1  0.485713  0.500000  0.873579  1
+  Rh  Rh8  1  0.733847  0.500000  0.109627  1
+  Rh  Rh9  1  0.271256  0.000000  0.354349  1
+  Rh  Rh10  1  0.766805  0.500000  0.646776  1
+  Rh  Rh11  1  0.234956  0.000000  0.889256  1

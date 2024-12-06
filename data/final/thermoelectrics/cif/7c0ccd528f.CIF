@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LaFe3As12Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.30830949
+_cell_length_b   7.30830902
+_cell_length_c   7.30830925
+_cell_angle_alpha   109.53978317
+_cell_angle_beta   109.53978627
+_cell_angle_gamma   109.53979550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaFe3As12Ir
+_chemical_formula_sum   'La1 Fe3 As12 Ir1'
+_cell_volume   299.72392943
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.500000  0.000000  0.000000  1
+  Fe  Fe3  1  0.000000  0.500000  0.000000  1
+  As  As4  1  0.156800  0.814367  0.658257  1
+  As  As5  1  0.843200  0.185633  0.341743  1
+  As  As6  1  0.658257  0.156800  0.814367  1
+  As  As7  1  0.500656  0.661732  0.857371  1
+  As  As8  1  0.661732  0.857371  0.500656  1
+  As  As9  1  0.499344  0.338268  0.142629  1
+  As  As10  1  0.341743  0.843200  0.185633  1
+  As  As11  1  0.185633  0.341743  0.843200  1
+  As  As12  1  0.814367  0.658257  0.156800  1
+  As  As13  1  0.338268  0.142629  0.499344  1
+  As  As14  1  0.857371  0.500656  0.661732  1
+  As  As15  1  0.142629  0.499344  0.338268  1
+  Ir  Ir16  1  0.500000  0.500000  0.500000  1

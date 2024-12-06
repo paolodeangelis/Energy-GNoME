@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_ScMnGa3Fe5Sn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18387018
+_cell_length_b   5.18387051
+_cell_length_c   8.65630534
+_cell_angle_alpha   90.02639418
+_cell_angle_beta   89.97360374
+_cell_angle_gamma   120.22580236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScMnGa3Fe5Sn3
+_chemical_formula_sum   'Sc1 Mn1 Ga3 Fe5 Sn3'
+_cell_volume   200.99198091
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.000010  0.999990  0.999718  1
+  Mn  Mn1  1  0.501414  0.498586  0.762021  1
+  Ga  Ga2  1  0.668623  0.331377  0.999622  1
+  Ga  Ga3  1  0.331477  0.668523  0.999613  1
+  Ga  Ga4  1  0.666699  0.333301  0.500819  1
+  Fe  Fe5  1  0.502263  0.004009  0.761429  1
+  Fe  Fe6  1  0.995991  0.497737  0.761429  1
+  Fe  Fe7  1  0.502284  0.497716  0.236969  1
+  Fe  Fe8  1  0.502062  0.004148  0.238715  1
+  Fe  Fe9  1  0.995852  0.497938  0.238715  1
+  Sn  Sn10  1  0.332965  0.667035  0.500135  1
+  Sn  Sn11  1  0.000345  0.999655  0.667208  1
+  Sn  Sn12  1  0.000017  0.999983  0.333607  1

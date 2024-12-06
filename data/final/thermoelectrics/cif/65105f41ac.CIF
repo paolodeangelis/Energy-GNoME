@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_NaSn6IrRh3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.95730774
+_cell_length_b   6.95730765
+_cell_length_c   6.96312084
+_cell_angle_alpha   119.64429696
+_cell_angle_beta   119.64429436
+_cell_angle_gamma   90.69052979
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSn6IrRh3
+_chemical_formula_sum   'Na1 Sn6 Ir1 Rh3'
+_cell_volume   239.43686515
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.997354  0.997354  0.993653  1
+  Sn  Sn1  1  0.875527  0.539349  0.999985  1
+  Sn  Sn2  1  0.539349  0.875527  0.999985  1
+  Sn  Sn3  1  0.125652  0.125652  0.666378  1
+  Sn  Sn4  1  0.001390  0.500988  0.501080  1
+  Sn  Sn5  1  0.461256  0.461256  0.337590  1
+  Sn  Sn6  1  0.500988  0.001390  0.501080  1
+  Ir  Ir7  1  0.754608  0.754608  0.351710  1
+  Rh  Rh8  1  0.245341  0.595899  0.000109  1
+  Rh  Rh9  1  0.402633  0.402633  0.648323  1
+  Rh  Rh10  1  0.595899  0.245341  0.000109  1

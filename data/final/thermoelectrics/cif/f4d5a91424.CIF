@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaSi6(As3Pt2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.43774650
+_cell_length_b   7.46038132
+_cell_length_c   7.43774687
+_cell_angle_alpha   109.49073698
+_cell_angle_beta   109.44008227
+_cell_angle_gamma   109.35987646
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSi6(As3Pt2)2
+_chemical_formula_sum   'Ba1 Si6 As6 Pt4'
+_cell_volume   318.18433473
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.001409  0.996308  0.994899  1
+  Si  Si1  1  0.143972  0.349270  0.499500  1
+  Si  Si2  1  0.514952  0.158700  0.363053  1
+  Si  Si3  1  0.849771  0.349270  0.205298  1
+  Si  Si4  1  0.635617  0.481012  0.845396  1
+  Si  Si5  1  0.359770  0.211760  0.851991  1
+  Si  Si6  1  0.795648  0.158700  0.643749  1
+  As  As7  1  0.850176  0.636942  0.491910  1
+  As  As8  1  0.350708  0.491658  0.140950  1
+  As  As9  1  0.215268  0.864088  0.356705  1
+  As  As10  1  0.145032  0.636942  0.786766  1
+  As  As11  1  0.646088  0.789681  0.143593  1
+  As  As12  1  0.507382  0.864088  0.648820  1
+  Pt  Pt13  1  0.005775  0.012607  0.515642  1
+  Pt  Pt14  1  0.494527  0.493183  0.506241  1
+  Pt  Pt15  1  0.986941  0.493183  0.998656  1
+  Pt  Pt16  1  0.496966  0.012607  0.006832  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_SrFe2(As6Rh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.38776751
+_cell_length_b   7.35276362
+_cell_length_c   7.35276400
+_cell_angle_alpha   109.33282914
+_cell_angle_beta   109.45828036
+_cell_angle_gamma   109.43000351
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrFe2(As6Rh)2
+_chemical_formula_sum   'Sr1 Fe2 As12 Rh2'
+_cell_volume   308.19094444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Fe  Fe2  1  0.500000  0.000000  0.000000  1
+  As  As3  1  0.839664  0.644439  0.500772  1
+  As  As4  1  0.160336  0.355561  0.499228  1
+  As  As5  1  0.160336  0.661108  0.804776  1
+  As  As6  1  0.839664  0.338892  0.195224  1
+  As  As7  1  0.643955  0.500413  0.839243  1
+  As  As8  1  0.356045  0.499587  0.160757  1
+  As  As9  1  0.643955  0.804714  0.143542  1
+  As  As10  1  0.356045  0.195286  0.856458  1
+  As  As11  1  0.502259  0.843377  0.658881  1
+  As  As12  1  0.497741  0.156623  0.341119  1
+  As  As13  1  0.207036  0.853060  0.353976  1
+  As  As14  1  0.792964  0.146940  0.646024  1
+  Rh  Rh15  1  0.000000  0.500000  0.000000  1
+  Rh  Rh16  1  0.000000  0.000000  0.500000  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CaSn6(IrRu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.96863291
+_cell_length_b   6.96863304
+_cell_length_c   6.98829530
+_cell_angle_alpha   119.96095580
+_cell_angle_beta   119.96095551
+_cell_angle_gamma   89.90615924
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSn6(IrRu)2
+_chemical_formula_sum   'Ca1 Sn6 Ir2 Ru2'
+_cell_volume   240.44500414
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.001313  0.001313  0.002626  1
+  Sn  Sn1  1  0.463893  0.463893  0.585545  1
+  Sn  Sn2  1  0.121652  0.121652  0.585545  1
+  Sn  Sn3  1  0.884484  0.530562  0.415045  1
+  Sn  Sn4  1  0.530562  0.884484  0.415045  1
+  Sn  Sn5  1  0.994779  0.494779  0.989558  1
+  Sn  Sn6  1  0.494779  0.994779  0.989558  1
+  Ir  Ir7  1  0.407412  0.407412  0.162013  1
+  Ir  Ir8  1  0.754601  0.754601  0.162013  1
+  Ru  Ru9  1  0.254238  0.592286  0.846525  1
+  Ru  Ru10  1  0.592286  0.254238  0.846525  1

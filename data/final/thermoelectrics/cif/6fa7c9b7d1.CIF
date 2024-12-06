@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_InPtSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.83636500
+_cell_length_b   7.83636424
+_cell_length_c   5.30240900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000742
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InPtSe2
+_chemical_formula_sum   'In3 Pt3 Se6'
+_cell_volume   281.98960138
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.000000  0.000000  0.000000  1
+  In  In1  1  0.333333  0.666667  0.661338  1
+  In  In2  1  0.666667  0.333333  0.338662  1
+  Pt  Pt3  1  0.500000  0.500000  0.000000  1
+  Pt  Pt4  1  0.000000  0.500000  0.000000  1
+  Pt  Pt5  1  0.500000  0.000000  0.000000  1
+  Se  Se6  1  0.817015  0.634030  0.758253  1
+  Se  Se7  1  0.817015  0.182985  0.758253  1
+  Se  Se8  1  0.365970  0.182985  0.758253  1
+  Se  Se9  1  0.182985  0.365970  0.241747  1
+  Se  Se10  1  0.182985  0.817015  0.241747  1
+  Se  Se11  1  0.634030  0.817015  0.241747  1

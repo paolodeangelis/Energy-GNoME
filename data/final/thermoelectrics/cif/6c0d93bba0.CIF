@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LiTm3Ag2Sn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28902210
+_cell_length_b   7.28902275
+_cell_length_c   4.51845400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.08699362
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTm3Ag2Sn3
+_chemical_formula_sum   'Li1 Tm3 Ag2 Sn3'
+_cell_volume   207.71970497
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.231831  0.231831  0.500000  1
+  Tm  Tm1  1  0.998286  0.435530  0.000000  1
+  Tm  Tm2  1  0.574084  0.574084  0.000000  1
+  Tm  Tm3  1  0.435530  0.998286  0.000000  1
+  Ag  Ag4  1  0.757783  0.001157  0.500000  1
+  Ag  Ag5  1  0.001157  0.757783  0.500000  1
+  Sn  Sn6  1  0.332570  0.658037  0.500000  1
+  Sn  Sn7  1  0.010721  0.010721  0.000000  1
+  Sn  Sn8  1  0.658037  0.332570  0.500000  1

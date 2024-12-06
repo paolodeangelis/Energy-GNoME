@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaBi(PSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.63053400
+_cell_length_b   7.03671331
+_cell_length_c   10.03426690
+_cell_angle_alpha   87.96368792
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaBi(PSe3)2
+_chemical_formula_sum   'Na2 Bi2 P4 Se12'
+_cell_volume   538.43849052
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.029113  0.293397  0.502172  1
+  Na  Na1  1  0.529113  0.706603  0.497828  1
+  Bi  Bi2  1  0.268396  0.214910  0.967370  1
+  Bi  Bi3  1  0.768396  0.785090  0.032630  1
+  P  P4  1  0.752251  0.313578  0.815073  1
+  P  P5  1  0.252251  0.686422  0.184927  1
+  P  P6  1  0.036582  0.811172  0.311616  1
+  P  P7  1  0.536582  0.188828  0.688384  1
+  Se  Se8  1  0.628930  0.360670  0.016059  1
+  Se  Se9  1  0.137835  0.864406  0.506823  1
+  Se  Se10  1  0.944449  0.072125  0.823157  1
+  Se  Se11  1  0.824645  0.594410  0.296832  1
+  Se  Se12  1  0.351493  0.428736  0.286060  1
+  Se  Se13  1  0.324645  0.405590  0.703168  1
+  Se  Se14  1  0.439806  0.936032  0.810031  1
+  Se  Se15  1  0.939806  0.063968  0.189969  1
+  Se  Se16  1  0.637835  0.135594  0.493177  1
+  Se  Se17  1  0.128930  0.639330  0.983941  1
+  Se  Se18  1  0.444449  0.927875  0.176843  1
+  Se  Se19  1  0.851493  0.571264  0.713940  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Yb3Cd3Si2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.25951000
+_cell_length_b   7.25951043
+_cell_length_c   4.41473100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000715
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb3Cd3Si2Ge
+_chemical_formula_sum   'Yb3 Cd3 Si2 Ge1'
+_cell_volume   201.48814011
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.420180  0.420705  0.500000  1
+  Yb  Yb1  1  0.579295  0.999475  0.500000  1
+  Yb  Yb2  1  0.000525  0.579820  0.500000  1
+  Cd  Cd3  1  0.748115  0.743260  0.000000  1
+  Cd  Cd4  1  0.256740  0.004855  0.000000  1
+  Cd  Cd5  1  0.995145  0.251885  0.000000  1
+  Si  Si6  1  0.666667  0.333333  0.000000  1
+  Si  Si7  1  0.000000  0.000000  0.500000  1
+  Ge  Ge8  1  0.333333  0.666667  0.000000  1

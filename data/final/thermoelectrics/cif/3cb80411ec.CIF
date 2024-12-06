@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TaNb3(AlTe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.19093689
+_cell_length_b   6.52856487
+_cell_length_c   7.83110002
+_cell_angle_alpha   97.37149227
+_cell_angle_beta   104.93138121
+_cell_angle_gamma   89.89102540
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNb3(AlTe4)2
+_chemical_formula_sum   'Ta1 Nb3 Al2 Te8'
+_cell_volume   401.07251038
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.088751  0.102214  0.999772  1
+  Nb  Nb1  1  0.411475  0.897711  0.000204  1
+  Nb  Nb2  1  0.588828  0.396313  0.000175  1
+  Nb  Nb3  1  0.911228  0.603662  0.999837  1
+  Al  Al4  1  0.249694  0.500019  0.999998  1
+  Al  Al5  1  0.749869  0.999442  0.999993  1
+  Te  Te6  1  0.079292  0.743470  0.753297  1
+  Te  Te7  1  0.200380  0.819097  0.246541  1
+  Te  Te8  1  0.298876  0.182114  0.754025  1
+  Te  Te9  1  0.419694  0.257657  0.246174  1
+  Te  Te10  1  0.579626  0.681606  0.753914  1
+  Te  Te11  1  0.701313  0.756975  0.246132  1
+  Te  Te12  1  0.799676  0.242193  0.754022  1
+  Te  Te13  1  0.921297  0.317527  0.245914  1

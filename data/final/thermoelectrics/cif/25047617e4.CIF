@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cu3Pd(RhSe2)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.75700843
+_cell_length_b   12.75700877
+_cell_length_c   12.75700845
+_cell_angle_alpha   33.60864673
+_cell_angle_beta   33.60864612
+_cell_angle_gamma   33.60864792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu3Pd(RhSe2)8
+_chemical_formula_sum   'Cu3 Pd1 Rh8 Se16'
+_cell_volume   566.61552995
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.437603  0.437603  0.437603  1
+  Cu  Cu1  1  0.562451  0.562451  0.562451  1
+  Cu  Cu2  1  0.062344  0.062344  0.062344  1
+  Pd  Pd3  1  0.937383  0.937383  0.937383  1
+  Rh  Rh4  1  0.249724  0.249724  0.249724  1
+  Rh  Rh5  1  0.750096  0.750096  0.750096  1
+  Rh  Rh6  1  0.000331  0.000331  0.499498  1
+  Rh  Rh7  1  0.500893  0.500893  0.998340  1
+  Rh  Rh8  1  0.000331  0.499498  0.000331  1
+  Rh  Rh9  1  0.500893  0.998340  0.500893  1
+  Rh  Rh10  1  0.998340  0.500893  0.500893  1
+  Rh  Rh11  1  0.499498  0.000331  0.000331  1
+  Se  Se12  1  0.869116  0.869116  0.869116  1
+  Se  Se13  1  0.370057  0.370057  0.370057  1
+  Se  Se14  1  0.142306  0.142306  0.596478  1
+  Se  Se15  1  0.639422  0.639422  0.100940  1
+  Se  Se16  1  0.142306  0.596478  0.142306  1
+  Se  Se17  1  0.639422  0.100940  0.639422  1
+  Se  Se18  1  0.596478  0.142306  0.142306  1
+  Se  Se19  1  0.100940  0.639422  0.639422  1
+  Se  Se20  1  0.629697  0.629697  0.629697  1
+  Se  Se21  1  0.129774  0.129774  0.129774  1
+  Se  Se22  1  0.360484  0.360484  0.898790  1
+  Se  Se23  1  0.860740  0.860740  0.399356  1
+  Se  Se24  1  0.360484  0.898790  0.360484  1
+  Se  Se25  1  0.860740  0.399356  0.860740  1
+  Se  Se26  1  0.898790  0.360484  0.360484  1
+  Se  Se27  1  0.399356  0.860740  0.860740  1

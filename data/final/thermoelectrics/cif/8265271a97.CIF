@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiNb3Sb4Ir3Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24768500
+_cell_length_b   6.24768491
+_cell_length_c   7.59983820
+_cell_angle_alpha   114.12190798
+_cell_angle_beta   114.12190242
+_cell_angle_gamma   90.12319027
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiNb3Sb4Ir3Rh
+_chemical_formula_sum   'Li1 Nb3 Sb4 Ir3 Rh1'
+_cell_volume   241.95331752
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.499901  0.499901  0.000280  1
+  Nb  Nb1  1  0.999879  0.999879  0.000036  1
+  Nb  Nb2  1  0.750106  0.250104  0.499917  1
+  Nb  Nb3  1  0.250104  0.750106  0.499917  1
+  Sb  Sb4  1  0.500297  0.998902  0.998515  1
+  Sb  Sb5  1  0.998902  0.500297  0.998515  1
+  Sb  Sb6  1  0.735616  0.735616  0.474973  1
+  Sb  Sb7  1  0.265432  0.265432  0.527794  1
+  Ir  Ir8  1  0.896659  0.365834  0.262073  1
+  Ir  Ir9  1  0.365834  0.896659  0.262073  1
+  Ir  Ir10  1  0.103319  0.103319  0.737399  1
+  Rh  Rh11  1  0.633952  0.633952  0.738506  1

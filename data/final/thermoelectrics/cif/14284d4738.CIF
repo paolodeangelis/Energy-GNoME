@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sm4Sc(GaTe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.77554900
+_cell_length_b   8.77554990
+_cell_length_c   8.02531200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.83238942
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm4Sc(GaTe)2
+_chemical_formula_sum   'Sm8 Sc2 Ga4 Te4'
+_cell_volume   501.05848186
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.793458  0.539158  0.165721  1
+  Sm  Sm1  1  0.460842  0.206542  0.834279  1
+  Sm  Sm2  1  0.960842  0.706542  0.665721  1
+  Sm  Sm3  1  0.293458  0.039158  0.334279  1
+  Sm  Sm4  1  0.206542  0.460842  0.834279  1
+  Sm  Sm5  1  0.539158  0.793458  0.165721  1
+  Sm  Sm6  1  0.039158  0.293458  0.334279  1
+  Sm  Sm7  1  0.706542  0.960842  0.665721  1
+  Sc  Sc8  1  0.000000  0.000000  0.000000  1
+  Sc  Sc9  1  0.500000  0.500000  0.500000  1
+  Ga  Ga10  1  0.865478  0.865478  0.367028  1
+  Ga  Ga11  1  0.134522  0.134522  0.632972  1
+  Ga  Ga12  1  0.634522  0.634522  0.867028  1
+  Ga  Ga13  1  0.365478  0.365478  0.132972  1
+  Te  Te14  1  0.199930  0.800070  0.000000  1
+  Te  Te15  1  0.699930  0.300070  0.500000  1
+  Te  Te16  1  0.800070  0.199930  0.000000  1
+  Te  Te17  1  0.300070  0.699930  0.500000  1

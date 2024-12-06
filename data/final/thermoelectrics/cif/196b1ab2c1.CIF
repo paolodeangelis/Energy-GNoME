@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaNi2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07925318
+_cell_length_b   8.11116237
+_cell_length_c   8.07925181
+_cell_angle_alpha   109.55587129
+_cell_angle_beta   109.19325562
+_cell_angle_gamma   109.50431939
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNi2(Sb6Os)2
+_chemical_formula_sum   'Na1 Ni2 Sb12 Os2'
+_cell_volume   408.37157694
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Ni  Ni1  1  0.500000  0.500000  0.500000  1
+  Ni  Ni2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.341844  0.160462  0.496566  1
+  Sb  Sb4  1  0.336104  0.839538  0.181382  1
+  Sb  Sb5  1  0.663896  0.160462  0.818618  1
+  Sb  Sb6  1  0.819082  0.659690  0.155224  1
+  Sb  Sb7  1  0.158219  0.495704  0.337485  1
+  Sb  Sb8  1  0.504466  0.659690  0.840607  1
+  Sb  Sb9  1  0.844186  0.184013  0.339826  1
+  Sb  Sb10  1  0.658156  0.839538  0.503434  1
+  Sb  Sb11  1  0.180918  0.340310  0.844776  1
+  Sb  Sb12  1  0.155814  0.815987  0.660174  1
+  Sb  Sb13  1  0.495534  0.340310  0.159393  1
+  Sb  Sb14  1  0.841781  0.504296  0.662515  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.000000  0.000000  0.500000  1

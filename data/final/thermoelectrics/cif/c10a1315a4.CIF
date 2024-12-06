@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ni3Sb12Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.01883603
+_cell_length_b   8.01883649
+_cell_length_c   8.01469600
+_cell_angle_alpha   109.46075876
+_cell_angle_beta   109.46075993
+_cell_angle_gamma   109.48168173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni3Sb12Ru
+_chemical_formula_sum   'Ni3 Sb12 Ru1'
+_cell_volume   396.77463331
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.500000  0.000000  0.000000  1
+  Ni  Ni1  1  0.000000  0.500000  0.000000  1
+  Ni  Ni2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.158486  0.818111  0.664598  1
+  Sb  Sb4  1  0.841514  0.181889  0.335402  1
+  Sb  Sb5  1  0.839203  0.503146  0.662510  1
+  Sb  Sb6  1  0.160797  0.496854  0.337490  1
+  Sb  Sb7  1  0.818111  0.659625  0.153513  1
+  Sb  Sb8  1  0.181889  0.340375  0.846487  1
+  Sb  Sb9  1  0.503146  0.663942  0.840635  1
+  Sb  Sb10  1  0.496854  0.336058  0.159365  1
+  Sb  Sb11  1  0.663942  0.160797  0.823308  1
+  Sb  Sb12  1  0.336058  0.839203  0.176692  1
+  Sb  Sb13  1  0.659625  0.841514  0.506113  1
+  Sb  Sb14  1  0.340375  0.158486  0.493887  1
+  Ru  Ru15  1  0.000000  0.000000  0.500000  1

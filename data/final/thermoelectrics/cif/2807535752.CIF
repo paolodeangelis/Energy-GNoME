@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiNb3Co4SbAs3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72218630
+_cell_length_b   5.79134747
+_cell_length_c   7.05270551
+_cell_angle_alpha   114.24104095
+_cell_angle_beta   113.93330463
+_cell_angle_gamma   90.00000580
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiNb3Co4SbAs3
+_chemical_formula_sum   'Li1 Nb3 Co4 Sb1 As3'
+_cell_volume   190.85940835
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.500000  0.000000  1
+  Nb  Nb1  1  0.000000  0.000000  0.000000  1
+  Nb  Nb2  1  0.747436  0.247437  0.494874  1
+  Nb  Nb3  1  0.252563  0.752562  0.505126  1
+  Co  Co4  1  0.889707  0.365386  0.264650  1
+  Co  Co5  1  0.374942  0.899262  0.264650  1
+  Co  Co6  1  0.110294  0.100739  0.735351  1
+  Co  Co7  1  0.625058  0.634614  0.735351  1
+  Sb  Sb8  1  0.000000  0.499999  0.000000  1
+  As  As9  1  0.499999  0.000000  0.000000  1
+  As  As10  1  0.741490  0.741490  0.482981  1
+  As  As11  1  0.258509  0.258509  0.517017  1

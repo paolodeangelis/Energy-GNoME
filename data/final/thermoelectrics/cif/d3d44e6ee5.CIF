@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaCo(Sb4Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.11604514
+_cell_length_b   8.11604469
+_cell_length_c   8.11604504
+_cell_angle_alpha   109.34358747
+_cell_angle_beta   109.34358412
+_cell_angle_gamma   109.34358359
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCo(Sb4Ru)3
+_chemical_formula_sum   'Ba1 Co1 Sb12 Ru3'
+_cell_volume   413.47274905
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.500000  0.500000  0.500000  1
+  Sb  Sb2  1  0.159846  0.816673  0.656980  1
+  Sb  Sb3  1  0.165625  0.502297  0.345537  1
+  Sb  Sb4  1  0.497703  0.654463  0.834375  1
+  Sb  Sb5  1  0.343020  0.840154  0.183327  1
+  Sb  Sb6  1  0.816673  0.656980  0.159846  1
+  Sb  Sb7  1  0.654463  0.834375  0.497703  1
+  Sb  Sb8  1  0.183327  0.343020  0.840154  1
+  Sb  Sb9  1  0.656980  0.159846  0.816673  1
+  Sb  Sb10  1  0.345537  0.165625  0.502297  1
+  Sb  Sb11  1  0.502297  0.345537  0.165625  1
+  Sb  Sb12  1  0.834375  0.497703  0.654463  1
+  Sb  Sb13  1  0.840154  0.183327  0.343020  1
+  Ru  Ru14  1  0.000000  0.000000  0.500000  1
+  Ru  Ru15  1  0.500000  0.000000  0.000000  1
+  Ru  Ru16  1  0.000000  0.500000  0.000000  1

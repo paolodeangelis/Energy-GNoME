@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca3Yb3(PrBi3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.40026275
+_cell_length_b   8.45895317
+_cell_length_c   8.39820441
+_cell_angle_alpha   109.49330511
+_cell_angle_beta   109.17366126
+_cell_angle_gamma   109.51118946
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3Yb3(PrBi3)2
+_chemical_formula_sum   'Ca3 Yb3 Pr2 Bi6'
+_cell_volume   460.70861319
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.501857  0.001903  0.143391  1
+  Ca  Ca1  1  0.643262  0.501810  0.001631  1
+  Ca  Ca2  1  0.998655  0.642963  0.500369  1
+  Yb  Yb3  1  0.857238  0.855672  0.857072  1
+  Yb  Yb4  1  0.000483  0.143198  0.498774  1
+  Yb  Yb5  1  0.356952  0.355626  0.357390  1
+  Pr  Pr6  1  0.141516  0.499469  0.000177  1
+  Pr  Pr7  1  0.500553  0.999695  0.641779  1
+  Bi  Bi8  1  0.624351  0.748447  0.375130  1
+  Bi  Bi9  1  0.750484  0.375887  0.624802  1
+  Bi  Bi10  1  0.249960  0.125655  0.874677  1
+  Bi  Bi11  1  0.374730  0.625386  0.749933  1
+  Bi  Bi12  1  0.124833  0.876246  0.250589  1
+  Bi  Bi13  1  0.875125  0.248041  0.124286  1

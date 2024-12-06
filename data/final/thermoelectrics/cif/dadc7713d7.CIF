@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LiEu2(SnAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22040670
+_cell_length_b   7.22040685
+_cell_length_c   9.28118197
+_cell_angle_alpha   82.48007144
+_cell_angle_beta   82.48008508
+_cell_angle_gamma   119.97802622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiEu2(SnAs)6
+_chemical_formula_sum   'Li1 Eu2 Sn6 As6'
+_cell_volume   404.53244041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Eu  Eu1  1  0.666497  0.333503  0.000000  1
+  Eu  Eu2  1  0.333503  0.666497  0.000000  1
+  Sn  Sn3  1  0.540878  0.877486  0.365146  1
+  Sn  Sn4  1  0.214888  0.214888  0.365724  1
+  Sn  Sn5  1  0.877486  0.540878  0.365146  1
+  Sn  Sn6  1  0.459122  0.122514  0.634854  1
+  Sn  Sn7  1  0.122514  0.459122  0.634854  1
+  Sn  Sn8  1  0.785112  0.785112  0.634276  1
+  As  As9  1  0.396667  0.396667  0.793183  1
+  As  As10  1  0.069107  0.741142  0.793035  1
+  As  As11  1  0.741142  0.069107  0.793035  1
+  As  As12  1  0.603333  0.603333  0.206817  1
+  As  As13  1  0.258858  0.930893  0.206965  1
+  As  As14  1  0.930893  0.258858  0.206965  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_SbTe7Ir3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.52256736
+_cell_length_b   6.52256736
+_cell_length_c   6.52256819
+_cell_angle_alpha   90.62930616
+_cell_angle_beta   90.62929950
+_cell_angle_gamma   90.62930449
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbTe7Ir3
+_chemical_formula_sum   'Sb1 Te7 Ir3'
+_cell_volume   277.44480700
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.629296  0.629296  0.629296  1
+  Te  Te1  1  0.870409  0.123703  0.376170  1
+  Te  Te2  1  0.376170  0.870409  0.123703  1
+  Te  Te3  1  0.123703  0.376170  0.870409  1
+  Te  Te4  1  0.129038  0.874702  0.624911  1
+  Te  Te5  1  0.624911  0.129038  0.874702  1
+  Te  Te6  1  0.874702  0.624911  0.129038  1
+  Te  Te7  1  0.374041  0.374041  0.374041  1
+  Ir  Ir8  1  0.500281  0.500285  0.997162  1
+  Ir  Ir9  1  0.997162  0.500281  0.500285  1
+  Ir  Ir10  1  0.500285  0.997162  0.500281  1

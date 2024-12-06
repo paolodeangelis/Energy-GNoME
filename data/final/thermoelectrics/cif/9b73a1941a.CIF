@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LaNd4Sb4Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.02887618
+_cell_length_b   12.02887646
+_cell_length_c   12.02887498
+_cell_angle_alpha   158.05936654
+_cell_angle_beta   149.24115343
+_cell_angle_gamma   38.10335247
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNd4Sb4Te
+_chemical_formula_sum   'La1 Nd4 Sb4 Te1'
+_cell_volume   332.12344116
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.500000  0.500000  0.000000  1
+  Nd  Nd1  1  0.894516  0.894516  0.000000  1
+  Nd  Nd2  1  0.105484  0.105484  0.000000  1
+  Nd  Nd3  1  0.299763  0.299763  0.000000  1
+  Nd  Nd4  1  0.700237  0.700237  0.000000  1
+  Sb  Sb5  1  0.600368  0.100368  0.500000  1
+  Sb  Sb6  1  0.399632  0.899632  0.500000  1
+  Sb  Sb7  1  0.799751  0.299751  0.500000  1
+  Sb  Sb8  1  0.200249  0.700249  0.500000  1
+  Te  Te9  1  0.000000  0.500000  0.500000  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CaYb12(LuSb4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.36298398
+_cell_length_b   9.36720542
+_cell_length_c   9.36738852
+_cell_angle_alpha   89.81805053
+_cell_angle_beta   90.10919806
+_cell_angle_gamma   89.78287182
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaYb12(LuSb4)3
+_chemical_formula_sum   'Ca1 Yb12 Lu3 Sb12'
+_cell_volume   821.55520303
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.073806  0.573003  0.926577  1
+  Yb  Yb1  1  0.825651  0.325942  0.174520  1
+  Yb  Yb2  1  0.931104  0.926428  0.931396  1
+  Yb  Yb3  1  0.827603  0.673328  0.326627  1
+  Yb  Yb4  1  0.176505  0.823671  0.322659  1
+  Yb  Yb5  1  0.173410  0.173509  0.172357  1
+  Yb  Yb6  1  0.326101  0.825839  0.674405  1
+  Yb  Yb7  1  0.068682  0.430921  0.573790  1
+  Yb  Yb8  1  0.323579  0.177334  0.823603  1
+  Yb  Yb9  1  0.673385  0.327563  0.826374  1
+  Yb  Yb10  1  0.677062  0.676384  0.676557  1
+  Yb  Yb11  1  0.568652  0.068567  0.431535  1
+  Yb  Yb12  1  0.426417  0.568665  0.068784  1
+  Lu  Lu13  1  0.928450  0.074356  0.573052  1
+  Lu  Lu14  1  0.426632  0.428426  0.425543  1
+  Lu  Lu15  1  0.574330  0.926385  0.071551  1
+  Sb  Sb16  1  0.744300  0.367723  0.500182  1
+  Sb  Sb17  1  0.867315  0.000080  0.255946  1
+  Sb  Sb18  1  0.998504  0.762644  0.625220  1
+  Sb  Sb19  1  0.242685  0.129703  0.498359  1
+  Sb  Sb20  1  0.133564  0.497278  0.253128  1
+  Sb  Sb21  1  0.997389  0.246845  0.866362  1
+  Sb  Sb22  1  0.262214  0.874709  0.001280  1
+  Sb  Sb23  1  0.374702  0.498941  0.737608  1
+  Sb  Sb24  1  0.499928  0.244486  0.132801  1
+  Sb  Sb25  1  0.746917  0.633470  0.002566  1
+  Sb  Sb26  1  0.629707  0.001271  0.757214  1
+  Sb  Sb27  1  0.501402  0.742527  0.370006  1

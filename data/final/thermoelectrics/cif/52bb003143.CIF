@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaYb2(SnAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.16819807
+_cell_length_b   7.16819816
+_cell_length_c   9.30261165
+_cell_angle_alpha   82.56092002
+_cell_angle_beta   82.56092428
+_cell_angle_gamma   120.01693299
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaYb2(SnAs)6
+_chemical_formula_sum   'Na1 Yb2 Sn6 As6'
+_cell_volume   399.76258081
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Yb  Yb1  1  0.666585  0.333415  0.000000  1
+  Yb  Yb2  1  0.333415  0.666585  0.000000  1
+  Sn  Sn3  1  0.543406  0.877396  0.366151  1
+  Sn  Sn4  1  0.212149  0.212149  0.367524  1
+  Sn  Sn5  1  0.877396  0.543406  0.366151  1
+  Sn  Sn6  1  0.456594  0.122604  0.633849  1
+  Sn  Sn7  1  0.122604  0.456594  0.633849  1
+  Sn  Sn8  1  0.787851  0.787851  0.632476  1
+  As  As9  1  0.404632  0.404632  0.790529  1
+  As  As10  1  0.069510  0.734579  0.790435  1
+  As  As11  1  0.734579  0.069510  0.790435  1
+  As  As12  1  0.595368  0.595368  0.209471  1
+  As  As13  1  0.265421  0.930490  0.209565  1
+  As  As14  1  0.930490  0.265421  0.209565  1

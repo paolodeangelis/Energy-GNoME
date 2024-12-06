@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Co3Ni5RuSe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.41335875
+_cell_length_b   7.41335906
+_cell_length_c   7.41336130
+_cell_angle_alpha   59.88811663
+_cell_angle_beta   59.88812008
+_cell_angle_gamma   59.88811874
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co3Ni5RuSe8
+_chemical_formula_sum   'Co3 Ni5 Ru1 Se8'
+_cell_volume   287.36005673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.633096  0.122048  0.122048  1
+  Co  Co1  1  0.122048  0.633096  0.122048  1
+  Co  Co2  1  0.122048  0.122048  0.633096  1
+  Ni  Ni3  1  0.123749  0.123749  0.123749  1
+  Ni  Ni4  1  0.371065  0.876568  0.876568  1
+  Ni  Ni5  1  0.876568  0.371065  0.876568  1
+  Ni  Ni6  1  0.876568  0.876568  0.371065  1
+  Ni  Ni7  1  0.876672  0.876672  0.876672  1
+  Ru  Ru8  1  0.499281  0.499281  0.499281  1
+  Se  Se9  1  0.252732  0.252732  0.252732  1
+  Se  Se10  1  0.750506  0.750506  0.750506  1
+  Se  Se11  1  0.734070  0.261273  0.261273  1
+  Se  Se12  1  0.738950  0.261150  0.738950  1
+  Se  Se13  1  0.738950  0.738950  0.261150  1
+  Se  Se14  1  0.261150  0.738950  0.738950  1
+  Se  Se15  1  0.261273  0.734070  0.261273  1
+  Se  Se16  1  0.261273  0.261273  0.734070  1

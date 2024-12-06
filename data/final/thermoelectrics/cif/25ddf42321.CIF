@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_YbCe(CuS)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.50941789
+_cell_length_b   7.50941678
+_cell_length_c   7.50941656
+_cell_angle_alpha   52.78975981
+_cell_angle_beta   52.78976922
+_cell_angle_gamma   52.78976679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbCe(CuS)6
+_chemical_formula_sum   'Yb1 Ce1 Cu6 S6'
+_cell_volume   248.79710814
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.333587  0.333587  0.333587  1
+  Ce  Ce1  1  0.666621  0.666621  0.666621  1
+  Cu  Cu2  1  0.875193  0.535381  0.217565  1
+  Cu  Cu3  1  0.535381  0.217565  0.875193  1
+  Cu  Cu4  1  0.217565  0.875193  0.535381  1
+  Cu  Cu5  1  0.784702  0.121889  0.465032  1
+  Cu  Cu6  1  0.465032  0.784702  0.121889  1
+  Cu  Cu7  1  0.121889  0.465032  0.784702  1
+  S  S8  1  0.083334  0.755108  0.416892  1
+  S  S9  1  0.416892  0.083334  0.755108  1
+  S  S10  1  0.755108  0.416892  0.083334  1
+  S  S11  1  0.246138  0.584334  0.914224  1
+  S  S12  1  0.584334  0.914224  0.246138  1
+  S  S13  1  0.914224  0.246138  0.584334  1

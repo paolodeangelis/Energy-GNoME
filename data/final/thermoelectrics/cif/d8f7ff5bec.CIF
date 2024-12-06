@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HgBi(Pt2Se3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.58337200
+_cell_length_b   7.58337094
+_cell_length_c   5.53372500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgBi(Pt2Se3)2
+_chemical_formula_sum   'Hg1 Bi1 Pt4 Se6'
+_cell_volume   275.59593475
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.666667  0.333333  0.350572  1
+  Bi  Bi1  1  0.333333  0.666667  0.687495  1
+  Pt  Pt2  1  0.000000  0.000000  0.000035  1
+  Pt  Pt3  1  0.501567  0.498433  0.995109  1
+  Pt  Pt4  1  0.996866  0.498433  0.995109  1
+  Pt  Pt5  1  0.501567  0.003134  0.995109  1
+  Se  Se6  1  0.830120  0.660239  0.765622  1
+  Se  Se7  1  0.830120  0.169880  0.765622  1
+  Se  Se8  1  0.339761  0.169880  0.765622  1
+  Se  Se9  1  0.171191  0.342383  0.226568  1
+  Se  Se10  1  0.171191  0.828809  0.226568  1
+  Se  Se11  1  0.657617  0.828809  0.226568  1

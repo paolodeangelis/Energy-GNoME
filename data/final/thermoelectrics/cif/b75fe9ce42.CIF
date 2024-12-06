@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Er10Sn6Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.63704601
+_cell_length_b   9.17298591
+_cell_length_c   9.17272400
+_cell_angle_alpha   120.00217131
+_cell_angle_beta   89.99747061
+_cell_angle_gamma   90.00299496
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er10Sn6Te
+_chemical_formula_sum   'Er10 Sn6 Te1'
+_cell_volume   483.62084199
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.499995  0.333337  0.666690  1
+  Er  Er1  1  0.499984  0.666697  0.333326  1
+  Er  Er2  1  0.999984  0.666666  0.333375  1
+  Er  Er3  1  0.999993  0.333395  0.666670  1
+  Er  Er4  1  0.769528  0.257008  0.999998  1
+  Er  Er5  1  0.769520  0.742925  0.742952  1
+  Er  Er6  1  0.769502  0.999990  0.257039  1
+  Er  Er7  1  0.230667  0.742922  0.000010  1
+  Er  Er8  1  0.230689  0.257042  0.257017  1
+  Er  Er9  1  0.230648  0.000009  0.742949  1
+  Sn  Sn10  1  0.751033  0.607286  0.000069  1
+  Sn  Sn11  1  0.751040  0.392694  0.392679  1
+  Sn  Sn12  1  0.751042  0.000046  0.607287  1
+  Sn  Sn13  1  0.248691  0.392679  0.999998  1
+  Sn  Sn14  1  0.248874  0.607287  0.607247  1
+  Sn  Sn15  1  0.248729  0.000058  0.392715  1
+  Te  Te16  1  0.500082  0.999963  0.999977  1

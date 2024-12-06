@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaTi2Nb(SnSb)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.96580552
+_cell_length_b   10.17202305
+_cell_length_c   5.66296002
+_cell_angle_alpha   82.37323228
+_cell_angle_beta   66.83952122
+_cell_angle_gamma   30.74361211
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaTi2Nb(SnSb)4
+_chemical_formula_sum   'Ta1 Ti2 Nb1 Sn4 Sb4'
+_cell_volume   267.05926373
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.123336  0.123336  0.376664  1
+  Ti  Ti1  1  0.126745  0.126745  0.873255  1
+  Ti  Ti2  1  0.873918  0.873918  0.126082  1
+  Nb  Nb3  1  0.376270  0.376270  0.123730  1
+  Sn  Sn4  1  0.420938  0.079349  0.420933  1
+  Sn  Sn5  1  0.079349  0.420938  0.078780  1
+  Sn  Sn6  1  0.834567  0.165140  0.833441  1
+  Sn  Sn7  1  0.165140  0.834567  0.166852  1
+  Sb  Sb8  1  0.674961  0.674961  0.825039  1
+  Sb  Sb9  1  0.825258  0.825258  0.674742  1
+  Sb  Sb10  1  0.574925  0.574925  0.425075  1
+  Sb  Sb11  1  0.424594  0.424594  0.575406  1

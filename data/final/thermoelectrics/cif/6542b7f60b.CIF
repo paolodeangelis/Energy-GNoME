@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CaTb3(YbBi)12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.61925919
+_cell_length_b   9.61925978
+_cell_length_c   9.61925900
+_cell_angle_alpha   90.31588527
+_cell_angle_beta   90.31588529
+_cell_angle_gamma   89.68411723
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTb3(YbBi)12
+_chemical_formula_sum   'Ca1 Tb3 Yb12 Bi12'
+_cell_volume   890.03107491
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.073098  0.573098  0.926902  1
+  Tb  Tb1  1  0.929743  0.072051  0.572482  1
+  Tb  Tb2  1  0.427518  0.429743  0.427949  1
+  Tb  Tb3  1  0.572051  0.927518  0.070257  1
+  Yb  Yb4  1  0.824872  0.324872  0.175128  1
+  Yb  Yb5  1  0.931017  0.927514  0.930792  1
+  Yb  Yb6  1  0.826823  0.673999  0.325730  1
+  Yb  Yb7  1  0.176736  0.822424  0.322521  1
+  Yb  Yb8  1  0.173999  0.174270  0.173177  1
+  Yb  Yb9  1  0.325050  0.825050  0.674950  1
+  Yb  Yb10  1  0.069208  0.431017  0.572486  1
+  Yb  Yb11  1  0.322424  0.177479  0.823264  1
+  Yb  Yb12  1  0.674270  0.326823  0.826001  1
+  Yb  Yb13  1  0.677479  0.676736  0.677576  1
+  Yb  Yb14  1  0.569080  0.069080  0.430920  1
+  Yb  Yb15  1  0.427514  0.569208  0.068983  1
+  Bi  Bi16  1  0.746352  0.369334  0.500021  1
+  Bi  Bi17  1  0.869334  0.999979  0.253648  1
+  Bi  Bi18  1  0.999153  0.756519  0.625746  1
+  Bi  Bi19  1  0.246130  0.128923  0.499209  1
+  Bi  Bi20  1  0.130722  0.498187  0.251227  1
+  Bi  Bi21  1  0.998187  0.248773  0.869278  1
+  Bi  Bi22  1  0.256519  0.874254  0.000847  1
+  Bi  Bi23  1  0.374254  0.499153  0.743481  1
+  Bi  Bi24  1  0.499979  0.246352  0.130666  1
+  Bi  Bi25  1  0.748773  0.630722  0.001813  1
+  Bi  Bi26  1  0.628923  0.000791  0.753870  1
+  Bi  Bi27  1  0.500791  0.746130  0.371077  1

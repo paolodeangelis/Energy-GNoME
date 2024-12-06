@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CuIrPtSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.43823145
+_cell_length_b   7.44701742
+_cell_length_c   7.43823317
+_cell_angle_alpha   59.96091321
+_cell_angle_beta   60.02857558
+_cell_angle_gamma   59.96091928
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuIrPtSe4
+_chemical_formula_sum   'Cu2 Ir2 Pt2 Se8'
+_cell_volume   291.23504046
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.001195  0.998805  0.001195  1
+  Cu  Cu1  1  0.248805  0.251195  0.248805  1
+  Ir  Ir2  1  0.625000  0.625000  0.625000  1
+  Ir  Ir3  1  0.625000  0.125000  0.625000  1
+  Pt  Pt4  1  0.625000  0.625000  0.125000  1
+  Pt  Pt5  1  0.125000  0.625000  0.625000  1
+  Se  Se6  1  0.390793  0.383351  0.842505  1
+  Se  Se7  1  0.387553  0.382036  0.387553  1
+  Se  Se8  1  0.862447  0.867964  0.862447  1
+  Se  Se9  1  0.859207  0.866649  0.407495  1
+  Se  Se10  1  0.387553  0.842858  0.387553  1
+  Se  Se11  1  0.842505  0.383351  0.390793  1
+  Se  Se12  1  0.407495  0.866649  0.859207  1
+  Se  Se13  1  0.862447  0.407142  0.862447  1

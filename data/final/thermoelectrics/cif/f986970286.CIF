@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2Na(BeAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.45128221
+_cell_length_b   8.45128309
+_cell_length_c   7.36431074
+_cell_angle_alpha   69.71824049
+_cell_angle_beta   69.71823870
+_cell_angle_gamma   36.65519497
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Na(BeAs)6
+_chemical_formula_sum   'Ba2 Na1 Be6 As6'
+_cell_volume   292.33049038
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.658945  0.658945  0.998544  1
+  Ba  Ba1  1  0.341055  0.341055  0.001456  1
+  Na  Na2  1  0.000000  0.000000  0.000000  1
+  Be  Be3  1  0.748624  0.251376  0.500000  1
+  Be  Be4  1  0.082703  0.582657  0.501048  1
+  Be  Be5  1  0.417343  0.917297  0.498952  1
+  Be  Be6  1  0.582657  0.082703  0.501048  1
+  Be  Be7  1  0.917297  0.417343  0.498952  1
+  Be  Be8  1  0.251376  0.748624  0.500000  1
+  As  As9  1  0.883964  0.883964  0.700292  1
+  As  As10  1  0.215060  0.215060  0.701502  1
+  As  As11  1  0.550345  0.550345  0.699616  1
+  As  As12  1  0.449655  0.449655  0.300384  1
+  As  As13  1  0.784940  0.784940  0.298498  1
+  As  As14  1  0.116036  0.116036  0.299708  1

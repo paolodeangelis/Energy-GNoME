@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sm(EuSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41120182
+_cell_length_b   8.36681739
+_cell_length_c   8.40431514
+_cell_angle_alpha   109.28995229
+_cell_angle_beta   109.99692803
+_cell_angle_gamma   109.32348631
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm(EuSb)3
+_chemical_formula_sum   'Sm2 Eu6 Sb6'
+_cell_volume   454.17601082
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.859862  0.860181  0.859614  1
+  Sm  Sm1  1  0.999681  0.139819  0.499433  1
+  Eu  Eu2  1  0.144430  0.502123  0.002361  1
+  Eu  Eu3  1  0.642306  0.497877  0.000238  1
+  Eu  Eu4  1  0.497577  0.000095  0.642261  1
+  Eu  Eu5  1  0.359306  0.359195  0.356725  1
+  Eu  Eu6  1  0.497482  0.999905  0.142166  1
+  Eu  Eu7  1  0.000111  0.640805  0.497530  1
+  Sb  Sb8  1  0.376683  0.621826  0.748466  1
+  Sb  Sb9  1  0.875507  0.241285  0.124728  1
+  Sb  Sb10  1  0.634222  0.758715  0.383443  1
+  Sb  Sb11  1  0.118378  0.878780  0.247587  1
+  Sb  Sb12  1  0.239598  0.121220  0.868807  1
+  Sb  Sb13  1  0.754856  0.378174  0.626640  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MnCoNiSb12Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.00766953
+_cell_length_b   8.06910025
+_cell_length_c   9.26905800
+_cell_angle_alpha   54.86295889
+_cell_angle_beta   54.80219335
+_cell_angle_gamma   70.61728534
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCoNiSb12Pt
+_chemical_formula_sum   'Mn1 Co1 Ni1 Sb12 Pt1'
+_cell_volume   400.23306716
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.500000  0.000000  0.000000  1
+  Co  Co1  1  0.000000  0.500000  0.000000  1
+  Ni  Ni2  1  0.000000  0.500000  0.500000  1
+  Sb  Sb3  1  0.671233  0.673435  0.167720  1
+  Sb  Sb4  1  0.328767  0.326565  0.832280  1
+  Sb  Sb5  1  0.661695  0.649351  0.499780  1
+  Sb  Sb6  1  0.338305  0.350649  0.500220  1
+  Sb  Sb7  1  0.854691  0.166310  0.329542  1
+  Sb  Sb8  1  0.145309  0.833690  0.670458  1
+  Sb  Sb9  1  0.163487  0.844859  0.328945  1
+  Sb  Sb10  1  0.836513  0.155141  0.671055  1
+  Sb  Sb11  1  0.493645  0.818657  0.853666  1
+  Sb  Sb12  1  0.506355  0.181343  0.146334  1
+  Sb  Sb13  1  0.177795  0.505702  0.156094  1
+  Sb  Sb14  1  0.822205  0.494298  0.843906  1
+  Pt  Pt15  1  0.500000  0.000000  0.500000  1

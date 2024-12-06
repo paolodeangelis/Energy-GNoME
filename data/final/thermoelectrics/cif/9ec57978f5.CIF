@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu2TaNb(NiSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.14577315
+_cell_length_b   4.32624800
+_cell_length_c   8.70162722
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.97434251
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu2TaNb(NiSn)4
+_chemical_formula_sum   'Lu2 Ta1 Nb1 Ni4 Sn4'
+_cell_volume   231.36004920
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.003862  0.500000  0.377995  1
+  Lu  Lu1  1  0.504103  0.000000  0.621976  1
+  Ta  Ta2  1  0.995534  0.500000  0.875463  1
+  Nb  Nb3  1  0.495248  0.000000  0.124909  1
+  Ni  Ni4  1  0.740354  0.500000  0.112780  1
+  Ni  Ni5  1  0.263290  0.000000  0.357702  1
+  Ni  Ni6  1  0.763694  0.500000  0.642766  1
+  Ni  Ni7  1  0.238190  0.000000  0.886388  1
+  Sn  Sn8  1  0.990245  0.000000  0.121993  1
+  Sn  Sn9  1  0.507727  0.500000  0.369005  1
+  Sn  Sn10  1  0.007360  0.000000  0.631209  1
+  Sn  Sn11  1  0.490393  0.500000  0.877814  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ti4AlGa(SbPt2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49567887
+_cell_length_b   7.49567884
+_cell_length_c   6.12736000
+_cell_angle_alpha   114.12483901
+_cell_angle_beta   114.12483892
+_cell_angle_gamma   109.37635125
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti4AlGa(SbPt2)2
+_chemical_formula_sum   'Ti4 Al1 Ga1 Sb2 Pt4'
+_cell_volume   229.64533506
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.755613  0.244388  0.000000  1
+  Ti  Ti1  1  0.244390  0.755611  0.000000  1
+  Ti  Ti2  1  0.494748  0.505253  0.500001  1
+  Ti  Ti3  1  0.005254  0.994747  0.500001  1
+  Al  Al4  1  0.250001  0.750000  0.500001  1
+  Ga  Ga5  1  0.000000  0.000000  0.000000  1
+  Sb  Sb6  1  0.500001  0.500001  0.000000  1
+  Sb  Sb7  1  0.750001  0.250000  0.500001  1
+  Pt  Pt8  1  0.888258  0.635269  0.015165  1
+  Pt  Pt9  1  0.126907  0.379895  0.491639  1
+  Pt  Pt10  1  0.620103  0.873092  0.508360  1
+  Pt  Pt11  1  0.364732  0.111743  0.984836  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MnFe3(Sb5Se)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.89960607
+_cell_length_b   7.90938645
+_cell_length_c   7.89992100
+_cell_angle_alpha   108.74921242
+_cell_angle_beta   109.70715131
+_cell_angle_gamma   110.05238241
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnFe3(Sb5Se)2
+_chemical_formula_sum   'Mn1 Fe3 Sb10 Se2'
+_cell_volume   379.48385038
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.530669  0.521761  0.513652  1
+  Fe  Fe1  1  0.498983  0.995493  0.001050  1
+  Fe  Fe2  1  0.986608  0.994225  0.501563  1
+  Fe  Fe3  1  0.997125  0.500869  0.991632  1
+  Sb  Sb4  1  0.499214  0.662901  0.849092  1
+  Sb  Sb5  1  0.668837  0.159633  0.830701  1
+  Sb  Sb6  1  0.841622  0.156584  0.315550  1
+  Sb  Sb7  1  0.156638  0.826452  0.669346  1
+  Sb  Sb8  1  0.167552  0.327112  0.840401  1
+  Sb  Sb9  1  0.155051  0.498390  0.332172  1
+  Sb  Sb10  1  0.329109  0.153206  0.498149  1
+  Sb  Sb11  1  0.494422  0.327231  0.148608  1
+  Sb  Sb12  1  0.318126  0.843945  0.164046  1
+  Sb  Sb13  1  0.827982  0.666495  0.159273  1
+  Se  Se14  1  0.671027  0.857066  0.510152  1
+  Se  Se15  1  0.857033  0.508639  0.674613  1

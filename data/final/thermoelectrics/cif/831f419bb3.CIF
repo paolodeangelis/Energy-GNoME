@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ta3NbFe2(Sn2Pt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49545202
+_cell_length_b   7.48937440
+_cell_length_c   7.49545085
+_cell_angle_alpha   131.47976139
+_cell_angle_beta   131.51194321
+_cell_angle_gamma   71.04303249
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3NbFe2(Sn2Pt)2
+_chemical_formula_sum   'Ta3 Nb1 Fe2 Sn4 Pt2'
+_cell_volume   231.11585431
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.515138  0.750000  0.265138  1
+  Ta  Ta1  1  0.249771  0.984620  0.734512  1
+  Ta  Ta2  1  0.749891  0.515380  0.765151  1
+  Nb  Nb3  1  0.983678  0.250000  0.233678  1
+  Fe  Fe4  1  0.874613  0.625508  0.249808  1
+  Fe  Fe5  1  0.624300  0.874492  0.749105  1
+  Sn  Sn6  1  0.750709  0.987157  0.237267  1
+  Sn  Sn7  1  0.250109  0.512843  0.263552  1
+  Sn  Sn8  1  0.987266  0.750000  0.737266  1
+  Sn  Sn9  1  0.511889  0.250000  0.761889  1
+  Pt  Pt10  1  0.376979  0.124169  0.249827  1
+  Pt  Pt11  1  0.125657  0.375831  0.752808  1

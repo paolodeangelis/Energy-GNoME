@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ag8Ge(SeS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.66360100
+_cell_length_b   7.82770500
+_cell_length_c   10.76425600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ag8Ge(SeS2)2
+_chemical_formula_sum   'Ag16 Ge2 Se4 S8'
+_cell_volume   645.73057930
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.282453  0.000000  0.483910  1
+  Ag  Ag1  1  0.717547  0.500000  0.983910  1
+  Ag  Ag2  1  0.848893  0.207450  0.159349  1
+  Ag  Ag3  1  0.151107  0.292550  0.659349  1
+  Ag  Ag4  1  0.151107  0.707450  0.659349  1
+  Ag  Ag5  1  0.848893  0.792550  0.159349  1
+  Ag  Ag6  1  0.468726  0.204756  0.268961  1
+  Ag  Ag7  1  0.531274  0.295244  0.768961  1
+  Ag  Ag8  1  0.531274  0.704756  0.768961  1
+  Ag  Ag9  1  0.468726  0.795244  0.268961  1
+  Ag  Ag10  1  0.907265  0.205825  0.865461  1
+  Ag  Ag11  1  0.092735  0.294175  0.365461  1
+  Ag  Ag12  1  0.092735  0.705825  0.365461  1
+  Ag  Ag13  1  0.907265  0.794175  0.865461  1
+  Ag  Ag14  1  0.631521  0.500000  0.533700  1
+  Ag  Ag15  1  0.368479  0.000000  0.033700  1
+  Ge  Ge16  1  0.751713  0.000000  0.519610  1
+  Ge  Ge17  1  0.248287  0.500000  0.019610  1
+  Se  Se18  1  0.813173  0.500000  0.745781  1
+  Se  Se19  1  0.186827  0.000000  0.245781  1
+  Se  Se20  1  0.287549  0.500000  0.499902  1
+  Se  Se21  1  0.712451  0.000000  0.999902  1
+  S  S22  1  0.748682  0.760865  0.401380  1
+  S  S23  1  0.251318  0.739135  0.901380  1
+  S  S24  1  0.481865  0.500000  0.146173  1
+  S  S25  1  0.518135  0.000000  0.646173  1
+  S  S26  1  0.009086  0.500000  0.144420  1
+  S  S27  1  0.990914  0.000000  0.644420  1
+  S  S28  1  0.748682  0.239135  0.401380  1
+  S  S29  1  0.251318  0.260865  0.901380  1

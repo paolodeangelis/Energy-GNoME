@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MnCr(TcSe2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.69448268
+_cell_length_b   6.67236800
+_cell_length_c   6.69367300
+_cell_angle_alpha   93.21931139
+_cell_angle_beta   93.42906124
+_cell_angle_gamma   93.61381632
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCr(TcSe2)4
+_chemical_formula_sum   'Mn1 Cr1 Tc4 Se8'
+_cell_volume   297.32513338
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.414483  0.246666  0.546972  1
+  Cr  Cr1  1  0.245630  0.547101  0.416476  1
+  Tc  Tc2  1  0.548034  0.414545  0.240492  1
+  Tc  Tc3  1  0.761295  0.451842  0.587718  1
+  Tc  Tc4  1  0.586437  0.765512  0.452316  1
+  Tc  Tc5  1  0.449258  0.585332  0.761481  1
+  Se  Se6  1  0.369305  0.725110  0.128340  1
+  Se  Se7  1  0.127850  0.368939  0.714801  1
+  Se  Se8  1  0.730923  0.125502  0.371424  1
+  Se  Se9  1  0.613449  0.266498  0.868242  1
+  Se  Se10  1  0.880391  0.625573  0.278074  1
+  Se  Se11  1  0.272487  0.869204  0.615233  1
+  Se  Se12  1  0.218255  0.223597  0.232894  1
+  Se  Se13  1  0.782203  0.784581  0.785537  1

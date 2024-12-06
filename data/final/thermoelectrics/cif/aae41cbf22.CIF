@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_ErCo2(Sn3Ru)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87420049
+_cell_length_b   6.87420099
+_cell_length_c   6.73828305
+_cell_angle_alpha   119.95409394
+_cell_angle_beta   119.95410881
+_cell_angle_gamma   91.21090415
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErCo2(Sn3Ru)2
+_chemical_formula_sum   'Er1 Co2 Sn6 Ru2'
+_cell_volume   222.98227293
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.007775  0.007775  0.000000  1
+  Co  Co1  1  0.391716  0.755379  0.000000  1
+  Co  Co2  1  0.755379  0.391716  0.000000  1
+  Sn  Sn3  1  0.472190  0.108722  0.000000  1
+  Sn  Sn4  1  0.108722  0.472190  0.000000  1
+  Sn  Sn5  1  0.872326  0.872326  0.332046  1
+  Sn  Sn6  1  0.540279  0.540279  0.667954  1
+  Sn  Sn7  1  0.001320  0.501320  0.500000  1
+  Sn  Sn8  1  0.501320  0.001320  0.500000  1
+  Ru  Ru9  1  0.258176  0.258176  0.667380  1
+  Ru  Ru10  1  0.590796  0.590796  0.332620  1

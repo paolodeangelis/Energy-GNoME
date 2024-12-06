@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ce(TmTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32623400
+_cell_length_b   7.52340996
+_cell_length_c   7.75685103
+_cell_angle_alpha   72.28181183
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce(TmTe2)2
+_chemical_formula_sum   'Ce1 Tm2 Te4'
+_cell_volume   240.49428942
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.000000  0.500000  0.500000  1
+  Tm  Tm1  1  0.000000  0.000000  0.000000  1
+  Tm  Tm2  1  0.500000  0.500000  0.000000  1
+  Te  Te3  1  0.500000  0.763902  0.241824  1
+  Te  Te4  1  0.000000  0.253390  0.235527  1
+  Te  Te5  1  0.500000  0.236098  0.758176  1
+  Te  Te6  1  0.000000  0.746610  0.764473  1

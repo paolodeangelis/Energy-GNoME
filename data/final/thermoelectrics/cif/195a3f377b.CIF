@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_GaTe5Ir2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.06905400
+_cell_length_b   8.27950337
+_cell_length_c   13.74071658
+_cell_angle_alpha   70.49134652
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaTe5Ir2
+_chemical_formula_sum   'Ga2 Te10 Ir4'
+_cell_volume   436.34543965
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.500000  0.236558  0.675554  1
+  Ga  Ga1  1  0.500000  0.763442  0.324446  1
+  Te  Te2  1  0.000000  0.927196  0.113491  1
+  Te  Te3  1  0.000000  0.072804  0.886509  1
+  Te  Te4  1  0.000000  0.513767  0.771217  1
+  Te  Te5  1  0.000000  0.486233  0.228783  1
+  Te  Te6  1  0.500000  0.682286  0.969690  1
+  Te  Te7  1  0.500000  0.317714  0.030310  1
+  Te  Te8  1  0.500000  0.108529  0.298288  1
+  Te  Te9  1  0.500000  0.891471  0.701712  1
+  Te  Te10  1  0.000000  0.318054  0.531756  1
+  Te  Te11  1  0.000000  0.681946  0.468244  1
+  Ir  Ir12  1  0.000000  0.213810  0.159126  1
+  Ir  Ir13  1  0.000000  0.786190  0.840874  1
+  Ir  Ir14  1  0.500000  0.714997  0.154926  1
+  Ir  Ir15  1  0.500000  0.285003  0.845074  1

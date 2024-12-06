@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiTc2Sn8Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36678319
+_cell_length_b   7.36678301
+_cell_length_c   7.36678295
+_cell_angle_alpha   123.99933051
+_cell_angle_beta   123.99933195
+_cell_angle_gamma   83.20216882
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTc2Sn8Ge
+_chemical_formula_sum   'Li1 Tc2 Sn8 Ge1'
+_cell_volume   263.57171455
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Tc  Tc1  1  0.275179  0.275179  0.000000  1
+  Tc  Tc2  1  0.724821  0.724821  0.000000  1
+  Sn  Sn3  1  0.718633  0.526845  0.523993  1
+  Sn  Sn4  1  0.526845  0.002852  0.808212  1
+  Sn  Sn5  1  0.194640  0.718633  0.191788  1
+  Sn  Sn6  1  0.805360  0.281367  0.808212  1
+  Sn  Sn7  1  0.473155  0.997148  0.191788  1
+  Sn  Sn8  1  0.281367  0.473155  0.476007  1
+  Sn  Sn9  1  0.997148  0.805360  0.523993  1
+  Sn  Sn10  1  0.002852  0.194640  0.476007  1
+  Ge  Ge11  1  0.500000  0.500000  0.000000  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaFe3Sb12Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.06569137
+_cell_length_b   8.06569224
+_cell_length_c   8.01858000
+_cell_angle_alpha   109.35293304
+_cell_angle_beta   109.35293520
+_cell_angle_gamma   109.58924798
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaFe3Sb12Au
+_chemical_formula_sum   'Na1 Fe3 Sb12 Au1'
+_cell_volume   402.15245887
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.500000  0.000000  1
+  Fe  Fe2  1  0.500000  0.500000  0.500000  1
+  Fe  Fe3  1  0.500000  0.000000  0.000000  1
+  Sb  Sb4  1  0.639749  0.809061  0.138008  1
+  Sb  Sb5  1  0.838260  0.331250  0.168086  1
+  Sb  Sb6  1  0.507009  0.838260  0.670174  1
+  Sb  Sb7  1  0.830688  0.639749  0.501741  1
+  Sb  Sb8  1  0.492991  0.161740  0.329826  1
+  Sb  Sb9  1  0.161740  0.668750  0.831914  1
+  Sb  Sb10  1  0.809061  0.169312  0.671053  1
+  Sb  Sb11  1  0.190939  0.830688  0.328947  1
+  Sb  Sb12  1  0.169312  0.360251  0.498259  1
+  Sb  Sb13  1  0.668750  0.507009  0.836835  1
+  Sb  Sb14  1  0.331250  0.492991  0.163165  1
+  Sb  Sb15  1  0.360251  0.190939  0.861992  1
+  Au  Au16  1  0.000000  0.000000  0.500000  1

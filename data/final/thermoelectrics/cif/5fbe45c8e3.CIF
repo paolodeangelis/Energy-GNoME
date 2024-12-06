@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ca10SnGe4Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.38571363
+_cell_length_b   9.38576651
+_cell_length_c   9.38573871
+_cell_angle_alpha   130.48970134
+_cell_angle_beta   130.48959980
+_cell_angle_gamma   72.62549086
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca10SnGe4Bi
+_chemical_formula_sum   'Ca10 Sn1 Ge4 Bi1'
+_cell_volume   467.28673046
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.498352  0.498351  0.999998  1
+  Ca  Ca1  1  0.001649  0.001648  0.000002  1
+  Ca  Ca2  1  0.308150  0.813693  0.848150  1
+  Ca  Ca3  1  0.813695  0.965536  0.505542  1
+  Ca  Ca4  1  0.460000  0.308156  0.494461  1
+  Ca  Ca5  1  0.191842  0.040002  0.505538  1
+  Ca  Ca6  1  0.534464  0.686308  0.494459  1
+  Ca  Ca7  1  0.040002  0.534462  0.848156  1
+  Ca  Ca8  1  0.686308  0.191849  0.151850  1
+  Ca  Ca9  1  0.965539  0.459997  0.151844  1
+  Sn  Sn10  1  0.250000  0.250001  0.000000  1
+  Ge  Ge11  1  0.380875  0.880873  0.261746  1
+  Ge  Ge12  1  0.880873  0.619127  0.500000  1
+  Ge  Ge13  1  0.119127  0.380873  0.500000  1
+  Ge  Ge14  1  0.619127  0.119125  0.738253  1
+  Bi  Bi15  1  0.749998  0.750000  0.999999  1

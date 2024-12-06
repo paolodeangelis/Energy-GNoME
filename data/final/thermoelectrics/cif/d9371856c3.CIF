@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiMgTi2(SbPt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25984324
+_cell_length_b   6.25984252
+_cell_length_c   7.67681864
+_cell_angle_alpha   65.93889794
+_cell_angle_beta   65.93889728
+_cell_angle_gamma   90.00000963
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgTi2(SbPt)4
+_chemical_formula_sum   'Li1 Mg1 Ti2 Sb4 Pt4'
+_cell_volume   245.78087868
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Mg  Mg1  1  0.249998  0.750000  0.500001  1
+  Ti  Ti2  1  0.500000  0.500000  0.000000  1
+  Ti  Ti3  1  0.750000  0.250002  0.500001  1
+  Sb  Sb4  1  0.494995  0.994997  0.010006  1
+  Sb  Sb5  1  0.759707  0.759707  0.480588  1
+  Sb  Sb6  1  0.240294  0.240294  0.519413  1
+  Sb  Sb7  1  0.005002  0.505004  0.989993  1
+  Pt  Pt8  1  0.128150  0.145199  0.251558  1
+  Pt  Pt9  1  0.620291  0.603243  0.251559  1
+  Pt  Pt10  1  0.854803  0.379711  0.748440  1
+  Pt  Pt11  1  0.396758  0.871850  0.748442  1

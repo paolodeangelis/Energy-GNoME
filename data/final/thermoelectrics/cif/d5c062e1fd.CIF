@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_ZnAgPSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49860200
+_cell_length_b   8.02973000
+_cell_length_c   13.40474500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnAgPSe4
+_chemical_formula_sum   'Zn4 Ag4 P4 Se16'
+_cell_volume   699.48666414
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.503107  0.514485  0.658412  1
+  Zn  Zn1  1  0.003107  0.485515  0.341588  1
+  Zn  Zn2  1  0.503107  0.985515  0.158412  1
+  Zn  Zn3  1  0.003107  0.014485  0.841588  1
+  Ag  Ag4  1  0.501668  0.224189  0.429003  1
+  Ag  Ag5  1  0.001668  0.724189  0.070997  1
+  Ag  Ag6  1  0.001668  0.775811  0.570997  1
+  Ag  Ag7  1  0.501668  0.275811  0.929003  1
+  P  P8  1  0.505867  0.730144  0.406283  1
+  P  P9  1  0.005867  0.230144  0.093717  1
+  P  P10  1  0.505867  0.769856  0.906283  1
+  P  P11  1  0.005867  0.269856  0.593717  1
+  Se  Se12  1  0.617005  0.997917  0.824316  1
+  Se  Se13  1  0.117005  0.497917  0.675684  1
+  Se  Se14  1  0.160630  0.743318  0.885589  1
+  Se  Se15  1  0.160630  0.756682  0.385589  1
+  Se  Se16  1  0.650142  0.546210  0.832515  1
+  Se  Se17  1  0.650142  0.953790  0.332515  1
+  Se  Se18  1  0.590879  0.772642  0.567089  1
+  Se  Se19  1  0.117005  0.002083  0.175684  1
+  Se  Se20  1  0.590879  0.727358  0.067089  1
+  Se  Se21  1  0.660630  0.243318  0.614411  1
+  Se  Se22  1  0.090879  0.227358  0.432911  1
+  Se  Se23  1  0.150142  0.453790  0.167485  1
+  Se  Se24  1  0.150142  0.046210  0.667485  1
+  Se  Se25  1  0.660630  0.256682  0.114411  1
+  Se  Se26  1  0.090879  0.272642  0.932911  1
+  Se  Se27  1  0.617005  0.502083  0.324316  1

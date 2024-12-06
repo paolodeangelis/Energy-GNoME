@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaSr3(BeAs)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.14838140
+_cell_length_b   8.39575737
+_cell_length_c   7.39884069
+_cell_angle_alpha   63.87000790
+_cell_angle_beta   75.01625664
+_cell_angle_gamma   97.09726721
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSr3(BeAs)8
+_chemical_formula_sum   'Na1 Sr3 Be8 As8'
+_cell_volume   370.39987106
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Sr  Sr1  1  0.000020  0.485597  0.757326  1
+  Sr  Sr2  1  0.000000  0.000000  0.500000  1
+  Sr  Sr3  1  0.999980  0.514403  0.242674  1
+  Be  Be4  1  0.498074  0.624071  0.313681  1
+  Be  Be5  1  0.494727  0.621819  0.815720  1
+  Be  Be6  1  0.495238  0.124448  0.064542  1
+  Be  Be7  1  0.491946  0.124970  0.563330  1
+  Be  Be8  1  0.501926  0.375929  0.686319  1
+  Be  Be9  1  0.505273  0.378181  0.184280  1
+  Be  Be10  1  0.508054  0.875030  0.436670  1
+  Be  Be11  1  0.504762  0.875552  0.935458  1
+  As  As12  1  0.290334  0.324125  0.513834  1
+  As  As13  1  0.290436  0.321575  0.017513  1
+  As  As14  1  0.295376  0.823510  0.265922  1
+  As  As15  1  0.292312  0.822773  0.764457  1
+  As  As16  1  0.709666  0.675875  0.486166  1
+  As  As17  1  0.709564  0.678425  0.982487  1
+  As  As18  1  0.707688  0.177227  0.235543  1
+  As  As19  1  0.704624  0.176490  0.734078  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlCr(SiTe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.43135429
+_cell_length_b   8.43133759
+_cell_length_c   8.43137965
+_cell_angle_alpha   48.05689549
+_cell_angle_beta   48.05679359
+_cell_angle_gamma   48.05696785
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCr(SiTe3)2
+_chemical_formula_sum   'Al1 Cr1 Si2 Te6'
+_cell_volume   303.82691232
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.666481  0.666469  0.666484  1
+  Cr  Cr1  1  0.333519  0.333623  0.333485  1
+  Si  Si2  1  0.051456  0.051445  0.051461  1
+  Si  Si3  1  0.948613  0.948602  0.948617  1
+  Te  Te4  1  0.434786  0.716410  0.084592  1
+  Te  Te5  1  0.084588  0.434776  0.716425  1
+  Te  Te6  1  0.716423  0.084575  0.434791  1
+  Te  Te7  1  0.276711  0.928873  0.558542  1
+  Te  Te8  1  0.928884  0.558528  0.276714  1
+  Te  Te9  1  0.558539  0.276699  0.928888  1

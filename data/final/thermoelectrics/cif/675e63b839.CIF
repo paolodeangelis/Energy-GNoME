@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_PuFe2(Sb6Ir)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.04095598
+_cell_length_b   8.06035965
+_cell_length_c   8.04095544
+_cell_angle_alpha   109.42668757
+_cell_angle_beta   109.44655515
+_cell_angle_gamma   109.44283264
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PuFe2(Sb6Ir)2
+_chemical_formula_sum   'Pu1 Fe2 Sb12 Ir2'
+_cell_volume   401.67037352
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pu  Pu0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.500000  0.500000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.834570  0.656709  0.505979  1
+  Sb  Sb4  1  0.165430  0.343291  0.494021  1
+  Sb  Sb5  1  0.150730  0.656709  0.822139  1
+  Sb  Sb6  1  0.849270  0.343291  0.177861  1
+  Sb  Sb7  1  0.670565  0.508458  0.837894  1
+  Sb  Sb8  1  0.329435  0.491542  0.162106  1
+  Sb  Sb9  1  0.656923  0.809963  0.153042  1
+  Sb  Sb10  1  0.343077  0.190037  0.846958  1
+  Sb  Sb11  1  0.506476  0.834717  0.656896  1
+  Sb  Sb12  1  0.493524  0.165283  0.343104  1
+  Sb  Sb13  1  0.177822  0.834717  0.328242  1
+  Sb  Sb14  1  0.822178  0.165283  0.671758  1
+  Ir  Ir15  1  0.500000  0.000000  0.000000  1
+  Ir  Ir16  1  0.000000  0.000000  0.500000  1

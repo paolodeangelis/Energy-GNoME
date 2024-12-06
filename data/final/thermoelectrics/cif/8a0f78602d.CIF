@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_PrFe3CoAs12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24811993
+_cell_length_b   7.23553733
+_cell_length_c   7.23553637
+_cell_angle_alpha   109.43596717
+_cell_angle_beta   109.50645096
+_cell_angle_gamma   109.50645187
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrFe3CoAs12
+_chemical_formula_sum   'Pr1 Fe3 Co1 As12'
+_cell_volume   291.98193625
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.500000  0.500000  0.500000  1
+  Co  Co4  1  0.500000  0.000000  0.000000  1
+  As  As5  1  0.342217  0.188126  0.842898  1
+  As  As6  1  0.657783  0.811874  0.157102  1
+  As  As7  1  0.657292  0.500678  0.843597  1
+  As  As8  1  0.342708  0.499322  0.156403  1
+  As  As9  1  0.186305  0.843597  0.342920  1
+  As  As10  1  0.813695  0.156403  0.657080  1
+  As  As11  1  0.500680  0.842898  0.654771  1
+  As  As12  1  0.499320  0.157102  0.345229  1
+  As  As13  1  0.845909  0.345229  0.188126  1
+  As  As14  1  0.154091  0.654771  0.811874  1
+  As  As15  1  0.843386  0.657080  0.500678  1
+  As  As16  1  0.156614  0.342920  0.499322  1

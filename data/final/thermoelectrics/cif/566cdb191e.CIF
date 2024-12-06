@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Tb3Cu4(SiSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.19123095
+_cell_length_b   8.19123114
+_cell_length_c   8.19123021
+_cell_angle_alpha   149.29920466
+_cell_angle_beta   132.10459162
+_cell_angle_gamma   57.97215284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Cu4(SiSn)2
+_chemical_formula_sum   'Tb3 Cu4 Si2 Sn2'
+_cell_volume   206.63130506
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.500000  0.000000  0.500000  1
+  Tb  Tb1  1  0.124121  0.124121  0.000000  1
+  Tb  Tb2  1  0.875879  0.875879  0.000000  1
+  Cu  Cu3  1  0.464716  0.653446  0.811270  1
+  Cu  Cu4  1  0.842176  0.653446  0.188730  1
+  Cu  Cu5  1  0.157824  0.346554  0.811270  1
+  Cu  Cu6  1  0.535284  0.346554  0.188730  1
+  Si  Si7  1  0.181088  0.500000  0.681088  1
+  Si  Si8  1  0.818912  0.500000  0.318912  1
+  Sn  Sn9  1  0.718298  0.218298  0.500000  1
+  Sn  Sn10  1  0.281702  0.781702  0.500000  1

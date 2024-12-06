@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoNb(SbRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36706700
+_cell_length_b   4.49840200
+_cell_length_c   8.99503200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoNb(SbRh)2
+_chemical_formula_sum   'Ho2 Nb2 Sb4 Rh4'
+_cell_volume   257.63235074
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.005152  0.500000  0.375725  1
+  Ho  Ho1  1  0.505154  0.000000  0.624274  1
+  Nb  Nb2  1  0.495258  0.000000  0.122418  1
+  Nb  Nb3  1  0.995258  0.500000  0.877582  1
+  Sb  Sb4  1  0.986410  0.000000  0.124397  1
+  Sb  Sb5  1  0.509494  0.500000  0.371819  1
+  Sb  Sb6  1  0.009495  0.000000  0.628180  1
+  Sb  Sb7  1  0.486412  0.500000  0.875602  1
+  Rh  Rh8  1  0.735233  0.500000  0.110995  1
+  Rh  Rh9  1  0.268455  0.000000  0.354669  1
+  Rh  Rh10  1  0.768454  0.500000  0.645330  1
+  Rh  Rh11  1  0.235234  0.000000  0.889003  1

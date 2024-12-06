@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TaNb3(CoSb)5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97305113
+_cell_length_b   7.25847803
+_cell_length_c   7.25865301
+_cell_angle_alpha   80.25786928
+_cell_angle_beta   114.29591641
+_cell_angle_gamma   114.27166447
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNb3(CoSb)5
+_chemical_formula_sum   'Ta1 Nb3 Co5 Sb5'
+_cell_volume   261.47483137
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.591686  0.397554  0.795081  1
+  Nb  Nb1  1  0.399018  0.602610  0.204799  1
+  Nb  Nb2  1  0.805746  0.204706  0.397385  1
+  Nb  Nb3  1  0.203666  0.795303  0.602495  1
+  Co  Co4  1  0.940235  0.321158  0.104361  1
+  Co  Co5  1  0.380002  0.894938  0.321006  1
+  Co  Co6  1  0.749675  0.499732  0.500786  1
+  Co  Co7  1  0.164704  0.105495  0.679295  1
+  Co  Co8  1  0.515218  0.678410  0.894743  1
+  Sb  Sb9  1  0.500016  0.000277  0.999899  1
+  Sb  Sb10  1  0.903158  0.627468  0.190850  1
+  Sb  Sb11  1  0.287841  0.191047  0.372673  1
+  Sb  Sb12  1  0.724159  0.808863  0.627600  1
+  Sb  Sb13  1  0.084878  0.372438  0.809024  1

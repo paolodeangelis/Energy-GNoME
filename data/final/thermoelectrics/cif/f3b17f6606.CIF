@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Te2As2IrRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24960600
+_cell_length_b   6.24958730
+_cell_length_c   6.25088030
+_cell_angle_alpha   89.88221343
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Te2As2IrRh
+_chemical_formula_sum   'Te4 As4 Ir2 Rh2'
+_cell_volume   244.14298082
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.121718  0.622175  0.877564  1
+  Te  Te1  1  0.621718  0.877825  0.122436  1
+  Te  Te2  1  0.877380  0.122136  0.621924  1
+  Te  Te3  1  0.377380  0.377864  0.378076  1
+  As  As4  1  0.877144  0.376206  0.122244  1
+  As  As5  1  0.377144  0.123794  0.877756  1
+  As  As6  1  0.123117  0.877937  0.376251  1
+  As  As7  1  0.623117  0.622063  0.623749  1
+  Ir  Ir8  1  0.511248  0.489065  0.988922  1
+  Ir  Ir9  1  0.011248  0.010935  0.011078  1
+  Rh  Rh10  1  0.489393  0.989106  0.510778  1
+  Rh  Rh11  1  0.989393  0.510894  0.489222  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ca3Al2(SbAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.60741547
+_cell_length_b   8.60741463
+_cell_length_c   6.83922248
+_cell_angle_alpha   89.81610251
+_cell_angle_beta   89.81609966
+_cell_angle_gamma   75.55836323
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3Al2(SbAs)2
+_chemical_formula_sum   'Ca6 Al4 Sb4 As4'
+_cell_volume   490.68682893
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.998050  0.261490  0.017837  1
+  Ca  Ca1  1  0.738510  0.001950  0.482163  1
+  Ca  Ca2  1  0.001950  0.738510  0.982163  1
+  Ca  Ca3  1  0.261490  0.998050  0.517836  1
+  Ca  Ca4  1  0.590514  0.409486  0.750000  1
+  Ca  Ca5  1  0.409486  0.590514  0.250000  1
+  Al  Al6  1  0.186163  0.412232  0.596458  1
+  Al  Al7  1  0.587768  0.813837  0.903542  1
+  Al  Al8  1  0.813837  0.587768  0.403542  1
+  Al  Al9  1  0.412232  0.186163  0.096458  1
+  Sb  Sb10  1  0.937412  0.279252  0.520104  1
+  Sb  Sb11  1  0.720748  0.062588  0.979896  1
+  Sb  Sb12  1  0.062588  0.720748  0.479896  1
+  Sb  Sb13  1  0.279252  0.937412  0.020104  1
+  As  As14  1  0.259308  0.438443  0.941371  1
+  As  As15  1  0.561557  0.740692  0.558628  1
+  As  As16  1  0.740692  0.561557  0.058629  1
+  As  As17  1  0.438443  0.259308  0.441371  1

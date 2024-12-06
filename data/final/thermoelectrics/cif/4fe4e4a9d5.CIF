@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Fe(IrSe4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.96970530
+_cell_length_b   5.96236647
+_cell_length_c   5.96257229
+_cell_angle_alpha   90.21031111
+_cell_angle_beta   90.11403416
+_cell_angle_gamma   89.78336436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe(IrSe4)2
+_chemical_formula_sum   'Fe1 Ir2 Se8'
+_cell_volume   212.22587718
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.500000  0.000000  0.500000  1
+  Ir  Ir1  1  0.000000  0.500000  0.500000  1
+  Ir  Ir2  1  0.500000  0.500000  0.000000  1
+  Se  Se3  1  0.614328  0.887764  0.130433  1
+  Se  Se4  1  0.871592  0.114777  0.614160  1
+  Se  Se5  1  0.116303  0.622760  0.885165  1
+  Se  Se6  1  0.618088  0.634214  0.618405  1
+  Se  Se7  1  0.381912  0.365786  0.381595  1
+  Se  Se8  1  0.883697  0.377240  0.114835  1
+  Se  Se9  1  0.128408  0.885223  0.385840  1
+  Se  Se10  1  0.385672  0.112236  0.869567  1

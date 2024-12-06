@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_ThCr2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18313268
+_cell_length_b   8.16095833
+_cell_length_c   8.18313301
+_cell_angle_alpha   109.28975505
+_cell_angle_beta   109.77002227
+_cell_angle_gamma   109.46353804
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ThCr2(Sb6Os)2
+_chemical_formula_sum   'Th1 Cr2 Sb12 Os2'
+_cell_volume   420.11045722
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.000000  0.500000  0.000000  1
+  Cr  Cr2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.337362  0.180755  0.843394  1
+  Sb  Sb4  1  0.662638  0.819245  0.156606  1
+  Sb  Sb5  1  0.662213  0.507246  0.845033  1
+  Sb  Sb6  1  0.337787  0.492754  0.154967  1
+  Sb  Sb7  1  0.179887  0.844640  0.336260  1
+  Sb  Sb8  1  0.820113  0.155360  0.663740  1
+  Sb  Sb9  1  0.508378  0.844640  0.664753  1
+  Sb  Sb10  1  0.491622  0.155360  0.335247  1
+  Sb  Sb11  1  0.844148  0.336385  0.181499  1
+  Sb  Sb12  1  0.155852  0.663615  0.818501  1
+  Sb  Sb13  1  0.845115  0.663615  0.507762  1
+  Sb  Sb14  1  0.154885  0.336385  0.492238  1
+  Os  Os15  1  0.000000  0.000000  0.500000  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

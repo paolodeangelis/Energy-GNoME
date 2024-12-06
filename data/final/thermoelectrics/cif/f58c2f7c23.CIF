@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_EuCo2(As6Ru)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.40655195
+_cell_length_b   7.36780449
+_cell_length_c   7.40655100
+_cell_angle_alpha   109.48502192
+_cell_angle_beta   109.60526801
+_cell_angle_gamma   109.53580785
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuCo2(As6Ru)2
+_chemical_formula_sum   'Eu1 Co2 As12 Ru2'
+_cell_volume   310.31593474
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.500000  0.000000  0.000000  1
+  Co  Co2  1  0.000000  0.000000  0.500000  1
+  As  As3  1  0.852747  0.658843  0.501683  1
+  As  As4  1  0.147253  0.341157  0.498317  1
+  As  As5  1  0.157160  0.658843  0.806097  1
+  As  As6  1  0.842840  0.341157  0.193903  1
+  As  As7  1  0.650516  0.500997  0.850480  1
+  As  As8  1  0.349484  0.499003  0.149520  1
+  As  As9  1  0.656534  0.810633  0.154098  1
+  As  As10  1  0.343466  0.189367  0.845902  1
+  As  As11  1  0.501426  0.852994  0.658886  1
+  As  As12  1  0.498574  0.147006  0.341114  1
+  As  As13  1  0.194107  0.852994  0.351568  1
+  As  As14  1  0.805893  0.147006  0.648432  1
+  Ru  Ru15  1  0.500000  0.500000  0.500000  1
+  Ru  Ru16  1  0.000000  0.500000  0.000000  1

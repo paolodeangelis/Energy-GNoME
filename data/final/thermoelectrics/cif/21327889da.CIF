@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiMgZr2(NiSb)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11195068
+_cell_length_b   6.11194979
+_cell_length_c   7.47523449
+_cell_angle_alpha   65.86969026
+_cell_angle_beta   65.86969733
+_cell_angle_gamma   89.99999401
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgZr2(NiSb)4
+_chemical_formula_sum   'Li1 Mg1 Zr2 Ni4 Sb4'
+_cell_volume   227.84416381
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Mg  Mg1  1  0.249999  0.749999  0.500000  1
+  Zr  Zr2  1  0.500000  0.500000  0.000000  1
+  Zr  Zr3  1  0.749999  0.250000  0.500000  1
+  Ni  Ni4  1  0.125882  0.133148  0.251350  1
+  Ni  Ni5  1  0.622768  0.615501  0.251350  1
+  Ni  Ni6  1  0.866851  0.377233  0.748648  1
+  Ni  Ni7  1  0.384501  0.874118  0.748650  1
+  Sb  Sb8  1  0.496805  0.996806  0.006388  1
+  Sb  Sb9  1  0.756536  0.756536  0.486927  1
+  Sb  Sb10  1  0.243464  0.243464  0.513073  1
+  Sb  Sb11  1  0.003192  0.503193  0.993612  1

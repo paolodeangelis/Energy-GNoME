@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Mn2In(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18252571
+_cell_length_b   8.18252589
+_cell_length_c   8.22315680
+_cell_angle_alpha   109.26799150
+_cell_angle_beta   109.39286333
+_cell_angle_gamma   109.55319168
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2In(Sb6Os)2
+_chemical_formula_sum   'Mn2 In1 Sb12 Os2'
+_cell_volume   424.86867946
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.500000  0.000000  0.000000  1
+  Mn  Mn1  1  0.000000  0.500000  0.000000  1
+  In  In2  1  0.000000  0.000000  0.000000  1
+  Sb  Sb3  1  0.843661  0.664059  0.507720  1
+  Sb  Sb4  1  0.156339  0.335941  0.492280  1
+  Sb  Sb5  1  0.153512  0.656658  0.810170  1
+  Sb  Sb6  1  0.846488  0.343342  0.189830  1
+  Sb  Sb7  1  0.658879  0.505637  0.842428  1
+  Sb  Sb8  1  0.341121  0.494363  0.157572  1
+  Sb  Sb9  1  0.663209  0.816451  0.157572  1
+  Sb  Sb10  1  0.336791  0.183549  0.842428  1
+  Sb  Sb11  1  0.504663  0.842299  0.658131  1
+  Sb  Sb12  1  0.495337  0.157701  0.341869  1
+  Sb  Sb13  1  0.184168  0.846532  0.341869  1
+  Sb  Sb14  1  0.815832  0.153468  0.658131  1
+  Os  Os15  1  0.500000  0.500000  0.500000  1
+  Os  Os16  1  0.000000  0.000000  0.500000  1

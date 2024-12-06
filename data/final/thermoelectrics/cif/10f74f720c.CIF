@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbZr(NiBi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37223597
+_cell_length_b   6.37180429
+_cell_length_c   7.81174639
+_cell_angle_alpha   65.92892930
+_cell_angle_beta   65.94833302
+_cell_angle_gamma   89.99061985
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbZr(NiBi)2
+_chemical_formula_sum   'Yb2 Zr2 Ni4 Bi4'
+_cell_volume   259.15393578
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.000321  0.000286  0.999674  1
+  Yb  Yb1  1  0.250200  0.750138  0.499937  1
+  Zr  Zr2  1  0.500018  0.500117  0.999962  1
+  Zr  Zr3  1  0.750009  0.249925  0.500028  1
+  Ni  Ni4  1  0.625192  0.602714  0.250427  1
+  Ni  Ni5  1  0.125458  0.146991  0.249396  1
+  Ni  Ni6  1  0.852957  0.374905  0.750177  1
+  Ni  Ni7  1  0.395450  0.874337  0.750771  1
+  Bi  Bi8  1  0.498033  0.997780  0.004134  1
+  Bi  Bi9  1  0.752205  0.752501  0.495707  1
+  Bi  Bi10  1  0.247843  0.248138  0.504056  1
+  Bi  Bi11  1  0.002317  0.502166  0.995728  1

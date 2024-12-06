@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaFe3CuSb12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.00428276
+_cell_length_b   8.00540255
+_cell_length_c   8.00428301
+_cell_angle_alpha   109.47404546
+_cell_angle_beta   109.46838909
+_cell_angle_gamma   109.47405561
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaFe3CuSb12
+_chemical_formula_sum   'Na1 Fe3 Cu1 Sb12'
+_cell_volume   394.81257965
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.500000  0.500000  0.500000  1
+  Fe  Fe3  1  0.500000  0.000000  0.000000  1
+  Cu  Cu4  1  0.000000  0.500000  0.000000  1
+  Sb  Sb5  1  0.667548  0.830893  0.162147  1
+  Sb  Sb6  1  0.833923  0.332539  0.184076  1
+  Sb  Sb7  1  0.505401  0.836655  0.667548  1
+  Sb  Sb8  1  0.837853  0.668746  0.505401  1
+  Sb  Sb9  1  0.494599  0.163345  0.332452  1
+  Sb  Sb10  1  0.166077  0.667461  0.815924  1
+  Sb  Sb11  1  0.815924  0.148463  0.649847  1
+  Sb  Sb12  1  0.184076  0.851537  0.350153  1
+  Sb  Sb13  1  0.162147  0.331254  0.494599  1
+  Sb  Sb14  1  0.649847  0.501384  0.833923  1
+  Sb  Sb15  1  0.350153  0.498616  0.166077  1
+  Sb  Sb16  1  0.332452  0.169107  0.837853  1

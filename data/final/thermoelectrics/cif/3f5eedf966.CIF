@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SnSb7(PtAu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.65566799
+_cell_length_b   6.68802874
+_cell_length_c   6.65942164
+_cell_angle_alpha   90.31267964
+_cell_angle_beta   89.62847810
+_cell_angle_gamma   89.65600489
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnSb7(PtAu)2
+_chemical_formula_sum   'Sn1 Sb7 Pt2 Au2'
+_cell_volume   296.41677304
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.381666  0.131481  0.880703  1
+  Sb  Sb1  1  0.120054  0.867835  0.377581  1
+  Sb  Sb2  1  0.870187  0.384306  0.127550  1
+  Sb  Sb3  1  0.627513  0.617352  0.628675  1
+  Sb  Sb4  1  0.371962  0.382189  0.371624  1
+  Sb  Sb5  1  0.130793  0.615904  0.871953  1
+  Sb  Sb6  1  0.879734  0.132752  0.622509  1
+  Sb  Sb7  1  0.619575  0.867604  0.120313  1
+  Pt  Pt8  1  0.000176  0.500116  0.500147  1
+  Pt  Pt9  1  0.499343  0.500498  0.999902  1
+  Au  Au10  1  0.499371  0.000206  0.499859  1
+  Au  Au11  1  0.999625  0.999756  0.999185  1

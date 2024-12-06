@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CaAs12(RuRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45147760
+_cell_length_b   7.46740847
+_cell_length_c   7.46740943
+_cell_angle_alpha   109.52723341
+_cell_angle_beta   109.49183852
+_cell_angle_gamma   109.48110779
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAs12(RuRh)2
+_chemical_formula_sum   'Ca1 As12 Ru2 Rh2'
+_cell_volume   319.51830180
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  As  As1  1  0.850208  0.650064  0.503015  1
+  As  As2  1  0.149792  0.349936  0.496985  1
+  As  As3  1  0.149792  0.652807  0.799858  1
+  As  As4  1  0.850208  0.347193  0.200142  1
+  As  As5  1  0.649696  0.502828  0.849790  1
+  As  As6  1  0.350304  0.497172  0.150210  1
+  As  As7  1  0.649696  0.799906  0.146868  1
+  As  As8  1  0.350304  0.200094  0.853132  1
+  As  As9  1  0.503510  0.850363  0.653148  1
+  As  As10  1  0.496490  0.149637  0.346852  1
+  As  As11  1  0.202631  0.852512  0.350119  1
+  As  As12  1  0.797369  0.147488  0.649881  1
+  Ru  Ru13  1  0.500000  0.500000  0.500000  1
+  Ru  Ru14  1  0.500000  0.000000  0.000000  1
+  Rh  Rh15  1  0.000000  0.500000  0.000000  1
+  Rh  Rh16  1  0.000000  0.000000  0.500000  1

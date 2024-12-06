@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaYb3(MgSb2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.97226170
+_cell_length_b   8.97226094
+_cell_length_c   7.37323606
+_cell_angle_alpha   90.01387574
+_cell_angle_beta   89.98612362
+_cell_angle_gamma   149.69258225
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaYb3(MgSb2)2
+_chemical_formula_sum   'Ca1 Yb3 Mg2 Sb4'
+_cell_volume   299.53191755
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.198350  0.801649  0.913031  1
+  Yb  Yb1  1  0.024730  0.975268  0.236264  1
+  Yb  Yb2  1  0.801680  0.198319  0.412854  1
+  Yb  Yb3  1  0.975257  0.024741  0.736003  1
+  Mg  Mg4  1  0.401480  0.598518  0.067722  1
+  Mg  Mg5  1  0.598536  0.401462  0.567488  1
+  Sb  Sb6  1  0.434486  0.565512  0.452384  1
+  Sb  Sb7  1  0.177602  0.822397  0.465098  1
+  Sb  Sb8  1  0.565335  0.434663  0.952414  1
+  Sb  Sb9  1  0.822535  0.177464  0.965440  1

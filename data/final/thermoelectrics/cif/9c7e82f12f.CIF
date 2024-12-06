@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaCaEu(SnAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.20508258
+_cell_length_b   7.20508364
+_cell_length_c   9.36156638
+_cell_angle_alpha   82.57530735
+_cell_angle_beta   82.57531051
+_cell_angle_gamma   120.00624270
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaEu(SnAs)6
+_chemical_formula_sum   'Na1 Ca1 Eu1 Sn6 As6'
+_cell_volume   406.55151559
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.999957  0.000043  0.000000  1
+  Ca  Ca1  1  0.666493  0.333507  0.000000  1
+  Eu  Eu2  1  0.333512  0.666488  0.000000  1
+  Sn  Sn3  1  0.541653  0.876413  0.367726  1
+  Sn  Sn4  1  0.212366  0.212704  0.367832  1
+  Sn  Sn5  1  0.877289  0.542193  0.367084  1
+  Sn  Sn6  1  0.457807  0.122711  0.632916  1
+  Sn  Sn7  1  0.123587  0.458347  0.632274  1
+  Sn  Sn8  1  0.787296  0.787634  0.632168  1
+  As  As9  1  0.405721  0.403911  0.788104  1
+  As  As10  1  0.068984  0.735405  0.788087  1
+  As  As11  1  0.737231  0.072580  0.788196  1
+  As  As12  1  0.596089  0.594279  0.211896  1
+  As  As13  1  0.264595  0.931016  0.211913  1
+  As  As14  1  0.927420  0.262769  0.211804  1

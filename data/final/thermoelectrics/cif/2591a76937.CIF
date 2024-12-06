@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_V4Te8Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.44538782
+_cell_length_b   7.44538858
+_cell_length_c   9.13495996
+_cell_angle_alpha   53.67132205
+_cell_angle_beta   53.67132065
+_cell_angle_gamma   62.82980348
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V4Te8Pd
+_chemical_formula_sum   'V4 Te8 Pd1'
+_cell_volume   324.28001552
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.708223  0.291777  0.500000  1
+  V  V1  1  0.291777  0.708223  0.500000  1
+  V  V2  1  0.718546  0.718546  0.053100  1
+  V  V3  1  0.281454  0.281454  0.946900  1
+  Te  Te4  1  0.428106  0.428106  0.347634  1
+  Te  Te5  1  0.571894  0.571894  0.652366  1
+  Te  Te6  1  0.533974  0.048712  0.166919  1
+  Te  Te7  1  0.466026  0.951288  0.833081  1
+  Te  Te8  1  0.951288  0.466026  0.833081  1
+  Te  Te9  1  0.048712  0.533974  0.166919  1
+  Te  Te10  1  0.989232  0.989232  0.325842  1
+  Te  Te11  1  0.010768  0.010768  0.674158  1
+  Pd  Pd12  1  0.000000  0.000000  0.000000  1

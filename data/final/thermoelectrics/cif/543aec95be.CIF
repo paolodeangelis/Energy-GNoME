@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_AcNi(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.90672083
+_cell_length_b   6.90672111
+_cell_length_c   6.89201400
+_cell_angle_alpha   119.91116048
+_cell_angle_beta   119.91116182
+_cell_angle_gamma   89.41694241
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcNi(Sn2Ru)3
+_chemical_formula_sum   'Ac1 Ni1 Sn6 Ru3'
+_cell_volume   234.24377221
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ac  Ac0  1  0.996386  0.996386  0.989604  1
+  Ni  Ni1  1  0.408937  0.408937  0.657138  1
+  Sn  Sn2  1  0.999606  0.494075  0.497871  1
+  Sn  Sn3  1  0.477131  0.477131  0.365927  1
+  Sn  Sn4  1  0.525055  0.880397  0.000349  1
+  Sn  Sn5  1  0.880397  0.525055  0.000349  1
+  Sn  Sn6  1  0.119460  0.119460  0.643223  1
+  Sn  Sn7  1  0.494075  0.999606  0.497871  1
+  Ru  Ru8  1  0.757093  0.757093  0.354303  1
+  Ru  Ru9  1  0.255120  0.586741  0.996681  1
+  Ru  Ru10  1  0.586741  0.255120  0.996681  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_TiV3GaTe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.92285173
+_cell_length_b   7.92285192
+_cell_length_c   7.92285211
+_cell_angle_alpha   59.71938806
+_cell_angle_beta   59.71939682
+_cell_angle_gamma   59.71940195
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiV3GaTe8
+_chemical_formula_sum   'Ti1 V3 Ga1 Te8'
+_cell_volume   349.42417049
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.606530  0.606530  0.606530  1
+  V  V1  1  0.605023  0.180739  0.605023  1
+  V  V2  1  0.180739  0.605023  0.605023  1
+  V  V3  1  0.605023  0.605023  0.180739  1
+  Ga  Ga4  1  0.999481  0.999481  0.999481  1
+  Te  Te5  1  0.368895  0.368895  0.368895  1
+  Te  Te6  1  0.368744  0.893452  0.368744  1
+  Te  Te7  1  0.893452  0.368744  0.368744  1
+  Te  Te8  1  0.368744  0.368744  0.893452  1
+  Te  Te9  1  0.860412  0.860412  0.860412  1
+  Te  Te10  1  0.865024  0.412911  0.865024  1
+  Te  Te11  1  0.412911  0.865024  0.865024  1
+  Te  Te12  1  0.865024  0.865024  0.412911  1

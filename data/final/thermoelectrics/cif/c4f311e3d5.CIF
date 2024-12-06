@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_InSnSbPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24915511
+_cell_length_b   7.24915513
+_cell_length_c   5.52616800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   60.28381320
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSnSbPt3
+_chemical_formula_sum   'In2 Sn2 Sb2 Pt6'
+_cell_volume   252.21124456
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.164224  0.495370  0.750000  1
+  In  In1  1  0.504629  0.835776  0.750000  1
+  Sn  Sn2  1  0.491225  0.164398  0.250000  1
+  Sn  Sn3  1  0.835602  0.508774  0.250000  1
+  Sb  Sb4  1  0.178979  0.821021  0.250000  1
+  Sb  Sb5  1  0.825955  0.174045  0.750000  1
+  Pt  Pt6  1  0.159332  0.163364  0.000832  1
+  Pt  Pt7  1  0.503724  0.496276  0.000628  1
+  Pt  Pt8  1  0.836636  0.840668  0.000832  1
+  Pt  Pt9  1  0.159332  0.163364  0.499168  1
+  Pt  Pt10  1  0.503724  0.496276  0.499372  1
+  Pt  Pt11  1  0.836636  0.840668  0.499168  1

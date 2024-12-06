@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TaNb(Te3Mo)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.10496466
+_cell_length_b   8.10496514
+_cell_length_c   12.59821017
+_cell_angle_alpha   55.29435807
+_cell_angle_beta   55.29435535
+_cell_angle_gamma   24.57808061
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNb(Te3Mo)2
+_chemical_formula_sum   'Ta1 Nb1 Te6 Mo2'
+_cell_volume   279.73904495
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.226899  0.226899  0.605257  1
+  Nb  Nb1  1  0.580993  0.580993  0.860340  1
+  Te  Te2  1  0.574082  0.574082  0.638490  1
+  Te  Te3  1  0.426096  0.426096  0.352255  1
+  Te  Te4  1  0.799505  0.799505  0.712221  1
+  Te  Te5  1  0.207463  0.207463  0.287954  1
+  Te  Te6  1  0.899972  0.899972  0.977007  1
+  Te  Te7  1  0.090849  0.090849  0.036107  1
+  Mo  Mo8  1  0.420181  0.420181  0.135800  1
+  Mo  Mo9  1  0.773962  0.773962  0.394570  1

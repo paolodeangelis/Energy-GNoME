@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiTa2Nb(CoSb)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27719810
+_cell_length_b   7.27719832
+_cell_length_c   7.27719902
+_cell_angle_alpha   131.60995186
+_cell_angle_beta   131.60995176
+_cell_angle_gamma   70.84576525
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTa2Nb(CoSb)4
+_chemical_formula_sum   'Li1 Ta2 Nb1 Co4 Sb4'
+_cell_volume   211.00454864
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.500000  0.000000  1
+  Ta  Ta1  1  0.000000  0.000000  0.000000  1
+  Ta  Ta2  1  0.750000  0.250000  0.500000  1
+  Nb  Nb3  1  0.250000  0.750000  0.500000  1
+  Co  Co4  1  0.895267  0.364893  0.998762  1
+  Co  Co5  1  0.366131  0.896505  0.001238  1
+  Co  Co6  1  0.103495  0.104733  0.469626  1
+  Co  Co7  1  0.635107  0.633869  0.530373  1
+  Sb  Sb8  1  0.261992  0.261992  0.000000  1
+  Sb  Sb9  1  0.738008  0.738008  0.000000  1
+  Sb  Sb10  1  0.500111  0.000111  0.500000  1
+  Sb  Sb11  1  0.999889  0.499889  0.500000  1

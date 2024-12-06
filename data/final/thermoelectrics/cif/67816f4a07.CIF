@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2SrZnSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.75265400
+_cell_length_b   8.02848500
+_cell_length_c   9.00725700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2SrZnSb2
+_chemical_formula_sum   'Na4 Sr2 Zn2 Sb4'
+_cell_volume   343.68640467
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500000  0.024800  0.420293  1
+  Na  Na1  1  0.000000  0.346617  0.340637  1
+  Na  Na2  1  0.500000  0.524800  0.579707  1
+  Na  Na3  1  0.000000  0.846617  0.659363  1
+  Sr  Sr4  1  0.000000  0.502142  0.952611  1
+  Sr  Sr5  1  0.000000  0.002142  0.047389  1
+  Zn  Zn6  1  0.500000  0.152175  0.819822  1
+  Zn  Zn7  1  0.500000  0.652175  0.180178  1
+  Sb  Sb8  1  0.000000  0.234292  0.672903  1
+  Sb  Sb9  1  0.500000  0.285494  0.124946  1
+  Sb  Sb10  1  0.000000  0.734292  0.327097  1
+  Sb  Sb11  1  0.500000  0.785494  0.875054  1

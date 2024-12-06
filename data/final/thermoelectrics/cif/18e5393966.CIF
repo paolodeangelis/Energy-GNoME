@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_AsIrRh2Se7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.03923243
+_cell_length_b   6.04055500
+_cell_length_c   6.04358721
+_cell_angle_alpha   90.46259012
+_cell_angle_beta   90.50595718
+_cell_angle_gamma   90.50380491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AsIrRh2Se7
+_chemical_formula_sum   'As1 Ir1 Rh2 Se7'
+_cell_volume   220.44752501
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.621314  0.620996  0.621623  1
+  Ir  Ir1  1  0.500883  0.500766  0.995073  1
+  Rh  Rh2  1  0.500927  0.995130  0.500752  1
+  Rh  Rh3  1  0.995069  0.500918  0.500746  1
+  Se  Se4  1  0.615852  0.882928  0.118656  1
+  Se  Se5  1  0.884141  0.118316  0.615671  1
+  Se  Se6  1  0.119002  0.616304  0.884218  1
+  Se  Se7  1  0.383028  0.383241  0.382283  1
+  Se  Se8  1  0.879989  0.385127  0.114461  1
+  Se  Se9  1  0.114357  0.880849  0.385794  1
+  Se  Se10  1  0.385438  0.115426  0.880723  1

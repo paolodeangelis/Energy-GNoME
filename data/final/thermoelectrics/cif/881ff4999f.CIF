@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_SrCr2(FeSb6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15736711
+_cell_length_b   8.15736680
+_cell_length_c   8.07514423
+_cell_angle_alpha   109.32440140
+_cell_angle_beta   109.23122244
+_cell_angle_gamma   110.26472252
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCr2(FeSb6)2
+_chemical_formula_sum   'Sr1 Cr2 Fe2 Sb12'
+_cell_volume   411.52563741
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.000000  0.000000  0.500000  1
+  Cr  Cr2  1  0.500000  0.500000  0.500000  1
+  Fe  Fe3  1  0.000000  0.500000  0.000000  1
+  Fe  Fe4  1  0.500000  0.000000  0.000000  1
+  Sb  Sb5  1  0.349036  0.180172  0.851467  1
+  Sb  Sb6  1  0.153412  0.347216  0.500627  1
+  Sb  Sb7  1  0.650964  0.819828  0.148533  1
+  Sb  Sb8  1  0.328705  0.497569  0.148533  1
+  Sb  Sb9  1  0.671295  0.502431  0.851467  1
+  Sb  Sb10  1  0.501403  0.850367  0.669739  1
+  Sb  Sb11  1  0.846588  0.652784  0.499373  1
+  Sb  Sb12  1  0.837100  0.331772  0.168872  1
+  Sb  Sb13  1  0.180627  0.831663  0.330261  1
+  Sb  Sb14  1  0.498597  0.149633  0.330261  1
+  Sb  Sb15  1  0.819373  0.168337  0.669739  1
+  Sb  Sb16  1  0.162900  0.668228  0.831128  1

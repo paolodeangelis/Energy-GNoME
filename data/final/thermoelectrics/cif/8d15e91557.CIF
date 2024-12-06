@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CdFe2(Sb6Pt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07601170
+_cell_length_b   8.10770867
+_cell_length_c   8.07601221
+_cell_angle_alpha   109.42071158
+_cell_angle_beta   109.48063491
+_cell_angle_gamma   109.35401942
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdFe2(Sb6Pt)2
+_chemical_formula_sum   'Cd1 Fe2 Sb12 Pt2'
+_cell_volume   407.86392261
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.500000  0.000000  1
+  Fe  Fe2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.652825  0.803495  0.150670  1
+  Sb  Sb4  1  0.853632  0.347394  0.180896  1
+  Sb  Sb5  1  0.507946  0.834055  0.653250  1
+  Sb  Sb6  1  0.833502  0.652606  0.506238  1
+  Sb  Sb7  1  0.492054  0.165945  0.346750  1
+  Sb  Sb8  1  0.146368  0.652606  0.819104  1
+  Sb  Sb9  1  0.819195  0.165945  0.673891  1
+  Sb  Sb10  1  0.180805  0.834055  0.326109  1
+  Sb  Sb11  1  0.166498  0.347394  0.493762  1
+  Sb  Sb12  1  0.673880  0.512989  0.839109  1
+  Sb  Sb13  1  0.326120  0.487011  0.160891  1
+  Sb  Sb14  1  0.347175  0.196505  0.849330  1
+  Pt  Pt15  1  0.000000  0.000000  0.500000  1
+  Pt  Pt16  1  0.500000  0.000000  0.000000  1

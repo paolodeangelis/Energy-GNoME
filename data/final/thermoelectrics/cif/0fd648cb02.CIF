@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_PuCo2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02882135
+_cell_length_b   8.09068841
+_cell_length_c   8.02882100
+_cell_angle_alpha   109.45068510
+_cell_angle_beta   109.07826635
+_cell_angle_gamma   109.57241659
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PuCo2(Sb6Os)2
+_chemical_formula_sum   'Pu1 Co2 Sb12 Os2'
+_cell_volume   403.01682816
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pu  Pu0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.000000  0.500000  0.000000  1
+  Co  Co2  1  0.500000  0.500000  0.500000  1
+  Sb  Sb3  1  0.339918  0.183755  0.843836  1
+  Sb  Sb4  1  0.660082  0.816245  0.156164  1
+  Sb  Sb5  1  0.667650  0.507875  0.840226  1
+  Sb  Sb6  1  0.332350  0.492125  0.159774  1
+  Sb  Sb7  1  0.177716  0.835832  0.330222  1
+  Sb  Sb8  1  0.822284  0.164168  0.669778  1
+  Sb  Sb9  1  0.505610  0.835832  0.658116  1
+  Sb  Sb10  1  0.494390  0.164168  0.341884  1
+  Sb  Sb11  1  0.846846  0.340823  0.177605  1
+  Sb  Sb12  1  0.153154  0.659177  0.822395  1
+  Sb  Sb13  1  0.836783  0.659177  0.506022  1
+  Sb  Sb14  1  0.163217  0.340823  0.493978  1
+  Os  Os15  1  0.000000  0.000000  0.500000  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

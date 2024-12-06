@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaSr(Sn2Pt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.57806900
+_cell_length_b   7.42645900
+_cell_length_c   19.07080800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSr(Sn2Pt)4
+_chemical_formula_sum   'Na2 Sr2 Sn16 Pt8'
+_cell_volume   648.38538281
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250000  0.992871  0.857198  1
+  Na  Na1  1  0.250000  0.507129  0.357198  1
+  Sr  Sr2  1  0.750000  0.006541  0.143108  1
+  Sr  Sr3  1  0.750000  0.493459  0.643108  1
+  Sn  Sn4  1  0.250000  0.305135  0.183889  1
+  Sn  Sn5  1  0.250000  0.194865  0.683889  1
+  Sn  Sn6  1  0.750000  0.704644  0.819435  1
+  Sn  Sn7  1  0.750000  0.795356  0.319435  1
+  Sn  Sn8  1  0.250000  0.723657  0.196333  1
+  Sn  Sn9  1  0.250000  0.776343  0.696333  1
+  Sn  Sn10  1  0.750000  0.269225  0.807929  1
+  Sn  Sn11  1  0.750000  0.230775  0.307929  1
+  Sn  Sn12  1  0.250000  0.864411  0.031174  1
+  Sn  Sn13  1  0.250000  0.635589  0.531174  1
+  Sn  Sn14  1  0.750000  0.135330  0.963145  1
+  Sn  Sn15  1  0.750000  0.364670  0.463145  1
+  Sn  Sn16  1  0.250000  0.519965  0.931971  1
+  Sn  Sn17  1  0.250000  0.980035  0.431971  1
+  Sn  Sn18  1  0.750000  0.477857  0.066435  1
+  Sn  Sn19  1  0.750000  0.022143  0.566435  1
+  Pt  Pt20  1  0.250000  0.246968  0.035034  1
+  Pt  Pt21  1  0.250000  0.253032  0.535034  1
+  Pt  Pt22  1  0.750000  0.754088  0.965367  1
+  Pt  Pt23  1  0.750000  0.745912  0.465367  1
+  Pt  Pt24  1  0.250000  0.020068  0.286920  1
+  Pt  Pt25  1  0.250000  0.479932  0.786920  1
+  Pt  Pt26  1  0.750000  0.982341  0.712062  1
+  Pt  Pt27  1  0.750000  0.517659  0.212062  1

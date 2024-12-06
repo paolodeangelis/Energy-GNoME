@@ -1,0 +1,64 @@
+# generated using pymatgen
+data_Ni8Bi8AsBr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.17060400
+_cell_length_b   10.13284100
+_cell_length_c   21.23555400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni8Bi8AsBr2
+_chemical_formula_sum   'Ni16 Bi16 As2 Br4'
+_cell_volume   897.41593920
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.753459  0.307115  0.968592  1
+  Ni  Ni1  1  0.753459  0.692885  0.031408  1
+  Ni  Ni2  1  0.246541  0.807115  0.531408  1
+  Ni  Ni3  1  0.246541  0.192885  0.468592  1
+  Ni  Ni4  1  0.247291  0.590509  0.090384  1
+  Ni  Ni5  1  0.247291  0.409491  0.909616  1
+  Ni  Ni6  1  0.752709  0.090509  0.409616  1
+  Ni  Ni7  1  0.752709  0.909491  0.590384  1
+  Ni  Ni8  1  0.244459  0.316818  0.044165  1
+  Ni  Ni9  1  0.244459  0.683182  0.955835  1
+  Ni  Ni10  1  0.755541  0.816818  0.455835  1
+  Ni  Ni11  1  0.755541  0.183182  0.544165  1
+  Ni  Ni12  1  0.752309  0.436191  0.093051  1
+  Ni  Ni13  1  0.752309  0.563809  0.906949  1
+  Ni  Ni14  1  0.247691  0.936191  0.406949  1
+  Ni  Ni15  1  0.247691  0.063809  0.593051  1
+  Bi  Bi16  1  0.250468  0.381552  0.170836  1
+  Bi  Bi17  1  0.250468  0.618448  0.829164  1
+  Bi  Bi18  1  0.749532  0.881552  0.329164  1
+  Bi  Bi19  1  0.749532  0.118448  0.670836  1
+  Bi  Bi20  1  0.746226  0.167845  0.081612  1
+  Bi  Bi21  1  0.746226  0.832155  0.918388  1
+  Bi  Bi22  1  0.253774  0.667845  0.418388  1
+  Bi  Bi23  1  0.253774  0.332155  0.581612  1
+  Bi  Bi24  1  0.251609  0.146232  0.943990  1
+  Bi  Bi25  1  0.251609  0.853768  0.056010  1
+  Bi  Bi26  1  0.748391  0.646232  0.556010  1
+  Bi  Bi27  1  0.748391  0.353768  0.443990  1
+  Bi  Bi28  1  0.748632  0.667385  0.161229  1
+  Bi  Bi29  1  0.748632  0.332615  0.838771  1
+  Bi  Bi30  1  0.251368  0.167385  0.338771  1
+  Bi  Bi31  1  0.251368  0.832615  0.661229  1
+  As  As32  1  0.490263  0.500000  0.000000  1
+  As  As33  1  0.509737  0.000000  0.500000  1
+  Br  Br34  1  0.246491  0.006761  0.796265  1
+  Br  Br35  1  0.246491  0.993239  0.203735  1
+  Br  Br36  1  0.753509  0.506761  0.703735  1
+  Br  Br37  1  0.753509  0.493239  0.296265  1

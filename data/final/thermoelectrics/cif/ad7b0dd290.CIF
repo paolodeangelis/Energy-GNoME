@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_TiNb4GaSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94930689
+_cell_length_b   7.94930672
+_cell_length_c   7.94930700
+_cell_angle_alpha   96.09805139
+_cell_angle_beta   96.09805722
+_cell_angle_gamma   141.95615913
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiNb4GaSb2
+_chemical_formula_sum   'Ti2 Nb8 Ga2 Sb4'
+_cell_volume   292.66283328
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.250000  0.750000  0.500000  1
+  Ti  Ti1  1  0.750000  0.250000  0.500000  1
+  Nb  Nb2  1  0.782412  0.925810  0.708224  1
+  Nb  Nb3  1  0.925810  0.217588  0.143397  1
+  Nb  Nb4  1  0.074190  0.782412  0.856603  1
+  Nb  Nb5  1  0.217588  0.074190  0.291776  1
+  Nb  Nb6  1  0.574190  0.717588  0.291776  1
+  Nb  Nb7  1  0.425810  0.282412  0.708224  1
+  Nb  Nb8  1  0.282412  0.574190  0.856603  1
+  Nb  Nb9  1  0.717588  0.425810  0.143397  1
+  Ga  Ga10  1  0.750000  0.750000  0.000000  1
+  Ga  Ga11  1  0.250000  0.250000  0.000000  1
+  Sb  Sb12  1  0.336016  0.836016  0.172034  1
+  Sb  Sb13  1  0.836016  0.663984  0.500000  1
+  Sb  Sb14  1  0.163984  0.336016  0.500000  1
+  Sb  Sb15  1  0.663984  0.163984  0.827966  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ti4MnSb4IrPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15330258
+_cell_length_b   6.15330302
+_cell_length_c   7.51637217
+_cell_angle_alpha   65.83745048
+_cell_angle_beta   65.83745737
+_cell_angle_gamma   89.99999927
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti4MnSb4IrPt2
+_chemical_formula_sum   'Ti4 Mn1 Sb4 Ir1 Pt2'
+_cell_volume   232.06203598
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.123199  0.118956  0.246253  1
+  Ti  Ti1  1  0.630548  0.634792  0.246253  1
+  Ti  Ti2  1  0.881044  0.369452  0.753747  1
+  Ti  Ti3  1  0.365209  0.876799  0.753747  1
+  Mn  Mn4  1  0.000000  0.000000  0.000000  1
+  Sb  Sb5  1  0.638547  0.116700  0.241334  1
+  Sb  Sb6  1  0.120120  0.641967  0.241334  1
+  Sb  Sb7  1  0.883300  0.879882  0.758666  1
+  Sb  Sb8  1  0.358033  0.361453  0.758666  1
+  Ir  Ir9  1  0.250000  0.750000  0.500001  1
+  Pt  Pt10  1  0.500000  0.500000  0.000000  1
+  Pt  Pt11  1  0.750000  0.250000  0.500001  1

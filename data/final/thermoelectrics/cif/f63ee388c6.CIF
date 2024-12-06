@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_AlGa2Te3Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05557100
+_cell_length_b   11.33097500
+_cell_length_c   20.34839300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlGa2Te3Br
+_chemical_formula_sum   'Al4 Ga8 Te12 Br4'
+_cell_volume   935.08137561
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.750000  0.339418  0.867912  1
+  Al  Al1  1  0.250000  0.660582  0.132088  1
+  Al  Al2  1  0.750000  0.839418  0.632088  1
+  Al  Al3  1  0.250000  0.160582  0.367912  1
+  Ga  Ga4  1  0.250000  0.171651  0.005146  1
+  Ga  Ga5  1  0.750000  0.828349  0.994854  1
+  Ga  Ga6  1  0.250000  0.671651  0.494854  1
+  Ga  Ga7  1  0.750000  0.328349  0.505146  1
+  Ga  Ga8  1  0.250000  0.053667  0.903958  1
+  Ga  Ga9  1  0.750000  0.946333  0.096042  1
+  Ga  Ga10  1  0.250000  0.553667  0.596042  1
+  Ga  Ga11  1  0.750000  0.446333  0.403958  1
+  Te  Te12  1  0.250000  0.225257  0.811527  1
+  Te  Te13  1  0.750000  0.774743  0.188473  1
+  Te  Te14  1  0.250000  0.725257  0.688473  1
+  Te  Te15  1  0.750000  0.274743  0.311527  1
+  Te  Te16  1  0.750000  0.909967  0.871572  1
+  Te  Te17  1  0.250000  0.090033  0.128428  1
+  Te  Te18  1  0.750000  0.409967  0.628428  1
+  Te  Te19  1  0.250000  0.590033  0.371572  1
+  Te  Te20  1  0.750000  0.328211  0.998856  1
+  Te  Te21  1  0.250000  0.671789  0.001144  1
+  Te  Te22  1  0.750000  0.828211  0.501144  1
+  Te  Te23  1  0.250000  0.171789  0.498856  1
+  Br  Br24  1  0.750000  0.533634  0.834707  1
+  Br  Br25  1  0.250000  0.466366  0.165293  1
+  Br  Br26  1  0.750000  0.033634  0.665293  1
+  Br  Br27  1  0.250000  0.966366  0.334707  1

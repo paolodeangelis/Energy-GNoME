@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KNi2(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.13136389
+_cell_length_b   8.10565921
+_cell_length_c   8.13136426
+_cell_angle_alpha   109.53760064
+_cell_angle_beta   109.47386167
+_cell_angle_gamma   109.53068734
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNi2(Sb6Os)2
+_chemical_formula_sum   'K1 Ni2 Sb12 Os2'
+_cell_volume   411.91021322
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Ni  Ni1  1  0.500000  0.000000  0.000000  1
+  Ni  Ni2  1  0.000000  0.000000  0.500000  1
+  Sb  Sb3  1  0.843625  0.661708  0.501441  1
+  Sb  Sb4  1  0.156375  0.338292  0.498559  1
+  Sb  Sb5  1  0.160267  0.661708  0.818084  1
+  Sb  Sb6  1  0.839733  0.338292  0.181916  1
+  Sb  Sb7  1  0.658860  0.502449  0.843588  1
+  Sb  Sb8  1  0.341140  0.497551  0.156412  1
+  Sb  Sb9  1  0.659765  0.819066  0.159300  1
+  Sb  Sb10  1  0.340235  0.180934  0.840700  1
+  Sb  Sb11  1  0.500964  0.844265  0.661767  1
+  Sb  Sb12  1  0.499036  0.155735  0.338233  1
+  Sb  Sb13  1  0.182498  0.844265  0.343302  1
+  Sb  Sb14  1  0.817502  0.155735  0.656698  1
+  Os  Os15  1  0.500000  0.500000  0.500000  1
+  Os  Os16  1  0.000000  0.500000  0.000000  1

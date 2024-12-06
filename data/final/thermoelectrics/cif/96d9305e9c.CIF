@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KCo3Sb12Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.96777360
+_cell_length_b   8.02946769
+_cell_length_c   8.02946888
+_cell_angle_alpha   109.62634475
+_cell_angle_beta   109.31564592
+_cell_angle_gamma   109.31564167
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCo3Sb12Os
+_chemical_formula_sum   'K1 Co3 Sb12 Os1'
+_cell_volume   396.20408163
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Co  Co1  1  0.000000  0.000000  0.500000  1
+  Co  Co2  1  0.000000  0.500000  0.000000  1
+  Co  Co3  1  0.500000  0.500000  0.500000  1
+  Sb  Sb4  1  0.333951  0.180192  0.835470  1
+  Sb  Sb5  1  0.666049  0.819808  0.164530  1
+  Sb  Sb6  1  0.661935  0.501112  0.838927  1
+  Sb  Sb7  1  0.338065  0.498888  0.161073  1
+  Sb  Sb8  1  0.176993  0.838927  0.337814  1
+  Sb  Sb9  1  0.823007  0.161073  0.662186  1
+  Sb  Sb10  1  0.501519  0.835470  0.655279  1
+  Sb  Sb11  1  0.498481  0.164530  0.344721  1
+  Sb  Sb12  1  0.846241  0.344721  0.180192  1
+  Sb  Sb13  1  0.153759  0.655279  0.819808  1
+  Sb  Sb14  1  0.839179  0.662186  0.501112  1
+  Sb  Sb15  1  0.160821  0.337814  0.498888  1
+  Os  Os16  1  0.500000  0.000000  0.000000  1

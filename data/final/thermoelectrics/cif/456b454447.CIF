@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TaNbTe10PdPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.44045572
+_cell_length_b   7.44045631
+_cell_length_c   15.80686634
+_cell_angle_alpha   90.03479640
+_cell_angle_beta   89.96520406
+_cell_angle_gamma   150.85268238
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNbTe10PdPt
+_chemical_formula_sum   'Ta1 Nb1 Te10 Pd1 Pt1'
+_cell_volume   426.21078034
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.491829  0.508171  0.250367  1
+  Nb  Nb1  1  0.507946  0.492054  0.749606  1
+  Te  Te2  1  0.159600  0.840400  0.750265  1
+  Te  Te3  1  0.840884  0.159116  0.249832  1
+  Te  Te4  1  0.399167  0.600833  0.085913  1
+  Te  Te5  1  0.601207  0.398793  0.913832  1
+  Te  Te6  1  0.904185  0.095815  0.850484  1
+  Te  Te7  1  0.095383  0.904617  0.149760  1
+  Te  Te8  1  0.095930  0.904070  0.350869  1
+  Te  Te9  1  0.903545  0.096455  0.648838  1
+  Te  Te10  1  0.399296  0.600704  0.415196  1
+  Te  Te11  1  0.601081  0.398919  0.585024  1
+  Pd  Pd12  1  0.999926  0.000074  0.000079  1
+  Pt  Pt13  1  0.000021  0.999979  0.499935  1

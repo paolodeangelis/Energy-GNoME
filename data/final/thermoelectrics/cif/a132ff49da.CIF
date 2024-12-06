@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_GeRh2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.73453000
+_cell_length_b   7.74068210
+_cell_length_c   13.05230371
+_cell_angle_alpha   77.39930017
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeRh2Se5
+_chemical_formula_sum   'Ge2 Rh4 Se10'
+_cell_volume   368.22557280
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.500000  0.163042  0.681946  1
+  Ge  Ge1  1  0.500000  0.836958  0.318054  1
+  Rh  Rh2  1  0.000000  0.250925  0.149887  1
+  Rh  Rh3  1  0.000000  0.749075  0.850113  1
+  Rh  Rh4  1  0.500000  0.745459  0.147995  1
+  Rh  Rh5  1  0.500000  0.254541  0.852005  1
+  Se  Se6  1  0.000000  0.955898  0.101312  1
+  Se  Se7  1  0.000000  0.044102  0.898688  1
+  Se  Se8  1  0.000000  0.469161  0.778433  1
+  Se  Se9  1  0.000000  0.530839  0.221567  1
+  Se  Se10  1  0.500000  0.662753  0.974533  1
+  Se  Se11  1  0.500000  0.337247  0.025467  1
+  Se  Se12  1  0.500000  0.167416  0.281627  1
+  Se  Se13  1  0.500000  0.832584  0.718373  1
+  Se  Se14  1  0.000000  0.235519  0.561738  1
+  Se  Se15  1  0.000000  0.764481  0.438262  1

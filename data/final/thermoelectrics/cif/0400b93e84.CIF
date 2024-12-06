@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_EuMn(As4Rh)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.47254064
+_cell_length_b   7.47254163
+_cell_length_c   7.47254100
+_cell_angle_alpha   109.44783933
+_cell_angle_beta   109.44783386
+_cell_angle_gamma   109.44783252
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuMn(As4Rh)3
+_chemical_formula_sum   'Eu1 Mn1 As12 Rh3'
+_cell_volume   321.48335894
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.500000  0.500000  0.500000  1
+  As  As2  1  0.350949  0.203020  0.852676  1
+  As  As3  1  0.649051  0.796980  0.147324  1
+  As  As4  1  0.646923  0.503228  0.838604  1
+  As  As5  1  0.353077  0.496772  0.161396  1
+  As  As6  1  0.203020  0.852676  0.350949  1
+  As  As7  1  0.796980  0.147324  0.649051  1
+  As  As8  1  0.503228  0.838604  0.646923  1
+  As  As9  1  0.496772  0.161396  0.353077  1
+  As  As10  1  0.852676  0.350949  0.203020  1
+  As  As11  1  0.147324  0.649051  0.796980  1
+  As  As12  1  0.838604  0.646923  0.503228  1
+  As  As13  1  0.161396  0.353077  0.496772  1
+  Rh  Rh14  1  0.000000  0.000000  0.500000  1
+  Rh  Rh15  1  0.500000  0.000000  0.000000  1
+  Rh  Rh16  1  0.000000  0.500000  0.000000  1

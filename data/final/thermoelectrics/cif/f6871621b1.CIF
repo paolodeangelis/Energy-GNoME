@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Cu9(SbS3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.50275604
+_cell_length_b   8.50298943
+_cell_length_c   8.49892580
+_cell_angle_alpha   107.24635805
+_cell_angle_beta   107.22743020
+_cell_angle_gamma   107.24626096
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu9(SbS3)4
+_chemical_formula_sum   'Cu9 Sb4 S12'
+_cell_volume   508.34254506
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.390981  0.166400  0.460232  1
+  Cu  Cu1  1  0.072472  0.218165  0.695675  1
+  Cu  Cu2  1  0.218191  0.695755  0.072601  1
+  Cu  Cu3  1  0.167295  0.460385  0.391362  1
+  Cu  Cu4  1  0.460042  0.390956  0.166996  1
+  Cu  Cu5  1  0.695708  0.072813  0.217641  1
+  Cu  Cu6  1  0.306357  0.919550  0.766822  1
+  Cu  Cu7  1  0.919829  0.767099  0.306584  1
+  Cu  Cu8  1  0.766881  0.306933  0.920129  1
+  Sb  Sb9  1  0.976974  0.977111  0.977030  1
+  Sb  Sb10  1  0.556406  0.624903  0.838897  1
+  Sb  Sb11  1  0.625317  0.839037  0.556394  1
+  Sb  Sb12  1  0.838816  0.556313  0.624937  1
+  S  S13  1  0.227766  0.142927  0.911700  1
+  S  S14  1  0.143026  0.911706  0.227798  1
+  S  S15  1  0.912173  0.228234  0.143223  1
+  S  S16  1  0.277031  0.352704  0.595991  1
+  S  S17  1  0.352899  0.596086  0.277015  1
+  S  S18  1  0.595830  0.276760  0.352833  1
+  S  S19  1  0.435149  0.831754  0.986974  1
+  S  S20  1  0.831780  0.987190  0.434888  1
+  S  S21  1  0.987054  0.435235  0.831870  1
+  S  S22  1  0.512048  0.068140  0.673613  1
+  S  S23  1  0.068196  0.673336  0.511866  1
+  S  S24  1  0.673379  0.512110  0.068528  1

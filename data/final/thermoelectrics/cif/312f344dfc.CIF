@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Al2GaTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.26237400
+_cell_length_b   9.48677831
+_cell_length_c   11.16702934
+_cell_angle_alpha   109.94185098
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   102.98218157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2GaTe3
+_chemical_formula_sum   'Al4 Ga2 Te6'
+_cell_volume   412.17764456
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.566753  0.133508  0.091681  1
+  Al  Al1  1  0.242015  0.484030  0.309099  1
+  Al  Al2  1  0.144823  0.289645  0.424402  1
+  Al  Al3  1  0.856364  0.712730  0.577082  1
+  Ga  Ga4  1  0.758460  0.516923  0.685348  1
+  Ga  Ga5  1  0.436528  0.873058  0.918107  1
+  Te  Te6  1  0.149934  0.299867  0.062016  1
+  Te  Te7  1  0.836582  0.673165  0.328853  1
+  Te  Te8  1  0.551629  0.103260  0.322075  1
+  Te  Te9  1  0.446820  0.893640  0.677816  1
+  Te  Te10  1  0.162421  0.324842  0.669366  1
+  Te  Te11  1  0.847664  0.695329  0.934154  1

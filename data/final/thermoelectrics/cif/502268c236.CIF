@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuTiTe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41070558
+_cell_length_b   8.41070459
+_cell_length_c   13.72800700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   152.48397787
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTiTe10
+_chemical_formula_sum   'Lu1 Ti1 Te10'
+_cell_volume   448.65355849
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.313555  0.686445  0.250000  1
+  Ti  Ti1  1  0.683693  0.316307  0.750000  1
+  Te  Te2  1  0.777182  0.222818  0.928653  1
+  Te  Te3  1  0.209914  0.790086  0.065180  1
+  Te  Te4  1  0.313760  0.686240  0.750000  1
+  Te  Te5  1  0.671615  0.328385  0.250000  1
+  Te  Te6  1  0.088839  0.911161  0.849799  1
+  Te  Te7  1  0.932753  0.067247  0.150351  1
+  Te  Te8  1  0.932753  0.067247  0.349649  1
+  Te  Te9  1  0.088839  0.911161  0.650201  1
+  Te  Te10  1  0.777182  0.222818  0.571347  1
+  Te  Te11  1  0.209914  0.790086  0.434820  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_AcFe3As12Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32573065
+_cell_length_b   7.32572959
+_cell_length_c   7.32573245
+_cell_angle_alpha   109.53878259
+_cell_angle_beta   109.53877924
+_cell_angle_gamma   109.53877284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcFe3As12Rh
+_chemical_formula_sum   'Ac1 Fe3 As12 Rh1'
+_cell_volume   301.88389057
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ac  Ac0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.500000  0.000000  0.000000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Fe  Fe3  1  0.000000  0.000000  0.500000  1
+  As  As4  1  0.855885  0.659241  0.497865  1
+  As  As5  1  0.144115  0.340759  0.502135  1
+  As  As6  1  0.158069  0.656789  0.813964  1
+  As  As7  1  0.841931  0.343211  0.186036  1
+  As  As8  1  0.659241  0.497865  0.855885  1
+  As  As9  1  0.340759  0.502135  0.144115  1
+  As  As10  1  0.656789  0.813964  0.158069  1
+  As  As11  1  0.343211  0.186036  0.841931  1
+  As  As12  1  0.497865  0.855885  0.659241  1
+  As  As13  1  0.502135  0.144115  0.340759  1
+  As  As14  1  0.186036  0.841931  0.343211  1
+  As  As15  1  0.813964  0.158069  0.656789  1
+  Rh  Rh16  1  0.500000  0.500000  0.500000  1

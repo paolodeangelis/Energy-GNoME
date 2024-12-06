@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MgNb(NiSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55046996
+_cell_length_b   7.55047007
+_cell_length_c   7.55047128
+_cell_angle_alpha   32.63123643
+_cell_angle_beta   32.63123364
+_cell_angle_gamma   32.63122753
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNb(NiSn)2
+_chemical_formula_sum   'Mg1 Nb1 Ni2 Sn2'
+_cell_volume   111.31659717
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.002221  0.002221  0.002221  1
+  Nb  Nb1  1  0.499804  0.499804  0.499804  1
+  Ni  Ni2  1  0.129514  0.129514  0.129514  1
+  Ni  Ni3  1  0.619832  0.619832  0.619832  1
+  Sn  Sn4  1  0.748101  0.748101  0.748101  1
+  Sn  Sn5  1  0.250527  0.250527  0.250527  1

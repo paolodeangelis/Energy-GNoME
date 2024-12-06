@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_PuCrFe(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.12505514
+_cell_length_b   8.15947515
+_cell_length_c   8.09725614
+_cell_angle_alpha   109.43383319
+_cell_angle_beta   109.34410686
+_cell_angle_gamma   109.66954316
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PuCrFe(Sb6Os)2
+_chemical_formula_sum   'Pu1 Cr1 Fe1 Sb12 Os2'
+_cell_volume   413.06682513
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pu  Pu0  1  0.000000  0.000000  0.000000  1
+  Cr  Cr1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.156306  0.815549  0.660877  1
+  Sb  Sb4  1  0.843694  0.184451  0.339123  1
+  Sb  Sb5  1  0.845868  0.506439  0.670403  1
+  Sb  Sb6  1  0.154132  0.493561  0.329597  1
+  Sb  Sb7  1  0.823294  0.657070  0.151366  1
+  Sb  Sb8  1  0.176706  0.342930  0.848634  1
+  Sb  Sb9  1  0.505067  0.661663  0.844740  1
+  Sb  Sb10  1  0.494933  0.338337  0.155260  1
+  Sb  Sb11  1  0.671177  0.164319  0.824452  1
+  Sb  Sb12  1  0.328823  0.835681  0.175548  1
+  Sb  Sb13  1  0.658922  0.843051  0.504593  1
+  Sb  Sb14  1  0.341078  0.156949  0.495407  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.500000  0.500000  0.500000  1

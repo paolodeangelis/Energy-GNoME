@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LiMgTa(NiSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.32635256
+_cell_length_b   7.34266093
+_cell_length_c   7.35656707
+_cell_angle_alpha   119.99916672
+_cell_angle_beta   99.69852663
+_cell_angle_gamma   99.52857060
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgTa(NiSb)3
+_chemical_formula_sum   'Li2 Mg2 Ta2 Ni6 Sb6'
+_cell_volume   323.04663709
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.999894  0.502931  0.999265  1
+  Li  Li1  1  0.498778  0.329658  0.165730  1
+  Mg  Mg2  1  0.998926  0.164114  0.331631  1
+  Mg  Mg3  1  0.499704  0.000214  0.502003  1
+  Ta  Ta4  1  0.001863  0.833748  0.668789  1
+  Ta  Ta5  1  0.501990  0.670551  0.832833  1
+  Ni  Ni6  1  0.118087  0.191089  0.026365  1
+  Ni  Ni7  1  0.620434  0.024829  0.193923  1
+  Ni  Ni8  1  0.121200  0.875594  0.390323  1
+  Ni  Ni9  1  0.635463  0.713769  0.557941  1
+  Ni  Ni10  1  0.135015  0.555404  0.708396  1
+  Ni  Ni11  1  0.619034  0.388032  0.870923  1
+  Sb  Sb12  1  0.247215  0.915759  0.089851  1
+  Sb  Sb13  1  0.749170  0.741498  0.249547  1
+  Sb  Sb14  1  0.253863  0.574073  0.402648  1
+  Sb  Sb15  1  0.753423  0.411214  0.578669  1
+  Sb  Sb16  1  0.248873  0.258367  0.759177  1
+  Sb  Sb17  1  0.747067  0.099162  0.921990  1

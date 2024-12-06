@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CeCo2(Sn3Ru)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86343974
+_cell_length_b   6.86343991
+_cell_length_c   6.75414373
+_cell_angle_alpha   119.01330228
+_cell_angle_beta   119.01329753
+_cell_angle_gamma   92.60336387
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeCo2(Sn3Ru)2
+_chemical_formula_sum   'Ce1 Co2 Sn6 Ru2'
+_cell_volume   226.34399323
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.013164  0.013164  0.026328  1
+  Co  Co1  1  0.755688  0.389831  0.145519  1
+  Co  Co2  1  0.389831  0.755688  0.145519  1
+  Sn  Sn3  1  0.501257  0.001257  0.002513  1
+  Sn  Sn4  1  0.001257  0.501257  0.002513  1
+  Sn  Sn5  1  0.538348  0.538348  0.407424  1
+  Sn  Sn6  1  0.869075  0.869075  0.407424  1
+  Sn  Sn7  1  0.478613  0.108505  0.587117  1
+  Sn  Sn8  1  0.108505  0.478613  0.587117  1
+  Ru  Ru9  1  0.257598  0.257598  0.844263  1
+  Ru  Ru10  1  0.586665  0.586665  0.844263  1

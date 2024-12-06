@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_PaTi(Te5Pt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.61709384
+_cell_length_b   7.61709346
+_cell_length_c   15.34868400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   150.41552742
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PaTi(Te5Pt)2
+_chemical_formula_sum   'Pa1 Ti1 Te10 Pt2'
+_cell_volume   439.66138805
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pa  Pa0  1  0.506907  0.493093  0.250000  1
+  Ti  Ti1  1  0.501247  0.498753  0.750000  1
+  Te  Te2  1  0.146006  0.853994  0.750000  1
+  Te  Te3  1  0.846382  0.153618  0.250000  1
+  Te  Te4  1  0.392679  0.607321  0.074656  1
+  Te  Te5  1  0.593897  0.406103  0.914761  1
+  Te  Te6  1  0.899535  0.100465  0.853023  1
+  Te  Te7  1  0.116514  0.883486  0.136062  1
+  Te  Te8  1  0.116514  0.883486  0.363938  1
+  Te  Te9  1  0.899535  0.100465  0.646977  1
+  Te  Te10  1  0.392679  0.607321  0.425344  1
+  Te  Te11  1  0.593897  0.406103  0.585239  1
+  Pt  Pt12  1  0.997104  0.002896  0.000777  1
+  Pt  Pt13  1  0.997104  0.002896  0.499223  1

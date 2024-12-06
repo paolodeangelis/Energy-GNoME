@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_BaNa(AgTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.24532301
+_cell_length_b   12.24532319
+_cell_length_c   12.24532443
+_cell_angle_alpha   158.62757668
+_cell_angle_beta   158.62757911
+_cell_angle_gamma   30.40577356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa(AgTe2)2
+_chemical_formula_sum   'Ba1 Na1 Ag2 Te4'
+_cell_volume   243.70261532
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.117968  0.117968  0.000000  1
+  Na  Na1  1  0.872272  0.872272  0.000000  1
+  Ag  Ag2  1  0.255909  0.755909  0.500000  1
+  Ag  Ag3  1  0.755909  0.255909  0.500000  1
+  Te  Te4  1  0.496711  0.996711  0.500000  1
+  Te  Te5  1  0.996711  0.496711  0.500000  1
+  Te  Te6  1  0.330792  0.330792  0.000000  1
+  Te  Te7  1  0.673727  0.673727  0.000000  1

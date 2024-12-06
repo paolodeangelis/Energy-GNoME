@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_BaFeNi(Sb6Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.08782922
+_cell_length_b   8.12970524
+_cell_length_c   8.13475028
+_cell_angle_alpha   109.62862231
+_cell_angle_beta   109.56454964
+_cell_angle_gamma   109.48067559
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaFeNi(Sb6Os)2
+_chemical_formula_sum   'Ba1 Fe1 Ni1 Sb12 Os2'
+_cell_volume   410.41776156
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Fe  Fe1  1  0.000000  0.000000  0.500000  1
+  Ni  Ni2  1  0.000000  0.500000  0.000000  1
+  Sb  Sb3  1  0.333046  0.176539  0.833103  1
+  Sb  Sb4  1  0.666954  0.823461  0.166897  1
+  Sb  Sb5  1  0.658692  0.498525  0.843445  1
+  Sb  Sb6  1  0.341308  0.501475  0.156555  1
+  Sb  Sb7  1  0.178606  0.844007  0.344068  1
+  Sb  Sb8  1  0.821394  0.155993  0.655932  1
+  Sb  Sb9  1  0.498600  0.840938  0.657094  1
+  Sb  Sb10  1  0.501400  0.159062  0.342906  1
+  Sb  Sb11  1  0.844007  0.345574  0.185234  1
+  Sb  Sb12  1  0.155993  0.654426  0.814766  1
+  Sb  Sb13  1  0.844502  0.667875  0.499781  1
+  Sb  Sb14  1  0.155498  0.332125  0.500219  1
+  Os  Os15  1  0.500000  0.000000  0.000000  1
+  Os  Os16  1  0.500000  0.500000  0.500000  1

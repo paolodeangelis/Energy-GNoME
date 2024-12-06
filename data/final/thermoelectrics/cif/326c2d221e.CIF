@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_DyNi(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.84122667
+_cell_length_b   6.84122671
+_cell_length_c   6.90357992
+_cell_angle_alpha   119.93639077
+_cell_angle_beta   119.93638263
+_cell_angle_gamma   88.91778394
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyNi(Sn2Ru)3
+_chemical_formula_sum   'Dy1 Ni1 Sn6 Ru3'
+_cell_volume   230.96225494
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.984630  0.984630  0.969789  1
+  Ni  Ni1  1  0.402252  0.402252  0.649195  1
+  Sn  Sn2  1  0.002119  0.490563  0.496753  1
+  Sn  Sn3  1  0.466934  0.466934  0.354971  1
+  Sn  Sn4  1  0.537796  0.879576  0.003299  1
+  Sn  Sn5  1  0.879576  0.537796  0.003299  1
+  Sn  Sn6  1  0.122427  0.122427  0.656797  1
+  Sn  Sn7  1  0.490563  0.002119  0.496753  1
+  Ru  Ru8  1  0.761545  0.761545  0.370917  1
+  Ru  Ru9  1  0.256913  0.595244  0.999112  1
+  Ru  Ru10  1  0.595244  0.256913  0.999112  1

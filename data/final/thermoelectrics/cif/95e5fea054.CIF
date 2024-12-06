@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_CaCo3As3Pd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.90576800
+_cell_length_b   10.85922100
+_cell_length_c   12.74105800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCo3As3Pd2
+_chemical_formula_sum   'Ca4 Co12 As12 Pd8'
+_cell_volume   540.39411066
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.250000  0.581958  0.708562  1
+  Ca  Ca1  1  0.250000  0.918042  0.208562  1
+  Ca  Ca2  1  0.750000  0.418042  0.291438  1
+  Ca  Ca3  1  0.750000  0.081958  0.791438  1
+  Co  Co4  1  0.250000  0.216419  0.175778  1
+  Co  Co5  1  0.250000  0.283581  0.675778  1
+  Co  Co6  1  0.750000  0.783581  0.824222  1
+  Co  Co7  1  0.750000  0.716419  0.324222  1
+  Co  Co8  1  0.250000  0.880612  0.693560  1
+  Co  Co9  1  0.250000  0.619388  0.193560  1
+  Co  Co10  1  0.750000  0.119388  0.306440  1
+  Co  Co11  1  0.750000  0.380612  0.806440  1
+  Co  Co12  1  0.250000  0.464174  0.933440  1
+  Co  Co13  1  0.250000  0.035826  0.433440  1
+  Co  Co14  1  0.750000  0.535826  0.066560  1
+  Co  Co15  1  0.750000  0.964174  0.566560  1
+  As  As16  1  0.250000  0.422153  0.113738  1
+  As  As17  1  0.250000  0.077847  0.613738  1
+  As  As18  1  0.750000  0.577847  0.886262  1
+  As  As19  1  0.750000  0.922153  0.386262  1
+  As  As20  1  0.250000  0.274353  0.856772  1
+  As  As21  1  0.250000  0.225647  0.356772  1
+  As  As22  1  0.750000  0.725647  0.143228  1
+  As  As23  1  0.750000  0.774353  0.643228  1
+  As  As24  1  0.250000  0.605651  0.374357  1
+  As  As25  1  0.250000  0.894349  0.874357  1
+  As  As26  1  0.750000  0.394349  0.625643  1
+  As  As27  1  0.750000  0.105651  0.125643  1
+  Pd  Pd28  1  0.250000  0.706637  0.987741  1
+  Pd  Pd29  1  0.250000  0.793363  0.487741  1
+  Pd  Pd30  1  0.750000  0.293363  0.012259  1
+  Pd  Pd31  1  0.750000  0.206637  0.512259  1
+  Pd  Pd32  1  0.250000  0.406140  0.479785  1
+  Pd  Pd33  1  0.250000  0.093860  0.979785  1
+  Pd  Pd34  1  0.750000  0.593860  0.520215  1
+  Pd  Pd35  1  0.750000  0.906140  0.020215  1
