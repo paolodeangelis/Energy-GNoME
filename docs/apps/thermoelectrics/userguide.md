@@ -45,7 +45,7 @@ R^P(x) = w_1 \cdot n(zT(x)) + w_2 \cdot n(P(x)) + w_3 \cdot n(\Delta H_f(x)) + w
 $$
 
 $$
-+ w_5 \cdot n(\rho (x)) + w_6 \cdot n(\sigma (zT(x)))
++ w_5 \cdot n(\rho (x)) + w_6 \cdot n(\sigma (zT(x))) + w_7 \cdot n(\sigma (P(x)))
 $$
 
 where:
@@ -56,7 +56,8 @@ where:
 * $\Delta H_f(x)$ is the formation energy of the material;
 * $V(x)$ is the volume occupied by the molecule;
 * $\rho (x)$ is the atomic density of the material;
-* $\sigma (E_g(x))$ is the standard deviation of the predicted "figure of merit".
+* $\sigma (zT(x))$ is the standard deviation of the predicted "figure of merit";
+* $\sigma (P(x))$ is the standard deviation of the AI-experts prediction.
 
 This way, the ranking score can be tailored according to specific research priorities (e.g., emphasizing zT over density).
 The [table](#3-results-table) updates dynamically to reflect the new ranking, ensuring that the most relevant materials are highlighted.
@@ -91,7 +92,8 @@ By default, the table shows key properties such as:
 * Volume (Å³);
 * Density (Å³/atom);
 * Model type;
-* Average zT (deviation) (-).
+* Average zT (deviation) (-);
+* AI-experts confidence (deviation) (-).
 
 You can sort and analyze this data directly within the dashboard.
 Links in the **File** column allow you to download the *CIF* files for individual materials, enabling deeper computational or experimental analysis.
