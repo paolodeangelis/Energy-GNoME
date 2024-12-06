@@ -9,6 +9,7 @@ import panel as pn
 import requests
 
 pn.extension("tabulator")
+
 pn.extension(throttled=True)
 
 # CONSTANTS (settings)
