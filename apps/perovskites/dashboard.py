@@ -9,6 +9,9 @@ import panel as pn
 import param
 import requests
 
+pn.extension("tabulator")
+pn.extension(throttled=True)
+
 # CONSTANTS (settings)
 SITE = "Energy-GNoME"
 SITE_URL = "https://paolodeangelis.github.io/Energy-GNoME/apps/"
@@ -358,6 +361,31 @@ def show_selected_columns(table: pn.widgets.Tabulator, columns: list) -> pn.widg
     return table
 
 
+def down_load_menu(filename, table):
+    """
+    Create a download button for the filtered table data.
+
+    Args:
+        filename (str): The name of the file to download.
+        table (pn.widgets.Tabulator): The table widget to get the filtered data from.
+
+    Returns:
+        pn.widgets.FileDownload: A file download widget with the filtered table data.
+    """
+
+    def create_file():
+        sio = StringIO()
+        filtered_data = table.current_view  # Get the current filtered view of the table
+        filtered_data.to_csv(sio, index=False)
+        sio.seek(0)  # Rewind the StringIO buffer to the beginning
+        return sio  # Return the StringIO object (Panel handles it properly for download)
+
+    button = pn.widgets.FileDownload(
+        callback=create_file, label="Download filtered database", filename=filename
+    )
+    return button
+
+
 def build_interactive_table(
     # weights
     w_property1: pn.widgets.FloatSlider,
@@ -425,34 +453,29 @@ def build_interactive_table(
         hidden_models = set(all_models) - set(categories)
         for model in hidden_models:
             table.add_filter(pn.bind(apply_category_filter, category=CATEGORY, item_to_hide=model))
-    # Add download section
-    # filename, button = table.download_menu(
-    #     text_kwargs={"name": "Enter filename", "value": "perovskite_candidates.csv"},
-    #     button_kwargs={"name": "Download table"},
-    # )
-    filename = pn.widgets.TextInput(name="Enter filename", value="perovskite_candidates.csv")
 
-    def down_load_menu(filename):
-        sio = StringIO()
-        table.current_view.to_csv(sio)
-        sio.seek(0)
-        button = pn.widgets.FileDownload(sio, embed=True, filename=filename)
+    # Watch sliders and update download button
+    def update_download(event):
+        # Recreate the download button whenever filters or sliders change
+        button = down_load_menu(filename.param.value, table)
         return button
 
-    button = pn.bind(down_load_menu, filename)
-    return pn.Column(filename, button, table)
+    for slider in sliders.values():
+        slider.param.watch(update_download, "value_throttled")
 
+    # Add download section
+    filename = pn.widgets.TextInput(name="Enter filename", value="perovskite_candidates.csv")
+    button = down_load_menu(filename.param.value, table)
 
-# hover = HoverTool(
-#     tooltips=[
-#         ("Material Id", "@{Material Id}"),
-#         (f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", "@{Volume (A^3)}{0.2f}"),
-#         ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
-#         ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
-#         # ("Property 3", "@{Property 3}{0.2f}"),
-#     ],
-#     mode="mouse",  # 'mouse' mode ensures only the topmost point is selected
-# )
+    # Function to update the download button's filename dynamically
+    def update_filename(event):
+        button.filename = event.new  # Update the filename of the FileDownload button
+
+    # Watch the filename input and update the download button filename
+    filename.param.watch(update_filename, "value")
+    layout = pn.Column(filename, button, table)
+
+    return layout
 
 
 def build_interactive_plot(
@@ -490,21 +513,6 @@ def build_interactive_plot(
     # Apply filter if provided
     if categories:
         plot_df = plot_df[plot_df[CATEGORY].isin(categories)]
-
-    # # Updated hover tool to show all columns
-    # hover = HoverTool(
-    #     tooltips=[
-    #         (
-    #             col,
-    #             (
-    #                 f"@{{{col}}}{{0.2f}}"
-    #                 if plot_df[col].dtype in ["float64", "float32"]
-    #                 else f"@{{{col}}}"
-    #             ),
-    #         )
-    #         for col in plot_df.columns
-    #     ]
-    # )
 
     # Background scatter plot with all data
     back_scatter = df.hvplot.scatter(
