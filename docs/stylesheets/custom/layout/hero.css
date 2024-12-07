@@ -1,11 +1,11 @@
 .mdx-hero {
   position: relative;
-  margin:  0 0 20px 0;
+  margin:  0 0 9em 0;
   color: var(--md-primary-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 700px; /* Minimum height for the section */
+  min-height: 600px; /* Minimum height for the section */
   overflow: hidden; /* Ensures no overflow */
 }
 
@@ -28,7 +28,8 @@
   z-index: 1; /* Ensures it appears above the image */
   width: 60%; /* Ensures the image spans the full width */
 
-  min-width: 400px;
+  min-width: 350px;
+  max-width: 650px;
   text-align: center;
   color: var(--md-primary-bg-color);
   padding: 20px;
@@ -43,13 +44,13 @@
   color: var(--md-primary-bg-color);
 }
 
-
-
-.mdx-hero .md-button--primary:is(:focus, :hover) {
-  color: var(--md-primary-bg-color);
-  background-color: hsl(339, 75%, 63%);
-  border-color: hsl(339, 75%, 63%);
+.mdx-hero .md-button:is(:focus, :hover) {
+  color: hsla(0, 0%, 0%, 0.70);
+  background-color: hsla(0, 0%, 100%, 0.70);
+  border-color: hsla(0, 0%, 100%, 0.60);
 }
+
+
 
 .mdx-hero .md-button--primary {
   color: var(--md-primary-bg-color);
@@ -57,6 +58,12 @@
   border-color: hsl(339, 79%, 55%);
 }
 
+
+.mdx-hero .md-button--primary:is(:focus, :hover) {
+  color: var(--md-primary-bg-color);
+  background-color: hsl(339, 75%, 63%);
+  border-color: hsl(339, 75%, 63%);
+}
 
 .mdx-hero__image img {
   top: 0;

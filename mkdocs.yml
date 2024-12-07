@@ -14,12 +14,14 @@ edit_uri: edit/main/docs/
 extra_css:
   - stylesheets/extra.css
   - stylesheets/custom/layout/hero.css
+  - stylesheets/custom/layout/down_arrow.css
   - stylesheets/custom/tooltipster/tippy.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - javascripts/wiki_hover.js
+  - javascripts/down_arrow.js
 
 theme:
   name: material
@@ -59,11 +61,11 @@ theme:
         # icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.instant.preview
-    - navigation.sections
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.instant.preview
+    # - navigation.sections
     # - navigation.expand
     - navigation.top
     - navigation.tabs
@@ -144,11 +146,11 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  - git-committers:
-      enabled: true
-      repository: paolodeangelis/Energy-GNoME
-      branch: main
-      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-committers:
+  #     enabled: true
+  #     repository: paolodeangelis/Energy-GNoME
+  #     branch: main
+  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
 

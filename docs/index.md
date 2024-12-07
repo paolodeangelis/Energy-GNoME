@@ -12,7 +12,7 @@ title: Energy GNoME
 
 # Explore the project
 
-<div class="grid cards" style="max-width: 1150px; margin: 0 auto;" markdown>
+<div class="grid cards" style="max-width: 1000px; margin: 0 auto;" markdown>
 
 - :material-view-dashboard: __Database Dashboards__
 
