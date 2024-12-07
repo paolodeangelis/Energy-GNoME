@@ -1,18 +1,19 @@
 # Database Applications
 
-## Cathode materials
+## :gnome-battery:{.gnome-icon-big} Cathode materials
+
 
 <div class="grid cards" markdown>
 
-- :material-numeric-1-box-outline: __User Guide__
+- :material-book-open-variant: __User Guide__
 
     ---
 
     Check the documentation.
 
-    [:octicons-arrow-right-24: Dashboard user guide](./cathodes/userguide.md){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Dashboard user guide](./cathodes/userguide.md){.wiki-hover}
 
-- :material-numeric-2-box-outline: __Launch Dashboard__
+- :material-view-dashboard: __Launch Dashboard__
 
     ---
 
@@ -23,20 +24,20 @@
 
 </div>
 
-## Perovskite materials
+## :gnome-perovskite:{.gnome-icon-big} Perovskite materials
 
 
 <div class="grid cards" markdown>
 
-- :material-numeric-1-box-outline: __User Guide__
+- :material-book-open-variant: __User Guide__
 
     ---
 
     Check the documentation.
 
-    [:octicons-arrow-right-24: Dashboard user guide](./perovskites/userguide.md){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Dashboard user guide](./perovskites/userguide.md){.wiki-hover}
 
-- :material-numeric-2-box-outline: __Launch Dashboard__
+- :material-view-dashboard: __Launch Dashboard__
 
     ---
 
@@ -48,20 +49,20 @@
 </div>
 
 
-## Thermoelectric materials
+## :gnome-thermoelectrics:{.gnome-icon-big} Thermoelectric materials
 
 
 <div class="grid cards" markdown>
 
-- :material-numeric-1-box-outline: __User Guide__
+- :material-book-open-variant: __User Guide__
 
     ---
 
     Check the documentation.
 
-    [:octicons-arrow-right-24: Dashboard user guide](./thermoelectrics/userguide.md){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Dashboard user guide](./thermoelectrics/userguide.md){.wiki-hover}
 
-- :material-numeric-2-box-outline: __Launch Dashboard__
+- :material-view-dashboard: __Launch Dashboard__
 
     ---
 
@@ -71,11 +72,3 @@
 
 
 </div>
-
-
-
-## Application Features
-
-- 🖥️ Interactive interfaces
-- 🕑 Real-time data processing
-- 💡 Intuitive visualizations

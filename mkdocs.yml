@@ -2,7 +2,7 @@ site_name: Energy-GNoME
 site_url: https://paolodeangelis.github.io/Energy-GNoME/
 site_author: Paolo De Angelis, Giulio Barletta
 site_description: >-
-  AI-Driven Screening and Prediction for Selected Advanced Energy Materials
+  AI-Driven Screening and Prediction for Advanced Energy Materials
 
 repo_name: GitHub
 repo_url: https://github.com/paolodeangelis/Energy-GNoME/
@@ -13,10 +13,13 @@ edit_uri: edit/main/docs/
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/custom/layout/hero.css
+  - stylesheets/custom/tooltipster/tippy.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/wiki_hover.js
 
 theme:
   name: material
@@ -38,7 +41,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: gnome2
+      scheme: gnome
       primary: gnome
       accent: gnome
       toggle:
@@ -85,6 +88,8 @@ theme:
 
   hide:
     # - announce
+watch:
+  - includes
 
 extra:
   homepage: https://paolodeangelis.github.io/Energy-GNoME/
@@ -107,10 +112,19 @@ markdown_extensions:
   - attr_list
   - def_list
   - md_in_html
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      pygments_lang_class: true
+      auto_title: true
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.arithmatex:
@@ -118,7 +132,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+      options:
+        custom_icons:
+          - docs/overrides/.icons
 plugins:
   - search
   # - git-authors
@@ -128,11 +144,11 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  # - git-committers:
-  #     enabled: true
-  #     repository: paolodeangelis/Energy-GNoME
-  #     branch: main
-  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-committers:
+      enabled: true
+      repository: paolodeangelis/Energy-GNoME
+      branch: main
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
 
@@ -155,3 +171,4 @@ nav:
         - Dashboard: apps/thermoelectrics/dashboard.html
   - About the Database: about_db/index.md
   - Contribute: contribute/index.md
+  - How to cite: ./how_to_cite.md
