@@ -14,7 +14,7 @@ title: Energy GNoME
 
 <div class="grid cards" style="max-width: 1000px; margin: 0 auto;" markdown>
 
-- :material-view-dashboard: __Database Dashboards__
+- :material-view-dashboard:{ .lg .middle }  __Database Dashboards__
 
     ---
 
@@ -22,7 +22,7 @@ title: Energy GNoME
 
     [:octicons-arrow-right-24: View the Dashboards](./apps/index.md){ .md-button .md-button--primary }
 
-- :material-book-open-variant: __Documentation__
+- :material-book-open-variant:{ .lg .middle }  __Documentation__
 
     ---
 
@@ -31,7 +31,7 @@ title: Energy GNoME
     [:octicons-arrow-right-24: Read the Documentation](./about_db/index.md){ .md-button .md-button--primary }
 
 
-- :material-hand-heart: __How to Contribute__
+- :material-hand-heart:{ .lg .middle }  __How to Contribute__
 
     ---
 
@@ -39,7 +39,7 @@ title: Energy GNoME
 
     [:octicons-arrow-right-24: How to Contribute ](./contribute/index.md){ .md-button .md-button--primary}
 
-- :material-database: __About the Database__
+- :material-database:{ .lg .middle }  __About the Database__
 
     ---
 

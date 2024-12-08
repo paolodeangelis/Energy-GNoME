@@ -167,11 +167,44 @@
           mask-image: var(--md-admonition-icon--article);
 }
 
-
 .gnome-icon-big {
   /* color: #4d5153; */
   vertical-align: middle!important; /* Align icon vertically with text */
   display: inline-block; /* Ensure it behaves inline with text */
   font-size: 1.35em;
   margin-right: 0.15rem; /* More space */
+}
+
+.people-image {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  filter: grayscale(100%); /* Makes the image grayscale by default */
+  transition: filter 0.3s ease; /* Smooth transition effect */
+  display: block; /* Ensures the image is treated as a block-level element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.people-image:hover {
+  filter: grayscale(0%); /* Restores color when hovered */
+}
+
+.md-footer-madeby {
+  display: flex; /* Use flexbox layout */
+  text-align: center; /* Center the text */
+  /* margin-top: 1rem; Add spacing above the message */
+  align-items: center; /* Center vertically */
+  font-size: 0.66rem; /* Adjust the font size */
+  /* font-style: italic; Optional: Make it italic for a stylistic touch */
+  /* color: #6c757d; Set a subtle gray color */
+  color: var(--md-footer-fg-color--light)
+}
+
+.md-footer-madeby__highlight {
+  color: var(--md-footer-fg-color--light)
+}
+
+html .md-footer-madeby.md-typeset a:focus,html .md-footer-madeby.md-typeset a:hover {
+  color: var(--md-footer-fg-color)
 }

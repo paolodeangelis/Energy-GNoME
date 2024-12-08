@@ -4,6 +4,10 @@ If you find this project valuable, please consider citing the following pre-prin
 
 --8<-- "docs/assets/partial/cite_article.md"
 
+``` bibtex title="energy-gnome.bib"
+--8<-- "assets/cite/energy-gnome.bib"
+```
+
 ## GNoME Database
 
 Additionally, please consider citing the foundational GNoME database work:
