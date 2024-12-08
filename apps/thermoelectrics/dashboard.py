@@ -24,7 +24,7 @@ RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/a
 RTF_FILE = "https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/assets/cite/energy-gnome.rtf"
 ARTICLE_DOI = "10.48550/arXiv.2411.10125"
 ARTICLE_TEXT_CITE = f'De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: <a href="https://doi.org/{ARTICLE_DOI}" target="_blank">{ARTICLE_DOI}</a>.'
-DOC_PAGE = "https://paolodeangelis.github.io/Energy-GNoME/..."
+DOC_PAGE = "https://paolodeangelis.github.io/Energy-GNoME/apps/thermoelectrics/userguide/"
 ACCENT = "#4fc4d3"
 PALETTE = [
     "#50c4d3",
@@ -115,63 +115,98 @@ META = {
     "viewport": f"width={SIDEBAR_W + SIDEBAR_WIDGET_W + PLOT_SIZE[0] + ABOUT_W:d}px, initial-scale=1",
 }
 
-FOOTER = f"""
+FOOTER = r"""
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
-<footer style="color: #777; padding: 0px; text-align: center;
-line-height: 1.0; width: 100%; margin-left: auto; margin-right: auto;">
-    <p style="font-size: 1.2em; margin-top: 0px; margin-bottom: 0.2em;">
-        <a href="https://paolodeangelis.github.io/" style="color: #777;
-        text-decoration: none;" target="_blank" >
-            <i class="ti ti-code"
-            style="vertical-align: middle; font-size: 1.25em;"></i>
-            with
-            <i class="ti ti-heart-filled"
-            style="vertical-align: middle; font-size: 1.25em;"></i>
-            by <strong style="color: #555"
-            onmouseover="this.style.color='{ACCENT}'"
-            onmouseout="this.style.color='#555'">
-            Paolo De Angelis
-            </strong>
-        </a>
-    </p>
-    <p style="font-size: 0.85em; margin-top: 0px">
-        Made entirely with OSS packages:
-        <a href="https://panel.holoviz.org/"
-        style="color: #555; text-decoration: none;"
-        target="_blank"
-        onmouseover="this.style.color='{ACCENT}'"
-        onmouseout="this.style.color='#555'">
-        <strong>Panel</strong>
-        </a>,
-        <a href="https://holoviews.org/"
-        style="color: #555; text-decoration: none;"
-        target="_blank" onmouseover="this.style.color='{ACCENT}'"
-        onmouseout="this.style.color='#555'">
-        <strong>Holoviews</strong>
-        </a>,
-        <a href="https://bokeh.org/"
-        style="color: #555; text-decoration: none;"
-        target="_blank"
-        onmouseover="this.style.color='{ACCENT}'"
-        onmouseout="this.style.color='#555'">
-        <strong>Bokeh</strong>
-        </a>,
-        <a href="https://pandas.pydata.org/"
-        style="color: #555; text-decoration: none;" target="_blank"
-        onmouseover="this.style.color='{ACCENT}'"
-        onmouseout="this.style.color='#555'">
-        <strong>Pandas</strong>
-        </a>,
-        <a href="https://numpy.org/"
-        style="color: #555; text-decoration: none;" target="_blank"
-        onmouseover="this.style.color='{ACCENT}'"
-        onmouseout="this.style.color='#555'">
-        <strong>Numpy</strong>
-        </a>.
-    </p>
 
+<style>
+    .app-footer-meta {
+        display: flex; /* Use Flexbox layout */
+        justify-content: space-between; /* Align items to left, center, and right */
+        align-items: center; /* Center items vertically */
+        gap: 1rem; /* Add space between items */
+        flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    }
+
+    .app-copyright {
+        flex: 0 0 auto; /* Fixed size, do not grow or shrink */
+        min-width: 120px; /* Ensure enough space */
+        text-align: left; /* Align text to the left */
+    }
+
+    .app-footer-madeby {
+        flex: 1 1 auto; /* Flexible: takes remaining space */
+        text-align: center; /* Center text within this section */
+    }
+
+    .app-social {
+        flex: 0 0 auto; /* Fixed size, do not grow or shrink */
+        min-width: 120px; /* Ensure enough space */
+        text-align: right; /* Align text to the right */
+        display: inline-flex; /* Align social icons horizontally */
+        gap: 0.5rem; /* Add space between icons */
+    }
+
+</style>
+
+<footer class="app-footer" style="color: #5a5a5a; text-decoration: none;">
+    <div class="app-footer-meta">
+        <div class="app-copyright">
+            Copyright &copy; 2024 <a href="https://areeweb.polito.it/ricerca/small/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'"> Small Lab </a>
+         </div>
+
+        <div class="app-footer-madeby" >
+            <p>
+                <i class="ti ti-code"
+                style="vertical-align: middle; font-size: 1.25em;"></i>
+                with
+                <i class="ti ti-heart-filled"
+                style="vertical-align: middle; font-size: 1.25em;"></i>
+                by
+                <a href="https://paolodeangelis.github.io/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong >
+                    PDA
+                    </strong>
+                </a>
+                &
+                <a href="https://giuliobarl.github.io/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong >
+                    GB
+                    </strong>
+                </a>
+                <br>
+                    Made entirely with OSS packages:
+                    <a href="https://panel.holoviz.org/" target="_blank"target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong>Panel</strong>
+                    </a>,
+                    <a href="https://holoviews.org/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong>Holoviews</strong>
+                    </a>,
+                    <a href="https://bokeh.org/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong>Bokeh</strong>
+                    </a>,
+                    <a href="https://pandas.pydata.org/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong>Pandas</strong>
+                    </a>,
+                    <a href="https://numpy.org/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <strong>Numpy</strong>
+                    </a>.
+                </p>
+            </div>
+            <div class="app-social">
+                <a href="https://github.com/paolodeangelis/Energy-GNoME/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://x.com/small_polito" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/small-lab/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+             </div>
+        </div>
 </footer>
 """
 
@@ -862,6 +897,7 @@ pn.template.FastListTemplate(
     meta_viewport=META["viewport"],
     meta_keywords=META["keywords"],
     meta_description=META["description"],
+    theme_toggle=False,  # not working once static
     sidebar=[box_select_temps, divider_sb, controls_tabs_intro, controls_tabs],
     main=[
         pn.Row(plot, about_box),
