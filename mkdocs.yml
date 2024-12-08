@@ -74,7 +74,7 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.indexes
-    # - navigation.footer
+    - navigation.footer
     - toc.follow
     # - toc.integrate
     - content.action.edit
@@ -99,10 +99,12 @@ extra:
     new: Recently added
     deprecated: Deprecated
   social:
+    - icon: extra/SMaLL_logo_small
+      link: https://www.polito.it/small/
+    - icon: extra/PoliTO_logo
+      link: https://www.polito.it/
     - icon: fontawesome/brands/github
       link: https://github.com/paolodeangelis/Energy-GNoME/
-    - icon: fontawesome/solid/globe
-      link: https://www.polito.it/small/
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/small_polito
     - icon: fontawesome/brands/linkedin
@@ -117,6 +119,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.blocks.caption
   - pymdownx.highlight:
       use_pygments: true
       anchor_linenums: true
@@ -127,6 +130,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+        - includes/important_links.md
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.arithmatex:
@@ -139,6 +143,7 @@ markdown_extensions:
           - docs/overrides/.icons
 plugins:
   - search
+  # - glightbox
   # - git-authors
   - git-revision-date-localized:
       type: timeago
@@ -146,22 +151,19 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  # - git-committers:
-  #     enabled: true
-  #     repository: paolodeangelis/Energy-GNoME
-  #     branch: main
-  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-committers:
+      enabled: true
+      repository: paolodeangelis/Energy-GNoME
+      branch: main
+      # token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
 
 
 nav:
   - Home: index.md
-  - Documentation:
-    - Overview: docs/index.md
-    - More Sections...: docs/details.md
-  - Dashboard:
-    - Overview: apps/index.md
+  - Dashboards:
+    - Database Dashboards: apps/index.md
     - Cathodes:
         - User guide: apps/cathodes/userguide.md
         - Dashboard: apps/cathodes/dashboard.html
@@ -172,5 +174,8 @@ nav:
         - User guide: apps/thermoelectrics/userguide.md
         - Dashboard: apps/thermoelectrics/dashboard.html
   - About the Database: about_db/index.md
+  - Documentation:
+    - Overview: docs/index.md
+    - More Sections...: docs/details.md
   - Contribute: contribute/index.md
   - How to cite: ./how_to_cite.md

@@ -1,7 +1,18 @@
 .tippy {
-    overflow: hidden !important;
+    overflow-y: auto; /* Overlay scrollbar on top of the content */
+    /* max-height: 300px; Set a maximum height */
     height: auto; /* Automatically adjust to content height */
     border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and borders are included */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: var(--md-primary-fg-color) rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* Ensure hover state keeps the tooltip visible */
+.tippy-box:hover {
+    opacity: 1.0 !important;
 }
 
 .tippy h1{
@@ -42,21 +53,41 @@
     margin-block-end: 0.75em;
 }
 
+.tippy ul{
+    font-size: 0.65rem;
+    line-height: 1.3; /* Reduced line height */
+    margin-block-start: 0.75em;
+    margin-block-end: 0.75em;
+}
+
 [data-md-color-scheme="gnome"] .tippy {
     border: 1px solid whitesmoke;
-    opacity: 0.92 !important;
+    scrollbar-color: var(--md-primary-fg-color) var(--md-default-bg-color);
+    opacity: 0.95 !important;
 }
 
 [data-md-color-scheme="slate"] .tippy {
     border: 1px solid var(--md-default-fg-color--lightest);
-    opacity: 0.92 !important;
+    scrollbar-color: var(--md-default-fg-color) var(--md-default-bg-color);
+    opacity: 0.95 !important;
 }
 
 [data-theme~='translucent'] {
     background-color: var(--md-default-bg-color) !important;
-    opacity: 0.92 !important;
+    opacity: 0.95 !important;
 }
 
 [data-md-color-scheme="gnome"] .tippy-box * {
     color: var(--md-default-fg-color);
+}
+
+
+.tippy::-webkit-scrollbar {
+    width: 8px; /* Thin scrollbar */
+    margin: 0;
+}
+
+
+.tippy::-webkit-scrollbar-track {
+    opacity: 0.95 !important;
 }
