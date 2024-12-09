@@ -59,8 +59,6 @@ title: Energy GNoME
 --8<-- "docs/assets/partial/dp_cardinality.md"
 </div>
 
-
-
 # How to cite
 
 --8<-- "docs/how_to_cite.md"

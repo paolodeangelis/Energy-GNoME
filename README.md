@@ -95,7 +95,24 @@ Additional articles to cite:
 
     > Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
 
+## Project Status
 
+- [x] Databases:
+    - [X] Cathodes
+    - [x] Perovskites
+    - [x] Thermoelectrics
+- [x] Dashboards
+    - [x] Cathodes
+    - [x] Perovskites
+    - [x] Thermoelectrics
+- [ ] `energy-gnome` python library
+    - [ ] Data handlers Objects
+    - [ ] Model handlers Objects
+    - [ ] CLI `e-gnome`
+- [ ] `jupyter` notebooks tutorials
+    - [ ] Cathodes
+    - [ ] Perovskites
+    - [ ] Thermoelectrics
 
 ## Project Organization
 

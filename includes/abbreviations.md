@@ -7,3 +7,4 @@
 *[GNoMEs]: Graph Networks for Materials Exploration
 *[AI]: Artificial Intelligent
 *[MP]: Materials Project
+*[CLI]: Command Line Interface

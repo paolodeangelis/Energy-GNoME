@@ -152,11 +152,11 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  # - git-committers:
-  #     enabled: true
-  #     repository: paolodeangelis/Energy-GNoME
-  #     branch: main
-  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-committers:
+      enabled: true
+      repository: paolodeangelis/Energy-GNoME
+      branch: main
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
   - mkdocstrings:
@@ -187,7 +187,9 @@ nav:
   - Documentation:
     - Overview: docs/index.md
     - Getting started: docs/getting-started.md
+    - CLI: docs/cli.md
     - Modules:
         - Datasets: docs/modules/dataset.md
   - Contribute: contribute/index.md
   - How to cite: ./how_to_cite.md
+  - Status: ./status.md
