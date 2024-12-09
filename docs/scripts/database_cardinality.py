@@ -41,7 +41,7 @@ for db_name, db_link in zip(DB, DB_LINK):
         + "|"
         + f" {n_unique} ".ljust(20)
         + "|"
-        + f"[:octicons-arrow-right-24: Explore {db_name.capitalize()} :material-database:]({db_link}l) "
+        + f"[:octicons-arrow-right-24: Explore {db_name.capitalize()} :material-database:]({db_link}) "
         + "\n"
     )
 

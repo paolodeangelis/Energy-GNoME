@@ -6,6 +6,10 @@ The process combines machine learning (ML) techniques with an iterative active l
 <div style="text-align: center;" markdown>
 --8<-- "docs/assets/partial/dp_cardinality.md"
 </div>
+/// table-caption | <
+    attrs: {id: tab_db_size}
+Databases sizes[^1]
+///
 
 ## Protocol overview
 

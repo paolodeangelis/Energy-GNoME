@@ -1,17 +1,26 @@
-# Energy-GNoME
 
+<h1 align="center"> Energy-GNoME </h1>
+<p align="center">
+  <a href="https://squidfunk.github.io/mkdocs-material/">
+    <img src="https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/logo.png" width="250" alt="Material for MkDocs">
+  </a>
+</p>
+
+<p align="center">
+  <strong>
+    AI-Driven Screening and Prediction for Selected <a href="https://paolodeangelis.github.io/Energy-GNoME">Advanced Energy Materials</a>
+  </strong>
+</p>
+
+<p align="center">
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 <a target="_blank" href="https://github.com/paolodeangelis/Energy-GNoME/actions/workflows/deploy.yaml">
     <img src="https://github.com/paolodeangelis/Energy-GNoME/actions/workflows/deploy.yaml/badge.svg?branch=main" />
 </a>
+</p>
 
-
-
-(c) Paolo De Angelis, Giulio Barletta
-
-AI-Driven Screening and Prediction for Selected Advanced Energy Materials
 
 ## Project Organization
 
