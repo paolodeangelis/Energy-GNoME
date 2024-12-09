@@ -1,9 +1,6 @@
-# Energy-GNoME documentation!
+# Energy-GNoME Python Library
 
-## Description
+Along with the database, we plan to release the full Python library to ensure complete reproducibility and facilitate the continuous integration of new training data.
 
-AI-Driven Screening and Prediction for Selected Advanced Energy Materials
-
-## Commands
-
-The Makefile contains the central entry points for common tasks related to this project.
+![Coming Soon](../assets/img/coming_soon_light.png#only-light)
+![Coming Soon](../assets/img/coming_soon_dark.png#only-dark)
