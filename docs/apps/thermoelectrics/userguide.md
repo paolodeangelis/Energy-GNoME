@@ -1,22 +1,20 @@
 # How to use the *Thermoelectric* materials dashboard
 
-<div class="grid cards" markdown>
-
 The *Thermoelectric* materials dashboard empowers you to explore candidate **thermoelectric** materials from the Energy-GNoME database. This interactive tool enables detailed filtering, ranking, and analysis of materials based on their properties and AI-predicted metrics.
 
-</div>
-
-<div class="grid cards" markdown>
-
 ![Web page](../../assets/img/thermoelectrics/webpage.jpeg)
-
-</div>
-
-<div class="grid cards" markdown>
+/// figure-caption
+    attrs: {id: fig_dashboard_overview}
+Thermoelectric dashboard overview
+///
 
 Below is a description of its key features and functionality.
 
-</div>
+!!! warning
+    ![Loading wheel](../../assets/img/etc/loading_wheel.gif){align=right width="50px"}
+    This app was developed using the [`panel`](https://panel.holoviz.org) Python library and converted into a WebAssembly app using [`pyodide`](https://pyodide.org). It is hosted as a free service on [GitHub Pages](https://pages.github.com).
+
+    As a result, interactions with the dashboard may involve some latency due to local calculations. It is recommended to wait for the loading wheel in the top-right corner to complete before proceeding with further filters or calculations on the database.
 
 ## 1. Interactive Sidebar for Working Temperature Selection, Filtering, and Ranking
 

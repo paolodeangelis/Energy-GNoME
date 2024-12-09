@@ -12,7 +12,7 @@ Our future plans include the release of a [Python library](../docs/index.md){.wi
 
 This library aims to ensure full reproducibility of the protocol while supporting the ongoing integration of new data into the training set, whether derived from experiments or *ab initio* simulations.
 
-For now, if you would like to explore or leverage Energy-GNoME, please feel free to contact us directly.
+For now, if you would like to try to use new data for the training and/or screening of Energy-GNoME, please feel free to contact us directly.
 
 <div class="grid cards" markdown>
 
