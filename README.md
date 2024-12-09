@@ -48,7 +48,6 @@
 </p>
 <p align="center">
 <a target="_blank" href="https://doi.org/10.5281/zenodo.14338533"><img src="https://zenodo.org/badge/858064778.svg" alt="DOI"></a>
-
 </p>
 
 This repository contains the database, documentation, Python library (coming soon), and notebooks used to build the Energy-GNoME database.
@@ -62,8 +61,9 @@ For further details, refer to the associated article:
 
 ## How to cite
 
-!!! article-main "Preprint"
-    De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: [10.48550/arXiv.2411.10125](https://doi.org/10.48550/arXiv.2411.10125).
+If you find this project valuable, please consider citing the following pre-print work:
+
+> De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: [10.48550/arXiv.2411.10125](https://doi.org/10.48550/arXiv.2411.10125).
 
 
 ```bibtex
@@ -89,13 +89,11 @@ Additional articles to cite:
 
 - **GNoME Database:** Additionally, please consider citing the foundational GNoME database work:
 
-    !!! article "GNoME"
-        Merchant, A., Batzner, S., Schoenholz, S.S. *et al.* "Scaling deep learning for materials discovery". *Nature* 624, 80-85, **2023**. doi: [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9).
+    > Merchant, A., Batzner, S., Schoenholz, S.S. *et al.* "Scaling deep learning for materials discovery". *Nature* 624, 80-85, **2023**. doi: [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9).
 
 - **E(3)NN Model**: And the E(3)NN Graph Neural Network model
 
-    !!! article "E(3)NN"
-        Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
+    > Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
 
 
 
