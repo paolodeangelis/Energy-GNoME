@@ -67,9 +67,9 @@ COLUMNS = [
 HOVER_COL = [
     ("Material Id", "@{Material Id}"),
     ("Formula", "@{Formula}"),
-    ("Formation Energy (eV/atom)", "@{Formation Energy (eV/atom)}{0.2f}"),
-    ("Average zT (-)", "@{Average zT (-)}{0.2f}"),
-    ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
+    ("Formation Energy", "@{Formation Energy (eV/atom)}{0.2f} (eV/atom)"),
+    ("Average zT", "@{Average zT (-)}{0.2f}"),
+    ("AI-experts confidence", "@{AI-experts confidence (-)}{0.2f}"),
 ]
 COLUMNS_ACTIVE = [
     "Material Id",

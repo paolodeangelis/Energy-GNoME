@@ -6,3 +6,4 @@
 *[GNoME]: Graph Networks for Materials Exploration
 *[GNoMEs]: Graph Networks for Materials Exploration
 *[AI]: Artificial Intelligent
+*[MP]: Materials Project

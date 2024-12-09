@@ -66,9 +66,9 @@ COLUMNS = [
 HOVER_COL = [
     ("Material Id", "@{Material Id}"),
     ("Formula", "@{Formula}"),
-    ("Formation Energy (eV/atom)", "@{Formation Energy (eV/atom)}{0.2f}"),
-    ("Average Band Gap (eV)", "@{Average Band Gap (eV)}{0.2f}"),
-    ("AI-experts confidence (-)", "@{AI-experts confidence (-)}{0.2f}"),
+    ("Formation Energy", "@{Formation Energy (eV/atom)}{0.2f} eV/atom"),
+    ("Average Band Gap", "@{Average Band Gap (eV)}{0.2f} eV"),
+    ("AI-experts confidence", "@{AI-experts confidence (-)}{0.2f}"),
 ]
 COLUMNS_ACTIVE = [
     "Material Id",
@@ -347,6 +347,7 @@ def create_range_slider(col: str, name: str = "filter") -> pn.widgets.RangeSlide
     Args:
         col (str): The name of the column to apply the RangeSlider on.
         name (str, optional): The name of the slider widget. Defaults to 'filter'.
+        unit (str, optional): The unit to display with the range values. Defaults to an empty string.
 
     Returns:
         pn.widgets.RangeSlider: A RangeSlider widget initialized with the column's value range.
@@ -354,10 +355,12 @@ def create_range_slider(col: str, name: str = "filter") -> pn.widgets.RangeSlide
     slider = pn.widgets.RangeSlider(
         start=table.value[col].min(),
         end=table.value[col].max(),
+        format="0.00",
         name=name,
         sizing_mode="fixed",
         width=SIDEBAR_WIDGET_W,
     )
+
     return slider
 
 
@@ -707,49 +710,60 @@ w_property7_help = pn.widgets.TooltipIcon(
 weights["AI-experts confidence (deviation) (-)"] = w_property7
 weights_helper["AI-experts confidence (deviation) (-)"] = w_property7_help
 
+
 # (2) Widget SIDEBAR : properties range
 sliders = {}
 sliders_helper = {}
+
 # Property 1
-s_property1 = create_range_slider("Average Band Gap (eV)", "Average Band Gap (eV)")
+s_property1 = create_range_slider(col="Average Band Gap (eV)", name="Average Band Gap (eV)")
 s_property1_help = pn.widgets.TooltipIcon(
     value="<b>Average Band Gap (eV)</b>: Average band gap predicted by the ensemble committee of four E3NN models."
 )
 sliders["Average Band Gap (eV)"] = s_property1
 sliders_helper["Average Band Gap (eV)"] = s_property1_help
+
 # Property 2
-s_property2 = create_range_slider("AI-experts confidence (-)", "AI-experts confidence (-)")
+s_property2 = create_range_slider(
+    col="AI-experts confidence (-)", name="AI-experts confidence (-)"
+)
 s_property2_help = pn.widgets.TooltipIcon(
     value="<b>AI-experts confidence (-)</b>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a perovskite."
 )
 sliders["AI-experts confidence (-)"] = s_property2
 sliders_helper["AI-experts confidence (-)"] = s_property2_help
+
 # Property 3
-s_property3 = create_range_slider("Formation Energy (eV/atom)", "Formation Energy (eV/atom)")
+s_property3 = create_range_slider(
+    col="Formation Energy (eV/atom)", name="Formation Energy (eV/atom)"
+)
 s_property3_help = pn.widgets.TooltipIcon(
     value="<b>Formation Energy per Atom (eV/atom)</b>: Measure of the average energy required to form the molecule from its constituent atoms."
 )
 sliders["Formation Energy (eV/atom)"] = s_property3
 sliders_helper["Formation Energy (eV/atom)"] = s_property3_help
+
 # Property 4
 s_property4 = create_range_slider(
-    f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"
+    col=f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})", name=f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"
 )
 s_property4_help = pn.widgets.TooltipIcon(
     value=f"<b>Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})</b>: Three-dimensional space occupied by the molecule."
 )
 sliders[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = s_property4
 sliders_helper[f"Volume ({ANGSTROM_SYMBOL}{CUBE_SYMBOL})"] = s_property4_help
+
 # Property 5
 s_property5 = create_range_slider(
-    f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
-    f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
+    col=f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
+    name=f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)",
 )
 s_property5_help = pn.widgets.TooltipIcon(
     value=f"<b>Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)</b>: Average space per atom within the molecule."
 )
 sliders[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5
 sliders_helper[f"Density ({ANGSTROM_SYMBOL}{CUBE_SYMBOL}/atom)"] = s_property5_help
+
 
 # (3) Widget SIDEBAR: Models selection
 select_models = pn.widgets.MultiChoice(

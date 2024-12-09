@@ -16,7 +16,7 @@ Here, we provide a brief overview of the protocol workflow illustrated in [Figur
 
 ### 1. Defining the Energy Material Region
 
-We hypothesize a high-dimensional feature space where an energy material region $E$ exists, containing materials suitable for specific energy applications. By leveraging existing datasets (e.g., MP database), we identify the intersection $M^E = M \cap E$, forming the initial training set for our models.
+We hypothesize a high-dimensional feature space where an energy material region $E$ exists, containing materials suitable for specific energy applications. By leveraging existing datasets (e.g., [MP][3] database), we identify the intersection $M^E = M \cap E$, forming the initial training set for our models.
 
 ### 2. Two-Phase Workflow
 
@@ -28,9 +28,9 @@ The protocol comprises two phases:
 #### Training Phase
 
 - **Data Preparation:** The specialized energy database $M^E$ serves as the training set. Missing structural information leads to a conditional split:
-  - **Structure Pipeline:** Graph-based representation, thus regressor use the E(3)NN models.
-  - **Composition Pipeline:** Chemical descriptor-based representation, thus regressor use the GBDT models.
-- **AI-Experts (Screening Models):** A committee of binary GBDT classifiers learns to identify materials similar to $M^E$ by delineating the boundary of $E$.
+  - **Structure Pipeline:** Graph-based representation, regressors use the E(3)NN models.
+  - **Composition Pipeline:** Chemical descriptors-based representation, regressors use the GBDT models.
+- **AI-Experts (Screening Models):** A committee of binary GBDT classifiers learns to identify materials similar to those in $M^E$ by delineating the boundary of $E$.
 
 #### Prediction Phase
 
