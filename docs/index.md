@@ -52,6 +52,14 @@ title: Energy GNoME
 
 <!-- [test1](./contribute/index.md){.wiki-hover} a lot of words... a lot of words... [test2](./apps/index.md){.wiki-hover} a lot of words... a lot of words... [test3](./apps/index.md#cathode-materials){.wiki-hover} a lot of words... a lot of words... [test4](./apps/cathodes/userguide.md){.wiki-hover} -->
 
+# Database sizes[^1]
+
+<div style="text-align: center;" markdown>
+--8<-- "docs/assets/partial/dp_cardinality.md"
+</div>
+
+
+
 # How to cite
 
 --8<-- "docs/how_to_cite.md"
