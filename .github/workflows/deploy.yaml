@@ -36,11 +36,15 @@ jobs:
       - name: Install dependencies MkDocs
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs "mkdocs-material[imaging]" mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin  mkdocs-git-committers-plugin-2 mkdocs-git-authors-plugin mkdocs-glightbox
+          pip install mkdocs "mkdocs-material[imaging]" mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin  mkdocs-git-committers-plugin-2 mkdocs-git-authors-plugin mkdocstrings-python
       
       - name: Install dependencies Apps
         run: |
           pip install -r apps/app-requirements.txt
+
+      - name: Compute DB size
+        run: |
+          python docs/scripts/database_cardinality.py 
       
       - name: Build MkDocs
         run: mkdocs build

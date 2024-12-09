@@ -116,6 +116,7 @@ markdown_extensions:
   - attr_list
   - def_list
   - md_in_html
+  - footnotes
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -151,13 +152,22 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  - git-committers:
-      enabled: true
-      repository: paolodeangelis/Energy-GNoME
-      branch: main
-      # token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-committers:
+  #     enabled: true
+  #     repository: paolodeangelis/Energy-GNoME
+  #     branch: main
+  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
+  - mkdocstrings:
+      default_handler: python
+      docstring_style: google
+      handlers:
+        python:
+          options:
+            show_root_heading: true
+            show_root_toc_entry: true
+
 
 
 nav:
@@ -176,6 +186,8 @@ nav:
   - About the Database: about_db/index.md
   - Documentation:
     - Overview: docs/index.md
-    - More Sections...: docs/details.md
+    - Getting started: docs/getting-started.md
+    - Modules:
+        - Datasets: docs/modules/dataset.md
   - Contribute: contribute/index.md
   - How to cite: ./how_to_cite.md

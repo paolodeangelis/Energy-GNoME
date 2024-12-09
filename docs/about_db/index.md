@@ -3,14 +3,18 @@
 The Energy-GNoME database was developed to identify and predict materials suitable for energy applications, such as thermoelectrics, cathodes, and perovskites.
 The process combines machine learning (ML) techniques with an iterative active learning approach, enabling continuous integration and refinement.
 
+<div style="text-align: center;" markdown>
+--8<-- "docs/assets/partial/dp_cardinality.md"
+</div>
+
+## Protocol overview
+
 ![Workflow](../assets/img/about_db/workflow_light.png#only-light)
 ![Workflow](../assets/img/about_db/workflow_dark.png#only-dark)
 /// figure-caption
     attrs: {id: fig_protocol}
 Protocol workflow
 ///
-
-## Protocol overview
 
 Here, we provide a brief overview of the protocol workflow illustrated in [Figure 1](#fig_protocol).
 
