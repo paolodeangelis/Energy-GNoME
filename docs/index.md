@@ -53,6 +53,7 @@ title: Energy GNoME
 <!-- [test1](./contribute/index.md){.wiki-hover} a lot of words... a lot of words... [test2](./apps/index.md){.wiki-hover} a lot of words... a lot of words... [test3](./apps/index.md#cathode-materials){.wiki-hover} a lot of words... a lot of words... [test4](./apps/cathodes/userguide.md){.wiki-hover} -->
 
 # Database sizes[^1]
+<a target="_blank" href="https://doi.org/10.5281/zenodo.14338533"><img src="https://zenodo.org/badge/858064778.svg" alt="DOI"></a>
 
 <div style="text-align: center;" markdown>
 --8<-- "docs/assets/partial/dp_cardinality.md"

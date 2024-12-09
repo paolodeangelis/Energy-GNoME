@@ -8,6 +8,17 @@ If you find this project valuable, please consider citing the following pre-prin
 --8<-- "assets/cite/energy-gnome.bib"
 ```
 
+## Energy-GNoME database
+
+Consider, also, to cite the Energy-GNoME database:
+
+!!! article-main "Database"
+    De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME". *Zenodo* **2024**. doi: [10.5281/ZENODO.14338533](https://doi.org/10.5281/ZENODO.14338533).
+
+``` bibtex title="energy-gnome.bib"
+--8<-- "assets/cite/energy-gnome-db.bib"
+```
+
 ## GNoME Database
 
 Additionally, please consider citing the foundational GNoME database work:

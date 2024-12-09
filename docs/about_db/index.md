@@ -1,4 +1,5 @@
 # About the Database
+<a target="_blank" href="https://doi.org/10.5281/zenodo.14338533"><img src="https://zenodo.org/badge/858064778.svg" alt="DOI"></a>
 
 The Energy-GNoME database was developed to identify and predict materials suitable for energy applications, such as thermoelectrics, cathodes, and perovskites.
 The process combines machine learning (ML) techniques with an iterative active learning approach, enabling continuous integration and refinement.
