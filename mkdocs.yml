@@ -2,7 +2,7 @@ site_name: Energy-GNoME
 site_url: https://paolodeangelis.github.io/Energy-GNoME/
 site_author: Paolo De Angelis, Giulio Barletta
 site_description: >-
-  AI-Driven Screening and Prediction for Selected Advanced Energy Materials
+  AI-Driven Screening and Prediction for Advanced Energy Materials
 
 repo_name: GitHub
 repo_url: https://github.com/paolodeangelis/Energy-GNoME/
@@ -13,10 +13,15 @@ edit_uri: edit/main/docs/
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/custom/layout/hero.css
+  - stylesheets/custom/layout/down_arrow.css
+  - stylesheets/custom/tooltipster/tippy.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/wiki_hover.js
+  - javascripts/down_arrow.js
 
 theme:
   name: material
@@ -38,7 +43,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: gnome2
+      scheme: gnome
       primary: gnome
       accent: gnome
       toggle:
@@ -56,11 +61,11 @@ theme:
         # icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.instant.preview
-    - navigation.sections
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.instant.preview
+    # - navigation.sections
     # - navigation.expand
     - navigation.top
     - navigation.tabs
@@ -69,7 +74,7 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.indexes
-    # - navigation.footer
+    - navigation.footer
     - toc.follow
     # - toc.integrate
     - content.action.edit
@@ -85,6 +90,8 @@ theme:
 
   hide:
     # - announce
+watch:
+  - includes
 
 extra:
   homepage: https://paolodeangelis.github.io/Energy-GNoME/
@@ -92,10 +99,12 @@ extra:
     new: Recently added
     deprecated: Deprecated
   social:
+    - icon: extra/SMaLL_logo_small
+      link: https://www.polito.it/small/
+    - icon: extra/PoliTO_logo
+      link: https://www.polito.it/
     - icon: fontawesome/brands/github
       link: https://github.com/paolodeangelis/Energy-GNoME/
-    - icon: fontawesome/solid/globe
-      link: https://www.polito.it/small/
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/small_polito
     - icon: fontawesome/brands/linkedin
@@ -107,10 +116,21 @@ markdown_extensions:
   - attr_list
   - def_list
   - md_in_html
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      pygments_lang_class: true
+      auto_title: true
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+        - includes/important_links.md
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.arithmatex:
@@ -118,9 +138,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+      options:
+        custom_icons:
+          - docs/overrides/.icons
 plugins:
   - search
+  # - glightbox
   # - git-authors
   - git-revision-date-localized:
       type: timeago
@@ -128,22 +151,19 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-  # - git-committers:
-  #     enabled: true
-  #     repository: paolodeangelis/Energy-GNoME
-  #     branch: main
-  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-committers:
+      enabled: true
+      repository: paolodeangelis/Energy-GNoME
+      branch: main
+      # token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
 
 
 nav:
   - Home: index.md
-  - Documentation:
-    - Overview: docs/index.md
-    - More Sections...: docs/details.md
-  - Dashboard:
-    - Overview: apps/index.md
+  - Dashboards:
+    - Database Dashboards: apps/index.md
     - Cathodes:
         - User guide: apps/cathodes/userguide.md
         - Dashboard: apps/cathodes/dashboard.html
@@ -154,4 +174,8 @@ nav:
         - User guide: apps/thermoelectrics/userguide.md
         - Dashboard: apps/thermoelectrics/dashboard.html
   - About the Database: about_db/index.md
+  - Documentation:
+    - Overview: docs/index.md
+    - More Sections...: docs/details.md
   - Contribute: contribute/index.md
+  - How to cite: ./how_to_cite.md

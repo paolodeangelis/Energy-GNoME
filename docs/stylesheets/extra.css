@@ -5,11 +5,11 @@
     --md-primary-fg-color--dark: #1b9cad;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: #ffffffb3;
-    --md-hue: 225deg;
-    --md-default-fg-color: #000000de;
-    --md-default-fg-color--light: #0000008a;
-    --md-default-fg-color--lighter: #00000052;
-    --md-default-fg-color--lightest: #00000012;
+    --md-hue: 0;
+    --md-default-fg-color: hsla(var(--md-hue),0%,0%,0.9);
+    --md-default-fg-color--light: hsla(var(--md-hue),0%,0%,0.6);
+    --md-default-fg-color--lighter: hsla(var(--md-hue),0%,0%,0.4);
+    --md-default-fg-color--lightest: hsla(var(--md-hue),0%,0%,0.15);
     --md-default-bg-color: #fff;
     --md-default-bg-color--light: #ffffffb3;
     --md-default-bg-color--lighter: #ffffff4d;
@@ -56,10 +56,10 @@
 
   [data-md-color-scheme=slate] {
     --md-hue: 210;
-    --md-default-fg-color: hsla(var(--md-hue),15%,90%,0.82);
-    --md-default-fg-color--light: hsla(var(--md-hue),15%,90%,0.56);
-    --md-default-fg-color--lighter: hsla(var(--md-hue),15%,90%,0.32);
-    --md-default-fg-color--lightest: hsla(var(--md-hue),15%,90%,0.12);
+    --md-default-fg-color: hsla(var(--md-hue),15%,90%,0.9);
+    --md-default-fg-color--light: hsla(var(--md-hue),15%,90%,0.6);
+    --md-default-fg-color--lighter: hsla(var(--md-hue),15%,90%,0.4);
+    --md-default-fg-color--lightest: hsla(var(--md-hue),15%,90%,0.15);
     --md-default-bg-color: hsla(var(--md-hue),15%,14%,1);
     --md-default-bg-color--light: hsla(var(--md-hue),15%,14%,0.54);
     --md-default-bg-color--lighter: hsla(var(--md-hue),15%,14%,0.26);
@@ -119,4 +119,92 @@
     --md-primary-fg-color--dark: #27a0bb;
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: #ffffffb3
+}
+
+[data-md-color-scheme="gnome"] img[src$="#only-dark"],
+[data-md-color-scheme="gnome"] img[src$="#gh-dark-mode-only"] {
+  display: none; /* Hide dark images in light mode */
+}
+
+[data-md-color-scheme="slate"] img[src$="#only-light"],
+[data-md-color-scheme="slate"] img[src$="#gh-light-mode-only"] {
+  display: none; /* Hide light images in dark mode */
+}
+
+:root {
+  --md-admonition-icon--article-main: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8h-64c-35.3 0-64-28.7-64-64v-64c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v136m-256 0c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64v-64c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v136"/></svg>')
+}
+.md-typeset .admonition.article-main,
+.md-typeset details.article-main {
+  border-color: #4fc4d3;
+}
+.md-typeset .article-main > .admonition-title,
+.md-typeset .article-main > summary {
+  background-color: rgba(79, 195, 211, 0.30);
+}
+.md-typeset .article-main > .admonition-title::before,
+.md-typeset .article-main > summary::before {
+  background-color: #4fc4d3;
+  -webkit-mask-image: var(--md-admonition-icon--article-main);
+          mask-image: var(--md-admonition-icon--article-main);
+}
+
+:root {
+  --md-admonition-icon--article: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8h-64c-35.3 0-64-28.7-64-64v-64c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v136m-256 0c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64v-64c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v136"/></svg>')
+}
+.md-typeset .admonition.article,
+.md-typeset details.article {
+  border-color: #979797;
+}
+.md-typeset .article > .admonition-title,
+.md-typeset .article > summary {
+  background-color: #97979740;
+}
+.md-typeset .article > .admonition-title::before,
+.md-typeset .article > summary::before {
+  background-color: #979797;
+  -webkit-mask-image: var(--md-admonition-icon--article);
+          mask-image: var(--md-admonition-icon--article);
+}
+
+.gnome-icon-big {
+  /* color: #4d5153; */
+  vertical-align: middle!important; /* Align icon vertically with text */
+  display: inline-block; /* Ensure it behaves inline with text */
+  font-size: 1.35em;
+  margin-right: 0.15rem; /* More space */
+}
+
+.people-image {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  filter: grayscale(100%); /* Makes the image grayscale by default */
+  transition: filter 0.3s ease; /* Smooth transition effect */
+  display: block; /* Ensures the image is treated as a block-level element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.people-image:hover {
+  filter: grayscale(0%); /* Restores color when hovered */
+}
+
+.md-footer-madeby {
+  display: flex; /* Use flexbox layout */
+  text-align: center; /* Center the text */
+  /* margin-top: 1rem; Add spacing above the message */
+  align-items: center; /* Center vertically */
+  font-size: 0.66rem; /* Adjust the font size */
+  /* font-style: italic; Optional: Make it italic for a stylistic touch */
+  /* color: #6c757d; Set a subtle gray color */
+  color: var(--md-footer-fg-color--light)
+}
+
+.md-footer-madeby__highlight {
+  color: var(--md-footer-fg-color--light)
+}
+
+html .md-footer-madeby.md-typeset a:focus,html .md-footer-madeby.md-typeset a:hover {
+  color: var(--md-footer-fg-color)
 }

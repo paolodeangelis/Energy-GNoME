@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+
+
+{% block content %}
+<section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+            <img src="./assets/img/illustration-light.png#only-light" alt="Light Mode Illustration" draggable="false">
+            <img src="./assets/img/illustration-dark.png#only-dark" alt="Dark Mode Illustration" draggable="false">
+          </div>
+        <div class="mdx-hero__content">
+          <h1 style="font-size: 4em;">Energy-GNoME</h1>
+          <h2>{{ config.site_description }}.</h2>
+          <a href="./apps" title="Dashboards" class="md-button md-button--primary">
+            Explore the databases
+          </a>
+          <a href="https://arxiv.org/abs/2411.10125" title="Read Preprint" class="md-button" target="_blank">
+            Read the Preprint
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="down-arrow"></div>
+
+{{ super() }}
+{% endblock %}
+{% block footer %}
+{{ super() }}
+{% endblock %}
