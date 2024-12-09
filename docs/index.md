@@ -5,9 +5,9 @@ hide:
   - navigation
   - toc
 title: Energy GNoME
-# social:
-#   cards_layout_options:
-#     title: Documentation that simply works
+social:
+  cards_layout_options:
+    title: A Living Database of Selected Materials for Energy Applications
 ---
 
 # Explore the project

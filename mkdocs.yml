@@ -144,6 +144,9 @@ markdown_extensions:
           - docs/overrides/.icons
 plugins:
   - search
+  - social:
+      cards_layout_options:
+        background_color: "#44cee0"
   # - glightbox
   # - git-authors
   - git-revision-date-localized:
