@@ -20,4 +20,4 @@ Additionally, please consider citing the foundational GNoME database work:
 And the E(3)NN Graph Neural Network model
 
 !!! article "E(3)NN"
-    Batzner, S., Musaelian, A., Sun, L. *et al.* "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials." *Nat Commun* 13, 2453, **2022**. [10.1038/s41467-022-29939-5](https://doi.org/10.1038/s41467-022-29939-5)
+    Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
