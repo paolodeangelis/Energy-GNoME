@@ -45,6 +45,11 @@
     <img src="https://github.com/paolodeangelis/Energy-GNoME/actions/workflows/deploy.yaml/badge.svg?branch=main" />
 </a>
 </p>
+</p>
+<p align="center">
+<a target="_blank" href="https://doi.org/10.5281/zenodo.14338533"><img src="https://zenodo.org/badge/858064778.svg" alt="DOI"></a>
+
+</p>
 
 This repository contains the database, documentation, Python library (coming soon), and notebooks used to build the Energy-GNoME database.
 
