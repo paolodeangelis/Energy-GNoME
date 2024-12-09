@@ -35,7 +35,7 @@ For now, if you would like to explore or leverage Energy-GNoME, please feel free
      ![Giovanni Trezza](../assets/img/people/gtrezza.jpg){.people-image}
 
     * :fontawesome-solid-circle-arrow-right: : Postdoc
-    * :fontawesome-solid-envelope: : [giovanni.trezza@polito.it](giovanni.trezza@polito.it)
+    * :fontawesome-solid-envelope: : [giovanni.trezza@polito.it](mailto:giovanni.trezza@polito.it)
     * :material-web: : [polito.it/giovanni.trezza](https://www.polito.it/personale?p=giovanni.trezza)
     * :fontawesome-brands-github: : [giotre](https://github.com/giotre)
 
