@@ -1,8 +1,8 @@
 
 <h1 align="center"> Energy-GNoME </h1>
 <p align="center">
-  <a href="https://squidfunk.github.io/mkdocs-material/">
-    <img src="https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/logo.png" width="250" alt="Material for MkDocs">
+  <a href="https://paolodeangelis.github.io/Energy-GNoME">
+    <img src="https://raw.githubusercontent.com/paolodeangelis/Energy-GNoME/main/docs/assets/img/logo.png" width="250" alt="Energy-GNoMs">
   </a>
 </p>
 
