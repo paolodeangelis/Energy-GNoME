@@ -60,6 +60,16 @@
     margin-block-end: 0.75em;
 }
 
+.tippy th{
+    font-size: 0.55rem!important;
+    padding: 0.25em 0.3em!important;
+}
+
+.tippy td{
+    font-size: 0.55rem!important;
+    padding: 0.25em 0.3em!important;
+}
+
 [data-md-color-scheme="gnome"] .tippy {
     border: 1px solid whitesmoke;
     scrollbar-color: var(--md-primary-fg-color) var(--md-default-bg-color);
