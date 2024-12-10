@@ -147,8 +147,9 @@ plugins:
   - social:
       cards_layout: default
       cards_layout_options:
-        background_color: "#ffffff"
-        color: "#44cee0"
+        background_color: "#44cee0"
+        # icon
+        # color: "#44cee0"
   # - glightbox
   # - git-authors
   - git-revision-date-localized:
