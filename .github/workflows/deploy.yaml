@@ -55,6 +55,10 @@ jobs:
           panel convert apps/perovskites/dashboard.py --compiled --to pyodide-worker --out site/apps/perovskites/ --requirements apps/app-requirements.txt
           panel convert apps/thermoelectrics/dashboard.py --compiled --to pyodide-worker --out site/apps/thermoelectrics/ --requirements apps/app-requirements.txt
 
+      - name: Update Social cards
+        run: |
+          python docs/scripts/update_social.py 
+      
       - name: List site contents  # Add this step to debug
         run: |
           ls -R site/
