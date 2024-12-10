@@ -203,7 +203,7 @@ def create_test_image(image_path, title, description, site_name="Energy GNoME", 
     title = title or "Untitled"
     wrapped_title = wrap_text(title, title_font, max_title_width)
     # total_title_height = sum(get_text_size(line, title_font)[1] for line in wrapped_title)
-    current_y = 180
+    current_y = 190
     for line in wrapped_title:
         line_width, line_height = get_text_size(line, title_font)
         line_position = (90, current_y)
