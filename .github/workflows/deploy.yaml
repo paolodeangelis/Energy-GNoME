@@ -57,6 +57,7 @@ jobs:
 
       - name: Update Social cards
         run: |
+          pip install BeautifulSoup4
           python docs/scripts/update_social.py 
       
       - name: List site contents  # Add this step to debug
