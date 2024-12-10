@@ -2,7 +2,7 @@ site_name: Energy-GNoME
 site_url: https://paolodeangelis.github.io/Energy-GNoME/
 site_author: Paolo De Angelis, Giulio Barletta
 site_description: >-
-  AI-Driven Screening and Prediction for Advanced Energy Materials
+  A Living Database of Selected Materials for Energy Applications
 
 repo_name: GitHub
 repo_url: https://github.com/paolodeangelis/Energy-GNoME/
@@ -145,8 +145,10 @@ markdown_extensions:
 plugins:
   - search
   - social:
+      cards_layout: default/invert
       cards_layout_options:
-        background_color: "#44cee0"
+        # background_color: "#44cee0"
+        color: "#44cee0"
   # - glightbox
   # - git-authors
   - git-revision-date-localized:
