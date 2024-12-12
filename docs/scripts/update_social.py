@@ -1,4 +1,5 @@
 import os
+import re
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from bs4 import BeautifulSoup
@@ -22,6 +23,16 @@ FONT_REGULAR = f"{ROBOTO_PATH}/Roboto-Regular.ttf"
 TITLE_COLOR = "#ffffff"
 DESCRIPTION_COLOR = "#ffffff"
 SITE_NAME_COLOR = "#ffffff"
+
+
+def clean_markdown(text):
+    """
+    Removes markdown special characters from the text.
+    """
+    if not text:
+        return text
+    # Remove markdown formatting characters: *, **, `
+    return re.sub(r"[*`]+", "", text)
 
 
 def load_meta_social():
@@ -63,7 +74,7 @@ def extract_metadata_from_html(html_file):
             image_path = None
 
         return {
-            "title": title["content"] if title else None,
+            "title": clean_markdown(title["content"] if title else None),
             "description": description["content"] if description else None,
             "image_path": image_path,
         }
@@ -200,10 +211,13 @@ def create_test_image(image_path, title, description, site_name="Energy GNoME", 
     draw.text(site_text_position, site_name, font=site_font, fill=SITE_NAME_COLOR)
 
     # Add the title in the center, wrapped if necessary
-    title = title or "Untitled"
+    title = clean_markdown(title or "Untitled")
     wrapped_title = wrap_text(title, title_font, max_title_width)
-    # total_title_height = sum(get_text_size(line, title_font)[1] for line in wrapped_title)
     current_y = 190
+    N_line = len(wrapped_title)
+    if N_line > 3:
+        title_font = 70
+        wrapped_title = wrap_text(title, title_font, max_title_width)
     for line in wrapped_title:
         line_width, line_height = get_text_size(line, title_font)
         line_position = (90, current_y)
@@ -244,8 +258,8 @@ def process_files():
                 if relative_html_path in meta_social:
                     metadata.update(
                         {
-                            "title": meta_social[relative_html_path].get(
-                                "title", metadata.get("title")
+                            "title": clean_markdown(
+                                meta_social[relative_html_path].get("title", metadata.get("title"))
                             ),
                             "description": meta_social[relative_html_path].get(
                                 "description", metadata.get("description")
