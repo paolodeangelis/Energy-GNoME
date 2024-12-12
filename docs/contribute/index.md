@@ -5,9 +5,9 @@ With iterative rounds of active learning, both regression models and AI-based ex
 
 Our future plans include the release of a [Python library](../docs/index.md){.wiki-hover} that will enable users to:
 
-- Download and process raw data.
-- Repeat the pre-processing steps.
-- Build regressor models (E(3)NN and GBDT).
+- Download and process raw data;
+- Repeat the pre-processing steps;
+- Build regressor models (E(3)NN and GBDT);
 - Train and apply these models for material screening.
 
 This library aims to ensure full reproducibility of the protocol while supporting the ongoing integration of new data into the training set, whether derived from experiments or *ab initio* simulations.

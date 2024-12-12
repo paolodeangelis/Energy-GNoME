@@ -34,10 +34,10 @@ The Interactive Sidebar provides powerful [working temperature selection](#worki
     <div>
         Use sliders to adjust thresholds for key material properties, such as:
         <ul>
-            <li><strong>Average zT (-)</strong>: Average zT predicted by the ensemble committee of four E3NN models. Focus on materials with specific themoelectric properties.</li>
-            <li><strong>AI-Experts Confidence (-)</strong>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as thermoelectric. Filter materials based on the reliability of AI predictions.</li>
-            <li><strong>Formation Energy (eV/atom)</strong>: Measure of the average energy required to form the molecule from its constituent atoms. Identify stable candidates by setting energy ranges.</li>
-            <li><strong>Volume (Å³)</strong>: Filter based on the physical size of materials.</li>
+            <li><strong>Average zT (-)</strong>: Average zT predicted by the ensemble committee of four E3NN models. Focus on materials with specific themoelectric properties;</li>
+            <li><strong>AI-Experts Confidence (-)</strong>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as thermoelectric. Filter materials based on the reliability of AI predictions;</li>
+            <li><strong>Formation Energy (eV/atom)</strong>: Measure of the average energy required to form the molecule from its constituent atoms. Identify stable candidates by setting energy ranges;</li>
+            <li><strong>Volume (Å³)</strong>: Filter based on the physical size of materials;</li>
             <li><strong>Density (Å³/atom)</strong>: Filter based on material density.</li>
         </ul>
     </div>
@@ -79,7 +79,7 @@ The [table](#3-results-table) updates dynamically to reflect the new ranking, en
 The central scatter plot provides a graphical representation of the filtered materials.
 Each data point represents a material, with:
 
-* **X-axis**: AI-Experts Confidence (-).
+* **X-axis**: AI-Experts Confidence (-);
 * **Y-axis**: Average zT (-).
 
 Hovering over a data point will display some key information, including its **Material Id**, **Formula**, **Formation Energy**, **Average zT**, and **AI-Experts Confidence**.
@@ -116,7 +116,7 @@ Links in the **File** column allow you to download the *CIF* files for individua
 
 Once you've refined the dataset using filters and rankings, you can export the results:
 
-* Download table: Save the filtered data as a .CSV file for further analysis in external tools.
+* Download table: Save the filtered data as a .CSV file for further analysis in external tools;
 * CIF files: Download structural data files for specific materials directly from the table.
 
 ## 5. Additional Resources

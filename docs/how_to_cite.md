@@ -8,9 +8,9 @@ If you find this project valuable, please consider citing the following pre-prin
 --8<-- "assets/cite/energy-gnome.bib"
 ```
 
-## Energy-GNoME database
+## Energy-GNoME Database
 
-Consider, also, to cite the Energy-GNoME database:
+When referencing the Energy-GNoME database, please use the following citation:
 
 !!! article-main "Database"
     De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME". *Zenodo* **2024**. doi: [10.5281/ZENODO.14338533](https://doi.org/10.5281/ZENODO.14338533).
@@ -18,6 +18,14 @@ Consider, also, to cite the Energy-GNoME database:
 ``` bibtex title="energy-gnome.bib"
 --8<-- "assets/cite/energy-gnome-db.bib"
 ```
+
+## Bias-Based Screening Method[^a]
+
+Consider, also, to cite the seminal work on cross-domain data bias in materials discovery:
+
+!!! article "Cross-domain data bias"
+    Trezza, G., Chiavazzo, E. "Classification-based detection and quantification of cross-domain data bias in materials discovery". *arXiv*, **2024**, doi: [10.48550/arXiv.2311.09891](https://doi.org/10.48550/arXiv.2311.09891).
+
 
 ## GNoME Database
 
@@ -28,7 +36,10 @@ Additionally, please consider citing the foundational GNoME database work:
 
 ## E(3)NN Model
 
-And the E(3)NN Graph Neural Network model
+If your work involves the E(3)NN Graph Neural Network model, consider citing:
 
 !!! article "E(3)NN"
     Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
+
+
+[^a]: Accepted at ...

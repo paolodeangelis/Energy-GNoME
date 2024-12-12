@@ -143,15 +143,26 @@ markdown_extensions:
         custom_icons:
           - docs/overrides/.icons
 plugins:
+  - blog:
+      blog_dir: blog
+  - tags:
+      tags_file: blog/tags.md
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
   - search
   - social:
       cards_layout: default
       cards_layout_options:
         background_color: "#44cee0"
-        # icon
-        # color: "#44cee0"
-  # - glightbox
-  # - git-authors
+        icon
+        color: "#44cee0"
+  - glightbox
+  - git-authors
   - git-revision-date-localized:
       type: timeago
       timezone: Europe/Rome
@@ -199,3 +210,6 @@ nav:
   - Contribute: contribute/index.md
   - How to cite: ./how_to_cite.md
   - Status: ./status.md
+  - Blog:
+    - blog/index.md
+    - Tags: blog/tags.md
