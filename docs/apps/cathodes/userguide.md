@@ -21,7 +21,7 @@ Below is a description of its key features and functionality.
 
 The Interactive Sidebar provides powerful [working ion selection](#working-ion-selection), [filtering](#property-filters), and [ranking](#ranking-functionality) capabilities. These working ion preferences, filters, and ranking simultaneously apply to both the [scatter plot](#2-scatter-plot-visualization) and the [results table](#3-results-table), allowing you to narrow down the dataset dynamically to materials most relevant to your criteria.
 
-### Working Ion Selection:
+### Working Ion Selection
 <div style="display: flex; align-items: start;">
     <img src="../../../assets/img/cathodes/selector.gif" width="250px" style="margin-right: 15px; object-fit: contain;"/>
     <div>
@@ -35,14 +35,14 @@ The Interactive Sidebar provides powerful [working ion selection](#working-ion-s
     <div>
         Use sliders to adjust thresholds for key material properties, such as:
         <ul>
-            <li><strong>Average Voltage (V)</strong>: Average voltage predicted by the ensemble committee of four E3NN models. Focus on materials with specific electric properties.</li>
-            <li><strong>AI-Experts Confidence (-)</strong>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a cathode material. Filter materials based on the reliability of AI predictions.</li>
-            <li><strong>Max Volume expansion (-)</strong>: Predicted maximum volume expansion ($V_{max}/V_{min}$) of the cathode during discharge, estimated by the ensemble committee of four E3NN models.</li>
-            <li><strong>Stability charge (eV/atom)</strong>: Predicted energy above the hull for the specified charge state.</li>
-            <li><strong>Stability discharge (eV/atom)</strong>: Predicted energy above the hull for the specified discharge state.</li>
-            <li><strong>Volumetric capacity (mAh/L)</strong>: Capacity denisty of the pure cathode material.</li>
-            <li><strong>Gravimetric capacity (mAh/g)</strong>: Specific capacity of the pure cathode material.</li>
-            <li><strong>Volumetric energy (Wh/L)</strong>: Energy denisty of the pure cathode material.</li>
+            <li><strong>Average Voltage (V)</strong>: Average voltage predicted by the ensemble committee of four E3NN models. Focus on materials with specific electric properties;</li>
+            <li><strong>AI-Experts Confidence (-)</strong>: Confidence level of the ensemble committee of ten GBDT models in classifying the material as a cathode material. Filter materials based on the reliability of AI predictions;</li>
+            <li><strong>Max Volume expansion (-)</strong>: Predicted maximum volume expansion ($V_{max}/V_{min}$) of the cathode during discharge, estimated by the ensemble committee of four E3NN models;</li>
+            <li><strong>Stability charge (eV/atom)</strong>: Predicted energy above the hull for the specified charge state;</li>
+            <li><strong>Stability discharge (eV/atom)</strong>: Predicted energy above the hull for the specified discharge state;</li>
+            <li><strong>Volumetric capacity (mAh/L)</strong>: Capacity denisty of the pure cathode material;</li>
+            <li><strong>Gravimetric capacity (mAh/g)</strong>: Specific capacity of the pure cathode material;</li>
+            <li><strong>Volumetric energy (Wh/L)</strong>: Energy denisty of the pure cathode material;</li>
             <li><strong>Gravimetric energy (Wh/kg)</strong>: Specific energy of the pure cathode material.</li>
         </ul>
     </div>
@@ -84,7 +84,7 @@ where:
 * $q_v(x)$ is the predicted volumetric capacity”;
 * $q(x)$ is the predicted “gravimetric capacity”;
 * $e_v(x)$ is the predicted "volumetric energy";
-* $e(x)$ is the predicted "“gravimetric energy";
+* $e(x)$ is the predicted "“gravimetric energy".
 
 
 This way, the ranking score can be tailored according to specific research priorities (e.g., emphasizing voltage over gravimetric capacity).
@@ -97,7 +97,7 @@ The [table](#3-results-table) updates dynamically to reflect the new ranking, en
 The central scatter plot provides a graphical representation of the filtered materials.
 Each data point represents a material, with:
 
-* **X-axis**: Gravimetric capacity (mAh/g).
+* **X-axis**: Gravimetric capacity (mAh/g);
 * **Y-axis**: Average Voltage (V).
 
 Hovering over a data point will display some key information, including its **Material Id**, **Working Ion**, **Average Voltage (V)**, **AI-Experts Confidence**, **Max Volume expansion (-)**, **Volumetric capacity (mAh/L)**, **Gravimetric capacity (mAh/g)**, **Volumetric energy (Wh/L)**, and **Gravimetric energy (Wh/kg)**.
@@ -141,7 +141,7 @@ Links in the **File** column allow you to download the *CIF* files for individua
 
 Once you've refined the dataset using filters and rankings, you can export the results:
 
-* Download table: Save the filtered data as a .CSV file for further analysis in external tools.
+* Download table: Save the filtered data as a .CSV file for further analysis in external tools;
 * CIF files: Download structural data files for specific materials directly from the table.
 
 ## 5. Additional Resources
