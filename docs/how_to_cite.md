@@ -42,4 +42,4 @@ If your work involves the E(3)NN Graph Neural Network model, consider citing:
     Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
 
 
-[^a]: Accepted at ...
+[^a]: Accepted at Journal of Chemical Information and Modeling, **2025**.
