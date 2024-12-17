@@ -19,12 +19,12 @@ When referencing the Energy-GNoME database, please use the following citation:
 --8<-- "assets/cite/energy-gnome-db.bib"
 ```
 
-## Bias-Based Screening Method[^a]
+## Bias-Based Screening Method
 
 Consider, also, to cite the seminal work on cross-domain data bias in materials discovery:
 
 !!! article "Cross-domain data bias"
-    Trezza, G., Chiavazzo, E. "Classification-based detection and quantification of cross-domain data bias in materials discovery". *arXiv*, **2024**, doi: [10.48550/arXiv.2311.09891](https://doi.org/10.48550/arXiv.2311.09891).
+    Trezza, G., Chiavazzo, E. "Classification-based detection and quantification of cross-domain data bias in materials discovery". *Journal of Chemical Information and Modeling*, **2024**, doi: [10.1021/acs.jcim.4c01766](https://doi.org/10.1021/acs.jcim.4c01766).
 
 
 ## GNoME Database
@@ -40,6 +40,3 @@ If your work involves the E(3)NN Graph Neural Network model, consider citing:
 
 !!! article "E(3)NN"
     Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
-
-
-[^a]: Accepted at Journal of Chemical Information and Modeling, **2025**.
