@@ -28,7 +28,7 @@ social:
 
     Explore the documentation for the Python libraries developed in this project, designed to simplify contributions to the database.
 
-    [:octicons-arrow-right-24: Read the Documentation](./about_db/index.md){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Read the Documentation](./docs/index.md){ .md-button .md-button--primary }
 
 
 - :material-hand-heart:{ .lg .middle }  __How to Contribute__
