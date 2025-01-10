@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Viewer: {{MATERIAL_ID}}</title>
+
+    <!-- MkDocs Theme CSS - This will be replaced by your actual theme path -->
+    <link rel="stylesheet" href="{{ base_url }}/css/theme.css">
+
+    <!-- JQuery (needed for JMol) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- JMol -->
+    <script src="https://chemapps.stolaf.edu/jmol/jmol.php?source=2&use=html5"></script>
+
+    <!-- MathJax -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+
+    <!-- Additional styles to complement MkDocs -->
+    <style>
+        /* These styles will override or complement MkDocs styles */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .viewer {
+            border: 1px solid var(--md-default-fg-color--lighter, #ddd);
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .properties {
+            border: 1px solid var(--md-default-fg-color--lighter, #ddd);
+            padding: 20px;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            margin: 0;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid var(--md-default-fg-color--lighter, #ddd);
+        }
+        th {
+            background-color: var(--md-default-bg-color--light, #f5f5f5);
+        }
+    </style>
+</head>
+<body>
+    <!-- MkDocs header will be inserted here -->
+    {{ page.content }}
+
+    <main class="md-main">
+        <div class="md-main__inner md-grid">
+            <div class="md-content">
+                <article class="md-content__inner md-typeset">
+                    <h1>Material Viewer: {{MATERIAL_ID}}</h1>
+
+                    <div class="container">
+                        <div class="viewer">
+                            <div id="jmolApplet0"></div>
+                        </div>
+
+                        <div class="properties">
+                            <h2>Properties</h2>
+                            <table>
+                                <tbody id="propertiesTable">
+                                    <!-- Properties will be inserted here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- MkDocs footer will be inserted here -->
+    {{ page.footer }}
+
+    <script>
+        // Initialize JSmol
+        const Info = {
+            width: 500,
+            height: 500,
+            use: "HTML5",
+            j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s",
+            script: `load "{{CIF_URL}}"; spin on;`
+        };
+
+        // Initialize the JSmol applet
+        Jmol.getApplet("jmolApplet0", Info);
+
+        // Function to load properties
+        async function loadProperties() {
+            const properties = {{PROPERTIES_JSON}};
+            const table = document.getElementById('propertiesTable');
+
+            for (const [key, value] of Object.entries(properties)) {
+                const row = table.insertRow();
+                const keyCell = row.insertCell(0);
+                const valueCell = row.insertCell(1);
+
+                keyCell.textContent = key;
+                valueCell.textContent = value;
+            }
+        }
+
+        // Load properties when the page loads
+        window.onload = loadProperties;
+    </script>
+</body>
+</html>

@@ -277,3 +277,12 @@
     }
 </style>
 {% endblock %}
+
+{% block content %}
+  {% if page.meta.material_viewer %}
+    {% include "material_viewer.html" %}
+    {{ super() }}
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
