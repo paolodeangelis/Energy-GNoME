@@ -3,6 +3,7 @@ import re
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from bs4 import BeautifulSoup
+from tqdm.auto import tqdm
 import yaml
 
 # Configuration
@@ -118,7 +119,7 @@ def update_html_meta(html_file, meta_data):
         # Save updated HTML
         with open(html_file, "w", encoding="utf-8") as f:
             f.write(str(soup))
-        print(f"Updated metadata for {html_file}")
+        # print(f"Updated metadata for {html_file}")
 
     except Exception as e:
         print(f"Warning: Failed to update HTML meta for {html_file} - {e}")
@@ -232,7 +233,7 @@ def create_test_image(image_path, title, description, site_name="Energy GNoME", 
 
     # Save the final image
     background.save(image_path)
-    print(f"Generated social card: {image_path}")
+    # print(f"Generated social card: {image_path}")
 
 
 def process_files():
@@ -243,7 +244,7 @@ def process_files():
     meta_social = load_meta_social()
 
     # Scan HTML files in the site directory
-    for root, _, files in os.walk(BUILD_DIR):
+    for root, _, files in tqdm(list(os.walk(BUILD_DIR)), desc="making social"):
         for file in files:
             if file.endswith(".html"):
                 html_path = os.path.join(root, file)
