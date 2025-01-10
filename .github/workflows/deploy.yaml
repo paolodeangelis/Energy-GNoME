@@ -41,10 +41,18 @@ jobs:
       - name: Install dependencies Apps
         run: |
           pip install -r apps/app-requirements.txt
+      
+      - name: Install dependencies Doc Scripts
+        run: |
+          pip install -r docs/scripts/script-requirements.txt
 
       - name: Compute DB size
         run: |
           python docs/scripts/database_cardinality.py 
+
+      - name: Write Matieals viewer pages
+        run: |
+          python docs/scripts/make_mat_vis.py 
       
       - name: Build MkDocs
         run: mkdocs build
