@@ -55,7 +55,7 @@ jobs:
           python docs/scripts/make_mat_vis.py 
       
       - name: Build MkDocs
-        run: mkdocs build
+        run: mkdocs build -v
       
       - name: Build Panel Apps
         run: |
