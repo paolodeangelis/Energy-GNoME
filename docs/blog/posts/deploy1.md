@@ -34,7 +34,7 @@ The 0.0.2 release of Energy-GNoME is just the beginning. Future updates will inc
 
 We invite **researchers**, **engineers**, and **scientists** to explore Energy-GNoME, contribute data, and join us in shaping the future of energy material discovery. Together, we can build a more sustainable and energy-efficient world.
 
-Stay tuned for updates, and let’s advance material science together with Energy-GNoME!
+Stay tuned for updates, and let's advance material science together with Energy-GNoME!
 
 <div style="text-align: center;" markdown>
 [:octicons-arrow-right-24: Project Status :material-list-status:](../../status.md){ .md-button .md-button--primary }

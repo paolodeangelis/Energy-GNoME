@@ -583,6 +583,8 @@ def main():
     cif_files = get_cif_dict(db_dict)
     social_meta = load_meta_social(meta_social_path)
     for m_id, m_dict in tqdm(cif_files.items(), desc="Making materials pages"):
+        # if m_id not in ['35ca0bcad2', '092187976b', '4ed36f8003', 'ac2022f2d0', 'bd64810b56']:
+        #     continue
         cif_path = m_dict["cif"]
         page_content, chem_formula = make_viewer_gen_info(m_id, cif_path)
 
