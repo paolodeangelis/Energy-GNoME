@@ -669,9 +669,9 @@ def main():
         # update social card meta
         out_html_path = f"materials/{m_id}/index.html"
         social_meta[out_html_path] = {
-            "description": f"id: {m_id}",
-            "img": f"assets/images/social/materials/{m_id}.png",
-            "title": f"Material {chem_formula}",
+            "description": "A Living Database of Selected Materials for Energy Applications",
+            "img": "assets/images/social/materials/material_viewer.png",
+            "title": "Material Detail",
         }
         # save
         out_path = os.path.join(output_folder, m_id + ".md")

@@ -159,7 +159,7 @@ href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icon
 <footer class="app-footer" style="color: #5a5a5a; text-decoration: none;">
     <div class="app-footer-meta">
         <div class="app-copyright">
-            Copyright &copy; 2024 <a href="https://areeweb.polito.it/ricerca/small/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'"> Small Lab </a>
+            Copyright &copy; 2025 <a href="https://areeweb.polito.it/ricerca/small/" target="_blank" style="color: #5a5a5a; text-decoration: none;" onmouseover="this.style.color='#929292'" onmouseout="this.style.color='#5a5a5a'"> Small Lab </a>
          </div>
 
         <div class="app-footer-madeby" >
