@@ -9,6 +9,7 @@ import yaml
 # Configuration
 BUILD_DIR = "site"
 DOCS_DIR = "docs"
+SUBDIR_TO_SKIP = ["overrides", "partial"]
 META_SOCIAL_FILE = os.path.join(DOCS_DIR, "meta_social.yaml")
 ASSETS_DIR = os.path.join(BUILD_DIR, "assets/images/social")
 SITE_PREFIX = "https://paolodeangelis.github.io/Energy-GNoME/"
@@ -246,6 +247,9 @@ def process_files():
     # Scan HTML files in the site directory
     for root, _, files in tqdm(list(os.walk(BUILD_DIR)), desc="making social"):
         for file in files:
+            if any(folder in file.split(os.sep) for folder in SUBDIR_TO_SKIP):
+                print(f"Skipping operation for {file} as it is in one of the excluded subfolders.")
+                continue
             if file.endswith(".html"):
                 html_path = os.path.join(root, file)
 
@@ -286,7 +290,10 @@ def process_files():
 
                 # Create the social card image
                 if img_path:
-                    create_test_image(img_path, metadata["title"], metadata["description"])
+                    try:
+                        create_test_image(img_path, metadata["title"], metadata["description"])
+                    except:  # noqa: E722
+                        print(f"something wrong happen creating image {img_path}")
 
                 # Update meta_social.yaml with final metadata
                 meta_social[relative_html_path] = {
