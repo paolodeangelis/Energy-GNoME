@@ -46,10 +46,22 @@ blog/2024/12/12/first-energy-gnome-release-002/index.html:
   description: A Living Database of Selected Materials for Energy Applications
   img: assets/images/social/blog/posts/deploy1.png
   title: First Energy-GNoME release 0.0.2 - Energy-GNoME
+blog/2025/01/11/introducing-material-specific-web-pages-in-energy-gnome/index.html:
+  description: A Living Database of Selected Materials for Energy Applications
+  img: assets/images/social/blog/posts/material_page.png
+  title: Introducing Material-Specific Web Pages in Energy-GNoME - Energy-GNoME
 blog/archive/2024/index.html:
   description: A Living Database of Selected Materials for Energy Applications
   img: assets/images/social/blog/archive/2024.png
   title: 2024 - Energy-GNoME
+blog/archive/2025/index.html:
+  description: A Living Database of Selected Materials for Energy Applications
+  img: assets/images/social/blog/archive/2025.png
+  title: 2025 - Energy-GNoME
+blog/category/features/index.html:
+  description: A Living Database of Selected Materials for Energy Applications
+  img: assets/images/social/blog/category/features.png
+  title: Features - Energy-GNoME
 blog/category/releases/index.html:
   description: A Living Database of Selected Materials for Energy Applications
   img: assets/images/social/blog/category/releases.png
@@ -98,6 +110,10 @@ overrides/main.html:
   description: No description provided.
   img: assets/images/social/overrides/main.png
   title: Untitled
+overrides/material_viewer.html:
+  description: null
+  img: null
+  title: null
 overrides/partials/copyright.html:
   description: No description provided.
   img: assets/images/social/overrides/partials/copyright.png

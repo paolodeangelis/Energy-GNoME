@@ -218,8 +218,11 @@ def create_test_image(image_path, title, description, site_name="Energy GNoME", 
     current_y = 190
     N_line = len(wrapped_title)
     if N_line > 3:
-        title_font = 70
+        title_font = ImageFont.truetype(FONT_BOLD, 70)
         wrapped_title = wrap_text(title, title_font, max_title_width)
+        if len(wrapped_title) > 3:
+            wrapped_title = wrapped_title[:3]
+            wrapped_title[-1] += "..."
     for line in wrapped_title:
         line_width, line_height = get_text_size(line, title_font)
         line_position = (90, current_y)
@@ -247,8 +250,10 @@ def process_files():
     # Scan HTML files in the site directory
     for root, _, files in tqdm(list(os.walk(BUILD_DIR)), desc="making social"):
         for file in files:
-            if any(folder in file.split(os.sep) for folder in SUBDIR_TO_SKIP):
-                print(f"Skipping operation for {file} as it is in one of the excluded subfolders.")
+            if any(folder in root.split(os.sep) for folder in SUBDIR_TO_SKIP):
+                print(
+                    f"Skipping operation for {file} in {root} as it is in one of the excluded subfolders."
+                )
                 continue
             if file.endswith(".html"):
                 html_path = os.path.join(root, file)
@@ -290,6 +295,7 @@ def process_files():
 
                 # Create the social card image
                 if img_path:
+                    # create_test_image(img_path, metadata["title"], metadata["description"])
                     try:
                         create_test_image(img_path, metadata["title"], metadata["description"])
                     except:  # noqa: E722
