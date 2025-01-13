@@ -27,6 +27,15 @@
     </div>
   </section>
   <div class="down-arrow"></div>
+  <script>
+  document.querySelector('.down-arrow').addEventListener('click', function () {
+    // Scroll exactly one full viewport height
+    window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth'
+    });
+});
+  </script>
 
 {{ super() }}
 {% endblock %}
