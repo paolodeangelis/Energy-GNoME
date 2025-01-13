@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import re
 import warnings
 
 from ase.formula import Formula
@@ -32,7 +33,7 @@ cif_path: {cif_path}
     </p>
     <hr>
     <div class="viewer-section">
-        <div id="container" style="height: 450px; width: 100%; position: relative;"></div>
+        <div id="container" style="height: 480px; width: 100%; position: relative;"></div>
         <div class="controls">
             <!-- <button onclick="viewer.spin(true)">Spin</button> -->
             <!-- <button onclick="viewer.spin(false)">Stop</button> -->
@@ -53,36 +54,36 @@ cif_path: {cif_path}
     <div class="table-section", style="text-align: center;" markdown="1">
         <table>
             <tr>
-                <th>\\( \\mathbf{{a}} \\)</td>
-                <th>\\( {a:.2f} \\; \\text{{Å}} \\)</td>
+                <th><strong>a</strong></td>
+                <th>{a:.2f} Å</td>
             </tr>
             <tr>
-                <td>\\( \\mathbf{{b}} \\)</td>
-                <td>\\( {b:.2f} \\; \\text{{Å}} \\)</td>
+                <td><strong>b</strong></td>
+                <td>{b:.2f} Å</td>
             </tr>
             <tr>
-                <td>\\( \\mathbf{{c}} \\)</td>
-                <td>\\( {c:.2f} \\; \\text{{Å}} \\)</td>
+                <td><strong>c</strong></td>
+                <td>{c:.2f} Å</td>
             </tr>
             <tr>
-                <td>\\( \\mathbf{{\\alpha}} \\)</td>
-                <td>\\( {alpha:.1f}  ^\\circ \\)</td>
+                <td><strong>α</strong></td>
+                <td>{alpha:.1f} °</td>
             </tr>
             <tr>
-                <td>\\(  \\mathbf{{\\beta}} \\)</td>
-                <td>\\( {beta:.1f}  ^\\circ \\)</td>
+                <td><strong>β</strong></td>
+                <td>{beta:.1f} °</td>
             </tr>
             <tr>
-                <td>\\( \\mathbf{{\\gamma}} \\)</td>
-                <td>\\( {gamma:.1f}  ^\\circ \\)</td>
+                <td><strong>γ</strong></td>
+                <td>{gamma:.1f} °</td>
             </tr>
             <tr>
                 <td><b>Density</b></td>
-                <td>\\( {rho:.2f} \\; \\; \\mathrm{{g/cm^3}} \\)</td>
+                <td>{rho:.2f} g/cm<sup>3</sup></td>
             </tr>
             <tr>
                 <td><b>Space group</b></td>
-                <td><a href="http://img.chem.ucl.ac.uk/sgp/large/{int_sg:03d}az1.htm" target="_blank">\\( \\; \\mathrm{{ {sg} }} \\) ({int_sg})</a></td>
+                <td>{spacegroup_string}</td>
             </tr>
             <tr>
                 <td><b>Chemical system</b></td>
@@ -237,11 +238,14 @@ cif_path: {cif_path}
         border-collapse: collapse;
         border-spacing: 0;
         border:none!important;
+        font-size: .75rem!important;
     }}
     th {{
     font-weight: 400!important; /* or 400 */
     }}
-
+    .admonition {{
+        font-size: .75rem!important;
+    }}
 
     .table-section {{
         flex: 1 1 200px;
@@ -362,6 +366,72 @@ def get_cif_dict(db_dict):
     return cif_files
 
 
+def get_spacegroup_link(symbol: str, number: int) -> str:
+    """
+    Generates the URL for a space group based on its symbol and International number.
+
+    Args:
+        symbol (str): Space group symbol (e.g., "Pnma").
+        number (int): International number of the space group.
+
+    Returns:
+        str: URL pointing to the corresponding space group.
+    """
+    # Pad the International number to 3 digits
+    padded_number = f"{number:03d}"
+
+    # Default variation
+    variation = "az1"
+
+    # Adjust the variation based on the suffix in the symbol
+    if "/c" in symbol:
+        # Monoclinic with c-glide plane
+        variation = "ay1"
+    elif "/n" in symbol:
+        # Monoclinic with n-glide plane
+        variation = "my1"
+    elif "/m" in symbol:
+        # Monoclinic with m-glide plane
+        variation = "ay1"
+    elif "/a" in symbol:
+        # Special case for certain a-glide planes
+        variation = "ay1"
+
+    # Construct the URL
+    url = f"http://img.chem.ucl.ac.uk/sgp/large/{padded_number}{variation}.htm"
+
+    return url
+
+
+def convert_spacegroup_to_html(symbol: str) -> str:
+    """
+    Converts a space group symbol into an HTML representation.
+    - Subscripts for digits following '_' or appearing individually.
+    - Overlines for negative numbers (e.g., "-1").
+
+    Args:
+        symbol (str): Space group symbol (e.g., "P2_1/c", "P-1").
+
+    Returns:
+        str: HTML formatted space group.
+    """
+    # Apply subscripts only to digits directly preceded by '_'
+    symbol = re.sub(r"_(\d)", r"<sub>\1</sub>", symbol)
+
+    # Apply overline to parts starting with '-' (negative signs or symmetry elements)
+    symbol = re.sub(
+        r"-([a-zA-Z0-9]+)", r'<span style="text-decoration: overline;">\1</span>', symbol
+    )
+
+    return symbol
+
+
+def get_spacegroup(symbol: str, number: int):
+    spc_link = get_spacegroup_link(symbol, number)
+    symbol_htm = convert_spacegroup_to_html(symbol)
+    return f'<a href="{spc_link}" target="_blank">{symbol_htm} ({number})</a>'
+
+
 def make_viewer_gen_info(material_id, cif_path):
     atoms = read(cif_path)
     with warnings.catch_warnings():
@@ -374,6 +444,7 @@ def make_viewer_gen_info(material_id, cif_path):
     a, b, c, alpha, beta, gamma = atoms.cell.cellpar()
     rho = (atoms.get_masses().sum() * amu2g) / (atoms.get_volume() * A2cm3)
     sg, int_sg = struct.get_space_group_info()
+    spacegroup_string = get_spacegroup(sg, int_sg)
     chem_sys = struct.chemical_system
     num_sites = struct.num_sites
     cif_path_remote = (
@@ -392,8 +463,7 @@ def make_viewer_gen_info(material_id, cif_path):
         beta=beta,
         gamma=gamma,
         rho=rho,
-        sg=sg,
-        int_sg=int_sg,
+        spacegroup_string=spacegroup_string,
         chem_sys=chem_sys,
         num_sites=num_sites,
     )
@@ -405,31 +475,18 @@ def make_cathode_info(wion, ai_experts_m, ai_experts_dev):
     info = rf"""
 !!! info "Possible {wion}-cathode"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential cathode material for {wion}-ion batteries, with a probability of \( {ai_experts_m*100.0:.2f} \pm {ai_experts_dev*100.0:.2f} \;\% \).[^val]
+    The material was identified by [AI experts](../about_db/index.md) as a potential cathode material for {wion}-ion batteries, with a probability of {ai_experts_m*100.0:.2f} ± {ai_experts_dev*100.0:.2f} %.[^val]
 """
     return info
 
 
 def make_perovskite_info(ai_experts_m_dict, ai_experts_dev_dict):
-    if len(ai_experts_m_dict) == 1:
-        model = list(ai_experts_m_dict.keys())[0]
-        info = rf"""
+    model = list(ai_experts_m_dict.keys())[0]
+    info = rf"""
 !!! info "Possible perovskite"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential perovskite material for *{model}* regression model, with a probability of \( {ai_experts_m_dict[model]*100.0:.2f} \pm {ai_experts_dev_dict[model]*100.0:.2f} \;\% \).[^val]
+    The material was identified by [AI experts](../about_db/index.md) as a potential perovskite material with a probability of {ai_experts_m_dict[model]*100.0:.2f} ± {ai_experts_dev_dict[model]*100.0:.2f} %.[^val]
 """
-    else:
-        info = """
-!!! info "Possible perovskite"
-
-    The material was identified by [AI experts](../about_db/index.md) as a potential perovskite material for both regression model, with a probability of """
-        info_ = []
-        for model in ai_experts_m_dict.keys():
-            info_.append(
-                rf"\( {ai_experts_m_dict[model]*100.0:.2f} \pm {ai_experts_dev_dict[model]*100.0:.2f} \;\% \) for *{model}* model"
-            )
-        info += " and ".join(info_)
-        info += ".[^val]\n\n"
     return info
 
 
@@ -439,7 +496,7 @@ def make_thermoelectric_info(ai_experts_m_dict, ai_experts_dev_dict):
         info = rf"""
 !!! info "Possible thermoelectric"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential thermoelectric material for the working temperature {wT} K, with a probability of \( {ai_experts_m_dict[wT]*100.0:.2f} \pm {ai_experts_dev_dict[wT]*100.0:.2f} \;\%\).[^val]
+    The material was identified by [AI experts](../about_db/index.md) as a potential thermoelectric material for the working temperature {wT} K, with a probability of {ai_experts_m_dict[wT]*100.0:.2f} ± {ai_experts_dev_dict[wT]*100.0:.2f} %.[^val]
 """
     else:
         wT = list(ai_experts_m_dict.keys())
@@ -448,11 +505,11 @@ def make_thermoelectric_info(ai_experts_m_dict, ai_experts_dev_dict):
         info = f"""
 !!! info "Possible thermoelectric"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential thermoelectric material for {temp_list} working temperatures, with a probability of :"""
+    The material was identified by [AI experts](../about_db/index.md) as a potential thermoelectric material for {temp_list} working temperatures, with a probability of : """
         info_ = []
         for wT_ in ai_experts_m_dict.keys():
             info_.append(
-                rf"\( {ai_experts_m_dict[wT_]*100.0:.2f} \pm {ai_experts_dev_dict[wT_]*100.0:.2f} \;\% \) for {wT_} K"
+                rf"{ai_experts_m_dict[wT_]*100.0:.2f} ± {ai_experts_dev_dict[wT_]*100.0:.2f} % for {wT_} K"
             )
         info += ", ".join(info_[:-1])
         info = info + f" and {info_[-1]}"
@@ -466,57 +523,51 @@ def add_cathode_properties(data, wion):
     note = data["Note"].values[0]
     if len(note) > 0:
         foot = f"[^c{wion}]"
-        note = f"[^c{wion}]: " + note.replace("R² < 0.5", r"\( R^2 < 0.5 \)").replace(
-            "AUC < 0.5", r"\( AUC < 0.5 \)"
+        note = f"[^c{wion}]: " + note.replace("R² < 0.5", r"R<sup>2</sup> < 0.5").replace(
+            "AUC < 0.5", r"AUC < 0.5"
         )
     else:
         foot = ""
-    df_property.loc["**Formation energy**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{eV/atom}} \)".format(data["Formation Energy (eV/atom)"].values[0])
+    df_property.loc["**Formation energy**", "**Value**[^val]"] = r"{:.3f} eV/atom".format(
+        data["Formation Energy (eV/atom)"].values[0]
     )
     df_property.loc["**Formation energy**", "**Model**"] = "GNoME"
-    df_property.loc["**Average voltage**", "**Value**[^val]"] = (
-        r"\( {:.3f} \;\pm\;{:.3f}  \; \mathrm{{V}} \)".format(
-            data["Average Voltage (V)"].values[0],
-            data["AI-experts confidence (deviation) (-)"].values[0],
-        )
+    df_property.loc["**Average voltage**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} V".format(
+        data["Average Voltage (V)"].values[0],
+        data["AI-experts confidence (deviation) (-)"].values[0],
     )
     df_property.loc["**Average voltage**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = (
-        r"\( {:.3f} \;\pm\;{:.3f}  \; \mathrm{{\%}} \)".format(
-            data["Max Volume expansion (-)"].values[0] * 100.0,
-            data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
-        )
+    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} %".format(
+        data["Max Volume expansion (-)"].values[0] * 100.0,
+        data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
     )
     df_property.loc["**Max volume expansion**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Stability charge**", "**Value**[^val]"] = (
-        r"\( {:.3f} \;\pm\;{:.3f}  \; \mathrm{{eV/atom}} \)".format(
-            data["Stability charge (eV/atom)"].values[0],
-            data["Stability charge (deviation) (eV/atom)"].values[0],
-        )
+    df_property.loc["**Stability charge**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} eV/atom".format(
+        data["Stability charge (eV/atom)"].values[0],
+        data["Stability charge (deviation) (eV/atom)"].values[0],
     )
     df_property.loc["**Stability charge**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
     df_property.loc["**Stability discharge**", "**Value**[^val]"] = (
-        r"\( {:.3f} \;\pm\;{:.3f}  \; \mathrm{{eV/atom}} \)".format(
+        r"{:.3f} ± {:.3f} eV/atom".format(
             data["Stability discharge (eV/atom)"].values[0],
             data["Stability discharge (deviation) (eV/atom)"].values[0],
         )
     )
     df_property.loc["**Stability discharge**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Volumetric capacity**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{mAh/L}} \)".format(data["Volumetric capacity (mAh/L)"].values[0])
+    df_property.loc["**Volumetric capacity**", "**Value**[^val]"] = r"{:.3f} mAh/L".format(
+        data["Volumetric capacity (mAh/L)"].values[0]
     )
     df_property.loc["**Volumetric capacity**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Gravimetric capacity**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{mAh/g}} \)".format(data["Gravimetric capacity (mAh/g)"].values[0])
+    df_property.loc["**Gravimetric capacity**", "**Value**[^val]"] = r"{:.3f} mAh/g".format(
+        data["Gravimetric capacity (mAh/g)"].values[0]
     )
     df_property.loc["**Gravimetric capacity**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Volumetric energy**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{Wh/L}} \)".format(data["Volumetric energy (Wh/L)"].values[0])
+    df_property.loc["**Volumetric energy**", "**Value**[^val]"] = r"{:.3f} Wh/L".format(
+        data["Volumetric energy (Wh/L)"].values[0]
     )
     df_property.loc["**Volumetric energy**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Gravimetric energy**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{Wh/kg}} \)".format(data["Gravimetric energy (Wh/kg)"].values[0])
+    df_property.loc["**Gravimetric energy**", "**Value**[^val]"] = r"{:.3f} Wh/kg".format(
+        data["Gravimetric energy (Wh/kg)"].values[0]
     )
     df_property.loc["**Gravimetric energy**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
     return df_property, note
@@ -527,18 +578,16 @@ def add_perovskites_properties(data, model):
     note = data["Note"].values[0]
     if len(note) > 0:
         foot = f"[^p{model}]"
-        note = f"[^p{model}]: " + note.replace("R²", r"\( \matrhm{R^2} \)")
+        note = f"[^p{model}]: " + note.replace("R²", r"R<sup>2</sup>")
     else:
         foot = ""
-    df_property.loc["**Formation energy**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{eV/atom}} \)".format(data["Formation Energy (eV/atom)"].values[0])
+    df_property.loc["**Formation energy**", "**Value**[^val]"] = r"{:.3f} eV/atom".format(
+        data["Formation Energy (eV/atom)"].values[0]
     )
     df_property.loc["**Formation energy**", "**Model**"] = "GNoME"
-    df_property.loc["**Band Gap**", "**Value**[^val]"] = (
-        r"\( {:.3f} \;\pm\;{:.3f}  \; \mathrm{{eV}} \)".format(
-            data["Average Band Gap (eV)"].values[0],
-            data["Average Band Gap (deviation) (eV)"].values[0],
-        )
+    df_property.loc["**Band Gap**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} eV".format(
+        data["Average Band Gap (eV)"].values[0],
+        data["Average Band Gap (deviation) (eV)"].values[0],
     )
     df_property.loc["**Band Gap**", "**Model**"] = f"E(3)NN ({model})" + foot
 
@@ -550,14 +599,14 @@ def add_thermoelectric_properties(data, wT):
     note = data["Note"].values[0]
     if len(note) > 0:
         foot = f"[^t{wT}]"
-        note = f"[^t{wT}]: " + note.replace("R²", r"\( \matrhm{R^2} \)")
+        note = f"[^t{wT}]: " + note.replace("R²", r"R<sup>2</sup>")
     else:
         foot = ""
-    df_property.loc["**Formation energy**", "**Value**[^val]"] = (
-        r"\( {:.3f} \; \mathrm{{eV/atom}} \)".format(data["Formation Energy (eV/atom)"].values[0])
+    df_property.loc["**Formation energy**", "**Value**[^val]"] = r"{:.3f} eV/atom".format(
+        data["Formation Energy (eV/atom)"].values[0]
     )
     df_property.loc["**Formation energy**", "**Model**"] = "GNoME"
-    df_property.loc["**zT**", "**Value**[^val]"] = r"\( {:.3f} \;\pm\;{:.3f}  \)".format(
+    df_property.loc["**zT**", "**Value**[^val]"] = r"{:.3f} ± {:.3f}".format(
         data["Average zT (-)"].values[0], data["Average zT (deviation) (-)"].values[0]
     )
     df_property.loc["**zT**", "**Model**"] = f"E(3)NN ({wT}K)" + foot
@@ -566,7 +615,11 @@ def add_thermoelectric_properties(data, wT):
 
 
 def make_boc_grind(df, box_name):
-    table = df.sort_index().to_markdown()
+    sorted_df = (
+        df.reset_index().sort_values(by=["index", "**Model**"], kind="stable").set_index("index")
+    )
+    sorted_df.index.name = None
+    table = sorted_df.to_markdown()
     table = (
         f"- __{box_name}__\n\n\t---\n\n"
         + "\n".join(["\t" + t for t in table.split("\n")])
@@ -623,7 +676,7 @@ def main():
 
         # get properties
         notes = [
-            r"[^val]: The value after the \(\pm\) symbol does not indicate the *uncertainty* of the model but rather the *deviation*, specifically the root mean square error (RMSE) among the committee of models used. The value before the symbol represents the mean prediction from the committee."
+            r"[^val]: The value after the '±' symbol does not indicate the *uncertainty* of the model but rather the *deviation*, specifically the root mean square error (RMSE) among the committee of models used. The value before the symbol represents the mean prediction from the committee."
         ]
 
         property_dfs_cath = []
