@@ -4,15 +4,17 @@ date:
   created: 2025-01-11
 categories:
   - Features
+  - News
 tags:
   - energy-gnome
 authors:
   - team
+  - paolodeangelis
 ---
 
 # **Introducing Material-Specific Web Pages in Energy-GNoME**
 
-We introduced a new feature that enhances the Energy-GNoME database's usability: **dedicated web pages for individual materials**! This update brings a significant step forward in how researchers and enthusiasts can explore materials, leveraging advanced visualization tools and property insights and allowing, together with the dashboard, people who are not computational material experts to explore the database entirely.
+We introduced a new feature that enhances the Energy-GNoME database's usability: **dedicated web pages for individual materials**! This update brings a significant step forward in how researchers and enthusiasts can explore materials, leveraging advanced visualization tools and property insights and enabling people who are not computational material experts to fully explore the database, alongside the dashboard.
 
 <!-- more -->
 
@@ -31,7 +33,7 @@ Each material now has its own dedicated webpage designed to provide an **intuiti
 
 - [**3DMol.js**](https://3dmol.csb.pitt.edu/) powers an immersive 3D viewer for visualizing the material's structure.
 - Rotate, zoom, and explore atomic arrangements in a highly interactive manner, making it easier to understand the material's structural characteristics.
-- On the bottom, two buttons are present, one to toggle atomic labels in the 3D viewer to visualize the element of each atom, and one for downloading the `.CIF` file of the crustal.
+- At the bottom, two buttons are available: one to toggle atomic labels in the 3D viewer to visualize the element of each atom, and another for downloading the `.CIF` file of the crystal.
 
 ### 2. Crystal Properties
 <div style="text-align: center;" markdown>
@@ -48,7 +50,7 @@ Each material now has its own dedicated webpage designed to provide an **intuiti
 </div>
 
 - For each material, highlight the AI-driven predictions for its potential energy applications.
-- Note some materials, such as cathodes for multivalent batteries, may demonstrate versatility and suitability across multiple energy domains.
+- Note that some materials, such as cathodes for multivalent batteries, may demonstrate versatility and suitability across multiple energy domains.
 
 ### 4. Predicted Properties
 <div style="text-align: center;" markdown>
@@ -56,7 +58,7 @@ Each material now has its own dedicated webpage designed to provide an **intuiti
 ![Predicted Properties](../../assets/img/blog/material_page/predicted_properties_dark.png#only-dark){ style="max-width: 400px;" }
 </div>
 
-- The predicted properties for each material are listed, categorized by application and the specific models used for the predictions.
+- The predicted properties for each material are listed and categorized according to application and the specific models used for their prediction.
 
 ## How to Access These Pages?
 
@@ -77,3 +79,8 @@ We believe these material-specific pages will:
     - Possible perovskite material [Ba~3~Bi~2~LaO~9~](../../materials/4ed36f8003.md)
     - Possible thermoelectric material [Bi~3~Sb~13~Te~3~](../../materials/ac2022f2d0.md)
     - Possible Mg cathode and perovskite material [CoMgNd~2~O~6~](../../materials/bd64810b56.md)
+
+<div style="text-align: right; margin-top: 20px;" markdown>
+*Discover. Predict. Energize.*<br>
+The Energy-GNoME Team
+</div>
