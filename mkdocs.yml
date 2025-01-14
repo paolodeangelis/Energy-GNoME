@@ -157,6 +157,9 @@ plugins:
         - categories
         - tags
   - search
+  - exclude-search:
+      exclude:
+        - materials/*
   - social:
       cards_layout: default
       cards_layout_options:
