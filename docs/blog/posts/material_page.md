@@ -12,7 +12,7 @@ authors:
 
 # **Introducing Material-Specific Web Pages in Energy-GNoME**
 
-We want to introduce a new feature that enhances the Energy-GNoME database's usability: **a dedicated web pages for individual materials**! This update brings a significant step forward in how researchers and enthusiasts can explore materials, leveraging advanced visualization tools and property insights and allowing, together with the dashboard, not computational material experts to explore the database entirely.
+We introduced a new feature that enhances the Energy-GNoME database's usability: **dedicated web pages for individual materials**! This update brings a significant step forward in how researchers and enthusiasts can explore materials, leveraging advanced visualization tools and property insights and allowing, together with the dashboard, people who are not computational material experts to explore the database entirely.
 
 <!-- more -->
 
@@ -35,16 +35,16 @@ Each material now has its own dedicated webpage designed to provide an **intuiti
 
 ### 2. Crystal Properties
 <div style="text-align: center;" markdown>
-![Crystal Properties](../../assets/img/blog/material_page/crystal_properties.jpeg#only-light){ style="max-width: 300px;" }
-![Crystal Properties](../../assets/img/blog/material_page/crystal_properties_dark.jpeg#only-dark){ style="max-width: 300px;" }
+![Crystal Properties](../../assets/img/blog/material_page/crystal_properties.png#only-light){ style="max-width: 300px;" }
+![Crystal Properties](../../assets/img/blog/material_page/crystal_properties_dark.png#only-dark){ style="max-width: 300px;" }
 </div>
 
 - Detailed information about the **crystal structure**, including lattice parameters, density and symmetry groups.
 
 ### 3. Application Predictions
 <div style="text-align: center;" markdown>
-![Application Predictions](../../assets/img/blog/material_page/candidate_box.jpeg#only-light)
-![Application Predictions](../../assets/img/blog/material_page/candidate_box_dark.jpeg#only-dark)
+![Application Predictions](../../assets/img/blog/material_page/candidate_box.png#only-light)
+![Application Predictions](../../assets/img/blog/material_page/candidate_box_dark.png#only-dark)
 </div>
 
 - For each material, highlight the AI-driven predictions for its potential energy applications.
@@ -52,8 +52,8 @@ Each material now has its own dedicated webpage designed to provide an **intuiti
 
 ### 4. Predicted Properties
 <div style="text-align: center;" markdown>
-![Predicted Properties](../../assets/img/blog/material_page/predicted_properties.jpeg#only-light){ style="max-width: 400px;" }
-![Predicted Properties](../../assets/img/blog/material_page/predicted_properties_dark.jpeg#only-dark){ style="max-width: 400px;" }
+![Predicted Properties](../../assets/img/blog/material_page/predicted_properties.png#only-light){ style="max-width: 400px;" }
+![Predicted Properties](../../assets/img/blog/material_page/predicted_properties_dark.png#only-dark){ style="max-width: 400px;" }
 </div>
 
 - The predicted properties for each material are listed, categorized by application and the specific models used for the predictions.

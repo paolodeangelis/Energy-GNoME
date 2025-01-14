@@ -18,14 +18,14 @@ We are thrilled to announce the first release of the Energy-GNoME database, vers
 
 Energy-GNoME is designed to identify and predict materials suitable for energy applications, such as thermoelectrics, cathodes, and perovskites. Its core innovation lies in integrating ML techniques with an iterative active learning framework, enabling continuous evolution and refinement.
 
-### Why Energy-GNoME Matters
+## Why Energy-GNoME Matters
 Energy-GNoME represents a significant leap forward for energy material discovery:
 
 1. **Accelerated Discovery**: By leveraging ML, it reduces the time and resources needed to identify high-potential materials.
 2. **Versatile Applications**: Its protocol is tailored to support a wide range of energy applications, from thermoelectrics to next-generation batteries.
 3. **Community Collaboration**: Energy-GNoME is designed to grow with input from the broader material science and engineering communities.
 
-### What’s Next?
+## What’s Next?
 The 0.0.2 release of Energy-GNoME is just the beginning. Future updates will include:
 
 * Enhanced predictive capabilities through expanded training datasets.
