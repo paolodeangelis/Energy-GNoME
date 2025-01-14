@@ -1,4 +1,4 @@
-import os
+import os, sys
 from pathlib import Path
 import re
 import warnings
@@ -9,6 +9,7 @@ import pandas as pd
 from pymatgen.core import Structure
 from tqdm.auto import tqdm
 import yaml
+
 
 TEMPLATE = """---
 title: {title}
@@ -21,7 +22,7 @@ mid: {id}
 cif_path: {cif_path}
 ---
 
-# {chemf} — `{id}`
+# {chemf} &#x2014; `{id}`
 
 <!--- <div class="container"> -->
 <div class="grid cards" style="margin: 0 auto;">
@@ -55,27 +56,27 @@ cif_path: {cif_path}
         <table>
             <tr>
                 <th><strong>a</strong></td>
-                <th>{a:.2f} Å</td>
+                <th>{a:.2f} &#x212B;</td>
             </tr>
             <tr>
                 <td><strong>b</strong></td>
-                <td>{b:.2f} Å</td>
+                <td>{b:.2f} &#x212B;</td>
             </tr>
             <tr>
                 <td><strong>c</strong></td>
-                <td>{c:.2f} Å</td>
+                <td>{c:.2f} &#x212B;</td>
             </tr>
             <tr>
-                <td><strong>α</strong></td>
-                <td>{alpha:.1f} °</td>
+                <td><strong>&#x3b1;</strong></td>
+                <td>{alpha:.1f} &#xb0;</td>
             </tr>
             <tr>
-                <td><strong>β</strong></td>
-                <td>{beta:.1f} °</td>
+                <td><strong>&#x3b2;</strong></td>
+                <td>{beta:.1f} &#xb0;</td>
             </tr>
             <tr>
-                <td><strong>γ</strong></td>
-                <td>{gamma:.1f} °</td>
+                <td><strong>&#x3b3;</strong></td>
+                <td>{gamma:.1f} &#xb0;</td>
             </tr>
             <tr>
                 <td><b>Density</b></td>
@@ -449,7 +450,7 @@ def make_viewer_gen_info(material_id, cif_path):
     num_sites = struct.num_sites
     cif_path_remote = (
         "https://raw.githubusercontent.com/" "paolodeangelis/Energy-GNoME/refs/heads/main/"
-    ) + str(cif_loc_path)
+    ) + str(cif_loc_path).replace(os.sep, "/")
 
     page_content = TEMPLATE.format(
         title=chemf_red,
@@ -475,7 +476,7 @@ def make_cathode_info(wion, ai_experts_m, ai_experts_dev):
     info = rf"""
 !!! info "Possible {wion}-cathode"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential cathode material for {wion}-ion batteries, with a probability of {ai_experts_m*100.0:.2f} ± {ai_experts_dev*100.0:.2f} %.[^val]
+    The material was identified by [AI experts](../about_db/index.md) as a potential cathode material for {wion}-ion batteries, with a probability of {ai_experts_m*100.0:.2f} &#xb1; {ai_experts_dev*100.0:.2f} %.[^val]
 """
     return info
 
@@ -485,7 +486,7 @@ def make_perovskite_info(ai_experts_m_dict, ai_experts_dev_dict):
     info = rf"""
 !!! info "Possible perovskite"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential perovskite material with a probability of {ai_experts_m_dict[model]*100.0:.2f} ± {ai_experts_dev_dict[model]*100.0:.2f} %.[^val]
+    The material was identified by [AI experts](../about_db/index.md) as a potential perovskite material with a probability of {ai_experts_m_dict[model]*100.0:.2f} &#xb1; {ai_experts_dev_dict[model]*100.0:.2f} %.[^val]
 """
     return info
 
@@ -496,7 +497,7 @@ def make_thermoelectric_info(ai_experts_m_dict, ai_experts_dev_dict):
         info = rf"""
 !!! info "Possible thermoelectric"
 
-    The material was identified by [AI experts](../about_db/index.md) as a potential thermoelectric material for the working temperature {wT} K, with a probability of {ai_experts_m_dict[wT]*100.0:.2f} ± {ai_experts_dev_dict[wT]*100.0:.2f} %.[^val]
+    The material was identified by [AI experts](../about_db/index.md) as a potential thermoelectric material for the working temperature {wT} K, with a probability of {ai_experts_m_dict[wT]*100.0:.2f} &#xb1; {ai_experts_dev_dict[wT]*100.0:.2f} %.[^val]
 """
     else:
         wT = list(ai_experts_m_dict.keys())
@@ -509,7 +510,7 @@ def make_thermoelectric_info(ai_experts_m_dict, ai_experts_dev_dict):
         info_ = []
         for wT_ in ai_experts_m_dict.keys():
             info_.append(
-                rf"{ai_experts_m_dict[wT_]*100.0:.2f} ± {ai_experts_dev_dict[wT_]*100.0:.2f} % for {wT_} K"
+                rf"{ai_experts_m_dict[wT_]*100.0:.2f} &#xb1; {ai_experts_dev_dict[wT_]*100.0:.2f} % for {wT_} K"
             )
         info += ", ".join(info_[:-1])
         info = info + f" and {info_[-1]}"
@@ -532,23 +533,23 @@ def add_cathode_properties(data, wion):
         data["Formation Energy (eV/atom)"].values[0]
     )
     df_property.loc["**Formation energy**", "**Model**"] = "GNoME"
-    df_property.loc["**Average voltage**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} V".format(
+    df_property.loc["**Average voltage**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} V".format(
         data["Average Voltage (V)"].values[0],
         data["AI-experts confidence (deviation) (-)"].values[0],
     )
     df_property.loc["**Average voltage**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} %".format(
+    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} %".format(
         data["Max Volume expansion (-)"].values[0] * 100.0,
         data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
     )
     df_property.loc["**Max volume expansion**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Stability charge**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} eV/atom".format(
+    df_property.loc["**Stability charge**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} eV/atom".format(
         data["Stability charge (eV/atom)"].values[0],
         data["Stability charge (deviation) (eV/atom)"].values[0],
     )
     df_property.loc["**Stability charge**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
     df_property.loc["**Stability discharge**", "**Value**[^val]"] = (
-        r"{:.3f} ± {:.3f} eV/atom".format(
+        r"{:.3f} &#xb1; {:.3f} eV/atom".format(
             data["Stability discharge (eV/atom)"].values[0],
             data["Stability discharge (deviation) (eV/atom)"].values[0],
         )
@@ -585,7 +586,7 @@ def add_perovskites_properties(data, model):
         data["Formation Energy (eV/atom)"].values[0]
     )
     df_property.loc["**Formation energy**", "**Model**"] = "GNoME"
-    df_property.loc["**Band Gap**", "**Value**[^val]"] = r"{:.3f} ± {:.3f} eV".format(
+    df_property.loc["**Band Gap**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} eV".format(
         data["Average Band Gap (eV)"].values[0],
         data["Average Band Gap (deviation) (eV)"].values[0],
     )
@@ -606,7 +607,7 @@ def add_thermoelectric_properties(data, wT):
         data["Formation Energy (eV/atom)"].values[0]
     )
     df_property.loc["**Formation energy**", "**Model**"] = "GNoME"
-    df_property.loc["**zT**", "**Value**[^val]"] = r"{:.3f} ± {:.3f}".format(
+    df_property.loc["**zT**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f}".format(
         data["Average zT (-)"].values[0], data["Average zT (deviation) (-)"].values[0]
     )
     df_property.loc["**zT**", "**Model**"] = f"E(3)NN ({wT}K)" + foot
@@ -647,6 +648,18 @@ def main():
         ai_experts_dev_perv = {}
         ai_experts_m_thermo = {}
         ai_experts_dev_thermo = {}
+        infos.append(
+"""
+!!! quote ""
+
+    Data contained in the Graph Networks for Materials Exploration (GNoME) Database is available for use under 
+    the terms of the Creative Commons Attribution Noncommercial 4.0 International Licence ([CC BY NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)). 
+    If you are using this resource please cite the following publications: 
+    
+    - Merchant, A., Batzner, S., Schoenholz, S.S. *et al.* "Scaling deep learning for materials discovery". *Nature* 624, 80-85, **2023**. doi: [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9).
+    - De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: [10.48550/arXiv.2411.10125](https://doi.org/10.48550/arXiv.2411.10125).
+"""
+        )
         for db_key in m_dict["in_db"]:
             if "cathodes" in db_key:
                 data = db_dict[db_key][db_dict[db_key]["Material Id"] == m_id]
@@ -676,7 +689,7 @@ def main():
 
         # get properties
         notes = [
-            r"[^val]: The value after the '±' symbol does not indicate the *uncertainty* of the model but rather the *deviation*, specifically the root mean square error (RMSE) among the committee of models used. The value before the symbol represents the mean prediction from the committee."
+            r"[^val]: The value after the '&#xb1;' symbol does not indicate the *uncertainty* of the model but rather the *deviation*, specifically the root mean square error (RMSE) among the committee of models used. The value before the symbol represents the mean prediction from the committee."
         ]
 
         property_dfs_cath = []
