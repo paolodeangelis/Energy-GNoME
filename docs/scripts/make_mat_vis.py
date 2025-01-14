@@ -1,6 +1,7 @@
-import os, sys
+import os
 from pathlib import Path
 import re
+import sys
 import warnings
 
 from ase.formula import Formula
@@ -9,7 +10,6 @@ import pandas as pd
 from pymatgen.core import Structure
 from tqdm.auto import tqdm
 import yaml
-
 
 TEMPLATE = """---
 title: {title}
@@ -421,7 +421,7 @@ def convert_spacegroup_to_html(symbol: str) -> str:
 
     # Apply overline to parts starting with '-' (negative signs or symmetry elements)
     symbol = re.sub(
-        r"-([a-zA-Z0-9]+)", r'<span style="text-decoration: overline;">\1</span>', symbol
+        r"-([a-zA-Z0-9])", r'<span style="text-decoration: overline;">\1</span>', symbol
     )
 
     return symbol
@@ -538,14 +538,18 @@ def add_cathode_properties(data, wion):
         data["AI-experts confidence (deviation) (-)"].values[0],
     )
     df_property.loc["**Average voltage**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} %".format(
-        data["Max Volume expansion (-)"].values[0] * 100.0,
-        data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
+    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = (
+        r"{:.3f} &#xb1; {:.3f} %".format(
+            data["Max Volume expansion (-)"].values[0] * 100.0,
+            data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
+        )
     )
     df_property.loc["**Max volume expansion**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Stability charge**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} eV/atom".format(
-        data["Stability charge (eV/atom)"].values[0],
-        data["Stability charge (deviation) (eV/atom)"].values[0],
+    df_property.loc["**Stability charge**", "**Value**[^val]"] = (
+        r"{:.3f} &#xb1; {:.3f} eV/atom".format(
+            data["Stability charge (eV/atom)"].values[0],
+            data["Stability charge (deviation) (eV/atom)"].values[0],
+        )
     )
     df_property.loc["**Stability charge**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
     df_property.loc["**Stability discharge**", "**Value**[^val]"] = (
@@ -649,13 +653,13 @@ def main():
         ai_experts_m_thermo = {}
         ai_experts_dev_thermo = {}
         infos.append(
-"""
+            """
 !!! quote ""
 
-    Data contained in the Graph Networks for Materials Exploration (GNoME) Database is available for use under 
-    the terms of the Creative Commons Attribution Noncommercial 4.0 International Licence ([CC BY NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)). 
-    If you are using this resource please cite the following publications: 
-    
+    Data contained in the Graph Networks for Materials Exploration (GNoME) Database is available for use under
+    the terms of the Creative Commons Attribution Noncommercial 4.0 International Licence ([CC BY NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)).
+    If you are using this resource please cite the following publications:
+
     - Merchant, A., Batzner, S., Schoenholz, S.S. *et al.* "Scaling deep learning for materials discovery". *Nature* 624, 80-85, **2023**. doi: [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9).
     - De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: [10.48550/arXiv.2411.10125](https://doi.org/10.48550/arXiv.2411.10125).
 """
