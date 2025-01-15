@@ -18,6 +18,7 @@ hide:
   - path
   - navigation
   - toc
+  - feedback
 mid: {id}
 cif_path: {cif_path}
 ---

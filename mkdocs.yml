@@ -111,6 +111,36 @@ extra:
       link: https://x.com/small_polito
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/small-lab/
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies only to recognize your repeat visits and preferences and
+      to measure the effectiveness of our project and documentation. We send only
+      minimal session data to Google Analytics for this purpose.
+      This data is retained for a maximum of 2 months, balancing our need to improve
+      the project while protecting your privacy.
+      By providing your consent, you help us make our project better.
+    actions:
+      - accept
+      - reject
+      - manage
+  analytics:
+    provider: google
+    property: G-4B99LGB7RV
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve the project by
+            using our <a href="https://github.com/paolodeangelis/Energy-GNoME/issues/new?template=feedback.md&title=[Feedback]+{title}+-+{url}&labels=feedback" target="_blank" rel="noopener">feedback form</a> on github.
 
 markdown_extensions:
   - abbr
@@ -212,7 +242,7 @@ nav:
     - Modules:
         - Datasets: docs/modules/dataset.md
   - Contribute: contribute/index.md
-  - How to cite: ./how_to_cite.md
+  - How to cite: ./cite.md
   - Status: ./status.md
   - Blog:
     - blog/index.md

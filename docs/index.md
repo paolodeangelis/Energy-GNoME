@@ -4,6 +4,7 @@ hide:
   - path
   - navigation
   - toc
+  - feedback
 title: Energy GNoME
 social:
   cards_layout_options:
