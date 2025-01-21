@@ -496,8 +496,8 @@ class PerovskiteDatabase(BaseDatabase):
         """
         Copy CIF files from the raw stage to another processing stage.
 
-        Copies CIF files corresponding to the specified cathode state from the 'raw'
-        processing stage to the target stage. Updates the database with the new file paths.
+        Copies CIF files from the 'raw' processing stage to the target stage.
+        Updates the database with the new file paths.
 
         Args:
             stage (str): Target processing stage ('processed', 'final').

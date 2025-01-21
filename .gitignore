@@ -350,6 +350,7 @@ test.gro
 test_file.xyz
 build_wheel
 energy_gnome/config.yaml
+config.yaml
 .temp*
 _temp*
 energy_gnome*.whl
@@ -360,6 +361,7 @@ data/raw/cathodes/*/*/charge
 data/raw/cathodes/*/*/discharge
 data/raw/cathodes/*
 docs/assets/partial/dp_cardinality.md
+data/raw/perovskites/*
 
 # Docs
 docs/materials

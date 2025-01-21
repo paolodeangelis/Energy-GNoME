@@ -3,6 +3,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from loguru import logger
+import torch
 
 from energy_gnome.utils import read_yaml
 
@@ -21,7 +22,7 @@ PROJ_ROOT = Path(".").resolve()
 DATA_DIR = PROJ_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 INTERIM_DATA_DIR = DATA_DIR / "interim"
-PROCESSED_DATA_DIR = DATA_DIR / "processed"
+PROCESSED_DATA_DIR = DATA_DIR / "raw"  # "processed"
 EXTERNAL_DATA_DIR = DATA_DIR / "external"
 
 MODELS_DIR = PROJ_ROOT / "models"
@@ -46,3 +47,23 @@ else:
 
 # Logger
 LOG_MAX_WIDTH = 120
+
+# Model settings
+DEFAULT_E3NN_SETTINGS = {
+    "n_committers": 4,
+    "l_max": 2,  # maximum order of spherical harmonics (suggested: 2)
+    "r_max": 5.0,  # cutoff radius for convolution (suggested: 5.0)
+    "device": "cuda:0" if torch.cuda.is_available() else "cpu",
+}
+
+DEFAULT_E3NN_TRAINING_SETTINGS = {
+    "n_epochs": 2,
+    "batch_size": 4,
+    "load_db": False,  # If the script will use a previously set-up database
+}
+
+DEFAULT_OPTIM_SETTINGS = {
+    "lr": 0.005,  # Learning rate (suggested: 0.005)
+    "wd": 0.05,  # Weight decay for AdamW optimizer (sort of L2 regularization) (suggested: 0.05)
+    "gamma": 0.96,  # Decay rate for the learning rate (suggested: 0.96)
+}
