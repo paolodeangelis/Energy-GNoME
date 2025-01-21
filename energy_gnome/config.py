@@ -65,5 +65,4 @@ DEFAULT_E3NN_TRAINING_SETTINGS = {
 DEFAULT_OPTIM_SETTINGS = {
     "lr": 0.005,  # Learning rate (suggested: 0.005)
     "wd": 0.05,  # Weight decay for AdamW optimizer (sort of L2 regularization) (suggested: 0.05)
-    "gamma": 0.96,  # Decay rate for the learning rate (suggested: 0.96)
 }

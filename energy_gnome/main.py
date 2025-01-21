@@ -16,10 +16,9 @@ from energy_gnome.config import (  # noqa: F401
 from energy_gnome.dataset import get_raw_cathode, get_raw_perovskite
 from energy_gnome.dataset.cathodes import CathodeDatabase
 from energy_gnome.dataset.perovskites import PerovskiteDatabase
-from energy_gnome.models.e3nn_model import E3NNRegressor
 
 # from energy_gnome.dataset.temp_convert import process_data_with_yaml
-from energy_gnome.models.regressor import fit_regressor
+from energy_gnome.models.regressor import E3NNRegressor, fit_regressor
 from energy_gnome.utils.logger_config import logger, setup_logging  # noqa: F401
 
 # Create the Typer app

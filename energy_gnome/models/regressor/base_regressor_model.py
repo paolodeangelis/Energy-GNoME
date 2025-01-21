@@ -26,7 +26,12 @@ from energy_gnome.config import (
     MODELS_DIR,
     PROCESSED_DATA_DIR,
 )
-from energy_gnome.tools.model import PeriodicNetwork, train_regressor
+
+# from energy_gnome.tools.model import PeriodicNetwork, train_regressor
+from energy_gnome.models.regressor.e3nn_regressor_utils import (
+    PeriodicNetwork,
+    train_regressor,
+)
 from energy_gnome.tools.postprocessing import get_neighbors
 from energy_gnome.tools.preprocessing import (
     build_data,

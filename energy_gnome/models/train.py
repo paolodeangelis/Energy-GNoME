@@ -12,7 +12,7 @@ from energy_gnome.config import (
     MODELS_DIR,
     PROCESSED_DATA_DIR,
 )
-from energy_gnome.models.regressor import E3NNRegressor
+from energy_gnome.models.regressor.e3nn_model import E3NNRegressor
 
 # app = typer.Typer()
 
@@ -60,6 +60,7 @@ def fit_regressor(
     regressor_model.get_optimizer_scheduler_loss(
         optimizer_class=torch.optim.AdamW,
         scheduler_class=torch.optim.lr_scheduler.ExponentialLR,
+        scheduler_settings={"gamma": 0.96},
         loss_function=torch.nn.L1Loss,
     )
 

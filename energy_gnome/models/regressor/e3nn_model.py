@@ -20,7 +20,12 @@ from energy_gnome.config import (
     PROCESSED_DATA_DIR,
 )
 from energy_gnome.models.regressor.base_regressor_model import BaseRegressor
-from energy_gnome.tools.model import PeriodicNetwork, train_regressor
+
+# from energy_gnome.tools.model import PeriodicNetwork, train_regressor
+from energy_gnome.models.regressor.e3nn_regressor_utils import (
+    PeriodicNetwork,
+    train_regressor,
+)
 from energy_gnome.tools.postprocessing import get_neighbors
 from energy_gnome.tools.preprocessing import (
     build_data,
@@ -85,7 +90,6 @@ class E3NNRegressor(BaseRegressor):
     def optimizer_settings(self, settings: dict = DEFAULT_OPTIM_SETTINGS):
         self.learning_rate = settings["lr"]
         self.weight_decay = settings["wd"]
-        self.gamma = settings["gamma"]
 
     def load_and_build_database(self) -> pd.DataFrame:
         """
@@ -199,6 +203,7 @@ class E3NNRegressor(BaseRegressor):
         self,
         optimizer_class=torch.optim.AdamW,
         scheduler_class=torch.optim.lr_scheduler.ExponentialLR,
+        scheduler_settings: dict[str, Any] = dict(gamma=0.96),
         loss_function=torch.nn.L1Loss,
     ):
         """
@@ -224,6 +229,7 @@ class E3NNRegressor(BaseRegressor):
         self.optimizer = optimizer_class
         self.scheduler = scheduler_class
         self.loss_function = loss_function
+        self._scheduler_settings = scheduler_settings
         print(f"Optimizer configured: {optimizer_class.__name__}")
         print(f"Learning rate scheduler configured: {scheduler_class.__name__}")
         print(f"Loss function configured: {loss_function.__name__}")
@@ -268,7 +274,7 @@ class E3NNRegressor(BaseRegressor):
             opt = self.optimizer(
                 model_.parameters(), lr=self.learning_rate, weight_decay=self.weight_decay
             )
-            scheduler = self.scheduler(opt, gamma=self.gamma)
+            scheduler = self.scheduler(opt, **self._scheduler_settings)
             loss_fn = self.loss_function()
 
             train_regressor(
@@ -287,9 +293,9 @@ class E3NNRegressor(BaseRegressor):
     def eval_regressor(self, database_nn, idx_train, idx_valid, idx_test):
         prediction_nn = {}
         for i in tqdm(range(self.n_committers), desc="models"):
-            model_path = self.models_dir / self.model_name / f".rep{i}"
+            model_path = str(self.models_dir / self.model_name) + f".rep{i}.torch"
             self.models[f"model_{i}"].load_state_dict(
-                torch.load(model_path + ".torch", map_location=self.device)["state_best"]
+                torch.load(Path(model_path), map_location=self.device)["state_best"]
             )
             self.models[f"model_{i}"].pool = True
 
