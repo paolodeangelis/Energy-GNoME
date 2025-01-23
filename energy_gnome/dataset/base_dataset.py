@@ -37,6 +37,7 @@ class BaseDatabase(ABC):
 
         # Define processing stages
         self.processing_stages = ["raw", "processed", "final"]
+        self.interim_sets = ["training", "validation", "testing"]
 
         # Initialize directories, paths, and databases for each stage
         self.database_directories = {
@@ -51,6 +52,7 @@ class BaseDatabase(ABC):
         }
 
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
+        self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._update_raw = False
 
     def allow_raw_update(self):
@@ -131,8 +133,12 @@ class BaseDatabase(ABC):
             self.databases[stage] = pd.read_json(db_path)
             logger.debug(f"Loaded existing database from {db_path}")
         else:
-            logger.warning(f"No existing database found at {db_path}")
+            logger.warning(f"/ found at {db_path}")
         return self.databases[stage]
+
+    @abstractmethod
+    def load_interim(self, subset: str) -> None:
+        pass
 
     def load_all(self):
         """
@@ -140,6 +146,8 @@ class BaseDatabase(ABC):
         """
         for stage in self.processing_stages:
             self.load_database(stage)
+        for subset in self.interim_sets:
+            self.load_interim(subset)
 
     def save_database(self, stage: str) -> None:
         """
@@ -228,6 +236,39 @@ class BaseDatabase(ABC):
         except Exception as e:
             logger.error(f"Failed to update changelog at {changelog_path}: {e}")
             raise OSError(f"Failed to update changelog at {changelog_path}: {e}") from e
+
+    def get_database(self, stage, subset=None):
+        if stage not in self.processing_stages + ["interim"]:
+            logger.error(
+                f"Invalid stage: {stage}. Must be one of {self.processing_stages + ['interim']}."
+            )
+            raise ValueError(f"stage must be one of {self.processing_stages + ['interim']}.")
+        if stage in self.processing_stages:
+            out_db = self.databases[stage]
+        elif stage in ["interim"] and subset is not None:
+            out_db = self.subset[subset]
+        else:
+            raise ValueError(f"subset must be one of {self.interim_sets}.")
+
+        if len(out_db) == 0:
+            logger.warning("Empty database found.")
+        return out_db
+
+    def save_split_db(self, database_dict: dict, category: str):
+        """
+        Save the split databases.
+        """
+        db_path = DATA_DIR / "interim" / category
+        train_db_path = db_path / "training_db.json"
+        valid_db_path = db_path / "validation_db.json"
+        test_db_path = db_path / "testing_db.json"
+
+        database_dict["train"].to_json(train_db_path)
+        logger.info(f"Training database saved to {train_db_path}")
+        database_dict["valid"].to_json(valid_db_path)
+        logger.info(f"Validation database saved to {valid_db_path}")
+        database_dict["test"].to_json(test_db_path)
+        logger.info(f"Testing database saved to {test_db_path}")
 
     def __repr__(self) -> str:
         """

@@ -22,7 +22,7 @@ PROJ_ROOT = Path(".").resolve()
 DATA_DIR = PROJ_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 INTERIM_DATA_DIR = DATA_DIR / "interim"
-PROCESSED_DATA_DIR = DATA_DIR / "raw"  # "processed"
+PROCESSED_DATA_DIR = DATA_DIR / "processed"
 EXTERNAL_DATA_DIR = DATA_DIR / "external"
 
 MODELS_DIR = PROJ_ROOT / "models"
@@ -54,12 +54,11 @@ DEFAULT_E3NN_SETTINGS = {
     "l_max": 2,  # maximum order of spherical harmonics (suggested: 2)
     "r_max": 5.0,  # cutoff radius for convolution (suggested: 5.0)
     "device": "cuda:0" if torch.cuda.is_available() else "cpu",
+    "batch_size": 4,
 }
 
-DEFAULT_E3NN_TRAINING_SETTINGS = {
+DEFAULT_TRAINING_SETTINGS = {
     "n_epochs": 2,
-    "batch_size": 4,
-    "load_db": False,  # If the script will use a previously set-up database
 }
 
 DEFAULT_OPTIM_SETTINGS = {

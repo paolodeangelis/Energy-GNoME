@@ -4,14 +4,18 @@ from pathlib import Path
 import shutil as sh
 from typing import Any
 
+from ase.io import read
 from mp_api.client import MPRester
 import pandas as pd
+import torch
+import torch_geometric as tg
 from tqdm import tqdm
 
 from energy_gnome.config import (  # noqa:401
     DATA_DIR,
     DOI_ARTICLE,
     EXTERNAL_DATA_DIR,
+    INTERIM_DATA_DIR,
     RAW_DATA_DIR,
 )
 from energy_gnome.dataset.base_dataset import BaseDatabase
@@ -26,6 +30,7 @@ from energy_gnome.utils.mp_api_utils import (
 # Paths
 PEROVSKITES_RAW_DATA_DIR = RAW_DATA_DIR / "perovskites"
 
+# Fields
 
 BAND_FIELDS = [
     "band_gap",
@@ -104,8 +109,11 @@ class PerovskiteDatabase(BaseDatabase):
         }
 
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
+        self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._perovskites = pd.DataFrame()
         self.external_perovproj_path: Path | str = external_perovproj_path
+
+        self.target_property = "bang_gap"
 
     def retrieve_remote(self, mute_progress_bars: bool = True) -> pd.DataFrame:
         """
@@ -512,8 +520,8 @@ class PerovskiteDatabase(BaseDatabase):
             logger.error("You can only copy from 'raw' to other stages, not to 'raw' itself.")
             raise ValueError("Stage argument cannot be 'raw'.")
 
-        source_dir = self.database_directories["raw"]
-        saving_dir = self.database_directories[stage]
+        source_dir = self.database_directories["raw"] / "structures/"
+        saving_dir = self.database_directories[stage] / "structures/"
 
         # Clean the saving directory if it exists
         if saving_dir.exists():
@@ -531,11 +539,11 @@ class PerovskiteDatabase(BaseDatabase):
 
         # Create the saving directory
         saving_dir.mkdir(parents=True, exist_ok=False)
-        self.databases[stage] = pd.Series(dtype=str)
+        self.databases[stage]["cif_path"] = pd.Series(dtype=str)
 
         # Copy CIF files and update database paths
         for material_id in tqdm(
-            self.databases[stage],
+            self.databases[stage]["material_id"],
             desc=f"Copying perovskites ('raw' -> '{stage}')",
             disable=mute_progress_bars,
         ):
@@ -555,7 +563,7 @@ class PerovskiteDatabase(BaseDatabase):
                 sh.copyfile(source_cif_path, cif_path)
 
                 # Update the database with the new CIF file path
-                self.databases[stage].at[i_row] = str(cif_path)
+                self.databases[stage].at[i_row, "cif_path"] = str(cif_path)
 
             except IndexError:
                 logger.error(f"Material ID {material_id} not found in the database.")
@@ -567,6 +575,61 @@ class PerovskiteDatabase(BaseDatabase):
         # Save the updated database
         self.save_database(stage)
         logger.info(f"CIF files copied to stage '{stage}' and database updated successfully.")
+
+    def process_database(
+        self, band_gap_lower: float, band_gap_upper: float, clean_magnetic: bool = True
+    ) -> pd.DataFrame:
+        """
+        Process the raw perovskite database to the 'processed' stage.
+
+        Removes materials with target property (band_gap [eV]) outside the desired range.
+        Optionally removes magnetic materials.
+
+        Args:
+            band_gap_lower (float): Lower bound of the target property range.
+            band_gap_upper (float): Upper bound of the target property range.
+            clean_magnetic (bool, optional): Removes magnetic materials if set to True. Defaults to True.
+        """
+        raw_db = self.load_database(stage="raw")
+        if clean_magnetic:
+            temp_db = raw_db[~(raw_db["is_magnetic"])]
+        else:
+            temp_db = raw_db
+            logger.info("Keeping magnetic perovskites")
+
+        processed_db = temp_db[
+            (temp_db["band_gap"] > band_gap_lower) & (temp_db["band_gap"] <= band_gap_upper)
+        ]
+        self.databases["processed"] = processed_db
+        self.save_database("processed")
+        return self.databases["processed"]
+
+    def load_interim(self, subset: str = "training") -> pd.DataFrame:
+        """
+        Load the existing interim databases.
+
+        Checks for the presence of an existing database file for the given subset
+        and loads it into a pandas DataFrame. If the database file does not exist,
+        logs a warning and returns an empty DataFrame.
+
+        Args:
+            set (str): The interim subset ('training', 'validation', 'testing').
+
+        Returns:
+            pd.DataFrame: The loaded database or an empty DataFrame if not found.
+        """
+        if subset not in self.interim_sets:
+            logger.error(f"Invalid set: {subset}. Must be one of {self.interim_sets}.")
+            raise ValueError(f"set must be one of {self.interim_sets}.")
+
+        db_name = subset + "_db.json"
+        db_path = INTERIM_DATA_DIR / "perovskites" / db_name
+        if db_path.exists():
+            self.subset[subset] = pd.read_json(db_path)
+            logger.debug(f"Loaded existing database from {db_path}")
+        else:
+            logger.warning(f"No existing database found at {db_path}")
+        return self.subset[subset]
 
     def __repr__(self) -> str:
         """
