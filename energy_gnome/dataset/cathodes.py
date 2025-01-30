@@ -7,7 +7,7 @@ from mp_api.client import MPRester
 import pandas as pd
 from tqdm import tqdm
 
-from energy_gnome.config import DATA_DIR, DOI_ARTICLE, RAW_DATA_DIR  # noqa:401
+from energy_gnome.config import DATA_DIR, INTERIM_DATA_DIR, RAW_DATA_DIR
 from energy_gnome.dataset.base_dataset import BaseDatabase
 from energy_gnome.exception import ImmutableRawDataError, MissingData
 from energy_gnome.utils.logger_config import logger
@@ -65,7 +65,11 @@ MAT_PROPERTIES = {
 
 class CathodeDatabase(BaseDatabase):
     def __init__(
-        self, data_dir: Path = DATA_DIR, working_ion: str = "Li", battery_type: str = "insertion"
+        self,
+        data_dir: Path = DATA_DIR,
+        name: str = "cathodes",
+        working_ion: str = "Li",
+        battery_type: str = "insertion",
     ):
         """
         Initialize the CathodeDatabase with a root data directory and processing stage.
@@ -85,7 +89,7 @@ class CathodeDatabase(BaseDatabase):
             NotImplementedError: If the specified processing stage is not supported.
             ImmutableRawDataError: If attempting to set an unsupported processing stage.
         """
-        super().__init__(data_dir=data_dir)
+        super().__init__(data_dir=data_dir, name=name)
         self.working_ion = working_ion
 
         if battery_type == "insertion":
@@ -638,6 +642,33 @@ class CathodeDatabase(BaseDatabase):
         # Save the updated database
         self.save_database(stage)
         logger.info(f"CIF files copied to stage '{stage}' and database updated successfully.")
+
+    def load_interim(self, subset: str = "training") -> pd.DataFrame:
+        """
+        Load the existing interim databases.
+
+        Checks for the presence of an existing database file for the given subset
+        and loads it into a pandas DataFrame. If the database file does not exist,
+        logs a warning and returns an empty DataFrame.
+
+        Args:
+            set (str): The interim subset ('training', 'validation', 'testing').
+
+        Returns:
+            pd.DataFrame: The loaded database or an empty DataFrame if not found.
+        """
+        if subset not in self.interim_sets:
+            logger.error(f"Invalid set: {subset}. Must be one of {self.interim_sets}.")
+            raise ValueError(f"set must be one of {self.interim_sets}.")
+
+        db_name = subset + "_db.json"
+        db_path = INTERIM_DATA_DIR / "cathodes" / db_name
+        if db_path.exists():
+            self.subset[subset] = pd.read_json(db_path)
+            logger.debug(f"Loaded existing database from {db_path}")
+        else:
+            logger.warning(f"No existing database found at {db_path}")
+        return self.subset[subset]
 
     def __repr__(self) -> str:
         """

@@ -1,11 +1,9 @@
 from pathlib import Path
 
 from loguru import logger
-from tqdm import tqdm
-import typer
 
-from energy_gnome.config import DATA_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
-from energy_gnome.dataset import CathodeDatabase, PerovskiteDatabase
+from energy_gnome.config import DATA_DIR
+from energy_gnome.dataset import CathodeDatabase, MPDatabase, PerovskiteDatabase
 
 # app = typer.Typer()
 
@@ -48,16 +46,27 @@ def get_raw_perovskite(data_dir: Path = DATA_DIR, logger=logger):
     perovskite_db = PerovskiteDatabase(data_dir=data_dir)
     perovskite_db.allow_raw_update()
     logger.info("[STEP 1] Retrieving and saving materials")
-    db, materials = perovskite_db.retrieve_materials(mute_progress_bars=False)
+    db, _ = perovskite_db.retrieve_materials(mute_progress_bars=False)
     perovskite_db.compare_and_update(db, "raw")
     logger.info("[STEP 2] Retrieving and saving CIF files")
+    raw_db = perovskite_db.load_database("raw")
     perovskite_db.save_cif_files(
         stage="raw",
-        materials_mp_query=materials,
+        database=raw_db,
         mute_progress_bars=False,
     )
     logger.info("[STEP 3] Saving database")
     perovskite_db.save_database("raw")
+
+
+def get_raw_all(data_dir: Path = DATA_DIR, logger=logger):
+    mp_db = MPDatabase(data_dir=data_dir)
+    mp_db.allow_raw_update()
+    logger.info("[STEP 1] Retrieving and saving materials")
+    db, _ = mp_db.retrieve_materials(mute_progress_bars=False)
+    mp_db.compare_and_update(db, "raw")
+    logger.info("[STEP 2] Saving database")
+    mp_db.save_database("raw")
 
 
 # @app.command()

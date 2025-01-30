@@ -2,17 +2,13 @@ from datetime import datetime
 import json
 from pathlib import Path
 import shutil as sh
+from typing import Any
 
 from mp_api.client import MPRester
 import pandas as pd
 from tqdm import tqdm
 
-from energy_gnome.config import (  # noqa:401
-    DATA_DIR,
-    EXTERNAL_DATA_DIR,
-    INTERIM_DATA_DIR,
-    RAW_DATA_DIR,
-)
+from energy_gnome.config import DATA_DIR, INTERIM_DATA_DIR, RAW_DATA_DIR  # noqa:401
 from energy_gnome.dataset.base_dataset import BaseDatabase
 from energy_gnome.exception import ImmutableRawDataError, MissingData
 from energy_gnome.utils.logger_config import logger
@@ -22,30 +18,9 @@ from energy_gnome.utils.mp_api_utils import (
 )
 
 # Paths
-PEROVSKITES_RAW_DATA_DIR = RAW_DATA_DIR / "perovskites"
+MP_RAW_DATA_DIR = RAW_DATA_DIR / "mp"
 
 # Fields
-
-BAND_FIELDS = [
-    "band_gap",
-    "cbm",
-    "vbm",
-    "efermi",
-    "is_gap_direct",
-    "is_metal",
-    "magnetic_ordering",
-    "nsites",
-    "elements",
-    "nelements",
-    "volume",
-    "density",
-    "density_atomic",
-    "symmetry",
-    "material_id",
-    "dos",
-]
-
-BAND_CRITICAL_FIELD = ["band_gap", "is_metal", "material_id", "is_magnetic"]
 
 MAT_PROPERTIES = {
     "volume": "float64",
@@ -64,18 +39,13 @@ MAT_PROPERTIES = {
     "nelements": "int",
 }
 
+CRITICAL_FIELD = ["band_gap", "is_metal", "material_id", "is_magnetic"]
 
-class PerovskiteDatabase(BaseDatabase):
-    def __init__(
-        self,
-        name: str = "perovskites",
-        data_dir: Path | str = DATA_DIR,
-        external_perovproj_path: Path | str = EXTERNAL_DATA_DIR
-        / Path("perovskites")
-        / Path("perovproject_db.json"),
-    ):
+
+class MPDatabase(BaseDatabase):
+    def __init__(self, name: str = "mp", data_dir: Path | str = DATA_DIR):
         """
-        Initialize the PerovskiteDatabase with a root data directory and processing stage.
+        Initialize the MPDatabase with a root data directory and processing stage.
 
         Sets up the directory structure for storing data across different processing stages
         (`raw/`, `processed/`, `final/`) and initializes placeholders for database paths and data.
@@ -91,23 +61,23 @@ class PerovskiteDatabase(BaseDatabase):
         super().__init__(data_dir=data_dir, name=name)
 
         # Initialize directories, paths, and databases for each stage
-        # self.database_directories = {
-        #     stage: self.data_dir / stage / "perovskites" for stage in self.processing_stages
-        # }
-        # for stage_dir in self.database_directories.values():
-        #     stage_dir.mkdir(parents=True, exist_ok=True)
+        self.database_directories = {
+            stage: self.data_dir / stage / self.name for stage in self.processing_stages
+        }
+        # Force single directory for raw database of MPDatabase
+        self.database_directories["raw"] = self.data_dir / "raw" / "mp"
 
-        # self.database_paths = {
-        #     stage: dir_path / "database.json"
-        #     for stage, dir_path in self.database_directories.items()
-        # }
+        for stage_dir in self.database_directories.values():
+            stage_dir.mkdir(parents=True, exist_ok=True)
 
-        # self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
-        # self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
-        self._perovskites = pd.DataFrame()
-        self.external_perovproj_path: Path | str = external_perovproj_path
+        self.database_paths = {
+            stage: dir_path / "database.json"
+            for stage, dir_path in self.database_directories.items()
+        }
 
-        self.target_property = "bang_gap"
+        self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
+        self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
+        self._mp = pd.DataFrame()
 
     def retrieve_remote(self, mute_progress_bars: bool = True) -> pd.DataFrame:
         """
@@ -125,42 +95,17 @@ class PerovskiteDatabase(BaseDatabase):
         """
         return self.retrieve_materials(mute_progress_bars=mute_progress_bars)
 
-    def _pre_retrieve_robo(self, mute_progress_bars: bool = True) -> list[str]:
-        mp_api_key = get_mp_api_key()
-        with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
-            try:
-                query = mpr.materials.robocrys.search(keywords=["Perovskite", "perovskite"])
-                logger.info(
-                    f"MP query successful, {len(query)} perovskite IDs found through Robocrystallographer."
-                )
-            except Exception as e:
-                raise e
-        ids_list_robo = [q.material_id for q in query]
-        return ids_list_robo
-
-    def _pre_retrieve_perovproj(self, mute_progress_bars: bool = True) -> list[str]:
-        mp_api_key = get_mp_api_key()
-        with open(self.external_perovproj_path) as f:
-            dict_ = json.load(f)
-        with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
-            try:
-                query = mpr.materials.summary.search(formula=dict_, fields="material_id")
-                logger.info(
-                    f"MP query successful, {len(query)} perovskite IDs found through Perovskite Project formulae."
-                )
-            except Exception as e:
-                raise e
-        ids_list_perovproj = [q.material_id for q in query]
-        return ids_list_perovproj
-
-    def retrieve_materials(self, mute_progress_bars: bool = True) -> pd.DataFrame:
+    def retrieve_materials(
+        self, max_framework_size: int = 6, mute_progress_bars: bool = True
+    ) -> pd.DataFrame:
         """
-        Retrieve perovskites from the Materials Project API.
+        Retrieve all materials from the Materials Project API.
 
         Connects to the Material Project API using MPRester, queries for materials, and retrieves the specified fields.
         Cleans the data by removing entries with missing critical identifiers.
 
         Args:
+            max_framework_size (int, optional): Maximum framework size of the queried materials. Defults to 6.
             mute_progress_bars (bool, optional):
                 If `True`, mutes the Material Project API progress bars.
                 Defaults to `True`.
@@ -172,70 +117,36 @@ class PerovskiteDatabase(BaseDatabase):
             Exception: If the API query fails.
         """
         mp_api_key = get_mp_api_key()
-        ids_list_robo = self._pre_retrieve_robo(mute_progress_bars=mute_progress_bars)
-        ids_list_perovproj = self._pre_retrieve_perovproj(mute_progress_bars=mute_progress_bars)
-        logger.debug("MP querying for perovskites.")
-
-        ids_list = ids_list_robo + ids_list_perovproj
-        unique_ids = list()
-        for x in ids_list:
-            if x not in unique_ids:
-                unique_ids.append(x)
+        logger.debug("MP querying for all materials.")
+        query = []
 
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
-                query = mpr.materials.summary.search(
-                    material_ids=unique_ids, fields=MAT_PROPERTIES
-                )
-                logger.info(
-                    f"MP query successful, {len(query)} perovskites found through Robocrystallographer and Perovskite Project formulae."
-                )
+                for n_elm in range(1, max_framework_size + 1):
+                    chemsys = "*" + "-*" * n_elm
+                    logger.info(f"Retrieving all materials with chemical system = {chemsys} :")
+                    query += mpr.materials.summary.search(chemsys=chemsys, fields=MAT_PROPERTIES)
+                logger.info(f"MP query successful, {len(query)} materials found.")
             except Exception as e:
                 raise e
         logger.debug("Converting MP query results into DataFrame.")
-        perovskites_database = convert_my_query_to_dataframe(
-            query, mute_progress_bars=mute_progress_bars
-        )
-
-        query_ids = list()
-        for m in query:
-            query_ids.append(m.material_id)
+        mp_database = convert_my_query_to_dataframe(query, mute_progress_bars=mute_progress_bars)
 
         # Fast cleaning
         logger.debug("Removing NaN (rows)")
-        logger.debug(f"size DB before = {len(perovskites_database)}")
-        perovskites_database = perovskites_database.dropna(
-            axis=0, how="any", subset=BAND_CRITICAL_FIELD
-        )
-        logger.debug(f"size DB after = {len(perovskites_database)}")
+        logger.debug(f"size DB before = {len(mp_database)}")
+        mp_database = mp_database.dropna(axis=0, how="any", subset=CRITICAL_FIELD)
+        logger.debug(f"size DB after = {len(mp_database)}")
         logger.debug("Removing NaN (cols)")
-        logger.debug(f"size DB before = {len(perovskites_database)}")
-        perovskites_database = perovskites_database.dropna(axis=1, how="all")
-        logger.debug(f"size DB after = {len(perovskites_database)}")
+        logger.debug(f"size DB before = {len(mp_database)}")
+        mp_database = mp_database.dropna(axis=1, how="all")
+        logger.debug(f"size DB after = {len(mp_database)}")
 
-        # Filtering
-        logger.debug("Removing metallic perovskites.")
-        logger.debug(f"size DB before = {len(perovskites_database)}")
-        filtered_perov_database = perovskites_database[~(perovskites_database["is_metal"])]
-        logger.debug(f"size DB after = {len(filtered_perov_database)}")
+        mp_database.reset_index(drop=True, inplace=True)
+        self._mp = mp_database.copy()
 
-        query_ids_filtered = filtered_perov_database["material_id"]
-        diff = set(query_ids) - set(query_ids_filtered)
-
-        reach_end = False
-        while not reach_end:
-            for i, q in enumerate(query):
-                if q.material_id in diff:
-                    query.pop(i)
-                    break
-            if i == len(query) - 1:
-                reach_end = True
-
-        filtered_perov_database.reset_index(drop=True, inplace=True)
-        self._perovskites = filtered_perov_database.copy()
-
-        logger.success("Perovskites retrieved successfully.")
-        return self._perovskites, query
+        logger.success("Materials retrieved successfully.")
+        return self._mp, query
 
     def compare_databases(self, new_db: pd.DataFrame, stage: str) -> pd.DataFrame:
         """
@@ -253,7 +164,7 @@ class PerovskiteDatabase(BaseDatabase):
             new_ids_set = set(new_db["material_id"])
             old_ids_set = set(old_db["material_id"])
             new_ids_only = new_ids_set - old_ids_set
-            logger.debug(f"Found {len(new_ids_only)} new perovskite IDs in the new database.")
+            logger.debug(f"Found {len(new_ids_only)} new material IDs in the new database.")
             return new_db[new_db["material_id"].isin(new_ids_only)]
         else:
             logger.warning("Nothing to compare here...")
@@ -422,7 +333,7 @@ class PerovskiteDatabase(BaseDatabase):
 
         Args:
             stage (str): Processing stage ('raw', 'processed', 'final').
-            materials_mp_query (List[Any]): List of material query results.
+            database (pd.DataFrame): ...
             mute_progress_bars (bool, optional): Disable progress bar if True. Defaults to True.
 
         Raises:
@@ -457,7 +368,7 @@ class PerovskiteDatabase(BaseDatabase):
         # Save CIF files and update database paths
         ids_list = database["material_id"].tolist()
 
-        logger.debug("MP querying for perovskite structures.")
+        logger.debug("MP querying for materials' structures.")
         mp_api_key = get_mp_api_key()
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
@@ -472,7 +383,7 @@ class PerovskiteDatabase(BaseDatabase):
 
         for material in tqdm(
             materials_mp_query,
-            desc="Saving perovskites",
+            desc="Saving materials",
             disable=mute_progress_bars,
         ):
             try:
@@ -553,7 +464,7 @@ class PerovskiteDatabase(BaseDatabase):
         # Copy CIF files and update database paths
         for material_id in tqdm(
             self.databases[stage]["material_id"],
-            desc=f"Copying perovskites ('raw' -> '{stage}')",
+            desc=f"Copying materials ('raw' -> '{stage}')",
             disable=mute_progress_bars,
         ):
             try:
@@ -585,63 +496,6 @@ class PerovskiteDatabase(BaseDatabase):
         self.save_database(stage)
         logger.info(f"CIF files copied to stage '{stage}' and database updated successfully.")
 
-    def process_database(
-        self,
-        band_gap_lower: float,
-        band_gap_upper: float,
-        inplace: bool = True,
-        db: pd.DataFrame = None,
-        clean_magnetic: bool = True,
-    ) -> pd.DataFrame:
-        """
-        Process the raw perovskite database to the 'processed' stage.
-
-        Removes materials with target property (band_gap [eV]) outside the desired range.
-        Optionally removes magnetic materials.
-
-        Args:
-            band_gap_lower (float): Lower bound of the target property range.
-            band_gap_upper (float): Upper bound of the target property range.
-            inplace (bool, optional): True if the preprocessing is done on the "raw" stage of the PerovskiteDatabase. Defaults to True.
-            db (pd.DataFrame): Database to preprocess. Defaults to None.
-            clean_magnetic (bool, optional): Removes magnetic materials if set to True. Defaults to True.
-        """
-
-        if not inplace and db is None:
-            logger.error(
-                "Invalid input: You must input a pd.DataFrame if 'inplace' is set to True."
-            )
-            raise ValueError("You must input a pd.DataFrame if 'inplace' is set to True.")
-
-        if inplace:
-            raw_db = self.load_database(stage="raw")
-        else:
-            raw_db = db
-
-        raw_db = raw_db[~(raw_db["is_metal"])]
-        logger.info("Removing metallic materials")
-        if clean_magnetic:
-            temp_db = raw_db[~(raw_db["is_magnetic"])]
-            logger.info("Removing magnetic materials")
-        else:
-            temp_db = raw_db
-            logger.info("Keeping magnetic materials")
-
-        logger.info(
-            f"Removing materials with bandgap {band_gap_lower} eV < E_g <= {band_gap_upper} eV"
-        )
-        processed_db = temp_db[
-            (temp_db["band_gap"] > band_gap_lower) & (temp_db["band_gap"] <= band_gap_upper)
-        ]
-
-        processed_db.reset_index(drop=True, inplace=True)
-
-        if inplace:
-            self.databases["processed"] = processed_db.copy()
-            self.save_database("processed")
-
-        return processed_db
-
     def load_interim(self, subset: str = "training") -> pd.DataFrame:
         """
         Load the existing interim databases.
@@ -661,13 +515,47 @@ class PerovskiteDatabase(BaseDatabase):
             raise ValueError(f"set must be one of {self.interim_sets}.")
 
         db_name = subset + "_db.json"
-        db_path = self.data_dir / "interim" / self.name / db_name
+        db_path = INTERIM_DATA_DIR / "perovskites" / db_name
         if db_path.exists():
             self.subset[subset] = pd.read_json(db_path)
             logger.debug(f"Loaded existing database from {db_path}")
         else:
             logger.warning(f"No existing database found at {db_path}")
         return self.subset[subset]
+
+    def remove_cross_overlap(
+        self,
+        stage: str,
+        database: pd.DataFrame,
+    ) -> pd.DataFrame:
+        """
+        Remove the cross-overlapping entries shared by the category-specific databases.
+
+        Args:
+            stage (str): Processing stage ('raw', 'processed', 'final').
+            database (pd.DataFrame): The category-specific database to compare with the generic database.
+
+        Returns:
+            pd.DataFrame: The filtered generic database.
+        """
+        if stage not in self.processing_stages:
+            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
+            raise ValueError(f"stage must be one of {self.processing_stages}.")
+
+        mp_database = self.load_database(stage)
+        id_overlap = database["material_id"].tolist()
+
+        mp_database["to_drop"] = mp_database.apply(
+            lambda x: x["material_id"] in id_overlap, axis=1
+        )
+        to_drop = mp_database["to_drop"].value_counts().get(True, 0)
+        logger.info(f"{to_drop} overlapping items to drop.")
+        mp_database_no_overlap = mp_database.loc[mp_database["to_drop"] is False, :].reset_index(
+            drop=True
+        )
+        mp_database_no_overlap.drop(columns=["to_drop"], inplace=True)
+
+        return mp_database_no_overlap
 
     def __repr__(self) -> str:
         """
@@ -834,3 +722,110 @@ class PerovskiteDatabase(BaseDatabase):
             "</div>"
         )
         return html
+
+
+class MergedDatabase(BaseDatabase):
+    def __init__(self, name: str = "merged", data_dir: Path | str = DATA_DIR):
+        """
+        Initialize the MergedDatabase with a root data directory and processing stage.
+
+        Sets up the directory structure for storing data across different processing stages
+        (`raw/`, `processed/`, `final/`) and initializes placeholders for database paths and data.
+
+        Args:
+            data_dir (Path, optional): Root directory path for storing data.
+                                       Defaults to DATA_DIR from config.
+
+        Raises:
+            NotImplementedError: If the specified processing stage is not supported.
+            ImmutableRawDataError: If attempting to set an unsupported processing stage.
+        """
+        super().__init__(data_dir=data_dir, name=name)
+
+        # Initialize directories, paths, and databases for each stage
+        self.database_directories = {
+            stage: self.data_dir / stage / self.name for stage in self.processing_stages
+        }
+
+        for stage_dir in self.database_directories.values():
+            stage_dir.mkdir(parents=True, exist_ok=True)
+
+        self.database_paths = {
+            stage: dir_path / "database.json"
+            for stage, dir_path in self.database_directories.items()
+        }
+
+        self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
+        self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
+        self._merged = pd.DataFrame()
+
+    def retrieve_remote(self) -> pd.DataFrame:
+        """
+        Retrieve data from the Material Project API.
+        """
+        pass
+
+    def compare_databases(self, new_db: pd.DataFrame, stage: str) -> pd.DataFrame:
+        """
+        Compare a new database with the existing one to identify differences.
+
+        Args:
+            new_db (pd.DataFrame): new database to compare.
+            stage (str): The processing stage ('raw', 'processed', 'final').
+
+        Returns:
+            pd.DataFrame: Subset of `db_new` containing only new battery IDs.
+        """
+        pass
+
+    def retrieve_materials(self) -> list[Any]:
+        """
+        Retrieve material structures from the Material Project API.
+
+        Subclasses must implement this method to fetch material structures.
+        The method should interact with the Material Project API, perform necessary
+        queries, and return the results as a list of material objects.
+
+        Returns:
+            List[Any]: List of retrieved material objects.
+        """
+        pass
+
+    def save_cif_files(self) -> None:
+        """
+        Save CIF files for materials and update the database accordingly.
+        """
+        pass
+
+    def copy_cif_files(self) -> None:
+        """
+        Copy CIF files for materials and update the database accordingly.
+        """
+        pass
+
+    def load_interim(self, subset: str = "training") -> pd.DataFrame:
+        """
+        Load the existing interim databases.
+
+        Checks for the presence of an existing database file for the given subset
+        and loads it into a pandas DataFrame. If the database file does not exist,
+        logs a warning and returns an empty DataFrame.
+
+        Args:
+            set (str): The interim subset ('training', 'validation', 'testing').
+
+        Returns:
+            pd.DataFrame: The loaded database or an empty DataFrame if not found.
+        """
+        if subset not in self.interim_sets:
+            logger.error(f"Invalid set: {subset}. Must be one of {self.interim_sets}.")
+            raise ValueError(f"set must be one of {self.interim_sets}.")
+
+        db_name = subset + "_db.json"
+        db_path = self.data_dir / "interim" / self.name / db_name
+        if db_path.exists():
+            self.subset[subset] = pd.read_json(db_path)
+            logger.debug(f"Loaded existing database from {db_path}")
+        else:
+            logger.warning(f"No existing database found at {db_path}")
+        return self.subset[subset]

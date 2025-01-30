@@ -9,19 +9,34 @@ the Energy Gnome library. It ensures consistency, enforces a standard structure,
 and provides shared utility methods for managing different data processing stages
 (raw, processed, final).
 """
+import os
+
+try:
+    import win32file
+except ImportError:
+    pass
 
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any
 
 from loguru import logger
+from numpy.random import PCG64, Generator
 import pandas as pd
 
 from energy_gnome.config import DATA_DIR
 
 
+def make_link(source: Path, target: Path):
+    if source.exists():
+        logger.warning(f"File {source} already exist")
+    else:
+        os.symlink(source, target)
+        logger.info(f"Made link {source} -> {target}")
+
+
 class BaseDatabase(ABC):
-    def __init__(self, data_dir: Path = DATA_DIR):
+    def __init__(self, name: str, data_dir: Path = DATA_DIR):
         """
         Initialize the BaseDatabase with a root data directory.
 
@@ -32,6 +47,8 @@ class BaseDatabase(ABC):
             data_dir (Path, optional): Root directory path for storing data.
                                        Defaults to Path("data/").
         """
+        self.name = name
+
         self.data_dir = data_dir
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
@@ -41,7 +58,7 @@ class BaseDatabase(ABC):
 
         # Initialize directories, paths, and databases for each stage
         self.database_directories = {
-            stage: self.data_dir / stage for stage in self.processing_stages
+            stage: self.data_dir / stage / self.name for stage in self.processing_stages
         }
         for stage_dir in self.database_directories.values():
             stage_dir.mkdir(parents=True, exist_ok=True)
@@ -133,7 +150,7 @@ class BaseDatabase(ABC):
             self.databases[stage] = pd.read_json(db_path)
             logger.debug(f"Loaded existing database from {db_path}")
         else:
-            logger.warning(f"/ found at {db_path}")
+            logger.warning(f"Not found at {db_path}")
         return self.databases[stage]
 
     @abstractmethod
@@ -167,6 +184,8 @@ class BaseDatabase(ABC):
             raise ValueError(f"stage must be one of {self.processing_stages}.")
 
         db_path = self.database_paths[stage]
+        if os.path.exists(db_path):
+            os.unlink(db_path)
         try:
             self.databases[stage].to_json(db_path)
             logger.info(f"Database saved to {db_path}")
@@ -259,6 +278,9 @@ class BaseDatabase(ABC):
         Save the split databases.
         """
         db_path = DATA_DIR / "interim" / category
+        if not db_path.exists():
+            db_path.mkdir(parents=True, exist_ok=True)
+
         train_db_path = db_path / "training_db.json"
         valid_db_path = db_path / "validation_db.json"
         test_db_path = db_path / "testing_db.json"
@@ -269,6 +291,55 @@ class BaseDatabase(ABC):
         logger.info(f"Validation database saved to {valid_db_path}")
         database_dict["test"].to_json(test_db_path)
         logger.info(f"Testing database saved to {test_db_path}")
+
+    def build_reduced_database(
+        self,
+        size: int,
+        new_name: str,
+        stage: str,
+        save: bool = True,
+        seed: int = 42,
+    ) -> pd.DataFrame:
+        """
+        Build the reduced MP database.
+
+        Args:
+            database (pd.DataFrame): The database from which to pick random entries.
+            size (int): The size (number of entries) of the reduced database.
+            seed (int): The random seed used for creating reproducible databases. Defaults to 42.
+
+        Returns:
+            pd.DataFrame: The filtered generic database.
+        """
+        new_database = self.__class__(data_dir=self.data_dir, name=new_name)
+        if size == 0:
+            logger.error("You are creating an empty database.")
+            raise ValueError("You are creating an empty database.")
+        # copy database
+        for stages, db in self.databases.items():
+            if len(self.databases[stages]) != 0:
+                new_database.databases[stages] = db.copy()
+                make_link(self.database_paths[stages], new_database.database_paths[stages])
+        for subset, db in self.subset.items():
+            if len(self.subset[subset]) != 0:
+                new_database.subset[subset] = db.copy()
+                subset_path_father = self.data_dir / "interim" / self.name / (subset + "_db.json")
+                subset_path_son = (
+                    new_database.data_dir / "interim" / new_database.name / (subset + "_db.json")
+                )
+                if not subset_path_son.parent.exists():
+                    subset_path_son.parent.mkdir(parents=True, exist_ok=True)
+                make_link(subset_path_father, subset_path_son)
+
+        database = new_database.databases[stage].copy()
+        n_all = len(database)
+        rng = Generator(PCG64(seed))
+        row_i_all = rng.choice(n_all, size, replace=False)
+        new_database.databases[stage] = database.iloc[row_i_all, :].reset_index(drop=True)
+
+        new_database.save_database(stage)
+
+        return new_database
 
     def __repr__(self) -> str:
         """

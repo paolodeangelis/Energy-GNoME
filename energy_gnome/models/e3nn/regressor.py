@@ -90,22 +90,6 @@ class E3NNRegressor(BaseRegressor):
         self.learning_rate = lr
         self.weight_decay = wd
 
-    # def save_db(self):
-    #     """
-    #     Save the split databases.
-    #     """
-    #     db_path = INTERIM_DATA_DIR / self.category
-    #     train_db_path =  db_path / "training_db.json"
-    #     valid_db_path =  db_path / "validation_db.json"
-    #     test_db_path =  db_path / "testing_db.json"
-
-    #     self.database_dict["train"].to_json(train_db_path)
-    #     logger.info(f"Training database saved to {train_db_path}")
-    #     self.database_dict["valid"].to_json(valid_db_path)
-    #     logger.info(f"Validation database saved to {valid_db_path}")
-    #     self.database_dict["test"].to_json(test_db_path)
-    #     logger.info(f"Testing database saved to {test_db_path}")
-
     def db_featurizer(self, dataset: pd.DataFrame) -> pd.DataFrame:
         """
         Load and featurize the specified database.
@@ -244,7 +228,6 @@ class E3NNRegressor(BaseRegressor):
     def warmup(
         self,
         database: BaseDatabase,
-        category: str,
         target_property: str,
         batch_size: int = DEFAULT_E3NN_SETTINGS["batch_size"],
         lr: float = DEFAULT_OPTIM_SETTINGS["lr"],
@@ -254,8 +237,9 @@ class E3NNRegressor(BaseRegressor):
         scheduler_settings: dict[str, Any] = dict(gamma=0.96),
         loss_function=torch.nn.L1Loss,
     ):
+        name = database.name
         logger.info("[STEP 1.1] Loading settings")
-        self.set_model_settings(category, target_property, batch_size)
+        self.set_model_settings(name, target_property, batch_size)
         self.set_optimizer_settings(lr, wd)
 
         logger.info("[STEP 1.2] Split and save training/validation/testing subsets")
@@ -266,7 +250,7 @@ class E3NNRegressor(BaseRegressor):
             test_size=0.05,
             seed=42,
         )
-        database.save_split_db(db_dict, category)
+        database.save_split_db(db_dict, name)
 
         logger.info("[STEP 1.3] Featurize and format subsets for training")
         training_db = database.load_interim("training")
@@ -325,7 +309,7 @@ class E3NNRegressor(BaseRegressor):
                 device=self.device,
             )
 
-    def eval_regressor(self, dataset: pd.DataFrame):
+    def eval(self, dataset: pd.DataFrame):
         """
         Evaluate regressor performance.
 
@@ -343,7 +327,7 @@ class E3NNRegressor(BaseRegressor):
             )
             self.models[f"model_{i}"].pool = True
 
-            dataloader = tg.loader.DataLoader(dataset["data"].values, batch_size=4)
+            dataloader = tg.loader.DataLoader(dataset["data"].values, self.batch_size)
             prediction_nn[f"model_{i}"] = pd.DataFrame()
             prediction_nn[f"model_{i}"]["loss"] = 0.0
             prediction_nn[f"model_{i}"][self.target_property] = dataset[self.target_property]
@@ -356,9 +340,7 @@ class E3NNRegressor(BaseRegressor):
                 for j, d in tqdm(enumerate(dataloader), total=len(dataloader)):
                     d.to(self.device)
                     output = self.models[f"model_{i}"](d)
-                    loss = (
-                        F.mse_loss(output, d.target, reduction="none").mean(dim=-1).cpu().numpy()
-                    )
+                    loss = F.l1_loss(output, d.target, reduction="none").mean(dim=-1).cpu().numpy()
                     # print([[k] for k in output.cpu().numpy()])
                     prediction_nn[f"model_{i}"].loc[i0 : i0 + len(d.target) - 1, "prediction"] = [
                         k for k in output.cpu().numpy()

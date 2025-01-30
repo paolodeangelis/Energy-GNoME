@@ -50,19 +50,7 @@ def get_mp_api_key() -> str:
 
 def convert_my_query_to_dataframe(query: list, mute_progress_bars=False) -> pd.DataFrame:
     dict_query = []
-    for d_ in tqdm(
-        query, desc="converting InsertionElectrodeDoc documents", disable=mute_progress_bars
-    ):
-        dict_query.append(d_.dict())
-    database = pd.DataFrame(dict_query)
-    return database
-
-
-def convert_my_query_to_dataframe_perovskites(
-    query: list, mute_progress_bars=False
-) -> pd.DataFrame:
-    dict_query = []
-    for d_ in tqdm(query, desc="converting documents", disable=mute_progress_bars):
+    for d_ in tqdm(query, desc="converting material documents", disable=mute_progress_bars):
         dict_query.append(d_.dict())
     database = pd.DataFrame(dict_query)
     return database
