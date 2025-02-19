@@ -4,7 +4,7 @@ import matminer.featurizers.structure as sf
 import pandas as pd
 
 
-def featurizing_lib(
+def featurizing_structure_pipeline(
     data: pd.DataFrame, index: str = "formula", property_interest: str = None
 ) -> pd.DataFrame:
     """
@@ -12,7 +12,7 @@ def featurizing_lib(
 
     Args:
         data (pd.DataFrame): Input dataframe containing 'composition' and 'structure' columns.
-        index (str, optional): Database colomns to use as dataframe index.
+        index (str, optional): Database columns to use as dataframe index.
         property_interest (str, optional): The property of interest to include in the output dataframe.
 
     Returns:

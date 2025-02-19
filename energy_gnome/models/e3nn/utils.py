@@ -13,18 +13,22 @@ from e3nn import o3
 from e3nn.math import soft_one_hot_linspace
 from e3nn.nn import Gate
 from e3nn.nn.models.gate_points_2101 import Convolution, smooth_cutoff, tp_path_exists
+from loguru import logger
 import numpy as np
 import pandas as pd
 import torch
+import torch.multiprocessing as mp
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils.data import DataLoader
 from torch_cluster import radius_graph
 import torch_geometric as tg
 from torch_geometric.data import Data
+from torch_geometric.loader import DataLoader
 import torch_scatter
 from torcheval.metrics.functional import binary_accuracy, binary_auroc
 from tqdm.auto import tqdm
+
+from energy_gnome.utils.logger_config import formatter
 
 BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
 
@@ -361,7 +365,7 @@ class PeriodicNetworkClassifier(Network):
 
         # embed the mass-weighted one-hot encoding
         self.em = nn.Linear(in_dim, em_dim)
-        print(self.em)
+        logger.info(self.em)
 
         # Modify the final layer to output a single value for binary classification
         self.final_layer = nn.Linear(self.irreps_out.dim, 1)
@@ -457,9 +461,10 @@ def train_regressor(
     loss_fn: torch.nn.Module,
     # loss_fn_mae: torch.nn.Module,
     run_name: str,
-    max_iter: int = 101,
+    max_epoch: int = 101,
     scheduler: torch.optim.lr_scheduler._LRScheduler | None = None,
     only_best: bool = True,
+    save_always: bool = True,
     device: str = "cpu",
 ) -> None:
     """
@@ -473,7 +478,7 @@ def train_regressor(
         loss_fn (torch.nn.Module): The loss function used for training.
         loss_fn_mae (torch.nn.Module): The mean absolute error loss function.
         run_name (str): The name of the run, used for saving model checkpoints.
-        max_iter (int): Maximum number of training iterations.
+        max_epoch (int): Maximum number of training epochs.
         scheduler (Optional[torch.optim.lr_scheduler._LRScheduler]): Learning rate scheduler, optional.
         only_best (bool): Flag to save only the best model based on validation loss.
         device (str): The device (e.g., 'cuda' or 'cpu') on which to train the model.
@@ -481,23 +486,56 @@ def train_regressor(
     Saves:
         Model checkpoints and training history to a file named "{run_name}.torch".
     """
+    # add logger file:
+    log_file = open(str(run_name) + ".log", "w")
+    temp_log_id = logger.add(
+        log_file,
+        colorize=True,
+        format=formatter,
+    )
     model.to(device)
 
     checkpoint_generator = loglinspace(0.3, 5)
     checkpoint = next(checkpoint_generator)
     start_time = time.time()
 
+    # try:
+    #     model.load_state_dict(torch.load(run_name + ".torch")["state"])
+    #     best_model_state = copy.deepcopy(model.state_dict())
+    # except:  # noqa
+    #     results = {}
+    #     history = []
+    #     s0 = 0
     try:
-        model.load_state_dict(torch.load(run_name + ".torch")["state"])
-        best_model_state = copy.deepcopy(model.state_dict())
-    except:  # noqa
+        checkpoint_data = torch.load(
+            str(run_name) + ".torch", weights_only=True
+        )  # Load full checkpoint
+        model.load_state_dict(checkpoint_data["state_last"])  # Load last saved model state
+        optimizer.load_state_dict(checkpoint_data["optimizer"])  # Restore optimizer state
+        if scheduler is not None and "scheduler" in checkpoint_data:
+            scheduler.load_state_dict(checkpoint_data["scheduler"])  # Restore LR scheduler
+        best_model_state = copy.deepcopy(checkpoint_data["state_best"])  # Best model so far
+        history = checkpoint_data["history"]  # Restore training history
+        s0 = history[-1]["step"] + 1  # Resume step count from last checkpoint
+        loss_valid_best = min([d["valid"]["loss"] for d in history])  # Resume best validation loss
+
+        logger.info(f"Found checkpoint {str(run_name) + '.torch'}")
+        logger.info(
+            f"Restarting training from step {s0} [prev loss={history[-1]['train']['loss']:.4g} (valid loss={history[-1]['valid']['loss']:.4g})]"
+        )
+        for param_group in optimizer.param_groups:
+            logger.info(f"Resumed Learning Rate: {param_group['lr']}")
+
+    except FileNotFoundError:  # If no checkpoint exists, start fresh
+        logger.info("No checkpoint found, starting from scratch.")
         results = {}
         history = []
         s0 = 0
-    else:
-        results = torch.load(run_name + ".torch")
-        history = results["history"]
-        s0 = history[-1]["step"] + 1
+        loss_valid_best = float("inf")
+    # else:
+    #     results = torch.load(str(run_name) + ".torch")
+    #     history = results["history"]
+    #     s0 = history[-1]["step"] + 1
     try:
         history[-1]["valid"]
     except (KeyError, IndexError):
@@ -505,13 +543,16 @@ def train_regressor(
     else:
         loss_valid_best = min([d["valid"]["loss"] for d in history])
 
-    for step in range(max_iter):
+    for step in range(max_epoch):
         model.train()
         loss_cumulative = 0.0
         # loss_cumulative_mae = 0.0
 
         for j, d in tqdm(
-            enumerate(dataloader_train), total=len(dataloader_train), bar_format=BAR_FORMAT
+            enumerate(dataloader_train),
+            total=len(dataloader_train),
+            bar_format=BAR_FORMAT,
+            file=log_file,
         ):
             d.to(device)
             output = model(d)
@@ -568,7 +609,7 @@ def train_regressor(
         save_model_state = (valid_avg_loss < loss_valid_best) and only_best
         # print(f"save_model_state {save_model_state} ({valid_avg_loss[0] } < {loss_valid_best} and {only_best})")
 
-        if step == checkpoint or save_model_state:
+        if step == checkpoint or save_model_state or save_always:
             if save_model_state:
                 best_model_state = copy.deepcopy(model.state_dict())
                 loss_valid_best = copy.deepcopy(valid_avg_loss)
@@ -576,13 +617,22 @@ def train_regressor(
                 checkpoint = next(checkpoint_generator)
                 assert checkpoint > step
 
+            # results = {
+            #     "history": history,
+            #     "state_best": best_model_state,
+            #     "state_last": copy.deepcopy(model.state_dict()),
+            # }
             results = {
                 "history": history,
                 "state_best": best_model_state,
                 "state_last": copy.deepcopy(model.state_dict()),
+                "optimizer": optimizer.state_dict(),  # Save optimizer state
+                "scheduler": (
+                    scheduler.state_dict() if scheduler is not None else None
+                ),  # Save scheduler state
             }
 
-            msg = f"Iteration {step + 1:4d}   "
+            msg = f"Epoch {s0 + step + 1:4d}   "
             msg += f"train loss = {train_avg_loss:8.4f}   "
             msg += f"valid loss = {valid_avg_loss:8.4f}   "
             msg += f"elapsed time = {time.strftime('%H:%M:%S', time.gmtime(wall))} "
@@ -591,13 +641,17 @@ def train_regressor(
             if save_model_state:
                 msg += "> state saved"
 
-            print(msg)
+            logger.info(msg)
 
             with open(str(run_name) + ".torch", "wb") as f:
                 torch.save(results, f)
 
         if scheduler is not None:
             scheduler.step()
+
+        for param_group in optimizer.param_groups:
+            logger.info(f"Updated Learning Rate: {param_group['lr']}")
+    logger.remove(temp_log_id)
 
 
 def evaluate_classifier(
@@ -653,7 +707,7 @@ def train_classifier(
     loss_fn: torch.nn.Module,
     threshold: float,
     run_name: str,
-    max_iter: int = 101,
+    max_epoch: int = 101,
     scheduler: torch.optim.lr_scheduler._LRScheduler | None = None,
     only_best: bool = True,
     device: str = "cpu",
@@ -669,7 +723,7 @@ def train_classifier(
         loss_fn (torch.nn.Module): The loss function used for training.
         threshold (torch.nn.Module): probability threshold for binary accuracy.
         run_name (str): The name of the run, used for saving model checkpoints.
-        max_iter (int): Maximum number of training iterations.
+        max_epoch (int): Maximum number of training epochs.
         scheduler (Optional[torch.optim.lr_scheduler._LRScheduler]): Learning rate scheduler, optional.
         only_best (bool): Flag to save only the best model based on validation loss.
         device (str): The device (e.g., 'cuda' or 'cpu') on which to train the model.
@@ -705,7 +759,7 @@ def train_classifier(
         loss_valid_best = min([d["valid"]["loss"] for d in history])
         accuracy_valid_best = max([d["valid"]["accuracy"] for d in history])
 
-    for step in range(max_iter):
+    for step in range(max_epoch):
         model.train()
         loss_cumulative = 0.0
         metric_accuracy_cumulative = 0.0
@@ -949,3 +1003,22 @@ def get_neighbors(df: pd.DataFrame) -> np.ndarray:
             neighbors_count.append(count)
 
     return np.array(neighbors_count)
+
+
+def build_manager_dataloader(dataloader: DataLoader, manager: mp.Manager):
+    """
+    Convert an existing dataloader.dataset into a manager-backed list,
+    then rebuild a new DataLoader pointing to that shared memory.
+    """
+    # 1) Extract the dataset from the original dataloader
+    original_data = list(dataloader.dataset)  # or .copy() if needed
+
+    # 2) Wrap it in a manager list
+    manager_data = manager.list(original_data)
+
+    # 3) Build a new DataLoader
+    new_dataloader = DataLoader(
+        manager_data,
+        batch_size=dataloader.batch_size,
+    )
+    return new_dataloader

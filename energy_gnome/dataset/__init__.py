@@ -5,6 +5,7 @@ from energy_gnome.utils.logger_config import logger
 
 from .base_dataset import BaseDatabase
 from .cathodes import CathodeDatabase
+from .gnome import GNoMEDatabase
 from .perovskites import PerovskiteDatabase
 from .random_mats import MergedDatabase, MPDatabase
 

@@ -1,9 +1,18 @@
+from pathlib import Path
+
 from ase.io import read
+from loguru import logger
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tqdm.auto import tqdm
+
+from energy_gnome.utils.readers import to_unix
+
+# BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
+# tqdm.pandas(bar_format=BAR_FORMAT)
+tqdm.pandas()
 
 
 def get_element_statistics(df: pd.DataFrame, species: list[str]) -> pd.DataFrame:
@@ -179,21 +188,34 @@ def train_valid_test_split(
                                  testing sets, respectively.
     """
     # Perform an element-balanced train/validation/test split
-    print("split train/dev ...")
     dev_size = valid_size + test_size
-    stats = get_element_statistics(df, species)
-    idx_train, idx_dev = split_data(stats, dev_size, seed)
+    if abs(dev_size - test_size) < 1e-8:
+        logger.debug("split train/test ...")
+        stats = get_element_statistics(df, species)
+        idx_train, idx_test = split_data(stats, test_size, seed)
+        idx_valid = []
+        # idx_train += df[~df.index.isin(idx_train + idx_valid + idx_test)].index.tolist()
+    elif abs(dev_size - valid_size) < 1e-8:
+        logger.debug("split train/valid ...")
+        stats = get_element_statistics(df, species)
+        idx_train, idx_valid = split_data(stats, valid_size, seed)
+        idx_test = []
+    else:
+        logger.debug("split train/dev ...")
+        dev_size = valid_size + test_size
+        stats = get_element_statistics(df, species)
+        idx_train, idx_dev = split_data(stats, dev_size, seed)
 
-    print("split valid/test ...")
-    stats_dev = get_element_statistics(df.iloc[idx_dev], species)
-    idx_valid, idx_test = split_data(stats_dev, test_size / dev_size, seed)
-    idx_train += df[~df.index.isin(idx_train + idx_valid + idx_test)].index.tolist()
+        logger.debug("split valid/test ...")
+        stats_dev = get_element_statistics(df.iloc[idx_dev], species)
+        idx_valid, idx_test = split_data(stats_dev, test_size / dev_size, seed)
+        idx_train += df[~df.index.isin(idx_train + idx_valid + idx_test)].index.tolist()
 
     # Print dataset sizes and assert no overlap
-    print("number of training examples:", len(idx_train))
-    print("number of validation examples:", len(idx_valid))
-    print("number of testing examples:", len(idx_test))
-    print("total number of examples:", len(idx_train + idx_valid + idx_test))
+    logger.debug(f"number of training examples: {len(idx_train)}")
+    logger.debug(f"number of validation examples: {len(idx_valid)}")
+    logger.debug(f"number of testing examples: {len(idx_test)}")
+    logger.debug(f"total number of examples: {len(idx_train + idx_valid + idx_test)}")
     assert len(set.intersection(*map(set, [idx_train, idx_valid, idx_test]))) == 0
 
     # Optionally plot element representation in each dataset
@@ -234,6 +256,73 @@ def random_split(
     Perform a random train-validation-test split with specified sizes.
 
     Args:
+        dataset (pd.DataFrame): Input dataset containing CIF file paths.
+        target_property (str): Target property column name.
+        valid_size (float, optional): Validation set fraction. Defaults to 0.2.
+        test_size (float, optional): Test set fraction. Defaults to 0.05.
+        seed (int, optional): Random seed for reproducibility. Defaults to 42.
+
+    Returns:
+        dict: Dictionary with 'train', 'valid', and 'test' DataFrames.
+    """
+
+    # database_split = dataset.copy()
+
+    database_split = pd.DataFrame(
+        {
+            "structure": pd.Series(dtype="object"),
+            "species": pd.Series(dtype="object"),
+        }
+    )
+
+    # Read all structures in parallel using `apply`
+    database_split["structure"] = dataset["cif_path"]
+    database_split["structure"] = database_split["structure"].progress_apply(
+        lambda path: read(Path(to_unix(path)))
+    )
+
+    # Extract properties in bulk
+    database_split["formula"] = database_split["structure"].progress_apply(
+        lambda s: s.get_chemical_formula()
+    )
+    database_split["species"] = database_split["structure"].progress_apply(
+        lambda s: list(set(s.get_chemical_symbols()))
+    )
+
+    # Ensure target_property is preserved
+    database_split[target_property] = dataset[target_property]
+
+    # Determine unique species across the dataset
+    unique_species = sorted(set(sum(database_split["species"].tolist(), [])))
+
+    # Perform train/valid/test split
+    idx_train, idx_valid, idx_test = train_valid_test_split(
+        database_split,
+        unique_species,
+        valid_size=valid_size,
+        test_size=test_size,
+        seed=seed,
+        plot=False,
+    )
+
+    # Create the final dataset dictionary
+    database_dict = {
+        "train": dataset.iloc[idx_train],
+        "valid": dataset.iloc[idx_valid],
+        "test": dataset.iloc[idx_test],
+    }
+
+    return database_dict
+
+
+'''
+def random_split(
+    dataset: pd.DataFrame, target_property: str, valid_size=0.2, test_size=0.05, seed=42
+):
+    """
+    Perform a random train-validation-test split with specified sizes.
+
+    Args:
         dataset (pd.DataFrame): ...
         target_property (str): ...
         valid_size (float64, optional): Size of the validation set, as fraction of the whole starting DataFrame.
@@ -260,7 +349,7 @@ def random_split(
     for i in tqdm(range(len(datasets))):
         database_split.loc[i, target_property] = datasets[target_property].iloc[i]
         path = datasets["cif_path"].iloc[i]
-        structure = read(path)
+        structure = read(Path(to_unix(path)))
         database_split.at[i, "structure"] = (
             structure.copy()
         )  # if not working, try removing .copy()
@@ -279,3 +368,4 @@ def random_split(
     }
 
     return database_dict
+'''

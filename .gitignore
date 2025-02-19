@@ -361,9 +361,17 @@ data/raw/*
 data/processed/*
 data/interim/*
 data/screening_interim/*
+data/external/*
+data/final/*
 
 # Models
 models/*
 
 # Docs
 docs/materials
+
+# Figures
+reports/figures/*
+
+perovskites*
+energy_gnome/models/e3nn/backup.*

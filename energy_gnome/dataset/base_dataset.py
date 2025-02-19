@@ -23,8 +23,12 @@ from typing import Any
 from loguru import logger
 from numpy.random import PCG64, Generator
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 from energy_gnome.config import DATA_DIR
+from energy_gnome.exception import DatabaseError
+
+from .splitting import random_split
 
 
 def make_link(source: Path, target: Path):
@@ -49,7 +53,10 @@ class BaseDatabase(ABC):
         """
         self.name = name
 
-        self.data_dir = data_dir
+        if isinstance(data_dir, str):
+            self.data_dir = Path(data_dir)
+        else:
+            self.data_dir = data_dir
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
         # Define processing stages
@@ -71,6 +78,14 @@ class BaseDatabase(ABC):
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
         self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._update_raw = False
+        self.is_specialized = False
+        self._set_is_specialized()
+
+    @abstractmethod
+    def _set_is_specialized(
+        self,
+    ):
+        pass
 
     def allow_raw_update(self):
         """
@@ -148,14 +163,22 @@ class BaseDatabase(ABC):
         db_path = self.database_paths[stage]
         if db_path.exists():
             self.databases[stage] = pd.read_json(db_path)
+            if stage == "raw":
+                self.databases[stage]["is_specialized"] = self.is_specialized
             logger.debug(f"Loaded existing database from {db_path}")
         else:
             logger.warning(f"Not found at {db_path}")
         return self.databases[stage]
 
     @abstractmethod
-    def load_interim(self, subset: str) -> None:
+    def _load_interim(self, subset: str) -> None:
         pass
+
+    def load_regressor_data(self, subset: str = "training"):
+        return self._load_interim(subset=subset, model_type="regressor")
+
+    def load_classifier_data(self, subset: str = "training"):
+        return self._load_interim(subset=subset, model_type="classifier")
 
     def load_all(self):
         """
@@ -164,7 +187,8 @@ class BaseDatabase(ABC):
         for stage in self.processing_stages:
             self.load_database(stage)
         for subset in self.interim_sets:
-            self.load_interim(subset)
+            self.load_regressor_data(subset)
+            self.load_classifier_data(subset)
 
     def save_database(self, stage: str) -> None:
         """
@@ -273,31 +297,11 @@ class BaseDatabase(ABC):
             logger.warning("Empty database found.")
         return out_db
 
-    def save_split_db(self, database_dict: dict, category: str):
-        """
-        Save the split databases.
-        """
-        db_path = DATA_DIR / "interim" / category
-        if not db_path.exists():
-            db_path.mkdir(parents=True, exist_ok=True)
-
-        train_db_path = db_path / "training_db.json"
-        valid_db_path = db_path / "validation_db.json"
-        test_db_path = db_path / "testing_db.json"
-
-        database_dict["train"].to_json(train_db_path)
-        logger.info(f"Training database saved to {train_db_path}")
-        database_dict["valid"].to_json(valid_db_path)
-        logger.info(f"Validation database saved to {valid_db_path}")
-        database_dict["test"].to_json(test_db_path)
-        logger.info(f"Testing database saved to {test_db_path}")
-
     def build_reduced_database(
         self,
         size: int,
         new_name: str,
         stage: str,
-        save: bool = True,
         seed: int = 42,
     ) -> pd.DataFrame:
         """
@@ -340,6 +344,107 @@ class BaseDatabase(ABC):
         new_database.save_database(stage)
 
         return new_database
+
+    def save_split_db(self, database_dict: dict, model_type: str = "regressor"):
+        """
+        Save the split databases.
+        """
+        db_path = self.data_dir / "interim" / self.name / model_type
+        # if not db_path.exists():
+        db_path.mkdir(parents=True, exist_ok=True)
+
+        split_paths = dict(
+            train=db_path / "training_db.json",
+            valid=db_path / "validation_db.json",
+            test=db_path / "testing_db.json",
+        )
+
+        for db_name, db_path in split_paths.items():
+            if database_dict[db_name].empty:
+                if db_name == "valid":
+                    logger.warning("No validation database provided.")
+                    continue
+                elif db_name == "test":
+                    logger.warning("No testing database provided.")
+                    continue
+                else:
+                    raise DatabaseError(f"The {db_name} is empty, check the splitting.")
+            else:
+                database_dict[db_name].to_json(db_path)
+                logger.info(f"{db_name} database saved to {db_path}")
+
+    def split_regressor(
+        self,
+        target_property: str,
+        valid_size: float = 0.2,
+        test_size: float = 0.05,
+        seed: int = 42,
+        balance_composition: bool = True,
+        save_split: bool = False,
+    ):
+        if balance_composition:
+            db_dict = random_split(
+                self.get_database("processed"),
+                target_property,
+                valid_size=valid_size,
+                test_size=test_size,
+                seed=seed,
+            )
+        else:
+            dev_size = valid_size + test_size
+            if abs(dev_size - test_size) < 1e-8:
+                train_, test_ = train_test_split(
+                    self.get_database("processed"), test_size=test_size, random_state=seed
+                )
+                valid_ = pd.DataFrame()
+            elif abs(dev_size - valid_size) < 1e-8:
+                train_, valid_ = train_test_split(
+                    self.get_database("processed"), test_size=valid_size, random_state=seed
+                )
+                test_ = pd.DataFrame()
+            else:
+                train_, dev_ = train_test_split(
+                    self.get_database("processed"),
+                    test_size=valid_size + test_size,
+                    random_state=seed,
+                )
+                valid_, test_ = train_test_split(
+                    dev_, test_size=test_size / (valid_size + test_size), random_state=seed
+                )
+
+            db_dict = {"train": train_, "valid": valid_, "test": test_}
+
+        if save_split:
+            self.save_split_db(db_dict, "regressor")
+
+        self.subset = db_dict
+
+    def split_classifier(
+        self,
+        test_size: float = 0.2,
+        seed: int = 42,
+        balance_composition: bool = False,
+        save_split: bool = False,
+    ):
+        target_property = "is_specialized"
+        if balance_composition:
+            db_dict = random_split(
+                self.get_database("processed"),
+                target_property,
+                valid_size=0,
+                test_size=test_size,
+                seed=seed,
+            )
+        else:
+            train_, test_ = train_test_split(
+                self.get_database("processed"), test_size=test_size, random_state=seed
+            )
+            db_dict = {"train": train_, "test": test_}
+
+        if save_split:
+            self.save_split_db(db_dict, "classifier")
+
+        self.subset = db_dict
 
     def __repr__(self) -> str:
         """

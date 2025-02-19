@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 import json
 from pathlib import Path
@@ -5,6 +6,7 @@ import shutil as sh
 from typing import Any
 
 from mp_api.client import MPRester
+import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
@@ -40,6 +42,9 @@ MAT_PROPERTIES = {
 }
 
 CRITICAL_FIELD = ["band_gap", "is_metal", "material_id", "is_magnetic"]
+
+
+MP_BATCH_SIZE = 2000
 
 
 class MPDatabase(BaseDatabase):
@@ -78,6 +83,9 @@ class MPDatabase(BaseDatabase):
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
         self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._mp = pd.DataFrame()
+
+    def _set_is_specialized(self):
+        self.is_specialized = False
 
     def retrieve_remote(self, mute_progress_bars: bool = True) -> pd.DataFrame:
         """
@@ -170,6 +178,7 @@ class MPDatabase(BaseDatabase):
             logger.warning("Nothing to compare here...")
             return new_db
 
+    '''
     def backup_and_changelog(
         self,
         old_db: pd.DataFrame,
@@ -228,6 +237,58 @@ class MPDatabase(BaseDatabase):
         except Exception as e:
             logger.error(f"Failed to update changelog at {changelog_path}: {e}")
             raise OSError(f"Failed to update changelog at {changelog_path}: {e}") from e
+    '''
+
+    def backup_and_changelog(
+        self,
+        old_db: pd.DataFrame,
+        new_db: pd.DataFrame,
+        differences: pd.Series,
+        stage: str,
+    ) -> None:
+        """
+        Backup the old database and update the changelog with identified differences.
+        """
+        if stage not in self.processing_stages:
+            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
+            raise ValueError(f"stage must be one of {self.processing_stages}.")
+
+        # Backup the old database
+        backup_path = self.database_directories[stage] / "old_database.json"
+        try:
+            old_db.to_json(backup_path)
+            logger.debug(f"Old database backed up to {backup_path}")
+        except Exception as e:
+            logger.error(f"Failed to backup old database to {backup_path}: {e}")
+            raise OSError(f"Failed to backup old database to {backup_path}: {e}") from e
+
+        # Prepare changelog
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        changelog_path = self.database_directories[stage] / "changelog.txt"
+
+        header = (
+            f"= Change Log - {timestamp} ".ljust(70, "=") + "\n"
+            "Difference old_database.json VS database.json\n"
+            f"{'ID':<15}{'Formula':<30}{'Last Updated (MP)':<25}\n" + "-" * 70 + "\n"
+        )
+
+        # Set index for faster lookup
+        new_db_indexed = new_db.set_index("material_id")
+
+        # Process differences efficiently
+        changes = [
+            f"{identifier:<15}{new_db_indexed.at[identifier, 'formula_pretty'] if identifier in new_db_indexed.index else 'N/A':<30}"
+            f"{new_db_indexed.at[identifier, 'last_updated'] if identifier in new_db_indexed.index else 'N/A':<25}\n"
+            for identifier in differences["material_id"]
+        ]
+
+        try:
+            with open(changelog_path, "a") as file:
+                file.write(header + "".join(changes))
+            logger.debug(f"Changelog updated at {changelog_path} with {len(differences)} changes.")
+        except Exception as e:
+            logger.error(f"Failed to update changelog at {changelog_path}: {e}")
+            raise OSError(f"Failed to update changelog at {changelog_path}: {e}") from e
 
     def compare_and_update(self, new_db: pd.DataFrame, stage: str) -> pd.DataFrame:
         """
@@ -265,15 +326,18 @@ class MPDatabase(BaseDatabase):
                     logger.info(
                         "Be careful you are changing the raw data which must be treated as immutable!"
                     )
-                logger.info(
-                    f"Updating the {stage} data and saving it in {self.database_paths[stage]}."
-                )
-                self.backup_and_changelog(
-                    old_db,
-                    new_db,
-                    db_diff,
-                    stage,
-                )
+                if old_db.empty:
+                    logger.info(f"Saving new {stage} data in {self.database_paths[stage]}.")
+                else:
+                    logger.info(
+                        f"Updating the {stage} data and saving it in {self.database_paths[stage]}."
+                    )
+                    self.backup_and_changelog(
+                        old_db,
+                        new_db,
+                        db_diff,
+                        stage,
+                    )
                 self.databases[stage] = new_db
                 self.save_database(stage)
         else:
@@ -319,6 +383,7 @@ class MPDatabase(BaseDatabase):
         """
         pass
 
+    '''
     def save_cif_files(
         self,
         stage: str,
@@ -367,55 +432,146 @@ class MPDatabase(BaseDatabase):
 
         # Save CIF files and update database paths
         ids_list = database["material_id"].tolist()
+        n_batch = int(np.ceil(len(ids_list) / MP_BATCH_SIZE))
 
         logger.debug("MP querying for materials' structures.")
         mp_api_key = get_mp_api_key()
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
-            try:
-                materials_mp_query = mpr.materials.summary.search(
-                    material_ids=ids_list, fields=["material_id", "structure"]
-                )
-                logger.info(
-                    f"MP query successful, {len(materials_mp_query)} material structures found."
-                )
-            except Exception as e:
-                raise e
+            for i_batch in tqdm(
+                range(n_batch),
+                desc="Saving materials",
+                disable=mute_progress_bars,
+            ):
+                i_star = i_batch*MP_BATCH_SIZE
+                i_end = (i_batch+1)*MP_BATCH_SIZE if (i_batch+1)*MP_BATCH_SIZE < len(ids_list) else len(ids_list) -1
+                try:
+                    materials_mp_query = mpr.materials.summary.search(
+                        material_ids=ids_list[i_star:i_end], fields=["material_id", "structure"]
+                    )
+                    logger.info(
+                        f"MP query successful, {len(materials_mp_query)} material structures found."
+                    )
+                except Exception as e:
+                    raise e
+                for material in materials_mp_query:
+                    try:
+                        # Locate the row in the database corresponding to the material ID
+                        i_row = (
+                            self.databases[stage]
+                            .index[self.databases[stage]["material_id"] == material.material_id]
+                            .tolist()[0]
+                        )
 
-        for material in tqdm(
-            materials_mp_query,
-            desc="Saving materials",
-            disable=mute_progress_bars,
-        ):
-            try:
-                # Locate the row in the database corresponding to the material ID
-                i_row = (
-                    self.databases[stage]
-                    .index[self.databases[stage]["material_id"] == material.material_id]
-                    .tolist()[0]
-                )
+                        # Define the CIF file path
+                        cif_path = saving_dir / f"{material.material_id}.cif"
 
-                # Define the CIF file path
-                cif_path = saving_dir / f"{material.material_id}.cif"
+                        # Save the CIF file
+                        material.structure.to(filename=str(cif_path))
 
-                # Save the CIF file
-                material.structure.to(filename=str(cif_path))
+                        # Update the database with the CIF file path
+                        self.databases[stage].at[i_row, "cif_path"] = str(cif_path)
 
-                # Update the database with the CIF file path
-                self.databases[stage].at[i_row, "cif_path"] = str(cif_path)
+                    except IndexError:
+                        logger.error(f"Material ID {material.material_id} not found in the database.")
+                        raise MissingData(f"Material ID {material.material_id} not found in the database.")
+                    except Exception as e:
+                        logger.error(f"Failed to save CIF for Material ID {material.material_id}: {e}")
+                        raise OSError(
+                            f"Failed to save CIF for Material ID {material.material_id}: {e}"
+                        ) from e
 
-            except IndexError:
-                logger.error(f"Material ID {material.material_id} not found in the database.")
-                raise MissingData(f"Material ID {material.material_id} not found in the database.")
-            except Exception as e:
-                logger.error(f"Failed to save CIF for Material ID {material.material_id}: {e}")
-                raise OSError(
-                    f"Failed to save CIF for Material ID {material.material_id}: {e}"
-                ) from e
+        # Save the updated database
+        self.save_database(stage)
+        logger.info(f"CIF files for stage '{stage}' saved and database updated successfully.")
+    '''
+
+    def save_cif_files(
+        self,
+        stage: str,
+        database: pd.DataFrame,
+        mute_progress_bars: bool = True,
+    ) -> None:
+        """
+        Save CIF files for materials and update the database efficiently.
+        """
+
+        # Set up directory for saving CIF files
+        saving_dir = self.database_directories[stage] / "structures/"
+
+        # Ensure raw data integrity
+        if stage == "raw" and not self._update_raw:
+            logger.error("Raw data must be treated as immutable!")
+            raise ImmutableRawDataError("Raw data must be treated as immutable!")
+
+        # Clear directory if it exists
+        if saving_dir.exists():
+            logger.warning(f"Cleaning {saving_dir}")
+            sh.rmtree(saving_dir)
+        saving_dir.mkdir(parents=True, exist_ok=False)
+
+        # Create a lookup dictionary for material IDs → DataFrame row indices (O(1) lookups)
+        material_id_to_index = {mid: idx for idx, mid in enumerate(database["material_id"])}
+
+        # Fetch structures in batches
+        ids_list = database["material_id"].tolist()
+        n_batch = int(np.ceil(len(ids_list) / MP_BATCH_SIZE))
+        mp_api_key = get_mp_api_key()
+
+        logger.debug("MP querying for materials' structures.")
+        with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
+            all_cif_paths = {}  # Store updates in a dict to vectorize DataFrame updates later
+
+            for i_batch in tqdm(
+                range(n_batch), desc="Saving materials", disable=mute_progress_bars
+            ):
+                i_star = i_batch * MP_BATCH_SIZE
+                i_end = min((i_batch + 1) * MP_BATCH_SIZE, len(ids_list))
+
+                try:
+                    materials_mp_query = mpr.materials.summary.search(
+                        material_ids=ids_list[i_star:i_end], fields=["material_id", "structure"]
+                    )
+                    logger.info(
+                        f"MP query successful, {len(materials_mp_query)} structures found."
+                    )
+                except Exception as e:
+                    logger.error(f"Failed MP query: {e}")
+                    raise e
+
+                # Define a function to save CIF files in parallel
+                def save_cif(material):
+                    try:
+                        material_id = material.material_id
+                        if material_id not in material_id_to_index:
+                            logger.warning(f"Material ID {material_id} not found in database.")
+                            return None
+
+                        cif_path = saving_dir / f"{material_id}.cif"
+                        material.structure.to(filename=str(cif_path))
+                        return material_id, str(cif_path)
+
+                    except Exception as e:
+                        logger.error(f"Failed to save CIF for {material.material_id}: {e}")
+                        return None
+
+                # Parallelize CIF saving (adjust max_workers based on your system)
+                with ThreadPoolExecutor(max_workers=None) as executor:
+                    results = list(executor.map(save_cif, materials_mp_query))
+
+                # Collect results in dictionary for bulk DataFrame update
+                for result in results:
+                    if result:
+                        material_id, cif_path = result
+                        all_cif_paths[material_id] = cif_path
+
+        # Bulk update DataFrame in one step (vectorized)
+        database["cif_path"] = database["material_id"].map(all_cif_paths)
 
         # Save the updated database
         self.save_database(stage)
         logger.info(f"CIF files for stage '{stage}' saved and database updated successfully.")
 
+    '''
     def copy_cif_files(
         self,
         stage: str,
@@ -495,8 +651,90 @@ class MPDatabase(BaseDatabase):
         # Save the updated database
         self.save_database(stage)
         logger.info(f"CIF files copied to stage '{stage}' and database updated successfully.")
+    '''
 
-    def load_interim(self, subset: str = "training") -> pd.DataFrame:
+    def copy_cif_files(
+        self,
+        stage: str,
+        mute_progress_bars: bool = True,
+    ) -> None:
+        """
+        Copy CIF files from the raw stage to another processing stage.
+        """
+        if stage == "raw":
+            logger.error(
+                "Stage argument cannot be 'raw'. You can only copy from 'raw' to other stages."
+            )
+            raise ValueError("Stage argument cannot be 'raw'.")
+
+        source_dir = self.database_directories["raw"] / "structures"
+        saving_dir = self.database_directories[stage] / "structures"
+
+        # Clean the target directory if it exists
+        if saving_dir.exists():
+            logger.warning(f"Cleaning the content in {saving_dir}")
+            sh.rmtree(saving_dir)
+
+        # Check if source directory exists and is not empty
+        cif_files = {
+            file.stem for file in source_dir.glob("*.cif")
+        }  # Set of existing CIF filenames
+        if not cif_files:
+            logger.warning(
+                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
+            )
+            raise MissingData(
+                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
+            )
+
+        # Create the target directory
+        saving_dir.mkdir(parents=True, exist_ok=False)
+
+        # Create an index mapping for fast row updates
+        db_stage = self.databases[stage].set_index("material_id")
+        db_stage["cif_path"] = pd.NA  # Initialize empty column
+
+        missing_ids = []
+        for material_id in tqdm(
+            self.databases[stage]["material_id"],
+            desc=f"Copying materials ('raw' -> '{stage}')",
+            disable=mute_progress_bars,
+        ):
+            if material_id not in cif_files:
+                missing_ids.append(material_id)
+                continue  # Skip missing files
+
+            source_cif_path = source_dir / f"{material_id}.cif"
+            cif_path = saving_dir / f"{material_id}.cif"
+
+            try:
+                sh.copy2(source_cif_path, cif_path)
+                db_stage.at[material_id, "cif_path"] = str(cif_path)  # Direct assignment
+
+            except Exception as e:
+                logger.error(f"Failed to copy CIF for Material ID {material_id}: {e}")
+                continue  # Skip to next material instead of stopping execution
+
+        # Restore the updated database index
+        self.databases[stage] = db_stage.reset_index()
+
+        # Log missing files once
+        if missing_ids:
+            logger.warning(f"Missing CIF files for {len(missing_ids)} material IDs.")
+
+        # Save the updated database
+        self.save_database(stage)
+        logger.info(f"CIF files copied to stage '{stage}' and database updated successfully.")
+
+    def load_regressor_data(self, subset: str = "training"):
+        return self._load_interim(subset=subset, model_type="regressor")
+
+    def load_classifier_data(self, subset: str = "training"):
+        return self._load_interim(subset=subset, model_type="classifier")
+
+    def _load_interim(
+        self, subset: str = "training", model_type: str = "regressor"
+    ) -> pd.DataFrame:
         """
         Load the existing interim databases.
 
@@ -515,7 +753,7 @@ class MPDatabase(BaseDatabase):
             raise ValueError(f"set must be one of {self.interim_sets}.")
 
         db_name = subset + "_db.json"
-        db_path = INTERIM_DATA_DIR / "perovskites" / db_name
+        db_path = self.data_dir / "interim" / self.name / model_type / db_name
         if db_path.exists():
             self.subset[subset] = pd.read_json(db_path)
             logger.debug(f"Loaded existing database from {db_path}")
@@ -550,9 +788,9 @@ class MPDatabase(BaseDatabase):
         )
         to_drop = mp_database["to_drop"].value_counts().get(True, 0)
         logger.info(f"{to_drop} overlapping items to drop.")
-        mp_database_no_overlap = mp_database.loc[mp_database["to_drop"] is False, :].reset_index(
-            drop=True
-        )
+        mp_database_no_overlap = mp_database.iloc[
+            np.where(mp_database["to_drop"] is False)[0], :
+        ].reset_index(drop=True)
         mp_database_no_overlap.drop(columns=["to_drop"], inplace=True)
 
         return mp_database_no_overlap
