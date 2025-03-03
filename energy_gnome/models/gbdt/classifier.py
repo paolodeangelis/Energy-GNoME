@@ -125,84 +125,6 @@ class GBDTClassifier(BaseClassifier):
         for att, _ in DEFAULT_GBDT_SETTINGS.items():
             setattr(self, att, settings[att])
 
-    '''
-    def featurizer(
-        self,
-        databases: list[BaseDatabase],
-        subset: str,
-        max_dof: int = None,
-        mute_warnings: bool = True
-        ) -> pd.DataFrame:
-        """
-        Load and featurize the specified databases.
-
-        Checks for the presence of an existing database file for the given stage
-        and loads it into a pandas DataFrame. If the database file does not exist,
-        logs a warning and returns an empty DataFrame.
-        Builds a pandas DataFrame ready for model training.
-
-        Args:
-            dataset (pd.DataFrame) = ...
-
-        Returns:
-            pd.DataFrame: The built database or an empty DataFrame if not found.
-        """
-        if not isinstance(databases, list):
-            databases=[databases]
-
-        if mute_warnings:
-            logger.warning("Warnings from third-party libraries are disabled. To enable them, set 'mute_warnings' = False")
-            self.max_dof = max_dof
-
-        property_to_add = {
-            "formula": "str",
-            "composition": "object",
-            "structure": "object",
-            "is_specialized": "float",
-        }
-
-        with warnings.catch_warnings():
-            if mute_warnings:
-                warnings.simplefilter("ignore")
-            db_list = []
-            for db in databases:
-                db_list.append(db.load_classifier_data(subset))
-
-            dataset = pd.concat(db_list, ignore_index=True)
-
-            db = pd.DataFrame()
-            for column, dtype in property_to_add.items():
-                db[column] = pd.Series(dtype=dtype)
-
-            dataset.reset_index(drop=True, inplace=True)
-
-            for j in range(len(dataset)):
-                db.at[j, "is_specialized"] = dataset.at[j, "is_specialized"].astype("float")
-                db.at[j, "composition"] = Composition(dataset.at[j, "formula_pretty"])
-                db.at[j, "structure"] = Structure.from_file(dataset.at[j, "cif_path"])
-                db.at[j, "formula"] = db.at[j, "composition"].reduced_formula
-
-            datasets_class = db.copy()
-
-            db_feature = featurizing_structure_pipeline(datasets_class)
-            db_feature["is_specialized"] = datasets_class.set_index("formula")["is_specialized"]
-            db_feature.dropna(axis=0, how="any", inplace=True)
-            db_feature = db_feature.select_dtypes(exclude=["object", "bool"])
-
-        database_class = db_feature.copy()
-
-        if max_dof is None:
-            n_items, n_features = database_class.shape
-            self.max_dof = min(n_items // 10, n_features - 1)
-
-        n_is_specialized = database_class["is_specialized"].value_counts().get(1.0, 0)
-        n_is_not_specialized = database_class["is_specialized"].value_counts().get(0.0, 0)
-        logger.debug(f"number of specialized examples: {n_is_specialized}")
-        logger.debug(f"number of non-specialized examples: {n_is_not_specialized}")
-
-        return database_class
-    '''
-
     def featurize_db(
         self,
         databases: list[BaseDatabase],
@@ -295,31 +217,10 @@ class GBDTClassifier(BaseClassifier):
 
         return search
 
-    def compile(
+    def compile_(  # same here, _ to mute the pre-commit
         self,
         n_jobs: int = 1,
     ):
-
-        # logger.info("[STEP 2] Featurize and format subsets for training")
-        # with warnings.catch_warnings():
-        #     warnings.simplefilter("ignore")
-        #     training_db_list = []
-        #     for db in databases:
-        #         training_db_list.append(db.load_classifier_data("training"))
-
-        #     training_db = pd.concat(training_db_list, ignore_index=True)
-
-        #     train_feat = self.db_featurizer(training_db)
-
-        # if max_dof is None:
-        #     n_items, n_features = train_feat.shape
-        #     max_dof = min(n_items // 10, n_features - 1)
-
-        # n_is_specialized = train_feat["is_specialized"].value_counts().get(1.0, 0)
-        # n_is_not_specialized = train_feat["is_specialized"].value_counts().get(0.0, 0)
-        # logger.debug(f"number of specialized examples: {n_is_specialized}")
-        # logger.debug(f"number of non-specialized examples: {n_is_not_specialized}")
-
         logger.info("Build classifiers")
         self.search = self.build_classifier(n_jobs=n_jobs, max_dof=self.max_dof)
 

@@ -1,14 +1,5 @@
 # energy_gnome/data/base_dataset.py
 
-"""
-Base Dataset Module for Energy Gnome Library.
-
-This module defines the abstract base class `BaseDataSet`, outlining the common
-interface and functionalities required for all specialized dataset classes within
-the Energy Gnome library. It ensures consistency, enforces a standard structure,
-and provides shared utility methods for managing different data processing stages
-(raw, processed, final).
-"""
 import os
 
 try:
@@ -17,39 +8,59 @@ except ImportError:
     pass
 
 from abc import ABC, abstractmethod
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 from pathlib import Path
-from typing import Any
+import shutil as sh
+from typing import Any, Optional
 
 from loguru import logger
 from numpy.random import PCG64, Generator
 import pandas as pd
 from sklearn.model_selection import train_test_split
+from tqdm import tqdm
 
 from energy_gnome.config import DATA_DIR
-from energy_gnome.exception import DatabaseError
+from energy_gnome.exception import DatabaseError, ImmutableRawDataError, MissingData
 
-from .splitting import random_split
-
-
-def make_link(source: Path, target: Path):
-    if source.exists():
-        logger.warning(f"File {source} already exist")
-    else:
-        os.symlink(source, target)
-        logger.info(f"Made link {source} -> {target}")
+from .utils import make_link, random_split
 
 
 class BaseDatabase(ABC):
+    """
+    Abstract base class for managing a structured database system with multiple
+    processing stages and data subsets.
+
+    This class provides a standardized framework for handling data across different
+    stages of processing (`raw`, `processed`, `final`). It ensures proper directory
+    structure, initializes database placeholders, and offers an interface for
+    subclassing specialized database implementations.
+
+    Attributes:
+        name (str): The name of the database instance.
+        data_dir (Path): Root directory where database files are stored.
+        processing_stages (list[str]): The main stages of data processing.
+        interim_sets (list[str]): Subsets within the training pipelines (e.g., training, validation).
+        database_directories (dict[str, Path]): Mapping of processing stages to their respective directories.
+        database_paths (dict[str, Path]): Paths to database files for each processing stage.
+        databases (dict[str, pd.DataFrame]): Data storage for each processing stage.
+        subset (dict[str, pd.DataFrame]): Storage for subsets like training, validation, and testing.
+        _update_raw (bool): Flag indicating whether raw data should be updated.
+        _is_specialized (bool): Indicates whether a subclass contains materials for specialized energy applications.
+    """
+
     def __init__(self, name: str, data_dir: Path = DATA_DIR):
         """
-        Initialize the BaseDatabase with a root data directory.
+        Initializes the BaseDatabase instance.
 
-        Sets up the directory structure for storing data across different processing stages
-        (raw, processed, final) and initializes placeholders for database paths and data.
+        Sets up the directory structure for storing data across different processing
+        stages (`raw`, `processed`, `final`) and initializes empty Pandas DataFrames
+        for managing the data.
 
         Args:
-            data_dir (Path, optional): Root directory path for storing data.
-                                       Defaults to Path("data/").
+            name (str): The name of the database instance.
+            data_dir (Path, optional): Root directory path for storing database files.
+                Defaults to `DATA_DIR`.
         """
         self.name = name
 
@@ -78,144 +89,67 @@ class BaseDatabase(ABC):
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
         self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._update_raw = False
-        self.is_specialized = False
+        self._is_specialized = False
         self._set_is_specialized()
+        self.load_all()
 
     @abstractmethod
     def _set_is_specialized(
         self,
     ):
+        """
+        Set the `is_specialized` attribute.
+
+        This method marks the database as specialized by setting the `is_specialized`
+        attribute to `True`. It is typically used to indicate that the database
+        is intended for a specific class of data, corresponding to specialized
+        energy materials.
+
+        Returns:
+            None
+        """
         pass
 
     def allow_raw_update(self):
         """
-        Allow the 'raw' data to be changed and avoid raising exception.
+        Enables modifications to the `raw` data stage.
+
+        This method sets the internal flag `_update_raw` to `True`, allowing changes
+        to be made to the raw data without raising an exception.
+
+        Warning:
+            Use with caution, as modifying raw data can impact data integrity.
         """
         self._update_raw = True
 
-    @abstractmethod
-    def retrieve_remote(self) -> pd.DataFrame:
-        """
-        Retrieve data from the Material Project API.
-        """
-        pass
-
-    @abstractmethod
     def compare_databases(self, new_db: pd.DataFrame, stage: str) -> pd.DataFrame:
         """
-        Compare a new database with the existing one to identify differences.
+        Compare two databases and identify new entry IDs.
+
+        This method compares an existing database (loaded from the specified stage) with a new database.
+        It returns the entries from the new database that are not present in the existing one.
 
         Args:
-            new_db (pd.DataFrame): new database to compare.
-            stage (str): The processing stage ('raw', 'processed', 'final').
+            new_db (pd.DataFrame): New database to compare.
+            stage (str): Processing stage ("raw", "processed", "final").
 
         Returns:
-            pd.DataFrame: Subset of `db_new` containing only new battery IDs.
+            pd.DataFrame: Subset of `new_db` containing only new entry IDs.
+
+        Logs:
+            - DEBUG: The number of new entries found.
+            - WARNING: If the old database is empty and nothing can be compared.
         """
-        pass
-
-    @abstractmethod
-    def retrieve_materials(self) -> list[Any]:
-        """
-        Retrieve material structures from the Material Project API.
-
-        Subclasses must implement this method to fetch material structures.
-        The method should interact with the Material Project API, perform necessary
-        queries, and return the results as a list of material objects.
-
-        Returns:
-            List[Any]: List of retrieved material objects.
-        """
-        pass
-
-    @abstractmethod
-    def save_cif_files(self) -> None:
-        """
-        Save CIF files for materials and update the database accordingly.
-        """
-        pass
-
-    @abstractmethod
-    def copy_cif_files(self) -> None:
-        """
-        Copy CIF files for materials and update the database accordingly.
-        """
-        pass
-
-    def load_database(self, stage: str) -> pd.DataFrame:
-        """
-        Load the existing database for a specific processing stage.
-
-        Checks for the presence of an existing database file for the given state
-        and loads it into a pandas DataFrame. If the database file does not exist,
-        logs a warning and returns an empty DataFrame.
-
-        Args:
-            stage (str): The processing stage ('raw', 'processed', 'final').
-
-        Returns:
-            pd.DataFrame: The loaded database or an empty DataFrame if not found.
-        """
-        if stage not in self.processing_stages:
-            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
-            raise ValueError(f"stage must be one of {self.processing_stages}.")
-
-        db_path = self.database_paths[stage]
-        if db_path.exists():
-            self.databases[stage] = pd.read_json(db_path)
-            if stage == "raw":
-                self.databases[stage]["is_specialized"] = self.is_specialized
-            logger.debug(f"Loaded existing database from {db_path}")
+        old_db = self.get_database(stage=stage)
+        if not old_db.empty:
+            new_ids_set = set(new_db["material_id"])
+            old_ids_set = set(old_db["material_id"])
+            new_ids_only = new_ids_set - old_ids_set
+            logger.debug(f"Found {len(new_ids_only)} new IDs in the new database.")
+            return new_db[new_db["material_id"].isin(new_ids_only)]
         else:
-            logger.warning(f"Not found at {db_path}")
-        return self.databases[stage]
-
-    @abstractmethod
-    def _load_interim(self, subset: str) -> None:
-        pass
-
-    def load_regressor_data(self, subset: str = "training"):
-        return self._load_interim(subset=subset, model_type="regressor")
-
-    def load_classifier_data(self, subset: str = "training"):
-        return self._load_interim(subset=subset, model_type="classifier")
-
-    def load_all(self):
-        """
-        Load the databases for all the stages.
-        """
-        for stage in self.processing_stages:
-            self.load_database(stage)
-        for subset in self.interim_sets:
-            self.load_regressor_data(subset)
-            self.load_classifier_data(subset)
-
-    def save_database(self, stage: str) -> None:
-        """
-        Save the current state of the database to a JSON file.
-
-        Serializes the current database DataFrame and saves it to a JSON file
-        at the designated path. Logs the success of the operation or any errors encountered.
-
-        Args:
-            stage (str): The processing stage ('raw', 'processed', 'final').
-
-        Raises:
-            IOError: If there is an issue writing the DataFrame to the file.
-        """
-        if stage not in self.processing_stages:
-            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
-            raise ValueError(f"stage must be one of {self.processing_stages}.")
-
-        db_path = self.database_paths[stage]
-        if os.path.exists(db_path):
-            os.unlink(db_path)
-        try:
-            self.databases[stage].to_json(db_path)
-            logger.info(f"Database saved to {db_path}")
-        except Exception as e:
-            logger.error(f"Failed to save database to {db_path}: {e}")
-            raise OSError(f"Failed to save database to {db_path}: {e}") from e
+            logger.warning("Nothing to compare here...")
+            return new_db
 
     def backup_and_changelog(
         self,
@@ -227,25 +161,33 @@ class BaseDatabase(ABC):
         """
         Backup the old database and update the changelog with identified differences.
 
-        Creates a backup of the existing database and appends a changelog entry detailing
-        the differences between the old and new databases. The changelog includes
-        information such as entry identifiers, formulas, and last updated timestamps.
+        This method saves a backup of the existing database before updating it with new data.
+        It also logs the changes detected by comparing the old and new databases, storing the
+        details in a changelog file.
 
         Args:
-            old_db (pd.DataFrame): The existing database before updates.
-            new_db (pd.DataFrame): The new database containing updates.
-            differences (pd.DataFrame): The database with the items that are new or updated.
-            stage (str): The processing stage ('raw', 'processed', 'final').
+            old_db (pd.DataFrame): The existing database before updating.
+            new_db (pd.DataFrame): The new database with updated entries.
+            differences (pd.Series): A series containing the material IDs of entries that differ.
+            stage (str): The processing stage ("raw", "processed", "final") for which the backup
+                        and changelog are being maintained.
 
         Raises:
-            IOError: If there is an issue writing to the backup or changelog files.
+            ValueError: If an invalid `stage` is provided.
+            OSError: If there is an issue writing to the backup or changelog files.
+
+        Logs:
+            - ERROR: If an invalid stage is provided.
+            - DEBUG: When the old database is successfully backed up.
+            - ERROR: If the backup process fails.
+            - DEBUG: When the changelog is successfully updated with differences.
+            - ERROR: If updating the changelog fails.
         """
         if stage not in self.processing_stages:
             logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
             raise ValueError(f"stage must be one of {self.processing_stages}.")
 
-        from datetime import datetime
-
+        # Backup the old database
         backup_path = self.database_directories[stage] / "old_database.json"
         try:
             old_db.to_json(backup_path)
@@ -254,33 +196,220 @@ class BaseDatabase(ABC):
             logger.error(f"Failed to backup old database to {backup_path}: {e}")
             raise OSError(f"Failed to backup old database to {backup_path}: {e}") from e
 
+        # Prepare changelog
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        changelog_path = self.data_dir / "changelog.txt"
-        changelog_entries = [
-            f"Change Log - {timestamp}\n",
-            f"{'ID':<15}{'Formula':<30}{'Last Updated (MP)':<20}\n",
-            "-" * 65 + "\n",
-        ]
+        changelog_path = self.database_directories[stage] / "changelog.txt"
 
-        for identifier in differences:
-            row = new_db.loc[new_db.index == identifier]
-            if not row.empty:
-                formula = row["formula"].values[0]
-                last_updated = row["last_updated"].values[0]
-            else:
-                formula = "N/A"
-                last_updated = "N/A"
-            changelog_entries.append(f"{identifier:<15}{formula:<30}{last_updated:<20}\n")
+        header = (
+            f"= Change Log - {timestamp} ".ljust(70, "=") + "\n"
+            "Difference old_database.json VS database.json\n"
+            f"{'ID':<15}{'Formula':<30}{'Last Updated':<25}\n" + "-" * 70 + "\n"
+        )
+
+        # Set index for faster lookup
+        new_db_indexed = new_db.set_index("material_id")
+
+        # Process differences efficiently
+        changes = [
+            f"{identifier:<15}{new_db_indexed.at[identifier, 'formula_pretty'] if identifier in new_db_indexed.index else 'N/A':<30}"
+            f"{new_db_indexed.at[identifier, 'last_updated'] if identifier in new_db_indexed.index else 'N/A':<25}\n"
+            for identifier in differences["material_id"]
+        ]
 
         try:
             with open(changelog_path, "a") as file:
-                file.writelines(changelog_entries)
+                file.write(header + "".join(changes))
             logger.debug(f"Changelog updated at {changelog_path} with {len(differences)} changes.")
         except Exception as e:
             logger.error(f"Failed to update changelog at {changelog_path}: {e}")
             raise OSError(f"Failed to update changelog at {changelog_path}: {e}") from e
 
-    def get_database(self, stage, subset=None):
+    def compare_and_update(self, new_db: pd.DataFrame, stage: str) -> pd.DataFrame:
+        """
+        Compare and update the database with new entries.
+
+        This method checks for new entries in the provided database and updates the stored
+        database accordingly. It ensures that raw data remains immutable unless explicitly
+        allowed. If new entries are found, the old database is backed up, and a changelog
+        is created.
+
+        Args:
+            new_db (pd.DataFrame): The new database to compare against the existing one.
+            stage (str): The processing stage ("raw", "processed", "final").
+
+        Returns:
+            pd.DataFrame: The updated database containing new entries.
+
+        Raises:
+            ImmutableRawDataError: If attempting to modify raw data without explicit permission.
+
+        Logs:
+            - WARNING: If new items are detected in the database.
+            - ERROR: If an attempt is made to modify immutable raw data.
+            - INFO: When saving or updating the database.
+            - INFO: If no new items are found and no update is required.
+        """
+        old_db = self.get_database(stage=stage)
+        db_diff = self.compare_databases(new_db, stage)
+        if not db_diff.empty:
+            logger.warning(f"The new database contains {len(db_diff)} new items.")
+
+            if stage == "raw" and not self._update_raw:
+                logger.error("Raw data must be treated as immutable!")
+                logger.error(
+                    "It's okay to read and copy raw data to manipulate it into new outputs, but never okay to change it in place."
+                )
+                raise ImmutableRawDataError(
+                    "Raw data must be treated as immutable!\n"
+                    "It's okay to read and copy raw data to manipulate it into new outputs, but never okay to change it in place."
+                )
+            else:
+                if stage == "raw":
+                    logger.info(
+                        "Be careful you are changing the raw data which must be treated as immutable!"
+                    )
+                if old_db.empty:
+                    logger.info(f"Saving new {stage} data in {self.database_paths[stage]}.")
+                else:
+                    logger.info(
+                        f"Updating the {stage} data and saving it in {self.database_paths[stage]}."
+                    )
+                    self.backup_and_changelog(
+                        old_db,
+                        new_db,
+                        db_diff,
+                        stage,
+                    )
+                self.databases[stage] = new_db
+                self.save_database(stage)
+        else:
+            logger.info("No new items found. No update required.")
+
+    @abstractmethod
+    def retrieve_materials(self) -> list[Any]:
+        pass
+
+    @abstractmethod
+    def save_cif_files(self) -> None:
+        pass
+
+    def copy_cif_files(
+        self,
+        stage: str,
+        mute_progress_bars: bool = True,
+    ) -> None:
+        """
+        Copy CIF files from the raw stage to another processing stage.
+
+        This method transfers CIF files from the `raw` stage directory to the specified
+        processing stage (`processed` or `final`). It ensures that existing CIF files in
+        the target directory are cleared before copying and updates the database with
+        the new file paths.
+
+        Args:
+            stage (str): The processing stage to copy CIF files to (`processed`, `final`).
+            mute_progress_bars (bool, optional): If True, disables progress bars. Defaults to True.
+
+        Raises:
+            ValueError: If the stage argument is `raw`, as copying is only allowed from `raw` to other stages.
+            MissingData: If the raw CIF directory does not exist or is empty.
+
+        Logs:
+            - WARNING: If the target directory is cleaned or CIF files are missing for some materials.
+            - ERROR: If a CIF file fails to copy.
+            - INFO: When CIF files are successfully copied and the database is updated.
+        """
+        if stage == "raw":
+            logger.error(
+                "Stage argument cannot be 'raw'. You can only copy from 'raw' to other stages."
+            )
+            raise ValueError("Stage argument cannot be 'raw'.")
+
+        source_dir = self.database_directories["raw"] / "structures"
+        saving_dir = self.database_directories[stage] / "structures"
+
+        # Clean the target directory if it exists
+        if saving_dir.exists():
+            logger.warning(f"Cleaning the content in {saving_dir}")
+            sh.rmtree(saving_dir)
+
+        # Check if source directory exists and is not empty
+        cif_files = {
+            file.stem for file in source_dir.glob("*.cif")
+        }  # Set of existing CIF filenames
+        if not cif_files:
+            logger.warning(
+                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
+            )
+            raise MissingData(
+                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
+            )
+
+        # Create the target directory
+        saving_dir.mkdir(parents=True, exist_ok=False)
+
+        # Create an index mapping for fast row updates
+        db_stage = self.databases[stage].set_index("material_id")
+        db_stage["cif_path"] = pd.NA  # Initialize empty column
+
+        missing_ids = []
+        for material_id in tqdm(
+            self.databases[stage]["material_id"],
+            desc=f"Copying materials ('raw' -> '{stage}')",
+            disable=mute_progress_bars,
+        ):
+            if material_id not in cif_files:
+                missing_ids.append(material_id)
+                continue  # Skip missing files
+
+            source_cif_path = source_dir / f"{material_id}.cif"
+            cif_path = saving_dir / f"{material_id}.cif"
+
+            try:
+                sh.copy2(source_cif_path, cif_path)
+                db_stage.at[material_id, "cif_path"] = str(cif_path)  # Direct assignment
+
+            except Exception as e:
+                logger.error(f"Failed to copy CIF for Material ID {material_id}: {e}")
+                continue  # Skip to next material instead of stopping execution
+
+        # Restore the updated database index
+        self.databases[stage] = db_stage.reset_index()
+
+        # Log missing files once
+        if missing_ids:
+            logger.warning(f"Missing CIF files for {len(missing_ids)} material IDs.")
+
+        # Save the updated database
+        self.save_database(stage)
+        logger.info(f"CIF files copied to stage '{stage}' and database updated successfully.")
+
+    def get_database(self, stage: str, subset: str | None = None) -> pd.DataFrame:
+        """
+        Retrieves the database for a specified processing stage or subset.
+
+        This method returns the database associated with the given `stage`. If the stage
+        is `raw`, `processed`, or `final`, it retrieves the corresponding database.
+        If `stage` is `interim`, a specific `subset` (e.g., `training`, `validation`, `testing`)
+        must be provided.
+
+        Args:
+            stage (str): The processing stage to retrieve. Must be one of
+                `raw`, `processed`, `final`, or `interim`.
+            subset (Optional[str]): The subset to retrieve when `stage` is `interim`.
+                Must be one of `training`, `validation`, or `testing`.
+
+        Returns:
+            pd.DataFrame: The requested database or subset.
+
+        Raises:
+            ValueError: If an invalid `stage` is provided.
+            ValueError: If `stage` is `interim` but an invalid `subset` is specified.
+
+        Logs:
+            - ERROR: If an invalid `stage` is provided.
+            - WARNING: If the retrieved database is empty.
+        """
         if stage not in self.processing_stages + ["interim"]:
             logger.error(
                 f"Invalid stage: {stage}. Must be one of {self.processing_stages + ['interim']}."
@@ -297,6 +426,182 @@ class BaseDatabase(ABC):
             logger.warning("Empty database found.")
         return out_db
 
+    def load_database(self, stage: str) -> None:
+        """
+        Loads the existing database for a specified processing stage.
+
+        This method retrieves the database stored in a JSON file for the given
+        processing stage (`raw`, `processed`, or `final`). If the file exists,
+        it loads the data into a pandas DataFrame. If the file is missing,
+        a warning is logged, and an empty DataFrame remains in place.
+
+        Args:
+            stage (str): The processing stage to load. Must be one of
+                `raw`, `processed`, or `final`.
+
+        Raises:
+            ValueError: If `stage` is not one of the predefined processing stages.
+
+        Logs:
+            ERROR: If an invalid `stage` is provided.
+            DEBUG: If a database is successfully loaded.
+            WARNING: If the database file is not found.
+        """
+        if stage not in self.processing_stages:
+            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
+            raise ValueError(f"stage must be one of {self.processing_stages}.")
+
+        db_path = self.database_paths[stage]
+        if db_path.exists():
+            self.databases[stage] = pd.read_json(db_path)
+            if stage == "raw":
+                self.databases[stage]["is_specialized"] = self._is_specialized
+            logger.debug(f"Loaded existing database from {db_path}.")
+        else:
+            logger.warning(f"Not found at {db_path}.")
+
+    def _load_interim(
+        self, subset: str = "training", model_type: str = "regressor"
+    ) -> pd.DataFrame:
+        """
+        Load the existing interim databases.
+
+        This method attempts to load an interim database corresponding to the specified
+        subset and model type. If the database file is found, it is loaded into a pandas
+        DataFrame. If not found, a warning is logged, and an empty DataFrame is returned.
+
+        Args:
+            subset (str): The subset of the interim dataset to load (`training`, `validation`, `testing`).
+            model_type (str, optional): The type of model associated with the data (`regressor`, `classifier`).
+                Defaults to "regressor".
+
+        Returns:
+            (pd.DataFrame): The loaded database if found, otherwise an empty DataFrame.
+
+        Raises:
+            ValueError: If the provided `subset` is not one of the allowed interim sets.
+
+        Logs:
+            - ERROR: If an invalid subset is provided.
+            - DEBUG: If an existing database is successfully loaded.
+            - WARNING: If no database file is found.
+        """
+
+        if subset not in self.interim_sets:
+            logger.error(f"Invalid set: {subset}. Must be one of {self.interim_sets}.")
+            raise ValueError(f"set must be one of {self.interim_sets}.")
+
+        db_name = subset + "_db.json"
+        db_path = self.data_dir / "interim" / self.name / model_type / db_name
+        if db_path.exists():
+            self.subset[subset] = pd.read_json(db_path)
+            logger.debug(f"Loaded existing database from {db_path}")
+        else:
+            logger.warning(f"No existing database found at {db_path}")
+        return self.subset[subset]
+
+    def load_regressor_data(self, subset: str = "training"):
+        """
+        Load the interim dataset for a regression model.
+
+        This method retrieves the specified subset of the interim dataset specifically for
+        regression models by internally calling `_load_interim`.
+
+        Args:
+            subset (str, optional): The subset of the dataset to load (`training`, `validation`, `testing`).
+                Defaults to "training".
+
+        Returns:
+            (pd.DataFrame): The loaded regression dataset or an empty DataFrame if not found.
+
+        Raises:
+            ValueError: If the provided `subset` is not one of the allowed interim sets.
+
+        Logs:
+            - ERROR: If an invalid subset is provided.
+            - DEBUG: If an existing database is successfully loaded.
+            - WARNING: If no database file is found.
+        """
+        return self._load_interim(subset=subset, model_type="regressor")
+
+    def load_classifier_data(self, subset: str = "training"):
+        """
+        Load the interim dataset for a classification model.
+
+        This method retrieves the specified subset of the interim dataset specifically for
+        classification models by internally calling `_load_interim`.
+
+        Args:
+            subset (str, optional): The subset of the dataset to load (`training`, `testing`).
+                Defaults to "training".
+
+        Returns:
+            (pd.DataFrame): The loaded regression dataset or an empty DataFrame if not found.
+
+        Raises:
+            ValueError: If the provided `subset` is not one of the allowed interim sets.
+
+        Logs:
+            - ERROR: If an invalid subset is provided.
+            - DEBUG: If an existing database is successfully loaded.
+            - WARNING: If no database file is found.
+        """
+        return self._load_interim(subset=subset, model_type="classifier")
+
+    def load_all(self):
+        """
+        Loads the databases for all processing stages and subsets.
+
+        This method sequentially loads the databases for all predefined processing
+        stages (`raw`, `processed`, `final`). Additionally, it loads both regressor
+        and classifier data for all interim subsets (`training`, `validation`, `testing`).
+
+        Calls:
+            - `load_database(stage)`: Loads the database for each processing stage.
+            - `load_regressor_data(subset)`: Loads regressor-specific data for each subset.
+            - `load_classifier_data(subset)`: Loads classifier-specific data for each subset.
+        """
+        for stage in self.processing_stages:
+            self.load_database(stage)
+        for subset in self.interim_sets:
+            self.load_regressor_data(subset)
+            self.load_classifier_data(subset)
+
+    def save_database(self, stage: str) -> None:
+        """
+        Saves the current state of the database to a JSON file.
+
+        This method serializes the database DataFrame for the specified processing
+        stage (`raw`, `processed`, or `final`) and writes it to a JSON file. If an
+        existing file is present, it is removed before saving the new version.
+
+        Args:
+            stage (str): The processing stage to save. Must be one of
+                `raw`, `processed`, or `final`.
+
+        Raises:
+            ValueError: If `stage` is not one of the predefined processing stages.
+            OSError: If an error occurs while writing the DataFrame to the file.
+
+        Logs:
+            - ERROR: If an invalid `stage` is provided.
+            - INFO: If the database is successfully saved.
+            - ERROR: If the save operation fails.
+        """
+        if stage not in self.processing_stages:
+            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
+            raise ValueError(f"stage must be one of {self.processing_stages}.")
+
+        db_path = self.database_paths[stage]
+        if os.path.exists(db_path):
+            os.unlink(db_path)
+        try:
+            self.databases[stage].to_json(db_path)
+            logger.info(f"Database saved to {db_path}")
+        except Exception as e:
+            logger.error(f"Failed to save database to {db_path}: {e}")
+            raise OSError(f"Failed to save database to {db_path}: {e}") from e
+
     def build_reduced_database(
         self,
         size: int,
@@ -305,15 +610,27 @@ class BaseDatabase(ABC):
         seed: int = 42,
     ) -> pd.DataFrame:
         """
-        Build the reduced MP database.
+        Build a reduced database by sampling random entries from an existing database.
+
+        This method creates a new database by randomly sampling a specified number of entries
+        from the given stage (`raw`, `processed`, or `final`) of the existing database. The
+        new database is saved and returned as a new instance.
 
         Args:
-            database (pd.DataFrame): The database from which to pick random entries.
-            size (int): The size (number of entries) of the reduced database.
-            seed (int): The random seed used for creating reproducible databases. Defaults to 42.
+            size (int): The number of entries for the reduced database.
+            new_name (str): The name for the new reduced database.
+            stage (str): The processing stage (`raw`, `processed`, or `final`) to sample from.
+            seed (int, optional): The random seed used to generate reproducible samples. Defaults to 42.
 
         Returns:
-            pd.DataFrame: The filtered generic database.
+            (pd.DataFrame): The reduced database as a pandas DataFrame with the sampled entries.
+
+        Raises:
+            ValueError: If `size` is 0, indicating that an empty database is being created.
+
+        Logs:
+            ERROR: If the database size is set to 0.
+            INFO: If the new reduced database is successfully created and saved.
         """
         new_database = self.__class__(data_dir=self.data_dir, name=new_name)
         if size == 0:
@@ -345,9 +662,32 @@ class BaseDatabase(ABC):
 
         return new_database
 
-    def save_split_db(self, database_dict: dict, model_type: str = "regressor"):
+    def save_split_db(self, database_dict: dict, model_type: str = "regressor") -> None:
         """
-        Save the split databases.
+        Saves the split databases (training, validation, testing) into JSON files.
+
+        This method saves the split databases into individual files in the designated
+        directory for the given model type (e.g., `regressor`, `classifier`). It checks
+        whether the databases are empty before saving. If any of the databases are empty,
+        it logs a warning or raises an error depending on the subset (training, validation, testing).
+
+        Args:
+            database_dict (dict): A dictionary containing the split databases (`train`,
+                `valid`, `test`) as pandas DataFrames.
+            model_type (str, optional): The model type for which the splits are being saved
+                (e.g., `"regressor"`, `"classifier"`). Defaults to `"regressor"`.
+
+        Returns:
+            None
+
+        Raises:
+            DatabaseError: If the training dataset is empty
+                when attempting to save.
+
+        Logs:
+            INFO: When a database is successfully saved to its designated path.
+            WARNING: When the validation or testing database is empty.
+            ERROR: If any dataset is empty and it is the `train` subset.
         """
         db_path = self.data_dir / "interim" / self.name / model_type
         # if not db_path.exists():
@@ -381,7 +721,38 @@ class BaseDatabase(ABC):
         seed: int = 42,
         balance_composition: bool = True,
         save_split: bool = False,
-    ):
+    ) -> None:
+        """
+        Splits the processed database into training, validation, and test sets for regression tasks.
+
+        This method divides the database into three subsets: training, validation, and test. It
+        either performs a random split with or without balancing the frequency of chemical
+        species across the splits. If `balance_composition` is True, it ensures that
+        elements appear in approximately equal proportions in each subset. The split sizes for
+        validation and test sets can be customized.
+
+        Args:
+            target_property (str): The property used for the regression task (e.g., a material
+                property like "energy").
+            valid_size (float, optional): The proportion of the data to use for the validation set.
+                Defaults to 0.2.
+            test_size (float, optional): The proportion of the data to use for the test set.
+                Defaults to 0.05.
+            seed (int, optional): The random seed for reproducibility. Defaults to 42.
+            balance_composition (bool, optional): Whether to balance the frequency of chemical species
+                across the subsets. Defaults to True.
+            save_split (bool, optional): Whether to save the resulting splits as files. Defaults to False.
+
+        Returns:
+            None
+
+        Raises:
+            ValueError: If the sum of `valid_size` and `test_size` exceeds 1.
+
+        Logs:
+            INFO: If the dataset is successfully split.
+            ERROR: If the sum of `valid_size` and `test_size` is greater than 1.
+        """
         if balance_composition:
             db_dict = random_split(
                 self.get_database("processed"),
@@ -425,7 +796,34 @@ class BaseDatabase(ABC):
         seed: int = 42,
         balance_composition: bool = False,
         save_split: bool = False,
-    ):
+    ) -> None:
+        """
+        Splits the processed database into training and test sets for classification tasks.
+
+        This method divides the database into two subsets: training and test. It always stratifies
+        the split based on the target property (`is_specialized`). If `balance_composition` is True,
+        it additionally balances the frequency of chemical species across the training and test sets.
+        The size of the test set can be customized with the `test_size` argument.
+
+        Args:
+            test_size (float, optional): The proportion of the data to use for the test set.
+                Defaults to 0.2.
+            seed (int, optional): The random seed for reproducibility. Defaults to 42.
+            balance_composition (bool, optional): Whether to balance the frequency of chemical
+                species across the training and test sets in addition to stratifying by the
+                target property (`is_specialized`). Defaults to False.
+            save_split (bool, optional): Whether to save the resulting splits as files. Defaults to False.
+
+        Returns:
+            None
+
+        Raises:
+            ValueError: If the database is empty or invalid.
+
+        Logs:
+            INFO: If the dataset is successfully split.
+            ERROR: If the dataset is invalid or empty.
+        """
         target_property = "is_specialized"
         if balance_composition:
             db_dict = random_split(
@@ -448,8 +846,8 @@ class BaseDatabase(ABC):
 
     def __repr__(self) -> str:
         """
-        Text representation of the CathodeDatabase instance.
-        Used for print() and str() calls.
+        Text representation of the BaseDatabase instance.
+        Used for ``print()`` and ``str()`` calls.
 
         Returns:
             str: ASCII table representation of the database
@@ -528,7 +926,7 @@ class BaseDatabase(ABC):
 
     def _repr_html_(self) -> str:
         """
-        HTML representation of the CathodeDatabase instance.
+        HTML representation of the BaseDatabase instance.
         Used for Jupyter notebook display.
 
         Returns:

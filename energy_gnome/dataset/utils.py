@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from ase.io import read
@@ -10,9 +11,63 @@ from tqdm.auto import tqdm
 
 from energy_gnome.utils.readers import to_unix
 
-# BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
-# tqdm.pandas(bar_format=BAR_FORMAT)
 tqdm.pandas()
+
+
+def make_link(source: Path, target: Path) -> None:
+    """
+    Creates a symbolic link from the source to the target.
+
+    This function creates a symbolic link from the `source` path to the `target` path.
+    If the target path already exists, it is overwritten by the new symbolic link.
+    Symbolic links are useful for creating references to files and directories
+    without duplicating data.
+
+    Args:
+        source (Path): The path to the source file or directory.
+        target (Path): The path where the symbolic link will be created.
+
+    Returns:
+        None
+
+    Raises:
+        OSError: If the symbolic link cannot be created due to permission issues
+            or invalid paths.
+
+    Logs:
+        INFO: When the symbolic link is successfully created.
+        ERROR: If the symbolic link creation fails.
+    """
+    if source.exists():
+        logger.warning(f"File {source} already exist")
+    else:
+        os.symlink(source, target)
+        logger.info(f"Made link {source} -> {target}")
+
+
+def detect_outliers_iqr(df: pd.DataFrame, iqr_w: float = 1.5):
+    """Detects outliers in a Pandas DataFrame using the IQR method.
+
+    Args:
+        df (DataFrame): Pandas DataFrame with numerical data.
+        iqr_w (float): IQR width, default value 1.4
+
+    Returns:
+        _type_: A Pandas DataFrame of the same shape as `df` with True for outliers and False otherwise.
+    """
+
+    outlier_mask = pd.DataFrame(data=False, index=df.index, columns=df.columns)
+
+    for col in df.columns:
+        if (
+            df[col].dtype.kind in "ifc"
+        ):  # Check if the column type is numeric (boolean, integer, float, complex)
+            Q1 = df[col].quantile(0.25)
+            Q3 = df[col].quantile(0.75)
+            IQR = Q3 - Q1
+            outlier_mask[col] = (df[col] < (Q1 - iqr_w * IQR)) | (df[col] > (Q3 + iqr_w * IQR))
+
+    return outlier_mask
 
 
 def get_element_statistics(df: pd.DataFrame, species: list[str]) -> pd.DataFrame:

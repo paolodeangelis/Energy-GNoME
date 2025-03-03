@@ -7,7 +7,7 @@ from .base_dataset import BaseDatabase
 from .cathodes import CathodeDatabase
 from .gnome import GNoMEDatabase
 from .perovskites import PerovskiteDatabase
-from .random_mats import MergedDatabase, MPDatabase
+from .random_mats import MPDatabase
 
 # from .thermoelectrics import ThermoelectricDatabase
 from .raw_data import get_raw_all, get_raw_cathode, get_raw_perovskite

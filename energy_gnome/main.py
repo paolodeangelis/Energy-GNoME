@@ -15,17 +15,14 @@ from energy_gnome.config import (  # noqa: F401
 )
 from energy_gnome.dataset import get_raw_all, get_raw_cathode, get_raw_perovskite
 from energy_gnome.dataset.cathodes import CathodeDatabase
+from energy_gnome.dataset.data_processing import process_mp, process_perovskite
 from energy_gnome.dataset.perovskites import PerovskiteDatabase
 
 # from energy_gnome.dataset.temp_convert import process_data_with_yaml
 from energy_gnome.models.e3nn.regressor import E3NNRegressor
 from energy_gnome.models.predict import eval_regressor
 from energy_gnome.models.train import fit_regressor
-from energy_gnome.utils.db_preprocessing.data_processing import (
-    process_mp,
-    process_perovskite,
-)
-from energy_gnome.utils.logger_config import logger, setup_logging  # noqa: F401
+from energy_gnome.utils.logger_config import setup_logging  # noqa: F401
 
 # Create the Typer app
 app = typer.Typer(help="Energy GNoME CLI.")
@@ -199,16 +196,16 @@ def training(
             logger.info(
                 f"--- Testing '{model_type}' regressors for perovskites".ljust(LOG_MAX_WIDTH, "-")
             )
-            data = eval_regressor(model, db, "testing")
+            # data = eval_regressor(model, db, "testing")
 
         elif problem_type.lower() in ["classifier", "classifiers", "classification"]:
             logger.info("--- Building classifiers for perovskites".ljust(LOG_MAX_WIDTH, "-"))
-            fit_classifier(
-                category=category,
-                data_dir=data_dir,
-                models_dir=models_dir,
-                logger=logger,
-            )
+            # fit_classifier(
+            #     category=category,
+            #     data_dir=data_dir,
+            #     models_dir=models_dir,
+            #     logger=logger,
+            # )
 
         else:
             raise NotImplementedError(f"'{problem_type}' is not a valid problem type entry.")

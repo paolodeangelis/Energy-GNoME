@@ -67,7 +67,7 @@ class BaseRegressor(ABC):
             self.load_trained_models()
 
     @abstractmethod
-    def compile(self):
+    def compile_(self):
         pass
 
     @abstractmethod
@@ -162,7 +162,7 @@ class BaseClassifier(ABC):
         self.n_committers: int = 10
 
     @abstractmethod
-    def compile(self):
+    def compile_(self):
         pass
 
     @abstractmethod

@@ -173,63 +173,6 @@ class E3NNRegressor(BaseRegressor):
         self.learning_rate = lr
         self.weight_decay = wd
 
-    '''
-    def db_featurizer(self, dataset: pd.DataFrame) -> pd.DataFrame:
-        """
-        Load and featurize the specified database.
-
-        Checks for the presence of an existing database file for the given stage
-        and loads it into a pandas DataFrame. If the database file does not exist,
-        logs a warning and returns an empty DataFrame.
-        Builds a pandas DataFrame ready for model training.
-
-        Args:
-            dataset (pd.DataFrame) = ...
-
-        Returns:
-            pd.DataFrame: The built database or an empty DataFrame if not found.
-        """
-        database_nn = pd.DataFrame(
-            {
-                self.target_property: pd.Series(dtype="float"),
-                "structure": pd.Series(dtype="object"),
-                "formula": pd.Series(dtype="str"),
-                "species": pd.Series(dtype="object"),
-                "data": pd.Series(dtype="object"),
-            }
-        )
-
-        pd.options.mode.chained_assignment = None  # default='warn', hides warning
-
-        for i in tqdm(range(len(dataset))):
-            database_nn.loc[i, self.target_property] = dataset[self.target_property].iloc[i]
-            path = dataset["cif_path"].iloc[i]
-            structure = read(Path(to_unix(path)))
-            database_nn.at[i, "structure"] = (
-                structure.copy()
-            )  # if not working, try removing .copy()
-            database_nn.loc[i, "formula"] = structure.get_chemical_formula()
-            database_nn.at[i, "species"] = list(set(structure.get_chemical_symbols()))
-
-        type_encoding, type_onehot, atomicmass_onehot = get_encoding()
-
-        r_max = self.r_max  # cutoff radius
-        database_nn["data"] = database_nn.progress_apply(
-            lambda x: build_data(
-                x,
-                type_encoding,
-                type_onehot,
-                atomicmass_onehot,
-                self.target_property,
-                r_max,
-                dtype=DEFAULT_DTYPE,
-            ),
-            axis=1,
-        )
-
-        return database_nn
-    '''
-
     def featurize_db(self, dataset: pd.DataFrame) -> pd.DataFrame:
         """
         Load and featurize the specified database.
@@ -297,6 +240,7 @@ class E3NNRegressor(BaseRegressor):
         self,
         databases: BaseDatabase | list[BaseDatabase],
         subset: str | None = None,
+        shuffle: bool = False,
         confidence_threshold: float = 0.5,
     ):
         """
@@ -308,6 +252,10 @@ class E3NNRegressor(BaseRegressor):
         Returns:
             ???
         """
+        if subset != "training" and shuffle is True:
+            logger.error("Shuffling is not supported for the validation and testing set!")
+            raise ValueError("Shuffling is not supported for the validation and testing set!")
+
         if not isinstance(databases, list):
             databases = [databases]
 
@@ -323,12 +271,17 @@ class E3NNRegressor(BaseRegressor):
                 df = pd.concat(db_list, ignore_index=True)
             else:
                 df = db_list[0]
+                df.reset_index(drop=True, inplace=True)
 
         featurized_db = self.featurize_db(df)
 
         data_values = featurized_db["data"].values
         dataloader_db = DataLoader(
-            data_values, batch_size=self.batch_size, num_workers=0, pin_memory=True
+            data_values,
+            batch_size=self.batch_size,
+            num_workers=0,
+            pin_memory=True,
+            shuffle=shuffle,
         )
 
         n_neighbors = get_neighbors(featurized_db)
@@ -398,7 +351,7 @@ class E3NNRegressor(BaseRegressor):
             models[f"model_{i}"] = PeriodicNetwork(**model_settings)
         self.models: dict[str, torch.nn.Module] = models
 
-    def compile(
+    def compile_(  # I added the underscore to mute the pre-commit, should be undone
         self,
         num_neighbors: float,
         lr: float = DEFAULT_OPTIM_SETTINGS["lr"],

@@ -197,7 +197,7 @@ class CathodeDatabase(BaseDatabase):
         Returns:
             pd.DataFrame: Subset of `new_db` containing only new entry IDs.
         """
-        old_db = self.load_database(stage=stage)
+        old_db = self.get_database(stage=stage)
         if not old_db.empty:
             new_ids_set = set(new_db["battery_id"])
             old_ids_set = set(old_db["battery_id"])
@@ -284,7 +284,7 @@ class CathodeDatabase(BaseDatabase):
         Raises:
             ImmutableRawDataError: If attempting to modify immutable raw data.
         """
-        old_db = self.load_database(stage=stage)
+        old_db = self.get_database(stage=stage)
         db_diff = self.compare_databases(new_db, stage)
         if not db_diff.empty:
             logger.warning(f"The new database contains {len(db_diff)} new items.")

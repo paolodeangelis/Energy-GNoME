@@ -195,8 +195,8 @@ plugins:
       cards_layout_options:
         background_color: "#44cee0"
         color: "#44cee0"
-  # - glightbox
-  # - git-authors
+  - glightbox
+  - git-authors
   - git-revision-date-localized:
       type: timeago
       timezone: Europe/Rome
@@ -241,6 +241,8 @@ nav:
     - CLI: docs/cli.md
     - Modules:
         - Datasets: docs/modules/dataset.md
+        - Models: docs/modules/models.md
+
   - Contribute: contribute/index.md
   - How to cite: ./cite.md
   - Status: ./status.md
