@@ -90,7 +90,7 @@ class PerovskiteDatabase(BaseDatabase):
             NotImplementedError: If the specified processing stage is not supported.
             ImmutableRawDataError: If attempting to set an unsupported processing stage.
         """
-        super().__init__(data_dir=data_dir, name=name)
+        super().__init__(name=name, data_dir=data_dir)
         self._perovskites = pd.DataFrame()
         self.external_perovproj_path: Path | str = external_perovproj_path
 

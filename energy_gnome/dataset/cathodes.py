@@ -89,7 +89,7 @@ class CathodeDatabase(BaseDatabase):
             NotImplementedError: If the specified processing stage is not supported.
             ImmutableRawDataError: If attempting to set an unsupported processing stage.
         """
-        super().__init__(data_dir=data_dir, name=name)
+        super().__init__(name=name, data_dir=data_dir)
         self.working_ion = working_ion
 
         if battery_type == "insertion":

@@ -40,7 +40,7 @@ class GNoMEDatabase(BaseDatabase):
             NotImplementedError: If the specified processing stage is not supported.
             ImmutableRawDataError: If attempting to set an unsupported processing stage.
         """
-        super().__init__(data_dir=data_dir, name=name)
+        super().__init__(name=name, data_dir=data_dir)
 
         # Force single directory for raw database of GNoMEDatabase
         self.database_directories["raw"] = self.data_dir / "raw" / "gnome"
@@ -124,6 +124,46 @@ class GNoMEDatabase(BaseDatabase):
 
     def copy_cif_files(self):
         pass
+
+    def filter_if_species(self, include: list[str] = [], exclude: list[str] = []) -> pd.DataFrame:
+        """
+        Filters the database entries based on the presence or absence of specified chemical species.
+
+        Args:
+            include (list[str], optional): A list of chemical species that must be present in the composition.
+                                        If empty, no filtering is applied based on inclusion.
+            exclude (list[str], optional): A list of chemical species that must not be present in the composition.
+                                        If empty, no filtering is applied based on exclusion.
+
+        Returns:
+            pd.DataFrame: A filtered DataFrame containing only the entries that match the inclusion/exclusion criteria.
+
+        Raises:
+            ValueError: If both `include` and `exclude` lists are empty.
+
+        Notes:
+            - The chemical composition is assumed to be represented in a column, typically in the form of strings
+            containing chemical formulas (e.g., "Fe2O3", "NaCl").
+            - If both `include` and `exclude` are provided, the function will return entries that contain at least one
+            of the `include` species but none of the `exclude` species.
+        """
+        if not include and not exclude:
+            raise ValueError("At least one of `include` or `exclude` must be specified.")
+
+        # Assuming the chemical composition is stored in a column named "composition"
+        df = self.get_database("final")  # Modify as needed to access the correct dataframe
+
+        def contains_species(composition: str, species_list: list[str]) -> bool:
+            """Helper function to check if any species in the list is present in the composition."""
+            return any(species in composition for species in species_list)
+
+        # Apply filtering
+        if include:
+            df = df[df["composition"].apply(lambda x: contains_species(x, include))]
+        if exclude:
+            df = df[~df["composition"].apply(lambda x: contains_species(x, exclude))]
+
+        return df
 
     def __repr__(self) -> str:
         """

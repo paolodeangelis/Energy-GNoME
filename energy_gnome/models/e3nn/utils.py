@@ -499,13 +499,6 @@ def train_regressor(
     checkpoint = next(checkpoint_generator)
     start_time = time.time()
 
-    # try:
-    #     model.load_state_dict(torch.load(run_name + ".torch")["state"])
-    #     best_model_state = copy.deepcopy(model.state_dict())
-    # except:  # noqa
-    #     results = {}
-    #     history = []
-    #     s0 = 0
     try:
         checkpoint_data = torch.load(
             str(run_name) + ".torch", weights_only=True
@@ -532,10 +525,7 @@ def train_regressor(
         history = []
         s0 = 0
         loss_valid_best = float("inf")
-    # else:
-    #     results = torch.load(str(run_name) + ".torch")
-    #     history = results["history"]
-    #     s0 = history[-1]["step"] + 1
+
     try:
         history[-1]["valid"]
     except (KeyError, IndexError):
@@ -710,6 +700,7 @@ def train_classifier(
     max_epoch: int = 101,
     scheduler: torch.optim.lr_scheduler._LRScheduler | None = None,
     only_best: bool = True,
+    save_always: bool = True,
     device: str = "cpu",
 ) -> None:
     """
@@ -731,6 +722,13 @@ def train_classifier(
     Saves:
         Model checkpoints and training history to a file named "{run_name}.torch".
     """
+    # add logger file:
+    # log_file = open(str(run_name) + ".log", "w")
+    # temp_log_id = logger.add(
+    #     log_file,
+    #     colorize=True,
+    #     format=formatter,
+    # )
     model.to(device)
 
     checkpoint_generator = loglinspace(0.3, 5)
@@ -738,18 +736,32 @@ def train_classifier(
     start_time = time.time()
 
     try:
-        model.load_state_dict(torch.load(run_name + ".torch")["state_best_accuracy"])
-        best_model_state_accu = copy.deepcopy(model.state_dict())
-        model.load_state_dict(torch.load(run_name + ".torch")["state_best_loss"])
-        best_model_state_loss = copy.deepcopy(model.state_dict())
-    except:  # noqa
+        checkpoint_data = torch.load(
+            str(run_name) + ".torch", weights_only=True
+        )  # Load full checkpoint
+        model.load_state_dict(checkpoint_data["state_last"])  # Load last saved model state
+        optimizer.load_state_dict(checkpoint_data["optimizer"])  # Restore optimizer state
+        if scheduler is not None and "scheduler" in checkpoint_data:
+            scheduler.load_state_dict(checkpoint_data["scheduler"])  # Restore LR scheduler
+        # best_model_state = copy.deepcopy(checkpoint_data["state_best"])  # Best model so far
+        history = checkpoint_data["history"]  # Restore training history
+        s0 = history[-1]["step"] + 1  # Resume step count from last checkpoint
+        loss_valid_best = min([d["valid"]["loss"] for d in history])  # Resume best validation loss
+
+        logger.info(f"Found checkpoint {str(run_name) + '.torch'}")
+        logger.info(
+            f"Restarting training from step {s0} [prev loss={history[-1]['train']['loss']:.4g} (valid loss={history[-1]['valid']['loss']:.4g})]"
+        )
+        for param_group in optimizer.param_groups:
+            logger.info(f"Resumed Learning Rate: {param_group['lr']}")
+
+    except FileNotFoundError:  # If no checkpoint exists, start fresh
+        logger.info("No checkpoint found, starting from scratch.")
         results = {}
         history = []
         s0 = 0
-    else:
-        results = torch.load(run_name + ".torch")
-        history = results["history"]
-        s0 = history[-1]["step"] + 1
+        loss_valid_best = float("inf")
+
     try:
         history[-1]["valid"]
     except (KeyError, IndexError):
@@ -1003,22 +1015,3 @@ def get_neighbors(df: pd.DataFrame) -> np.ndarray:
             neighbors_count.append(count)
 
     return np.array(neighbors_count)
-
-
-def build_manager_dataloader(dataloader: DataLoader, manager: mp.Manager):
-    """
-    Convert an existing dataloader.dataset into a manager-backed list,
-    then rebuild a new DataLoader pointing to that shared memory.
-    """
-    # 1) Extract the dataset from the original dataloader
-    original_data = list(dataloader.dataset)  # or .copy() if needed
-
-    # 2) Wrap it in a manager list
-    manager_data = manager.list(original_data)
-
-    # 3) Build a new DataLoader
-    new_dataloader = DataLoader(
-        manager_data,
-        batch_size=dataloader.batch_size,
-    )
-    return new_dataloader
