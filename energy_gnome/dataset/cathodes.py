@@ -673,7 +673,7 @@ class CathodeDatabase(BaseDatabase):
     def __repr__(self) -> str:
         """
         Text representation of the CathodeDatabase instance.
-        Used for print() and str() calls.
+        Used for `print()` and `str()` calls.
 
         Returns:
             str: ASCII table representation of the database

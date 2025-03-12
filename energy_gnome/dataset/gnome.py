@@ -125,50 +125,169 @@ class GNoMEDatabase(BaseDatabase):
     def copy_cif_files(self):
         pass
 
-    def filter_if_species(self, include: list[str] = [], exclude: list[str] = []) -> pd.DataFrame:
+    '''
+    def filter_by_elements(
+            self,
+            include: list[str] = None,
+            exclude: list[str] = None
+        ) -> pd.DataFrame:
         """
-        Filters the database entries based on the presence or absence of specified chemical species.
+        Filters the database entries based on the presence or absence of specified chemical elements.
 
         Args:
-            include (list[str], optional): A list of chemical species that must be present in the composition.
-                                        If empty, no filtering is applied based on inclusion.
-            exclude (list[str], optional): A list of chemical species that must not be present in the composition.
-                                        If empty, no filtering is applied based on exclusion.
+            include (list[str], optional): A list of chemical elements that must be present in the composition.
+                                        If None, no filtering is applied based on inclusion.
+            exclude (list[str], optional): A list of chemical elements that must not be present in the composition.
+                                        If None, no filtering is applied based on exclusion.
 
         Returns:
-            pd.DataFrame: A filtered DataFrame containing only the entries that match the inclusion/exclusion criteria.
+            (pd.DataFrame): A filtered DataFrame containing only the entries that match the inclusion/exclusion
+                            criteria.
 
         Raises:
             ValueError: If both `include` and `exclude` lists are empty.
 
         Notes:
-            - The chemical composition is assumed to be represented in a column, typically in the form of strings
-            containing chemical formulas (e.g., "Fe2O3", "NaCl").
             - If both `include` and `exclude` are provided, the function will return entries that contain at least one
-            of the `include` species but none of the `exclude` species.
+            of the `include` elements but none of the `exclude` elements.
         """
+        if include is None:
+            include = []
+        if exclude is None:
+            exclude = []
+
         if not include and not exclude:
             raise ValueError("At least one of `include` or `exclude` must be specified.")
 
-        # Assuming the chemical composition is stored in a column named "composition"
-        df = self.get_database("final")  # Modify as needed to access the correct dataframe
+        df = self.get_database("final")
 
-        def contains_species(composition: str, species_list: list[str]) -> bool:
-            """Helper function to check if any species in the list is present in the composition."""
-            return any(species in composition for species in species_list)
+        def contains_elements(elements_str, elements_list: list[str]) -> bool:
+            """Checks if at least one element from elements_list is exactly present in Elements."""
+            if isinstance(elements_str, str):  # Convert string to list if needed
+                try:
+                    elements = eval(elements_str)  # Safely parse string to list
+                    if not isinstance(elements, list):
+                        return False
+                except:
+                    return False
+            else:
+                elements = elements_str  # If it's already a list, use it as is
+
+            return bool(set(elements) & set(elements_list))  # Exact match check
 
         # Apply filtering
         if include:
-            df = df[df["composition"].apply(lambda x: contains_species(x, include))]
+            df = df[df["Elements"].apply(lambda x: contains_elements(x, include))]
         if exclude:
-            df = df[~df["composition"].apply(lambda x: contains_species(x, exclude))]
+            df = df[~df["Elements"].apply(lambda x: contains_elements(x, exclude))]
+
+        return df'
+    '''
+
+    def filter_by_elements(
+        self,
+        include: list[str] = None,
+        exclude: list[str] = None,
+        stage: str = "final",
+        save_filtered_db: bool = False,
+    ) -> pd.DataFrame:
+        """
+        Filters the database entries based on the presence or absence of specified chemical elements or element groups.
+
+        Args:
+            include (list[str], optional): A list of chemical elements that must be present in the composition.
+                                           - If None, no filtering is applied based on inclusion.
+                                           - If an element group is passed using the format `"A-B"`, the material must
+                                             contain *all* elements in that group.
+            exclude (list[str], optional): A list of chemical elements that must not be present in the composition.
+                                           - If None, no filtering is applied based on exclusion.
+                                           - If an element group is passed using the format `"A-B"`, the material is
+                                             removed *only* if it contains *all* elements in that group.
+            stage (str, optional): The processing stage to retrieve the database from. Defaults to `"final"`.
+                                   Possible values: `"raw"`, `"processed"`, `"final"`.
+            save_filtered_db (bool, optional): If True, saves the filtered database back to `self.databases[stage]`
+                                               and updates the stored database. Defaults to False.
+
+        Returns:
+            (pd.DataFrame): A filtered DataFrame containing only the entries that match the inclusion/exclusion
+                            criteria.
+
+        Raises:
+            ValueError: If both `include` and `exclude` lists are empty.
+
+        Notes:
+            - If both `include` and `exclude` are provided, the function will return entries that contain at least one
+              of the `include` elements but none of the `exclude` elements.
+            - If an entry in `include` is in the format `"A-B"`, the material must contain all elements in that group.
+            - If an entry in `exclude` is in the format `"A-B"`, the material is removed only if it contains *all*
+              elements in that group.
+            - If `save_filtered_db` is True, the filtered DataFrame is stored in `self.databases[stage]` and saved
+              persistently.
+        """
+
+        if include is None:
+            include = []
+        if exclude is None:
+            exclude = []
+
+        if not include and not exclude:
+            raise ValueError("At least one of `include` or `exclude` must be specified.")
+
+        df = self.get_database(stage)
+
+        def parse_elements(elements_str):
+            """Convert the Elements column from string to an actual list."""
+            if isinstance(elements_str, str):
+                try:
+                    elements = eval(elements_str)  # Convert string to list
+                    if isinstance(elements, list):
+                        return elements
+                except Exception as e:
+                    logger.warning(f"{e}")
+            return elements_str if isinstance(elements_str, list) else []
+
+        def contains_elements(elements, elements_list: list[str]) -> bool:
+            """Check if an entry satisfies the element inclusion criteria."""
+            material_elements = set(parse_elements(elements))  # Convert material elements to a set
+
+            simple_elements = {
+                e for e in elements_list if "-" not in e
+            }  # Elements that can appear individually
+            grouped_elements = [
+                set(e.split("-")) for e in elements_list if "-" in e
+            ]  # Element groups that must all be present
+
+            # Check if any simple element is present
+            simple_match = bool(material_elements & simple_elements) if simple_elements else False
+
+            # Check if all elements in at least one group are present
+            grouped_match = (
+                any(group.issubset(material_elements) for group in grouped_elements)
+                if grouped_elements
+                else False
+            )
+
+            return (
+                simple_match or grouped_match
+            )  # Material passes if it satisfies either condition
+
+        # Apply filtering
+        if include:
+            df = df[df["Elements"].apply(lambda x: contains_elements(x, include))]
+        if exclude:
+            df = df[~df["Elements"].apply(lambda x: contains_elements(x, exclude))]
+
+        if save_filtered_db:
+            self.databases[stage] = df
+            self.save_database[stage]
+            logger.info(f"Saved filtered database in stage {stage}.")
 
         return df
 
     def __repr__(self) -> str:
         """
         Text representation of the GNoMEDatabase instance.
-        Used for print() and str() calls.
+        Used for `print()` and `str()` calls.
 
         Returns:
             str: ASCII table representation of the database

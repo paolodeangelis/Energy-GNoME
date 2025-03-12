@@ -295,7 +295,7 @@ class MPDatabase(BaseDatabase):
     def __repr__(self) -> str:
         """
         Text representation of the MPDatabase instance.
-        Used for print() and str() calls.
+        Used for `print()` and `str()` calls.
 
         Returns:
             str: ASCII table representation of the database
