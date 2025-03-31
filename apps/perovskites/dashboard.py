@@ -45,8 +45,8 @@ MODEL_TYPE = ["Pure Models", "Mixed Models"]
 MODEL_ACTIVE = ["Pure Models"]
 CATEGORY = "Model type"
 CATEGORY_ACTIVE = MODEL_ACTIVE
-ANGSTROM_SYMBOL = "\u212B"
-CUBE_SYMBOL = "\u00B3"
+ANGSTROM_SYMBOL = "\u212b"
+CUBE_SYMBOL = "\u00b3"
 COLUMNS = [
     "Material Id",
     "Composition",
