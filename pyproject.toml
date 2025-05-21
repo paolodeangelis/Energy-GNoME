@@ -73,7 +73,7 @@ match = ["*"]
 default-tag = "1.0.0"
 
 [tool.black]
-line-length = 99
+line-length = 120
 target-version = ['py310']
 include = '\.pyi?$'
 exclude = '''
