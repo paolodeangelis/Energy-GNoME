@@ -3,7 +3,6 @@
 ::: energy_gnome.models
     options:
       docstring_options:
-        docstring_style: google
         ignore_init_summary: true
         trim_doctest_flags: false
 

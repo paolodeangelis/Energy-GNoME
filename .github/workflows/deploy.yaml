@@ -50,7 +50,7 @@ jobs:
         run: |
           python docs/scripts/database_cardinality.py 
 
-      - name: Write Matieals viewer pages
+      - name: Write Materials viewer pages
         run: |
           python docs/scripts/onthefly_mat_vis.py
       
