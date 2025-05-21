@@ -1,1 +1,1 @@
-from .readers import read_yaml  # noqa: F401
+from .readers import load_yaml  # noqa: F401

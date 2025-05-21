@@ -9,10 +9,15 @@ Along with the database, we plan to release the full Python library to ensure co
         - [X] Cathodes
         - [X] Perovskites
         - [ ] Thermoelectrics
+        - [X] Materials Project
+        - [X] GNoME
     - [ ] Model handlers Objects
         - [ ] E(3)NN
+            - [ ] AI-Experts
+            - [X] Regressors
         - [ ] GBDT
-        - [ ] AI-Experts
+            - [X] AI-Experts
+            - [ ] Regressors
     - [ ] CLI `e-gnome`
     - [ ] `Makefile`
 - [ ] `jupyter` notebooks tutorials

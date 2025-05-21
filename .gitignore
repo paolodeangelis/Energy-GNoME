@@ -350,16 +350,29 @@ test.gro
 test_file.xyz
 build_wheel
 energy_gnome/config.yaml
+config.yaml
 .temp*
 _temp*
 energy_gnome*.whl
 
 
 # Database
-data/raw/cathodes/*/*/charge
-data/raw/cathodes/*/*/discharge
-data/raw/cathodes/*
-docs/assets/partial/dp_cardinality.md
+data/raw/*
+data/processed/*
+data/interim/*
+data/screening_interim/*
+data/external/*
+data/final/*
+
+# Models
+models/*
 
 # Docs
 docs/materials
+
+# Figures
+reports/figures/*
+
+perovskites.ipynb*
+energy_gnome/models/e3nn/backup.*
+energy_gnome/models/gbdt/regressor*
