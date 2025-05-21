@@ -52,7 +52,7 @@ jobs:
 
       - name: Write Matieals viewer pages
         run: |
-          python docs\scripts\onthefly_mat_vis.py
+          python docs/scripts/onthefly_mat_vis.py
       
       - name: Build MkDocs
         run: mkdocs build -v
