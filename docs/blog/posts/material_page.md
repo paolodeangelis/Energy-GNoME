@@ -74,11 +74,11 @@ We believe these material-specific pages will:
 
 !!! example
 
-    - Possible Na cathode material [Fe~5~Na~4~O~22~P~6~](../../materials/35ca0bcad2.md)
-    - Possible multivalent (Li-Na) cathode material [LiNaS~12~V~6~](../../materials/092187976b.md)
-    - Possible perovskite material [Ba~3~Bi~2~LaO~9~](../../materials/4ed36f8003.md)
-    - Possible thermoelectric material [Bi~3~Sb~13~Te~3~](../../materials/ac2022f2d0.md)
-    - Possible Mg cathode and perovskite material [CoMgNd~2~O~6~](../../materials/bd64810b56.md)
+    - Possible Na cathode material [Fe~5~Na~4~O~22~P~6~](../../../../../materials/?id=35ca0bcad2)
+    - Possible multivalent (Li-Na) cathode material [LiNaS~12~V~6~](../../../../../materials/?id=092187976b)
+    - Possible perovskite material [Ba~3~Bi~2~LaO~9~](../../../../../materials/?id=4ed36f8003)
+    - Possible thermoelectric material [Bi~3~Sb~13~Te~3~](../../../../../materials/?id=ac2022f2d0)
+    - Possible Mg cathode and perovskite material [CoMgNd~2~O~6~](../../../../../materials/?id=bd64810b56)
 
 <div style="text-align: right; margin-top: 20px;" markdown>
 *Discover. Predict. Energize.*<br>

@@ -105,10 +105,10 @@ TABLE_FORMATTER = {
     #     template=r'<code><a href="https://github.com/paolodeangelis/Energy-GNoME/blob/main/<%= _folder_path %>/<%= value %>.CIF?download=1" download="<%= value %>.CIF" rel="noopener noreferrer" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.CIF </a></code>' # noqa:W505
     # )
     "File": HTMLTemplateFormatter(
-        template=r'<code><a href="https://paolodeangelis.github.io/Energy-GNoME/materials/<%= value %>" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.CIF </a></code>'
+        template=r'<code><a href="https://paolodeangelis.github.io/Energy-GNoME/materials/?id=<%= value %>" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %>.CIF </a></code>'
     ),
     "Material Id": HTMLTemplateFormatter(
-        template=r'<code><a href="https://paolodeangelis.github.io/Energy-GNoME/materials/<%= value %>" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %> </a></code>'
+        template=r'<code><a href="https://paolodeangelis.github.io/Energy-GNoME/materials/?id=<%= value %>" target="_blank"> <i class="fas fa-external-link-alt"></i> <%= value %> </a></code>'
     ),
 }
 ABOUT_W = 600

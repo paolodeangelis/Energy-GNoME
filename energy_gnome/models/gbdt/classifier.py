@@ -38,7 +38,7 @@ class GBDTClassifier(BaseClassifier):
         """
         Initialize the GBDTClassifier with directories for storing models and figures.
 
-        This class extends `BaseRegressor` to implement a gradient boosted decision tree (GBDT)
+        This class extends `BaseClassifier` to implement a gradient boosted decision tree (GBDT)
         for classification tasks. It sets up the necessary directory structure and configurations
         for training models.
 
