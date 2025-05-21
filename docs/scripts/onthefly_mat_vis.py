@@ -195,7 +195,7 @@ def add_cathode_properties(data, wion):
         )
     else:
         foot = ""
-    
+
     return properties_dict, note
 
 def add_perovskites_properties(data, model):
@@ -249,7 +249,7 @@ def add_thermoelectric_properties(data, wT):
         note = f"[^t{wT}]: " + note.replace("R²", r"R<sup>2</sup>")
     else:
         foot = ""
-    
+
     return properties_dict, note
 
 def make_cathode_info(wion, ai_experts_m, ai_experts_dev):
@@ -258,7 +258,7 @@ def make_cathode_info(wion, ai_experts_m, ai_experts_dev):
         "text": rf"""
     <div class="admonition info"><p class="admonition-title"> Possible {wion}-cathode</p><p>
         The material was identified by <a href="../../about_db/"><abbr title="Artificial Intelligence">AI</abbr> experts</a>
-        as a potential cathode material for {wion}-ion batteries, 
+        as a potential cathode material for {wion}-ion batteries,
         with a probability of {ai_experts_m*100.0:.2f} &#xb1; {ai_experts_dev*100.0:.2f} %.
         <sup id="fnref2:val"><a class="footnote-ref" href="#fn:val">1</a></sup></p></div>
     """
@@ -306,7 +306,7 @@ def make_thermoelectric_info(ai_experts_m_dict, ai_experts_dev_dict):
         info["text"] += ", ".join(info_[:-1])
         info["text"] = info["text"] + f" and {info_[-1]}."
         info["text"] += rf"""<sup id="fnref2:val"><a class="footnote-ref" href="#fn:val">1</a></sup></p></div>"""
-    
+
     return info
 
 def main():
@@ -412,7 +412,7 @@ def main():
                 # If the material already has cathodes predictions, append new models
                 if "cathode" in materials_data[m_id]["predicted_properties"]:
                     existing_props = materials_data[m_id]["predicted_properties"]["cathode"]["properties"]
-                    
+
                     for prop, values in property_dict.items():
                         if prop in existing_props:
                             existing_props[prop]["Value[^val]"].extend(values["Value[^val]"])
@@ -432,7 +432,7 @@ def main():
 
                 # Check if the category is already present
                 existing_categories = {info["category"] for info in materials_data[m_id]["infos"]}
-                
+
                 cathode_info = make_cathode_info(wion, ai_experts_m, ai_experts_dev)
                 if cathode_info["category"] not in existing_categories:
                     materials_data[m_id]["infos"].append(cathode_info)
@@ -453,7 +453,7 @@ def main():
                 # If the material already has perovskite predictions, append new models
                 if "perovskite" in materials_data[m_id]["predicted_properties"]:
                     existing_props = materials_data[m_id]["predicted_properties"]["perovskite"]["properties"]
-                    
+
                     for prop, values in property_dict.items():
                         if prop in existing_props:
                             existing_props[prop]["Value[^val]"].extend(values["Value[^val]"])
@@ -470,10 +470,10 @@ def main():
                 # Ensure infos are stored properly under the category
                 if "infos" not in materials_data[m_id]:
                     materials_data[m_id]["infos"] = []
-                
+
                 # Check if the category is already present
                 existing_categories = {info["category"] for info in materials_data[m_id]["infos"]}
-                
+
                 perov_info = make_perovskite_info(ai_experts_m_perv, ai_experts_dev_perv)
                 if perov_info["category"] not in existing_categories:
                     materials_data[m_id]["infos"].append(perov_info)
@@ -493,7 +493,7 @@ def main():
                 # If the material already has thermoelectric predictions, append new models
                 if "thermoelectric" in materials_data[m_id]["predicted_properties"]:
                     existing_props = materials_data[m_id]["predicted_properties"]["thermoelectric"]["properties"]
-                    
+
                     for prop, values in property_dict.items():
                         if prop in existing_props:
                             existing_props[prop]["Value[^val]"].extend(values["Value[^val]"])
@@ -510,7 +510,7 @@ def main():
                 # Ensure infos are stored properly under the category
                 if "infos" not in materials_data[m_id]:
                     materials_data[m_id]["infos"] = []
-                
+
                 thermo_info = make_thermoelectric_info(ai_experts_m_thermo, ai_experts_dev_thermo)
                 materials_data[m_id]["infos"] = [thermo_info]
 
@@ -518,7 +518,7 @@ def main():
                     key: value for key, value in sorted(
                         materials_data[m_id]["predicted_properties"]["thermoelectric"]["properties"].items())}
 
-                
+
     # 4) Write out the single JSON file
     output_dir = root_dir / "docs" / "materials"
     output_dir.mkdir(parents=True, exist_ok=True)
