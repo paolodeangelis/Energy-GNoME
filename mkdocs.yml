@@ -197,17 +197,17 @@ plugins:
   #       color: "#44cee0"
   # - glightbox
   # - git-authors
-  # - git-revision-date-localized:
-  #     type: timeago
-  #     timezone: Europe/Rome
-  #     locale: en
-  #     fallback_to_build_date: false
-  #     enable_creation_date: true
-  # - git-committers:
-  #     enabled: true
-  #     repository: paolodeangelis/Energy-GNoME
-  #     branch: main
-  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Rome
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
+  - git-committers:
+      enabled: true
+      repository: paolodeangelis/Energy-GNoME
+      branch: main
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - minify:
       minify_html: true
   - mkdocstrings:
