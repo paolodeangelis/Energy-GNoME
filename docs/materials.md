@@ -14,14 +14,14 @@ hide:
 <html lang="en">
 <!-- <head> -->
   <!-- <meta charset="UTF-8">
-  <title>Material Viewer</title> --> 
+  <title>Material Viewer</title> -->
   <!-- Include jQuery, 3Dmol.js in your MkDocs build (e.g., via extra_javascript in mkdocs.yml) -->
   <!-- Or you can load them here if hosting the scripts locally. -->
   <!--
     <script src="path/to/jquery.min.js"></script>
     <script src="path/to/3Dmol-min.js"></script>
   -->
-  
+
   <script>
     let viewer;
     let labelsVisible = false;
@@ -416,7 +416,7 @@ if (matData.predicted_properties) {
 
     window.onload = loadMaterial;
   </script>
- 
+
  <style>
 /* Turn the <ul> into a flex container */
   .flex-wrapper {
@@ -576,7 +576,7 @@ if (matData.predicted_properties) {
   <!-- <li class="table-li", list-style= None> -->
   <div id="predicted-properties" class="grid cards" style="margin: 0 auto;">
       <!-- This will be dynamically populated -->
-  </div> 
+  </div>
 
   <div class="footnote">
     <hr>
