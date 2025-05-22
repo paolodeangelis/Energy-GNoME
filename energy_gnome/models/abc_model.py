@@ -8,13 +8,11 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 
 from loguru import logger
-import pandas as pd
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor
 import torch
 from tqdm import tqdm
 
 from energy_gnome.config import FIGURES_DIR, MODELS_DIR
-from energy_gnome.dataset import GNoMEDatabase
 
 DEFAULT_DTYPE = torch.float64
 BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
@@ -62,20 +60,14 @@ class BaseRegressor(ABC):
         self.figures_dir = Path(figures_dir, model_name) / "regressors"
         self.figures_dir.mkdir(parents=True, exist_ok=True)
 
-        self.models: dict[str, torch.nn.Module] = (
-            {}
-        )  # this will change with the addition of GBDT regressors
-        self.device: str | None = None
+        self.models: dict[str, torch.nn.Module | GradientBoostingRegressor] = {}
 
         self.n_committers: int = 1
-        self.batch_size: int = 1
 
         models_weights = self._find_model_states()
         if len(models_weights) > 0:
             n_model = len(models_weights)
-            logger.warning(
-                f"The folder {self.models_dir} already contains {n_model} trained models."
-            )
+            logger.warning(f"The folder {self.models_dir} already contains {n_model} trained models.")
             logger.warning(
                 "Be careful, all changes (e.g. changing the inputs to methods as 'compile' and 'fit') will conflict with existing models!"
             )
@@ -94,7 +86,7 @@ class BaseRegressor(ABC):
         pass
 
     @abstractmethod
-    def compile_(self):
+    def compile(self):  # noqa:A003
         pass
 
     @abstractmethod
@@ -115,9 +107,7 @@ class BaseRegressor(ABC):
 
 
 class BaseClassifier(ABC):
-    def __init__(
-        self, model_name: str, models_dir: Path = MODELS_DIR, figures_dir: Path | str = FIGURES_DIR
-    ):
+    def __init__(self, model_name: str, models_dir: Path = MODELS_DIR, figures_dir: Path | str = FIGURES_DIR):
         """
         Initialize the BaseClassifier with directories for storing models and figures.
 
@@ -152,9 +142,7 @@ class BaseClassifier(ABC):
         models_weights = self._find_model_states()
         if len(models_weights) > 0:
             n_model = len(models_weights)
-            logger.warning(
-                f"The folder {self.models_dir} already contains {n_model} trained models."
-            )
+            logger.warning(f"The folder {self.models_dir} already contains {n_model} trained models.")
             logger.warning(
                 "Be careful, all changes (e.g. changing the inputs to methods as 'compile' and 'fit') will conflict with existing models!"
             )

@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from pymatgen.core import Composition, Structure
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.feature_selection import RFE
-from sklearn.metrics import auc, precision_recall_curve, roc_curve
-from sklearn.model_selection import GridSearchCV, StratifiedKFold
+from sklearn.metrics import r2_score
+from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from tqdm.auto import tqdm
@@ -19,7 +19,7 @@ from tqdm.auto import tqdm
 from energy_gnome.config import DEFAULT_GBDT_SETTINGS, FIGURES_DIR, MODELS_DIR
 from energy_gnome.dataset.base_dataset import BaseDatabase
 from energy_gnome.dataset.gnome import GNoMEDatabase
-from energy_gnome.models.abc_model import BaseClassifier
+from energy_gnome.models.abc_model import BaseRegressor
 from energy_gnome.utils.readers import load_yaml, save_yaml
 
 from .utils import featurizing_structure_pipeline
@@ -28,22 +28,24 @@ BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
 tqdm.pandas(bar_format=BAR_FORMAT)
 
 
-class GBDTClassifier(BaseClassifier):
+class GBDTRegressor(BaseRegressor):
     def __init__(
         self,
         model_name: str,
+        target_property: str,
         models_dir: Path | str = MODELS_DIR,
         figures_dir: Path | str = FIGURES_DIR,
     ):
         """
-        Initialize the GBDTClassifier with directories for storing models and figures.
+        Initialize the GBDTRegressor with directories for storing models and figures.
 
-        This class extends `BaseClassifier` to implement a gradient boosted decision tree (GBDT)
-        for classification tasks. It sets up the necessary directory structure and configurations
+        This class extends `BaseRegressor` to implement a gradient boosted decision tree (GBDT)
+        for regression tasks. It sets up the necessary directory structure and configurations
         for training models.
 
         Args:
             model_name (str): Name of the model, used to create subdirectories.
+            target_property (str): The target property the model is trained to predict.
             models_dir (Path | str, optional): Directory for storing trained model weights.
                                             Defaults to MODELS_DIR from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
@@ -52,8 +54,10 @@ class GBDTClassifier(BaseClassifier):
         Attributes:
             _model_spec (str): Specification string used for model identification.
         """
-        self._model_spec = "model.gbdt_classifier"
-        super().__init__(model_name=model_name, models_dir=models_dir, figures_dir=figures_dir)
+        self._model_spec = "model.gbdt_regressor." + target_property
+        super().__init__(
+            model_name=model_name, target_property=target_property, models_dir=models_dir, figures_dir=figures_dir
+        )
 
     def _find_model_states(self):
         models_states = []
@@ -185,8 +189,7 @@ class GBDTClassifier(BaseClassifier):
             mute_warnings (bool, optional): Whether to suppress warnings during featurization (default is True).
 
         Returns:
-            (pd.DataFrame): A DataFrame containing the featurized data, including numerical features
-                            and a column for `is_specialized`.
+            (pd.DataFrame): A DataFrame containing the featurized data.
 
         Warnings:
             If `mute_warnings` is set to False, third-party warnings related to the featurization
@@ -195,8 +198,7 @@ class GBDTClassifier(BaseClassifier):
         Notes:
             - If the database contains a `Reduced Formula` or `formula_pretty` column, compositions are
               parsed accordingly.
-            - The resulting DataFrame retains only numerical features, removes NaN rows, and includes an
-              `is_specialized` column.
+            - The resulting DataFrame retains only numerical features, and removes NaN rows.
             - The method supports batch processing using `tqdm` for progress visualization during featurization.
         """
 
@@ -211,7 +213,7 @@ class GBDTClassifier(BaseClassifier):
             dataset = databases[0].get_database("raw")
         else:
             # Load all database subsets efficiently
-            dataset = pd.concat([db.load_classifier_data(subset) for db in databases], ignore_index=True)
+            dataset = pd.concat([db.load_regressor_data(subset) for db in databases], ignore_index=True)
 
         if dataset.empty:
             logger.warning("No data loaded for featurization.")
@@ -229,7 +231,7 @@ class GBDTClassifier(BaseClassifier):
                 dataset["composition"] = dataset["formula_pretty"].progress_apply(Composition)
             dataset["structure"] = dataset["cif_path"].progress_apply(lambda x: Structure.from_file(x))
             dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
-            dataset["is_specialized"] = dataset["is_specialized"].astype(float)
+            dataset[self.target_property] = dataset[self.target_property].astype(float)
 
             # Run the featurization pipeline
             if isinstance(databases[0], GNoMEDatabase):
@@ -239,7 +241,7 @@ class GBDTClassifier(BaseClassifier):
 
             # Retain only numerical features
             db_feature = db_feature.select_dtypes(exclude=["object", "bool"])
-            db_feature["is_specialized"] = dataset.set_index("formula")["is_specialized"]
+            db_feature[self.target_property] = dataset.set_index("formula")[self.target_property]
             db_feature.dropna(inplace=True)  # Remove NaN rows
 
             # Adjust max_dof if needed
@@ -247,71 +249,66 @@ class GBDTClassifier(BaseClassifier):
                 n_items, n_features = db_feature.shape
                 self.max_dof = min(n_items // 10, n_features - 1)
 
-        if not isinstance(databases[0], GNoMEDatabase):
-            # Log class distribution
-            specialized_counts = db_feature["is_specialized"].value_counts()
-            logger.debug(f"Number of specialized examples: {specialized_counts.get(1.0, 0)}")
-            logger.debug(f"Number of non-specialized examples: {specialized_counts.get(0.0, 0)}")
-
         return db_feature
 
-    def _build_classifier(self, n_jobs: int = 1, max_dof: int = None):
+    def _build_regressor(self, n_jobs: int = 1, max_dof: int = None, scoring: str = "neg_root_mean_squared_error"):
         """
-        Builds a Gradient Boosting Classifier pipeline with feature selection.
+        Builds a Gradient Boosting Regressor pipeline with feature selection.
 
-        This method constructs a classification pipeline that includes:
+        This method constructs a regression pipeline that includes:
         1. Standard scaling of features.
-        2. Feature selection using Recursive Feature Elimination (RFE) with a Gradient Boosting Classifier
+        2. Feature selection using Recursive Feature Elimination (RFE) with a Gradient Boosting Regressor
            as the estimator.
-        3. A Gradient Boosting Classifier as the final model for classification.
+        3. A Gradient Boosting Regressor as the final model for regression.
 
         It performs a grid search to tune hyperparameters for the number of estimators and the number of
         features to select.
-        The search uses Stratified K-Folds cross-validation and evaluates performance using the ROC-AUC score.
+        The search uses Stratified K-Folds cross-validation and evaluates performance using the RMSE score.
 
         Args:
             n_jobs (int, optional): The number of CPU cores to use for parallel processing during the grid search.
                                     Default is 1.
             max_dof (int, optional): The maximum degrees of freedom for feature selection. If provided,
                                      it will control the number of features to select.
+            scoring (str, optional): The strategy to evaluate the performance of the cross-validated model on
+                                     the validation set.
 
         Returns:
-            (GridSearchCV): A GridSearchCV object that encapsulates the classifier pipeline and hyperparameter
+            (GridSearchCV): A GridSearchCV object that encapsulates the regressor pipeline and hyperparameter
                             tuning process.
 
         Notes:
-            - The `n_estimators` in the classifier will be searched over the values [50, 100, 250, 500].
+            - The `n_estimators` in the regressor will be searched over the values [50, 100, 250, 500].
             - The number of features to select for RFE is determined by the `max_dof` argument,
               with values [int(max_dof * 0.5), int(max_dof * 1)].
             - Stratified K-Folds cross-validation is used with 4 splits, shuffling enabled, and a fixed random seed (0).
-            - ROC-AUC score is used for model evaluation.
+            - R2 score is used for model evaluation.
         """
         pipe = Pipeline(
             [
                 ("scaler", StandardScaler()),
-                ("feature_selector", RFE(estimator=GradientBoostingClassifier(), step=25)),
-                ("classifier", GradientBoostingClassifier()),
+                ("feature_selector", RFE(estimator=GradientBoostingRegressor(), step=25)),
+                ("regressor", GradientBoostingRegressor()),
             ],
         )
         param_grid = {
-            "classifier__n_estimators": [50, 100, 250, 500],
+            "regressor__n_estimators": [50, 100, 250, 500],
             "feature_selector__n_features_to_select": [int(max_dof * 0.5), int(max_dof * 1)],
         }
 
-        stratified_kfold = StratifiedKFold(n_splits=4, shuffle=True, random_state=0)
-        search = GridSearchCV(pipe, param_grid, n_jobs=n_jobs, verbose=2, cv=stratified_kfold, scoring="roc_auc")
+        stratified_kfold = KFold(
+            n_splits=4, shuffle=True, random_state=0
+        )  # o teniamo il KFold così, oppure troviamo un workaround per stratificare
+        search = GridSearchCV(pipe, param_grid, n_jobs=n_jobs, verbose=2, cv=stratified_kfold, scoring=scoring)
 
         return search
 
-    def compile(  # noqa:A003
-        self,
-        n_jobs: int = 1,
-    ):
+    def compile(self, n_jobs: int = 1, scoring: str = "neg_root_mean_squared_error"):  # noqa:A003
         """
-        Initializes the classifier pipeline and sets up the hyperparameter search.
+        Initializes the regressor pipeline and sets up the hyperparameter search.
 
-        This method calls the `_build_classifier` method to construct a Gradient Boosting Classifier pipeline,
-        including feature scaling, feature selection via Recursive Feature Elimination (RFE), and classification.
+        This method calls the `_build_regressor` method to construct a Gradient Boosting Regressor pipeline,
+        including feature scaling, feature selection via Recursive Feature Elimination (RFE), and regression.
         It then stores the resulting `GridSearchCV` object in the `self.search` attribute.
 
         Args:
@@ -323,15 +320,15 @@ class GBDTClassifier(BaseClassifier):
 
         Notes:
             This method does not return any value but sets the `self.search` attribute with the initialized
-            `GridSearchCV` object, which contains the classifier pipeline and hyperparameter tuning setup.
+            `GridSearchCV` object, which contains the regressor pipeline and hyperparameter tuning setup.
         """
 
-        logger.info("Build classifiers")
-        self.search = self._build_classifier(n_jobs=n_jobs, max_dof=self.max_dof)
+        logger.info("Build regressors")
+        self.search = self._build_regressor(n_jobs=n_jobs, max_dof=self.max_dof, scoring=scoring)
 
     def fit(self, df: pd.DataFrame):
         """
-        Train and save multiple models using a `GridSearchCV` classifier.
+        Train and save multiple models using a `GridSearchCV` regressor.
 
         This method iterates through the specified number of committers (`n_committers`) and performs the following:
         1. Trains a model for each committer using the `GridSearchCV` pipeline (`self.search`) with the given
@@ -388,8 +385,6 @@ class GBDTClassifier(BaseClassifier):
 
         Notes:
             - The target property in `df` must match `self.target_property`.
-            - Each model's predictions are generated using the `predict_proba` method, which is expected to
-              return probabilities.
             - The method assumes the target property is in the last column of the input `df` and features are in all
               other columns.
         """
@@ -399,119 +394,138 @@ class GBDTClassifier(BaseClassifier):
 
             for i in tqdm(range(self.n_committers), desc="models"):
                 predictions[f"model_{i}"] = np.empty((len(df), 1)).tolist()
-                predictions[f"model_{i}"] = self.models[f"model_{i}"].predict_proba(df.iloc[:, :-1])[:, 1]
+                predictions[f"model_{i}"] = self.models[f"model_{i}"].predict(df.iloc[:, :-1])[:]
 
         else:
             predictions = {}
             for i in tqdm(range(self.n_committers), desc="models"):
                 predictions[f"model_{i}"] = pd.DataFrame()
                 predictions[f"model_{i}"]["true_value"] = df[self.target_property]
-                predictions[f"model_{i}"]["prediction"] = self.models[f"model_{i}"].predict_proba(df.iloc[:, :-1])[:, 1]
+                predictions[f"model_{i}"]["prediction"] = self.models[f"model_{i}"].predict(df.iloc[:, :-1])[:]
 
         return predictions
 
-    def plot_performance(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
+    def plot_parity(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
         """
-        Plot model performance evaluation curves: ROC, Precision, and Recall.
+        Plot a parity plot for model predictions and their comparison with true values.
 
-        This method generates a multi-panel plot that visualizes the performance of different models on
-        classification tasks. It includes:
-        - ROC curve with AUC (Area Under the Curve)
-        - Precision-Recall curve
-        - Recall-Threshold curve
-
-        The method also supports an optional ensemble model performance evaluation by averaging
-        individual model predictions.
+        This method generates a scatter plot where the x-axis represents the true values,
+        and the y-axis represents the predicted values from one or more models. It also
+        includes a reference line (1:1 line) and error histograms as insets to visualize
+        the prediction error distribution. Additionally, it calculates and annotates the R²
+        value for each model's predictions and optionally for the ensemble average of all models.
 
         Args:
-            predictions_dict (dict[str, pd.DataFrame]): A dictionary where keys are model names and values are
-                                                        DataFrames containing the `true_value` and `prediction` columns.
-                                                        Each model's predictions will be plotted.
-            include_ensemble (bool, optional): If `True`, the ensemble model performance will also be plotted, which is
-                                            based on averaging the predictions of all models. Defaults to `True`.
-
-        Returns:
-            None: The method generates and saves the performance plots as PNG and PDF files.
-
-        Notes:
-            - The method assumes that the `predictions_dict` contains the model predictions (in the `prediction` column)
-            and the true labels (in the `true_value` column).
-            - The ROC curve is evaluated using the `roc_curve` function, while the Precision and Recall curves are
-            generated using `precision_recall_curve`.
-            - The final figure is saved in both PNG and PDF formats in the directory defined by `self.figures_dir`.
+            predictions_dict (dict): A dictionary where keys are model names (e.g., 'model_1', 'model_2')
+                and values are pandas DataFrames containing the `true_value` and `prediction` columns.
+            include_ensemble (bool): If `True`, an ensemble prediction (mean of all model predictions)
+                is included in the plot. Default is `True`.
         """
-
         all_predictions = []
-        colors = plt.cm.tab10.colors
+        fig, ax = plt.subplots(figsize=(5, 3), dpi=300)
 
-        # Create a single figure and a grid layout
-        fig = plt.figure(figsize=(7, 2), dpi=150)
-        grid = fig.add_gridspec(1, 3, wspace=0.5, hspace=0.07)
-        ax = [fig.add_subplot(grid[j]) for j in range(3)]
+        colors = plt.cm.tab10.colors  # Get distinct colors for different models
 
-        for i, (model, data) in enumerate(predictions_dict.items()):
-            y_true = data["true_value"].values  # Ensure correct format
-            y_predictions = data["prediction"].values
+        for i, (model, df) in enumerate(predictions_dict.items()):
+            y_true = df["true_value"]
+            y_predictions = df["prediction"]
 
             if include_ensemble:
                 all_predictions.append(y_predictions)
 
-            fpr, tpr, _ = roc_curve(y_true, y_predictions)
-            precision, recall, thresholds = precision_recall_curve(y_true, y_predictions)
+            error = np.abs(y_predictions - y_true)
+            r2 = r2_score(y_true, y_predictions)
 
-            # Use colors from plt.cm.tab10
-            color = colors[i % len(colors)]
+            # Scatter plot with unique color
+            ax.scatter(
+                y_true,
+                y_predictions,
+                s=6,
+                alpha=0.6,
+                color=colors[i % len(colors)],
+                label=model,
+                zorder=1,
+            )
 
-            ax[0].plot(fpr, tpr, label=f"{model} (AUC: {auc(fpr, tpr):.2f})", color=color)
-            ax[1].plot(thresholds, precision[:-1], label=f"{model}", color=color)
-            ax[2].plot(thresholds, recall[:-1], label=f"{model}", color=color)
+            # Reference line (1:1 line)
+            ax.axline((np.mean(y_true), np.mean(y_true)), slope=1, lw=0.85, ls="--", color="k", zorder=2)
 
-        # If ensemble is enabled, add an extra curve
-        if include_ensemble and all_predictions:
-            y_ensemble = np.mean(np.column_stack(all_predictions), axis=1)
-            fpr, tpr, _ = roc_curve(y_true, y_ensemble)
-            precision, recall, thresholds = precision_recall_curve(y_true, y_ensemble)
+            # Add inset histogram
+            if i == 0:  # Create inset only once
+                axin = ax.inset_axes([0.65, 0.17, 0.3, 0.3])
+            axin.hist(error, bins=int(np.sqrt(len(error))), alpha=0.6, color=colors[i % len(colors)])
+            axin.hist(error, bins=int(np.sqrt(len(error))), histtype="step", lw=1, color="black")
 
-            ax[0].plot(fpr, tpr, label="Ensemble", color="black", linestyle="--")
-            ax[1].plot(thresholds, precision[:-1], label="Ensemble", color="black", linestyle="--")
-            ax[2].plot(thresholds, recall[:-1], label="Ensemble", color="black", linestyle="--")
+            # Annotate R² values dynamically
+            ax.annotate(
+                f"$R^2={r2:1.2f}$",
+                xy=(0.05, 0.96 - (i * 0.07)),  # Adjust position dynamically
+                xycoords="axes fraction",
+                va="top",
+                ha="left",
+                fontsize=8,
+                color=colors[i % len(colors)],
+            )
 
-        # Add diagonal reference line in ROC curve
-        ax[0].axline([0.5, 0.5], slope=1, lw=0.85, ls="--", color="k", zorder=2)
-        ax[0].set_xlabel("FPR")
-        ax[0].set_ylabel("TPR")
-        ax[0].set_title("ROC Curve")
-        ax[0].set_aspect("equal")
+        # Add ensemble prediction plot (if required)
+        if include_ensemble:
+            ensemble_predictions = np.mean(all_predictions, axis=0)
+            ensemble_r2 = r2_score(y_true, ensemble_predictions)
 
-        ax[1].set_xlabel("Threshold")
-        ax[1].set_ylabel("Precision")
-        ax[1].set_title("Precision Curve")
-        ax[1].set_ylim([-0.05, 1.05])
+            # Scatter plot for ensemble prediction
+            ax.scatter(
+                y_true,
+                ensemble_predictions,
+                s=6,
+                alpha=0.6,
+                color=colors[len(predictions_dict) % len(colors)],
+                label="Ensemble",
+                zorder=3,
+            )
 
-        ax[2].set_xlabel("Threshold")
-        ax[2].set_ylabel("Recall")
-        ax[2].set_title("Recall Curve")
-        ax[2].set_ylim([-0.05, 1.05])
+            # Annotate R² value for ensemble
+            ax.annotate(
+                f"Ensemble $R^2={ensemble_r2:1.2f}$",
+                xy=(0.05, 0.96 - (len(predictions_dict) * 0.07)),  # Adjusted position for ensemble
+                xycoords="axes fraction",
+                va="top",
+                ha="left",
+                fontsize=8,
+                color=colors[len(predictions_dict) % len(colors)],
+            )
+
+        # Set labels
+        ax.set_xlabel("True value")
+        ax.set_ylabel("Predicted value")
+
+        # Set axis limits to ensure a square parity plot
+        xlim = ax.get_xlim()
+        ylim = ax.get_ylim()
+        min_ = min(min(xlim), min(ylim))
+        max_ = max(max(xlim), max(ylim))
+        ax.set_xlim(min_, max_)
+        ax.set_ylim(min_, max_)
 
         # Move legend outside the plot
-        ax[2].legend(loc="upper left", bbox_to_anchor=(1.05, 1), fontsize=8, borderaxespad=0.0)
+        ax.legend(loc="upper left", bbox_to_anchor=(1.05, 1), fontsize=8, borderaxespad=0.0)
 
-        fig.suptitle("Model Performance")
-        fig.subplots_adjust(top=0.8, right=0.75)  # Adjust right margin for legend space
+        # Add title
+        fig.suptitle("Parity Plot", fontsize=10)
 
-        # Save figure
-        fig.savefig(self.figures_dir / (self._model_spec + ".png"), dpi=330, bbox_inches="tight")
-        fig.savefig(self.figures_dir / (self._model_spec + ".pdf"), dpi=330, bbox_inches="tight")
+        # Save figures
+        fig.savefig(self.figures_dir / (self._model_spec + "_parity.png"), dpi=330, bbox_inches="tight")
+        fig.savefig(self.figures_dir / (self._model_spec + "_parity.pdf"), dpi=330, bbox_inches="tight")
 
+        # Show plot
         plt.show()
 
     def _evaluate_unknown(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        Evaluate and predict the target property using a committee of classifiers.
+        Evaluate and predict the target property using a committee of regressors.
 
-        This method takes a DataFrame of input features, applies a set of pre-trained classifiers
-        (stored in `self.models`), and generates probability predictions for each classifier in the committee.
-        It then computes the mean and standard deviation of the classifier predictions to provide an
+        This method takes a DataFrame of input features, applies a set of pre-trained regressors
+        (stored in `self.models`), and generates probability predictions for each regressor in the committee.
+        It then computes the mean and standard deviation of the regressor predictions to provide an
         overall prediction and uncertainty.
 
         Args:
@@ -520,64 +534,60 @@ class GBDTClassifier(BaseClassifier):
 
         Returns:
             (pd.DataFrame): A DataFrame containing:
-                - The predicted probability from each classifier in the committee (labeled as `classifier_{i}`).
-                - The mean of all classifier predictions (`classifier_mean`).
-                - The standard deviation of the classifier predictions (`classifier_std`).
+                - The predicted probability from each regressor in the committee (labeled as `regressor_{i}`).
+                - The mean of all regressor predictions (`regressor_mean`).
+                - The standard deviation of the regressor predictions (`regressor_std`).
 
         Notes:
             - The input `df` should have one or more features for prediction, and the last column is ignored
               during prediction.
-            - The method assumes that the classifiers in `self.models` are capable of generating probability predictions
-            using the `predict_proba` method, and that the classifiers are indexed from `0` to `n_committers-1`.
-            - The `classifier_mean` column represents the average of all classifiers' probability predictions.
-            - The `classifier_std` column gives a measure of the variance (uncertainty) of the predictions across
-              the classifiers.
+            - The `regressor_mean` column represents the average of all regressors' probability predictions.
+            - The `regressor_std` column gives a measure of the variance (uncertainty) of the predictions across
+              the regressors.
         """
         predictions = pd.DataFrame(index=df.index)
 
         for i in tqdm(range(self.n_committers), desc="models"):
-            predictions[f"classifier_{i}"] = self.models[f"model_{i}"].predict_proba(df.iloc[:, :-1])[:, 1]
-        predictions["classifier_mean"] = predictions[[f"classifier_{i}" for i in range(self.n_committers)]].mean(axis=1)
-        predictions["classifier_std"] = predictions[[f"classifier_{i}" for i in range(self.n_committers)]].std(axis=1)
+            predictions[f"regressor_{i}"] = self.models[f"model_{i}"].predict(df.iloc[:, :-1])[:]
+        predictions["regressor_mean"] = predictions[[f"regressor_{i}" for i in range(self.n_committers)]].mean(axis=1)
+        predictions["regressor_std"] = predictions[[f"regressor_{i}" for i in range(self.n_committers)]].std(axis=1)
         return predictions
 
-    def screen(self, db: GNoMEDatabase, save_processed: bool = True) -> pd.DataFrame:
+    def predict(self, db: GNoMEDatabase, confidence_threshold: float = 0.5, save_final=True):
         """
-        Screen the database for specialized materials using classifier predictions.
-
-        This method performs the following steps:
-        1. Featurizes the database using `featurize_db`.
-        2. Evaluates the featurized data using a committee of classifiers to generate predictions.
-        3. Combines the predictions with the original database and removes rows with missing values
-           or unqualified materials.
-        4. Optionally saves the processed (screened) database for future use.
+        Predicts the target property for candidate specialized materials using regressor models,
+        after filtering materials based on regressor committee confidence.
 
         Args:
-            db (GNoMEDatabase): A `GNoMEDatabase` object containing the raw data to be screened.
-            save_processed (bool, optional): Whether to save the screened data to the database. Defaults to `True`.
+            db (GNoMEDatabase): The database containing the materials and their properties.
+            confidence_threshold (float, optional): The minimum regressor committee confidence
+                                                    required to keep a material for prediction.
+                                                    Defaults to `0.5`.
+            save_final (bool, optional): Whether to save the final database with predictions.
+                                        Defaults to `True`.
 
         Returns:
-            (pd.DataFrame): A DataFrame containing the original data combined with classifier predictions,
-                        excluding materials that have missing or unqualified values for screening.
+            (pd.DataFrame): A DataFrame containing the predictions, along with the true values and
+                        regressor committee confidence scores for the screened materials.
 
         Notes:
-            - The method assumes that `featurize_db` and `_evaluate_unknown` methods are defined and function correctly.
-            - The `classifier_mean` column in the returned DataFrame reflects the mean classifier prediction, which is
-              used to screen specialized materials.
-            - The `is_specialized` column is dropped from the screened DataFrame.
+            - The method filters the materials based on the regressor confidence, then uses the
+            regressor models to predict the target property for the remaining materials.
+            - If `save_final` is set to True, the predictions are saved to the database in the
+            `final` stage.
         """
-        logger.info("Featurizing the database...")
-        df_class = self.featurize_db(db)
-        logger.info("Screening the database for specialized materials.")
-        predictions = self._evaluate_unknown(df_class)
-        gnome_df = db.get_database("raw")
-        gnome_screened = pd.concat([gnome_df, predictions.reset_index(drop=True)], axis=1)
-        gnome_screened.drop(columns=["is_specialized"], inplace=True)
-        gnome_screened = gnome_screened[gnome_screened["classifier_mean"].notna()]
+        logger.info(f"Discarding materials with regressor committee confidence threshold < {confidence_threshold}.")
+        logger.info("Featurizing and loading database as `tg.loader.DataLoader`.")
+        dataloader_db, _ = self.create_dataloader(db, confidence_threshold)
+        logger.info("Predicting the target property for candidate specialized materials.")
+        predictions = self._evaluate_unknown(dataloader_db)
+        df = db.get_database("processed")
+        screened = df[df["regressor_mean"] > confidence_threshold]
+        predictions = pd.concat([screened.reset_index(), predictions], axis=1)
 
-        if save_processed:
-            logger.info("Saving the screened database.")
-            db.databases["processed"] = gnome_screened.copy()
-            db.save_database("processed")
+        if save_final:
+            logger.info("Saving the final database.")
+            db.databases["final"] = predictions.copy()
+            db.save_database("final")
 
-        return gnome_screened
+        return predictions

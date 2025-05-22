@@ -75,40 +75,19 @@ class BaseDatabase(ABC):
         self.interim_sets = ["training", "validation", "testing"]
 
         # Initialize directories, paths, and databases for each stage
-        self.database_directories = {
-            stage: self.data_dir / stage / self.name for stage in self.processing_stages
-        }
+        self.database_directories = {stage: self.data_dir / stage / self.name for stage in self.processing_stages}
         for stage_dir in self.database_directories.values():
             stage_dir.mkdir(parents=True, exist_ok=True)
 
         self.database_paths = {
-            stage: dir_path / "database.json"
-            for stage, dir_path in self.database_directories.items()
+            stage: dir_path / "database.json" for stage, dir_path in self.database_directories.items()
         }
 
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
         self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._update_raw = False
         self._is_specialized = False
-        self._set_is_specialized()
         self.load_all()
-
-    @abstractmethod
-    def _set_is_specialized(
-        self,
-    ):
-        """
-        Set the `is_specialized` attribute.
-
-        This method marks the database as specialized by setting the `is_specialized`
-        attribute to `True`. It is typically used to indicate that the database
-        is intended for a specific class of data, corresponding to specialized
-        energy materials.
-
-        Returns:
-            None
-        """
-        pass
 
     def allow_raw_update(self):
         """
@@ -265,15 +244,11 @@ class BaseDatabase(ABC):
                 )
             else:
                 if stage == "raw":
-                    logger.info(
-                        "Be careful you are changing the raw data which must be treated as immutable!"
-                    )
+                    logger.info("Be careful you are changing the raw data which must be treated as immutable!")
                 if old_db.empty:
                     logger.info(f"Saving new {stage} data in {self.database_paths[stage]}.")
                 else:
-                    logger.info(
-                        f"Updating the {stage} data and saving it in {self.database_paths[stage]}."
-                    )
+                    logger.info(f"Updating the {stage} data and saving it in {self.database_paths[stage]}.")
                     self.backup_and_changelog(
                         old_db,
                         new_db,
@@ -320,9 +295,7 @@ class BaseDatabase(ABC):
             - INFO: When CIF files are successfully copied and the database is updated.
         """
         if stage == "raw":
-            logger.error(
-                "Stage argument cannot be 'raw'. You can only copy from 'raw' to other stages."
-            )
+            logger.error("Stage argument cannot be 'raw'. You can only copy from 'raw' to other stages.")
             raise ValueError("Stage argument cannot be 'raw'.")
 
         source_dir = self.database_directories["raw"] / "structures"
@@ -334,16 +307,10 @@ class BaseDatabase(ABC):
             sh.rmtree(saving_dir)
 
         # Check if source directory exists and is not empty
-        cif_files = {
-            file.stem for file in source_dir.glob("*.cif")
-        }  # Set of existing CIF filenames
+        cif_files = {file.stem for file in source_dir.glob("*.cif")}  # Set of existing CIF filenames
         if not cif_files:
-            logger.warning(
-                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
-            )
-            raise MissingData(
-                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
-            )
+            logger.warning(f"The raw CIF directory does not exist or is empty. Check: {source_dir}")
+            raise MissingData(f"The raw CIF directory does not exist or is empty. Check: {source_dir}")
 
         # Create the target directory
         saving_dir.mkdir(parents=True, exist_ok=False)
@@ -411,9 +378,7 @@ class BaseDatabase(ABC):
             - WARNING: If the retrieved database is empty.
         """
         if stage not in self.processing_stages + ["interim"]:
-            logger.error(
-                f"Invalid stage: {stage}. Must be one of {self.processing_stages + ['interim']}."
-            )
+            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages + ['interim']}.")
             raise ValueError(f"stage must be one of {self.processing_stages + ['interim']}.")
         if stage in self.processing_stages:
             out_db = self.databases[stage]
@@ -460,9 +425,7 @@ class BaseDatabase(ABC):
         else:
             logger.warning(f"Not found at {db_path}.")
 
-    def _load_interim(
-        self, subset: str = "training", model_type: str = "regressor"
-    ) -> pd.DataFrame:
+    def _load_interim(self, subset: str = "training", model_type: str = "regressor") -> pd.DataFrame:
         """
         Load the existing interim databases.
 
@@ -645,9 +608,7 @@ class BaseDatabase(ABC):
             if len(self.subset[subset]) != 0:
                 new_database.subset[subset] = db.copy()
                 subset_path_father = self.data_dir / "interim" / self.name / (subset + "_db.json")
-                subset_path_son = (
-                    new_database.data_dir / "interim" / new_database.name / (subset + "_db.json")
-                )
+                subset_path_son = new_database.data_dir / "interim" / new_database.name / (subset + "_db.json")
                 if not subset_path_son.parent.exists():
                     subset_path_son.parent.mkdir(parents=True, exist_ok=True)
                 make_link(subset_path_father, subset_path_son)
@@ -764,9 +725,7 @@ class BaseDatabase(ABC):
         else:
             dev_size = valid_size + test_size
             if abs(dev_size - test_size) < 1e-8:
-                train_, test_ = train_test_split(
-                    self.get_database("processed"), test_size=test_size, random_state=seed
-                )
+                train_, test_ = train_test_split(self.get_database("processed"), test_size=test_size, random_state=seed)
                 valid_ = pd.DataFrame()
             elif abs(dev_size - valid_size) < 1e-8:
                 train_, valid_ = train_test_split(
@@ -794,7 +753,7 @@ class BaseDatabase(ABC):
         self,
         test_size: float = 0.2,
         seed: int = 42,
-        balance_composition: bool = False,
+        balance_composition: bool = True,
         save_split: bool = False,
     ) -> None:
         """
@@ -811,7 +770,7 @@ class BaseDatabase(ABC):
             seed (int, optional): The random seed for reproducibility. Defaults to 42.
             balance_composition (bool, optional): Whether to balance the frequency of chemical
                 species across the training and test sets in addition to stratifying by the
-                target property (`is_specialized`). Defaults to False.
+                target property (`is_specialized`). Defaults to True.
             save_split (bool, optional): Whether to save the resulting splits as files. Defaults to False.
 
         Returns:
@@ -834,9 +793,7 @@ class BaseDatabase(ABC):
                 seed=seed,
             )
         else:
-            train_, test_ = train_test_split(
-                self.get_database("processed"), test_size=test_size, random_state=seed
-            )
+            train_, test_ = train_test_split(self.get_database("processed"), test_size=test_size, random_state=seed)
             db_dict = {"train": train_, "test": test_}
 
         if save_split:
@@ -908,9 +865,7 @@ class BaseDatabase(ABC):
         separator = create_separator(widths)
         lines.append(separator)
 
-        header = (
-            "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
-        )
+        header = "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
         lines.append(header)
         lines.append(separator)
 
@@ -968,8 +923,7 @@ class BaseDatabase(ABC):
 
         # Generate header row
         header_cells = " ".join(
-            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>'
-            for col in info_df.columns
+            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>' for col in info_df.columns
         )
 
         # Generate table rows
