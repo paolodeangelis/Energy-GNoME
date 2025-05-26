@@ -96,28 +96,20 @@ class CathodeDatabase(BaseDatabase):
             self.battery_type = battery_type
         elif battery_type == "conversion":
             logger.error("`conversion` battery type is not yet implemented in Material Project.")
-            raise NotImplementedError(
-                "`conversion` battery type is not yet present in Material Project."
-            )
+            raise NotImplementedError("`conversion` battery type is not yet present in Material Project.")
         else:
-            logger.error(
-                f"Invalid battery type: {battery_type}. Must be 'insertion' or 'conversion'."
-            )
-            raise ValueError(
-                "`battery_type` can be only `insertion` or `conversion` (not yet implemented)"
-            )
+            logger.error(f"Invalid battery type: {battery_type}. Must be 'insertion' or 'conversion'.")
+            raise ValueError("`battery_type` can be only `insertion` or `conversion` (not yet implemented)")
 
         # Initialize directories, paths, and databases for each stage
         self.database_directories = {
-            stage: self.data_dir / stage / "cathodes" / battery_type / working_ion
-            for stage in self.processing_stages
+            stage: self.data_dir / stage / "cathodes" / battery_type / working_ion for stage in self.processing_stages
         }
         for stage_dir in self.database_directories.values():
             stage_dir.mkdir(parents=True, exist_ok=True)
 
         self.database_paths = {
-            stage: dir_path / "database.json"
-            for stage, dir_path in self.database_directories.items()
+            stage: dir_path / "database.json" for stage, dir_path in self.database_directories.items()
         }
 
         self.databases = {stage: pd.DataFrame() for stage in self.processing_stages}
@@ -163,18 +155,12 @@ class CathodeDatabase(BaseDatabase):
 
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
-                query = mpr.materials.insertion_electrodes.search(
-                    working_ion=self.working_ion, fields=BAT_FIELDS
-                )
-                logger.info(
-                    f"MP query successful, {len(query)} {self.working_ion}-ion batteries found."
-                )
+                query = mpr.materials.insertion_electrodes.search(working_ion=self.working_ion, fields=BAT_FIELDS)
+                logger.info(f"MP query successful, {len(query)} {self.working_ion}-ion batteries found.")
             except Exception as e:
                 raise e
         logger.debug("Converting MP query results into DataFrame.")
-        battery_models_database = convert_my_query_to_dataframe(
-            query, mute_progress_bars=mute_progress_bars
-        )
+        battery_models_database = convert_my_query_to_dataframe(query, mute_progress_bars=mute_progress_bars)
 
         # Fast cleaning
         logger.debug("Removing NaN")
@@ -300,12 +286,8 @@ class CathodeDatabase(BaseDatabase):
                 )
             else:
                 if stage == "raw":
-                    logger.info(
-                        "Be careful you are changing the raw data which must be treated as immutable!"
-                    )
-                logger.info(
-                    f"Updating the {stage} data and saving it in {self.database_paths[stage]}."
-                )
+                    logger.info("Be careful you are changing the raw data which must be treated as immutable!")
+                logger.info(f"Updating the {stage} data and saving it in {self.database_paths[stage]}.")
                 self.backup_and_changelog(
                     old_db,
                     new_db,
@@ -317,9 +299,7 @@ class CathodeDatabase(BaseDatabase):
         else:
             logger.info("No new items found. No update required.")
 
-    def retrieve_materials(
-        self, stage: str, charge_state: str, mute_progress_bars: bool = True
-    ) -> list[Any]:
+    def retrieve_materials(self, stage: str, charge_state: str, mute_progress_bars: bool = True) -> list[Any]:
         """
         Retrieve material structures from the Material Project API.
 
@@ -343,16 +323,10 @@ class CathodeDatabase(BaseDatabase):
 
         material_ids = self.databases[stage][f"id_{charge_state}"].tolist()
         if not material_ids:
-            logger.warning(
-                f"No material IDs found for stage '{stage}' and charge_state '{charge_state}'."
-            )
-            raise MissingData(
-                f"No material IDs found for stage '{stage}' and charge_state '{charge_state}'."
-            )
+            logger.warning(f"No material IDs found for stage '{stage}' and charge_state '{charge_state}'.")
+            raise MissingData(f"No material IDs found for stage '{stage}' and charge_state '{charge_state}'.")
 
-        logger.debug(
-            f"Retrieving materials for stage '{stage}' and charge_state '{charge_state}'."
-        )
+        logger.debug(f"Retrieving materials for stage '{stage}' and charge_state '{charge_state}'.")
         query = get_material_by_id(
             material_ids,
             mute_progress_bars=mute_progress_bars,
@@ -388,12 +362,8 @@ class CathodeDatabase(BaseDatabase):
             )
         else:
             if stage == "raw":
-                logger.info(
-                    "Be careful you are changing the raw data which must be treated as immutable!"
-                )
-            logger.debug(
-                f"Adding material properties to {stage} data for cathode state: {charge_state}"
-            )
+                logger.info("Be careful you are changing the raw data which must be treated as immutable!")
+            logger.debug(f"Adding material properties to {stage} data for cathode state: {charge_state}")
             for property_name, dtype in MAT_PROPERTIES.items():
                 column_name = f"{charge_state}_{property_name}"
                 if column_name not in self.databases[stage].columns:
@@ -436,12 +406,8 @@ class CathodeDatabase(BaseDatabase):
             )
         else:
             if stage == "raw":
-                logger.info(
-                    "Be careful you are changing the raw data which must be treated as immutable!"
-                )
-            logger.debug(
-                f"Adding material properties to {stage} data for cathode state: {charge_state}"
-            )
+                logger.info("Be careful you are changing the raw data which must be treated as immutable!")
+            logger.debug(f"Adding material properties to {stage} data for cathode state: {charge_state}")
 
             # Ensure necessary columns are present
             self._add_materials_properties_columns(stage, self.databases[stage], charge_state)
@@ -461,18 +427,14 @@ class CathodeDatabase(BaseDatabase):
 
                     # Assign material properties to the database
                     for property_name in MAT_PROPERTIES.keys():
-                        self.databases[stage].at[i_row, f"{charge_state}_{property_name}"] = (
-                            getattr(material, property_name, None)
+                        self.databases[stage].at[i_row, f"{charge_state}_{property_name}"] = getattr(
+                            material, property_name, None
                         )
                 except IndexError:
                     logger.error(f"Material ID {material.material_id} not found in the database.")
-                    raise MissingData(
-                        f"Material ID {material.material_id} not found in the database."
-                    )
+                    raise MissingData(f"Material ID {material.material_id} not found in the database.")
                 except Exception as e:
-                    logger.error(
-                        f"Failed to add properties for Material ID {material.material_id}: {e}"
-                    )
+                    logger.error(f"Failed to add properties for Material ID {material.material_id}: {e}")
                     raise e
 
         logger.info(f"Material properties for '{charge_state}' cathodes added successfully.")
@@ -512,9 +474,7 @@ class CathodeDatabase(BaseDatabase):
                 "It's okay to read and copy raw data to manipulate it into new outputs, but never okay to change it in place."
             )
         elif stage == "raw" and saving_dir.exists():
-            logger.info(
-                "Be careful you are changing the raw data which must be treated as immutable!"
-            )
+            logger.info("Be careful you are changing the raw data which must be treated as immutable!")
 
         # Clean the saving directory if it exists
         if saving_dir.exists():
@@ -553,9 +513,7 @@ class CathodeDatabase(BaseDatabase):
                 raise MissingData(f"Material ID {material.material_id} not found in the database.")
             except Exception as e:
                 logger.error(f"Failed to save CIF for Material ID {material.material_id}: {e}")
-                raise OSError(
-                    f"Failed to save CIF for Material ID {material.material_id}: {e}"
-                ) from e
+                raise OSError(f"Failed to save CIF for Material ID {material.material_id}: {e}") from e
 
         # Save the updated database
         self.save_database(stage)
@@ -597,12 +555,8 @@ class CathodeDatabase(BaseDatabase):
 
         # Check if source CIF directory exists and is not empty
         if not source_dir.exists() or not any(source_dir.iterdir()):
-            logger.warning(
-                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
-            )
-            raise MissingData(
-                f"The raw CIF directory does not exist or is empty. Check: {source_dir}"
-            )
+            logger.warning(f"The raw CIF directory does not exist or is empty. Check: {source_dir}")
+            raise MissingData(f"The raw CIF directory does not exist or is empty. Check: {source_dir}")
 
         # Create the saving directory
         saving_dir.mkdir(parents=True, exist_ok=False)
@@ -617,9 +571,7 @@ class CathodeDatabase(BaseDatabase):
             try:
                 # Locate the row in the database corresponding to the material ID
                 i_row = (
-                    self.databases[stage]
-                    .index[self.databases[stage][f"id_{charge_state}"] == material_id]
-                    .tolist()[0]
+                    self.databases[stage].index[self.databases[stage][f"id_{charge_state}"] == material_id].tolist()[0]
                 )
 
                 # Define source and destination CIF file paths
@@ -734,9 +686,7 @@ class CathodeDatabase(BaseDatabase):
         separator = create_separator(widths)
         lines.append(separator)
 
-        header = (
-            "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
-        )
+        header = "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
         lines.append(header)
         lines.append(separator)
 
@@ -798,8 +748,7 @@ class CathodeDatabase(BaseDatabase):
 
         # Generate header row
         header_cells = " ".join(
-            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>'
-            for col in info_df.columns
+            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>' for col in info_df.columns
         )
 
         # Generate table rows

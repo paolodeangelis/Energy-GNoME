@@ -204,18 +204,14 @@ class GBDTClassifier(BaseClassifier):
             databases = [databases]
 
         if mute_warnings:
-            logger.warning(
-                "Third-party warnings disabled. Set 'mute_warnings=False' to enable them."
-            )
+            logger.warning("Third-party warnings disabled. Set 'mute_warnings=False' to enable them.")
             self.max_dof = max_dof
 
         if isinstance(databases[0], GNoMEDatabase):
             dataset = databases[0].get_database("raw")
         else:
             # Load all database subsets efficiently
-            dataset = pd.concat(
-                [db.load_classifier_data(subset) for db in databases], ignore_index=True
-            )
+            dataset = pd.concat([db.load_classifier_data(subset) for db in databases], ignore_index=True)
 
         if dataset.empty:
             logger.warning("No data loaded for featurization.")
@@ -231,9 +227,7 @@ class GBDTClassifier(BaseClassifier):
                 dataset["composition"] = dataset["Reduced Formula"].progress_apply(Composition)
             else:
                 dataset["composition"] = dataset["formula_pretty"].progress_apply(Composition)
-            dataset["structure"] = dataset["cif_path"].progress_apply(
-                lambda x: Structure.from_file(x)
-            )
+            dataset["structure"] = dataset["cif_path"].progress_apply(lambda x: Structure.from_file(x))
             dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
             dataset["is_specialized"] = dataset["is_specialized"].astype(float)
 
@@ -305,9 +299,7 @@ class GBDTClassifier(BaseClassifier):
         }
 
         stratified_kfold = StratifiedKFold(n_splits=4, shuffle=True, random_state=0)
-        search = GridSearchCV(
-            pipe, param_grid, n_jobs=n_jobs, verbose=2, cv=stratified_kfold, scoring="roc_auc"
-        )
+        search = GridSearchCV(pipe, param_grid, n_jobs=n_jobs, verbose=2, cv=stratified_kfold, scoring="roc_auc")
 
         return search
 
@@ -407,24 +399,18 @@ class GBDTClassifier(BaseClassifier):
 
             for i in tqdm(range(self.n_committers), desc="models"):
                 predictions[f"model_{i}"] = np.empty((len(df), 1)).tolist()
-                predictions[f"model_{i}"] = self.models[f"model_{i}"].predict_proba(
-                    df.iloc[:, :-1]
-                )[:, 1]
+                predictions[f"model_{i}"] = self.models[f"model_{i}"].predict_proba(df.iloc[:, :-1])[:, 1]
 
         else:
             predictions = {}
             for i in tqdm(range(self.n_committers), desc="models"):
                 predictions[f"model_{i}"] = pd.DataFrame()
                 predictions[f"model_{i}"]["true_value"] = df[self.target_property]
-                predictions[f"model_{i}"]["prediction"] = self.models[f"model_{i}"].predict_proba(
-                    df.iloc[:, :-1]
-                )[:, 1]
+                predictions[f"model_{i}"]["prediction"] = self.models[f"model_{i}"].predict_proba(df.iloc[:, :-1])[:, 1]
 
         return predictions
 
-    def plot_performance(
-        self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True
-    ):
+    def plot_performance(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
         """
         Plot model performance evaluation curves: ROC, Precision, and Recall.
 
@@ -550,15 +536,9 @@ class GBDTClassifier(BaseClassifier):
         predictions = pd.DataFrame(index=df.index)
 
         for i in tqdm(range(self.n_committers), desc="models"):
-            predictions[f"classifier_{i}"] = self.models[f"model_{i}"].predict_proba(
-                df.iloc[:, :-1]
-            )[:, 1]
-        predictions["classifier_mean"] = predictions[
-            [f"classifier_{i}" for i in range(self.n_committers)]
-        ].mean(axis=1)
-        predictions["classifier_std"] = predictions[
-            [f"classifier_{i}" for i in range(self.n_committers)]
-        ].std(axis=1)
+            predictions[f"classifier_{i}"] = self.models[f"model_{i}"].predict_proba(df.iloc[:, :-1])[:, 1]
+        predictions["classifier_mean"] = predictions[[f"classifier_{i}" for i in range(self.n_committers)]].mean(axis=1)
+        predictions["classifier_std"] = predictions[[f"classifier_{i}" for i in range(self.n_committers)]].std(axis=1)
         return predictions
 
     def screen(self, db: GNoMEDatabase, save_processed: bool = True) -> pd.DataFrame:

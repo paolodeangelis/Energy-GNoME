@@ -33,9 +33,7 @@ def find_project_root(start_path: str) -> str:
     raise typer.BadParameter("Could not find project root with data folder structure")
 
 
-def process_data_with_yaml(
-    input_path: str, yaml_config_path: str, keep_only_mapped: bool = True
-) -> pd.DataFrame:
+def process_data_with_yaml(input_path: str, yaml_config_path: str, keep_only_mapped: bool = True) -> pd.DataFrame:
     """
     Process JSON data based on a YAML configuration file.
 

@@ -46,8 +46,6 @@ for db_name, db_link in zip(DB, DB_LINK):
     )
 
 
-out_file.write(
-    "\n" + "[^1]: Last update: {}".format(datetime.today().strftime("%d/%m/%Y %H:%M:%S")) + "\n"
-)
+out_file.write("\n" + "[^1]: Last update: {}".format(datetime.today().strftime("%d/%m/%Y %H:%M:%S")) + "\n")
 
 out_file.close()

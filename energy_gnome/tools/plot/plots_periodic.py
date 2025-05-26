@@ -186,9 +186,7 @@ def plotter(
     if log_scale:
         for datum in data:
             if datum < 0:
-                raise ValueError(
-                    f"Entry for element {datum} is negative but log-scale is selected"
-                )
+                raise ValueError(f"Entry for element {datum} is negative but log-scale is selected")
         color_mapper = LogColorMapper(palette=bokeh_palette, low=min(data), high=max(data))
         norm = LogNorm(vmin=min(data), vmax=max(data))
     else:
@@ -302,18 +300,12 @@ def plot_example(df, i=12, label_edges=False, figsize=(14, 10)):
     entry = df.iloc[i]["data"]
 
     # get graph with node and edge attributes
-    g = tg.utils.to_networkx(
-        entry, node_attrs=["symbol"], edge_attrs=["edge_len"], to_undirected=True
-    )
+    g = tg.utils.to_networkx(entry, node_attrs=["symbol"], edge_attrs=["edge_len"], to_undirected=True)
 
     # remove self-loop edges for plotting
     g.remove_edges_from(list(nx.selfloop_edges(g)))
-    node_labels = dict(
-        zip([k[0] for k in g.nodes.data()], [k[1]["symbol"] for k in g.nodes.data()])
-    )
-    edge_labels = dict(
-        zip([(k[0], k[1]) for k in g.edges.data()], [k[2]["edge_len"] for k in g.edges.data()])
-    )
+    node_labels = dict(zip([k[0] for k in g.nodes.data()], [k[1]["symbol"] for k in g.nodes.data()]))
+    edge_labels = dict(zip([(k[0], k[1]) for k in g.edges.data()], [k[2]["edge_len"] for k in g.edges.data()]))
 
     # project positions of nodes to 2D for plotting
     pos = dict(zip(list(g.nodes), [np.roll(k, 2)[:-1][::-1] for k in entry.pos.numpy()]))

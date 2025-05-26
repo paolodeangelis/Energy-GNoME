@@ -8,20 +8,14 @@ from energy_gnome.dataset import CathodeDatabase, MPDatabase, PerovskiteDatabase
 # app = typer.Typer()
 
 
-def get_raw_cathode(
-    data_dir: Path = DATA_DIR, working_ion="Li", battery_type="insertion", logger=logger
-):
-    cathode_db = CathodeDatabase(
-        data_dir=data_dir, working_ion=working_ion, battery_type=battery_type
-    )
+def get_raw_cathode(data_dir: Path = DATA_DIR, working_ion="Li", battery_type="insertion", logger=logger):
+    cathode_db = CathodeDatabase(data_dir=data_dir, working_ion=working_ion, battery_type=battery_type)
     cathode_db.allow_raw_update()
     logger.info("[STEP 1] Retrieving models")
     db = cathode_db.retrieve_models(mute_progress_bars=False)
     cathode_db.compare_and_update(db, "raw")
     logger.info("[STEP 2] Retrieving and save charged material")
-    materials_charge = cathode_db.retrieve_materials(
-        stage="raw", charge_state="charge", mute_progress_bars=False
-    )
+    materials_charge = cathode_db.retrieve_materials(stage="raw", charge_state="charge", mute_progress_bars=False)
     cathode_db.save_cif_files(
         stage="raw",
         materials_mp_query=materials_charge,
@@ -29,9 +23,7 @@ def get_raw_cathode(
         mute_progress_bars=False,
     )
     logger.info("[STEP 3] Retrieving and saving discharge material")
-    materials_discharge = cathode_db.retrieve_materials(
-        stage="raw", charge_state="discharge", mute_progress_bars=False
-    )
+    materials_discharge = cathode_db.retrieve_materials(stage="raw", charge_state="discharge", mute_progress_bars=False)
     cathode_db.save_cif_files(
         stage="raw",
         materials_mp_query=materials_discharge,

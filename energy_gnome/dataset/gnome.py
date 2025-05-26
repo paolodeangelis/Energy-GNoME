@@ -105,9 +105,7 @@ class GNoMEDatabase(BaseDatabase):
                 move_command = ["mv", str(extracted_dir) + "/*", str(output_path)]
 
             try:
-                subprocess.run(
-                    move_command, check=True, shell=True, capture_output=True, text=True
-                )
+                subprocess.run(move_command, check=True, shell=True, capture_output=True, text=True)
                 extracted_dir.rmdir()  # Remove the now-empty folder
             except subprocess.CalledProcessError as e:
                 logger.error(f"Error moving files: {e.stderr}")
@@ -115,9 +113,7 @@ class GNoMEDatabase(BaseDatabase):
 
         # Update Database
         df = self.get_database("raw")
-        df["cif_path"] = (
-            df["material_id"].astype(str).apply(lambda x: (output_path / f"{x}.CIF").as_posix())
-        )
+        df["cif_path"] = df["material_id"].astype(str).apply(lambda x: (output_path / f"{x}.CIF").as_posix())
 
         self.save_database("raw")
         logger.info("CIF files saved and database updated successfully.")
@@ -250,9 +246,7 @@ class GNoMEDatabase(BaseDatabase):
             """Check if an entry satisfies the element inclusion criteria."""
             material_elements = set(parse_elements(elements))  # Convert material elements to a set
 
-            simple_elements = {
-                e for e in elements_list if "-" not in e
-            }  # Elements that can appear individually
+            simple_elements = {e for e in elements_list if "-" not in e}  # Elements that can appear individually
             grouped_elements = [
                 set(e.split("-")) for e in elements_list if "-" in e
             ]  # Element groups that must all be present
@@ -262,14 +256,10 @@ class GNoMEDatabase(BaseDatabase):
 
             # Check if all elements in at least one group are present
             grouped_match = (
-                any(group.issubset(material_elements) for group in grouped_elements)
-                if grouped_elements
-                else False
+                any(group.issubset(material_elements) for group in grouped_elements) if grouped_elements else False
             )
 
-            return (
-                simple_match or grouped_match
-            )  # Material passes if it satisfies either condition
+            return simple_match or grouped_match  # Material passes if it satisfies either condition
 
         # Apply filtering
         if include:
@@ -348,9 +338,7 @@ class GNoMEDatabase(BaseDatabase):
         separator = create_separator(widths)
         lines.append(separator)
 
-        header = (
-            "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
-        )
+        header = "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
         lines.append(header)
         lines.append(separator)
 
@@ -408,8 +396,7 @@ class GNoMEDatabase(BaseDatabase):
 
         # Generate header row
         header_cells = " ".join(
-            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>'
-            for col in info_df.columns
+            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>' for col in info_df.columns
         )
 
         # Generate table rows
