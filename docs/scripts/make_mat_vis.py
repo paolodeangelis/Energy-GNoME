@@ -421,9 +421,7 @@ def convert_spacegroup_to_html(symbol: str) -> str:
     symbol = re.sub(r"_(\d)", r"<sub>\1</sub>", symbol)
 
     # Apply overline to parts starting with '-' (negative signs or symmetry elements)
-    symbol = re.sub(
-        r"-([a-zA-Z0-9])", r'<span style="text-decoration: overline;">\1</span>', symbol
-    )
+    symbol = re.sub(r"-([a-zA-Z0-9])", r'<span style="text-decoration: overline;">\1</span>', symbol)
 
     return symbol
 
@@ -449,9 +447,9 @@ def make_viewer_gen_info(material_id, cif_path):
     spacegroup_string = get_spacegroup(sg, int_sg)
     chem_sys = struct.chemical_system
     num_sites = struct.num_sites
-    cif_path_remote = (
-        "https://raw.githubusercontent.com/" "paolodeangelis/Energy-GNoME/refs/heads/main/"
-    ) + str(cif_loc_path).replace(os.sep, "/")
+    cif_path_remote = ("https://raw.githubusercontent.com/" "paolodeangelis/Energy-GNoME/refs/heads/main/") + str(
+        cif_loc_path
+    ).replace(os.sep, "/")
 
     page_content = TEMPLATE.format(
         title=chemf_red,
@@ -525,9 +523,7 @@ def add_cathode_properties(data, wion):
     note = data["Note"].values[0]
     if len(note) > 0:
         foot = f"[^c{wion}]"
-        note = f"[^c{wion}]: " + note.replace("R² < 0.5", r"R<sup>2</sup> < 0.5").replace(
-            "AUC < 0.5", r"AUC < 0.5"
-        )
+        note = f"[^c{wion}]: " + note.replace("R² < 0.5", r"R<sup>2</sup> < 0.5").replace("AUC < 0.5", r"AUC < 0.5")
     else:
         foot = ""
     df_property.loc["**Formation energy**", "**Value**[^val]"] = r"{:.3f} eV/atom".format(
@@ -539,25 +535,19 @@ def add_cathode_properties(data, wion):
         data["AI-experts confidence (deviation) (-)"].values[0],
     )
     df_property.loc["**Average voltage**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = (
-        r"{:.3f} &#xb1; {:.3f} %".format(
-            data["Max Volume expansion (-)"].values[0] * 100.0,
-            data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
-        )
+    df_property.loc["**Max volume expansion**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} %".format(
+        data["Max Volume expansion (-)"].values[0] * 100.0,
+        data["Max Volume expansion (deviation) (-)"].values[0] * 100.0,
     )
     df_property.loc["**Max volume expansion**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Stability charge**", "**Value**[^val]"] = (
-        r"{:.3f} &#xb1; {:.3f} eV/atom".format(
-            data["Stability charge (eV/atom)"].values[0],
-            data["Stability charge (deviation) (eV/atom)"].values[0],
-        )
+    df_property.loc["**Stability charge**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} eV/atom".format(
+        data["Stability charge (eV/atom)"].values[0],
+        data["Stability charge (deviation) (eV/atom)"].values[0],
     )
     df_property.loc["**Stability charge**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
-    df_property.loc["**Stability discharge**", "**Value**[^val]"] = (
-        r"{:.3f} &#xb1; {:.3f} eV/atom".format(
-            data["Stability discharge (eV/atom)"].values[0],
-            data["Stability discharge (deviation) (eV/atom)"].values[0],
-        )
+    df_property.loc["**Stability discharge**", "**Value**[^val]"] = r"{:.3f} &#xb1; {:.3f} eV/atom".format(
+        data["Stability discharge (eV/atom)"].values[0],
+        data["Stability discharge (deviation) (eV/atom)"].values[0],
     )
     df_property.loc["**Stability discharge**", "**Model**"] = f"E(3)NN ({wion}-cathode)" + foot
     df_property.loc["**Volumetric capacity**", "**Value**[^val]"] = r"{:.3f} mAh/L".format(
@@ -621,16 +611,10 @@ def add_thermoelectric_properties(data, wT):
 
 
 def make_boc_grind(df, box_name):
-    sorted_df = (
-        df.reset_index().sort_values(by=["index", "**Model**"], kind="stable").set_index("index")
-    )
+    sorted_df = df.reset_index().sort_values(by=["index", "**Model**"], kind="stable").set_index("index")
     sorted_df.index.name = None
     table = sorted_df.to_markdown()
-    table = (
-        f"- __{box_name}__\n\n\t---\n\n"
-        + "\n".join(["\t" + t for t in table.split("\n")])
-        + "\n\n"
-    )
+    table = f"- __{box_name}__\n\n\t---\n\n" + "\n".join(["\t" + t for t in table.split("\n")]) + "\n\n"
     return table
 
 
@@ -676,9 +660,7 @@ def main():
                 data = db_dict[db_key][db_dict[db_key]["Material Id"] == m_id]
                 model = db_key.split("/")[-1].replace("_models", "")
                 ai_experts_m_perv[model] = data["AI-experts confidence (-)"].values[0]
-                ai_experts_dev_perv[model] = data["AI-experts confidence (deviation) (-)"].values[
-                    0
-                ]
+                ai_experts_dev_perv[model] = data["AI-experts confidence (deviation) (-)"].values[0]
             elif "thermoelectrics" in db_key:
                 data = db_dict[db_key][db_dict[db_key]["Material Id"] == m_id]
                 wT = db_key.split("/")[-1].replace("K", "")
@@ -729,9 +711,7 @@ def main():
             grids.append(make_boc_grind(property_dfs_perov, "Predicted properties (perovskites)"))
         if len(property_dfs_thermo) > 0:
             property_dfs_thermo = pd.concat(property_dfs_thermo).drop_duplicates()
-            grids.append(
-                make_boc_grind(property_dfs_thermo, "Predicted properties (thermoelectric)")
-            )
+            grids.append(make_boc_grind(property_dfs_thermo, "Predicted properties (thermoelectric)"))
 
         grid = '<div class="grid cards" style="margin: 0 auto;" markdown>\n\n'
         grid += "\n".join(grids)

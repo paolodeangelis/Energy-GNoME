@@ -39,9 +39,7 @@ def get_mp_api_key() -> str:
         if not mp_api_key:
             logger.error("`MP` (Material Project) API KEY is missing in `config.yam` file")
             logger.error(f"Check {CONFIG_YAML_FILE}")
-            logger.error(
-                "`MP` (Material Project) API KEY environment variable MP_API_KEY is not set"
-            )
+            logger.error("`MP` (Material Project) API KEY environment variable MP_API_KEY is not set")
             logger.error("At least one option should be used")
             raise OSError("MP_API_KEY environment variable is not set.")
         logger.debug("MP API key retrieved successfully.")

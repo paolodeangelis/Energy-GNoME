@@ -76,9 +76,7 @@ def datasets(
             logger=logger,
         )
     else:
-        raise NotImplementedError(
-            f"The database for the energy material '{energy_material}' is not supported."
-        )
+        raise NotImplementedError(f"The database for the energy material '{energy_material}' is not supported.")
 
 
 @app.command()
@@ -86,9 +84,7 @@ def pre_processing(
     energy_material: str = typer.Argument(..., help="Type of energy material (e.g., 'cathode')."),
     data_dir: Path = typer.Option(DATA_DIR, help="Directory path to read raw data."),
     raw_data_dir: Path = typer.Option(DATA_DIR, help="Directory path to read raw data."),
-    processed_data_dir: Path = typer.Option(
-        DATA_DIR, help="Directory path to save processed data."
-    ),
+    processed_data_dir: Path = typer.Option(DATA_DIR, help="Directory path to save processed data."),
     logger_level: str = typer.Option("DEBUG", help="Set the logging level."),
 ) -> None:
     """
@@ -124,9 +120,7 @@ def pre_processing(
         )
 
     else:
-        raise NotImplementedError(
-            f"The database for the energy material '{energy_material}' is not supported."
-        )
+        raise NotImplementedError(f"The database for the energy material '{energy_material}' is not supported.")
 
 
 @app.command()
@@ -134,9 +128,7 @@ def training(
     energy_material: str = typer.Argument(..., help="Type of energy material (e.g., 'cathode')."),
     problem_type: str = typer.Argument(..., help="Type of problem (e.g., 'regressor')."),
     model_type: str = typer.Argument(..., help="Type of model to train (e.g., 'e3nn')."),
-    data_dir: Path = typer.Option(
-        PROCESSED_DATA_DIR, help="Directory path to access processed data."
-    ),
+    data_dir: Path = typer.Option(PROCESSED_DATA_DIR, help="Directory path to access processed data."),
     models_dir: Path = typer.Option(MODELS_DIR, help="Directory path to save trained models."),
     logger_level: str = typer.Option("DEBUG", help="Set the logging level."),
 ) -> None:
@@ -182,9 +174,7 @@ def training(
         if problem_type.lower() in ["regressor", "regressors", "regression"]:
             if model_type.lower() in ["e3nn"]:
                 model = E3NNRegressor()
-            logger.info(
-                f"--- Building '{model_type}' regressors for perovskites".ljust(LOG_MAX_WIDTH, "-")
-            )
+            logger.info(f"--- Building '{model_type}' regressors for perovskites".ljust(LOG_MAX_WIDTH, "-"))
             fit_regressor(
                 model,
                 db,
@@ -193,9 +183,7 @@ def training(
                 logger=logger,
             )
 
-            logger.info(
-                f"--- Testing '{model_type}' regressors for perovskites".ljust(LOG_MAX_WIDTH, "-")
-            )
+            logger.info(f"--- Testing '{model_type}' regressors for perovskites".ljust(LOG_MAX_WIDTH, "-"))
             # data = eval_regressor(model, db, "testing")
 
         elif problem_type.lower() in ["classifier", "classifiers", "classification"]:
@@ -211,9 +199,7 @@ def training(
             raise NotImplementedError(f"'{problem_type}' is not a valid problem type entry.")
 
     else:
-        raise NotImplementedError(
-            f"The database for the energy material '{energy_material}' is not supported."
-        )
+        raise NotImplementedError(f"The database for the energy material '{energy_material}' is not supported.")
 
 
 def main():

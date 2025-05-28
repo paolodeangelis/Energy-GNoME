@@ -86,9 +86,7 @@ class MPDatabase(BaseDatabase):
         """
         self.is_specialized = False
 
-    def retrieve_materials(
-        self, max_framework_size: int = 6, mute_progress_bars: bool = True
-    ) -> pd.DataFrame:
+    def retrieve_materials(self, max_framework_size: int = 6, mute_progress_bars: bool = True) -> pd.DataFrame:
         """
         Retrieve materials from the Materials Project API.
 
@@ -197,9 +195,7 @@ class MPDatabase(BaseDatabase):
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             all_cif_paths = {}  # Store updates in a dict to vectorize DataFrame updates later
 
-            for i_batch in tqdm(
-                range(n_batch), desc="Saving materials", disable=mute_progress_bars
-            ):
+            for i_batch in tqdm(range(n_batch), desc="Saving materials", disable=mute_progress_bars):
                 i_star = i_batch * MP_BATCH_SIZE
                 i_end = min((i_batch + 1) * MP_BATCH_SIZE, len(ids_list))
 
@@ -207,9 +203,7 @@ class MPDatabase(BaseDatabase):
                     materials_mp_query = mpr.materials.summary.search(
                         material_ids=ids_list[i_star:i_end], fields=["material_id", "structure"]
                     )
-                    logger.info(
-                        f"MP query successful, {len(materials_mp_query)} structures found."
-                    )
+                    logger.info(f"MP query successful, {len(materials_mp_query)} structures found.")
                 except Exception as e:
                     logger.error(f"Failed MP query: {e}")
                     raise e
@@ -280,14 +274,10 @@ class MPDatabase(BaseDatabase):
         mp_database = self.get_database(stage)
         id_overlap = database["material_id"].tolist()
 
-        mp_database["to_drop"] = mp_database.apply(
-            lambda x: x["material_id"] in id_overlap, axis=1
-        )
+        mp_database["to_drop"] = mp_database.apply(lambda x: x["material_id"] in id_overlap, axis=1)
         to_drop = mp_database["to_drop"].value_counts().get(True, 0)
         logger.info(f"{to_drop} overlapping items to drop.")
-        mp_database_no_overlap = mp_database.iloc[
-            np.where(mp_database["to_drop"] == 0)[0], :
-        ].reset_index(drop=True)
+        mp_database_no_overlap = mp_database.iloc[np.where(mp_database["to_drop"] == 0)[0], :].reset_index(drop=True)
         mp_database_no_overlap.drop(columns=["to_drop"], inplace=True)
 
         return mp_database_no_overlap
@@ -356,9 +346,7 @@ class MPDatabase(BaseDatabase):
         separator = create_separator(widths)
         lines.append(separator)
 
-        header = (
-            "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
-        )
+        header = "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
         lines.append(header)
         lines.append(separator)
 
@@ -416,8 +404,7 @@ class MPDatabase(BaseDatabase):
 
         # Generate header row
         header_cells = " ".join(
-            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>'
-            for col in info_df.columns
+            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>' for col in info_df.columns
         )
 
         # Generate table rows

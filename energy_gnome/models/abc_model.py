@@ -62,9 +62,7 @@ class BaseRegressor(ABC):
         self.figures_dir = Path(figures_dir, model_name) / "regressors"
         self.figures_dir.mkdir(parents=True, exist_ok=True)
 
-        self.models: dict[str, torch.nn.Module] = (
-            {}
-        )  # this will change with the addition of GBDT regressors
+        self.models: dict[str, torch.nn.Module] = {}  # this will change with the addition of GBDT regressors
         self.device: str | None = None
 
         self.n_committers: int = 1
@@ -73,9 +71,7 @@ class BaseRegressor(ABC):
         models_weights = self._find_model_states()
         if len(models_weights) > 0:
             n_model = len(models_weights)
-            logger.warning(
-                f"The folder {self.models_dir} already contains {n_model} trained models."
-            )
+            logger.warning(f"The folder {self.models_dir} already contains {n_model} trained models.")
             logger.warning(
                 "Be careful, all changes (e.g. changing the inputs to methods as 'compile' and 'fit') will conflict with existing models!"
             )
@@ -115,9 +111,7 @@ class BaseRegressor(ABC):
 
 
 class BaseClassifier(ABC):
-    def __init__(
-        self, model_name: str, models_dir: Path = MODELS_DIR, figures_dir: Path | str = FIGURES_DIR
-    ):
+    def __init__(self, model_name: str, models_dir: Path = MODELS_DIR, figures_dir: Path | str = FIGURES_DIR):
         """
         Initialize the BaseClassifier with directories for storing models and figures.
 
@@ -152,9 +146,7 @@ class BaseClassifier(ABC):
         models_weights = self._find_model_states()
         if len(models_weights) > 0:
             n_model = len(models_weights)
-            logger.warning(
-                f"The folder {self.models_dir} already contains {n_model} trained models."
-            )
+            logger.warning(f"The folder {self.models_dir} already contains {n_model} trained models.")
             logger.warning(
                 "Be careful, all changes (e.g. changing the inputs to methods as 'compile' and 'fit') will conflict with existing models!"
             )

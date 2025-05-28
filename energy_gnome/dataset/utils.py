@@ -59,9 +59,7 @@ def detect_outliers_iqr(df: pd.DataFrame, iqr_w: float = 1.5):
     outlier_mask = pd.DataFrame(data=False, index=df.index, columns=df.columns)
 
     for col in df.columns:
-        if (
-            df[col].dtype.kind in "ifc"
-        ):  # Check if the column type is numeric (boolean, integer, float, complex)
+        if df[col].dtype.kind in "ifc":  # Check if the column type is numeric (boolean, integer, float, complex)
             Q1 = df[col].quantile(0.25)
             Q3 = df[col].quantile(0.75)
             IQR = Q3 - Q1
@@ -127,16 +125,12 @@ def split_data(df: pd.DataFrame, test_size: float, seed: int) -> tuple[list, lis
     # Remove empty examples and sort df in order of fewest to most examples
     df = df[df["data"].str.len() > 0].sort_values("count")
 
-    for _, entry in tqdm(
-        df.iterrows(), total=len(df), bar_format="{l_bar}{bar:20}{r_bar}{bar:-20b}"
-    ):
+    for _, entry in tqdm(df.iterrows(), total=len(df), bar_format="{l_bar}{bar:20}{r_bar}{bar:-20b}"):
         df_specie = entry.to_frame().T.explode("data")
 
         try:
             # Attempt to split data for the current species
-            idx_train_s, idx_test_s = train_test_split(
-                df_specie["data"].values, test_size=test_size, random_state=seed
-            )
+            idx_train_s, idx_test_s = train_test_split(df_specie["data"].values, test_size=test_size, random_state=seed)
         except:  # noqa: E722
             # If split fails (e.g., too few examples), skip this iteration
             pass
@@ -200,9 +194,7 @@ def split_subplot(
     color = [int(colors[dataset].lstrip("#")[i : i + 2], 16) / 255.0 for i in (0, 2, 4)]
     bx = np.arange(len(species))
 
-    ax.bar(
-        bx, df[dataset], width, fc=color + [0.7], ec=color, lw=1.5, bottom=bottom, label=dataset
-    )
+    ax.bar(bx, df[dataset], width, fc=color + [0.7], ec=color, lw=1.5, bottom=bottom, label=dataset)
 
     ax.set_xticks(bx)
     ax.set_xticklabels(species)
@@ -291,9 +283,7 @@ def train_valid_test_split(
                 bottom=b0,
                 legend=True,
             )
-            split_subplot(
-                ax[1], stats[len(stats) // 2 :], species[len(stats) // 2 :], dataset, bottom=b1
-            )
+            split_subplot(ax[1], stats[len(stats) // 2 :], species[len(stats) // 2 :], dataset, bottom=b1)
 
             b0 += stats.iloc[: len(stats) // 2][dataset].values
             b1 += stats.iloc[len(stats) // 2 :][dataset].values
@@ -304,9 +294,7 @@ def train_valid_test_split(
     return idx_train, idx_valid, idx_test
 
 
-def random_split(
-    dataset: pd.DataFrame, target_property: str, valid_size=0.2, test_size=0.05, seed=42
-):
+def random_split(dataset: pd.DataFrame, target_property: str, valid_size=0.2, test_size=0.05, seed=42):
     """
     Perform a random train-validation-test split with specified sizes.
 
@@ -332,14 +320,10 @@ def random_split(
 
     # Read all structures in parallel using `apply`
     database_split["structure"] = dataset["cif_path"]
-    database_split["structure"] = database_split["structure"].progress_apply(
-        lambda path: read(Path(to_unix(path)))
-    )
+    database_split["structure"] = database_split["structure"].progress_apply(lambda path: read(Path(to_unix(path))))
 
     # Extract properties in bulk
-    database_split["formula"] = database_split["structure"].progress_apply(
-        lambda s: s.get_chemical_formula()
-    )
+    database_split["formula"] = database_split["structure"].progress_apply(lambda s: s.get_chemical_formula())
     database_split["species"] = database_split["structure"].progress_apply(
         lambda s: list(set(s.get_chemical_symbols()))
     )

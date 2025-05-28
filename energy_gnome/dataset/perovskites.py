@@ -66,9 +66,7 @@ class PerovskiteDatabase(BaseDatabase):
         self,
         name: str = "perovskites",
         data_dir: Path | str = DATA_DIR,
-        external_perovproj_path: Path | str = EXTERNAL_DATA_DIR
-        / Path("perovskites")
-        / Path("perovproject_db.json"),
+        external_perovproj_path: Path | str = EXTERNAL_DATA_DIR / Path("perovskites") / Path("perovproject_db.json"),
     ):
         """
         Initialize the PerovskiteDatabase with a root data directory and processing stage.
@@ -134,9 +132,7 @@ class PerovskiteDatabase(BaseDatabase):
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
                 query = mpr.materials.robocrys.search(keywords=["Perovskite", "perovskite"])
-                logger.info(
-                    f"MP query successful, {len(query)} perovskite IDs found through Robocrystallographer."
-                )
+                logger.info(f"MP query successful, {len(query)} perovskite IDs found through Robocrystallographer.")
             except Exception as e:
                 raise e
         ids_list_robo = [q.material_id for q in query]
@@ -216,18 +212,14 @@ class PerovskiteDatabase(BaseDatabase):
 
         with MPRester(mp_api_key, mute_progress_bars=mute_progress_bars) as mpr:
             try:
-                query = mpr.materials.summary.search(
-                    material_ids=unique_ids, fields=MAT_PROPERTIES
-                )
+                query = mpr.materials.summary.search(material_ids=unique_ids, fields=MAT_PROPERTIES)
                 logger.info(
                     f"MP query successful, {len(query)} perovskites found through Robocrystallographer and Perovskite Project formulae."
                 )
             except Exception as e:
                 raise e
         logger.debug("Converting MP query results into DataFrame.")
-        perovskites_database = convert_my_query_to_dataframe(
-            query, mute_progress_bars=mute_progress_bars
-        )
+        perovskites_database = convert_my_query_to_dataframe(query, mute_progress_bars=mute_progress_bars)
 
         query_ids = list()
         for m in query:
@@ -236,9 +228,7 @@ class PerovskiteDatabase(BaseDatabase):
         # Fast cleaning
         logger.debug("Removing NaN (rows)")
         logger.debug(f"size DB before = {len(perovskites_database)}")
-        perovskites_database = perovskites_database.dropna(
-            axis=0, how="any", subset=BAND_CRITICAL_FIELD
-        )
+        perovskites_database = perovskites_database.dropna(axis=0, how="any", subset=BAND_CRITICAL_FIELD)
         logger.debug(f"size DB after = {len(perovskites_database)}")
         logger.debug("Removing NaN (cols)")
         logger.debug(f"size DB before = {len(perovskites_database)}")
@@ -396,9 +386,7 @@ class PerovskiteDatabase(BaseDatabase):
         """
 
         if not inplace and db is None:
-            logger.error(
-                "Invalid input: You must input a pd.DataFrame if 'inplace' is set to True."
-            )
+            logger.error("Invalid input: You must input a pd.DataFrame if 'inplace' is set to True.")
             raise ValueError("You must input a pd.DataFrame if 'inplace' is set to True.")
 
         if inplace:
@@ -415,12 +403,8 @@ class PerovskiteDatabase(BaseDatabase):
             temp_db = raw_db
             logger.info("Keeping magnetic materials")
 
-        logger.info(
-            f"Removing materials with bandgap {band_gap_lower} eV < E_g <= {band_gap_upper} eV"
-        )
-        processed_db = temp_db[
-            (temp_db["band_gap"] > band_gap_lower) & (temp_db["band_gap"] <= band_gap_upper)
-        ]
+        logger.info(f"Removing materials with bandgap {band_gap_lower} eV < E_g <= {band_gap_upper} eV")
+        processed_db = temp_db[(temp_db["band_gap"] > band_gap_lower) & (temp_db["band_gap"] <= band_gap_upper)]
 
         processed_db.reset_index(drop=True, inplace=True)
 
@@ -494,9 +478,7 @@ class PerovskiteDatabase(BaseDatabase):
         separator = create_separator(widths)
         lines.append(separator)
 
-        header = (
-            "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
-        )
+        header = "|" + "|".join(f" {col:<{widths[i]}}" for i, col in enumerate(info_df.columns)) + "|"
         lines.append(header)
         lines.append(separator)
 
@@ -554,8 +536,7 @@ class PerovskiteDatabase(BaseDatabase):
 
         # Generate header row
         header_cells = " ".join(
-            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>'
-            for col in info_df.columns
+            f'<th style="padding: 12px 15px; text-align: left;">{col}</th>' for col in info_df.columns
         )
 
         # Generate table rows

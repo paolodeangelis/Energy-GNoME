@@ -1,5 +1,4 @@
-"""source: https://github.com/ninarina12/phononDoS_tutorial ?
-"""
+"""source: https://github.com/ninarina12/phononDoS_tutorial ?"""
 
 from collections.abc import Generator
 import copy
@@ -128,13 +127,9 @@ class Network(torch.nn.Module):
         self.reduce_output = reduce_output
 
         self.irreps_in = o3.Irreps(irreps_in) if irreps_in is not None else None
-        self.irreps_hidden = o3.Irreps(
-            [(self.mul, (l_, p_)) for l_ in range(lmax + 1) for p_ in [-1, 1]]
-        )
+        self.irreps_hidden = o3.Irreps([(self.mul, (l_, p_)) for l_ in range(lmax + 1) for p_ in [-1, 1]])
         self.irreps_out = o3.Irreps(irreps_out)
-        self.irreps_node_attr = (
-            o3.Irreps(irreps_node_attr) if irreps_node_attr is not None else o3.Irreps("0e")
-        )
+        self.irreps_node_attr = o3.Irreps(irreps_node_attr) if irreps_node_attr is not None else o3.Irreps("0e")
         self.irreps_edge_attr = o3.Irreps.spherical_harmonics(lmax)
 
         self.input_has_node_in = irreps_in is not None
@@ -246,12 +241,8 @@ class Network(torch.nn.Module):
             torch.Tensor: The output of the network after processing the input data. The output tensor
             dimensions depend on the network configuration and whether `reduce_output` is set to True.
         """
-        batch, edge_src, edge_dst, edge_vec = self.preprocess(
-            data
-        )  # , dos, dos_energy = self.preprocess(data)
-        edge_sh = o3.spherical_harmonics(
-            self.irreps_edge_attr, edge_vec, True, normalization="component"
-        )
+        batch, edge_src, edge_dst, edge_vec = self.preprocess(data)  # , dos, dos_energy = self.preprocess(data)
+        edge_sh = o3.spherical_harmonics(self.irreps_edge_attr, edge_vec, True, normalization="component")
         edge_length = edge_vec.norm(dim=1)
         edge_length_embedded = soft_one_hot_linspace(
             x=edge_length,
@@ -277,9 +268,7 @@ class Network(torch.nn.Module):
             z = data["pos"].new_ones((data["pos"].shape[0], 1))
 
         for lay in self.layers:
-            x = lay(
-                x, z, edge_src, edge_dst, edge_attr, edge_length_embedded
-            )  # , dos, dos_energy)
+            x = lay(x, z, edge_src, edge_dst, edge_attr, edge_length_embedded)  # , dos, dos_energy)
 
         # print(x, x.shape)
 
@@ -332,9 +321,7 @@ class PeriodicNetwork(Network):
 
         # if pool_nodes was set to True, use scatter_mean to aggregate
         if self.pool is True:
-            output = torch_scatter.scatter_mean(
-                output, data.batch, dim=0
-            )  # take mean over atoms per example
+            output = torch_scatter.scatter_mean(output, data.batch, dim=0)  # take mean over atoms per example
 
         # maxima, _ = torch.max(output, dim=1)
         # output = output.div(maxima.unsqueeze(1))
@@ -390,9 +377,7 @@ class PeriodicNetworkClassifier(Network):
 
         # if pool_nodes was set to True, use scatter_mean to aggregate
         if self.pool is True:
-            output = torch_scatter.scatter_mean(
-                output, data.batch, dim=0
-            )  # take mean over atoms per example
+            output = torch_scatter.scatter_mean(output, data.batch, dim=0)  # take mean over atoms per example
 
         # maxima, _ = torch.max(output, dim=1)
         # output = output.div(maxima.unsqueeze(1))
@@ -500,9 +485,7 @@ def train_regressor(
     start_time = time.time()
 
     try:
-        checkpoint_data = torch.load(
-            str(run_name) + ".torch", weights_only=True
-        )  # Load full checkpoint
+        checkpoint_data = torch.load(str(run_name) + ".torch", weights_only=True)  # Load full checkpoint
         model.load_state_dict(checkpoint_data["state_last"])  # Load last saved model state
         optimizer.load_state_dict(checkpoint_data["optimizer"])  # Restore optimizer state
         if scheduler is not None and "scheduler" in checkpoint_data:
@@ -571,9 +554,7 @@ def train_regressor(
                 device,  # loss_fn_mae, device
             )
             # train_avg_loss = evaluate(model, dataloader_train, loss_fn, loss_fn_mae, device)
-            train_avg_loss = loss_cumulative / len(
-                dataloader_train
-            )  # , loss_cumulative_mae / len(dataloader_train)
+            train_avg_loss = loss_cumulative / len(dataloader_train)  # , loss_cumulative_mae / len(dataloader_train)
 
             history.append(
                 {
@@ -617,9 +598,7 @@ def train_regressor(
                 "state_best": best_model_state,
                 "state_last": copy.deepcopy(model.state_dict()),
                 "optimizer": optimizer.state_dict(),  # Save optimizer state
-                "scheduler": (
-                    scheduler.state_dict() if scheduler is not None else None
-                ),  # Save scheduler state
+                "scheduler": (scheduler.state_dict() if scheduler is not None else None),  # Save scheduler state
             }
 
             msg = f"Epoch {s0 + step + 1:4d}   "
@@ -675,9 +654,7 @@ def evaluate_classifier(
             d.to(device)
             output = model(d)
             loss = loss_fn(output, d.target).cpu()
-            accuracy = binary_accuracy(
-                output.reshape(-1), d.target.reshape(-1), threshold=threshold
-            ).cpu()
+            accuracy = binary_accuracy(output.reshape(-1), d.target.reshape(-1), threshold=threshold).cpu()
             auroc = binary_auroc(output.reshape(-1), d.target.reshape(-1)).cpu()
             loss_cumulative = loss_cumulative + loss.detach().item()
             metric_accuracy_cumulative = metric_accuracy_cumulative + accuracy
@@ -736,9 +713,7 @@ def train_classifier(
     start_time = time.time()
 
     try:
-        checkpoint_data = torch.load(
-            str(run_name) + ".torch", weights_only=True
-        )  # Load full checkpoint
+        checkpoint_data = torch.load(str(run_name) + ".torch", weights_only=True)  # Load full checkpoint
         model.load_state_dict(checkpoint_data["state_last"])  # Load last saved model state
         optimizer.load_state_dict(checkpoint_data["optimizer"])  # Restore optimizer state
         if scheduler is not None and "scheduler" in checkpoint_data:
@@ -777,15 +752,11 @@ def train_classifier(
         metric_accuracy_cumulative = 0.0
         metric_auroc_cumulative = 0.0
 
-        for j, d in tqdm(
-            enumerate(dataloader_train), total=len(dataloader_train), bar_format=BAR_FORMAT
-        ):
+        for j, d in tqdm(enumerate(dataloader_train), total=len(dataloader_train), bar_format=BAR_FORMAT):
             d.to(device)
             output = model(d)
             loss = loss_fn(output, d.target).cpu()
-            accuracy = binary_accuracy(
-                output.reshape(-1), d.target.reshape(-1), threshold=threshold
-            ).cpu()
+            accuracy = binary_accuracy(output.reshape(-1), d.target.reshape(-1), threshold=threshold).cpu()
             auroc = binary_auroc(output.reshape(-1), d.target.reshape(-1)).cpu()
             loss_cumulative = loss_cumulative + loss.detach().item()
             metric_accuracy_cumulative = metric_accuracy_cumulative + accuracy
@@ -804,9 +775,7 @@ def train_classifier(
         # print(f"evaluate_model {evaluate_model} ({step} == {checkpoint} or {only_best})")
         if evaluate_model:
             eval_start_time = time.time()
-            valid_avg_loss = evaluate_classifier(
-                model, dataloader_valid, loss_fn, threshold, device
-            )
+            valid_avg_loss = evaluate_classifier(model, dataloader_valid, loss_fn, threshold, device)
             # train_avg_loss = evaluate(model, dataloader_train, loss_fn, loss_fn_mae, device)
             train_avg_loss = (
                 loss_cumulative / len(dataloader_train),
@@ -949,14 +918,10 @@ def build_data(
     lattice = torch.from_numpy(entry.structure.cell.array.copy()).unsqueeze(0)
 
     # Extract neighbor information
-    edge_src, edge_dst, edge_shift = neighbor_list(
-        "ijS", a=entry.structure, cutoff=r_max, self_interaction=True
-    )
+    edge_src, edge_dst, edge_shift = neighbor_list("ijS", a=entry.structure, cutoff=r_max, self_interaction=True)
 
     # Compute edge vectors and lengths
-    edge_batch = positions.new_zeros(positions.shape[0], dtype=torch.long)[
-        torch.from_numpy(edge_src)
-    ]
+    edge_batch = positions.new_zeros(positions.shape[0], dtype=torch.long)[torch.from_numpy(edge_src)]
     edge_vec = (
         positions[torch.from_numpy(edge_dst)]
         - positions[torch.from_numpy(edge_src)]

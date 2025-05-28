@@ -190,9 +190,7 @@ class E3NNRegressor(BaseRegressor):
 
                         model = PeriodicNetwork(**model_setting)
                         model.load_state_dict(
-                            torch.load(model_path, map_location=self.device, weights_only=True)[
-                                state
-                            ]
+                            torch.load(model_path, map_location=self.device, weights_only=True)[state]
                         )
                         model.pool = True
                         self.models[f"model_{i}"] = model
@@ -357,17 +355,11 @@ class E3NNRegressor(BaseRegressor):
 
         # Read all structures in parallel with progress tracking
         database_nn["structure"] = dataset["cif_path"]
-        database_nn["structure"] = database_nn["structure"].progress_apply(
-            lambda path: read(Path(to_unix(path)))
-        )
+        database_nn["structure"] = database_nn["structure"].progress_apply(lambda path: read(Path(to_unix(path))))
 
         # Extract formula and species info
-        database_nn["formula"] = database_nn["structure"].progress_apply(
-            lambda s: s.get_chemical_formula()
-        )
-        database_nn["species"] = database_nn["structure"].progress_apply(
-            lambda s: list(set(s.get_chemical_symbols()))
-        )
+        database_nn["formula"] = database_nn["structure"].progress_apply(lambda s: s.get_chemical_formula())
+        database_nn["species"] = database_nn["structure"].progress_apply(lambda s: list(set(s.get_chemical_symbols())))
 
         # Preserve target property
         if self.target_property in dataset.columns:
@@ -688,9 +680,7 @@ class E3NNRegressor(BaseRegressor):
         tasks = []
 
         for i in range(self.n_committers):
-            logger.info(
-                f"[ASYNC] Iteration {i+1}/{self.n_committers}: Launching training on cuda:{i}..."
-            )
+            logger.info(f"[ASYNC] Iteration {i+1}/{self.n_committers}: Launching training on cuda:{i}...")
             task = loop.run_in_executor(
                 None,
                 _train_model,
@@ -733,9 +723,7 @@ class E3NNRegressor(BaseRegressor):
         """
         try:
             if asyncio.get_running_loop():  # Running inside Jupyter
-                return asyncio.create_task(
-                    self._multi(dataloader_train, dataloader_valid)
-                )  # Run as a background task
+                return asyncio.create_task(self._multi(dataloader_train, dataloader_valid))  # Run as a background task
         except RuntimeError:  # Running as a script
             logger.info("[SCRIPT] Running in a script. Using asyncio.run().")
             asyncio.run(self._multi(dataloader_train, dataloader_valid))
@@ -769,14 +757,10 @@ class E3NNRegressor(BaseRegressor):
                 model_history_path = self.models_dir / f
                 try:
                     # Load history
-                    history = torch.load(
-                        model_history_path, map_location=self.device, weights_only=True
-                    )["history"]
+                    history = torch.load(model_history_path, map_location=self.device, weights_only=True)["history"]
                 except KeyError:
                     logger.error(f"KeyError: 'history' not found in {model_history_path}")
-                    raise KeyError(
-                        f"Model history for {f} does not contain expected 'history' key."
-                    )
+                    raise KeyError(f"Model history for {f} does not contain expected 'history' key.")
 
                 # If history is loaded, set flag to True
                 models_found = True
@@ -841,14 +825,10 @@ class E3NNRegressor(BaseRegressor):
         """
         if return_df:
             prediction_nn = pd.DataFrame()
-            prediction_nn["true_value"] = [
-                item[0] for batch in dataloader for item in batch["target"].tolist()
-            ]
+            prediction_nn["true_value"] = [item[0] for batch in dataloader for item in batch["target"].tolist()]
 
             for i in tqdm(range(self.n_committers), desc="models"):
-                prediction_nn[f"model_{i}_prediction"] = np.empty(
-                    (len(dataloader.dataset), 1)
-                ).tolist()
+                prediction_nn[f"model_{i}_prediction"] = np.empty((len(dataloader.dataset), 1)).tolist()
                 prediction_nn[f"model_{i}_loss"] = 0.0
 
                 self.models[f"model_{i}"].to(self.device)
@@ -858,12 +838,7 @@ class E3NNRegressor(BaseRegressor):
                     for j, d in tqdm(enumerate(dataloader), total=len(dataloader)):
                         d.to(self.device)
                         output = self.models[f"model_{i}"](d)
-                        loss = (
-                            F.l1_loss(output, d.target, reduction="none")
-                            .mean(dim=-1)
-                            .cpu()
-                            .numpy()
-                        )
+                        loss = F.l1_loss(output, d.target, reduction="none").mean(dim=-1).cpu().numpy()
                         prediction_nn.loc[i0 : i0 + len(d.target) - 1, f"model_{i}_prediction"] = [
                             k for k in output.cpu().numpy()
                         ]
@@ -878,9 +853,7 @@ class E3NNRegressor(BaseRegressor):
                 prediction_nn[f"model_{i}"]["true_value"] = [
                     item[0] for batch in dataloader for item in batch["target"].tolist()
                 ]
-                prediction_nn[f"model_{i}"]["prediction"] = np.empty(
-                    (len(dataloader.dataset), 1)
-                ).tolist()
+                prediction_nn[f"model_{i}"]["prediction"] = np.empty((len(dataloader.dataset), 1)).tolist()
 
                 self.models[f"model_{i}"].to(self.device)
                 self.models[f"model_{i}"].eval()
@@ -889,23 +862,16 @@ class E3NNRegressor(BaseRegressor):
                     for j, d in tqdm(enumerate(dataloader), total=len(dataloader)):
                         d.to(self.device)
                         output = self.models[f"model_{i}"](d)
-                        loss = (
-                            F.l1_loss(output, d.target, reduction="none")
-                            .mean(dim=-1)
-                            .cpu()
-                            .numpy()
-                        )
-                        prediction_nn[f"model_{i}"].loc[
-                            i0 : i0 + len(d.target) - 1, "prediction"
-                        ] = [k for k in output.cpu().numpy()]
+                        loss = F.l1_loss(output, d.target, reduction="none").mean(dim=-1).cpu().numpy()
+                        prediction_nn[f"model_{i}"].loc[i0 : i0 + len(d.target) - 1, "prediction"] = [
+                            k for k in output.cpu().numpy()
+                        ]
                         prediction_nn[f"model_{i}"].loc[i0 : i0 + len(d.target) - 1, "loss"] = loss
                         i0 += len(d.target)
 
         return prediction_nn
 
-    def plot_parity(
-        self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True
-    ):
+    def plot_parity(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
         """
         Plot a parity plot for model predictions and their comparison with true values.
 
@@ -948,16 +914,12 @@ class E3NNRegressor(BaseRegressor):
             )
 
             # Reference line (1:1 line)
-            ax.axline(
-                (np.mean(y_true), np.mean(y_true)), slope=1, lw=0.85, ls="--", color="k", zorder=2
-            )
+            ax.axline((np.mean(y_true), np.mean(y_true)), slope=1, lw=0.85, ls="--", color="k", zorder=2)
 
             # Add inset histogram
             if i == 0:  # Create inset only once
                 axin = ax.inset_axes([0.65, 0.17, 0.3, 0.3])
-            axin.hist(
-                error, bins=int(np.sqrt(len(error))), alpha=0.6, color=colors[i % len(colors)]
-            )
+            axin.hist(error, bins=int(np.sqrt(len(error))), alpha=0.6, color=colors[i % len(colors)])
             axin.hist(error, bins=int(np.sqrt(len(error))), histtype="step", lw=1, color="black")
 
             # Annotate R² values dynamically
@@ -1017,12 +979,8 @@ class E3NNRegressor(BaseRegressor):
         fig.suptitle("Parity Plot", fontsize=10)
 
         # Save figures
-        fig.savefig(
-            self.figures_dir / (self._model_spec + "_parity.png"), dpi=330, bbox_inches="tight"
-        )
-        fig.savefig(
-            self.figures_dir / (self._model_spec + "_parity.pdf"), dpi=330, bbox_inches="tight"
-        )
+        fig.savefig(self.figures_dir / (self._model_spec + "_parity.png"), dpi=330, bbox_inches="tight")
+        fig.savefig(self.figures_dir / (self._model_spec + "_parity.pdf"), dpi=330, bbox_inches="tight")
 
         # Show plot
         plt.show()
@@ -1061,12 +1019,10 @@ class E3NNRegressor(BaseRegressor):
                     ]
                     i0 += len(d.symbol)
 
-        prediction_nn["regressor_mean"] = prediction_nn[
-            [f"regressor_{i}" for i in range(self.n_committers)]
-        ].mean(axis=1)
-        prediction_nn["regressor_std"] = prediction_nn[
-            [f"regressor_{i}" for i in range(self.n_committers)]
-        ].std(axis=1)
+        prediction_nn["regressor_mean"] = prediction_nn[[f"regressor_{i}" for i in range(self.n_committers)]].mean(
+            axis=1
+        )
+        prediction_nn["regressor_std"] = prediction_nn[[f"regressor_{i}" for i in range(self.n_committers)]].std(axis=1)
 
         return prediction_nn
 
@@ -1093,9 +1049,7 @@ class E3NNRegressor(BaseRegressor):
             - If `save_final` is set to True, the predictions are saved to the database in the
             `final` stage.
         """
-        logger.info(
-            f"Discarding materials with classifier committee confidence threshold < {confidence_threshold}."
-        )
+        logger.info(f"Discarding materials with classifier committee confidence threshold < {confidence_threshold}.")
         logger.info("Featurizing and loading database as `tg.loader.DataLoader`.")
         dataloader_db, _ = self.create_dataloader(db, confidence_threshold)
         logger.info("Predicting the target property for candidate specialized materials.")

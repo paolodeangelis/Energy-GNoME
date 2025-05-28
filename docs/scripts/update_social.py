@@ -145,16 +145,10 @@ def create_test_image(image_path, title, description, site_name="Energy GNoME", 
     # Load the background image
     try:
         background = Image.open(background_path)
-        background = ImageOps.fit(
-            background, (card_width, card_height), method=Image.Resampling.LANCZOS
-        )
+        background = ImageOps.fit(background, (card_width, card_height), method=Image.Resampling.LANCZOS)
     except FileNotFoundError:
-        print(
-            f"Warning: Background image not found at {background_path}. Using a plain background."
-        )
-        background = Image.new(
-            "RGB", (card_width, card_height), color=(255, 255, 255)
-        )  # Plain white background
+        print(f"Warning: Background image not found at {background_path}. Using a plain background.")
+        background = Image.new("RGB", (card_width, card_height), color=(255, 255, 255))  # Plain white background
 
     # Load the icon
     try:
@@ -251,9 +245,7 @@ def process_files():
     for root, _, files in tqdm(list(os.walk(BUILD_DIR)), desc="making social"):
         for file in files:
             if any(folder in root.split(os.sep) for folder in SUBDIR_TO_SKIP):
-                print(
-                    f"Skipping operation for {file} in {root} as it is in one of the excluded subfolders."
-                )
+                print(f"Skipping operation for {file} in {root} as it is in one of the excluded subfolders.")
                 continue
             if file.endswith(".html"):
                 html_path = os.path.join(root, file)
@@ -274,21 +266,13 @@ def process_files():
                             "description": meta_social[relative_html_path].get(
                                 "description", metadata.get("description")
                             ),
-                            "image_path": meta_social[relative_html_path].get(
-                                "img", metadata.get("image_path")
-                            ),
+                            "image_path": meta_social[relative_html_path].get("img", metadata.get("image_path")),
                         }
                     )
 
                 # Ensure image path is set
-                img_path = (
-                    os.path.join(BUILD_DIR, metadata["image_path"])
-                    if metadata["image_path"]
-                    else None
-                )
-                metadata["image_url"] = (
-                    f"{SITE_PREFIX}{metadata['image_path']}" if metadata["image_path"] else None
-                )
+                img_path = os.path.join(BUILD_DIR, metadata["image_path"]) if metadata["image_path"] else None
+                metadata["image_url"] = f"{SITE_PREFIX}{metadata['image_path']}" if metadata["image_path"] else None
 
                 # Update the HTML metadata
                 update_html_meta(html_path, metadata)
