@@ -6,9 +6,9 @@ Along with the database, we plan to release the full Python library to ensure co
 
 - [ ] `energy-gnome` python library
     - [ ] Data handlers Objects
-        - [X] Cathodes
+        - [ ] Cathodes
         - [X] Perovskites
-        - [ ] Thermoelectrics
+        - [X] Thermoelectrics
         - [X] Materials Project
         - [X] GNoME
     - [ ] Model handlers Objects
@@ -17,13 +17,13 @@ Along with the database, we plan to release the full Python library to ensure co
             - [X] Regressors
         - [ ] GBDT
             - [X] AI-Experts
-            - [ ] Regressors
+            - [X] Regressors
     - [ ] CLI `e-gnome`
     - [ ] `Makefile`
 - [ ] `jupyter` notebooks tutorials
     - [ ] Cathodes
-    - [ ] Perovskites
-    - [ ] Thermoelectrics
+    - [X] Perovskites
+    - [X] Thermoelectrics
 
 ![Coming Soon](../assets/img/coming_soon_light.png#only-light)
 ![Coming Soon](../assets/img/coming_soon_dark.png#only-dark)

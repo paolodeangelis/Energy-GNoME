@@ -68,3 +68,39 @@ def featurizing_structure_pipeline(
         featurized_data[property_interest] = data[property_interest].values
 
     return featurized_data
+
+
+def featurizing_composition_pipeline(
+    data: pd.DataFrame, index: str = "formula", property_interest: str = None
+) -> pd.DataFrame:
+    """
+    Featurizes the given dataset for composition features.
+
+    Args:
+        data (pd.DataFrame): Input dataframe containing 'composition' columns.
+        index (str, optional): Database columns to use as dataframe index.
+        property_interest (str, optional): The property of interest to include in the output dataframe.
+
+    Returns:
+        pd.DataFrame: A dataframe with the featurized composition and structure data.
+    """
+    composition_featurizer = MultipleFeaturizer(
+        [
+            cf.Stoichiometry(),
+            cf.ElementProperty.from_preset("magpie"),
+            cf.ValenceOrbital(props=["avg"]),
+            cf.IonProperty(fast=True),
+        ]
+    )
+
+    # Featurize composition data
+    featurized_data = pd.DataFrame(
+        composition_featurizer.featurize_many(data["composition"], ignore_errors=True),
+        columns=composition_featurizer.feature_labels(),
+        index=data[index],
+    )
+
+    if "temperature(K)" in data.columns:
+        featurized_data["temperature(K)"] = list(data["temperature(K)"])
+
+    return featurized_data

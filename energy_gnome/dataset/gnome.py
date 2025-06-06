@@ -1,25 +1,17 @@
-from datetime import datetime
-from functools import partial
-import json
-from multiprocessing import Pool, get_context
+import gc
+import multiprocessing
 import os
 from pathlib import Path
 import shutil as sh
 import subprocess
-from typing import Any
-import zipfile
 
-import numpy as np
 import pandas as pd
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
-from energy_gnome.config import DATA_DIR  # noqa:401
+from energy_gnome.config import DATA_DIR, EXTERNAL_DATA_DIR  # noqa:401
 from energy_gnome.dataset.base_dataset import BaseDatabase
-from energy_gnome.exception import ImmutableRawDataError, MissingData
+from energy_gnome.exception import ImmutableRawDataError
 from energy_gnome.utils.logger_config import logger
-
-# Paths
-GNoME_DATA_DIR = DATA_DIR / "external" / "gdm_materials_discovery" / "gnome_data"
 
 
 class GNoMEDatabase(BaseDatabase):
@@ -43,162 +35,259 @@ class GNoMEDatabase(BaseDatabase):
         super().__init__(name=name, data_dir=data_dir)
 
         # Force single directory for raw database of GNoMEDatabase
-        self.database_directories["raw"] = self.data_dir / "raw" / "gnome"
+        # self.database_paths["raw"] = self.data_dir / "raw" / "gnome" / "database.json"
 
         self._gnome = pd.DataFrame()
         self._is_specialized = False
+        self.external_gnome_dir = self.data_dir / Path(EXTERNAL_DATA_DIR) / "gdm_materials_discovery" / "gnome_data"
+        self.load_all()
 
     def retrieve_materials(self) -> pd.DataFrame:
         """
         TBD (after implementing the fetch routine)
         """
-        csv_db = pd.read_csv(GNoME_DATA_DIR / "stable_materials_summary.csv", index_col=0)
-        csv_db = csv_db.rename(columns={"MaterialId": "material_id"})
+        csv_db = pd.read_csv(self.external_gnome_dir / "stable_materials_summary.csv", index_col=0)
+        csv_db = csv_db.rename(columns={"MaterialId": "material_id", "Reduced Formula": "formula_pretty"})
 
         return csv_db
 
+    def compare_and_update(self, new_db: pd.DataFrame, stage: str) -> pd.DataFrame:
+        """
+        Compare and update the database with new entries.
+
+        This method checks for new entries in the provided database and updates the stored
+        database accordingly. It ensures that raw data remains immutable unless explicitly
+        allowed. If new entries are found, the old database is backed up, and a changelog
+        is created.
+
+        Args:
+            new_db (pd.DataFrame): The new database to compare against the existing one.
+            stage (str): The processing stage ("raw", "processed", "final").
+
+        Returns:
+            pd.DataFrame: The updated database containing new entries.
+
+        Raises:
+            ImmutableRawDataError: If attempting to modify raw data without explicit permission.
+
+        Logs:
+            - WARNING: If new items are detected in the database.
+            - ERROR: If an attempt is made to modify immutable raw data.
+            - INFO: When saving or updating the database.
+            - INFO: If no new items are found and no update is required.
+        """
+        old_db = self.get_database(stage=stage)
+
+        db_diff = self.compare_databases(new_db, stage)
+
+        if not db_diff.empty:
+            logger.warning(f"The new database contains {len(db_diff)} new items.")
+
+            if stage == "raw" and not self._update_raw:
+                logger.error("Raw data must be treated as immutable!")
+                logger.error(
+                    "It's okay to read and copy raw data to manipulate it into new outputs, but never okay to change it in place."
+                )
+                raise ImmutableRawDataError(
+                    "Raw data must be treated as immutable!\n"
+                    "It's okay to read and copy raw data to manipulate it into new outputs, but never okay to change it in place."
+                )
+            else:
+                if stage == "raw":
+                    logger.info("Be careful you are changing the raw data which must be treated as immutable!")
+                if old_db.empty:
+                    logger.info(f"Saving new {stage} data in {self.database_paths[stage]}.")
+                else:
+                    logger.info(f"Updating the {stage} data and saving it in {self.database_paths[stage]}.")
+                    self.backup_and_changelog(
+                        old_db,
+                        new_db,
+                        db_diff,
+                        stage,
+                    )
+
+                self.databases[stage] = new_db.copy()
+                self.save_database(stage)
+        else:
+            logger.info("No new items found. No update required.")
+
     def save_cif_files(self) -> None:
         """
-        Save CIF files for materials and update the database accordingly.
-        Uses OS-native unzippers for maximum speed.
+        Extract and store CIF structure files, and update the database with their paths.
+
+        This method unzips a compressed archive of CIF files (`by_id.zip`) into a structured
+        directory (`raw/structures/by_id`) using OS-native unzipping tools in an isolated
+        subprocess for robustness and performance. It then updates the `cif_path` column of
+        the raw database to reflect the location of the extracted files.
+
+        Notes:
+            - On Windows, this method requires **7-Zip** to be installed and available via the command line.
+            - The unzipping process is done in a separate process to ensure isolation and avoid crashes
+            from subprocess errors or memory issues.
+            - If the output folder already exists, it will be **fully deleted** and recreated.
+            - To avoid slowdowns in environments that continuously index files (e.g., VSCode),
+            it is recommended to **exclude the `by_id/` subfolder** from indexing by adding the
+            following to `.vscode/settings.json`:
+
+            ```json
+            {
+            "files.watcherExclude": {
+                "**/by_id/**": true
+            },
+            "search.exclude": {
+                "**/by_id/**": true
+            },
+            "files.exclude": {
+                "**/by_id/**": true
+            }
+            }
+            ```
+
+        Raises:
+            RuntimeError: If the unzip process fails in the isolated subprocess.
+            Exception: If any other error occurs during unzipping or path updating.
+
+        Logs:
+            - WARN: If the output folder already exists and is being deleted.
+            - INFO: About the unzip source and destination.
+            - ERROR: If an error occurs during the unzip process.
+            - SUCCESS: When CIF extraction and database updating complete successfully.
         """
-        zip_path = GNoME_DATA_DIR / "by_id.zip"
+        zip_path = self.external_gnome_dir / "by_id.zip"
         output_path = self.database_directories["raw"] / "structures"
-        output_path.mkdir(parents=True, exist_ok=True)
+
+        # Clear and recreate directory
+        if output_path.exists():
+            logger.warning(f"Cleaning {output_path}")
+            logger.warning("This may take a while...")
+            sh.rmtree(output_path)
+        output_path.mkdir(parents=True, exist_ok=False)
+
+        extracted_dir = output_path / "by_id"
 
         logger.info("Unzipping structures from")
         logger.info(f"{zip_path}")
         logger.info("to")
-        logger.info(f"{output_path}")
-        logger.info("using native OS unzip...")
-
-        # OS-native unzip
-        if os.name == "nt":  # Windows
-            unzip_command = ["tar", "-xf", zip_path, "-C", output_path]
-        else:  # Linux/macOS
-            unzip_command = ["unzip", "-o", zip_path, "-d", output_path]
+        logger.info(f"{extracted_dir}")
 
         try:
-            subprocess.run(unzip_command, check=True, capture_output=True, text=True)
+            self._unzip_with_isolation(zip_path, output_path)
             logger.info("Extraction complete!")
-        except subprocess.CalledProcessError as e:
-            logger.error(f"Error unzipping CIF file: {e.stderr}")
+        except Exception as e:
+            logger.error(f"Error during unzip: {e}")
             return
-
-        # Check if "by_id" subfolder exists
-        extracted_dir = output_path / "by_id"
-        if extracted_dir.exists() and extracted_dir.is_dir():
-            logger.info("Flattening extracted files by moving contents from")
-            logger.info(f"{extracted_dir}")
-            logger.info("to")
-            logger.info(f"{output_path}")
-
-            if os.name == "nt":
-                # Windows - use native move command
-                move_command = ["robocopy", str(extracted_dir), str(output_path), "/move", "/e"]
-            else:
-                # Linux/macOS - use `rsync` or `mv` for efficiency
-                move_command = ["mv", str(extracted_dir) + "/*", str(output_path)]
-
-            try:
-                subprocess.run(move_command, check=True, shell=True, capture_output=True, text=True)
-                extracted_dir.rmdir()  # Remove the now-empty folder
-            except subprocess.CalledProcessError as e:
-                logger.error(f"Error moving files: {e.stderr}")
-                return
 
         # Update Database
         df = self.get_database("raw")
-        df["cif_path"] = df["material_id"].astype(str).apply(lambda x: (output_path / f"{x}.CIF").as_posix())
+        df = self._update_cif_paths_with_tqdm(df, extracted_dir)
 
         self.save_database("raw")
+        del df
+        gc.collect()
         logger.info("CIF files saved and database updated successfully.")
 
-    def copy_cif_files(self):
-        pass
+    def _unzip_native(self, zip_path, output_path):
+        if os.name == "nt":
+            cmd = ["7z", "x", str(zip_path), f"-o{output_path}", "-y"]
+        else:
+            cmd = ["unzip", "-o", str(zip_path), "-d", str(output_path)]
 
-    '''
-    def filter_by_elements(
-            self,
-            include: list[str] = None,
-            exclude: list[str] = None
-        ) -> pd.DataFrame:
+        subprocess.run(cmd, check=True)
+
+    def _unzip_with_isolation(self, zip_path, output_path):
+        p = multiprocessing.Process(target=self._unzip_native, args=(zip_path, output_path))
+        p.start()
+        p.join()
+        if p.exitcode != 0:
+            raise RuntimeError(f"Unzipping failed with exit code {p.exitcode}")
+
+    def _update_cif_paths_with_tqdm(self, df: pd.DataFrame, output_path: Path, chunk_size: int = 10000) -> pd.DataFrame:
         """
-        Filters the database entries based on the presence or absence of specified chemical elements.
+        Updates the 'cif_path' column in chunks with a tqdm progress bar.
+        """
+        total_rows = len(df)
+
+        # Calculate total chunks
+        with tqdm(total=total_rows, desc="Updating CIF paths", unit="file") as pbar:
+            for i in range(0, total_rows, chunk_size):
+                end = min(i + chunk_size, total_rows)
+                df.loc[i : end - 1, "cif_path"] = (
+                    output_path.as_posix() + "/" + df.loc[i : end - 1, "material_id"].astype(str) + ".CIF"
+                )
+                pbar.update(end - i)
+
+        return df
+
+    def remove_cross_overlap(
+        self,
+        stage: str,
+        df: pd.DataFrame,
+        inplace: bool = False,
+        new_name: str = "gnome_clean",
+    ) -> pd.DataFrame:
+        """
+        Remove entries in the unexplored database that overlap with a category-specific database.
+
+        This function identifies and removes material entries that exist in both the unexplored
+        and category-specific databases for a given processing stage.
 
         Args:
-            include (list[str], optional): A list of chemical elements that must be present in the composition.
-                                        If None, no filtering is applied based on inclusion.
-            exclude (list[str], optional): A list of chemical elements that must not be present in the composition.
-                                        If None, no filtering is applied based on exclusion.
+            stage (str): Processing stage (`raw`, `processed`, `final`).
+            df (pd.DataFrame): The category-specific database to compare with the unexplored database.
+            save_db (bool): Whether to save the filtered database back into the internal store.
 
         Returns:
-            (pd.DataFrame): A filtered DataFrame containing only the entries that match the inclusion/exclusion
-                            criteria.
+            pd.DataFrame: The filtered unexplored database with overlapping entries removed.
 
         Raises:
-            ValueError: If both `include` and `exclude` lists are empty.
+            ValueError: If an invalid processing stage is provided.
 
-        Notes:
-            - If both `include` and `exclude` are provided, the function will return entries that contain at least one
-            of the `include` elements but none of the `exclude` elements.
+        Logs:
+            - ERROR: If an invalid stage is given.
+            - INFO: Number of overlapping entries identified and removed.
         """
-        if include is None:
-            include = []
-        if exclude is None:
-            exclude = []
+        if stage not in self.processing_stages:
+            logger.error(f"Invalid stage: {stage}. Must be one of {self.processing_stages}.")
+            raise ValueError(f"stage must be one of {self.processing_stages}.")
 
-        if not include and not exclude:
-            raise ValueError("At least one of `include` or `exclude` must be specified.")
+        self.load_database(stage)
+        gnome_df = self.get_database(stage)
 
-        df = self.get_database("final")
+        # Use set for fast lookup
+        overlap_set = set(df["formula_pretty"])
 
-        def contains_elements(elements_str, elements_list: list[str]) -> bool:
-            """Checks if at least one element from elements_list is exactly present in Elements."""
-            if isinstance(elements_str, str):  # Convert string to list if needed
-                try:
-                    elements = eval(elements_str)  # Safely parse string to list
-                    if not isinstance(elements, list):
-                        return False
-                except:
-                    return False
-            else:
-                elements = elements_str  # If it's already a list, use it as is
+        # Use vectorized filtering
+        mask = ~gnome_df["formula_pretty"].isin(overlap_set)
+        to_drop = (~mask).sum()
+        logger.info(f"{to_drop} overlapping items to drop.")
 
-            return bool(set(elements) & set(elements_list))  # Exact match check
+        gnome_df_no_overlap = gnome_df.loc[mask].reset_index(drop=True)
 
-        # Apply filtering
-        if include:
-            df = df[df["Elements"].apply(lambda x: contains_elements(x, include))]
-        if exclude:
-            df = df[~df["Elements"].apply(lambda x: contains_elements(x, exclude))]
-
-        return df'
-    '''
+        if inplace:
+            self.databases[stage] = gnome_df_no_overlap.copy()
+            self.save_database(stage)
+        else:
+            return gnome_df_no_overlap
 
     def filter_by_elements(
-        self,
-        include: list[str] = None,
-        exclude: list[str] = None,
-        stage: str = "final",
-        save_filtered_db: bool = False,
+        self, include: list[str] = None, exclude: list[str] = None, stage: str = "final", save_filtered_db: bool = False
     ) -> pd.DataFrame:
         """
         Filters the database entries based on the presence or absence of specified chemical elements or element groups.
 
         Args:
             include (list[str], optional): A list of chemical elements that must be present in the composition.
-                                           - If None, no filtering is applied based on inclusion.
-                                           - If an element group is passed using the format `"A-B"`, the material must
-                                             contain *all* elements in that group.
+                - If None, no filtering is applied based on inclusion.
+                - If an element group is passed using the format `"A-B"`, the material must
+                    contain *all* elements in that group.
             exclude (list[str], optional): A list of chemical elements that must not be present in the composition.
-                                           - If None, no filtering is applied based on exclusion.
-                                           - If an element group is passed using the format `"A-B"`, the material is
-                                             removed *only* if it contains *all* elements in that group.
+                - If None, no filtering is applied based on exclusion.
+                - If an element group is passed using the format `"A-B"`, the material is
+                    removed *only* if it contains *all* elements in that group.
             stage (str, optional): The processing stage to retrieve the database from. Defaults to `"final"`.
-                                   Possible values: `"raw"`, `"processed"`, `"final"`.
+                Possible values: `"raw"`, `"processed"`, `"final"`.
             save_filtered_db (bool, optional): If True, saves the filtered database back to `self.databases[stage]`
-                                               and updates the stored database. Defaults to False.
+                and updates the stored database. Defaults to False.
 
         Returns:
             (pd.DataFrame): A filtered DataFrame containing only the entries that match the inclusion/exclusion
@@ -209,12 +298,12 @@ class GNoMEDatabase(BaseDatabase):
 
         Notes:
             - If both `include` and `exclude` are provided, the function will return entries that contain at least one
-              of the `include` elements but none of the `exclude` elements.
+                of the `include` elements but none of the `exclude` elements.
             - If an entry in `include` is in the format `"A-B"`, the material must contain all elements in that group.
             - If an entry in `exclude` is in the format `"A-B"`, the material is removed only if it contains *all*
-              elements in that group.
+                elements in that group.
             - If `save_filtered_db` is True, the filtered DataFrame is stored in `self.databases[stage]` and saved
-              persistently.
+                persistently.
         """
 
         if include is None:

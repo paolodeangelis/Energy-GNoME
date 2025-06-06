@@ -1,26 +1,20 @@
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
-import json
 from pathlib import Path
 import shutil as sh
-from typing import Any
 
 from mp_api.client import MPRester
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from energy_gnome.config import DATA_DIR, INTERIM_DATA_DIR, RAW_DATA_DIR  # noqa:401
+from energy_gnome.config import DATA_DIR  # noqa:401
 from energy_gnome.dataset.base_dataset import BaseDatabase
-from energy_gnome.exception import ImmutableRawDataError, MissingData
+from energy_gnome.exception import ImmutableRawDataError
 from energy_gnome.utils.logger_config import logger
 from energy_gnome.utils.mp_api_utils import (
     convert_my_query_to_dataframe,
     get_mp_api_key,
 )
-
-# Paths
-MP_RAW_DATA_DIR = RAW_DATA_DIR / "mp"
 
 # Fields
 
@@ -68,35 +62,50 @@ class MPDatabase(BaseDatabase):
         super().__init__(name=name, data_dir=data_dir)
 
         # Force single directory for raw database of MPDatabase
-        self.database_directories["raw"] = self.data_dir / "raw" / "mp"
+        self.database_paths["raw"] = self.data_dir / "raw" / "mp" / "database.json"
 
         self._mp = pd.DataFrame()
-        self.is_specialized = False
+        self._is_specialized = False
+        self.load_all()
 
     def retrieve_materials(self, max_framework_size: int = 6, mute_progress_bars: bool = True) -> pd.DataFrame:
         """
-        Retrieve materials from the Materials Project API.
+        Retrieve and clean materials data from the Materials Project API.
 
-        This method connects to the Materials Project API using the `MPRester`, queries
-        for all materials, and retrieves specified properties. The data is then cleaned
-        by removing rows with missing critical fields.
-        The method returns a cleaned DataFrame of materials.
+        This method connects to the Materials Project using an API key, iteratively queries
+        materials by increasing chemical system complexity (from binary to (`max_framework_size`+1)-element
+        systems), and retrieves specified material properties. The results are compiled into a single
+        DataFrame, cleaned of missing critical fields, and stored internally.
 
         Args:
-            mute_progress_bars (bool, optional):
-                If `True`, mutes the Material Project API progress bars during the request.
-                Defaults to `True`.
+            max_framework_size (int, optional): One less than the maximum number of elements in the chemical
+                system to include when querying. For example, a value of 5 will query systems with 2 to 6 elements.
+                This defines the upper bound for the number of `*` wildcards used in the chemical system query.
+                Defaults to 6.
+            mute_progress_bars (bool, optional): If `True`, disables progress bars from the API client
+                and other utilities. Useful for cleaner logging in batch scripts or tests. Defaults to True.
 
         Returns:
-            (pd.DataFrame): A DataFrame containing the retrieved and cleaned materials.
+            pd.DataFrame: A cleaned and structured DataFrame containing the retrieved materials data.
+                Also returns the raw query results (list of material summaries).
 
         Raises:
-            Exception: If the API query fails or any issue occurs during data retrieval.
+            Exception: Propagates any exception raised during API querying (e.g., authentication failure,
+                connection issues, or malformed responses).
 
         Logs:
-            - DEBUG: Logs the process of querying and cleaning data.
-            - INFO: Logs successful query results and how many materials were retrieved.
-            - SUCCESS: Logs the successful retrieval of materials.
+            - DEBUG: Logs detailed steps of the query and cleaning processes.
+            - INFO: Logs progress for each chemical system queried and total results.
+            - SUCCESS: Confirms completion of material retrieval.
+
+        Notes:
+            - Uses the `get_mp_api_key()` utility to obtain the Materials Project API key.
+            - Drops rows missing any values in `CRITICAL_FIELD`, and columns that are entirely NaN.
+            - Stores the final DataFrame internally as `self._mp`.
+
+        Example:
+            >>> db = SomeCustomDatabase()
+            >>> df, raw = db.retrieve_materials(max_framework_size=3)
         """
         mp_api_key = get_mp_api_key()
         logger.debug("MP querying for all materials.")
@@ -112,20 +121,20 @@ class MPDatabase(BaseDatabase):
             except Exception as e:
                 raise e
         logger.debug("Converting MP query results into DataFrame.")
-        mp_database = convert_my_query_to_dataframe(query, mute_progress_bars=mute_progress_bars)
+        mp_df = convert_my_query_to_dataframe(query, mute_progress_bars=mute_progress_bars)
 
         # Fast cleaning
         logger.debug("Removing NaN (rows)")
-        logger.debug(f"size DB before = {len(mp_database)}")
-        mp_database = mp_database.dropna(axis=0, how="any", subset=CRITICAL_FIELD)
-        logger.debug(f"size DB after = {len(mp_database)}")
+        logger.debug(f"size DB before = {len(mp_df)}")
+        mp_df = mp_df.dropna(axis=0, how="any", subset=CRITICAL_FIELD)
+        logger.debug(f"size DB after = {len(mp_df)}")
         logger.debug("Removing NaN (cols)")
-        logger.debug(f"size DB before = {len(mp_database)}")
-        mp_database = mp_database.dropna(axis=1, how="all")
-        logger.debug(f"size DB after = {len(mp_database)}")
+        logger.debug(f"size DB before = {len(mp_df)}")
+        mp_df = mp_df.dropna(axis=1, how="all")
+        logger.debug(f"size DB after = {len(mp_df)}")
 
-        mp_database.reset_index(drop=True, inplace=True)
-        self._mp = mp_database.copy()
+        mp_df.reset_index(drop=True, inplace=True)
+        self._mp = mp_df.copy()
 
         logger.success("Materials retrieved successfully.")
         return self._mp, query
@@ -157,7 +166,7 @@ class MPDatabase(BaseDatabase):
 
         # Set up directory for saving CIF files
         saving_dir = self.database_directories[stage] / "structures/"
-        database = self.get_database(stage)
+        df = self.get_database(stage)
 
         # Ensure raw data integrity
         if stage == "raw" and not self._update_raw:
@@ -171,10 +180,10 @@ class MPDatabase(BaseDatabase):
         saving_dir.mkdir(parents=True, exist_ok=False)
 
         # Create a lookup dictionary for material IDs → DataFrame row indices
-        material_id_to_index = {mid: idx for idx, mid in enumerate(database["material_id"])}
+        material_id_to_index = {mid: idx for idx, mid in enumerate(df["material_id"])}
 
         # Fetch structures in batches
-        ids_list = database["material_id"].tolist()
+        ids_list = df["material_id"].tolist()
         n_batch = int(np.ceil(len(ids_list) / MP_BATCH_SIZE))
         mp_api_key = get_mp_api_key()
 
@@ -222,17 +231,13 @@ class MPDatabase(BaseDatabase):
                         all_cif_paths[material_id] = cif_path
 
         # Bulk update DataFrame in one step (vectorized)
-        database["cif_path"] = database["material_id"].map(all_cif_paths)
+        df["cif_path"] = df["material_id"].map(all_cif_paths)
 
         # Save the updated database
         self.save_database(stage)
         logger.info(f"CIF files for stage '{stage}' saved and database updated successfully.")
 
-    def remove_cross_overlap(
-        self,
-        stage: str,
-        database: pd.DataFrame,
-    ) -> pd.DataFrame:
+    def remove_cross_overlap(self, stage: str, df: pd.DataFrame, save_db: bool = False) -> pd.DataFrame:
         """
         Remove entries in the generic database that overlap with a category-specific database.
 
@@ -241,7 +246,7 @@ class MPDatabase(BaseDatabase):
 
         Args:
             stage (str): Processing stage (`raw`, `processed`, `final`).
-            database (pd.DataFrame): The category-specific database to compare with the generic database.
+            df (pd.DataFrame): The category-specific database to compare with the generic database.
 
         Returns:
             pd.DataFrame: The filtered generic database with overlapping entries removed.
@@ -258,16 +263,23 @@ class MPDatabase(BaseDatabase):
             raise ValueError(f"stage must be one of {self.processing_stages}.")
 
         self.load_database(stage)
-        mp_database = self.get_database(stage)
-        id_overlap = database["material_id"].tolist()
+        mp_df = self.get_database(stage)
+        if "material_id" in df.columns:
+            id_overlap = df["material_id"].tolist()
+            mp_df["to_drop"] = mp_df.apply(lambda x: x["material_id"] in id_overlap, axis=1)
+        else:
+            formula_overlap = df["formula_pretty"].tolist()
+            mp_df["to_drop"] = mp_df.apply(lambda x: x["formula_pretty"] in formula_overlap, axis=1)
 
-        mp_database["to_drop"] = mp_database.apply(lambda x: x["material_id"] in id_overlap, axis=1)
-        to_drop = mp_database["to_drop"].value_counts().get(True, 0)
+        to_drop = mp_df["to_drop"].value_counts().get(True, 0)
         logger.info(f"{to_drop} overlapping items to drop.")
-        mp_database_no_overlap = mp_database.iloc[np.where(mp_database["to_drop"] == 0)[0], :].reset_index(drop=True)
-        mp_database_no_overlap.drop(columns=["to_drop"], inplace=True)
+        mp_df_no_overlap = mp_df.iloc[np.where(mp_df["to_drop"] == 0)[0], :].reset_index(drop=True)
+        mp_df_no_overlap = mp_df_no_overlap.drop(columns=["to_drop"])
 
-        return mp_database_no_overlap
+        if save_db:
+            self.databases[stage] = mp_df_no_overlap.copy()
+
+        return mp_df_no_overlap
 
     def __repr__(self) -> str:
         """

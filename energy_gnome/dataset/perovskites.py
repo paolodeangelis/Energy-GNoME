@@ -1,24 +1,19 @@
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
 import json
 from pathlib import Path
 import shutil as sh
 
 from mp_api.client import MPRester
 import pandas as pd
-from tqdm import tqdm
 
-from energy_gnome.config import DATA_DIR, EXTERNAL_DATA_DIR, RAW_DATA_DIR  # noqa:401
+from energy_gnome.config import DATA_DIR, EXTERNAL_DATA_DIR  # noqa:401
 from energy_gnome.dataset.base_dataset import BaseDatabase
-from energy_gnome.exception import ImmutableRawDataError, MissingData
+from energy_gnome.exception import ImmutableRawDataError
 from energy_gnome.utils.logger_config import logger
 from energy_gnome.utils.mp_api_utils import (
     convert_my_query_to_dataframe,
     get_mp_api_key,
 )
-
-# Paths
-PEROVSKITES_RAW_DATA_DIR = RAW_DATA_DIR / "perovskites"
 
 # Fields
 
@@ -66,7 +61,6 @@ class PerovskiteDatabase(BaseDatabase):
         self,
         name: str = "perovskites",
         data_dir: Path | str = DATA_DIR,
-        external_perovproj_path: Path | str = EXTERNAL_DATA_DIR / Path("perovskites") / Path("perovproject_db.json"),
     ):
         """
         Initialize the PerovskiteDatabase with a root data directory and processing stage.
@@ -80,9 +74,6 @@ class PerovskiteDatabase(BaseDatabase):
             name (str, optional): The name of the database. Defaults to "perovskites".
             data_dir (Path or str, optional): Root directory path for storing data. Defaults
                 to `DATA_DIR` from the configuration.
-            external_perovproj_path (Path or str, optional): Path to the external Perovskite
-                Project database file. Defaults to `EXTERNAL_DATA_DIR / "perovskites" /
-                "perovproject_db.json"`.
 
         Raises:
             NotImplementedError: If the specified processing stage is not supported.
@@ -90,8 +81,11 @@ class PerovskiteDatabase(BaseDatabase):
         """
         super().__init__(name=name, data_dir=data_dir)
         self._perovskites = pd.DataFrame()
-        self.external_perovproj_path: Path | str = external_perovproj_path
+        self.external_perovproj_path: Path | str = (
+            self.data_dir / Path(EXTERNAL_DATA_DIR) / Path("perovskites") / Path("perovproject_db.json")
+        )
         self._is_specialized = True
+        self.load_all()
 
     def _pre_retrieve_robo(self, mute_progress_bars: bool = True) -> list[str]:
         """
@@ -107,7 +101,7 @@ class PerovskiteDatabase(BaseDatabase):
 
         Returns:
             (list[str]): A list of material IDs for Perovskite materials retrieved from
-            Robocrystallographer.
+                Robocrystallographer.
 
         Raises:
             Exception: If there is an issue with the query to the Materials Project API.
@@ -139,7 +133,7 @@ class PerovskiteDatabase(BaseDatabase):
 
         Returns:
             (list[str]): A list of material IDs for Perovskite materials retrieved from
-            the Perovskite Project.
+                the Perovskite Project.
 
         Raises:
             Exception: If there is an issue with the query to the Materials Project API.
@@ -227,7 +221,6 @@ class PerovskiteDatabase(BaseDatabase):
         logger.debug(f"size DB before = {len(perovskites_database)}")
         perovskites_database["is_metal"] = perovskites_database["is_metal"].astype(bool)
         filtered_perov_database = perovskites_database[~(perovskites_database["is_metal"])]
-        # filtered_perov_database = perovskites_database
         logger.debug(f"size DB after = {len(filtered_perov_database)}")
 
         query_ids_filtered = filtered_perov_database["material_id"]
@@ -373,8 +366,8 @@ class PerovskiteDatabase(BaseDatabase):
         """
 
         if not inplace and db is None:
-            logger.error("Invalid input: You must input a pd.DataFrame if 'inplace' is set to True.")
-            raise ValueError("You must input a pd.DataFrame if 'inplace' is set to True.")
+            logger.error("Invalid input: You must input a pd.DataFrame if 'inplace' is set to False.")
+            raise ValueError("You must input a pd.DataFrame if 'inplace' is set to False.")
 
         if inplace:
             raw_db = self.get_database(stage="raw")

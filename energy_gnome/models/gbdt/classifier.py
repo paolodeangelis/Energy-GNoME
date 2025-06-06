@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import pickle
+from typing import Any
 import warnings
 
 from loguru import logger
@@ -22,7 +23,7 @@ from energy_gnome.dataset.gnome import GNoMEDatabase
 from energy_gnome.models.abc_model import BaseClassifier
 from energy_gnome.utils.readers import load_yaml, save_yaml
 
-from .utils import featurizing_structure_pipeline
+from .utils import featurizing_composition_pipeline, featurizing_structure_pipeline
 
 BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
 tqdm.pandas(bar_format=BAR_FORMAT)
@@ -45,9 +46,9 @@ class GBDTClassifier(BaseClassifier):
         Args:
             model_name (str): Name of the model, used to create subdirectories.
             models_dir (Path | str, optional): Directory for storing trained model weights.
-                                            Defaults to MODELS_DIR from config.
+                Defaults to MODELS_DIR from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to FIGURES_DIR from config.
+                Defaults to FIGURES_DIR from config.
 
         Attributes:
             _model_spec (str): Specification string used for model identification.
@@ -166,38 +167,41 @@ class GBDTClassifier(BaseClassifier):
         self,
         databases: list[BaseDatabase],
         subset: str = "training",
+        mode: str = "structure",
         max_dof: int = None,
         mute_warnings: bool = True,
     ) -> pd.DataFrame:
         """
-        Load and featurize the specified databases efficiently.
+        Load and featurize materials data from one or more databases using structure or composition-based pipelines.
 
-        This method processes the given list of databases and applies a featurization pipeline to each dataset.
-        It handles the loading of raw data from databases, extracts relevant features such as composition and
-        structure, and applies transformations to create numerical features for model training.
+        This method loads the specified subset of data from a list of `BaseDatabase` objects (e.g., GNoMEDatabase
+        or ThermoelectricDatabase) and applies a feature extraction pipeline depending on the selected mode:
+        structural or compositional. The output is a clean, numerical feature matrix suitable for training
+        machine learning models.
 
         Args:
-            databases (list[BaseDatabase]): A list of databases (or a single database) from which to
-                                            load and featurize data.
-            subset (str, optional): The subset of data to load from each database (default is "training").
-            max_dof (int, optional): Maximum degrees of freedom for the feature space. If not provided,
-                                        it is automatically calculated.
-            mute_warnings (bool, optional): Whether to suppress warnings during featurization (default is True).
+            databases (list[BaseDatabase]): One or more databases from which to load materials data.
+            subset (str, optional): The subset of the database to load (e.g., "training", "testing").
+                Defaults to "training".
+            mode (str, optional): Type of featurization to apply. Options:
+                - "structure": Parses `.cif` files and applies structure-based features.
+                - "composition": Uses only the chemical composition for features.
+                Defaults to "structure".
+            max_dof (int, optional): Maximum degrees of freedom for downstream model complexity.
+                If None, it is computed automatically based on the dataset size.
+            mute_warnings (bool, optional): Whether to suppress warnings during featurization. Defaults to True.
 
         Returns:
-            (pd.DataFrame): A DataFrame containing the featurized data, including numerical features
-                            and a column for `is_specialized`.
+            pd.DataFrame: A processed DataFrame containing only numerical features and the target property.
 
-        Warnings:
-            If `mute_warnings` is set to False, third-party warnings related to the featurization
-            process will be displayed.
+        Raises:
+            ValueError: If `mode` is not one of ["structure", "composition"].
 
         Notes:
-            - If the database contains a `Reduced Formula` or `formula_pretty` column, compositions are
-              parsed accordingly.
-            - The resulting DataFrame retains only numerical features, removes NaN rows, and includes an
-              `is_specialized` column.
-            - The method supports batch processing using `tqdm` for progress visualization during featurization.
+            - For GNoMEDatabase, data is always pulled from the "raw" stage.
+            - Structural featurization requires valid CIF paths and may be slower due to file I/O.
+            - The target property column is retained alongside features, and rows with missing values are dropped.
+            - `tqdm` is used to display progress for long-running operations.
         """
 
         if not isinstance(databases, list):
@@ -205,10 +209,11 @@ class GBDTClassifier(BaseClassifier):
 
         if mute_warnings:
             logger.warning("Third-party warnings disabled. Set 'mute_warnings=False' to enable them.")
-            self.max_dof = max_dof
+
+        self.max_dof = max_dof
 
         if isinstance(databases[0], GNoMEDatabase):
-            dataset = databases[0].get_database("raw")
+            dataset = databases[0].get_database("raw").copy()
         else:
             # Load all database subsets efficiently
             dataset = pd.concat([db.load_classifier_data(subset) for db in databases], ignore_index=True)
@@ -222,20 +227,35 @@ class GBDTClassifier(BaseClassifier):
                 warnings.simplefilter("ignore")
 
             # Apply batch processing for transformations
-            tqdm.pandas(desc="Processing structures")
-            if isinstance(databases[0], GNoMEDatabase):
-                dataset["composition"] = dataset["Reduced Formula"].progress_apply(Composition)
-            else:
-                dataset["composition"] = dataset["formula_pretty"].progress_apply(Composition)
-            dataset["structure"] = dataset["cif_path"].progress_apply(lambda x: Structure.from_file(x))
-            dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
-            dataset["is_specialized"] = dataset["is_specialized"].astype(float)
+            dataset["composition"] = dataset["formula_pretty"].progress_apply(Composition)
 
-            # Run the featurization pipeline
-            if isinstance(databases[0], GNoMEDatabase):
-                db_feature = featurizing_structure_pipeline(dataset)
+            if mode == "structure":
+                tqdm.pandas(desc="Processing structures")
+                dataset["structure"] = dataset["cif_path"].progress_apply(lambda x: Structure.from_file(x))
+                dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
+                dataset["is_specialized"] = dataset["is_specialized"].astype(float)
+
+                # Run the featurization pipeline
+                if isinstance(databases[0], GNoMEDatabase):
+                    db_feature = featurizing_structure_pipeline(dataset)
+                else:
+                    db_feature = featurizing_structure_pipeline(dataset)
+
+            # composition pipeline
+            elif mode == "composition":
+                tqdm.pandas(desc="Processing formulae")
+                dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
+                dataset[self.target_property] = dataset[self.target_property].astype(float)
+
+                # Run the featurization pipeline
+                if isinstance(databases[0], GNoMEDatabase):
+                    db_feature = featurizing_composition_pipeline(dataset)
+                else:
+                    db_feature = featurizing_composition_pipeline(dataset)
+
             else:
-                db_feature = featurizing_structure_pipeline(dataset)
+                logger.error("Invalid featurization mode. Must be one of ['structure', 'composition'].")
+                raise ValueError("mode must be one of ['structure', 'composition'].")
 
             # Retain only numerical features
             db_feature = db_feature.select_dtypes(exclude=["object", "bool"])
@@ -272,8 +292,6 @@ class GBDTClassifier(BaseClassifier):
         Args:
             n_jobs (int, optional): The number of CPU cores to use for parallel processing during the grid search.
                                     Default is 1.
-            max_dof (int, optional): The maximum degrees of freedom for feature selection. If provided,
-                                     it will control the number of features to select.
 
         Returns:
             (GridSearchCV): A GridSearchCV object that encapsulates the classifier pipeline and hyperparameter
@@ -306,6 +324,7 @@ class GBDTClassifier(BaseClassifier):
     def compile(  # noqa:A003
         self,
         n_jobs: int = 1,
+        max_dof: int = None,
     ):
         """
         Initializes the classifier pipeline and sets up the hyperparameter search.
@@ -316,7 +335,10 @@ class GBDTClassifier(BaseClassifier):
 
         Args:
             n_jobs (int, optional): The number of CPU cores to use for parallel processing during the grid search.
-                                    Default is 1.
+                Default is 1.
+            max_dof (int, optional): The maximum degrees of freedom for feature selection. If provided,
+                it will control the number of features to select.
+
 
         Returns:
             None
@@ -325,9 +347,11 @@ class GBDTClassifier(BaseClassifier):
             This method does not return any value but sets the `self.search` attribute with the initialized
             `GridSearchCV` object, which contains the classifier pipeline and hyperparameter tuning setup.
         """
+        if max_dof is None:
+            max_dof = self.max_dof
 
         logger.info("Build classifiers")
-        self.search = self._build_classifier(n_jobs=n_jobs, max_dof=self.max_dof)
+        self.search = self._build_classifier(n_jobs=n_jobs, max_dof=max_dof)
 
     def fit(self, df: pd.DataFrame):
         """
@@ -340,7 +364,7 @@ class GBDTClassifier(BaseClassifier):
 
         Args:
             df (pd.DataFrame): The input dataset. The last column is assumed to be the target variable,
-                                and all other columns are used as features.
+                and all other columns are used as features.
 
         Returns:
             None
@@ -369,22 +393,22 @@ class GBDTClassifier(BaseClassifier):
 
         Args:
             df (pd.DataFrame): The dataset containing the features and the target property (last column).
-                            The model predictions are based on all columns except the last one (target property).
+                The model predictions are based on all columns except the last one (target property).
             return_df (bool, optional): If True, returns a DataFrame with true values and predictions from each model.
-                                        If False, returns a dictionary with model predictions. Defaults to `False`.
+                If False, returns a dictionary with model predictions. Defaults to `False`.
 
         Returns:
             (pd.DataFrame): If `return_df=True`, returns a pandas DataFrame where each column
-                            corresponds to predictions and loss for each model.
-                            The columns include:
-                                - `true_value`: Ground truth values.
-                                - `model_i_prediction`: Predictions from model `i`.
+                corresponds to predictions and loss for each model.
+                The columns include:
+                    - `true_value`: Ground truth values.
+                    - `model_i_prediction`: Predictions from model `i`.
 
             (dict[str, pd.DataFrame]): If `return_df=False`, returns a dictionary where each key is
-                    a model identifier (e.g., `model_0`, `model_1`, ...) and the value is a
-                    DataFrame containing the following columns:
-                        - `true_value`: Ground truth values.
-                        - `prediction`: Predictions from the model.
+                a model identifier (e.g., `model_0`, `model_1`, ...) and the value is a
+                DataFrame containing the following columns:
+                    - `true_value`: Ground truth values.
+                    - `prediction`: Predictions from the model.
 
         Notes:
             - The target property in `df` must match `self.target_property`.
@@ -410,7 +434,12 @@ class GBDTClassifier(BaseClassifier):
 
         return predictions
 
-    def plot_performance(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
+    def plot_performance(
+        self,
+        predictions_dict: dict[str, pd.DataFrame],
+        include_ensemble: bool = True,
+        fig_settings: dict[str, Any] = dict(figsize=(10, 3), dpi=100),
+    ):
         """
         Plot model performance evaluation curves: ROC, Precision, and Recall.
 
@@ -425,10 +454,10 @@ class GBDTClassifier(BaseClassifier):
 
         Args:
             predictions_dict (dict[str, pd.DataFrame]): A dictionary where keys are model names and values are
-                                                        DataFrames containing the `true_value` and `prediction` columns.
-                                                        Each model's predictions will be plotted.
+                DataFrames containing the `true_value` and `prediction` columns.
+                Each model's predictions will be plotted.
             include_ensemble (bool, optional): If `True`, the ensemble model performance will also be plotted, which is
-                                            based on averaging the predictions of all models. Defaults to `True`.
+                based on averaging the predictions of all models. Defaults to `True`.
 
         Returns:
             None: The method generates and saves the performance plots as PNG and PDF files.
@@ -445,7 +474,7 @@ class GBDTClassifier(BaseClassifier):
         colors = plt.cm.tab10.colors
 
         # Create a single figure and a grid layout
-        fig = plt.figure(figsize=(7, 2), dpi=150)
+        fig = plt.figure(**fig_settings)
         grid = fig.add_gridspec(1, 3, wspace=0.5, hspace=0.07)
         ax = [fig.add_subplot(grid[j]) for j in range(3)]
 
@@ -516,7 +545,7 @@ class GBDTClassifier(BaseClassifier):
 
         Args:
             df (pd.DataFrame): A DataFrame where each row represents a sample, and the columns represent features.
-                                The last column is assumed to be the target property, which is not used in prediction.
+                The last column is assumed to be the target property, which is not used in prediction.
 
         Returns:
             (pd.DataFrame): A DataFrame containing:
@@ -541,7 +570,9 @@ class GBDTClassifier(BaseClassifier):
         predictions["classifier_std"] = predictions[[f"classifier_{i}" for i in range(self.n_committers)]].std(axis=1)
         return predictions
 
-    def screen(self, db: GNoMEDatabase, save_processed: bool = True) -> pd.DataFrame:
+    def screen(
+        self, db: GNoMEDatabase, stage: str = "raw", featurizing_mode: str = "structure", save_processed: bool = True
+    ) -> pd.DataFrame:
         """
         Screen the database for specialized materials using classifier predictions.
 
@@ -554,11 +585,16 @@ class GBDTClassifier(BaseClassifier):
 
         Args:
             db (GNoMEDatabase): A `GNoMEDatabase` object containing the raw data to be screened.
+            stage (str): The processing stage ("raw", "processed", "final"). Defaults to `raw`.
+            featurizing_mode (str, optional): Type of featurization to apply. Options:
+                - "structure": Parses `.cif` files and applies structure-based features.
+                - "composition": Uses only the chemical composition for features.
+                Defaults to "structure".
             save_processed (bool, optional): Whether to save the screened data to the database. Defaults to `True`.
 
         Returns:
             (pd.DataFrame): A DataFrame containing the original data combined with classifier predictions,
-                        excluding materials that have missing or unqualified values for screening.
+                excluding materials that have missing or unqualified values for screening.
 
         Notes:
             - The method assumes that `featurize_db` and `_evaluate_unknown` methods are defined and function correctly.
@@ -567,10 +603,10 @@ class GBDTClassifier(BaseClassifier):
             - The `is_specialized` column is dropped from the screened DataFrame.
         """
         logger.info("Featurizing the database...")
-        df_class = self.featurize_db(db)
+        df_class = self.featurize_db(db, mode=featurizing_mode)
         logger.info("Screening the database for specialized materials.")
         predictions = self._evaluate_unknown(df_class)
-        gnome_df = db.get_database("raw")
+        gnome_df = db.get_database(stage)
         gnome_screened = pd.concat([gnome_df, predictions.reset_index(drop=True)], axis=1)
         gnome_screened.drop(columns=["is_specialized"], inplace=True)
         gnome_screened = gnome_screened[gnome_screened["classifier_mean"].notna()]

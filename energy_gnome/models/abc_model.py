@@ -38,9 +38,9 @@ class BaseRegressor(ABC):
             model_name (str): Name of the model, used to create subdirectories.
             target_property (str): The target property the model is trained to predict.
             models_dir (Path, optional): Directory for storing trained model weights.
-                                        Defaults to MODELS_DIR from config.
+                Defaults to MODELS_DIR from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to FIGURES_DIR from config.
+                Defaults to FIGURES_DIR from config.
 
         Attributes:
             models_dir (Path): Path where model weights are stored.
@@ -117,9 +117,9 @@ class BaseClassifier(ABC):
         Args:
             model_name (str): Name of the model, used to create subdirectories.
             models_dir (Path, optional): Directory for storing trained model parameters.
-                                        Defaults to `MODELS_DIR` from config.
+                Defaults to `MODELS_DIR` from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to `FIGURES_DIR` from config.
+                Defaults to `FIGURES_DIR` from config.
 
         Attributes:
             models_dir (Path): Path where model parameters are stored.
@@ -161,7 +161,7 @@ class BaseClassifier(ABC):
         pass
 
     @abstractmethod
-    def compile_(self):
+    def compile(self):  # noqa:A003
         pass
 
     @abstractmethod

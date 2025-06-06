@@ -4,8 +4,10 @@ from pathlib import Path
 from ase.io import read
 from loguru import logger
 import matplotlib.pyplot as plt
+from monty.fractions import gcd_float
 import numpy as np
 import pandas as pd
+from pymatgen.core.composition import Composition
 from sklearn.model_selection import train_test_split
 from tqdm.auto import tqdm
 
@@ -59,15 +61,84 @@ def detect_outliers_iqr(df: pd.DataFrame, iqr_w: float = 1.5):
     outlier_mask = pd.DataFrame(data=False, index=df.index, columns=df.columns)
 
     for col in df.columns:
-        if (
-            df[col].dtype.kind in "ifc"
-        ):  # Check if the column type is numeric (boolean, integer, float, complex)
+        if df[col].dtype.kind in "ifc":  # Check if the column type is numeric (boolean, integer, float, complex)
             Q1 = df[col].quantile(0.25)
             Q3 = df[col].quantile(0.75)
             IQR = Q3 - Q1
             outlier_mask[col] = (df[col] < (Q1 - iqr_w * IQR)) | (df[col] > (Q3 + iqr_w * IQR))
 
     return outlier_mask
+
+
+def get_ordered_integer_formula(el_amt, max_denominator=1000):
+    """Converts a mapping of {element: stoichiometric value} to a alphabetically ordered string.
+
+    Given a dictionary of {element : stoichiometric value, ..}, returns a string with
+    elements ordered alphabetically and stoichiometric values normalized to smallest common
+    integer denominator.
+
+    Args:
+        el_amt: {element: stoichiometric value} mapping.
+        max_denominator: The maximum common denominator of stoichiometric values to use for
+            normalization. Smaller stoichiometric fractions will be converted to the same
+            integer stoichiometry.
+
+    Returns:
+        A material formula string with elements ordered alphabetically and the stoichiometry
+        normalized to the smallest integer fractions.
+    """
+    g = gcd_float(list(el_amt.values()), 1 / max_denominator)
+    d = {k: round(v / g) for k, v in el_amt.items()}
+    formula = ""
+    for k in sorted(d):
+        if d[k] > 1:
+            formula += k + str(d[k])
+        elif d[k] != 0:
+            formula += k
+    return formula
+
+
+def normalized_formula(formula, max_denominator=1000):
+    """Normalizes chemical formula to smallest common integer denominator, and orders elements alphabetically.
+
+    Args:
+        formula: the string formula.
+        max_denominator: highest precision for the denominator (1000 by default).
+
+    Returns:
+        A normalized formula string, e.g. Ni0.5Fe0.5 -> FeNi.
+    """
+    formula_dict = Composition(formula).get_el_amt_dict()
+    return get_ordered_integer_formula(formula_dict, max_denominator)
+
+
+def recompose_df(df):
+
+    new_data = {"formula_pretty": [], "temperature(K)": [], "ZT": [], "is_specialized": []}
+    for index, row in df.iterrows():
+        formula = row["formula_pretty"]
+        temperatures = row["temperature(K)"]
+        zt_values = row["ZT"]
+        special = row["is_specialized"]
+
+        for temperature, zt_value, special in zip(temperatures, zt_values, special):
+            new_data["formula_pretty"].append(formula)
+            new_data["temperature(K)"].append(temperature)
+            new_data["ZT"].append(zt_value)
+            new_data["is_specialized"].append(special)
+
+    new_df = pd.DataFrame(new_data)
+    new_df = new_df.groupby(["formula_pretty", "temperature(K)", "is_specialized"])["ZT"].apply(list).reset_index()
+
+    new_df["rsd"] = 0.0
+    for i in range(len(new_df)):
+        new_df.loc[i, "rsd"] = 100 * np.std(new_df["ZT"].iloc[i]) / np.mean(new_df["ZT"].iloc[i])
+        new_df.loc[i, "ZT"] = np.mean(new_df["ZT"].iloc[i])
+
+    new_df = new_df[new_df["rsd"] < 20]
+    new_df = new_df.iloc[:, :-1]
+
+    return new_df
 
 
 def get_element_statistics(df: pd.DataFrame, species: list[str]) -> pd.DataFrame:
@@ -127,16 +198,12 @@ def split_data(df: pd.DataFrame, test_size: float, seed: int) -> tuple[list, lis
     # Remove empty examples and sort df in order of fewest to most examples
     df = df[df["data"].str.len() > 0].sort_values("count")
 
-    for _, entry in tqdm(
-        df.iterrows(), total=len(df), bar_format="{l_bar}{bar:20}{r_bar}{bar:-20b}"
-    ):
+    for _, entry in tqdm(df.iterrows(), total=len(df), bar_format="{l_bar}{bar:20}{r_bar}{bar:-20b}"):
         df_specie = entry.to_frame().T.explode("data")
 
         try:
             # Attempt to split data for the current species
-            idx_train_s, idx_test_s = train_test_split(
-                df_specie["data"].values, test_size=test_size, random_state=seed
-            )
+            idx_train_s, idx_test_s = train_test_split(df_specie["data"].values, test_size=test_size, random_state=seed)
         except:  # noqa: E722
             # If split fails (e.g., too few examples), skip this iteration
             pass
@@ -164,6 +231,15 @@ def element_representation(x: list, idx: list) -> float:
     """
     # Calculate the fraction of samples containing the given element
     return len([k for k in x if k in idx]) / len(x) if x else 0
+
+
+def extract_species_from_formula(formula: str) -> list[str]:
+    try:
+        comp = Composition(formula)
+        return list(comp.elements[i].symbol for i in range(len(comp.elements)))
+    except Exception as e:
+        logger.warning(f"Failed to parse formula '{formula}': {e}")
+        return []
 
 
 def split_subplot(
@@ -200,9 +276,7 @@ def split_subplot(
     color = [int(colors[dataset].lstrip("#")[i : i + 2], 16) / 255.0 for i in (0, 2, 4)]
     bx = np.arange(len(species))
 
-    ax.bar(
-        bx, df[dataset], width, fc=color + [0.7], ec=color, lw=1.5, bottom=bottom, label=dataset
-    )
+    ax.bar(bx, df[dataset], width, fc=color + [0.7], ec=color, lw=1.5, bottom=bottom, label=dataset)
 
     ax.set_xticks(bx)
     ax.set_xticklabels(species)
@@ -291,9 +365,7 @@ def train_valid_test_split(
                 bottom=b0,
                 legend=True,
             )
-            split_subplot(
-                ax[1], stats[len(stats) // 2 :], species[len(stats) // 2 :], dataset, bottom=b1
-            )
+            split_subplot(ax[1], stats[len(stats) // 2 :], species[len(stats) // 2 :], dataset, bottom=b1)
 
             b0 += stats.iloc[: len(stats) // 2][dataset].values
             b1 += stats.iloc[len(stats) // 2 :][dataset].values
@@ -304,14 +376,13 @@ def train_valid_test_split(
     return idx_train, idx_valid, idx_test
 
 
-def random_split(
-    dataset: pd.DataFrame, target_property: str, valid_size=0.2, test_size=0.05, seed=42
-):
+def random_split(dataset: pd.DataFrame, target_property: str, valid_size=0.2, test_size=0.05, seed=42):
     """
     Perform a random train-validation-test split with specified sizes.
+    If structure data is not available, fall back to using the 'formula_pretty' column.
 
     Args:
-        dataset (pd.DataFrame): Input dataset containing CIF file paths.
+        dataset (pd.DataFrame): Input dataset.
         target_property (str): Target property column name.
         valid_size (float, optional): Validation set fraction. Defaults to 0.2.
         test_size (float, optional): Test set fraction. Defaults to 0.05.
@@ -321,28 +392,29 @@ def random_split(
         dict: Dictionary with 'train', 'valid', and 'test' DataFrames.
     """
 
-    # database_split = dataset.copy()
+    if "cif_path" in dataset.columns:
+        database_split = pd.DataFrame(
+            {
+                "structure": pd.Series(dtype="object"),
+                "species": pd.Series(dtype="object"),
+            }
+        )
 
-    database_split = pd.DataFrame(
-        {
-            "structure": pd.Series(dtype="object"),
-            "species": pd.Series(dtype="object"),
-        }
-    )
+        # Read all structures in parallel using `apply`
+        database_split["structure"] = dataset["cif_path"]
+        database_split["structure"] = database_split["structure"].progress_apply(lambda path: read(Path(to_unix(path))))
 
-    # Read all structures in parallel using `apply`
-    database_split["structure"] = dataset["cif_path"]
-    database_split["structure"] = database_split["structure"].progress_apply(
-        lambda path: read(Path(to_unix(path)))
-    )
-
-    # Extract properties in bulk
-    database_split["formula"] = database_split["structure"].progress_apply(
-        lambda s: s.get_chemical_formula()
-    )
-    database_split["species"] = database_split["structure"].progress_apply(
-        lambda s: list(set(s.get_chemical_symbols()))
-    )
+        # Extract properties in bulk
+        database_split["formula"] = database_split["structure"].progress_apply(lambda s: s.get_chemical_formula())
+        database_split["species"] = database_split["structure"].progress_apply(
+            lambda s: list(set(s.get_chemical_symbols()))
+        )
+    elif "formula_pretty" in dataset.columns:
+        database_split = pd.DataFrame()
+        database_split["formula"] = dataset["formula_pretty"]
+        database_split["species"] = database_split["formula"].progress_apply(extract_species_from_formula)
+    else:
+        raise ValueError("Dataset must contain either 'cif_path' or 'Formula' column.")
 
     # Ensure target_property is preserved
     database_split[target_property] = dataset[target_property]

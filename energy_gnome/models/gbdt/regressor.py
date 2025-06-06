@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import pickle
+from typing import Any
 import warnings
 
 from loguru import logger
@@ -11,7 +12,7 @@ from pymatgen.core import Composition, Structure
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.feature_selection import RFE
 from sklearn.metrics import r2_score
-from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold
+from sklearn.model_selection import GridSearchCV, KFold
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from tqdm.auto import tqdm
@@ -22,7 +23,7 @@ from energy_gnome.dataset.gnome import GNoMEDatabase
 from energy_gnome.models.abc_model import BaseRegressor
 from energy_gnome.utils.readers import load_yaml, save_yaml
 
-from .utils import featurizing_structure_pipeline
+from .utils import featurizing_composition_pipeline, featurizing_structure_pipeline
 
 BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
 tqdm.pandas(bar_format=BAR_FORMAT)
@@ -47,9 +48,9 @@ class GBDTRegressor(BaseRegressor):
             model_name (str): Name of the model, used to create subdirectories.
             target_property (str): The target property the model is trained to predict.
             models_dir (Path | str, optional): Directory for storing trained model weights.
-                                            Defaults to MODELS_DIR from config.
+                Defaults to MODELS_DIR from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to FIGURES_DIR from config.
+                Defaults to FIGURES_DIR from config.
 
         Attributes:
             _model_spec (str): Specification string used for model identification.
@@ -170,36 +171,44 @@ class GBDTRegressor(BaseRegressor):
         self,
         databases: list[BaseDatabase],
         subset: str = "training",
+        mode: str = "structure",
         max_dof: int = None,
+        confidence_threshold: float = 0.5,
         mute_warnings: bool = True,
     ) -> pd.DataFrame:
         """
-        Load and featurize the specified databases efficiently.
+        Load and featurize materials data from one or more databases using structure or composition-based pipelines.
 
-        This method processes the given list of databases and applies a featurization pipeline to each dataset.
-        It handles the loading of raw data from databases, extracts relevant features such as composition and
-        structure, and applies transformations to create numerical features for model training.
+        This method loads the specified subset of data from a list of `BaseDatabase` objects (e.g., GNoMEDatabase
+        or ThermoelectricDatabase) and applies a feature extraction pipeline depending on the selected mode:
+        structural or compositional. The output is a clean, numerical feature matrix suitable for training
+        machine learning models.
 
         Args:
-            databases (list[BaseDatabase]): A list of databases (or a single database) from which to
-                                            load and featurize data.
-            subset (str, optional): The subset of data to load from each database (default is "training").
-            max_dof (int, optional): Maximum degrees of freedom for the feature space. If not provided,
-                                        it is automatically calculated.
-            mute_warnings (bool, optional): Whether to suppress warnings during featurization (default is True).
+            databases (list[BaseDatabase]): One or more databases from which to load materials data.
+            subset (str, optional): The subset of the database to load (e.g., "training", "validation").
+                Defaults to "training".
+            mode (str, optional): Type of featurization to apply. Options:
+                - "structure": Parses `.cif` files and applies structure-based features.
+                - "composition": Uses only the chemical composition for features.
+                Defaults to "structure".
+            max_dof (int, optional): Maximum degrees of freedom for downstream model complexity.
+                If None, it is computed automatically based on the dataset size.
+            confidence_threshold (float, optional): The threshold for filtering out low-confidence entries in the
+                `GNoMEDatabase`. Defaults to `0.5`.
+            mute_warnings (bool, optional): Whether to suppress warnings during featurization. Defaults to True.
 
         Returns:
-            (pd.DataFrame): A DataFrame containing the featurized data.
+            pd.DataFrame: A processed DataFrame containing only numerical features and the target property.
 
-        Warnings:
-            If `mute_warnings` is set to False, third-party warnings related to the featurization
-            process will be displayed.
+        Raises:
+            ValueError: If `mode` is not one of ["structure", "composition"].
 
         Notes:
-            - If the database contains a `Reduced Formula` or `formula_pretty` column, compositions are
-              parsed accordingly.
-            - The resulting DataFrame retains only numerical features, and removes NaN rows.
-            - The method supports batch processing using `tqdm` for progress visualization during featurization.
+            - For GNoMEDatabase, data is always pulled from the "raw" stage.
+            - Structural featurization requires valid CIF paths and may be slower due to file I/O.
+            - The target property column is retained alongside features, and rows with missing values are dropped.
+            - `tqdm` is used to display progress for long-running operations.
         """
 
         if not isinstance(databases, list):
@@ -207,10 +216,12 @@ class GBDTRegressor(BaseRegressor):
 
         if mute_warnings:
             logger.warning("Third-party warnings disabled. Set 'mute_warnings=False' to enable them.")
-            self.max_dof = max_dof
+
+        self.max_dof = max_dof
 
         if isinstance(databases[0], GNoMEDatabase):
-            dataset = databases[0].get_database("raw")
+            dataset = databases[0].get_database("processed")
+            dataset = dataset[dataset["classifier_mean"] > confidence_threshold]
         else:
             # Load all database subsets efficiently
             dataset = pd.concat([db.load_regressor_data(subset) for db in databases], ignore_index=True)
@@ -224,24 +235,42 @@ class GBDTRegressor(BaseRegressor):
                 warnings.simplefilter("ignore")
 
             # Apply batch processing for transformations
-            tqdm.pandas(desc="Processing structures")
-            if isinstance(databases[0], GNoMEDatabase):
-                dataset["composition"] = dataset["Reduced Formula"].progress_apply(Composition)
-            else:
-                dataset["composition"] = dataset["formula_pretty"].progress_apply(Composition)
-            dataset["structure"] = dataset["cif_path"].progress_apply(lambda x: Structure.from_file(x))
-            dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
-            dataset[self.target_property] = dataset[self.target_property].astype(float)
+            dataset["composition"] = dataset["formula_pretty"].progress_apply(Composition)
 
-            # Run the featurization pipeline
-            if isinstance(databases[0], GNoMEDatabase):
-                db_feature = featurizing_structure_pipeline(dataset)
+            # structure pipeline
+            if mode == "structure":
+                tqdm.pandas(desc="Processing structures")
+                dataset["structure"] = dataset["cif_path"].progress_apply(lambda x: Structure.from_file(x))
+                dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
+                dataset[self.target_property] = dataset[self.target_property].astype(float)
+
+                # Run the featurization pipeline
+                if isinstance(databases[0], GNoMEDatabase):
+                    db_feature = featurizing_structure_pipeline(dataset)
+                else:
+                    db_feature = featurizing_structure_pipeline(dataset)
+
+            # composition pipeline
+            elif mode == "composition":
+                tqdm.pandas(desc="Processing formulae")
+                dataset["formula"] = dataset["composition"].apply(lambda x: x.reduced_formula)
+                if self.target_property in dataset.columns:
+                    dataset[self.target_property] = dataset[self.target_property].astype(float)
+
+                # Run the featurization pipeline
+                if isinstance(databases[0], GNoMEDatabase):
+                    db_feature = featurizing_composition_pipeline(dataset)
+                else:
+                    db_feature = featurizing_composition_pipeline(dataset)
+
             else:
-                db_feature = featurizing_structure_pipeline(dataset)
+                logger.error("Invalid featurization mode. Must be one of ['structure', 'composition'].")
+                raise ValueError("mode must be one of ['structure', 'composition'].")
 
             # Retain only numerical features
             db_feature = db_feature.select_dtypes(exclude=["object", "bool"])
-            db_feature[self.target_property] = dataset.set_index("formula")[self.target_property]
+            if self.target_property in dataset.columns:
+                db_feature[self.target_property] = dataset.set_index("formula")[self.target_property]
             db_feature.dropna(inplace=True)  # Remove NaN rows
 
             # Adjust max_dof if needed
@@ -263,25 +292,23 @@ class GBDTRegressor(BaseRegressor):
 
         It performs a grid search to tune hyperparameters for the number of estimators and the number of
         features to select.
-        The search uses Stratified K-Folds cross-validation and evaluates performance using the RMSE score.
+        The search uses K-Folds cross-validation and evaluates performance using the RMSE score.
 
         Args:
             n_jobs (int, optional): The number of CPU cores to use for parallel processing during the grid search.
-                                    Default is 1.
-            max_dof (int, optional): The maximum degrees of freedom for feature selection. If provided,
-                                     it will control the number of features to select.
+                Default is 1.
             scoring (str, optional): The strategy to evaluate the performance of the cross-validated model on
-                                     the validation set.
+                the validation set.
 
         Returns:
             (GridSearchCV): A GridSearchCV object that encapsulates the regressor pipeline and hyperparameter
-                            tuning process.
+                tuning process.
 
         Notes:
             - The `n_estimators` in the regressor will be searched over the values [50, 100, 250, 500].
             - The number of features to select for RFE is determined by the `max_dof` argument,
               with values [int(max_dof * 0.5), int(max_dof * 1)].
-            - Stratified K-Folds cross-validation is used with 4 splits, shuffling enabled, and a fixed random seed (0).
+            - K-Folds cross-validation is used with 4 splits, shuffling enabled, and a fixed random seed (0).
             - R2 score is used for model evaluation.
         """
         pipe = Pipeline(
@@ -296,14 +323,12 @@ class GBDTRegressor(BaseRegressor):
             "feature_selector__n_features_to_select": [int(max_dof * 0.5), int(max_dof * 1)],
         }
 
-        stratified_kfold = KFold(
-            n_splits=4, shuffle=True, random_state=0
-        )  # o teniamo il KFold così, oppure troviamo un workaround per stratificare
-        search = GridSearchCV(pipe, param_grid, n_jobs=n_jobs, verbose=2, cv=stratified_kfold, scoring=scoring)
+        kfold = KFold(n_splits=4, shuffle=True, random_state=0)
+        search = GridSearchCV(pipe, param_grid, n_jobs=n_jobs, verbose=2, cv=kfold, scoring=scoring)
 
         return search
 
-    def compile(self, n_jobs: int = 1, scoring: str = "neg_root_mean_squared_error"):  # noqa:A003
+    def compile(self, n_jobs: int = 1, max_dof: int = None, scoring: str = "neg_root_mean_squared_error"):  # noqa:A003
         """
         Initializes the regressor pipeline and sets up the hyperparameter search.
 
@@ -313,7 +338,9 @@ class GBDTRegressor(BaseRegressor):
 
         Args:
             n_jobs (int, optional): The number of CPU cores to use for parallel processing during the grid search.
-                                    Default is 1.
+                Default is 1.
+            max_dof (int, optional): The maximum degrees of freedom for feature selection. If provided,
+                it will control the number of features to select.
 
         Returns:
             None
@@ -322,9 +349,11 @@ class GBDTRegressor(BaseRegressor):
             This method does not return any value but sets the `self.search` attribute with the initialized
             `GridSearchCV` object, which contains the regressor pipeline and hyperparameter tuning setup.
         """
+        if max_dof is None:
+            max_dof = self.max_dof
 
         logger.info("Build regressors")
-        self.search = self._build_regressor(n_jobs=n_jobs, max_dof=self.max_dof, scoring=scoring)
+        self.search = self._build_regressor(n_jobs=n_jobs, max_dof=max_dof, scoring=scoring)
 
     def fit(self, df: pd.DataFrame):
         """
@@ -337,7 +366,7 @@ class GBDTRegressor(BaseRegressor):
 
         Args:
             df (pd.DataFrame): The input dataset. The last column is assumed to be the target variable,
-                                and all other columns are used as features.
+                and all other columns are used as features.
 
         Returns:
             None
@@ -366,22 +395,22 @@ class GBDTRegressor(BaseRegressor):
 
         Args:
             df (pd.DataFrame): The dataset containing the features and the target property (last column).
-                            The model predictions are based on all columns except the last one (target property).
+                The model predictions are based on all columns except the last one (target property).
             return_df (bool, optional): If True, returns a DataFrame with true values and predictions from each model.
-                                        If False, returns a dictionary with model predictions. Defaults to `False`.
+                If False, returns a dictionary with model predictions. Defaults to `False`.
 
         Returns:
             (pd.DataFrame): If `return_df=True`, returns a pandas DataFrame where each column
-                            corresponds to predictions and loss for each model.
-                            The columns include:
-                                - `true_value`: Ground truth values.
-                                - `model_i_prediction`: Predictions from model `i`.
+                corresponds to predictions and loss for each model.
+                The columns include:
+                    - `true_value`: Ground truth values.
+                    - `model_i_prediction`: Predictions from model `i`.
 
             (dict[str, pd.DataFrame]): If `return_df=False`, returns a dictionary where each key is
-                    a model identifier (e.g., `model_0`, `model_1`, ...) and the value is a
-                    DataFrame containing the following columns:
-                        - `true_value`: Ground truth values.
-                        - `prediction`: Predictions from the model.
+                a model identifier (e.g., `model_0`, `model_1`, ...) and the value is a
+                DataFrame containing the following columns:
+                    - `true_value`: Ground truth values.
+                    - `prediction`: Predictions from the model.
 
         Notes:
             - The target property in `df` must match `self.target_property`.
@@ -405,7 +434,12 @@ class GBDTRegressor(BaseRegressor):
 
         return predictions
 
-    def plot_parity(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
+    def plot_parity(
+        self,
+        predictions_dict: dict[str, pd.DataFrame],
+        include_ensemble: bool = True,
+        fig_settings: dict[str, Any] = dict(figsize=(5, 3), dpi=100),
+    ):
         """
         Plot a parity plot for model predictions and their comparison with true values.
 
@@ -420,9 +454,11 @@ class GBDTRegressor(BaseRegressor):
                 and values are pandas DataFrames containing the `true_value` and `prediction` columns.
             include_ensemble (bool): If `True`, an ensemble prediction (mean of all model predictions)
                 is included in the plot. Default is `True`.
+            fig_settings (dict): A dictionary containing matplotlib figure size arguments (see
+            [`matplotlib.pyplot.figure`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html))
         """
         all_predictions = []
-        fig, ax = plt.subplots(figsize=(5, 3), dpi=300)
+        fig, ax = plt.subplots(**fig_settings)
 
         colors = plt.cm.tab10.colors  # Get distinct colors for different models
 
@@ -530,7 +566,7 @@ class GBDTRegressor(BaseRegressor):
 
         Args:
             df (pd.DataFrame): A DataFrame where each row represents a sample, and the columns represent features.
-                                The last column is assumed to be the target property, which is not used in prediction.
+                The last column is assumed to be the target property, which is not used in prediction.
 
         Returns:
             (pd.DataFrame): A DataFrame containing:
@@ -548,27 +584,39 @@ class GBDTRegressor(BaseRegressor):
         predictions = pd.DataFrame(index=df.index)
 
         for i in tqdm(range(self.n_committers), desc="models"):
-            predictions[f"regressor_{i}"] = self.models[f"model_{i}"].predict(df.iloc[:, :-1])[:]
+            predictions[f"regressor_{i}"] = self.models[f"model_{i}"].predict(df)[:]
         predictions["regressor_mean"] = predictions[[f"regressor_{i}" for i in range(self.n_committers)]].mean(axis=1)
         predictions["regressor_std"] = predictions[[f"regressor_{i}" for i in range(self.n_committers)]].std(axis=1)
         return predictions
 
-    def predict(self, db: GNoMEDatabase, confidence_threshold: float = 0.5, save_final=True):
+    def predict(
+        self,
+        db: GNoMEDatabase,
+        stage: str = "processed",
+        confidence_threshold: float = 0.5,
+        featurizing_mode: str = "structure",
+        save_final: bool = True,
+    ) -> pd.DataFrame:
         """
         Predicts the target property for candidate specialized materials using regressor models,
         after filtering materials based on regressor committee confidence.
 
         Args:
             db (GNoMEDatabase): The database containing the materials and their properties.
+            stage (str): The processing stage ("raw", "processed", "final"). Defaults to `processed`.
             confidence_threshold (float, optional): The minimum regressor committee confidence
-                                                    required to keep a material for prediction.
-                                                    Defaults to `0.5`.
+                required to keep a material for prediction.
+                Defaults to `0.5`.
+            featurizing_mode (str, optional): Type of featurization to apply. Options:
+                - "structure": Parses `.cif` files and applies structure-based features.
+                - "composition": Uses only the chemical composition for features.
+                Defaults to "structure".
             save_final (bool, optional): Whether to save the final database with predictions.
-                                        Defaults to `True`.
+                Defaults to `True`.
 
         Returns:
             (pd.DataFrame): A DataFrame containing the predictions, along with the true values and
-                        regressor committee confidence scores for the screened materials.
+                regressor committee confidence scores for the screened materials.
 
         Notes:
             - The method filters the materials based on the regressor confidence, then uses the
@@ -577,13 +625,13 @@ class GBDTRegressor(BaseRegressor):
             `final` stage.
         """
         logger.info(f"Discarding materials with regressor committee confidence threshold < {confidence_threshold}.")
-        logger.info("Featurizing and loading database as `tg.loader.DataLoader`.")
-        dataloader_db, _ = self.create_dataloader(db, confidence_threshold)
+        logger.info("Featurizing the database.")
+        df_feat = self.featurize_db(db, mode=featurizing_mode, confidence_threshold=confidence_threshold)
         logger.info("Predicting the target property for candidate specialized materials.")
-        predictions = self._evaluate_unknown(dataloader_db)
-        df = db.get_database("processed")
-        screened = df[df["regressor_mean"] > confidence_threshold]
-        predictions = pd.concat([screened.reset_index(), predictions], axis=1)
+        predictions = self._evaluate_unknown(df_feat)
+        df = db.get_database(stage)
+        screened = df[df["classifier_mean"] > confidence_threshold]
+        predictions = pd.concat([screened.reset_index(), predictions.reset_index()], axis=1)
 
         if save_final:
             logger.info("Saving the final database.")

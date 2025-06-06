@@ -13,10 +13,6 @@ from energy_gnome.config import API_KEYS, CONFIG_YAML_FILE
 
 from .logger_config import logger
 
-# from pathlib import Path
-# from typing import Any, List
-
-
 MAT_FIELDS = [
     "formula_pretty",
     "volume",
@@ -39,9 +35,7 @@ def get_mp_api_key() -> str:
         if not mp_api_key:
             logger.error("`MP` (Material Project) API KEY is missing in `config.yam` file")
             logger.error(f"Check {CONFIG_YAML_FILE}")
-            logger.error(
-                "`MP` (Material Project) API KEY environment variable MP_API_KEY is not set"
-            )
+            logger.error("`MP` (Material Project) API KEY environment variable MP_API_KEY is not set")
             logger.error("At least one option should be used")
             raise OSError("MP_API_KEY environment variable is not set.")
         logger.debug("MP API key retrieved successfully.")
@@ -52,8 +46,8 @@ def convert_my_query_to_dataframe(query: list, mute_progress_bars=False) -> pd.D
     dict_query = []
     for d_ in tqdm(query, desc="converting material documents", disable=mute_progress_bars):
         dict_query.append(d_.dict())
-    database = pd.DataFrame(dict_query)
-    return database
+    dataframe = pd.DataFrame(dict_query)
+    return dataframe
 
 
 def get_material_by_id(ids: list, doc_prefix="", mute_progress_bars=False) -> list:
