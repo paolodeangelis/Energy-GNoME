@@ -114,6 +114,12 @@ Additional articles to cite:
     - [ ] Perovskites
     - [ ] Thermoelectrics
 
+Detailed **TODO** list:
+- [`energy-gnome` API](devtools/conda-envs/TODO.md#api)
+- [`energy-gnom` CLI](devtools/conda-envs/TODO.md#cli)
+- [`energy-gnom` notebooks](devtools/conda-envs/TODO.md#jupyter-notebooks)
+- [`energy-gnom` documentation](devtools/conda-envs/TODO.md#doc)
+
 ## Project Organization
 
 ```
@@ -167,11 +173,32 @@ Additional articles to cite:
 
 --------
 
-### Coming Soon
+### [Contributing](.github/CONTRIBUTING.md)
 
-The database, along with all associated dashboards and code, will be made available on **November 30th**.
+We still working on the testing and of the API to allow easy continue integrtion of new models and databaset to allow the project to be up-todate with computetional materials state-of-the-art
 
-For further information or to join the **waiting list**, please contact [Paolo De Angelis](mailto:paolo.deangelis@polito.it).
+Thus the contribution at the moment are limited, you can fork the project and try to add your model/database. First check the contribution [istructions](.github/CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
+
+If you want to test our protocol with your new material descriptors and/or ML model (both for the regression or classification), pleas considete to write us an email to [paolo.deangelis@polito.it](mailto:paolo.deangelis@polito.it) for help and support in this integration or in general if you want collaborate on possible future reserch using our protocol/database.
+
+
+### [Contributing](.github/CONTRIBUTING.md)
+
+⚠️ **Work in progress**
+We are still working on testing and refining the API to allow easy, continuous integration of new models and datasets, keeping the project up to date with state-of-the-art computational materials research.
+
+
+#### How to help right now
+
+1. Review the [contribution instructions](.github/CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
+2. **Fork the repository** and create a feature branch.
+3. Implement and test (⚠️ test suite not implemented yet) your integration.
+4. Submit your pull request
+
+#### Larger integrations
+
+If you'd like to add **new material descriptors** or **ML/NN models** (regression or classification), open an issue first or email us at [paolo.deangelis@polito.it](mailto:paolo.deangelis@polito.it).
+We're happy to guide you through the integration and explore future collaborations.
 
 
 <hr width="100%">

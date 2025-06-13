@@ -158,6 +158,7 @@ markdown_extensions:
       anchor_linenums: true
       pygments_lang_class: true
       auto_title: true
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets:
@@ -238,6 +239,13 @@ nav:
   - Documentation:
     - Overview: docs/index.md
     - Getting started: docs/getting-started.md
+    - Usage:
+        - Datasets object: docs/usage/data_obj.md
+        - Models object: docs/usage/model_obj.md
+        - How to add new Models: docs/usage/how_to_add_models.md
+        - How to add new Datasets: docs/usage/how_to_add_datasets.md
+    - Examples:
+        - E(3)NN regressor training: docs/example/e3nn_regressor.md
     - CLI: docs/cli.md
     - Modules:
         - Datasets: docs/modules/dataset.md
