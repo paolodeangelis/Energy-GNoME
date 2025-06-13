@@ -307,9 +307,7 @@ def get_raw_file_github(url: str) -> StringIO:
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an exception for HTTP errors
-        output = StringIO(
-            response.text
-        )  # Use response.text to directly decode and write to StringIO
+        output = StringIO(response.text)  # Use response.text to directly decode and write to StringIO
         return output
     except requests.HTTPError as http_err:
         print(f"HTTP error occurred: {http_err}")
@@ -321,9 +319,7 @@ def get_raw_file_github(url: str) -> StringIO:
         response.close()  # Ensure the response is always closed properly
 
 
-def apply_range_filter(
-    df: pd.DataFrame, column: str, value_range: pn.widgets.RangeSlider
-) -> pd.DataFrame:
+def apply_range_filter(df: pd.DataFrame, column: str, value_range: pn.widgets.RangeSlider) -> pd.DataFrame:
     """
     Apply a range filter to a specified column in the DataFrame.
 
@@ -391,9 +387,7 @@ def min_max_norm(v: pd.Series) -> pd.Series:
     v_min = v.min()
     v_max = v.max()
     if v_min == v_max:
-        return pd.Series(
-            np.zeros(len(v)), index=v.index
-        )  # Return a Series of zeros if all values are the same
+        return pd.Series(np.zeros(len(v)), index=v.index)  # Return a Series of zeros if all values are the same
     return (v - v_min) / (v_max - v_min)
 
 
@@ -432,9 +426,7 @@ def down_load_menu(filename, table):
         sio.seek(0)  # Rewind the StringIO buffer to the beginning
         return sio  # Return the StringIO object (Panel handles it properly for download)
 
-    button = pn.widgets.FileDownload(
-        callback=create_file, label="Download filtered database", filename=filename
-    )
+    button = pn.widgets.FileDownload(callback=create_file, label="Download filtered database", filename=filename)
     return button
 
 
@@ -509,11 +501,7 @@ def build_interactive_table(
     if sliders:
         for column, slider in sliders.items():
             if column in df.columns:  # Ensure the column exists in the DataFrame
-                table.add_filter(
-                    pn.bind(
-                        apply_range_filter, column=column, value_range=slider.param.value_throttled
-                    )
-                )
+                table.add_filter(pn.bind(apply_range_filter, column=column, value_range=slider.param.value_throttled))
     # Apply category filters for categories
     if categories:
         hidden_ions = set(all_ions) - set(categories)
@@ -1003,9 +991,7 @@ download_rtf = pn.widgets.FileDownload(
     embed=True,
 )
 
-about_box = pn.Column(
-    text_info, pn.Row(download_bibtex, download_ris, download_rtf, styles=dict(margin="auto"))
-)
+about_box = pn.Column(text_info, pn.Row(download_bibtex, download_ris, download_rtf, styles=dict(margin="auto")))
 
 # Layout
 weights_col = pn.Column()
