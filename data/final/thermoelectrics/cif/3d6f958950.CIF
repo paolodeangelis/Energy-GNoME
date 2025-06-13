@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10GaCu(SnBi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.79790870
+_cell_length_b   8.79790826
+_cell_length_c   5.91754108
+_cell_angle_alpha   89.97415274
+_cell_angle_beta   89.97415113
+_cell_angle_gamma   119.88800701
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10GaCu(SnBi2)2
+_chemical_formula_sum   'Zr10 Ga1 Cu1 Sn2 Bi4'
+_cell_volume   397.11804271
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.736049  0.005739  0.247930  1
+  Zr  Zr1  1  0.005739  0.736049  0.247930  1
+  Zr  Zr2  1  0.263354  0.263354  0.246802  1
+  Zr  Zr3  1  0.261439  0.999273  0.752645  1
+  Zr  Zr4  1  0.999273  0.261439  0.752645  1
+  Zr  Zr5  1  0.738616  0.738616  0.751495  1
+  Zr  Zr6  1  0.330803  0.667272  0.496908  1
+  Zr  Zr7  1  0.667272  0.330803  0.496908  1
+  Zr  Zr8  1  0.667279  0.330859  0.003117  1
+  Zr  Zr9  1  0.330859  0.667279  0.003117  1
+  Ga  Ga10  1  0.999909  0.999909  0.494702  1
+  Cu  Cu11  1  0.999738  0.999738  0.005306  1
+  Sn  Sn12  1  0.386259  0.000846  0.249203  1
+  Sn  Sn13  1  0.000846  0.386259  0.249203  1
+  Bi  Bi14  1  0.615389  0.615389  0.249218  1
+  Bi  Bi15  1  0.610448  0.999079  0.751293  1
+  Bi  Bi16  1  0.999079  0.610448  0.751293  1
+  Bi  Bi17  1  0.387649  0.387649  0.750284  1

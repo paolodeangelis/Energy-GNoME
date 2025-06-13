@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_PrEu2(AgSn)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89344300
+_cell_length_b   4.89344279
+_cell_length_c   11.15778000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999464
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrEu2(AgSn)3
+_chemical_formula_sum   'Pr1 Eu2 Ag3 Sn3'
+_cell_volume   231.38622394
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.666667  0.333333  0.331850  1
+  Eu  Eu1  1  0.666667  0.333333  0.998429  1
+  Eu  Eu2  1  0.666667  0.333333  0.668876  1
+  Ag  Ag3  1  0.000000  0.000000  0.817179  1
+  Ag  Ag4  1  0.000000  0.000000  0.196649  1
+  Ag  Ag5  1  0.333333  0.666667  0.492604  1
+  Sn  Sn6  1  0.333333  0.666667  0.850444  1
+  Sn  Sn7  1  0.000000  0.000000  0.491910  1
+  Sn  Sn8  1  0.333333  0.666667  0.152060  1

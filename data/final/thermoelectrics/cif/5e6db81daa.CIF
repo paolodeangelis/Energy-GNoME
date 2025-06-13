@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_TbTm2Cu4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.82612256
+_cell_length_b   7.82612414
+_cell_length_c   7.82612349
+_cell_angle_alpha   149.43448097
+_cell_angle_beta   130.23331474
+_cell_angle_gamma   59.53912187
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbTm2Cu4Si3Ge
+_chemical_formula_sum   'Tb1 Tm2 Cu4 Si3 Ge1'
+_cell_volume   184.58587873
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.497567  0.000000  0.497567  1
+  Tm  Tm1  1  0.872315  0.871306  0.001009  1
+  Tm  Tm2  1  0.129703  0.128694  0.001009  1
+  Cu  Cu3  1  0.516943  0.326096  0.190848  1
+  Cu  Cu4  1  0.864753  0.673904  0.190848  1
+  Cu  Cu5  1  0.140103  0.330999  0.809104  1
+  Cu  Cu6  1  0.478105  0.669001  0.809104  1
+  Si  Si7  1  0.187125  0.500000  0.687125  1
+  Si  Si8  1  0.283461  0.783096  0.500366  1
+  Si  Si9  1  0.717270  0.216904  0.500366  1
+  Ge  Ge10  1  0.812655  0.500000  0.312655  1

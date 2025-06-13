@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ti6GeBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.23134940
+_cell_length_b   3.79775300
+_cell_length_c   7.23564890
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   119.96078382
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti6GeBi2
+_chemical_formula_sum   'Ti6 Ge1 Bi2'
+_cell_volume   172.15738686
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.233897  0.000000  0.999982  1
+  Ti  Ti1  1  0.619649  0.500000  0.000005  1
+  Ti  Ti2  1  0.999806  0.000000  0.233837  1
+  Ti  Ti3  1  0.380585  0.500000  0.380583  1
+  Ti  Ti4  1  0.000007  0.500000  0.619402  1
+  Ti  Ti5  1  0.766004  0.000000  0.766185  1
+  Ge  Ge6  1  0.999906  0.500000  0.999959  1
+  Bi  Bi7  1  0.666732  0.000000  0.333206  1
+  Bi  Bi8  1  0.333430  0.000000  0.666800  1

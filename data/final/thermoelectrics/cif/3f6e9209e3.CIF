@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KSrBe2(Cu2Si)8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15952975
+_cell_length_b   8.15952968
+_cell_length_c   8.15952885
+_cell_angle_alpha   120.57489268
+_cell_angle_beta   120.57489449
+_cell_angle_gamma   89.00710920
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSrBe2(Cu2Si)8
+_chemical_formula_sum   'K1 Sr1 Be2 Cu16 Si8'
+_cell_volume   380.73194714
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.250000  0.250000  0.000000  1
+  Sr  Sr1  1  0.750000  0.750000  0.000000  1
+  Be  Be2  1  0.500000  0.000000  0.500000  1
+  Be  Be3  1  0.000000  0.500000  0.500000  1
+  Cu  Cu4  1  0.941815  0.210791  0.154112  1
+  Cu  Cu5  1  0.210791  0.056678  0.268976  1
+  Cu  Cu6  1  0.787702  0.941815  0.731024  1
+  Cu  Cu7  1  0.443322  0.289209  0.731024  1
+  Cu  Cu8  1  0.056678  0.787702  0.845888  1
+  Cu  Cu9  1  0.799106  0.059549  0.500331  1
+  Cu  Cu10  1  0.559218  0.298775  0.499669  1
+  Cu  Cu11  1  0.201225  0.940782  0.500331  1
+  Cu  Cu12  1  0.440451  0.700894  0.499669  1
+  Cu  Cu13  1  0.940782  0.440451  0.739556  1
+  Cu  Cu14  1  0.700894  0.201225  0.260444  1
+  Cu  Cu15  1  0.059549  0.559218  0.260444  1
+  Cu  Cu16  1  0.712298  0.443322  0.154112  1
+  Cu  Cu17  1  0.558185  0.712298  0.268976  1
+  Cu  Cu18  1  0.298775  0.799106  0.739556  1
+  Cu  Cu19  1  0.289209  0.558185  0.845888  1
+  Si  Si20  1  0.792361  0.293245  0.853701  1
+  Si  Si21  1  0.561340  0.060456  0.853701  1
+  Si  Si22  1  0.060456  0.206755  0.499115  1
+  Si  Si23  1  0.293245  0.439544  0.500885  1
+  Si  Si24  1  0.938660  0.792361  0.499115  1
+  Si  Si25  1  0.439544  0.938660  0.146299  1
+  Si  Si26  1  0.206755  0.707639  0.146299  1
+  Si  Si27  1  0.707639  0.561340  0.500885  1

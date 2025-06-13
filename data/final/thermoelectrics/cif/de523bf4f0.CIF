@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ca2Cu18Si7Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.14187968
+_cell_length_b   8.14187691
+_cell_length_c   8.15418139
+_cell_angle_alpha   120.53608434
+_cell_angle_beta   120.53618202
+_cell_angle_gamma   89.12814212
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Cu18Si7Ge
+_chemical_formula_sum   'Ca2 Cu18 Si7 Ge1'
+_cell_volume   378.89291307
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.250451  0.249966  0.999976  1
+  Ca  Ca1  1  0.749965  0.750451  0.999976  1
+  Cu  Cu2  1  0.933997  0.199017  0.138347  1
+  Cu  Cu3  1  0.202528  0.064587  0.267722  1
+  Cu  Cu4  1  0.796425  0.931588  0.731442  1
+  Cu  Cu5  1  0.431588  0.296424  0.731442  1
+  Cu  Cu6  1  0.066611  0.799031  0.864160  1
+  Cu  Cu7  1  0.806990  0.054255  0.493778  1
+  Cu  Cu8  1  0.554254  0.306989  0.493778  1
+  Cu  Cu9  1  0.191727  0.942956  0.501430  1
+  Cu  Cu10  1  0.442956  0.691727  0.501431  1
+  Cu  Cu11  1  0.941850  0.441850  0.740310  1
+  Cu  Cu12  1  0.691936  0.191936  0.250507  1
+  Cu  Cu13  1  0.065012  0.565012  0.263817  1
+  Cu  Cu14  1  0.699017  0.433996  0.138346  1
+  Cu  Cu15  1  0.564587  0.702528  0.267722  1
+  Cu  Cu16  1  0.498181  0.998182  0.498551  1
+  Cu  Cu17  1  0.000493  0.500493  0.499305  1
+  Cu  Cu18  1  0.308032  0.808032  0.749940  1
+  Cu  Cu19  1  0.299031  0.566612  0.864160  1
+  Si  Si20  1  0.557029  0.057029  0.851230  1
+  Si  Si21  1  0.058381  0.206708  0.498999  1
+  Si  Si22  1  0.293577  0.441427  0.501411  1
+  Si  Si23  1  0.941427  0.793577  0.501411  1
+  Si  Si24  1  0.441713  0.941713  0.148767  1
+  Si  Si25  1  0.204728  0.704728  0.146763  1
+  Si  Si26  1  0.706708  0.558381  0.498999  1
+  Ge  Ge27  1  0.800804  0.300804  0.856283  1

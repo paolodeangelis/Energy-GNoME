@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ti2Co(SnIr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60007941
+_cell_length_b   7.60007947
+_cell_length_c   7.60007904
+_cell_angle_alpha   33.68788139
+_cell_angle_beta   33.68787740
+_cell_angle_gamma   33.68787670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Co(SnIr)2
+_chemical_formula_sum   'Ti2 Co1 Sn2 Ir2'
+_cell_volume   120.32547362
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.752751  0.752751  0.752751  1
+  Ti  Ti1  1  0.248101  0.248101  0.248101  1
+  Co  Co2  1  0.375518  0.375518  0.375518  1
+  Sn  Sn3  1  0.996225  0.996225  0.996225  1
+  Sn  Sn4  1  0.502563  0.502563  0.502563  1
+  Ir  Ir5  1  0.122804  0.122804  0.122804  1
+  Ir  Ir6  1  0.627038  0.627038  0.627038  1

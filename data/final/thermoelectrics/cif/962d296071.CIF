@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_InSn4B2(IrRh)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.69853423
+_cell_length_b   6.69928898
+_cell_length_c   5.63821170
+_cell_angle_alpha   90.21600455
+_cell_angle_beta   89.73997021
+_cell_angle_gamma   120.01025972
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSn4B2(IrRh)3
+_chemical_formula_sum   'In1 Sn4 B2 Ir3 Rh3'
+_cell_volume   219.09399267
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.666592  0.333341  0.497853  1
+  Sn  Sn1  1  0.407436  0.403298  0.000888  1
+  Sn  Sn2  1  0.596677  0.004202  0.001462  1
+  Sn  Sn3  1  0.995772  0.592517  0.001452  1
+  Sn  Sn4  1  0.333203  0.666675  0.496979  1
+  B  B5  1  0.000545  0.999996  0.498866  1
+  B  B6  1  0.000209  0.000014  0.001640  1
+  Ir  Ir7  1  0.246110  0.995141  0.748835  1
+  Ir  Ir8  1  0.747362  0.751688  0.251819  1
+  Ir  Ir9  1  0.005406  0.253460  0.252283  1
+  Rh  Rh10  1  0.250912  0.994966  0.253593  1
+  Rh  Rh11  1  0.745449  0.751048  0.746991  1
+  Rh  Rh12  1  0.004327  0.253654  0.747339  1

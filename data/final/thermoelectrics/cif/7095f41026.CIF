@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba4Zr(FeO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.24602315
+_cell_length_b   10.24602327
+_cell_length_c   10.24602354
+_cell_angle_alpha   33.27263398
+_cell_angle_beta   33.27263325
+_cell_angle_gamma   33.27262768
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Zr(FeO4)3
+_chemical_formula_sum   'Ba4 Zr1 Fe3 O12'
+_cell_volume   288.24067419
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.715999  0.715999  0.715999  1
+  Ba  Ba1  1  0.284001  0.284001  0.284001  1
+  Ba  Ba2  1  0.869902  0.869902  0.869902  1
+  Ba  Ba3  1  0.130098  0.130098  0.130098  1
+  Zr  Zr4  1  0.000000  0.000000  0.000000  1
+  Fe  Fe5  1  0.408910  0.408910  0.408910  1
+  Fe  Fe6  1  0.500000  0.500000  0.500000  1
+  Fe  Fe7  1  0.591090  0.591090  0.591090  1
+  O  O8  1  0.210820  0.210820  0.705020  1
+  O  O9  1  0.705020  0.210820  0.210820  1
+  O  O10  1  0.210820  0.705020  0.210820  1
+  O  O11  1  0.789180  0.294980  0.789180  1
+  O  O12  1  0.789180  0.789180  0.294980  1
+  O  O13  1  0.294980  0.789180  0.789180  1
+  O  O14  1  0.391985  0.391985  0.836440  1
+  O  O15  1  0.836440  0.391985  0.391985  1
+  O  O16  1  0.163560  0.608015  0.608015  1
+  O  O17  1  0.608015  0.608015  0.163560  1
+  O  O18  1  0.608015  0.163560  0.608015  1
+  O  O19  1  0.391985  0.836440  0.391985  1

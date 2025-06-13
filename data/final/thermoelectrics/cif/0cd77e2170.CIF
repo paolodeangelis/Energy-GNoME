@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaCa(Cu9Si4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15632742
+_cell_length_b   8.15632648
+_cell_length_c   8.15632607
+_cell_angle_alpha   120.57639898
+_cell_angle_beta   120.57639301
+_cell_angle_gamma   89.00451614
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCa(Cu9Si4)2
+_chemical_formula_sum   'Na1 Ca1 Cu18 Si8'
+_cell_volume   380.27477375
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250000  0.250000  0.000000  1
+  Ca  Ca1  1  0.750000  0.750000  0.000000  1
+  Cu  Cu2  1  0.934041  0.202860  0.137465  1
+  Cu  Cu3  1  0.202860  0.065396  0.268819  1
+  Cu  Cu4  1  0.796577  0.934041  0.731181  1
+  Cu  Cu5  1  0.434604  0.297140  0.731181  1
+  Cu  Cu6  1  0.065396  0.796577  0.862535  1
+  Cu  Cu7  1  0.807717  0.059249  0.500078  1
+  Cu  Cu8  1  0.559169  0.307638  0.499922  1
+  Cu  Cu9  1  0.192362  0.940831  0.500078  1
+  Cu  Cu10  1  0.440751  0.692283  0.499922  1
+  Cu  Cu11  1  0.940831  0.440751  0.748467  1
+  Cu  Cu12  1  0.692283  0.192362  0.251533  1
+  Cu  Cu13  1  0.059249  0.559169  0.251533  1
+  Cu  Cu14  1  0.703423  0.434604  0.137465  1
+  Cu  Cu15  1  0.565959  0.703423  0.268819  1
+  Cu  Cu16  1  0.500000  0.000000  0.500000  1
+  Cu  Cu17  1  0.000000  0.500000  0.500000  1
+  Cu  Cu18  1  0.307638  0.807717  0.748467  1
+  Cu  Cu19  1  0.297140  0.565959  0.862535  1
+  Si  Si20  1  0.793444  0.292421  0.852567  1
+  Si  Si21  1  0.559123  0.060146  0.852567  1
+  Si  Si22  1  0.060146  0.207579  0.501023  1
+  Si  Si23  1  0.292421  0.439854  0.498977  1
+  Si  Si24  1  0.940877  0.793444  0.501023  1
+  Si  Si25  1  0.439854  0.940877  0.147433  1
+  Si  Si26  1  0.207579  0.706556  0.147433  1
+  Si  Si27  1  0.706556  0.559123  0.498977  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Hf3Sn3IrRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.39984900
+_cell_length_b   7.39984856
+_cell_length_c   7.21860200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999749
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Sn3IrRh2
+_chemical_formula_sum   'Hf6 Sn6 Ir2 Rh4'
+_cell_volume   342.31775855
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.019801  0.407442  0.748476  1
+  Hf  Hf1  1  0.592558  0.612358  0.748476  1
+  Hf  Hf2  1  0.387642  0.980199  0.748476  1
+  Hf  Hf3  1  0.980199  0.387642  0.251524  1
+  Hf  Hf4  1  0.612358  0.592558  0.251524  1
+  Hf  Hf5  1  0.407442  0.019801  0.251524  1
+  Sn  Sn6  1  0.268021  0.268021  0.500000  1
+  Sn  Sn7  1  0.000000  0.731979  0.500000  1
+  Sn  Sn8  1  0.000000  0.727342  0.000000  1
+  Sn  Sn9  1  0.731979  0.000000  0.500000  1
+  Sn  Sn10  1  0.727342  0.000000  0.000000  1
+  Sn  Sn11  1  0.272658  0.272658  0.000000  1
+  Ir  Ir12  1  0.333333  0.666667  0.466422  1
+  Ir  Ir13  1  0.666667  0.333333  0.533578  1
+  Rh  Rh14  1  0.333333  0.666667  0.043483  1
+  Rh  Rh15  1  0.000000  0.000000  0.751652  1
+  Rh  Rh16  1  0.000000  0.000000  0.248348  1
+  Rh  Rh17  1  0.666667  0.333333  0.956517  1

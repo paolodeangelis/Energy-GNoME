@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ti2Tc3Sb2Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45905900
+_cell_length_b   6.34405700
+_cell_length_c   13.40938800
+_cell_angle_alpha   90.00079048
+_cell_angle_beta   90.00002140
+_cell_angle_gamma   89.99977598
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Tc3Sb2Ru
+_chemical_formula_sum   'Ti6 Tc9 Sb6 Ru3'
+_cell_volume   379.33180044
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.000003  0.999088  0.998876  1
+  Ti  Ti1  1  0.499911  0.501689  0.168928  1
+  Ti  Ti2  1  0.999915  0.999144  0.334281  1
+  Ti  Ti3  1  0.500001  0.500033  0.500032  1
+  Ti  Ti4  1  0.000090  0.000555  0.666757  1
+  Ti  Ti5  1  0.500089  0.500023  0.831220  1
+  Tc  Tc6  1  0.999918  0.748517  0.164701  1
+  Tc  Tc7  1  0.499926  0.250560  0.331497  1
+  Tc  Tc8  1  0.499920  0.749604  0.331829  1
+  Tc  Tc9  1  0.000001  0.250064  0.499618  1
+  Tc  Tc10  1  0.000002  0.750306  0.500004  1
+  Tc  Tc11  1  0.500085  0.250226  0.667316  1
+  Tc  Tc12  1  0.500085  0.749603  0.667213  1
+  Tc  Tc13  1  0.000072  0.250158  0.835871  1
+  Tc  Tc14  1  0.000076  0.750294  0.835297  1
+  Sb  Sb15  1  0.000000  0.500237  0.999751  1
+  Sb  Sb16  1  0.499911  0.999345  0.167500  1
+  Sb  Sb17  1  0.999902  0.500447  0.333587  1
+  Sb  Sb18  1  0.500001  0.000293  0.499740  1
+  Sb  Sb19  1  0.000096  0.499653  0.667032  1
+  Sb  Sb20  1  0.500084  0.000028  0.832344  1
+  Ru  Ru21  1  0.500004  0.247583  0.001135  1
+  Ru  Ru22  1  0.499997  0.752220  0.000533  1
+  Ru  Ru23  1  0.999916  0.250329  0.164943  1

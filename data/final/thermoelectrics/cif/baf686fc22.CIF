@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_HfTi2(V2Sn3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.36086300
+_cell_length_b   5.48119247
+_cell_length_c   5.52909130
+_cell_angle_alpha   119.90734819
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfTi2(V2Sn3)2
+_chemical_formula_sum   'Hf1 Ti2 V4 Sn6'
+_cell_volume   245.91218249
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.000000  0.000008  0.000011  1
+  Ti  Ti1  1  0.246294  0.500007  0.000005  1
+  Ti  Ti2  1  0.753705  0.500007  0.000005  1
+  V  V3  1  0.247101  0.500005  0.500007  1
+  V  V4  1  0.752898  0.500005  0.500007  1
+  V  V5  1  0.247002  0.000005  0.500005  1
+  V  V6  1  0.752997  0.000005  0.500005  1
+  Sn  Sn7  1  0.319125  0.000029  0.000036  1
+  Sn  Sn8  1  0.680874  0.000029  0.000036  1
+  Sn  Sn9  1  0.500000  0.667513  0.336357  1
+  Sn  Sn10  1  0.000000  0.669148  0.339946  1
+  Sn  Sn11  1  0.000000  0.330880  0.660061  1
+  Sn  Sn12  1  0.500000  0.332488  0.663646  1

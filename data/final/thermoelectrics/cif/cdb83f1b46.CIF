@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_BaLi(Ag2Sn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.58006282
+_cell_length_b   9.58006288
+_cell_length_c   9.58006270
+_cell_angle_alpha   120.93147988
+_cell_angle_beta   120.93148244
+_cell_angle_gamma   88.39405754
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLi(Ag2Sn)4
+_chemical_formula_sum   'Ba2 Li2 Ag16 Sn8'
+_cell_volume   612.69868235
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.750000  0.750000  0.000000  1
+  Ba  Ba1  1  0.250000  0.250000  0.000000  1
+  Li  Li2  1  0.500000  0.000000  0.500000  1
+  Li  Li3  1  0.000000  0.500000  0.500000  1
+  Ag  Ag4  1  0.207001  0.056040  0.263041  1
+  Ag  Ag5  1  0.791118  0.061140  0.500000  1
+  Ag  Ag6  1  0.708882  0.208882  0.270022  1
+  Ag  Ag7  1  0.061140  0.561140  0.270022  1
+  Ag  Ag8  1  0.556040  0.707001  0.263041  1
+  Ag  Ag9  1  0.707001  0.443960  0.150961  1
+  Ag  Ag10  1  0.792999  0.943960  0.736959  1
+  Ag  Ag11  1  0.208882  0.938860  0.500000  1
+  Ag  Ag12  1  0.056040  0.792999  0.849039  1
+  Ag  Ag13  1  0.938860  0.438860  0.729978  1
+  Ag  Ag14  1  0.291118  0.791118  0.729978  1
+  Ag  Ag15  1  0.943960  0.207001  0.150961  1
+  Ag  Ag16  1  0.292999  0.556040  0.849039  1
+  Ag  Ag17  1  0.438860  0.708882  0.500000  1
+  Ag  Ag18  1  0.443960  0.292999  0.736959  1
+  Ag  Ag19  1  0.561140  0.291118  0.500000  1
+  Sn  Sn20  1  0.302690  0.439654  0.500000  1
+  Sn  Sn21  1  0.802690  0.302690  0.863036  1
+  Sn  Sn22  1  0.697310  0.560346  0.500000  1
+  Sn  Sn23  1  0.939654  0.802690  0.500000  1
+  Sn  Sn24  1  0.060346  0.197310  0.500000  1
+  Sn  Sn25  1  0.560346  0.060346  0.863036  1
+  Sn  Sn26  1  0.197310  0.697310  0.136964  1
+  Sn  Sn27  1  0.439654  0.939654  0.136964  1

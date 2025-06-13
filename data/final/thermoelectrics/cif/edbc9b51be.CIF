@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Tm6Sc4(InBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.27616300
+_cell_length_b   8.82688160
+_cell_length_c   8.82766900
+_cell_angle_alpha   119.99704253
+_cell_angle_beta   89.99996370
+_cell_angle_gamma   90.00006659
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm6Sc4(InBi)3
+_chemical_formula_sum   'Tm6 Sc4 In3 Bi3'
+_cell_volume   423.53677931
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.750036  0.236138  0.000000  1
+  Tm  Tm1  1  0.750036  0.763690  0.763759  1
+  Tm  Tm2  1  0.750036  0.999931  0.236241  1
+  Tm  Tm3  1  0.249994  0.762377  0.000000  1
+  Tm  Tm4  1  0.249994  0.237803  0.237728  1
+  Tm  Tm5  1  0.249994  0.000076  0.762272  1
+  Sc  Sc6  1  0.490812  0.333330  0.666657  1
+  Sc  Sc7  1  0.490812  0.666673  0.333343  1
+  Sc  Sc8  1  0.009062  0.666676  0.333347  1
+  Sc  Sc9  1  0.009062  0.333330  0.666653  1
+  In  In10  1  0.249960  0.397663  0.000000  1
+  In  In11  1  0.249984  0.602437  0.602422  1
+  In  In12  1  0.249984  0.000014  0.397578  1
+  Bi  Bi13  1  0.750077  0.599272  0.000000  1
+  Bi  Bi14  1  0.750077  0.400605  0.400618  1
+  Bi  Bi15  1  0.750077  0.999988  0.599382  1

@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_TbMg4(Sn3Ir)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.78955087
+_cell_length_b   9.78955083
+_cell_length_c   9.78955100
+_cell_angle_alpha   60.00000280
+_cell_angle_beta   60.00000295
+_cell_angle_gamma   60.00000182
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbMg4(Sn3Ir)6
+_chemical_formula_sum   'Tb1 Mg4 Sn18 Ir6'
+_cell_volume   663.39674077
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.500000  0.500000  0.500000  1
+  Mg  Mg1  1  0.871636  0.871636  0.385093  1
+  Mg  Mg2  1  0.871636  0.385093  0.871636  1
+  Mg  Mg3  1  0.385093  0.871636  0.871636  1
+  Mg  Mg4  1  0.871636  0.871636  0.871636  1
+  Sn  Sn5  1  0.084152  0.084152  0.747545  1
+  Sn  Sn6  1  0.084152  0.747545  0.084152  1
+  Sn  Sn7  1  0.747545  0.084152  0.084152  1
+  Sn  Sn8  1  0.084152  0.084152  0.084152  1
+  Sn  Sn9  1  0.250000  0.250000  0.250000  1
+  Sn  Sn10  1  0.493186  0.861522  0.152103  1
+  Sn  Sn11  1  0.493186  0.493186  0.152103  1
+  Sn  Sn12  1  0.861522  0.493186  0.152103  1
+  Sn  Sn13  1  0.493186  0.152103  0.861522  1
+  Sn  Sn14  1  0.861522  0.152103  0.493186  1
+  Sn  Sn15  1  0.493186  0.152103  0.493186  1
+  Sn  Sn16  1  0.152103  0.493186  0.493186  1
+  Sn  Sn17  1  0.152103  0.861522  0.493186  1
+  Sn  Sn18  1  0.152103  0.493186  0.861522  1
+  Sn  Sn19  1  0.861522  0.493186  0.493186  1
+  Sn  Sn20  1  0.493186  0.493186  0.861522  1
+  Sn  Sn21  1  0.493186  0.861522  0.493186  1
+  Sn  Sn22  1  0.750000  0.750000  0.750000  1
+  Ir  Ir23  1  0.754334  0.754334  0.245666  1
+  Ir  Ir24  1  0.245666  0.754334  0.245666  1
+  Ir  Ir25  1  0.754334  0.245666  0.245666  1
+  Ir  Ir26  1  0.245666  0.245666  0.754334  1
+  Ir  Ir27  1  0.754334  0.245666  0.754334  1
+  Ir  Ir28  1  0.245666  0.754334  0.754334  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Y3Cu4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.89228075
+_cell_length_b   7.89228121
+_cell_length_c   7.89228087
+_cell_angle_alpha   149.26885064
+_cell_angle_beta   130.71946505
+_cell_angle_gamma   59.20749952
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Cu4Si3Ge
+_chemical_formula_sum   'Y3 Cu4 Si3 Ge1'
+_cell_volume   188.87687441
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.371065  0.871065  0.500000  1
+  Y  Y1  1  0.629152  0.129152  0.500000  1
+  Y  Y2  1  0.998963  0.998963  0.000000  1
+  Cu  Cu3  1  0.646765  0.333743  0.313021  1
+  Cu  Cu4  1  0.360931  0.667093  0.693838  1
+  Cu  Cu5  1  0.020722  0.333743  0.686979  1
+  Cu  Cu6  1  0.973255  0.667093  0.306162  1
+  Si  Si7  1  0.783556  0.783556  0.000000  1
+  Si  Si8  1  0.683965  0.499818  0.184147  1
+  Si  Si9  1  0.315671  0.499818  0.815853  1
+  Ge  Ge10  1  0.215955  0.215955  0.000000  1

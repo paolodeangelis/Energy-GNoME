@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ti8BeCrBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.87605459
+_cell_length_b   7.87605480
+_cell_length_c   7.87605541
+_cell_angle_alpha   95.55669703
+_cell_angle_beta   95.55669321
+_cell_angle_gamma   143.73972377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8BeCrBi4
+_chemical_formula_sum   'Ti8 Be1 Cr1 Bi4'
+_cell_volume   274.61989324
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.079915  0.192404  0.273225  1
+  Ti  Ti1  1  0.919178  0.806689  0.726775  1
+  Ti  Ti2  1  0.806689  0.079915  0.887510  1
+  Ti  Ti3  1  0.420085  0.693311  0.112490  1
+  Ti  Ti4  1  0.192404  0.919178  0.112490  1
+  Ti  Ti5  1  0.580822  0.307596  0.887510  1
+  Ti  Ti6  1  0.693311  0.580822  0.273225  1
+  Ti  Ti7  1  0.307596  0.420085  0.726775  1
+  Be  Be8  1  0.250000  0.250000  0.000000  1
+  Cr  Cr9  1  0.750000  0.750000  0.000000  1
+  Bi  Bi10  1  0.139060  0.639060  0.778119  1
+  Bi  Bi11  1  0.860940  0.360940  0.221881  1
+  Bi  Bi12  1  0.360940  0.139060  0.500000  1
+  Bi  Bi13  1  0.639060  0.860940  0.500000  1

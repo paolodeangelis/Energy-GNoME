@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zr3Bi2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.73278639
+_cell_length_b   5.73278620
+_cell_length_c   14.56244500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   141.09252864
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3Bi2Sb
+_chemical_formula_sum   'Zr6 Bi4 Sb2'
+_cell_volume   300.58691677
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.925975  0.074025  0.886546  1
+  Zr  Zr1  1  0.074025  0.925975  0.113454  1
+  Zr  Zr2  1  0.074025  0.925975  0.386546  1
+  Zr  Zr3  1  0.925975  0.074025  0.613454  1
+  Zr  Zr4  1  0.611651  0.388349  0.750000  1
+  Zr  Zr5  1  0.388349  0.611651  0.250000  1
+  Bi  Bi6  1  0.358721  0.641279  0.450179  1
+  Bi  Bi7  1  0.641279  0.358721  0.549821  1
+  Bi  Bi8  1  0.641279  0.358721  0.950179  1
+  Bi  Bi9  1  0.358721  0.641279  0.049821  1
+  Sb  Sb10  1  0.324547  0.675453  0.750000  1
+  Sb  Sb11  1  0.675453  0.324547  0.250000  1

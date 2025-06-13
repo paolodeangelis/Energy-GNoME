@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_YLu2Cu4(SiSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15202781
+_cell_length_b   8.15202821
+_cell_length_c   8.15202712
+_cell_angle_alpha   149.58843972
+_cell_angle_beta   131.89825994
+_cell_angle_gamma   57.97957236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YLu2Cu4(SiSn)2
+_chemical_formula_sum   'Y1 Lu2 Cu4 Si2 Sn2'
+_cell_volume   202.61584161
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.500000  0.000000  0.500000  1
+  Lu  Lu1  1  0.121974  0.121974  0.000000  1
+  Lu  Lu2  1  0.878026  0.878026  0.000000  1
+  Cu  Cu3  1  0.462052  0.653524  0.808528  1
+  Cu  Cu4  1  0.844996  0.653524  0.191472  1
+  Cu  Cu5  1  0.155004  0.346476  0.808528  1
+  Cu  Cu6  1  0.537948  0.346476  0.191472  1
+  Si  Si7  1  0.180074  0.500000  0.680074  1
+  Si  Si8  1  0.819926  0.500000  0.319926  1
+  Sn  Sn9  1  0.719827  0.219827  0.500000  1
+  Sn  Sn10  1  0.280173  0.780173  0.500000  1

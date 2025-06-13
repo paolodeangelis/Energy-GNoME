@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_YCo3As3Rh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83713600
+_cell_length_b   10.89065400
+_cell_length_c   12.51508400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YCo3As3Rh2
+_chemical_formula_sum   'Y4 Co12 As12 Rh8'
+_cell_volume   522.99185066
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.250000  0.582530  0.707357  1
+  Y  Y1  1  0.250000  0.917470  0.207357  1
+  Y  Y2  1  0.750000  0.417470  0.292643  1
+  Y  Y3  1  0.750000  0.082530  0.792643  1
+  Co  Co4  1  0.250000  0.217635  0.178669  1
+  Co  Co5  1  0.250000  0.282365  0.678669  1
+  Co  Co6  1  0.750000  0.782365  0.821331  1
+  Co  Co7  1  0.750000  0.717635  0.321331  1
+  Co  Co8  1  0.250000  0.884526  0.695381  1
+  Co  Co9  1  0.250000  0.615474  0.195381  1
+  Co  Co10  1  0.750000  0.115474  0.304619  1
+  Co  Co11  1  0.750000  0.384526  0.804619  1
+  Co  Co12  1  0.250000  0.465966  0.931088  1
+  Co  Co13  1  0.250000  0.034034  0.431088  1
+  Co  Co14  1  0.750000  0.534034  0.068912  1
+  Co  Co15  1  0.750000  0.965966  0.568912  1
+  As  As16  1  0.250000  0.417748  0.112048  1
+  As  As17  1  0.250000  0.082252  0.612048  1
+  As  As18  1  0.750000  0.582252  0.887952  1
+  As  As19  1  0.750000  0.917748  0.387952  1
+  As  As20  1  0.250000  0.273479  0.863729  1
+  As  As21  1  0.250000  0.226521  0.363729  1
+  As  As22  1  0.750000  0.726521  0.136271  1
+  As  As23  1  0.750000  0.773479  0.636271  1
+  As  As24  1  0.250000  0.604012  0.379793  1
+  As  As25  1  0.250000  0.895988  0.879793  1
+  As  As26  1  0.750000  0.395988  0.620207  1
+  As  As27  1  0.750000  0.104012  0.120207  1
+  Rh  Rh28  1  0.250000  0.710479  0.990604  1
+  Rh  Rh29  1  0.250000  0.789521  0.490604  1
+  Rh  Rh30  1  0.750000  0.289521  0.009396  1
+  Rh  Rh31  1  0.750000  0.210479  0.509396  1
+  Rh  Rh32  1  0.250000  0.407136  0.481291  1
+  Rh  Rh33  1  0.250000  0.092864  0.981291  1
+  Rh  Rh34  1  0.750000  0.592864  0.518709  1
+  Rh  Rh35  1  0.750000  0.907136  0.018709  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgInSn5Ir3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18023159
+_cell_length_b   8.22170362
+_cell_length_c   8.22170304
+_cell_angle_alpha   108.62355939
+_cell_angle_beta   109.97959901
+_cell_angle_gamma   109.97959383
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgInSn5Ir3
+_chemical_formula_sum   'Mg2 In2 Sn10 Ir6'
+_cell_volume   424.71456158
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.686358  0.998412  0.998412  1
+  Mg  Mg1  1  0.313642  0.001588  0.001588  1
+  In  In2  1  0.500000  0.756418  0.243582  1
+  In  In3  1  0.500000  0.243582  0.756418  1
+  Sn  Sn4  1  0.258782  0.513673  0.758632  1
+  Sn  Sn5  1  0.741218  0.486327  0.241368  1
+  Sn  Sn6  1  0.741218  0.241368  0.486327  1
+  Sn  Sn7  1  0.258782  0.758632  0.513673  1
+  Sn  Sn8  1  0.330270  0.322156  0.322156  1
+  Sn  Sn9  1  0.669730  0.677844  0.677844  1
+  Sn  Sn10  1  0.006187  0.000479  0.677523  1
+  Sn  Sn11  1  0.006187  0.677523  0.000479  1
+  Sn  Sn12  1  0.993813  0.999521  0.322477  1
+  Sn  Sn13  1  0.993813  0.322477  0.999521  1
+  Ir  Ir14  1  0.008965  0.349827  0.349827  1
+  Ir  Ir15  1  0.991035  0.650173  0.650173  1
+  Ir  Ir16  1  0.338238  0.000019  0.346988  1
+  Ir  Ir17  1  0.661762  0.999981  0.653012  1
+  Ir  Ir18  1  0.338238  0.346988  0.000019  1
+  Ir  Ir19  1  0.661762  0.653012  0.999981  1

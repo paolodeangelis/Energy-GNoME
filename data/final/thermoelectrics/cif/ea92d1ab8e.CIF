@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaPa5(Ni3Bi4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.36826769
+_cell_length_b   8.36826785
+_cell_length_c   8.36826806
+_cell_angle_alpha   109.54179696
+_cell_angle_beta   109.43593979
+_cell_angle_gamma   109.43594688
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaPa5(Ni3Bi4)2
+_chemical_formula_sum   'Ca1 Pa5 Ni6 Bi8'
+_cell_volume   451.11196102
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.750000  0.375000  0.625000  1
+  Pa  Pa1  1  0.127622  0.875852  0.251553  1
+  Pa  Pa2  1  0.372378  0.623931  0.748230  1
+  Pa  Pa3  1  0.875701  0.251770  0.124148  1
+  Pa  Pa4  1  0.624299  0.748447  0.376069  1
+  Pa  Pa5  1  0.250000  0.125000  0.875000  1
+  Ni  Ni6  1  0.612163  0.369143  0.229285  1
+  Ni  Ni7  1  0.887837  0.117121  0.756979  1
+  Ni  Ni8  1  0.360141  0.243021  0.630857  1
+  Ni  Ni9  1  0.139859  0.770715  0.882879  1
+  Ni  Ni10  1  0.250000  0.625000  0.375000  1
+  Ni  Ni11  1  0.750000  0.875000  0.125000  1
+  Bi  Bi12  1  0.334767  0.331554  0.335416  1
+  Bi  Bi13  1  0.165233  0.500650  0.996788  1
+  Bi  Bi14  1  0.996030  0.167248  0.498625  1
+  Bi  Bi15  1  0.831377  0.828782  0.832752  1
+  Bi  Bi16  1  0.503970  0.002595  0.171218  1
+  Bi  Bi17  1  0.668623  0.501375  0.997405  1
+  Bi  Bi18  1  0.503863  0.003212  0.668446  1
+  Bi  Bi19  1  0.996137  0.664584  0.499350  1

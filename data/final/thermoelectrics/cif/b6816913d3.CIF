@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca3Ga8Ag2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43350202
+_cell_length_b   8.57040833
+_cell_length_c   8.57040836
+_cell_angle_alpha   71.42621172
+_cell_angle_beta   75.00991131
+_cell_angle_gamma   75.00991248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3Ga8Ag2Sn
+_chemical_formula_sum   'Ca3 Ga8 Ag2 Sn1'
+_cell_volume   292.60603849
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.500000  0.500000  1
+  Ca  Ca1  1  0.193592  0.806408  0.806408  1
+  Ca  Ca2  1  0.806408  0.193592  0.193592  1
+  Ga  Ga3  1  0.348518  0.380420  0.922543  1
+  Ga  Ga4  1  0.651482  0.619580  0.077457  1
+  Ga  Ga5  1  0.348518  0.922543  0.380420  1
+  Ga  Ga6  1  0.651482  0.077457  0.619580  1
+  Ga  Ga7  1  0.161413  0.465919  0.211256  1
+  Ga  Ga8  1  0.838587  0.534081  0.788744  1
+  Ga  Ga9  1  0.161413  0.211256  0.465919  1
+  Ga  Ga10  1  0.838587  0.788744  0.534081  1
+  Ag  Ag11  1  0.000000  0.788939  0.211061  1
+  Ag  Ag12  1  0.000000  0.211061  0.788939  1
+  Sn  Sn13  1  0.500000  0.000000  0.000000  1

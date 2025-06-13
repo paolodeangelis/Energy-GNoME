@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Y2Er(PdPb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88040900
+_cell_length_b   7.83335596
+_cell_length_c   3.89271500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.19889732
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2Er(PdPb)3
+_chemical_formula_sum   'Y2 Er1 Pd3 Pb3'
+_cell_volume   207.68538908
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.000020  0.398381  0.500000  1
+  Y  Y1  1  0.601639  0.601619  0.500000  1
+  Er  Er2  1  0.398464  0.000000  0.500000  1
+  Pd  Pd3  1  0.001027  0.000000  0.500000  1
+  Pd  Pd4  1  0.333474  0.668731  0.000000  1
+  Pd  Pd5  1  0.664744  0.331269  0.000000  1
+  Pb  Pb6  1  0.732229  0.000000  0.000000  1
+  Pb  Pb7  1  0.000736  0.733068  0.000000  1
+  Pb  Pb8  1  0.267667  0.266932  0.000000  1

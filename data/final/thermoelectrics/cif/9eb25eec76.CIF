@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbEr(CuSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.46193400
+_cell_length_b   9.35536606
+_cell_length_c   7.71244189
+_cell_angle_alpha   90.18361177
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbEr(CuSb)2
+_chemical_formula_sum   'Rb2 Er2 Cu4 Sb4'
+_cell_volume   321.93900842
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.250000  0.499463  0.248078  1
+  Rb  Rb1  1  0.750000  0.500537  0.751922  1
+  Er  Er2  1  0.250000  0.000381  0.252311  1
+  Er  Er3  1  0.750000  0.999619  0.747689  1
+  Cu  Cu4  1  0.250000  0.830097  0.583620  1
+  Cu  Cu5  1  0.750000  0.169903  0.416380  1
+  Cu  Cu6  1  0.250000  0.163326  0.916236  1
+  Cu  Cu7  1  0.750000  0.836674  0.083764  1
+  Sb  Sb8  1  0.750000  0.791326  0.416368  1
+  Sb  Sb9  1  0.250000  0.208674  0.583632  1
+  Sb  Sb10  1  0.750000  0.205825  0.082750  1
+  Sb  Sb11  1  0.250000  0.794175  0.917250  1

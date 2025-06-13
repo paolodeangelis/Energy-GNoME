@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Ta8MnBeTe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.86382800
+_cell_length_b   10.88237900
+_cell_length_c   18.94643800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta8MnBeTe8
+_chemical_formula_sum   'Ta16 Mn2 Be2 Te16'
+_cell_volume   1002.83533633
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.494324  0.562117  0.386317  1
+  Ta  Ta1  1  0.494324  0.437883  0.613683  1
+  Ta  Ta2  1  0.505676  0.062117  0.113683  1
+  Ta  Ta3  1  0.505676  0.937883  0.886317  1
+  Ta  Ta4  1  0.493858  0.698480  0.535576  1
+  Ta  Ta5  1  0.493858  0.301520  0.464424  1
+  Ta  Ta6  1  0.506142  0.198480  0.964424  1
+  Ta  Ta7  1  0.506142  0.801520  0.035576  1
+  Ta  Ta8  1  0.005820  0.684351  0.444479  1
+  Ta  Ta9  1  0.005820  0.315649  0.555521  1
+  Ta  Ta10  1  0.994180  0.184351  0.055521  1
+  Ta  Ta11  1  0.994180  0.815649  0.944479  1
+  Ta  Ta12  1  0.005282  0.403900  0.394436  1
+  Ta  Ta13  1  0.005282  0.596100  0.605564  1
+  Ta  Ta14  1  0.994718  0.903900  0.105564  1
+  Ta  Ta15  1  0.994718  0.096100  0.894436  1
+  Mn  Mn16  1  0.749232  0.500000  0.500000  1
+  Mn  Mn17  1  0.250768  0.000000  0.000000  1
+  Be  Be18  1  0.249451  0.500000  0.500000  1
+  Be  Be19  1  0.750549  0.000000  0.000000  1
+  Te  Te20  1  0.996716  0.847974  0.562763  1
+  Te  Te21  1  0.996716  0.152026  0.437237  1
+  Te  Te22  1  0.003284  0.347974  0.937237  1
+  Te  Te23  1  0.003284  0.652026  0.062763  1
+  Te  Te24  1  0.503079  0.331221  0.314808  1
+  Te  Te25  1  0.503079  0.668779  0.685192  1
+  Te  Te26  1  0.496921  0.831221  0.185192  1
+  Te  Te27  1  0.496921  0.168779  0.814808  1
+  Te  Te28  1  0.503196  0.823518  0.402834  1
+  Te  Te29  1  0.503196  0.176482  0.597166  1
+  Te  Te30  1  0.496804  0.323518  0.097166  1
+  Te  Te31  1  0.496804  0.676482  0.902834  1
+  Te  Te32  1  0.997176  0.608710  0.300121  1
+  Te  Te33  1  0.997176  0.391290  0.699879  1
+  Te  Te34  1  0.002824  0.108710  0.199879  1
+  Te  Te35  1  0.002824  0.891290  0.800121  1

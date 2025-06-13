@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sr2In7Pt2Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.01200934
+_cell_length_b   9.01200968
+_cell_length_c   7.60282339
+_cell_angle_alpha   89.81026434
+_cell_angle_beta   90.18973690
+_cell_angle_gamma   149.92699047
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2In7Pt2Pb
+_chemical_formula_sum   'Sr2 In7 Pt2 Pb1'
+_cell_volume   309.41598707
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.126289  0.873711  0.751352  1
+  Sr  Sr1  1  0.873711  0.126289  0.248648  1
+  In  In2  1  0.315230  0.684770  0.950651  1
+  In  In3  1  0.686957  0.313043  0.448180  1
+  In  In4  1  0.684770  0.315230  0.049349  1
+  In  In5  1  0.313043  0.686957  0.551820  1
+  In  In6  1  0.068910  0.931090  0.246178  1
+  In  In7  1  0.931090  0.068910  0.753822  1
+  In  In8  1  0.500000  0.500000  0.000000  1
+  Pt  Pt9  1  0.775152  0.224848  0.750398  1
+  Pt  Pt10  1  0.224848  0.775152  0.249602  1
+  Pb  Pb11  1  0.500000  0.500000  0.500000  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zr6Bi5Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.74327893
+_cell_length_b   5.74327907
+_cell_length_c   14.53332400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   140.79128853
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr6Bi5Te
+_chemical_formula_sum   'Zr6 Bi5 Te1'
+_cell_volume   303.04208685
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.927603  0.072397  0.888183  1
+  Zr  Zr1  1  0.071452  0.928548  0.109242  1
+  Zr  Zr2  1  0.071452  0.928548  0.390758  1
+  Zr  Zr3  1  0.927603  0.072397  0.611817  1
+  Zr  Zr4  1  0.609345  0.390655  0.750000  1
+  Zr  Zr5  1  0.392714  0.607286  0.250000  1
+  Bi  Bi6  1  0.678576  0.321424  0.250000  1
+  Bi  Bi7  1  0.358305  0.641695  0.450777  1
+  Bi  Bi8  1  0.640538  0.359462  0.550087  1
+  Bi  Bi9  1  0.640538  0.359462  0.949913  1
+  Bi  Bi10  1  0.358305  0.641695  0.049223  1
+  Te  Te11  1  0.323568  0.676432  0.750000  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce6Cu6Sn7Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.37355484
+_cell_length_b   8.37355508
+_cell_length_c   8.37355503
+_cell_angle_alpha   109.27443089
+_cell_angle_beta   109.27443251
+_cell_angle_gamma   109.27442799
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce6Cu6Sn7Sb
+_chemical_formula_sum   'Ce6 Cu6 Sn7 Sb1'
+_cell_volume   455.23129689
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.875547  0.248902  0.125786  1
+  Ce  Ce1  1  0.626198  0.749889  0.376357  1
+  Ce  Ce2  1  0.248902  0.125786  0.875547  1
+  Ce  Ce3  1  0.749889  0.376357  0.626198  1
+  Ce  Ce4  1  0.125786  0.875547  0.248902  1
+  Ce  Ce5  1  0.376357  0.626198  0.749889  1
+  Cu  Cu6  1  0.374354  0.249675  0.625376  1
+  Cu  Cu7  1  0.125389  0.750495  0.875383  1
+  Cu  Cu8  1  0.249675  0.625376  0.374354  1
+  Cu  Cu9  1  0.750495  0.875383  0.125389  1
+  Cu  Cu10  1  0.625376  0.374354  0.249675  1
+  Cu  Cu11  1  0.875383  0.125389  0.750495  1
+  Sn  Sn12  1  0.661296  0.500504  0.000031  1
+  Sn  Sn13  1  0.500504  0.000031  0.661296  1
+  Sn  Sn14  1  0.000031  0.661296  0.500504  1
+  Sn  Sn15  1  0.837016  0.837016  0.837016  1
+  Sn  Sn16  1  0.500357  0.998698  0.160302  1
+  Sn  Sn17  1  0.160302  0.500357  0.998698  1
+  Sn  Sn18  1  0.998698  0.160302  0.500357  1
+  Sb  Sb19  1  0.338447  0.338447  0.338447  1

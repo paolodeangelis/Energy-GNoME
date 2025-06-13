@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2Ac(SnAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.12344298
+_cell_length_b   7.12344373
+_cell_length_c   9.32950600
+_cell_angle_alpha   82.74739937
+_cell_angle_beta   82.74740671
+_cell_angle_gamma   119.43184191
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Ac(SnAs)6
+_chemical_formula_sum   'Na2 Ac1 Sn6 As6'
+_cell_volume   399.18422360
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.666514  0.333486  0.000000  1
+  Na  Na1  1  0.333486  0.666514  0.000000  1
+  Ac  Ac2  1  0.000000  0.000000  0.000000  1
+  Sn  Sn3  1  0.549069  0.877997  0.370419  1
+  Sn  Sn4  1  0.207464  0.207464  0.370387  1
+  Sn  Sn5  1  0.877997  0.549069  0.370419  1
+  Sn  Sn6  1  0.450931  0.122003  0.629581  1
+  Sn  Sn7  1  0.122003  0.450931  0.629581  1
+  Sn  Sn8  1  0.792536  0.792536  0.629613  1
+  As  As9  1  0.410419  0.410419  0.784548  1
+  As  As10  1  0.072799  0.733716  0.783899  1
+  As  As11  1  0.733716  0.072799  0.783899  1
+  As  As12  1  0.589581  0.589581  0.215452  1
+  As  As13  1  0.266284  0.927201  0.216101  1
+  As  As14  1  0.927201  0.266284  0.216101  1

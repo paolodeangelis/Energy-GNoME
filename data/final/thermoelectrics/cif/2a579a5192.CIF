@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaLu(Cu2P)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22904364
+_cell_length_b   7.22904364
+_cell_length_c   3.76479900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   88.74340646
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLu(Cu2P)4
+_chemical_formula_sum   'Na1 Lu1 Cu8 P4'
+_cell_volume   196.69758670
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500000  0.500000  0.000000  1
+  Lu  Lu1  1  0.000000  0.000000  0.500000  1
+  Cu  Cu2  1  0.164660  0.584891  0.500000  1
+  Cu  Cu3  1  0.835340  0.415109  0.500000  1
+  Cu  Cu4  1  0.334888  0.083671  0.000000  1
+  Cu  Cu5  1  0.665112  0.916329  0.000000  1
+  Cu  Cu6  1  0.584891  0.164660  0.500000  1
+  Cu  Cu7  1  0.415109  0.835340  0.500000  1
+  Cu  Cu8  1  0.083671  0.334888  0.000000  1
+  Cu  Cu9  1  0.916329  0.665112  0.000000  1
+  P  P10  1  0.724136  0.724136  0.500000  1
+  P  P11  1  0.275864  0.275864  0.500000  1
+  P  P12  1  0.787731  0.212269  0.000000  1
+  P  P13  1  0.212269  0.787731  0.000000  1

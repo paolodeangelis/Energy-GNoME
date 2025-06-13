@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Eu2Ho(AgSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68549269
+_cell_length_b   7.62523567
+_cell_length_c   8.97120286
+_cell_angle_alpha   115.14964686
+_cell_angle_beta   105.13776703
+_cell_angle_gamma   90.00000239
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2Ho(AgSn)4
+_chemical_formula_sum   'Eu2 Ho1 Ag4 Sn4'
+_cell_volume   277.80195380
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000099  0.000099  0.000197  1
+  Eu  Eu1  1  0.126533  0.626533  0.253066  1
+  Ho  Ho2  1  0.872984  0.372983  0.745966  1
+  Ag  Ag3  1  0.672249  0.366598  0.344495  1
+  Ag  Ag4  1  0.672249  0.977898  0.344495  1
+  Ag  Ag5  1  0.328375  0.025810  0.656751  1
+  Ag  Ag6  1  0.328375  0.630940  0.656751  1
+  Sn  Sn7  1  0.497932  0.308847  0.995862  1
+  Sn  Sn8  1  0.497932  0.687016  0.995862  1
+  Sn  Sn9  1  0.218705  0.218705  0.437409  1
+  Sn  Sn10  1  0.784574  0.784573  0.569146  1

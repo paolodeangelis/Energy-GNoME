@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyTa(SbRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37486900
+_cell_length_b   4.49501100
+_cell_length_c   9.02533500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyTa(SbRh)2
+_chemical_formula_sum   'Dy2 Ta2 Sb4 Rh4'
+_cell_volume   258.62193362
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.005715  0.000000  0.376392  1
+  Dy  Dy1  1  0.505716  0.500001  0.623608  1
+  Ta  Ta2  1  0.494621  0.500001  0.120562  1
+  Ta  Ta3  1  0.994622  0.000000  0.879437  1
+  Sb  Sb4  1  0.984625  0.500001  0.124762  1
+  Sb  Sb5  1  0.510399  0.000000  0.370351  1
+  Sb  Sb6  1  0.010400  0.500001  0.629648  1
+  Sb  Sb7  1  0.484624  0.000000  0.875238  1
+  Rh  Rh8  1  0.733187  0.000000  0.108853  1
+  Rh  Rh9  1  0.271448  0.500001  0.350492  1
+  Rh  Rh10  1  0.771449  0.000000  0.649506  1
+  Rh  Rh11  1  0.233188  0.500001  0.891146  1

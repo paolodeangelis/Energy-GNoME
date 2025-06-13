@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaEu(CdBi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.32141968
+_cell_length_b   11.32141978
+_cell_length_c   11.32141974
+_cell_angle_alpha   156.00738159
+_cell_angle_beta   156.00738144
+_cell_angle_gamma   34.18826298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEu(CdBi2)2
+_chemical_formula_sum   'Ca1 Eu1 Cd2 Bi4'
+_cell_volume   239.68163128
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.118499  0.118499  0.000000  1
+  Eu  Eu1  1  0.880940  0.880940  0.000000  1
+  Cd  Cd2  1  0.749831  0.249832  0.499999  1
+  Cd  Cd3  1  0.249832  0.749831  0.499999  1
+  Bi  Bi4  1  0.347579  0.347579  0.000000  1
+  Bi  Bi5  1  0.652606  0.652606  0.000000  1
+  Bi  Bi6  1  0.500356  0.000357  0.499999  1
+  Bi  Bi7  1  0.000357  0.500356  0.499999  1

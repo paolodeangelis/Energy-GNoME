@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_KSrNi18(Ge2P3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79902100
+_cell_length_b   6.79902083
+_cell_length_c   10.46876800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999596
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSrNi18(Ge2P3)2
+_chemical_formula_sum   'K1 Sr1 Ni18 Ge4 P6'
+_cell_volume   419.10127220
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.000000  0.000000  0.000000  1
+  Sr  Sr1  1  0.000000  0.000000  0.500000  1
+  Ni  Ni2  1  0.539732  0.079464  0.119553  1
+  Ni  Ni3  1  0.460269  0.539731  0.618198  1
+  Ni  Ni4  1  0.079461  0.539731  0.618198  1
+  Ni  Ni5  1  0.920536  0.460268  0.119553  1
+  Ni  Ni6  1  0.539732  0.460268  0.119553  1
+  Ni  Ni7  1  0.460268  0.920536  0.880447  1
+  Ni  Ni8  1  0.460268  0.539732  0.880447  1
+  Ni  Ni9  1  0.460269  0.920539  0.618198  1
+  Ni  Ni10  1  0.079464  0.539732  0.880447  1
+  Ni  Ni11  1  0.920539  0.460269  0.381802  1
+  Ni  Ni12  1  0.539731  0.079461  0.381802  1
+  Ni  Ni13  1  0.539731  0.460269  0.381802  1
+  Ni  Ni14  1  0.197834  0.395667  0.251358  1
+  Ni  Ni15  1  0.802166  0.197834  0.748642  1
+  Ni  Ni16  1  0.395667  0.197834  0.748642  1
+  Ni  Ni17  1  0.604333  0.802166  0.251358  1
+  Ni  Ni18  1  0.197834  0.802166  0.251358  1
+  Ni  Ni19  1  0.802166  0.604333  0.748642  1
+  Ge  Ge20  1  0.333333  0.666667  0.064031  1
+  Ge  Ge21  1  0.666667  0.333333  0.563639  1
+  Ge  Ge22  1  0.666667  0.333333  0.935969  1
+  Ge  Ge23  1  0.333333  0.666667  0.436361  1
+  P  P24  1  0.832537  0.665075  0.250403  1
+  P  P25  1  0.167463  0.832537  0.749597  1
+  P  P26  1  0.665075  0.832537  0.749597  1
+  P  P27  1  0.334925  0.167463  0.250403  1
+  P  P28  1  0.832537  0.167463  0.250403  1
+  P  P29  1  0.167463  0.334925  0.749597  1

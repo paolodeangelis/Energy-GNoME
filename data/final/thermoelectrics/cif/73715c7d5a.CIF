@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca3LuSb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09017422
+_cell_length_b   8.14941782
+_cell_length_c   8.09017518
+_cell_angle_alpha   109.43349681
+_cell_angle_beta   108.97204300
+_cell_angle_gamma   109.43349085
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3LuSb3
+_chemical_formula_sum   'Ca6 Lu2 Sb6'
+_cell_volume   413.48098658
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.135965  0.494468  0.998982  1
+  Ca  Ca1  1  0.498982  0.994468  0.635965  1
+  Ca  Ca2  1  0.356016  0.360824  0.359102  1
+  Ca  Ca3  1  0.003776  0.146204  0.504879  1
+  Ca  Ca4  1  0.859102  0.860824  0.856016  1
+  Ca  Ca5  1  0.004879  0.646204  0.503776  1
+  Lu  Lu6  1  0.642884  0.496832  0.997736  1
+  Lu  Lu7  1  0.497736  0.996832  0.142884  1
+  Sb  Sb8  1  0.858680  0.249099  0.125022  1
+  Sb  Sb9  1  0.122732  0.871431  0.242314  1
+  Sb  Sb10  1  0.385688  0.631143  0.766225  1
+  Sb  Sb11  1  0.266225  0.131143  0.885688  1
+  Sb  Sb12  1  0.742314  0.371431  0.622732  1
+  Sb  Sb13  1  0.625022  0.749099  0.358680  1

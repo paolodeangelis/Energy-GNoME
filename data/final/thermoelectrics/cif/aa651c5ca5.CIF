@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Ba2CaAl2Sb3As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60362700
+_cell_length_b   12.05757600
+_cell_length_c   12.40165700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CaAl2Sb3As
+_chemical_formula_sum   'Ba8 Ca4 Al8 Sb12 As4'
+_cell_volume   1137.00016524
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.601048  0.072808  0.361277  1
+  Ba  Ba1  1  0.101048  0.427192  0.138723  1
+  Ba  Ba2  1  0.398952  0.572808  0.638723  1
+  Ba  Ba3  1  0.898952  0.927192  0.861277  1
+  Ba  Ba4  1  0.398952  0.927192  0.638723  1
+  Ba  Ba5  1  0.898952  0.572808  0.861277  1
+  Ba  Ba6  1  0.601048  0.427192  0.361277  1
+  Ba  Ba7  1  0.101048  0.072808  0.138723  1
+  Ca  Ca8  1  0.590464  0.250000  0.753912  1
+  Ca  Ca9  1  0.090464  0.250000  0.746088  1
+  Ca  Ca10  1  0.409536  0.750000  0.246088  1
+  Ca  Ca11  1  0.909536  0.750000  0.253912  1
+  Al  Al12  1  0.566213  0.129167  0.044135  1
+  Al  Al13  1  0.066213  0.370833  0.455865  1
+  Al  Al14  1  0.433787  0.629167  0.955865  1
+  Al  Al15  1  0.933787  0.870833  0.544135  1
+  Al  Al16  1  0.433787  0.870833  0.955865  1
+  Al  Al17  1  0.933787  0.629167  0.544135  1
+  Al  Al18  1  0.566213  0.370833  0.044135  1
+  Al  Al19  1  0.066213  0.129167  0.455865  1
+  Sb  Sb20  1  0.665049  0.573847  0.117931  1
+  Sb  Sb21  1  0.165049  0.926153  0.382069  1
+  Sb  Sb22  1  0.334951  0.073847  0.882069  1
+  Sb  Sb23  1  0.834951  0.426153  0.617931  1
+  Sb  Sb24  1  0.334951  0.426153  0.882069  1
+  Sb  Sb25  1  0.834951  0.073847  0.617931  1
+  Sb  Sb26  1  0.665049  0.926153  0.117931  1
+  Sb  Sb27  1  0.165049  0.573847  0.382069  1
+  Sb  Sb28  1  0.843550  0.250000  0.960363  1
+  Sb  Sb29  1  0.343550  0.250000  0.539637  1
+  Sb  Sb30  1  0.156450  0.750000  0.039637  1
+  Sb  Sb31  1  0.656450  0.750000  0.460363  1
+  As  As32  1  0.924455  0.250000  0.318446  1
+  As  As33  1  0.424455  0.250000  0.181554  1
+  As  As34  1  0.075545  0.750000  0.681554  1
+  As  As35  1  0.575545  0.750000  0.818446  1

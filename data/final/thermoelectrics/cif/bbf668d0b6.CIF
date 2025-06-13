@@ -1,0 +1,59 @@
+# generated using pymatgen
+data_Yb6Si(BiPd12)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.27599615
+_cell_length_b   8.27599629
+_cell_length_c   8.27599600
+_cell_angle_alpha   89.95873123
+_cell_angle_beta   90.04126877
+_cell_angle_gamma   90.04127079
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb6Si(BiPd12)2
+_chemical_formula_sum   'Yb6 Si1 Bi2 Pd24'
+_cell_volume   566.84001572
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.252200  0.252293  0.252293  1
+  Yb  Yb1  1  0.747800  0.747707  0.747707  1
+  Yb  Yb2  1  0.747707  0.747800  0.252293  1
+  Yb  Yb3  1  0.747707  0.252293  0.747800  1
+  Yb  Yb4  1  0.252293  0.252200  0.747707  1
+  Yb  Yb5  1  0.252293  0.747707  0.252200  1
+  Si  Si6  1  0.000000  0.000000  0.000000  1
+  Bi  Bi7  1  0.255935  0.744065  0.744065  1
+  Bi  Bi8  1  0.744065  0.255935  0.255935  1
+  Pd  Pd9  1  0.257871  0.499489  0.000748  1
+  Pd  Pd10  1  0.742129  0.500511  0.999252  1
+  Pd  Pd11  1  0.000748  0.257871  0.500511  1
+  Pd  Pd12  1  0.499489  0.257871  0.999252  1
+  Pd  Pd13  1  0.999252  0.742129  0.499489  1
+  Pd  Pd14  1  0.500511  0.742129  0.000748  1
+  Pd  Pd15  1  0.499489  0.999252  0.257871  1
+  Pd  Pd16  1  0.257871  0.000748  0.499489  1
+  Pd  Pd17  1  0.500511  0.000748  0.742129  1
+  Pd  Pd18  1  0.742129  0.999252  0.500511  1
+  Pd  Pd19  1  0.000748  0.500511  0.257871  1
+  Pd  Pd20  1  0.999252  0.499489  0.742129  1
+  Pd  Pd21  1  0.252648  0.498826  0.498826  1
+  Pd  Pd22  1  0.747352  0.501174  0.501174  1
+  Pd  Pd23  1  0.498826  0.252648  0.501174  1
+  Pd  Pd24  1  0.501174  0.747352  0.498826  1
+  Pd  Pd25  1  0.498826  0.501174  0.252648  1
+  Pd  Pd26  1  0.501174  0.498826  0.747352  1
+  Pd  Pd27  1  0.280558  0.000339  0.000339  1
+  Pd  Pd28  1  0.719442  0.999661  0.999661  1
+  Pd  Pd29  1  0.000339  0.280558  0.999661  1
+  Pd  Pd30  1  0.999661  0.719442  0.000339  1
+  Pd  Pd31  1  0.000339  0.999661  0.280558  1
+  Pd  Pd32  1  0.999661  0.000339  0.719442  1

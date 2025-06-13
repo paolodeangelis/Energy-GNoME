@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_La2YbAl4(Si2Ge)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.17820900
+_cell_length_b   4.17821000
+_cell_length_c   18.57724700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000002
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2YbAl4(Si2Ge)2
+_chemical_formula_sum   'La2 Yb1 Al4 Si4 Ge2'
+_cell_volume   280.86162952
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.000000  0.000000  0.112971  1
+  La  La1  1  0.000000  0.000000  0.887029  1
+  Yb  Yb2  1  0.000000  0.000000  0.500000  1
+  Al  Al3  1  0.333333  0.666667  0.740892  1
+  Al  Al4  1  0.666667  0.333333  0.259108  1
+  Al  Al5  1  0.333333  0.666667  0.358552  1
+  Al  Al6  1  0.666667  0.333333  0.641448  1
+  Si  Si7  1  0.333333  0.666667  0.996771  1
+  Si  Si8  1  0.666667  0.333333  0.003229  1
+  Si  Si9  1  0.333333  0.666667  0.220057  1
+  Si  Si10  1  0.666667  0.333333  0.779943  1
+  Ge  Ge11  1  0.333333  0.666667  0.598840  1
+  Ge  Ge12  1  0.666667  0.333333  0.401160  1

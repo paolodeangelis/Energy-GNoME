@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LaCd3As2P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42491648
+_cell_length_b   4.42489537
+_cell_length_c   21.55244800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.04994195
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCd3As2P
+_chemical_formula_sum   'La2 Cd6 As4 P2'
+_cell_volume   365.27213571
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.002978  0.002523  0.499944  1
+  La  La1  1  0.002978  0.002523  0.000056  1
+  Cd  Cd2  1  0.667594  0.334345  0.128944  1
+  Cd  Cd3  1  0.335276  0.667706  0.871158  1
+  Cd  Cd4  1  0.335276  0.667706  0.628842  1
+  Cd  Cd5  1  0.667594  0.334345  0.371056  1
+  Cd  Cd6  1  0.725267  0.364928  0.750000  1
+  Cd  Cd7  1  0.361610  0.725957  0.250000  1
+  As  As8  1  0.669319  0.335120  0.578824  1
+  As  As9  1  0.335242  0.668565  0.421019  1
+  As  As10  1  0.335242  0.668565  0.078981  1
+  As  As11  1  0.669319  0.335120  0.921176  1
+  P  P12  1  0.396428  0.700341  0.750000  1
+  P  P13  1  0.697178  0.397460  0.250000  1

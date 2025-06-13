@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2YbCdBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79307800
+_cell_length_b   9.37286200
+_cell_length_c   7.99496800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2YbCdBi2
+_chemical_formula_sum   'Na4 Yb2 Cd2 Bi4'
+_cell_volume   359.17280731
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500001  0.420369  0.051631  1
+  Na  Na1  1  0.000000  0.329934  0.370401  1
+  Na  Na2  1  0.500001  0.579630  0.551632  1
+  Na  Na3  1  0.000000  0.670066  0.870402  1
+  Yb  Yb4  1  0.000000  0.054482  0.997747  1
+  Yb  Yb5  1  0.000000  0.945518  0.497746  1
+  Cd  Cd6  1  0.500001  0.815379  0.158662  1
+  Cd  Cd7  1  0.500001  0.184621  0.658663  1
+  Bi  Bi8  1  0.000000  0.655555  0.272998  1
+  Bi  Bi9  1  0.500001  0.121007  0.281031  1
+  Bi  Bi10  1  0.000000  0.344444  0.772997  1
+  Bi  Bi11  1  0.500001  0.878993  0.781030  1

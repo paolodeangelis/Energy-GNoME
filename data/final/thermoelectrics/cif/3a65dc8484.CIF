@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LiAc(ZnGe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28289000
+_cell_length_b   4.28288816
+_cell_length_c   7.35719400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999873
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAc(ZnGe)2
+_chemical_formula_sum   'Li1 Ac1 Zn2 Ge2'
+_cell_volume   116.87362104
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.000000  0.000000  0.000000  1
+  Ac  Ac1  1  0.000000  0.000000  0.500000  1
+  Zn  Zn2  1  0.333333  0.666667  0.162287  1
+  Zn  Zn3  1  0.666667  0.333333  0.837713  1
+  Ge  Ge4  1  0.666667  0.333333  0.223066  1
+  Ge  Ge5  1  0.333333  0.666667  0.776934  1

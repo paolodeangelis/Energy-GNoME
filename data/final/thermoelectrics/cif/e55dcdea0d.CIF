@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ti5ZnBiPb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.39864555
+_cell_length_b   8.38719159
+_cell_length_c   5.65039500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.95489743
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti5ZnBiPb2
+_chemical_formula_sum   'Ti10 Zn2 Bi2 Pb4'
+_cell_volume   344.85176885
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.332963  0.666482  0.000000  1
+  Ti  Ti1  1  0.666452  0.333226  0.500000  1
+  Ti  Ti2  1  0.666452  0.333226  0.000000  1
+  Ti  Ti3  1  0.332963  0.666482  0.500000  1
+  Ti  Ti4  1  0.266903  0.999743  0.250000  1
+  Ti  Ti5  1  0.266903  0.267161  0.750000  1
+  Ti  Ti6  1  0.000961  0.733069  0.750000  1
+  Ti  Ti7  1  0.000961  0.267893  0.250000  1
+  Ti  Ti8  1  0.732834  0.731550  0.250000  1
+  Ti  Ti9  1  0.732834  0.001284  0.750000  1
+  Zn  Zn10  1  0.001759  0.000880  0.000000  1
+  Zn  Zn11  1  0.001759  0.000880  0.500000  1
+  Bi  Bi12  1  0.615976  0.000838  0.250000  1
+  Bi  Bi13  1  0.615976  0.615139  0.750000  1
+  Pb  Pb14  1  0.000007  0.384178  0.750000  1
+  Pb  Pb15  1  0.000007  0.615831  0.250000  1
+  Pb  Pb16  1  0.382142  0.381907  0.250000  1
+  Pb  Pb17  1  0.382142  0.000234  0.750000  1

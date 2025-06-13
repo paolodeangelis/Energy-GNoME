@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Sc5Co3(Sn6Os)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.61000572
+_cell_length_b   9.61000493
+_cell_length_c   9.67069392
+_cell_angle_alpha   60.20737143
+_cell_angle_beta   60.20737653
+_cell_angle_gamma   60.00000060
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc5Co3(Sn6Os)3
+_chemical_formula_sum   'Sc5 Co3 Sn18 Os3'
+_cell_volume   633.49630727
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.978646  0.978646  0.064061  1
+  Sc  Sc1  1  0.374833  0.374834  0.875500  1
+  Sc  Sc2  1  0.372313  0.885867  0.369507  1
+  Sc  Sc3  1  0.885867  0.372313  0.369507  1
+  Sc  Sc4  1  0.372313  0.372312  0.369507  1
+  Co  Co5  1  0.260064  0.260064  0.737946  1
+  Co  Co6  1  0.741925  0.260064  0.737946  1
+  Co  Co7  1  0.260064  0.741925  0.737946  1
+  Sn  Sn8  1  0.593656  0.593656  0.219034  1
+  Sn  Sn9  1  0.586952  0.240949  0.585148  1
+  Sn  Sn10  1  0.240949  0.586952  0.585148  1
+  Sn  Sn11  1  0.586952  0.586952  0.585148  1
+  Sn  Sn12  1  0.749863  0.749863  0.750412  1
+  Sn  Sn13  1  0.997491  0.340271  0.664749  1
+  Sn  Sn14  1  0.997491  0.997491  0.664749  1
+  Sn  Sn15  1  0.340271  0.997491  0.664749  1
+  Sn  Sn16  1  0.997264  0.638592  0.366883  1
+  Sn  Sn17  1  0.351273  0.655214  0.987393  1
+  Sn  Sn18  1  0.006122  0.655214  0.987393  1
+  Sn  Sn19  1  0.655214  0.006122  0.987393  1
+  Sn  Sn20  1  0.655214  0.351273  0.987393  1
+  Sn  Sn21  1  0.638592  0.997264  0.366883  1
+  Sn  Sn22  1  0.351273  0.006122  0.987393  1
+  Sn  Sn23  1  0.997264  0.997264  0.366883  1
+  Sn  Sn24  1  0.006122  0.351273  0.987393  1
+  Sn  Sn25  1  0.253203  0.253203  0.240392  1
+  Os  Os26  1  0.748548  0.748548  0.251183  1
+  Os  Os27  1  0.251721  0.748548  0.251183  1
+  Os  Os28  1  0.748548  0.251721  0.251183  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_DyCo(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86029591
+_cell_length_b   6.86029509
+_cell_length_c   6.96010171
+_cell_angle_alpha   120.51412197
+_cell_angle_beta   120.51411499
+_cell_angle_gamma   89.01686484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyCo(Sn2Ru)3
+_chemical_formula_sum   'Dy1 Co1 Sn6 Ru3'
+_cell_volume   229.98228800
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.984219  0.984219  0.972435  1
+  Co  Co1  1  0.253216  0.253216  0.661123  1
+  Sn  Sn2  1  0.465129  0.119944  0.998162  1
+  Sn  Sn3  1  0.119944  0.465129  0.998162  1
+  Sn  Sn4  1  0.893069  0.893069  0.360075  1
+  Sn  Sn5  1  0.489325  0.005307  0.497020  1
+  Sn  Sn6  1  0.005307  0.489325  0.497020  1
+  Sn  Sn7  1  0.530097  0.530097  0.650562  1
+  Ru  Ru8  1  0.747279  0.407480  0.002509  1
+  Ru  Ru9  1  0.407480  0.747279  0.002509  1
+  Ru  Ru10  1  0.604933  0.604933  0.360419  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10GaSiSn5Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.74789607
+_cell_length_b   8.73020859
+_cell_length_c   5.92328472
+_cell_angle_alpha   89.98096435
+_cell_angle_beta   90.03799430
+_cell_angle_gamma   120.06705010
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10GaSiSn5Bi
+_chemical_formula_sum   'Zr10 Ga1 Si1 Sn5 Bi1'
+_cell_volume   391.49620449
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.331023  0.663468  0.997926  1
+  Zr  Zr1  1  0.667560  0.336506  0.502272  1
+  Zr  Zr2  1  0.667556  0.336532  0.997926  1
+  Zr  Zr3  1  0.331055  0.663494  0.502272  1
+  Zr  Zr4  1  0.257745  0.000000  0.242058  1
+  Zr  Zr5  1  0.263973  0.264574  0.757557  1
+  Zr  Zr6  1  0.999399  0.735426  0.757557  1
+  Zr  Zr7  1  0.005140  0.263639  0.242751  1
+  Zr  Zr8  1  0.741500  0.736361  0.242751  1
+  Zr  Zr9  1  0.736642  0.000000  0.756462  1
+  Ga  Ga10  1  0.000053  0.000000  0.504055  1
+  Si  Si11  1  0.999289  0.000000  0.995522  1
+  Sn  Sn12  1  0.609547  0.610217  0.746088  1
+  Sn  Sn13  1  0.999331  0.389783  0.746088  1
+  Sn  Sn14  1  0.000838  0.607859  0.253893  1
+  Sn  Sn15  1  0.392979  0.392141  0.253893  1
+  Sn  Sn16  1  0.388798  0.000000  0.746768  1
+  Bi  Bi17  1  0.607569  0.000000  0.254162  1

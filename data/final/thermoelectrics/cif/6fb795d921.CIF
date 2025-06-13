@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CaLaSn6(BRh6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78813500
+_cell_length_b   5.78813529
+_cell_length_c   13.59380500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000404
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaLaSn6(BRh6)2
+_chemical_formula_sum   'Ca1 La1 Sn6 B2 Rh12'
+_cell_volume   394.41096069
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.666667  0.333333  0.886080  1
+  La  La1  1  0.333333  0.666667  0.386234  1
+  Sn  Sn2  1  0.000000  0.000000  0.755087  1
+  Sn  Sn3  1  0.000000  0.000000  0.250054  1
+  Sn  Sn4  1  0.333333  0.666667  0.756946  1
+  Sn  Sn5  1  0.666667  0.333333  0.254715  1
+  Sn  Sn6  1  0.666667  0.333333  0.576617  1
+  Sn  Sn7  1  0.333333  0.666667  0.075169  1
+  B  B8  1  0.000000  0.000000  0.506669  1
+  B  B9  1  0.000000  0.000000  0.003555  1
+  Rh  Rh10  1  0.334525  0.167263  0.411882  1
+  Rh  Rh11  1  0.832737  0.167263  0.411882  1
+  Rh  Rh12  1  0.832737  0.665475  0.411882  1
+  Rh  Rh13  1  0.168202  0.336402  0.912739  1
+  Rh  Rh14  1  0.660010  0.830004  0.596089  1
+  Rh  Rh15  1  0.663598  0.831798  0.912739  1
+  Rh  Rh16  1  0.340542  0.170271  0.095581  1
+  Rh  Rh17  1  0.169996  0.339990  0.596089  1
+  Rh  Rh18  1  0.169996  0.830004  0.596089  1
+  Rh  Rh19  1  0.829729  0.170271  0.095581  1
+  Rh  Rh20  1  0.829729  0.659458  0.095581  1
+  Rh  Rh21  1  0.168202  0.831798  0.912739  1

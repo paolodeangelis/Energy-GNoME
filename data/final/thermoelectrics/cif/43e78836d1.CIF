@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaSr2InSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95844000
+_cell_length_b   8.22137300
+_cell_length_c   18.66295200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSr2InSn2
+_chemical_formula_sum   'Na4 Sr8 In4 Sn8'
+_cell_volume   760.79868604
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.250000  0.987373  0.069907  1
+  Na  Na1  1  0.750000  0.512627  0.569907  1
+  Na  Na2  1  0.750000  0.012627  0.930093  1
+  Na  Na3  1  0.250000  0.487373  0.430093  1
+  Sr  Sr4  1  0.250000  0.351848  0.939060  1
+  Sr  Sr5  1  0.250000  0.851848  0.560940  1
+  Sr  Sr6  1  0.750000  0.148152  0.439060  1
+  Sr  Sr7  1  0.750000  0.497379  0.275058  1
+  Sr  Sr8  1  0.750000  0.997379  0.224942  1
+  Sr  Sr9  1  0.750000  0.648152  0.060940  1
+  Sr  Sr10  1  0.250000  0.502621  0.724942  1
+  Sr  Sr11  1  0.250000  0.002621  0.775058  1
+  In  In12  1  0.750000  0.160911  0.657298  1
+  In  In13  1  0.250000  0.839089  0.342702  1
+  In  In14  1  0.750000  0.660911  0.842702  1
+  In  In15  1  0.250000  0.339089  0.157298  1
+  Sn  Sn16  1  0.750000  0.240244  0.071012  1
+  Sn  Sn17  1  0.750000  0.790943  0.688464  1
+  Sn  Sn18  1  0.250000  0.209057  0.311536  1
+  Sn  Sn19  1  0.250000  0.709057  0.188464  1
+  Sn  Sn20  1  0.250000  0.259756  0.571012  1
+  Sn  Sn21  1  0.750000  0.290943  0.811536  1
+  Sn  Sn22  1  0.250000  0.759756  0.928988  1
+  Sn  Sn23  1  0.750000  0.740244  0.428988  1

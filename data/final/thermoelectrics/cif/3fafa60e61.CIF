@@ -1,0 +1,60 @@
+# generated using pymatgen
+data_Zr2(Ti2Bi3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.42016600
+_cell_length_b   10.42016600
+_cell_length_c   7.51745000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2(Ti2Bi3)3
+_chemical_formula_sum   'Zr4 Ti12 Bi18'
+_cell_volume   816.24366455
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.500000  0.000000  0.423444  1
+  Zr  Zr1  1  0.000000  0.500000  0.078796  1
+  Zr  Zr2  1  0.500000  0.000000  0.921204  1
+  Zr  Zr3  1  0.000000  0.500000  0.576556  1
+  Ti  Ti4  1  0.859039  0.000000  0.851843  1
+  Ti  Ti5  1  0.000000  0.140961  0.148157  1
+  Ti  Ti6  1  0.000000  0.859039  0.148157  1
+  Ti  Ti7  1  0.640961  0.500000  0.148157  1
+  Ti  Ti8  1  0.140961  0.000000  0.851843  1
+  Ti  Ti9  1  0.359039  0.500000  0.148157  1
+  Ti  Ti10  1  0.250000  0.750000  0.000000  1
+  Ti  Ti11  1  0.500000  0.359039  0.851843  1
+  Ti  Ti12  1  0.750000  0.250000  0.000000  1
+  Ti  Ti13  1  0.500000  0.640961  0.851843  1
+  Ti  Ti14  1  0.750000  0.750000  0.000000  1
+  Ti  Ti15  1  0.250000  0.250000  0.000000  1
+  Bi  Bi16  1  0.668973  0.168973  0.655410  1
+  Bi  Bi17  1  0.500000  0.241977  0.191093  1
+  Bi  Bi18  1  0.000000  0.000000  0.500000  1
+  Bi  Bi19  1  0.168973  0.668973  0.344590  1
+  Bi  Bi20  1  0.241977  0.500000  0.808907  1
+  Bi  Bi21  1  0.668973  0.831027  0.655410  1
+  Bi  Bi22  1  0.000000  0.258023  0.808907  1
+  Bi  Bi23  1  0.741977  0.000000  0.191093  1
+  Bi  Bi24  1  0.500000  0.758023  0.191093  1
+  Bi  Bi25  1  0.258023  0.000000  0.191093  1
+  Bi  Bi26  1  0.331027  0.831027  0.655410  1
+  Bi  Bi27  1  0.758023  0.500000  0.808907  1
+  Bi  Bi28  1  0.500000  0.500000  0.500000  1
+  Bi  Bi29  1  0.000000  0.741977  0.808907  1
+  Bi  Bi30  1  0.168973  0.331027  0.344590  1
+  Bi  Bi31  1  0.831027  0.331027  0.344590  1
+  Bi  Bi32  1  0.331027  0.168973  0.655410  1
+  Bi  Bi33  1  0.831027  0.668973  0.344590  1

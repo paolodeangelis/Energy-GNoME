@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_AlGaSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.78672600
+_cell_length_b   10.49846800
+_cell_length_c   12.70763100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlGaSe3
+_chemical_formula_sum   'Al4 Ga4 Se12'
+_cell_volume   505.18960509
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.250000  0.400873  0.612532  1
+  Al  Al1  1  0.750000  0.599127  0.387468  1
+  Al  Al2  1  0.250000  0.900873  0.887468  1
+  Al  Al3  1  0.750000  0.099127  0.112532  1
+  Ga  Ga4  1  0.750000  0.266671  0.794206  1
+  Ga  Ga5  1  0.250000  0.733329  0.205794  1
+  Ga  Ga6  1  0.750000  0.766671  0.705794  1
+  Ga  Ga7  1  0.250000  0.233329  0.294206  1
+  Se  Se8  1  0.250000  0.925718  0.096082  1
+  Se  Se9  1  0.750000  0.074282  0.903918  1
+  Se  Se10  1  0.250000  0.425718  0.403918  1
+  Se  Se11  1  0.750000  0.574282  0.596082  1
+  Se  Se12  1  0.750000  0.089193  0.317932  1
+  Se  Se13  1  0.250000  0.910807  0.682068  1
+  Se  Se14  1  0.750000  0.589193  0.182068  1
+  Se  Se15  1  0.250000  0.410807  0.817932  1
+  Se  Se16  1  0.250000  0.261623  0.104212  1
+  Se  Se17  1  0.750000  0.738377  0.895788  1
+  Se  Se18  1  0.250000  0.761623  0.395788  1
+  Se  Se19  1  0.750000  0.238377  0.604212  1

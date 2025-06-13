@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Hf2CuSn2Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45677801
+_cell_length_b   4.45675203
+_cell_length_c   6.81954701
+_cell_angle_alpha   89.99912529
+_cell_angle_beta   89.99997749
+_cell_angle_gamma   119.99922797
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2CuSn2Rh
+_chemical_formula_sum   'Hf2 Cu1 Sn2 Rh1'
+_cell_volume   117.30837291
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.999999  0.999997  0.494916  1
+  Hf  Hf1  1  0.999998  0.000004  0.979247  1
+  Cu  Cu2  1  0.666669  0.333329  0.330314  1
+  Sn  Sn3  1  0.333342  0.666665  0.231456  1
+  Sn  Sn4  1  0.666663  0.333335  0.727017  1
+  Rh  Rh5  1  0.333329  0.666668  0.833051  1

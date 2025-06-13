@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Tm(Ti3Sb2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.25898418
+_cell_length_b   8.25898494
+_cell_length_c   8.25898600
+_cell_angle_alpha   40.57976285
+_cell_angle_beta   40.57975984
+_cell_angle_gamma   40.57976335
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm(Ti3Sb2)2
+_chemical_formula_sum   'Tm1 Ti6 Sb4'
+_cell_volume   215.03411368
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.598735  0.598735  0.114884  1
+  Ti  Ti2  1  0.401264  0.885115  0.401266  1
+  Ti  Ti3  1  0.885115  0.401264  0.401266  1
+  Ti  Ti4  1  0.598736  0.114885  0.598734  1
+  Ti  Ti5  1  0.114885  0.598736  0.598734  1
+  Ti  Ti6  1  0.401265  0.401265  0.885115  1
+  Sb  Sb7  1  0.128894  0.128894  0.128894  1
+  Sb  Sb8  1  0.332207  0.332207  0.332207  1
+  Sb  Sb9  1  0.667793  0.667793  0.667793  1
+  Sb  Sb10  1  0.871106  0.871106  0.871106  1

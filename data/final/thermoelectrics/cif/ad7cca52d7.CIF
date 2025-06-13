@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_EuDy(AgPb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89668000
+_cell_length_b   4.89668026
+_cell_length_c   7.76186200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00001174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuDy(AgPb)2
+_chemical_formula_sum   'Eu1 Dy1 Ag2 Pb2'
+_cell_volume   161.17584951
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.011594  1
+  Dy  Dy1  1  0.000000  0.000000  0.511114  1
+  Ag  Ag2  1  0.333333  0.666667  0.791756  1
+  Ag  Ag3  1  0.666667  0.333333  0.330956  1
+  Pb  Pb4  1  0.333333  0.666667  0.237471  1
+  Pb  Pb5  1  0.666667  0.333333  0.720108  1

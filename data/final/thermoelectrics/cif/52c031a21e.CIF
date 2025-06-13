@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti10GaGeSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.83944945
+_cell_length_b   7.83948309
+_cell_length_c   7.83944936
+_cell_angle_alpha   96.35753473
+_cell_angle_beta   96.34456884
+_cell_angle_gamma   141.14683039
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10GaGeSb4
+_chemical_formula_sum   'Ti10 Ga1 Ge1 Sb4'
+_cell_volume   285.03392444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.573816  0.715337  0.288311  1
+  Ti  Ti1  1  0.427028  0.285528  0.711692  1
+  Ti  Ti2  1  0.750014  0.250000  0.500014  1
+  Ti  Ti3  1  0.250009  0.750000  0.500009  1
+  Ti  Ti4  1  0.715347  0.427005  0.141487  1
+  Ti  Ti5  1  0.285525  0.573842  0.858511  1
+  Ti  Ti6  1  0.926164  0.214472  0.141500  1
+  Ti  Ti7  1  0.214482  0.072995  0.288340  1
+  Ti  Ti8  1  0.072975  0.784663  0.858480  1
+  Ti  Ti9  1  0.784670  0.926158  0.711685  1
+  Ga  Ga10  1  0.249998  0.250000  0.999998  1
+  Ge  Ge11  1  0.749997  0.750000  0.999997  1
+  Sb  Sb12  1  0.335760  0.835723  0.171467  1
+  Sb  Sb13  1  0.164227  0.335719  0.499966  1
+  Sb  Sb14  1  0.664246  0.164281  0.828508  1
+  Sb  Sb15  1  0.835744  0.664277  0.500037  1

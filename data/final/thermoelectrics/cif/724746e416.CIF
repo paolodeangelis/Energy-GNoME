@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Er6Sc4(SnBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.84416000
+_cell_length_b   8.84184811
+_cell_length_c   6.19875500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00865726
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er6Sc4(SnBi)3
+_chemical_formula_sum   'Er6 Sc4 Sn3 Bi3'
+_cell_volume   419.75594070
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.995799  0.757454  0.750000  1
+  Er  Er1  1  0.995676  0.235949  0.250000  1
+  Er  Er2  1  0.759727  0.764051  0.250000  1
+  Er  Er3  1  0.762722  0.000000  0.750000  1
+  Er  Er4  1  0.238345  0.242546  0.750000  1
+  Er  Er5  1  0.241372  0.000000  0.250000  1
+  Sc  Sc6  1  0.334788  0.666557  0.501839  1
+  Sc  Sc7  1  0.668232  0.333443  0.998161  1
+  Sc  Sc8  1  0.668232  0.333443  0.501839  1
+  Sc  Sc9  1  0.334788  0.666557  0.998161  1
+  Sn  Sn10  1  0.000592  0.398492  0.750000  1
+  Sn  Sn11  1  0.602100  0.601508  0.750000  1
+  Sn  Sn12  1  0.600943  0.000000  0.250000  1
+  Bi  Bi13  1  0.397610  0.000000  0.750000  1
+  Bi  Bi14  1  0.398624  0.398173  0.250000  1
+  Bi  Bi15  1  0.000451  0.601827  0.250000  1

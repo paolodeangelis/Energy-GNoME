@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LaNd3Cu3Bi8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.00137676
+_cell_length_b   11.00137720
+_cell_length_c   11.01052177
+_cell_angle_alpha   145.72180252
+_cell_angle_beta   145.72181017
+_cell_angle_gamma   49.22479676
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNd3Cu3Bi8
+_chemical_formula_sum   'La1 Nd3 Cu3 Bi8'
+_cell_volume   420.85567886
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.131147  0.131147  0.493515  1
+  Nd  Nd1  1  0.639921  0.639921  0.509545  1
+  Nd  Nd2  1  0.360122  0.868972  0.999585  1
+  Nd  Nd3  1  0.868972  0.360122  0.999585  1
+  Cu  Cu4  1  0.999198  0.999198  0.997098  1
+  Cu  Cu5  1  0.000427  0.501751  0.501007  1
+  Cu  Cu6  1  0.501751  0.000427  0.501007  1
+  Bi  Bi7  1  0.330540  0.330540  0.510949  1
+  Bi  Bi8  1  0.818037  0.818037  0.486417  1
+  Bi  Bi9  1  0.670600  0.182671  0.000831  1
+  Bi  Bi10  1  0.182671  0.670600  0.000831  1
+  Bi  Bi11  1  0.249571  0.249571  0.000835  1
+  Bi  Bi12  1  0.748320  0.748320  0.999053  1
+  Bi  Bi13  1  0.748666  0.250056  0.499869  1
+  Bi  Bi14  1  0.250056  0.748666  0.499869  1

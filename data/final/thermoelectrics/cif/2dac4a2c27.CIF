@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_ZrU2PaBi2Sb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.37547002
+_cell_length_b   9.38066964
+_cell_length_c   6.29049000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01834345
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrU2PaBi2Sb3
+_chemical_formula_sum   'Zr2 U4 Pa2 Bi4 Sb6'
+_cell_volume   479.02887666
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.997472  0.998736  0.000000  1
+  Zr  Zr1  1  0.997472  0.998736  0.500000  1
+  U  U2  1  0.000408  0.619203  0.250000  1
+  U  U3  1  0.000408  0.381206  0.750000  1
+  U  U4  1  0.619748  0.619407  0.750000  1
+  U  U5  1  0.619748  0.000342  0.250000  1
+  Pa  Pa6  1  0.382435  0.999235  0.750000  1
+  Pa  Pa7  1  0.382435  0.383200  0.250000  1
+  Bi  Bi8  1  0.667027  0.333514  0.500000  1
+  Bi  Bi9  1  0.333999  0.667000  0.000000  1
+  Bi  Bi10  1  0.333999  0.667000  0.500000  1
+  Bi  Bi11  1  0.667027  0.333514  0.000000  1
+  Sb  Sb12  1  0.727313  0.999750  0.750000  1
+  Sb  Sb13  1  0.727313  0.727563  0.250000  1
+  Sb  Sb14  1  0.271723  0.000391  0.250000  1
+  Sb  Sb15  1  0.271723  0.271332  0.750000  1
+  Sb  Sb16  1  0.999874  0.728446  0.750000  1
+  Sb  Sb17  1  0.999874  0.271428  0.250000  1

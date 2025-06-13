@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ca5Er(AgSn)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30478229
+_cell_length_b   7.48425400
+_cell_length_c   15.94969413
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.01187881
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca5Er(AgSn)3
+_chemical_formula_sum   'Ca10 Er2 Ag6 Sn6'
+_cell_volume   633.24013515
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.999963  0.249000  0.168920  1
+  Ca  Ca1  1  0.999963  0.750999  0.168920  1
+  Ca  Ca2  1  0.499991  0.251620  0.332736  1
+  Ca  Ca3  1  0.499991  0.748379  0.332736  1
+  Ca  Ca4  1  0.000000  0.249650  0.500000  1
+  Ca  Ca5  1  0.000000  0.750350  0.500000  1
+  Ca  Ca6  1  0.500008  0.251620  0.667263  1
+  Ca  Ca7  1  0.500008  0.748379  0.667263  1
+  Ca  Ca8  1  0.000037  0.249000  0.831080  1
+  Ca  Ca9  1  0.000037  0.750999  0.831080  1
+  Er  Er10  1  0.500001  0.247739  0.000000  1
+  Er  Er11  1  0.500001  0.752261  0.000000  1
+  Ag  Ag12  1  0.000000  0.500000  0.000000  1
+  Ag  Ag13  1  0.499910  0.000000  0.163010  1
+  Ag  Ag14  1  0.999987  0.500000  0.333942  1
+  Ag  Ag15  1  0.500000  0.000000  0.500000  1
+  Ag  Ag16  1  0.000013  0.500000  0.666058  1
+  Ag  Ag17  1  0.500090  0.000000  0.836989  1
+  Sn  Sn18  1  0.000000  0.000000  0.000000  1
+  Sn  Sn19  1  0.499904  0.500000  0.160074  1
+  Sn  Sn20  1  0.999885  0.000000  0.332952  1
+  Sn  Sn21  1  0.500000  0.500000  0.500000  1
+  Sn  Sn22  1  0.000115  0.000000  0.667048  1
+  Sn  Sn23  1  0.500096  0.500000  0.839927  1

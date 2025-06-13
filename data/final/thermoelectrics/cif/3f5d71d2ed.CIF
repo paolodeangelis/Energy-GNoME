@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sr(AcSn4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.27322437
+_cell_length_b   12.27322482
+_cell_length_c   12.27322460
+_cell_angle_alpha   32.65000538
+_cell_angle_beta   32.65000345
+_cell_angle_gamma   32.65000937
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr(AcSn4)3
+_chemical_formula_sum   'Sr1 Ac3 Sn12'
+_cell_volume   478.59849597
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.290823  0.290823  0.290823  1
+  Ac  Ac1  1  0.876046  0.876046  0.876046  1
+  Ac  Ac2  1  0.124666  0.124666  0.124666  1
+  Ac  Ac3  1  0.708152  0.708152  0.708152  1
+  Sn  Sn4  1  0.291255  0.793022  0.793022  1
+  Sn  Sn5  1  0.793022  0.793022  0.291255  1
+  Sn  Sn6  1  0.840746  0.392941  0.392941  1
+  Sn  Sn7  1  0.392941  0.392941  0.840746  1
+  Sn  Sn8  1  0.392941  0.840746  0.392941  1
+  Sn  Sn9  1  0.608440  0.157149  0.608440  1
+  Sn  Sn10  1  0.157149  0.608440  0.608440  1
+  Sn  Sn11  1  0.608440  0.608440  0.157149  1
+  Sn  Sn12  1  0.793022  0.291255  0.793022  1
+  Sn  Sn13  1  0.209691  0.702976  0.209691  1
+  Sn  Sn14  1  0.209691  0.209691  0.702976  1
+  Sn  Sn15  1  0.702976  0.209691  0.209691  1

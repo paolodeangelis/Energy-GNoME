@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_HoCo(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87402314
+_cell_length_b   6.96386280
+_cell_length_c   6.85982746
+_cell_angle_alpha   120.56673619
+_cell_angle_beta   120.13280462
+_cell_angle_gamma   89.89036907
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoCo(Sn2Ru)3
+_chemical_formula_sum   'Ho1 Co1 Sn6 Ru3'
+_cell_volume   229.94655262
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.984133  0.012047  0.000000  1
+  Co  Co1  1  0.252907  0.592102  0.000000  1
+  Sn  Sn2  1  0.893125  0.533151  0.000000  1
+  Sn  Sn3  1  0.530454  0.879582  0.000000  1
+  Sn  Sn4  1  0.120100  0.121717  0.655132  1
+  Sn  Sn5  1  0.005247  0.507994  0.515503  1
+  Sn  Sn6  1  0.464968  0.466585  0.344868  1
+  Sn  Sn7  1  0.489744  0.992491  0.484497  1
+  Ru  Ru8  1  0.406920  0.404799  0.659673  1
+  Ru  Ru9  1  0.605154  0.244406  0.000000  1
+  Ru  Ru10  1  0.747248  0.745126  0.340327  1

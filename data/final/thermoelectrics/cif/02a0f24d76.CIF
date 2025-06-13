@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_SmMg4(Sn3Rh)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.77559063
+_cell_length_b   9.77559104
+_cell_length_c   9.77559100
+_cell_angle_alpha   60.00000352
+_cell_angle_beta   60.00000212
+_cell_angle_gamma   60.00000281
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmMg4(Sn3Rh)6
+_chemical_formula_sum   'Sm1 Mg4 Sn18 Rh6'
+_cell_volume   660.56275621
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.500000  0.500000  0.500000  1
+  Mg  Mg1  1  0.871550  0.871550  0.385351  1
+  Mg  Mg2  1  0.871550  0.385351  0.871550  1
+  Mg  Mg3  1  0.385351  0.871550  0.871550  1
+  Mg  Mg4  1  0.871550  0.871550  0.871550  1
+  Sn  Sn5  1  0.084700  0.084700  0.745900  1
+  Sn  Sn6  1  0.084700  0.745900  0.084700  1
+  Sn  Sn7  1  0.745900  0.084700  0.084700  1
+  Sn  Sn8  1  0.084700  0.084700  0.084700  1
+  Sn  Sn9  1  0.250000  0.250000  0.250000  1
+  Sn  Sn10  1  0.493109  0.860228  0.153552  1
+  Sn  Sn11  1  0.493109  0.493109  0.153552  1
+  Sn  Sn12  1  0.860228  0.493109  0.153552  1
+  Sn  Sn13  1  0.493109  0.153552  0.860228  1
+  Sn  Sn14  1  0.860228  0.153552  0.493109  1
+  Sn  Sn15  1  0.493109  0.153552  0.493109  1
+  Sn  Sn16  1  0.153552  0.493109  0.493109  1
+  Sn  Sn17  1  0.153552  0.860228  0.493109  1
+  Sn  Sn18  1  0.153552  0.493109  0.860228  1
+  Sn  Sn19  1  0.860228  0.493109  0.493109  1
+  Sn  Sn20  1  0.493109  0.493109  0.860228  1
+  Sn  Sn21  1  0.493109  0.860228  0.493109  1
+  Sn  Sn22  1  0.750000  0.750000  0.750000  1
+  Rh  Rh23  1  0.754586  0.754586  0.245414  1
+  Rh  Rh24  1  0.245414  0.754586  0.245414  1
+  Rh  Rh25  1  0.754586  0.245414  0.245414  1
+  Rh  Rh26  1  0.245414  0.245414  0.754586  1
+  Rh  Rh27  1  0.754586  0.245414  0.754586  1
+  Rh  Rh28  1  0.245414  0.754586  0.754586  1

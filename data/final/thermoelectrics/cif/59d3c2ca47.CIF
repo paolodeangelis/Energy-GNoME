@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiEu2ZnSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82908800
+_cell_length_b   7.82958500
+_cell_length_c   8.20655400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiEu2ZnSn2
+_chemical_formula_sum   'Li2 Eu4 Zn2 Sn4'
+_cell_volume   310.28779588
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.750000  0.322162  0.419296  1
+  Li  Li1  1  0.250000  0.177838  0.919296  1
+  Eu  Eu2  1  0.250000  0.492842  0.211359  1
+  Eu  Eu3  1  0.750000  0.499617  0.791721  1
+  Eu  Eu4  1  0.250000  0.000383  0.291721  1
+  Eu  Eu5  1  0.750000  0.007158  0.711359  1
+  Zn  Zn6  1  0.750000  0.833477  0.079278  1
+  Zn  Zn7  1  0.250000  0.666523  0.579278  1
+  Sn  Sn8  1  0.250000  0.291901  0.591333  1
+  Sn  Sn9  1  0.750000  0.208099  0.091333  1
+  Sn  Sn10  1  0.250000  0.787171  0.907012  1
+  Sn  Sn11  1  0.750000  0.712829  0.407012  1

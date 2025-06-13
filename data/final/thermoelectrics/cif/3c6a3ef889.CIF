@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu4Al3Zn4Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.46912900
+_cell_length_b   4.46912904
+_cell_length_c   14.12378000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000713
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4Al3Zn4Sn
+_chemical_formula_sum   'Lu4 Al3 Zn4 Sn1'
+_cell_volume   244.30217269
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.253943  1
+  Lu  Lu1  1  0.000000  0.000000  0.740925  1
+  Lu  Lu2  1  0.000000  0.000000  0.012121  1
+  Lu  Lu3  1  0.000000  0.000000  0.496495  1
+  Al  Al4  1  0.333333  0.666667  0.606490  1
+  Al  Al5  1  0.666667  0.333333  0.361688  1
+  Al  Al6  1  0.666667  0.333333  0.145386  1
+  Zn  Zn7  1  0.333333  0.666667  0.120575  1
+  Zn  Zn8  1  0.666667  0.333333  0.837776  1
+  Zn  Zn9  1  0.666667  0.333333  0.636734  1
+  Zn  Zn10  1  0.333333  0.666667  0.395423  1
+  Sn  Sn11  1  0.333333  0.666667  0.892443  1

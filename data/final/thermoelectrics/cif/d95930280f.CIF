@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Tb3Co2Sn3Hg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.63420600
+_cell_length_b   7.63420658
+_cell_length_c   3.84612100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Co2Sn3Hg
+_chemical_formula_sum   'Tb3 Co2 Sn3 Hg1'
+_cell_volume   194.12495497
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.609020  0.025658  0.000000  1
+  Tb  Tb1  1  0.974342  0.583362  0.000000  1
+  Tb  Tb2  1  0.416638  0.390980  0.000000  1
+  Co  Co3  1  0.666667  0.333333  0.500000  1
+  Co  Co4  1  0.000000  0.000000  0.000000  1
+  Sn  Sn5  1  0.251631  0.009609  0.500000  1
+  Sn  Sn6  1  0.990391  0.242022  0.500000  1
+  Sn  Sn7  1  0.757978  0.748369  0.500000  1
+  Hg  Hg8  1  0.333333  0.666667  0.500000  1

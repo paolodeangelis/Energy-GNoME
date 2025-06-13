@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaLaCdCuSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76143700
+_cell_length_b   7.77800095
+_cell_length_c   8.19872000
+_cell_angle_alpha   91.54590640
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaLaCdCuSn2
+_chemical_formula_sum   'Ca2 La2 Cd2 Cu2 Sn4'
+_cell_volume   303.52466652
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.750000  0.998349  0.693552  1
+  Ca  Ca1  1  0.250000  0.001651  0.306448  1
+  La  La2  1  0.250000  0.500779  0.227627  1
+  La  La3  1  0.750000  0.499221  0.772373  1
+  Cd  Cd4  1  0.250000  0.824601  0.917848  1
+  Cd  Cd5  1  0.750000  0.175399  0.082152  1
+  Cu  Cu6  1  0.750000  0.700641  0.425600  1
+  Cu  Cu7  1  0.250000  0.299359  0.574400  1
+  Sn  Sn8  1  0.250000  0.704494  0.580942  1
+  Sn  Sn9  1  0.750000  0.295506  0.419058  1
+  Sn  Sn10  1  0.750000  0.773839  0.108194  1
+  Sn  Sn11  1  0.250000  0.226161  0.891806  1

@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Y2Lu3Ti3(Co4As3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.57068800
+_cell_length_b   12.57068887
+_cell_length_c   3.79312900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2Lu3Ti3(Co4As3)4
+_chemical_formula_sum   'Y2 Lu3 Ti3 Co16 As12'
+_cell_volume   519.09438773
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.333333  0.666667  0.000000  1
+  Y  Y1  1  0.666667  0.333333  0.000000  1
+  Lu  Lu2  1  0.185574  0.185574  0.500000  1
+  Lu  Lu3  1  0.814426  0.000000  0.500000  1
+  Lu  Lu4  1  0.000000  0.814426  0.500000  1
+  Ti  Ti5  1  0.563073  0.563073  0.000000  1
+  Ti  Ti6  1  0.436927  0.000000  0.000000  1
+  Ti  Ti7  1  0.000000  0.436927  0.000000  1
+  Co  Co8  1  0.717648  0.717648  0.500000  1
+  Co  Co9  1  0.282352  0.000000  0.500000  1
+  Co  Co10  1  0.000000  0.282352  0.500000  1
+  Co  Co11  1  0.176725  0.374389  0.000000  1
+  Co  Co12  1  0.625611  0.802337  0.000000  1
+  Co  Co13  1  0.197663  0.823275  0.000000  1
+  Co  Co14  1  0.802337  0.625611  0.000000  1
+  Co  Co15  1  0.823275  0.197663  0.000000  1
+  Co  Co16  1  0.374389  0.176725  0.000000  1
+  Co  Co17  1  0.355453  0.478950  0.500000  1
+  Co  Co18  1  0.521050  0.876503  0.500000  1
+  Co  Co19  1  0.123497  0.644547  0.500000  1
+  Co  Co20  1  0.876503  0.521050  0.500000  1
+  Co  Co21  1  0.644547  0.123497  0.500000  1
+  Co  Co22  1  0.478950  0.355453  0.500000  1
+  Co  Co23  1  0.000000  0.000000  0.000000  1
+  As  As24  1  0.823215  0.823215  0.000000  1
+  As  As25  1  0.176785  0.000000  0.000000  1
+  As  As26  1  0.000000  0.176785  0.000000  1
+  As  As27  1  0.168207  0.482534  0.500000  1
+  As  As28  1  0.517466  0.685675  0.500000  1
+  As  As29  1  0.314325  0.831793  0.500000  1
+  As  As30  1  0.685675  0.517466  0.500000  1
+  As  As31  1  0.831793  0.314325  0.500000  1
+  As  As32  1  0.482534  0.168207  0.500000  1
+  As  As33  1  0.357839  0.357839  0.000000  1
+  As  As34  1  0.642161  0.000000  0.000000  1
+  As  As35  1  0.000000  0.642161  0.000000  1

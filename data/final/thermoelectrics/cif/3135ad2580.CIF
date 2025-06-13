@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Nd3Th(BiTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.48049000
+_cell_length_b   4.48084500
+_cell_length_c   19.04609915
+_cell_angle_alpha   90.00845266
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd3Th(BiTe)4
+_chemical_formula_sum   'Nd3 Th1 Bi4 Te4'
+_cell_volume   382.37674307
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.750000  0.254547  0.359240  1
+  Nd  Nd1  1  0.250000  0.744557  0.641724  1
+  Nd  Nd2  1  0.750000  0.246357  0.859922  1
+  Th  Th3  1  0.250000  0.753245  0.140107  1
+  Bi  Bi4  1  0.250000  0.251412  0.001995  1
+  Bi  Bi5  1  0.750000  0.751288  0.498442  1
+  Bi  Bi6  1  0.250000  0.249350  0.498438  1
+  Bi  Bi7  1  0.750000  0.751005  0.002002  1
+  Te  Te8  1  0.750000  0.253626  0.184712  1
+  Te  Te9  1  0.250000  0.754583  0.310786  1
+  Te  Te10  1  0.750000  0.244494  0.687569  1
+  Te  Te11  1  0.250000  0.745538  0.815067  1

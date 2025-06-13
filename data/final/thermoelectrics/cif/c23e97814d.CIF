@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_LiCo3Ni2As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.64322800
+_cell_length_b   10.59119300
+_cell_length_c   12.20971200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCo3Ni2As3
+_chemical_formula_sum   'Li4 Co12 Ni8 As12'
+_cell_volume   471.12554537
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.250000  0.578246  0.705017  1
+  Li  Li1  1  0.250000  0.921754  0.205017  1
+  Li  Li2  1  0.750000  0.421754  0.294983  1
+  Li  Li3  1  0.750000  0.078246  0.794983  1
+  Co  Co4  1  0.250000  0.213462  0.174387  1
+  Co  Co5  1  0.250000  0.286538  0.674387  1
+  Co  Co6  1  0.750000  0.786538  0.825613  1
+  Co  Co7  1  0.750000  0.713462  0.325613  1
+  Co  Co8  1  0.250000  0.880474  0.695816  1
+  Co  Co9  1  0.250000  0.619526  0.195816  1
+  Co  Co10  1  0.750000  0.119526  0.304184  1
+  Co  Co11  1  0.750000  0.380474  0.804184  1
+  Co  Co12  1  0.250000  0.462646  0.933417  1
+  Co  Co13  1  0.250000  0.037354  0.433417  1
+  Co  Co14  1  0.750000  0.537354  0.066583  1
+  Co  Co15  1  0.750000  0.962646  0.566583  1
+  Ni  Ni16  1  0.250000  0.711660  0.987579  1
+  Ni  Ni17  1  0.250000  0.788340  0.487579  1
+  Ni  Ni18  1  0.750000  0.288340  0.012421  1
+  Ni  Ni19  1  0.750000  0.211660  0.512421  1
+  Ni  Ni20  1  0.250000  0.407053  0.484349  1
+  Ni  Ni21  1  0.250000  0.092947  0.984349  1
+  Ni  Ni22  1  0.750000  0.592947  0.515651  1
+  Ni  Ni23  1  0.750000  0.907053  0.015651  1
+  As  As24  1  0.250000  0.417207  0.119010  1
+  As  As25  1  0.250000  0.082793  0.619010  1
+  As  As26  1  0.750000  0.582793  0.880990  1
+  As  As27  1  0.750000  0.917207  0.380990  1
+  As  As28  1  0.250000  0.259956  0.863356  1
+  As  As29  1  0.250000  0.240044  0.363356  1
+  As  As30  1  0.750000  0.740044  0.136644  1
+  As  As31  1  0.750000  0.759956  0.636644  1
+  As  As32  1  0.250000  0.594048  0.384305  1
+  As  As33  1  0.250000  0.905952  0.884305  1
+  As  As34  1  0.750000  0.405952  0.615695  1
+  As  As35  1  0.750000  0.094048  0.115695  1

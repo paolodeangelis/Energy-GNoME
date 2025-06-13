@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Ca3Th(Ga12Cu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11992200
+_cell_length_b   6.11992178
+_cell_length_c   15.35451100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.24680642
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3Th(Ga12Cu)2
+_chemical_formula_sum   'Ca3 Th1 Ga24 Cu2'
+_cell_volume   575.07398143
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.500000  0.000000  0.753957  1
+  Ca  Ca1  1  0.000000  0.500000  0.245749  1
+  Ca  Ca2  1  0.500000  0.000000  0.244782  1
+  Th  Th3  1  0.000000  0.500000  0.756412  1
+  Ga  Ga4  1  0.672920  0.172920  0.430971  1
+  Ga  Ga5  1  0.667803  0.832197  0.570197  1
+  Ga  Ga6  1  0.168246  0.668246  0.570098  1
+  Ga  Ga7  1  0.831754  0.331754  0.570098  1
+  Ga  Ga8  1  0.500000  0.500000  0.181385  1
+  Ga  Ga9  1  0.500000  0.500000  0.818288  1
+  Ga  Ga10  1  0.000000  0.000000  0.818288  1
+  Ga  Ga11  1  0.000000  0.000000  0.181385  1
+  Ga  Ga12  1  0.500000  0.500000  0.342396  1
+  Ga  Ga13  1  0.500000  0.500000  0.657362  1
+  Ga  Ga14  1  0.000000  0.000000  0.657362  1
+  Ga  Ga15  1  0.000000  0.000000  0.342396  1
+  Ga  Ga16  1  0.252584  0.752584  0.914535  1
+  Ga  Ga17  1  0.252098  0.247902  0.914416  1
+  Ga  Ga18  1  0.747902  0.752098  0.914416  1
+  Ga  Ga19  1  0.248820  0.251180  0.085062  1
+  Ga  Ga20  1  0.751180  0.748820  0.085062  1
+  Ga  Ga21  1  0.747416  0.247416  0.914535  1
+  Ga  Ga22  1  0.750856  0.250856  0.085453  1
+  Ga  Ga23  1  0.249144  0.749144  0.085453  1
+  Ga  Ga24  1  0.327080  0.827080  0.430971  1
+  Ga  Ga25  1  0.174291  0.325709  0.430742  1
+  Ga  Ga26  1  0.825709  0.674291  0.430742  1
+  Ga  Ga27  1  0.332197  0.167803  0.570197  1
+  Cu  Cu28  1  0.500000  0.000000  0.999717  1
+  Cu  Cu29  1  0.000000  0.500000  0.997575  1

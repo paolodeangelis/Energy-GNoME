@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr5InBi2Au
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.88627501
+_cell_length_b   8.88627643
+_cell_length_c   5.98390200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.84851531
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr5InBi2Au
+_chemical_formula_sum   'Zr10 In2 Bi4 Au2'
+_cell_volume   409.84117106
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.729726  0.729726  0.750000  1
+  Zr  Zr1  1  0.269280  0.997872  0.750000  1
+  Zr  Zr2  1  0.997872  0.269280  0.750000  1
+  Zr  Zr3  1  0.277034  0.277034  0.250000  1
+  Zr  Zr4  1  0.724118  0.005370  0.250000  1
+  Zr  Zr5  1  0.005370  0.724118  0.250000  1
+  Zr  Zr6  1  0.666350  0.330451  0.004484  1
+  Zr  Zr7  1  0.330451  0.666350  0.004484  1
+  Zr  Zr8  1  0.330451  0.666350  0.495516  1
+  Zr  Zr9  1  0.666350  0.330451  0.495516  1
+  In  In10  1  0.379724  0.000887  0.250000  1
+  In  In11  1  0.000887  0.379724  0.250000  1
+  Bi  Bi12  1  0.384567  0.384567  0.750000  1
+  Bi  Bi13  1  0.612698  0.998749  0.750000  1
+  Bi  Bi14  1  0.998749  0.612698  0.750000  1
+  Bi  Bi15  1  0.620574  0.620574  0.250000  1
+  Au  Au16  1  0.002900  0.002900  0.007494  1
+  Au  Au17  1  0.002900  0.002900  0.492506  1

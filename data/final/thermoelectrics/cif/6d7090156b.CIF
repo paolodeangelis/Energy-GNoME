@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaMg3In4(SnIr)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.90445700
+_cell_length_b   8.95087125
+_cell_length_c   4.20074900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.82861830
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaMg3In4(SnIr)2
+_chemical_formula_sum   'Ba1 Mg3 In4 Sn2 Ir2'
+_cell_volume   290.45411611
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.001266  0.002532  0.000000  1
+  Mg  Mg1  1  0.001088  0.497381  0.000000  1
+  Mg  Mg2  1  0.496293  0.497381  0.000000  1
+  Mg  Mg3  1  0.501560  0.003121  0.000000  1
+  In  In4  1  0.207055  0.414108  0.500000  1
+  In  In5  1  0.790161  0.580322  0.500000  1
+  In  In6  1  0.792624  0.210702  0.500000  1
+  In  In7  1  0.418077  0.210702  0.500000  1
+  Sn  Sn8  1  0.580372  0.788648  0.500000  1
+  Sn  Sn9  1  0.208277  0.788648  0.500000  1
+  Ir  Ir10  1  0.336164  0.672329  0.000000  1
+  Ir  Ir11  1  0.667063  0.334124  0.000000  1

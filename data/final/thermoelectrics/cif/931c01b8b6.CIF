@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_LuTi2(Nb2Sn3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.77201600
+_cell_length_b   5.75414697
+_cell_length_c   9.65355900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.10276815
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTi2(Nb2Sn3)2
+_chemical_formula_sum   'Lu1 Ti2 Nb4 Sn6'
+_cell_volume   277.38047880
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.500000  0.000000  0.751077  1
+  Ti  Ti2  1  0.500000  0.000000  0.248923  1
+  Nb  Nb3  1  0.000000  0.500000  0.752200  1
+  Nb  Nb4  1  0.500000  0.500000  0.752200  1
+  Nb  Nb5  1  0.000000  0.500000  0.247800  1
+  Nb  Nb6  1  0.500000  0.500000  0.247800  1
+  Sn  Sn7  1  0.665078  0.330156  0.500000  1
+  Sn  Sn8  1  0.334922  0.669844  0.500000  1
+  Sn  Sn9  1  0.664166  0.328331  0.000000  1
+  Sn  Sn10  1  0.335834  0.671669  0.000000  1
+  Sn  Sn11  1  0.000000  0.000000  0.682033  1
+  Sn  Sn12  1  0.000000  0.000000  0.317967  1

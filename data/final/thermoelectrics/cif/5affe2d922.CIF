@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10Tl2(BiPb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.01168301
+_cell_length_b   9.01168238
+_cell_length_c   6.03143400
+_cell_angle_alpha   90.00033830
+_cell_angle_beta   90.00034289
+_cell_angle_gamma   119.99543324
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10Tl2(BiPb)3
+_chemical_formula_sum   'Zr10 Tl2 Bi3 Pb3'
+_cell_volume   424.21202763
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.666665  0.333321  0.002143  1
+  Zr  Zr1  1  0.333319  0.666663  0.002143  1
+  Zr  Zr2  1  0.333318  0.666660  0.497938  1
+  Zr  Zr3  1  0.666662  0.333320  0.497938  1
+  Zr  Zr4  1  0.718881  0.718882  0.749354  1
+  Zr  Zr5  1  0.281095  0.000005  0.749355  1
+  Zr  Zr6  1  0.000007  0.281094  0.749355  1
+  Zr  Zr7  1  0.283530  0.283530  0.250622  1
+  Zr  Zr8  1  0.716458  0.000006  0.250618  1
+  Zr  Zr9  1  0.000004  0.716457  0.250618  1
+  Tl  Tl10  1  0.000011  0.000011  0.001188  1
+  Tl  Tl11  1  0.000010  0.000010  0.498574  1
+  Bi  Bi12  1  0.384839  0.384841  0.750070  1
+  Bi  Bi13  1  0.615202  0.000004  0.750072  1
+  Bi  Bi14  1  0.000003  0.615199  0.750072  1
+  Pb  Pb15  1  0.618502  0.618502  0.249984  1
+  Pb  Pb16  1  0.381509  0.999980  0.249978  1
+  Pb  Pb17  1  0.999982  0.381513  0.249978  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_La3Yb(CuSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70800500
+_cell_length_b   7.72353358
+_cell_length_c   7.77603889
+_cell_angle_alpha   90.44228188
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3Yb(CuSn)4
+_chemical_formula_sum   'La3 Yb1 Cu4 Sn4'
+_cell_volume   282.74728216
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.250000  0.513326  0.212419  1
+  La  La1  1  0.750000  0.487926  0.791261  1
+  La  La2  1  0.750000  0.990100  0.699627  1
+  Yb  Yb3  1  0.250000  0.016257  0.284250  1
+  Cu  Cu4  1  0.250000  0.819121  0.925801  1
+  Cu  Cu5  1  0.750000  0.178774  0.081792  1
+  Cu  Cu6  1  0.750000  0.682594  0.422253  1
+  Cu  Cu7  1  0.250000  0.304796  0.577618  1
+  Sn  Sn8  1  0.250000  0.702570  0.594740  1
+  Sn  Sn9  1  0.750000  0.301984  0.404988  1
+  Sn  Sn10  1  0.750000  0.805454  0.096226  1
+  Sn  Sn11  1  0.250000  0.197099  0.909025  1

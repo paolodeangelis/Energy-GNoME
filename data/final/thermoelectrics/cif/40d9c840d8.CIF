@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_CaSc4(Sn3Ir)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.79268167
+_cell_length_b   9.79268147
+_cell_length_c   9.79268200
+_cell_angle_alpha   59.99999820
+_cell_angle_beta   59.99999888
+_cell_angle_gamma   60.00000248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSc4(Sn3Ir)6
+_chemical_formula_sum   'Ca1 Sc4 Sn18 Ir6'
+_cell_volume   664.03338992
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.999959  0.000009  0.000031  1
+  Sc  Sc1  1  0.370782  0.370697  0.889375  1
+  Sc  Sc2  1  0.370590  0.889440  0.370719  1
+  Sc  Sc3  1  0.889271  0.370626  0.370770  1
+  Sc  Sc4  1  0.370928  0.370873  0.370828  1
+  Sn  Sn5  1  0.584860  0.584943  0.245894  1
+  Sn  Sn6  1  0.584757  0.246030  0.584893  1
+  Sn  Sn7  1  0.245916  0.584850  0.584912  1
+  Sn  Sn8  1  0.584226  0.584294  0.584186  1
+  Sn  Sn9  1  0.750700  0.750708  0.750749  1
+  Sn  Sn10  1  0.991346  0.362041  0.655294  1
+  Sn  Sn11  1  0.990895  0.990864  0.655784  1
+  Sn  Sn12  1  0.362049  0.991300  0.655337  1
+  Sn  Sn13  1  0.991348  0.655283  0.362031  1
+  Sn  Sn14  1  0.362047  0.655387  0.991282  1
+  Sn  Sn15  1  0.991061  0.655594  0.991028  1
+  Sn  Sn16  1  0.655689  0.990944  0.990920  1
+  Sn  Sn17  1  0.655446  0.362191  0.991189  1
+  Sn  Sn18  1  0.655321  0.991267  0.362132  1
+  Sn  Sn19  1  0.364400  0.988848  0.988847  1
+  Sn  Sn20  1  0.988779  0.988731  0.364514  1
+  Sn  Sn21  1  0.988879  0.364409  0.988839  1
+  Sn  Sn22  1  0.250365  0.250526  0.250417  1
+  Ir  Ir23  1  0.257698  0.257637  0.742031  1
+  Ir  Ir24  1  0.742467  0.257926  0.742384  1
+  Ir  Ir25  1  0.257911  0.742424  0.742462  1
+  Ir  Ir26  1  0.742548  0.742494  0.257793  1
+  Ir  Ir27  1  0.257706  0.742008  0.257664  1
+  Ir  Ir28  1  0.742063  0.257661  0.257703  1

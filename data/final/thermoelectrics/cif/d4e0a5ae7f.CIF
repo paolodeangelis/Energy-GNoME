@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr7Sc3(GaSb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.68887700
+_cell_length_b   8.68887707
+_cell_length_c   5.87714700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr7Sc3(GaSb3)2
+_chemical_formula_sum   'Zr7 Sc3 Ga2 Sb6'
+_cell_volume   384.25937469
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.666667  0.333333  0.000100  1
+  Zr  Zr1  1  0.333333  0.666667  0.000100  1
+  Zr  Zr2  1  0.333333  0.666667  0.499900  1
+  Zr  Zr3  1  0.666667  0.333333  0.499900  1
+  Zr  Zr4  1  0.268625  0.268625  0.250000  1
+  Zr  Zr5  1  0.731375  0.000000  0.250000  1
+  Zr  Zr6  1  0.000000  0.731375  0.250000  1
+  Sc  Sc7  1  0.730322  0.730322  0.750000  1
+  Sc  Sc8  1  0.269678  0.000000  0.750000  1
+  Sc  Sc9  1  0.000000  0.269678  0.750000  1
+  Ga  Ga10  1  0.000000  0.000000  0.993010  1
+  Ga  Ga11  1  0.000000  0.000000  0.506990  1
+  Sb  Sb12  1  0.385703  0.385703  0.750000  1
+  Sb  Sb13  1  0.614297  0.000000  0.750000  1
+  Sb  Sb14  1  0.000000  0.614297  0.750000  1
+  Sb  Sb15  1  0.613155  0.613155  0.250000  1
+  Sb  Sb16  1  0.386845  0.000000  0.250000  1
+  Sb  Sb17  1  0.000000  0.386845  0.250000  1

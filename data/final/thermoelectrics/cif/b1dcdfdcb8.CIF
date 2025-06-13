@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_AgSnRhS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.44487395
+_cell_length_b   7.44487324
+_cell_length_c   7.44487335
+_cell_angle_alpha   120.28786277
+_cell_angle_beta   119.44884118
+_cell_angle_gamma   90.22970205
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgSnRhS4
+_chemical_formula_sum   'Ag2 Sn2 Rh2 S8'
+_cell_volume   292.33953984
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.884300  0.634300  0.250000  1
+  Ag  Ag1  1  0.115700  0.365700  0.750000  1
+  Sn  Sn2  1  0.500000  0.000000  0.500000  1
+  Sn  Sn3  1  0.000000  0.000000  0.000000  1
+  Rh  Rh4  1  0.500000  0.000000  0.000000  1
+  Rh  Rh5  1  0.500000  0.500000  0.500000  1
+  S  S6  1  0.727892  0.737327  0.509435  1
+  S  S7  1  0.727892  0.218458  0.990565  1
+  S  S8  1  0.713513  0.755738  0.957775  1
+  S  S9  1  0.297962  0.755738  0.542225  1
+  S  S10  1  0.272108  0.262673  0.490565  1
+  S  S11  1  0.272108  0.781542  0.009435  1
+  S  S12  1  0.286487  0.244262  0.042225  1
+  S  S13  1  0.702038  0.244262  0.457775  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y4Er(GaBi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.65010100
+_cell_length_b   8.65010188
+_cell_length_c   7.92947500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   125.42534761
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y4Er(GaBi)2
+_chemical_formula_sum   'Y8 Er2 Ga4 Bi4'
+_cell_volume   483.47712779
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.042923  0.297481  0.330868  1
+  Y  Y1  1  0.957077  0.702519  0.669132  1
+  Y  Y2  1  0.457077  0.202519  0.830868  1
+  Y  Y3  1  0.797481  0.542923  0.169132  1
+  Y  Y4  1  0.542923  0.797481  0.169132  1
+  Y  Y5  1  0.202519  0.457077  0.830868  1
+  Y  Y6  1  0.702519  0.957077  0.669132  1
+  Y  Y7  1  0.297481  0.042923  0.330868  1
+  Er  Er8  1  0.000000  0.000000  0.000000  1
+  Er  Er9  1  0.500000  0.500000  0.500000  1
+  Ga  Ga10  1  0.374268  0.374268  0.125721  1
+  Ga  Ga11  1  0.625732  0.625732  0.874279  1
+  Ga  Ga12  1  0.125732  0.125732  0.625721  1
+  Ga  Ga13  1  0.874268  0.874268  0.374279  1
+  Bi  Bi14  1  0.792273  0.207727  0.000000  1
+  Bi  Bi15  1  0.207727  0.792273  0.000000  1
+  Bi  Bi16  1  0.707727  0.292273  0.500000  1
+  Bi  Bi17  1  0.292273  0.707727  0.500000  1

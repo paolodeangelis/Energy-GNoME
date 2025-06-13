@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Er7Lu3(InBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.96189100
+_cell_length_b   8.96189188
+_cell_length_c   6.47767600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er7Lu3(InBi)3
+_chemical_formula_sum   'Er7 Lu3 In3 Bi3'
+_cell_volume   450.55644769
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.666667  0.333333  0.492783  1
+  Er  Er1  1  0.763741  0.763723  0.750296  1
+  Er  Er2  1  0.236277  0.000018  0.750296  1
+  Er  Er3  1  0.999982  0.236259  0.750296  1
+  Er  Er4  1  0.237961  0.238115  0.249878  1
+  Er  Er5  1  0.761885  0.999847  0.249878  1
+  Er  Er6  1  0.000153  0.762039  0.249878  1
+  Lu  Lu7  1  0.666667  0.333333  0.008192  1
+  Lu  Lu8  1  0.333333  0.666667  0.007974  1
+  Lu  Lu9  1  0.333333  0.666667  0.491899  1
+  In  In10  1  0.605491  0.606169  0.249170  1
+  In  In11  1  0.393831  0.999321  0.249170  1
+  In  In12  1  0.000679  0.394509  0.249170  1
+  Bi  Bi13  1  0.396470  0.397030  0.750373  1
+  Bi  Bi14  1  0.602970  0.999441  0.750373  1
+  Bi  Bi15  1  0.000559  0.603530  0.750373  1

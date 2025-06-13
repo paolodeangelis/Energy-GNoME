@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LiCa(Sn2Ru)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.00851187
+_cell_length_b   7.00851138
+_cell_length_c   6.86853102
+_cell_angle_alpha   119.18737629
+_cell_angle_beta   119.18737451
+_cell_angle_gamma   90.89488328
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa(Sn2Ru)3
+_chemical_formula_sum   'Li1 Ca1 Sn6 Ru3'
+_cell_volume   242.51016978
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.424620  0.424620  0.685051  1
+  Ca  Ca1  1  0.979456  0.979456  0.980911  1
+  Sn  Sn2  1  0.977341  0.498194  0.495435  1
+  Sn  Sn3  1  0.467965  0.467965  0.345043  1
+  Sn  Sn4  1  0.529041  0.906962  0.019069  1
+  Sn  Sn5  1  0.906962  0.529041  0.019069  1
+  Sn  Sn6  1  0.118758  0.118758  0.661941  1
+  Sn  Sn7  1  0.498194  0.977341  0.495435  1
+  Ru  Ru8  1  0.754882  0.754882  0.333142  1
+  Ru  Ru9  1  0.255034  0.587747  0.982452  1
+  Ru  Ru10  1  0.587747  0.255034  0.982452  1

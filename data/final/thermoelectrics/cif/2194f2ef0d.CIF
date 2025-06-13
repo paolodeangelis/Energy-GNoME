@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrEu3(AgPb)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98375752
+_cell_length_b   5.00245600
+_cell_length_c   8.59437359
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   89.95821102
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrEu3(AgPb)4
+_chemical_formula_sum   'Sr1 Eu3 Ag4 Pb4'
+_cell_volume   343.24540175
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.496509  0.250000  0.792142  1
+  Eu  Eu1  1  0.503173  0.750001  0.212162  1
+  Eu  Eu2  1  0.003663  0.750001  0.289341  1
+  Eu  Eu3  1  0.996905  0.250000  0.708737  1
+  Ag  Ag4  1  0.198330  0.250000  0.083967  1
+  Ag  Ag5  1  0.700902  0.250000  0.416138  1
+  Ag  Ag6  1  0.297788  0.750001  0.582041  1
+  Ag  Ag7  1  0.800316  0.750001  0.917089  1
+  Pb  Pb8  1  0.805581  0.250000  0.089672  1
+  Pb  Pb9  1  0.301306  0.250000  0.409947  1
+  Pb  Pb10  1  0.702888  0.750001  0.585147  1
+  Pb  Pb11  1  0.192639  0.750001  0.913622  1

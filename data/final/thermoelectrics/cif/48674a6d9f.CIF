@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Tb4GeSb5Rh7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.59172107
+_cell_length_b   7.59172175
+_cell_length_c   7.59172169
+_cell_angle_alpha   108.08722309
+_cell_angle_beta   110.16761835
+_cell_angle_gamma   110.16761876
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4GeSb5Rh7
+_chemical_formula_sum   'Tb4 Ge1 Sb5 Rh7'
+_cell_volume   336.67386164
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.525125  0.007203  0.007203  1
+  Tb  Tb1  1  0.000000  0.482077  0.007203  1
+  Tb  Tb2  1  0.000000  0.007203  0.482077  1
+  Tb  Tb3  1  0.474875  0.482077  0.482077  1
+  Ge  Ge4  1  0.000000  0.338652  0.338652  1
+  Sb  Sb5  1  0.684035  0.993317  0.677352  1
+  Sb  Sb6  1  0.684035  0.677352  0.993317  1
+  Sb  Sb7  1  0.000000  0.684108  0.684108  1
+  Sb  Sb8  1  0.315965  0.993317  0.309282  1
+  Sb  Sb9  1  0.315965  0.309282  0.993317  1
+  Rh  Rh10  1  0.000000  0.046764  0.046764  1
+  Rh  Rh11  1  0.500000  0.745256  0.245256  1
+  Rh  Rh12  1  0.752624  0.497034  0.249658  1
+  Rh  Rh13  1  0.247376  0.744410  0.497034  1
+  Rh  Rh14  1  0.247376  0.497034  0.744410  1
+  Rh  Rh15  1  0.500000  0.245256  0.745256  1
+  Rh  Rh16  1  0.752624  0.249658  0.497034  1

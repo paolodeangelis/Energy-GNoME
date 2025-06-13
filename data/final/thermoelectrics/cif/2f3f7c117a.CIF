@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ti8MnBeTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.71873909
+_cell_length_b   7.71908176
+_cell_length_c   7.71873774
+_cell_angle_alpha   95.66588567
+_cell_angle_beta   95.60264189
+_cell_angle_gamma   143.47563388
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8MnBeTe4
+_chemical_formula_sum   'Ti8 Mn1 Be1 Te4'
+_cell_volume   259.93246431
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.695787  0.580827  0.278700  1
+  Ti  Ti1  1  0.302228  0.417094  0.721400  1
+  Ti  Ti2  1  0.580878  0.302238  0.885267  1
+  Ti  Ti3  1  0.083029  0.197762  0.278641  1
+  Ti  Ti4  1  0.804306  0.082906  0.885133  1
+  Ti  Ti5  1  0.417015  0.695639  0.114770  1
+  Ti  Ti6  1  0.919132  0.804361  0.721376  1
+  Ti  Ti7  1  0.197873  0.919173  0.114960  1
+  Mn  Mn8  1  0.749635  0.750000  0.999635  1
+  Be  Be9  1  0.250009  0.250000  0.000009  1
+  Te  Te10  1  0.144678  0.644581  0.789315  1
+  Te  Te11  1  0.355339  0.144594  0.499950  1
+  Te  Te12  1  0.855356  0.355406  0.210745  1
+  Te  Te13  1  0.644735  0.855419  0.500097  1

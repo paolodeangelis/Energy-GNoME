@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10TlIn(AgBi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.88982683
+_cell_length_b   8.89036651
+_cell_length_c   5.99838100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.77449751
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10TlIn(AgBi2)2
+_chemical_formula_sum   'Zr10 Tl1 In1 Ag2 Bi4'
+_cell_volume   411.49069633
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.725217  0.725069  0.750000  1
+  Zr  Zr1  1  0.275771  0.000499  0.750000  1
+  Zr  Zr2  1  0.000719  0.276014  0.750000  1
+  Zr  Zr3  1  0.280813  0.281870  0.250000  1
+  Zr  Zr4  1  0.718613  0.003814  0.250000  1
+  Zr  Zr5  1  0.002780  0.716987  0.250000  1
+  Zr  Zr6  1  0.666963  0.331419  0.003567  1
+  Zr  Zr7  1  0.330726  0.665692  0.003537  1
+  Zr  Zr8  1  0.330726  0.665692  0.496463  1
+  Zr  Zr9  1  0.666963  0.331419  0.496433  1
+  Tl  Tl10  1  0.374210  0.000447  0.250000  1
+  In  In11  1  0.000280  0.374449  0.250000  1
+  Ag  Ag12  1  0.001945  0.002454  0.008486  1
+  Ag  Ag13  1  0.001945  0.002454  0.491514  1
+  Bi  Bi14  1  0.381826  0.381626  0.750000  1
+  Bi  Bi15  1  0.618112  0.999518  0.750000  1
+  Bi  Bi16  1  0.999729  0.617772  0.750000  1
+  Bi  Bi17  1  0.622661  0.622806  0.250000  1

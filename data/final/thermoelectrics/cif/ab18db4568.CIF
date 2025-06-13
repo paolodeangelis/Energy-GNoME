@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaSiRh3Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88567154
+_cell_length_b   7.05359519
+_cell_length_c   7.05359447
+_cell_angle_alpha   67.13399978
+_cell_angle_beta   65.26356590
+_cell_angle_gamma   65.26356904
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaSiRh3Pb
+_chemical_formula_sum   'La2 Si2 Rh6 Pb2'
+_cell_volume   233.32813782
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.478627  0.776160  0.776160  1
+  La  La1  1  0.521373  0.223840  0.223840  1
+  Si  Si2  1  0.142072  0.105016  0.105016  1
+  Si  Si3  1  0.857928  0.894984  0.894984  1
+  Rh  Rh4  1  0.500000  0.197940  0.802060  1
+  Rh  Rh5  1  0.000000  0.799120  0.200880  1
+  Rh  Rh6  1  0.500000  0.802060  0.197940  1
+  Rh  Rh7  1  0.000000  0.200880  0.799120  1
+  Rh  Rh8  1  0.000000  0.500000  0.000000  1
+  Rh  Rh9  1  0.000000  0.000000  0.500000  1
+  Pb  Pb10  1  0.187194  0.565256  0.565256  1
+  Pb  Pb11  1  0.812806  0.434744  0.434744  1

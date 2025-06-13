@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Tl(Cu2As)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.77277267
+_cell_length_b   7.77277237
+_cell_length_c   7.77277200
+_cell_angle_alpha   93.50408840
+_cell_angle_beta   93.50408827
+_cell_angle_gamma   151.37339304
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl(Cu2As)4
+_chemical_formula_sum   'Tl1 Cu8 As4'
+_cell_volume   218.00109205
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.000000  0.000000  0.000000  1
+  Cu  Cu1  1  0.015843  0.623717  0.639612  1
+  Cu  Cu2  1  0.667583  0.216627  0.884046  1
+  Cu  Cu3  1  0.216511  0.332442  0.549005  1
+  Cu  Cu4  1  0.783489  0.667558  0.450995  1
+  Cu  Cu5  1  0.332417  0.783373  0.115954  1
+  Cu  Cu6  1  0.984157  0.376283  0.360388  1
+  Cu  Cu7  1  0.376189  0.015751  0.392121  1
+  Cu  Cu8  1  0.623811  0.984249  0.607879  1
+  As  As9  1  0.755808  0.427121  0.183054  1
+  As  As10  1  0.427166  0.244105  0.671275  1
+  As  As11  1  0.572834  0.755895  0.328725  1
+  As  As12  1  0.244192  0.572879  0.816946  1

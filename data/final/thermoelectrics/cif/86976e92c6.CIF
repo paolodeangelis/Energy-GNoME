@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10InGa2Bi3Pb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.86503107
+_cell_length_b   8.86503152
+_cell_length_c   5.97030500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.20295635
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10InGa2Bi3Pb2
+_chemical_formula_sum   'Zr10 In1 Ga2 Bi3 Pb2'
+_cell_volume   405.50468182
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.665206  0.333730  0.997999  1
+  Zr  Zr1  1  0.333730  0.665206  0.997999  1
+  Zr  Zr2  1  0.333730  0.665206  0.502001  1
+  Zr  Zr3  1  0.665206  0.333730  0.502001  1
+  Zr  Zr4  1  0.734653  0.734653  0.750000  1
+  Zr  Zr5  1  0.265245  0.002636  0.750000  1
+  Zr  Zr6  1  0.002636  0.265245  0.750000  1
+  Zr  Zr7  1  0.263245  0.263245  0.250000  1
+  Zr  Zr8  1  0.737105  0.000135  0.250000  1
+  Zr  Zr9  1  0.000135  0.737105  0.250000  1
+  In  In10  1  0.387460  0.387460  0.750000  1
+  Ga  Ga11  1  0.000613  0.000613  0.997715  1
+  Ga  Ga12  1  0.000613  0.000613  0.502285  1
+  Bi  Bi13  1  0.608585  0.608585  0.250000  1
+  Bi  Bi14  1  0.389554  0.999378  0.250000  1
+  Bi  Bi15  1  0.999378  0.389554  0.250000  1
+  Pb  Pb16  1  0.612444  0.000464  0.750000  1
+  Pb  Pb17  1  0.000464  0.612444  0.750000  1

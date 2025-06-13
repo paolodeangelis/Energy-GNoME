@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_TbDy2Cu4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.90075544
+_cell_length_b   7.90075584
+_cell_length_c   7.90075593
+_cell_angle_alpha   149.49393990
+_cell_angle_beta   130.75114422
+_cell_angle_gamma   59.04595731
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbDy2Cu4Si3Ge
+_chemical_formula_sum   'Tb1 Dy2 Cu4 Si3 Ge1'
+_cell_volume   188.16817681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.498102  0.000000  0.498102  1
+  Dy  Dy1  1  0.871233  0.870092  0.001141  1
+  Dy  Dy2  1  0.131048  0.129908  0.001141  1
+  Cu  Cu3  1  0.517000  0.327038  0.189963  1
+  Cu  Cu4  1  0.862927  0.672962  0.189963  1
+  Cu  Cu5  1  0.141426  0.331588  0.809838  1
+  Cu  Cu6  1  0.478251  0.668412  0.809838  1
+  Si  Si7  1  0.187902  0.500000  0.687902  1
+  Si  Si8  1  0.283779  0.783915  0.499864  1
+  Si  Si9  1  0.715949  0.216085  0.499864  1
+  Ge  Ge10  1  0.812383  0.500000  0.312383  1

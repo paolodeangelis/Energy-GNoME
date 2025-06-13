@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Hf4Zr6Zn2Bi5Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.86312200
+_cell_length_b   8.86003876
+_cell_length_c   5.90588400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00898954
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4Zr6Zn2Bi5Pb
+_chemical_formula_sum   'Hf4 Zr6 Zn2 Bi5 Pb1'
+_cell_volume   401.60447746
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.333928  0.667655  0.999289  1
+  Hf  Hf1  1  0.666268  0.332357  0.500715  1
+  Hf  Hf2  1  0.666268  0.332357  0.999285  1
+  Hf  Hf3  1  0.333928  0.667655  0.500711  1
+  Zr  Zr4  1  0.265354  0.999995  0.250000  1
+  Zr  Zr5  1  0.266882  0.266469  0.750000  1
+  Zr  Zr6  1  0.000418  0.733529  0.750000  1
+  Zr  Zr7  1  0.000774  0.266760  0.250000  1
+  Zr  Zr8  1  0.734006  0.733229  0.250000  1
+  Zr  Zr9  1  0.732669  0.000000  0.750000  1
+  Zn  Zn10  1  0.000191  0.999993  0.998895  1
+  Zn  Zn11  1  0.000191  0.999993  0.501105  1
+  Bi  Bi12  1  0.613963  0.000001  0.250000  1
+  Bi  Bi13  1  0.614413  0.614448  0.750000  1
+  Bi  Bi14  1  0.999971  0.385565  0.750000  1
+  Bi  Bi15  1  0.000923  0.614869  0.250000  1
+  Bi  Bi16  1  0.386045  0.385129  0.250000  1
+  Pb  Pb17  1  0.383806  0.999995  0.750000  1

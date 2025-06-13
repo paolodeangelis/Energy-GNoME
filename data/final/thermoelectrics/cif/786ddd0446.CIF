@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba2In5Pd2Pb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.36327200
+_cell_length_b   9.36327114
+_cell_length_c   7.72425200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   150.36596454
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2In5Pd2Pb3
+_chemical_formula_sum   'Ba2 In5 Pd2 Pb3'
+_cell_volume   334.84308351
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.381595  0.618404  0.250000  1
+  Ba  Ba1  1  0.619567  0.380432  0.750000  1
+  In  In2  1  0.191187  0.808812  0.053469  1
+  In  In3  1  0.191187  0.808812  0.446531  1
+  In  In4  1  0.810256  0.189743  0.554394  1
+  In  In5  1  0.422979  0.577021  0.750000  1
+  In  In6  1  0.810256  0.189743  0.945605  1
+  Pd  Pd7  1  0.727819  0.272181  0.250000  1
+  Pd  Pd8  1  0.273677  0.726323  0.750000  1
+  Pb  Pb9  1  0.998266  0.001734  0.980344  1
+  Pb  Pb10  1  0.574943  0.425057  0.250000  1
+  Pb  Pb11  1  0.998266  0.001734  0.519656  1

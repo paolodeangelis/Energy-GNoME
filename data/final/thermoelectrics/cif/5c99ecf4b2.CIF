@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ErLu(BiRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68715400
+_cell_length_b   6.64287000
+_cell_length_c   9.33732100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErLu(BiRh)2
+_chemical_formula_sum   'Er2 Lu2 Bi4 Rh4'
+_cell_volume   290.72827106
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.500002  0.496329  0.124119  1
+  Er  Er1  1  0.000000  0.996328  0.875880  1
+  Lu  Lu2  1  0.000000  0.003503  0.374634  1
+  Lu  Lu3  1  0.500002  0.503502  0.625366  1
+  Bi  Bi4  1  0.500002  0.997337  0.126784  1
+  Bi  Bi5  1  0.000000  0.501727  0.376250  1
+  Bi  Bi6  1  0.500002  0.001726  0.623748  1
+  Bi  Bi7  1  0.000000  0.497338  0.873215  1
+  Rh  Rh8  1  0.000000  0.749371  0.126835  1
+  Rh  Rh9  1  0.500002  0.251729  0.376773  1
+  Rh  Rh10  1  0.000000  0.751728  0.623227  1
+  Rh  Rh11  1  0.500002  0.249372  0.873164  1

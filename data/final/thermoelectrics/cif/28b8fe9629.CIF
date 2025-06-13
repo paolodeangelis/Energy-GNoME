@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Hf2Zr3SiSn2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.67143705
+_cell_length_b   8.66578529
+_cell_length_c   5.84290500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97844209
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2Zr3SiSn2Sb
+_chemical_formula_sum   'Hf4 Zr6 Si2 Sn4 Sb2'
+_cell_volume   380.32314731
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.333934  0.666967  0.000000  1
+  Hf  Hf1  1  0.665294  0.332647  0.500000  1
+  Hf  Hf2  1  0.665294  0.332647  0.000000  1
+  Hf  Hf3  1  0.333934  0.666967  0.500000  1
+  Zr  Zr4  1  0.259504  0.000139  0.250000  1
+  Zr  Zr5  1  0.259504  0.259366  0.750000  1
+  Zr  Zr6  1  0.000425  0.741563  0.750000  1
+  Zr  Zr7  1  0.000425  0.258861  0.250000  1
+  Zr  Zr8  1  0.739966  0.739915  0.250000  1
+  Zr  Zr9  1  0.739966  0.000051  0.750000  1
+  Si  Si10  1  0.998622  0.999311  0.000000  1
+  Si  Si11  1  0.998622  0.999311  0.500000  1
+  Sn  Sn12  1  0.606797  0.999862  0.250000  1
+  Sn  Sn13  1  0.606797  0.606935  0.750000  1
+  Sn  Sn14  1  0.999223  0.395051  0.750000  1
+  Sn  Sn15  1  0.999223  0.604171  0.250000  1
+  Sb  Sb16  1  0.396236  0.396769  0.250000  1
+  Sb  Sb17  1  0.396236  0.999467  0.750000  1

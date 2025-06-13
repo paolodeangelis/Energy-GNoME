@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_NbReMoSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79239372
+_cell_length_b   5.79248623
+_cell_length_c   7.04678636
+_cell_angle_alpha   82.15204965
+_cell_angle_beta   82.14519121
+_cell_angle_gamma   119.99769199
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbReMoSe6
+_chemical_formula_sum   'Nb1 Re1 Mo1 Se6'
+_cell_volume   196.97490481
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.499857  0.833277  0.500105  1
+  Re  Re1  1  0.833342  0.500014  0.500107  1
+  Mo  Mo2  1  0.166678  0.166638  0.500034  1
+  Se  Se3  1  0.585230  0.258472  0.252521  1
+  Se  Se4  1  0.239392  0.575531  0.252170  1
+  Se  Se5  1  0.922214  0.912725  0.252393  1
+  Se  Se6  1  0.757864  0.748453  0.747560  1
+  Se  Se7  1  0.420753  0.094180  0.747717  1
+  Se  Se8  1  0.074574  0.410615  0.747692  1

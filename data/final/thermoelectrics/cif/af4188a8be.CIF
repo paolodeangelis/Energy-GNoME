@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaLa(HgBi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.56589537
+_cell_length_b   10.56589505
+_cell_length_c   10.56589483
+_cell_angle_alpha   153.32396928
+_cell_angle_beta   153.32396628
+_cell_angle_gamma   38.08295883
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaLa(HgBi2)2
+_chemical_formula_sum   'Ca1 La1 Hg2 Bi4'
+_cell_volume   237.36594444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.876848  0.876848  0.000000  1
+  La  La1  1  0.125750  0.125750  0.000000  1
+  Hg  Hg2  1  0.751182  0.251182  0.500000  1
+  Hg  Hg3  1  0.251182  0.751182  0.500000  1
+  Bi  Bi4  1  0.637383  0.637383  0.000000  1
+  Bi  Bi5  1  0.999543  0.499543  0.500000  1
+  Bi  Bi6  1  0.358570  0.358570  0.000000  1
+  Bi  Bi7  1  0.499543  0.999543  0.500000  1

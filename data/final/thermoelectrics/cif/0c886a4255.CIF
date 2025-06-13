@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ca2Hg(AsPd2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.27608600
+_cell_length_b   10.27608554
+_cell_length_c   4.10318500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000147
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Hg(AsPd2)6
+_chemical_formula_sum   'Ca2 Hg1 As6 Pd12'
+_cell_volume   375.23830433
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.666667  0.333333  0.243939  1
+  Ca  Ca1  1  0.000000  0.000000  0.752993  1
+  Hg  Hg2  1  0.333333  0.666667  0.470132  1
+  As  As3  1  0.743074  0.787141  0.259536  1
+  As  As4  1  0.044067  0.256926  0.259536  1
+  As  As5  1  0.212859  0.955933  0.259536  1
+  As  As6  1  0.923267  0.546714  0.737875  1
+  As  As7  1  0.623446  0.076733  0.737875  1
+  As  As8  1  0.453286  0.376554  0.737875  1
+  Pd  Pd9  1  0.776523  0.050565  0.252476  1
+  Pd  Pd10  1  0.274041  0.223477  0.252476  1
+  Pd  Pd11  1  0.949435  0.725959  0.252476  1
+  Pd  Pd12  1  0.891190  0.281593  0.744099  1
+  Pd  Pd13  1  0.390403  0.108810  0.744099  1
+  Pd  Pd14  1  0.718407  0.609597  0.744099  1
+  Pd  Pd15  1  0.497157  0.544228  0.227272  1
+  Pd  Pd16  1  0.047070  0.502843  0.227272  1
+  Pd  Pd17  1  0.455772  0.952930  0.227272  1
+  Pd  Pd18  1  0.174179  0.784909  0.773558  1
+  Pd  Pd19  1  0.610730  0.825821  0.773558  1
+  Pd  Pd20  1  0.215091  0.389270  0.773558  1

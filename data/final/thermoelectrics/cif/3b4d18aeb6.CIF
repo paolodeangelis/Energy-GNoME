@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_ZrTa4(TiSn3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71120861
+_cell_length_b   5.71577631
+_cell_length_c   9.62893600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02647462
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTa4(TiSn3)2
+_chemical_formula_sum   'Zr1 Ta4 Ti2 Sn6'
+_cell_volume   272.14243009
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.000000  0.000000  0.996804  1
+  Ta  Ta1  1  0.000000  0.500000  0.248696  1
+  Ta  Ta2  1  0.000000  0.500000  0.753806  1
+  Ta  Ta3  1  0.500000  0.500000  0.751631  1
+  Ta  Ta4  1  0.500000  0.000000  0.751631  1
+  Ti  Ti5  1  0.500000  0.500000  0.248490  1
+  Ti  Ti6  1  0.500000  0.000000  0.248490  1
+  Sn  Sn7  1  0.337618  0.668810  0.003730  1
+  Sn  Sn8  1  0.335543  0.667772  0.498955  1
+  Sn  Sn9  1  0.000000  0.000000  0.315416  1
+  Sn  Sn10  1  0.000000  0.000000  0.679666  1
+  Sn  Sn11  1  0.662382  0.331190  0.003730  1
+  Sn  Sn12  1  0.664457  0.332228  0.498955  1

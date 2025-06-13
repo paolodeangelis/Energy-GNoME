@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb4Cu4Si3Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.29566500
+_cell_length_b   7.05991862
+_cell_length_c   7.29623319
+_cell_angle_alpha   89.26812483
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb4Cu4Si3Ag
+_chemical_formula_sum   'Yb4 Cu4 Si3 Ag1'
+_cell_volume   221.25514256
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.250000  0.515723  0.198307  1
+  Yb  Yb1  1  0.750000  0.492844  0.796400  1
+  Yb  Yb2  1  0.750000  0.989544  0.697785  1
+  Yb  Yb3  1  0.250000  0.002309  0.304746  1
+  Cu  Cu4  1  0.250000  0.788568  0.912840  1
+  Cu  Cu5  1  0.750000  0.166621  0.121015  1
+  Cu  Cu6  1  0.750000  0.686207  0.415082  1
+  Cu  Cu7  1  0.250000  0.343085  0.559391  1
+  Si  Si8  1  0.250000  0.697449  0.590347  1
+  Si  Si9  1  0.750000  0.313346  0.412475  1
+  Si  Si10  1  0.750000  0.813946  0.083165  1
+  Ag  Ag11  1  0.250000  0.190357  0.908446  1

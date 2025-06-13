@@ -1,0 +1,60 @@
+# generated using pymatgen
+data_Sm(Hf5Bi6)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.85685200
+_cell_length_b   10.85685200
+_cell_length_c   7.65753300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm(Hf5Bi6)3
+_chemical_formula_sum   'Sm1 Hf15 Bi18'
+_cell_volume   902.60287444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.750000  0.750000  0.078993  1
+  Hf  Hf1  1  0.000992  0.000992  0.000634  1
+  Hf  Hf2  1  0.499008  0.000992  0.000634  1
+  Hf  Hf3  1  0.000992  0.499008  0.000634  1
+  Hf  Hf4  1  0.499008  0.499008  0.000634  1
+  Hf  Hf5  1  0.750000  0.104555  0.152139  1
+  Hf  Hf6  1  0.750000  0.395444  0.152139  1
+  Hf  Hf7  1  0.104555  0.750000  0.152139  1
+  Hf  Hf8  1  0.395444  0.750000  0.152139  1
+  Hf  Hf9  1  0.250000  0.250000  0.433030  1
+  Hf  Hf10  1  0.750000  0.750000  0.566728  1
+  Hf  Hf11  1  0.604767  0.249999  0.846408  1
+  Hf  Hf12  1  0.895234  0.250000  0.846408  1
+  Hf  Hf13  1  0.249999  0.604767  0.846408  1
+  Hf  Hf14  1  0.250000  0.895234  0.846408  1
+  Hf  Hf15  1  0.250000  0.250000  0.921946  1
+  Bi  Bi16  1  0.250000  0.016462  0.196910  1
+  Bi  Bi17  1  0.016462  0.250000  0.196910  1
+  Bi  Bi18  1  0.483537  0.249999  0.196910  1
+  Bi  Bi19  1  0.249999  0.483537  0.196910  1
+  Bi  Bi20  1  0.579894  0.579894  0.356327  1
+  Bi  Bi21  1  0.920106  0.579894  0.356327  1
+  Bi  Bi22  1  0.920106  0.920106  0.356327  1
+  Bi  Bi23  1  0.579894  0.920106  0.356327  1
+  Bi  Bi24  1  0.750000  0.250000  0.497329  1
+  Bi  Bi25  1  0.250000  0.750000  0.497329  1
+  Bi  Bi26  1  0.415694  0.084306  0.649586  1
+  Bi  Bi27  1  0.084306  0.084306  0.649586  1
+  Bi  Bi28  1  0.084306  0.415694  0.649586  1
+  Bi  Bi29  1  0.415694  0.415694  0.649586  1
+  Bi  Bi30  1  0.750000  0.511258  0.799161  1
+  Bi  Bi31  1  0.511258  0.750000  0.799161  1
+  Bi  Bi32  1  0.988742  0.750000  0.799161  1
+  Bi  Bi33  1  0.750000  0.988742  0.799161  1

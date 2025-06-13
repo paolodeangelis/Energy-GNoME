@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CaBe(Cu2Si)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.07958554
+_cell_length_b   8.07954274
+_cell_length_c   8.08062961
+_cell_angle_alpha   120.42920293
+_cell_angle_beta   120.43014597
+_cell_angle_gamma   89.25850361
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaBe(Cu2Si)4
+_chemical_formula_sum   'Ca2 Be2 Cu16 Si8'
+_cell_volume   370.53785222
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.249995  0.250006  0.000001  1
+  Ca  Ca1  1  0.750005  0.749994  0.999999  1
+  Be  Be2  1  0.500000  0.000000  0.500000  1
+  Be  Be3  1  0.000000  0.500000  0.500000  1
+  Cu  Cu4  1  0.942821  0.209824  0.152620  1
+  Cu  Cu5  1  0.209842  0.057177  0.267066  1
+  Cu  Cu6  1  0.790158  0.942823  0.732934  1
+  Cu  Cu7  1  0.442785  0.290180  0.732908  1
+  Cu  Cu8  1  0.057179  0.790176  0.847380  1
+  Cu  Cu9  1  0.799810  0.058838  0.499977  1
+  Cu  Cu10  1  0.558835  0.299796  0.499959  1
+  Cu  Cu11  1  0.200190  0.941162  0.500023  1
+  Cu  Cu12  1  0.441165  0.700204  0.500041  1
+  Cu  Cu13  1  0.941273  0.441259  0.741306  1
+  Cu  Cu14  1  0.699877  0.199882  0.258597  1
+  Cu  Cu15  1  0.058727  0.558741  0.258694  1
+  Cu  Cu16  1  0.709806  0.442811  0.152597  1
+  Cu  Cu17  1  0.557215  0.709820  0.267092  1
+  Cu  Cu18  1  0.300123  0.800118  0.741403  1
+  Cu  Cu19  1  0.290194  0.557189  0.847403  1
+  Si  Si20  1  0.793725  0.293754  0.853511  1
+  Si  Si21  1  0.559763  0.059780  0.853415  1
+  Si  Si22  1  0.059603  0.206258  0.499878  1
+  Si  Si23  1  0.293724  0.440380  0.500092  1
+  Si  Si24  1  0.940397  0.793742  0.500122  1
+  Si  Si25  1  0.440237  0.940220  0.146585  1
+  Si  Si26  1  0.206275  0.706246  0.146489  1
+  Si  Si27  1  0.706276  0.559620  0.499908  1

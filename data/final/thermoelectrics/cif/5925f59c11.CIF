@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ti8MnBi4As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88034892
+_cell_length_b   7.88047168
+_cell_length_c   7.88035015
+_cell_angle_alpha   95.75205275
+_cell_angle_beta   95.74987910
+_cell_angle_gamma   143.08966860
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8MnBi4As
+_chemical_formula_sum   'Ti8 Mn1 Bi4 As1'
+_cell_volume   278.78941376
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.701763  0.587989  0.278716  1
+  Ti  Ti1  1  0.309233  0.423030  0.721260  1
+  Ti  Ti2  1  0.587972  0.309206  0.886212  1
+  Ti  Ti3  1  0.077007  0.190794  0.278766  1
+  Ti  Ti4  1  0.798230  0.076970  0.886203  1
+  Ti  Ti5  1  0.423011  0.701770  0.113757  1
+  Ti  Ti6  1  0.911987  0.798230  0.721241  1
+  Ti  Ti7  1  0.190727  0.912011  0.113774  1
+  Mn  Mn8  1  0.750063  0.750000  0.000063  1
+  Bi  Bi9  1  0.139552  0.639520  0.779069  1
+  Bi  Bi10  1  0.360448  0.139537  0.499994  1
+  Bi  Bi11  1  0.860457  0.360463  0.220911  1
+  Bi  Bi12  1  0.639548  0.860480  0.500032  1
+  As  As13  1  0.250003  0.250000  0.000003  1

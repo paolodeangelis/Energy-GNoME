@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10InCu(SnBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.84640400
+_cell_length_b   8.84640348
+_cell_length_c   5.95565800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000193
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10InCu(SnBi)3
+_chemical_formula_sum   'Zr10 In1 Cu1 Sn3 Bi3'
+_cell_volume   403.63971098
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.724246  0.000000  0.236404  1
+  Zr  Zr1  1  0.000000  0.724246  0.236404  1
+  Zr  Zr2  1  0.275754  0.275754  0.236404  1
+  Zr  Zr3  1  0.269355  0.000000  0.764501  1
+  Zr  Zr4  1  0.000000  0.269355  0.764501  1
+  Zr  Zr5  1  0.730645  0.730645  0.764501  1
+  Zr  Zr6  1  0.333333  0.666667  0.495267  1
+  Zr  Zr7  1  0.666667  0.333333  0.495267  1
+  Zr  Zr8  1  0.666667  0.333333  0.004600  1
+  Zr  Zr9  1  0.333333  0.666667  0.004600  1
+  In  In10  1  0.000000  0.000000  0.492769  1
+  Cu  Cu11  1  0.000000  0.000000  0.008921  1
+  Sn  Sn12  1  0.380795  0.000000  0.253365  1
+  Sn  Sn13  1  0.000000  0.380795  0.253365  1
+  Sn  Sn14  1  0.619205  0.619205  0.253365  1
+  Bi  Bi15  1  0.613766  0.000000  0.745254  1
+  Bi  Bi16  1  0.000000  0.613766  0.745254  1
+  Bi  Bi17  1  0.386234  0.386234  0.745254  1

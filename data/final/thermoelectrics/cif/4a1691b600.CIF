@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Zr10GeBi5Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.93837963
+_cell_length_b   8.75852929
+_cell_length_c   8.74932976
+_cell_angle_alpha   119.96471945
+_cell_angle_beta   89.94990430
+_cell_angle_gamma   90.02483130
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10GeBi5Pb
+_chemical_formula_sum   'Zr10 Ge1 Bi5 Pb1'
+_cell_volume   394.23818030
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.499470  0.333390  0.666514  1
+  Zr  Zr1  1  0.499469  0.666610  0.333123  1
+  Zr  Zr2  1  0.000891  0.666415  0.333132  1
+  Zr  Zr3  1  0.000891  0.333584  0.666720  1
+  Zr  Zr4  1  0.763437  0.254398  0.999493  1
+  Zr  Zr5  1  0.763431  0.745598  0.745092  1
+  Zr  Zr6  1  0.764582  0.000000  0.252720  1
+  Zr  Zr7  1  0.235996  0.745967  0.001934  1
+  Zr  Zr8  1  0.236002  0.254038  0.255970  1
+  Zr  Zr9  1  0.236311  0.000000  0.745654  1
+  Ge  Ge10  1  0.499100  0.000000  0.999976  1
+  Bi  Bi11  1  0.746834  0.611001  0.000163  1
+  Bi  Bi12  1  0.746835  0.389000  0.389163  1
+  Bi  Bi13  1  0.747422  0.000000  0.608703  1
+  Bi  Bi14  1  0.252814  0.388493  0.000193  1
+  Bi  Bi15  1  0.252811  0.611507  0.611700  1
+  Pb  Pb16  1  0.253701  0.000001  0.389751  1

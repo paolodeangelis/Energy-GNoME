@@ -1,0 +1,64 @@
+# generated using pymatgen
+data_Cs4NiPtSe32
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.91573200
+_cell_length_b   12.91573200
+_cell_length_c   7.28275600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs4NiPtSe32
+_chemical_formula_sum   'Cs4 Ni1 Pt1 Se32'
+_cell_volume   1214.88119420
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.500000  0.000000  0.999849  1
+  Cs  Cs1  1  0.000000  0.500000  0.000151  1
+  Cs  Cs2  1  0.500000  0.500000  0.500000  1
+  Cs  Cs3  1  0.000000  0.000000  0.500000  1
+  Ni  Ni4  1  0.000000  0.000000  0.000000  1
+  Pt  Pt5  1  0.500000  0.500000  0.000000  1
+  Se  Se6  1  0.191873  0.422667  0.582248  1
+  Se  Se7  1  0.808127  0.577333  0.582248  1
+  Se  Se8  1  0.577333  0.191873  0.417752  1
+  Se  Se9  1  0.422667  0.808127  0.417752  1
+  Se  Se10  1  0.307936  0.922633  0.581980  1
+  Se  Se11  1  0.077367  0.307936  0.418020  1
+  Se  Se12  1  0.824188  0.966136  0.968774  1
+  Se  Se13  1  0.033864  0.824188  0.031226  1
+  Se  Se14  1  0.966136  0.175812  0.031226  1
+  Se  Se15  1  0.175812  0.033864  0.968774  1
+  Se  Se16  1  0.534444  0.687034  0.029105  1
+  Se  Se17  1  0.465556  0.312966  0.029105  1
+  Se  Se18  1  0.687034  0.465556  0.970895  1
+  Se  Se19  1  0.312966  0.534444  0.970895  1
+  Se  Se20  1  0.790299  0.203190  0.125041  1
+  Se  Se21  1  0.796810  0.790299  0.874959  1
+  Se  Se22  1  0.203190  0.209701  0.874959  1
+  Se  Se23  1  0.209701  0.796810  0.125041  1
+  Se  Se24  1  0.295925  0.711526  0.873497  1
+  Se  Se25  1  0.704075  0.288474  0.873497  1
+  Se  Se26  1  0.711526  0.704075  0.126503  1
+  Se  Se27  1  0.288474  0.295925  0.126503  1
+  Se  Se28  1  0.918909  0.307527  0.587738  1
+  Se  Se29  1  0.692473  0.918909  0.412262  1
+  Se  Se30  1  0.307527  0.081091  0.412262  1
+  Se  Se31  1  0.081091  0.692473  0.587738  1
+  Se  Se32  1  0.192186  0.581025  0.412148  1
+  Se  Se33  1  0.807814  0.418975  0.412148  1
+  Se  Se34  1  0.581025  0.807814  0.587852  1
+  Se  Se35  1  0.418975  0.192186  0.587852  1
+  Se  Se36  1  0.692064  0.077367  0.581980  1
+  Se  Se37  1  0.922633  0.692064  0.418020  1

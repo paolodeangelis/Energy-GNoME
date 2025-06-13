@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ba(Rh2Pb3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.24059443
+_cell_length_b   7.24059433
+_cell_length_c   7.24059531
+_cell_angle_alpha   119.22927657
+_cell_angle_beta   119.22927957
+_cell_angle_gamma   91.34019800
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba(Rh2Pb3)2
+_chemical_formula_sum   'Ba1 Rh4 Pb6'
+_cell_volume   271.46209116
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.000000  0.000000  0.000000  1
+  Rh  Rh1  1  0.589127  0.249218  0.000000  1
+  Rh  Rh2  1  0.249218  0.589127  0.000000  1
+  Rh  Rh3  1  0.750783  0.750783  0.339909  1
+  Rh  Rh4  1  0.410872  0.410872  0.660091  1
+  Pb  Pb5  1  0.876270  0.523807  0.000000  1
+  Pb  Pb6  1  0.523807  0.876270  0.000000  1
+  Pb  Pb7  1  0.476193  0.476193  0.352463  1
+  Pb  Pb8  1  0.500000  0.000000  0.500000  1
+  Pb  Pb9  1  0.000000  0.500000  0.500000  1
+  Pb  Pb10  1  0.123729  0.123729  0.647537  1

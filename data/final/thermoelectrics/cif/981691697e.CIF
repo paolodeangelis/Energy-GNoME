@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Th(Ti3Bi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.60055966
+_cell_length_b   8.60055994
+_cell_length_c   8.60056026
+_cell_angle_alpha   40.09934321
+_cell_angle_beta   40.09934208
+_cell_angle_gamma   40.09933826
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th(Ti3Bi2)2
+_chemical_formula_sum   'Th1 Ti6 Bi4'
+_cell_volume   237.86340591
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.594093  0.594093  0.122536  1
+  Ti  Ti2  1  0.877464  0.405909  0.405907  1
+  Ti  Ti3  1  0.405909  0.877464  0.405907  1
+  Ti  Ti4  1  0.594092  0.122536  0.594094  1
+  Ti  Ti5  1  0.122536  0.594092  0.594094  1
+  Ti  Ti6  1  0.405908  0.405908  0.877464  1
+  Bi  Bi7  1  0.132953  0.132953  0.132953  1
+  Bi  Bi8  1  0.330984  0.330984  0.330984  1
+  Bi  Bi9  1  0.669016  0.669016  0.669016  1
+  Bi  Bi10  1  0.867047  0.867047  0.867047  1

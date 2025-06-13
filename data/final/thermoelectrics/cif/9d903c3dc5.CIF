@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_SrLa(Cu9Si4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.17982044
+_cell_length_b   8.17982014
+_cell_length_c   8.17982023
+_cell_angle_alpha   120.45286528
+_cell_angle_beta   120.45286460
+_cell_angle_gamma   89.21738662
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLa(Cu9Si4)2
+_chemical_formula_sum   'Sr1 La1 Cu18 Si8'
+_cell_volume   384.31681079
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.750000  0.750000  0.000000  1
+  La  La1  1  0.250000  0.250000  0.000000  1
+  Cu  Cu2  1  0.936138  0.203337  0.138530  1
+  Cu  Cu3  1  0.203337  0.064808  0.267199  1
+  Cu  Cu4  1  0.797609  0.936138  0.732801  1
+  Cu  Cu5  1  0.435192  0.296663  0.732801  1
+  Cu  Cu6  1  0.064808  0.797609  0.861470  1
+  Cu  Cu7  1  0.806486  0.058485  0.499660  1
+  Cu  Cu8  1  0.558824  0.306826  0.500340  1
+  Cu  Cu9  1  0.193174  0.941176  0.499660  1
+  Cu  Cu10  1  0.441515  0.693514  0.500340  1
+  Cu  Cu11  1  0.941176  0.441515  0.748000  1
+  Cu  Cu12  1  0.693514  0.193174  0.252000  1
+  Cu  Cu13  1  0.058485  0.558824  0.252000  1
+  Cu  Cu14  1  0.702391  0.435192  0.138530  1
+  Cu  Cu15  1  0.563862  0.702391  0.267199  1
+  Cu  Cu16  1  0.500000  0.000000  0.500000  1
+  Cu  Cu17  1  0.000000  0.500000  0.500000  1
+  Cu  Cu18  1  0.306826  0.806486  0.748000  1
+  Cu  Cu19  1  0.296663  0.563862  0.861470  1
+  Si  Si20  1  0.794608  0.290926  0.850935  1
+  Si  Si21  1  0.556327  0.060009  0.850935  1
+  Si  Si22  1  0.060009  0.209074  0.503682  1
+  Si  Si23  1  0.290926  0.439991  0.496318  1
+  Si  Si24  1  0.943673  0.794608  0.503682  1
+  Si  Si25  1  0.439991  0.943673  0.149065  1
+  Si  Si26  1  0.209074  0.705392  0.149065  1
+  Si  Si27  1  0.705392  0.556327  0.496318  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_TmLu2Hf3(SnRh)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45425400
+_cell_length_b   7.45620228
+_cell_length_c   7.44225800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99064060
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmLu2Hf3(SnRh)6
+_chemical_formula_sum   'Tm1 Lu2 Hf3 Sn6 Rh6'
+_cell_volume   358.25987761
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.405725  0.000247  0.750000  1
+  Lu  Lu1  1  0.999757  0.405302  0.750000  1
+  Lu  Lu2  1  0.594722  0.594436  0.750000  1
+  Hf  Hf3  1  0.998561  0.392781  0.250000  1
+  Hf  Hf4  1  0.607223  0.605772  0.250000  1
+  Hf  Hf5  1  0.394245  0.001460  0.250000  1
+  Sn  Sn6  1  0.266704  0.267968  0.495366  1
+  Sn  Sn7  1  0.000985  0.733161  0.495375  1
+  Sn  Sn8  1  0.000985  0.733161  0.004625  1
+  Sn  Sn9  1  0.732284  0.998867  0.495179  1
+  Sn  Sn10  1  0.732284  0.998867  0.004821  1
+  Sn  Sn11  1  0.266704  0.267968  0.004634  1
+  Rh  Rh12  1  0.333268  0.666459  0.463282  1
+  Rh  Rh13  1  0.666822  0.333543  0.466115  1
+  Rh  Rh14  1  0.333268  0.666459  0.036718  1
+  Rh  Rh15  1  0.999682  0.000005  0.750000  1
+  Rh  Rh16  1  0.999957  0.999999  0.250000  1
+  Rh  Rh17  1  0.666822  0.333543  0.033885  1

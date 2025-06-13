@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_ZrTi6(BiPb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41087718
+_cell_length_b   8.41087687
+_cell_length_c   8.41087711
+_cell_angle_alpha   40.44748238
+_cell_angle_beta   40.44748436
+_cell_angle_gamma   40.44748491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTi6(BiPb)2
+_chemical_formula_sum   'Zr1 Ti6 Bi2 Pb2'
+_cell_volume   225.83579974
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.999870  0.999870  0.999870  1
+  Ti  Ti1  1  0.599105  0.599105  0.119232  1
+  Ti  Ti2  1  0.877890  0.402212  0.402213  1
+  Ti  Ti3  1  0.402212  0.877890  0.402213  1
+  Ti  Ti4  1  0.599106  0.119231  0.599105  1
+  Ti  Ti5  1  0.119231  0.599106  0.599105  1
+  Ti  Ti6  1  0.402213  0.402213  0.877889  1
+  Bi  Bi7  1  0.126812  0.126812  0.126812  1
+  Bi  Bi8  1  0.331629  0.331629  0.331629  1
+  Pb  Pb9  1  0.668267  0.668267  0.668267  1
+  Pb  Pb10  1  0.873665  0.873665  0.873665  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Lu10Fe2Bi3Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97645196
+_cell_length_b   8.86826350
+_cell_length_c   8.84683927
+_cell_angle_alpha   83.46568785
+_cell_angle_beta   70.25435428
+_cell_angle_gamma   70.30611733
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu10Fe2Bi3Sb
+_chemical_formula_sum   'Lu10 Fe2 Bi3 Sb1'
+_cell_volume   415.50494295
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.070507  0.116638  0.742302  1
+  Lu  Lu1  1  0.927475  0.886107  0.258975  1
+  Lu  Lu2  1  0.812779  0.255761  0.118600  1
+  Lu  Lu3  1  0.431440  0.255758  0.881404  1
+  Lu  Lu4  1  0.185631  0.744808  0.883992  1
+  Lu  Lu5  1  0.569570  0.744816  0.115999  1
+  Lu  Lu6  1  0.686469  0.886099  0.741015  1
+  Lu  Lu7  1  0.312784  0.116650  0.257713  1
+  Lu  Lu8  1  0.253030  0.495951  0.499992  1
+  Lu  Lu9  1  0.751032  0.495935  0.500008  1
+  Fe  Fe10  1  0.249795  0.000428  0.999987  1
+  Fe  Fe11  1  0.749791  0.000409  0.000014  1
+  Bi  Bi12  1  0.162203  0.500211  0.175330  1
+  Bi  Bi13  1  0.837593  0.500189  0.824670  1
+  Bi  Bi14  1  0.338705  0.822653  0.499986  1
+  Sb  Sb15  1  0.661195  0.177586  0.500011  1

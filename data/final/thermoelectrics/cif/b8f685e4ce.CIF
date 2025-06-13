@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_SmEu2(AgSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77471272
+_cell_length_b   7.42910028
+_cell_length_c   8.95426932
+_cell_angle_alpha   114.50895962
+_cell_angle_beta   105.46303261
+_cell_angle_gamma   90.00000502
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmEu2(AgSn)4
+_chemical_formula_sum   'Sm1 Eu2 Ag4 Sn4'
+_cell_volume   276.31976155
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.000000  0.000000  0.000000  1
+  Eu  Eu1  1  0.872820  0.372820  0.745640  1
+  Eu  Eu2  1  0.127180  0.627180  0.254360  1
+  Ag  Ag3  1  0.328246  0.023073  0.656490  1
+  Ag  Ag4  1  0.671754  0.976927  0.343510  1
+  Ag  Ag5  1  0.328246  0.633418  0.656490  1
+  Ag  Ag6  1  0.671754  0.366582  0.343510  1
+  Sn  Sn7  1  0.213551  0.213551  0.427103  1
+  Sn  Sn8  1  0.786449  0.786449  0.572897  1
+  Sn  Sn9  1  0.500000  0.301235  0.000000  1
+  Sn  Sn10  1  0.500000  0.698765  0.000000  1

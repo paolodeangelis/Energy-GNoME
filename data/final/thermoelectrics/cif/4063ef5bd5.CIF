@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na(LaSn4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.97716405
+_cell_length_b   11.97716360
+_cell_length_c   11.97716400
+_cell_angle_alpha   32.48885424
+_cell_angle_beta   32.48885765
+_cell_angle_gamma   32.48886163
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(LaSn4)3
+_chemical_formula_sum   'Na1 La3 Sn12'
+_cell_volume   440.77892520
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.290603  0.290603  0.290603  1
+  La  La1  1  0.876531  0.876531  0.876531  1
+  La  La2  1  0.123394  0.123394  0.123394  1
+  La  La3  1  0.708273  0.708273  0.708273  1
+  Sn  Sn4  1  0.290691  0.793737  0.793737  1
+  Sn  Sn5  1  0.793737  0.793737  0.290691  1
+  Sn  Sn6  1  0.857247  0.384734  0.384734  1
+  Sn  Sn7  1  0.384734  0.384734  0.857247  1
+  Sn  Sn8  1  0.384734  0.857247  0.384734  1
+  Sn  Sn9  1  0.615059  0.146117  0.615059  1
+  Sn  Sn10  1  0.146117  0.615059  0.615059  1
+  Sn  Sn11  1  0.615059  0.615059  0.146117  1
+  Sn  Sn12  1  0.793737  0.290691  0.793737  1
+  Sn  Sn13  1  0.210394  0.699300  0.210394  1
+  Sn  Sn14  1  0.210394  0.210394  0.699300  1
+  Sn  Sn15  1  0.699300  0.210394  0.210394  1

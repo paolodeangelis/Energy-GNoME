@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10Si2(SnBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.77698500
+_cell_length_b   8.77698477
+_cell_length_c   5.91337600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10Si2(SnBi)3
+_chemical_formula_sum   'Zr10 Si2 Sn3 Bi3'
+_cell_volume   394.50893119
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.666667  0.333333  0.005207  1
+  Zr  Zr1  1  0.333333  0.666667  0.005207  1
+  Zr  Zr2  1  0.333333  0.666667  0.494793  1
+  Zr  Zr3  1  0.666667  0.333333  0.494793  1
+  Zr  Zr4  1  0.745306  0.745306  0.750000  1
+  Zr  Zr5  1  0.254694  0.000000  0.750000  1
+  Zr  Zr6  1  0.000000  0.254694  0.750000  1
+  Zr  Zr7  1  0.258023  0.258023  0.250000  1
+  Zr  Zr8  1  0.741977  0.000000  0.250000  1
+  Zr  Zr9  1  0.000000  0.741977  0.250000  1
+  Si  Si10  1  0.000000  0.000000  0.001673  1
+  Si  Si11  1  0.000000  0.000000  0.498327  1
+  Sn  Sn12  1  0.607495  0.607495  0.250000  1
+  Sn  Sn13  1  0.392505  0.000000  0.250000  1
+  Sn  Sn14  1  0.000000  0.392505  0.250000  1
+  Bi  Bi15  1  0.397839  0.397839  0.750000  1
+  Bi  Bi16  1  0.602161  0.000000  0.750000  1
+  Bi  Bi17  1  0.000000  0.602161  0.750000  1

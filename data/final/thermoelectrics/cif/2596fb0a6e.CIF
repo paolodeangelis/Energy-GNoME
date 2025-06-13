@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Er3(Bi2Rh)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.13697300
+_cell_length_b   10.85482400
+_cell_length_c   16.83497700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er3(Bi2Rh)4
+_chemical_formula_sum   'Er6 Bi16 Rh8'
+_cell_volume   755.99339311
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.500000  0.000000  0.500000  1
+  Er  Er1  1  0.500000  0.500000  0.000000  1
+  Er  Er2  1  0.500000  0.868133  0.192587  1
+  Er  Er3  1  0.500000  0.131867  0.807413  1
+  Er  Er4  1  0.500000  0.368133  0.307413  1
+  Er  Er5  1  0.500000  0.631867  0.692587  1
+  Bi  Bi6  1  0.000000  0.114966  0.214016  1
+  Bi  Bi7  1  0.000000  0.885034  0.785984  1
+  Bi  Bi8  1  0.000000  0.614966  0.285984  1
+  Bi  Bi9  1  0.000000  0.385034  0.714016  1
+  Bi  Bi10  1  0.000000  0.396949  0.144121  1
+  Bi  Bi11  1  0.000000  0.603051  0.855879  1
+  Bi  Bi12  1  0.000000  0.896949  0.355879  1
+  Bi  Bi13  1  0.000000  0.103051  0.644121  1
+  Bi  Bi14  1  0.500000  0.129451  0.037375  1
+  Bi  Bi15  1  0.500000  0.870549  0.962625  1
+  Bi  Bi16  1  0.500000  0.629451  0.462625  1
+  Bi  Bi17  1  0.500000  0.370549  0.537375  1
+  Bi  Bi18  1  0.000000  0.694169  0.084920  1
+  Bi  Bi19  1  0.000000  0.305831  0.915080  1
+  Bi  Bi20  1  0.000000  0.194169  0.415080  1
+  Bi  Bi21  1  0.000000  0.805831  0.584920  1
+  Rh  Rh22  1  0.000000  0.950399  0.084187  1
+  Rh  Rh23  1  0.000000  0.049601  0.915813  1
+  Rh  Rh24  1  0.000000  0.450399  0.415813  1
+  Rh  Rh25  1  0.000000  0.549601  0.584187  1
+  Rh  Rh26  1  0.500000  0.577694  0.176079  1
+  Rh  Rh27  1  0.500000  0.422306  0.823921  1
+  Rh  Rh28  1  0.500000  0.077694  0.323921  1
+  Rh  Rh29  1  0.500000  0.922306  0.676079  1

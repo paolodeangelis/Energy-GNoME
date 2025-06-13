@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Hf3Ti3GaSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26380900
+_cell_length_b   7.26380864
+_cell_length_c   3.87896500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999707
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Ti3GaSb2
+_chemical_formula_sum   'Hf3 Ti3 Ga1 Sb2'
+_cell_volume   177.24554013
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.396068  0.000000  0.000000  1
+  Hf  Hf1  1  0.000000  0.396068  0.000000  1
+  Hf  Hf2  1  0.603931  0.603931  0.000000  1
+  Ti  Ti3  1  0.763653  0.000000  0.499999  1
+  Ti  Ti4  1  0.236347  0.236347  0.499999  1
+  Ti  Ti5  1  0.000000  0.763654  0.499999  1
+  Ga  Ga6  1  0.000000  0.000000  0.000000  1
+  Sb  Sb7  1  0.666667  0.333333  0.499999  1
+  Sb  Sb8  1  0.333333  0.666666  0.499999  1

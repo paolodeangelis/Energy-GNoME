@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ac2ZnAgSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.91240000
+_cell_length_b   8.36680800
+_cell_length_c   8.44383700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ac2ZnAgSn2
+_chemical_formula_sum   'Ac4 Zn2 Ag2 Sn4'
+_cell_volume   347.05105326
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ac  Ac0  1  0.250000  0.493232  0.230317  1
+  Ac  Ac1  1  0.750000  0.497127  0.770800  1
+  Ac  Ac2  1  0.250000  0.002873  0.270800  1
+  Ac  Ac3  1  0.750000  0.006768  0.730317  1
+  Zn  Zn4  1  0.750000  0.793424  0.081488  1
+  Zn  Zn5  1  0.250000  0.706576  0.581488  1
+  Ag  Ag6  1  0.750000  0.279078  0.417802  1
+  Ag  Ag7  1  0.250000  0.220922  0.917802  1
+  Sn  Sn8  1  0.250000  0.275567  0.585945  1
+  Sn  Sn9  1  0.750000  0.224433  0.085945  1
+  Sn  Sn10  1  0.250000  0.767049  0.913648  1
+  Sn  Sn11  1  0.750000  0.732951  0.413648  1

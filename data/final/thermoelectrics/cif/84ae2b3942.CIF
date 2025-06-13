@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ti8BeBi4Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.92261903
+_cell_length_b   7.92267904
+_cell_length_c   7.92261792
+_cell_angle_alpha   95.43320721
+_cell_angle_beta   95.42802769
+_cell_angle_gamma   144.16562516
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8BeBi4Rh
+_chemical_formula_sum   'Ti8 Be1 Bi4 Rh1'
+_cell_volume   277.01699323
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.590158  0.705039  0.279116  1
+  Ti  Ti1  1  0.909839  0.188970  0.114891  1
+  Ti  Ti2  1  0.311039  0.590159  0.885118  1
+  Ti  Ti3  1  0.794960  0.909841  0.720880  1
+  Ti  Ti4  1  0.705051  0.425927  0.114889  1
+  Ti  Ti5  1  0.074077  0.794961  0.885118  1
+  Ti  Ti6  1  0.425921  0.311030  0.720870  1
+  Ti  Ti7  1  0.188961  0.074073  0.279124  1
+  Be  Be8  1  0.750002  0.750000  0.000002  1
+  Bi  Bi9  1  0.360324  0.860323  0.220641  1
+  Bi  Bi10  1  0.139681  0.360325  0.500012  1
+  Bi  Bi11  1  0.639687  0.139675  0.779355  1
+  Bi  Bi12  1  0.860318  0.639677  0.500001  1
+  Rh  Rh13  1  0.249982  0.250000  0.999982  1

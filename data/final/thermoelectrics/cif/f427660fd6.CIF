@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_YbAlCdAg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43752463
+_cell_length_b   5.43752382
+_cell_length_c   5.43752500
+_cell_angle_alpha   62.63142699
+_cell_angle_beta   62.63140767
+_cell_angle_gamma   62.63143091
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbAlCdAg3
+_chemical_formula_sum   'Yb1 Al1 Cd1 Ag3'
+_cell_volume   120.34110139
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.248444  0.248444  0.248444  1
+  Al  Al1  1  0.626792  0.626792  0.626792  1
+  Cd  Cd2  1  0.995717  0.995717  0.995717  1
+  Ag  Ag3  1  0.626735  0.626735  0.125579  1
+  Ag  Ag4  1  0.626735  0.125579  0.626735  1
+  Ag  Ag5  1  0.125579  0.626735  0.626735  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiLu(Cu2P)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.10718200
+_cell_length_b   7.10718228
+_cell_length_c   3.72402700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.25345990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiLu(Cu2P)4
+_chemical_formula_sum   'Li1 Lu1 Cu8 P4'
+_cell_volume   188.09222601
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.500000  0.500000  1
+  Lu  Lu1  1  0.000000  0.000000  0.000000  1
+  Cu  Cu2  1  0.662984  0.914095  0.500000  1
+  Cu  Cu3  1  0.167108  0.584272  0.000000  1
+  Cu  Cu4  1  0.415728  0.832892  0.000000  1
+  Cu  Cu5  1  0.914095  0.662984  0.500000  1
+  Cu  Cu6  1  0.832892  0.415728  0.000000  1
+  Cu  Cu7  1  0.584272  0.167108  0.000000  1
+  Cu  Cu8  1  0.085905  0.337016  0.500000  1
+  Cu  Cu9  1  0.337016  0.085905  0.500000  1
+  P  P10  1  0.281979  0.281979  0.000000  1
+  P  P11  1  0.718021  0.718021  0.000000  1
+  P  P12  1  0.784141  0.215859  0.500000  1
+  P  P13  1  0.215859  0.784141  0.500000  1

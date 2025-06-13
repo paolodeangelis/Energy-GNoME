@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_La2PaTiBi5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.57363900
+_cell_length_b   9.68937514
+_cell_length_c   6.50421800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.60559691
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2PaTiBi5
+_chemical_formula_sum   'La4 Pa2 Ti2 Bi10'
+_cell_volume   524.57894803
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.992728  0.614511  0.250000  1
+  La  La1  1  0.007272  0.385489  0.750000  1
+  La  La2  1  0.378218  0.385489  0.250000  1
+  La  La3  1  0.621782  0.614511  0.750000  1
+  Pa  Pa4  1  0.603874  0.000000  0.250000  1
+  Pa  Pa5  1  0.396126  0.000000  0.750000  1
+  Ti  Ti6  1  0.000000  0.000000  0.000000  1
+  Ti  Ti7  1  0.000000  0.000000  0.500000  1
+  Bi  Bi8  1  0.260575  0.000000  0.250000  1
+  Bi  Bi9  1  0.739425  0.000000  0.750000  1
+  Bi  Bi10  1  0.988261  0.247846  0.250000  1
+  Bi  Bi11  1  0.011739  0.752154  0.750000  1
+  Bi  Bi12  1  0.740415  0.752154  0.250000  1
+  Bi  Bi13  1  0.259585  0.247846  0.750000  1
+  Bi  Bi14  1  0.338200  0.676401  0.000000  1
+  Bi  Bi15  1  0.661800  0.323599  0.000000  1
+  Bi  Bi16  1  0.661800  0.323599  0.500000  1
+  Bi  Bi17  1  0.338200  0.676401  0.500000  1

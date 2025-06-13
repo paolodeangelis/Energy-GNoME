@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti10AlSb5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31746979
+_cell_length_b   7.90198401
+_cell_length_c   7.90198509
+_cell_angle_alpha   96.50027998
+_cell_angle_beta   109.66160538
+_cell_angle_gamma   70.33840510
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10AlSb5
+_chemical_formula_sum   'Ti10 Al1 Sb5'
+_cell_volume   294.44153343
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.433823  0.853187  0.700769  1
+  Ti  Ti1  1  0.586241  0.146813  0.299231  1
+  Ti  Ti2  1  0.913759  0.299231  0.146813  1
+  Ti  Ti3  1  0.066177  0.700769  0.853187  1
+  Ti  Ti4  1  0.733054  0.700769  0.146813  1
+  Ti  Ti5  1  0.287009  0.299231  0.853187  1
+  Ti  Ti6  1  0.766946  0.146813  0.700769  1
+  Ti  Ti7  1  0.212991  0.853187  0.299231  1
+  Ti  Ti8  1  0.250000  0.500000  0.500000  1
+  Ti  Ti9  1  0.750000  0.500000  0.500000  1
+  Al  Al10  1  0.750000  0.000000  0.000000  1
+  Sb  Sb11  1  0.336663  0.500000  0.173325  1
+  Sb  Sb12  1  0.663337  0.500000  0.826675  1
+  Sb  Sb13  1  0.836663  0.826675  0.500000  1
+  Sb  Sb14  1  0.163337  0.173325  0.500000  1
+  Sb  Sb15  1  0.250000  0.000000  0.000000  1

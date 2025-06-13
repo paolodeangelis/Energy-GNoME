@@ -1,0 +1,64 @@
+# generated using pymatgen
+data_Ca2YbTm2(Ni2Sn5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.96814500
+_cell_length_b   13.96814500
+_cell_length_c   4.45429500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2YbTm2(Ni2Sn5)2
+_chemical_formula_sum   'Ca4 Yb2 Tm4 Ni8 Sn20'
+_cell_volume   869.07337607
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.892509  0.607491  0.500000  1
+  Ca  Ca1  1  0.107491  0.392509  0.500000  1
+  Ca  Ca2  1  0.392509  0.892509  0.500000  1
+  Ca  Ca3  1  0.607491  0.107491  0.500000  1
+  Yb  Yb4  1  0.000000  0.000000  0.000000  1
+  Yb  Yb5  1  0.500000  0.500000  0.000000  1
+  Tm  Tm6  1  0.179857  0.679857  0.500000  1
+  Tm  Tm7  1  0.820143  0.320143  0.500000  1
+  Tm  Tm8  1  0.679857  0.820143  0.500000  1
+  Tm  Tm9  1  0.320143  0.179857  0.500000  1
+  Ni  Ni10  1  0.254513  0.537102  0.000000  1
+  Ni  Ni11  1  0.745487  0.462898  0.000000  1
+  Ni  Ni12  1  0.754513  0.962898  0.000000  1
+  Ni  Ni13  1  0.245487  0.037102  0.000000  1
+  Ni  Ni14  1  0.462898  0.254513  0.000000  1
+  Ni  Ni15  1  0.537102  0.745487  0.000000  1
+  Ni  Ni16  1  0.037102  0.754513  0.000000  1
+  Ni  Ni17  1  0.962898  0.245487  0.000000  1
+  Sn  Sn18  1  0.352721  0.700488  0.000000  1
+  Sn  Sn19  1  0.647279  0.299512  0.000000  1
+  Sn  Sn20  1  0.852721  0.799512  0.000000  1
+  Sn  Sn21  1  0.147279  0.200488  0.000000  1
+  Sn  Sn22  1  0.299512  0.352721  0.000000  1
+  Sn  Sn23  1  0.700488  0.647279  0.000000  1
+  Sn  Sn24  1  0.200488  0.852721  0.000000  1
+  Sn  Sn25  1  0.799512  0.147279  0.000000  1
+  Sn  Sn26  1  0.337883  0.514508  0.500000  1
+  Sn  Sn27  1  0.662117  0.485492  0.500000  1
+  Sn  Sn28  1  0.837883  0.985492  0.500000  1
+  Sn  Sn29  1  0.162117  0.014508  0.500000  1
+  Sn  Sn30  1  0.485492  0.337883  0.500000  1
+  Sn  Sn31  1  0.514508  0.662117  0.500000  1
+  Sn  Sn32  1  0.014508  0.837883  0.500000  1
+  Sn  Sn33  1  0.985492  0.162117  0.500000  1
+  Sn  Sn34  1  0.071966  0.571966  0.000000  1
+  Sn  Sn35  1  0.928034  0.428034  0.000000  1
+  Sn  Sn36  1  0.571966  0.928034  0.000000  1
+  Sn  Sn37  1  0.428034  0.071966  0.000000  1

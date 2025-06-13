@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sc2TaNb(SnPt)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47560400
+_cell_length_b   6.33667502
+_cell_length_c   8.96522603
+_cell_angle_alpha   89.99057907
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2TaNb(SnPt)4
+_chemical_formula_sum   'Sc2 Ta1 Nb1 Sn4 Pt4'
+_cell_volume   254.25782385
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.000000  0.004370  0.376946  1
+  Sc  Sc1  1  0.499999  0.504499  0.623031  1
+  Ta  Ta2  1  0.000000  0.996788  0.874913  1
+  Nb  Nb3  1  0.499999  0.496841  0.125367  1
+  Sn  Sn4  1  0.499999  0.989952  0.129926  1
+  Sn  Sn5  1  0.000000  0.509387  0.378429  1
+  Sn  Sn6  1  0.499999  0.009189  0.621412  1
+  Sn  Sn7  1  0.000000  0.489978  0.870184  1
+  Pt  Pt8  1  0.000000  0.739492  0.114555  1
+  Pt  Pt9  1  0.499999  0.260970  0.365193  1
+  Pt  Pt10  1  0.000000  0.761916  0.635720  1
+  Pt  Pt11  1  0.499999  0.236616  0.884319  1

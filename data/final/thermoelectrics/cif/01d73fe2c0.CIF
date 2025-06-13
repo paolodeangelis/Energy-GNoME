@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_La3Cu2(AgSn2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.98219969
+_cell_length_b   8.77517268
+_cell_length_c   8.77517351
+_cell_angle_alpha   148.84937076
+_cell_angle_beta   131.19053422
+_cell_angle_gamma   58.82197749
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3Cu2(AgSn2)2
+_chemical_formula_sum   'La3 Cu2 Ag2 Sn4'
+_cell_volume   267.36642085
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.381828  0.867913  0.513915  1
+  La  La1  1  0.618172  0.132087  0.486085  1
+  La  La2  1  0.000000  0.000000  0.000000  1
+  Cu  Cu3  1  0.644013  0.334173  0.309840  1
+  Cu  Cu4  1  0.355987  0.665827  0.690160  1
+  Ag  Ag5  1  0.016205  0.328566  0.687640  1
+  Ag  Ag6  1  0.983795  0.671434  0.312360  1
+  Sn  Sn7  1  0.246647  0.216870  0.029777  1
+  Sn  Sn8  1  0.753353  0.783130  0.970223  1
+  Sn  Sn9  1  0.693915  0.498112  0.195803  1
+  Sn  Sn10  1  0.306085  0.501888  0.804197  1

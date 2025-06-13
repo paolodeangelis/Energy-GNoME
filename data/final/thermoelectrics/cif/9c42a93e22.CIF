@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ti8FeCuBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88729584
+_cell_length_b   7.88729624
+_cell_length_c   7.88729580
+_cell_angle_alpha   95.50139735
+_cell_angle_beta   95.50139617
+_cell_angle_gamma   143.92626937
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8FeCuBi4
+_chemical_formula_sum   'Ti8 Fe1 Cu1 Bi4'
+_cell_volume   274.71774541
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.576852  0.691232  0.277635  1
+  Ti  Ti1  1  0.923148  0.200783  0.114381  1
+  Ti  Ti2  1  0.299217  0.576852  0.885619  1
+  Ti  Ti3  1  0.808768  0.923148  0.722365  1
+  Ti  Ti4  1  0.691232  0.413597  0.114381  1
+  Ti  Ti5  1  0.086403  0.808768  0.885619  1
+  Ti  Ti6  1  0.413597  0.299217  0.722365  1
+  Ti  Ti7  1  0.200783  0.086403  0.277635  1
+  Fe  Fe8  1  0.250000  0.250000  0.000000  1
+  Cu  Cu9  1  0.750000  0.750000  0.000000  1
+  Bi  Bi10  1  0.360165  0.860165  0.220330  1
+  Bi  Bi11  1  0.139835  0.360165  0.500000  1
+  Bi  Bi12  1  0.639835  0.139835  0.779670  1
+  Bi  Bi13  1  0.860165  0.639835  0.500000  1

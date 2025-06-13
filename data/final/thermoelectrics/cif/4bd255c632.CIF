@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Lu3ZnNiSn3Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34255700
+_cell_length_b   7.34255548
+_cell_length_c   3.93647400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu3ZnNiSn3Ir
+_chemical_formula_sum   'Lu3 Zn1 Ni1 Sn3 Ir1'
+_cell_volume   183.79454245
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.982003  0.390691  0.500000  1
+  Lu  Lu1  1  0.609309  0.591312  0.500000  1
+  Lu  Lu2  1  0.408688  0.017997  0.500000  1
+  Zn  Zn3  1  0.333333  0.666667  0.000000  1
+  Ni  Ni4  1  0.000000  0.000000  0.500000  1
+  Sn  Sn5  1  0.005452  0.749914  0.000000  1
+  Sn  Sn6  1  0.250086  0.255539  0.000000  1
+  Sn  Sn7  1  0.744461  0.994548  0.000000  1
+  Ir  Ir8  1  0.666667  0.333333  0.000000  1

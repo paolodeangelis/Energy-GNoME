@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Dy3Cu4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88348351
+_cell_length_b   7.88348273
+_cell_length_c   7.88348267
+_cell_angle_alpha   149.45285638
+_cell_angle_beta   130.78147480
+_cell_angle_gamma   59.04350505
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3Cu4Si3Ge
+_chemical_formula_sum   'Dy3 Cu4 Si3 Ge1'
+_cell_volume   187.07667808
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.871248  0.370439  0.500809  1
+  Dy  Dy1  1  0.130370  0.629561  0.500809  1
+  Dy  Dy2  1  0.497928  0.500000  0.997928  1
+  Cu  Cu3  1  0.517030  0.826166  0.690865  1
+  Cu  Cu4  1  0.864699  0.173834  0.690865  1
+  Cu  Cu5  1  0.140922  0.831187  0.309735  1
+  Cu  Cu6  1  0.478549  0.168813  0.309735  1
+  Si  Si7  1  0.188297  0.000000  0.188297  1
+  Si  Si8  1  0.283876  0.283959  0.999917  1
+  Si  Si9  1  0.715959  0.716041  0.999917  1
+  Ge  Ge10  1  0.811122  0.000000  0.811122  1

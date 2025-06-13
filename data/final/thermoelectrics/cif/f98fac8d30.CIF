@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Lu3Cu4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10242780
+_cell_length_b   6.51191833
+_cell_length_c   7.77681182
+_cell_angle_alpha   114.75099398
+_cell_angle_beta   105.29329035
+_cell_angle_gamma   89.99999748
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu3Cu4Si3Ge
+_chemical_formula_sum   'Lu3 Cu4 Si3 Ge1'
+_cell_volume   180.53675736
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000880  0.500880  0.001760  1
+  Lu  Lu1  1  0.872188  0.872188  0.744377  1
+  Lu  Lu2  1  0.127299  0.127299  0.254597  1
+  Cu  Cu3  1  0.667885  0.856597  0.335769  1
+  Cu  Cu4  1  0.667885  0.479172  0.335769  1
+  Cu  Cu5  1  0.331541  0.527692  0.663081  1
+  Cu  Cu6  1  0.331541  0.135389  0.663081  1
+  Si  Si7  1  0.216798  0.716798  0.433594  1
+  Si  Si8  1  0.500180  0.186201  0.000360  1
+  Si  Si9  1  0.500180  0.814160  0.000360  1
+  Ge  Ge10  1  0.783625  0.283625  0.567251  1

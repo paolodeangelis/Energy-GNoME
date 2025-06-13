@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ba4LaIn4Bi5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.96894300
+_cell_length_b   10.68877100
+_cell_length_c   10.68877100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4LaIn4Bi5
+_chemical_formula_sum   'Ba8 La2 In8 Bi10'
+_cell_volume   1024.70017258
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.872606  0.690910  0.103249  1
+  Ba  Ba1  1  0.372606  0.603249  0.190911  1
+  Ba  Ba2  1  0.872606  0.103249  0.309089  1
+  Ba  Ba3  1  0.372606  0.190911  0.396750  1
+  Ba  Ba4  1  0.372606  0.809089  0.603249  1
+  Ba  Ba5  1  0.872606  0.896751  0.690910  1
+  Ba  Ba6  1  0.372606  0.396750  0.809089  1
+  Ba  Ba7  1  0.872606  0.309089  0.896751  1
+  La  La8  1  0.199365  0.000000  0.000000  1
+  La  La9  1  0.699365  0.500000  0.500000  1
+  In  In10  1  0.528325  0.184633  0.072398  1
+  In  In11  1  0.528325  0.927602  0.184633  1
+  In  In12  1  0.028325  0.427601  0.315368  1
+  In  In13  1  0.028325  0.684633  0.427601  1
+  In  In14  1  0.028325  0.315368  0.572398  1
+  In  In15  1  0.028325  0.572398  0.684633  1
+  In  In16  1  0.528325  0.072398  0.815367  1
+  In  In17  1  0.528325  0.815367  0.927602  1
+  Bi  Bi18  1  0.831474  0.000000  0.000000  1
+  Bi  Bi19  1  0.191805  0.300289  0.108336  1
+  Bi  Bi20  1  0.691805  0.391665  0.199711  1
+  Bi  Bi21  1  0.191805  0.891664  0.300289  1
+  Bi  Bi22  1  0.691805  0.800289  0.391665  1
+  Bi  Bi23  1  0.331474  0.500000  0.500000  1
+  Bi  Bi24  1  0.691805  0.199711  0.608336  1
+  Bi  Bi25  1  0.191805  0.108336  0.699711  1
+  Bi  Bi26  1  0.691805  0.608336  0.800289  1
+  Bi  Bi27  1  0.191805  0.699711  0.891664  1

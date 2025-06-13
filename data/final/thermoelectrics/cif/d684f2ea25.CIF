@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Tb2Nd(AgSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.60848990
+_cell_length_b   7.46915865
+_cell_length_c   8.86281861
+_cell_angle_alpha   114.92148948
+_cell_angle_beta   105.06947247
+_cell_angle_gamma   90.00000610
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2Nd(AgSn)4
+_chemical_formula_sum   'Tb2 Nd1 Ag4 Sn4'
+_cell_volume   265.05242047
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.872100  0.372100  0.744201  1
+  Tb  Tb1  1  0.127900  0.627900  0.255799  1
+  Nd  Nd2  1  0.000000  0.000000  0.000000  1
+  Ag  Ag3  1  0.328836  0.026108  0.657672  1
+  Ag  Ag4  1  0.671164  0.973892  0.342328  1
+  Ag  Ag5  1  0.328836  0.631564  0.657672  1
+  Ag  Ag6  1  0.671164  0.368436  0.342328  1
+  Sn  Sn7  1  0.216236  0.216236  0.432471  1
+  Sn  Sn8  1  0.783764  0.783764  0.567529  1
+  Sn  Sn9  1  0.500000  0.307705  0.000000  1
+  Sn  Sn10  1  0.500000  0.692295  0.000000  1

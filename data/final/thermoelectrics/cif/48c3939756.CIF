@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Hf5Sc(SnRh)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45915329
+_cell_length_b   7.43547718
+_cell_length_c   7.11288800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.96809719
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf5Sc(SnRh)6
+_chemical_formula_sum   'Hf5 Sc1 Sn6 Rh6'
+_cell_volume   341.75470625
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.597840  0.610741  0.750000  1
+  Hf  Hf1  1  0.389269  0.986348  0.750000  1
+  Hf  Hf2  1  0.988467  0.388441  0.250000  1
+  Hf  Hf3  1  0.611680  0.599159  0.250000  1
+  Hf  Hf4  1  0.401251  0.014468  0.250000  1
+  Sc  Sc5  1  0.013331  0.401632  0.750000  1
+  Sn  Sn6  1  0.268085  0.272369  0.502188  1
+  Sn  Sn7  1  0.001147  0.725680  0.498060  1
+  Sn  Sn8  1  0.001147  0.725680  0.001940  1
+  Sn  Sn9  1  0.730649  0.001750  0.501617  1
+  Sn  Sn10  1  0.730649  0.001750  0.998383  1
+  Sn  Sn11  1  0.268085  0.272369  0.997812  1
+  Rh  Rh12  1  0.338080  0.671065  0.467341  1
+  Rh  Rh13  1  0.661086  0.332385  0.519832  1
+  Rh  Rh14  1  0.338080  0.671065  0.032659  1
+  Rh  Rh15  1  0.999554  0.992243  0.750000  1
+  Rh  Rh16  1  0.000514  0.000472  0.250000  1
+  Rh  Rh17  1  0.661086  0.332385  0.980168  1

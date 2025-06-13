@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Tc4As5S4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.08632571
+_cell_length_b   7.08632682
+_cell_length_c   7.08632700
+_cell_angle_alpha   60.00000385
+_cell_angle_beta   59.99999864
+_cell_angle_gamma   60.00000430
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tc4As5S4
+_chemical_formula_sum   'Tc4 As5 S4'
+_cell_volume   251.62193734
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tc  Tc0  1  0.401940  0.401940  0.401940  1
+  Tc  Tc1  1  0.401940  0.401940  0.794182  1
+  Tc  Tc2  1  0.401940  0.794182  0.401940  1
+  Tc  Tc3  1  0.794182  0.401940  0.401940  1
+  As  As4  1  0.000000  0.000000  0.000000  1
+  As  As5  1  0.145380  0.145380  0.145380  1
+  As  As6  1  0.145380  0.145380  0.563860  1
+  As  As7  1  0.145380  0.563860  0.145380  1
+  As  As8  1  0.563860  0.145380  0.145380  1
+  S  S9  1  0.630022  0.630022  0.630022  1
+  S  S10  1  0.630022  0.630022  0.109932  1
+  S  S11  1  0.630022  0.109932  0.630022  1
+  S  S12  1  0.109932  0.630022  0.630022  1

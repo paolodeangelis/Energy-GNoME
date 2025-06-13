@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10ZnSn5GeSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.72219829
+_cell_length_b   8.72889564
+_cell_length_c   5.89242063
+_cell_angle_alpha   90.05294453
+_cell_angle_beta   89.97350658
+_cell_angle_gamma   120.02541148
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10ZnSn5GeSb
+_chemical_formula_sum   'Zr10 Zn1 Sn5 Ge1 Sb1'
+_cell_volume   388.41695642
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.667688  0.333358  0.999607  1
+  Zr  Zr1  1  0.332312  0.665671  0.999607  1
+  Zr  Zr2  1  0.332457  0.665862  0.500320  1
+  Zr  Zr3  1  0.667543  0.333404  0.500320  1
+  Zr  Zr4  1  0.734225  0.734310  0.748542  1
+  Zr  Zr5  1  0.265775  0.000085  0.748542  1
+  Zr  Zr6  1  0.000000  0.266420  0.749720  1
+  Zr  Zr7  1  0.264499  0.265221  0.251127  1
+  Zr  Zr8  1  0.735501  0.000722  0.251127  1
+  Zr  Zr9  1  0.000000  0.734035  0.251493  1
+  Zn  Zn10  1  0.000000  0.999087  0.998794  1
+  Sn  Sn11  1  0.389424  0.388443  0.752301  1
+  Sn  Sn12  1  0.610576  0.999018  0.752301  1
+  Sn  Sn13  1  0.000000  0.613000  0.751766  1
+  Sn  Sn14  1  0.611086  0.611323  0.247967  1
+  Sn  Sn15  1  0.388914  0.000237  0.247967  1
+  Ge  Ge16  1  0.000000  0.999830  0.501087  1
+  Sb  Sb17  1  0.000000  0.389974  0.247413  1

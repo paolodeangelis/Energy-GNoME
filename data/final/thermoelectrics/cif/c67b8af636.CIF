@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr2Sc3AgSb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.72644500
+_cell_length_b   8.72652942
+_cell_length_c   5.95415700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00032391
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2Sc3AgSb3
+_chemical_formula_sum   'Zr4 Sc6 Ag2 Sb6'
+_cell_volume   392.67062102
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.666678  0.333335  0.000017  1
+  Zr  Zr1  1  0.333322  0.666658  0.000017  1
+  Zr  Zr2  1  0.333322  0.666658  0.499983  1
+  Zr  Zr3  1  0.666678  0.333335  0.499983  1
+  Sc  Sc4  1  0.716250  0.716244  0.750000  1
+  Sc  Sc5  1  0.283750  0.999994  0.750000  1
+  Sc  Sc6  1  0.000000  0.283782  0.750000  1
+  Sc  Sc7  1  0.283751  0.283761  0.250000  1
+  Sc  Sc8  1  0.716249  0.000011  0.250000  1
+  Sc  Sc9  1  0.000000  0.716209  0.250000  1
+  Ag  Ag10  1  0.000000  0.000006  0.000009  1
+  Ag  Ag11  1  0.000000  0.000006  0.499991  1
+  Sb  Sb12  1  0.376717  0.376724  0.750000  1
+  Sb  Sb13  1  0.623283  0.000006  0.750000  1
+  Sb  Sb14  1  0.000000  0.623281  0.750000  1
+  Sb  Sb15  1  0.623280  0.623275  0.250000  1
+  Sb  Sb16  1  0.376720  0.999995  0.250000  1
+  Sb  Sb17  1  0.000000  0.376723  0.250000  1

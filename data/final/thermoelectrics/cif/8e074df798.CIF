@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti10CuSnSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.89626203
+_cell_length_b   7.89630603
+_cell_length_c   7.89626312
+_cell_angle_alpha   96.33640037
+_cell_angle_beta   96.33823018
+_cell_angle_gamma   141.19027365
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10CuSnSb4
+_chemical_formula_sum   'Ti10 Cu1 Sn1 Sb4'
+_cell_volume   291.04111576
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.567770  0.713978  0.297909  1
+  Ti  Ti1  1  0.416060  0.269912  0.702143  1
+  Ti  Ti2  1  0.750021  0.250000  0.500021  1
+  Ti  Ti3  1  0.250002  0.750000  0.500002  1
+  Ti  Ti4  1  0.713949  0.416044  0.146161  1
+  Ti  Ti5  1  0.269873  0.567735  0.853812  1
+  Ti  Ti6  1  0.932231  0.230088  0.146148  1
+  Ti  Ti7  1  0.230117  0.083956  0.297906  1
+  Ti  Ti8  1  0.083931  0.786022  0.853791  1
+  Ti  Ti9  1  0.786077  0.932265  0.702139  1
+  Cu  Cu10  1  0.250007  0.250000  0.000007  1
+  Sn  Sn11  1  0.749928  0.750000  0.999928  1
+  Sb  Sb12  1  0.336176  0.836115  0.172311  1
+  Sb  Sb13  1  0.163820  0.336225  0.500066  1
+  Sb  Sb14  1  0.663841  0.163775  0.827595  1
+  Sb  Sb15  1  0.836196  0.663885  0.500061  1

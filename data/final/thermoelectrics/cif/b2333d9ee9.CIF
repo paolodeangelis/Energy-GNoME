@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti10Ga2Bi3Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27412220
+_cell_length_b   8.01041857
+_cell_length_c   8.01351906
+_cell_angle_alpha   83.78075971
+_cell_angle_beta   70.78728197
+_cell_angle_gamma   70.77954406
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10Ga2Bi3Pb
+_chemical_formula_sum   'Ti10 Ga2 Bi3 Pb1'
+_cell_volume   301.87787681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.712924  0.858643  0.715508  1
+  Ti  Ti1  1  0.287266  0.140899  0.284570  1
+  Ti  Ti2  1  0.786944  0.285005  0.141107  1
+  Ti  Ti3  1  0.212798  0.715382  0.859022  1
+  Ti  Ti4  1  0.571948  0.714995  0.141107  1
+  Ti  Ti5  1  0.428181  0.284618  0.859022  1
+  Ti  Ti6  1  0.071567  0.141357  0.715508  1
+  Ti  Ti7  1  0.928165  0.859101  0.284570  1
+  Ti  Ti8  1  0.751200  0.500000  0.499720  1
+  Ti  Ti9  1  0.249080  0.500000  0.499720  1
+  Ga  Ga10  1  0.249957  0.000000  0.000086  1
+  Ga  Ga11  1  0.749957  0.000000  0.000086  1
+  Bi  Bi12  1  0.834502  0.500000  0.830994  1
+  Bi  Bi13  1  0.334665  0.830725  0.499944  1
+  Bi  Bi14  1  0.665391  0.169275  0.499944  1
+  Pb  Pb15  1  0.165455  0.500000  0.169091  1

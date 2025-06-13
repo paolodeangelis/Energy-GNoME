@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ce6Sc2Bi3Sb7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.49823500
+_cell_length_b   9.49823406
+_cell_length_c   6.45090600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999980
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce6Sc2Bi3Sb7
+_chemical_formula_sum   'Ce6 Sc2 Bi3 Sb7'
+_cell_volume   504.00764479
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.617479  0.996651  0.252710  1
+  Ce  Ce1  1  0.379172  0.996651  0.747290  1
+  Ce  Ce2  1  0.003349  0.620828  0.252710  1
+  Ce  Ce3  1  0.003349  0.382521  0.747290  1
+  Ce  Ce4  1  0.379172  0.382521  0.252710  1
+  Ce  Ce5  1  0.617479  0.620828  0.747290  1
+  Sc  Sc6  1  0.000000  0.000000  0.000000  1
+  Sc  Sc7  1  0.000000  0.000000  0.500000  1
+  Bi  Bi8  1  0.333333  0.666667  0.000000  1
+  Bi  Bi9  1  0.666667  0.333333  0.000000  1
+  Bi  Bi10  1  0.666667  0.333333  0.500000  1
+  Sb  Sb11  1  0.264073  0.001018  0.249535  1
+  Sb  Sb12  1  0.736945  0.001018  0.750465  1
+  Sb  Sb13  1  0.998982  0.263055  0.249535  1
+  Sb  Sb14  1  0.998982  0.735927  0.750465  1
+  Sb  Sb15  1  0.736945  0.735927  0.249535  1
+  Sb  Sb16  1  0.264073  0.263055  0.750465  1
+  Sb  Sb17  1  0.333333  0.666667  0.500000  1

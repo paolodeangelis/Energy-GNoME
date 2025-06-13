@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Lu3Mg(Ni4As3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.89059000
+_cell_length_b   11.03046600
+_cell_length_c   12.78265000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu3Mg(Ni4As3)2
+_chemical_formula_sum   'Lu6 Mg2 Ni16 As12'
+_cell_volume   548.56768954
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.500000  0.529606  1
+  Lu  Lu1  1  0.500000  0.000000  0.470394  1
+  Lu  Lu2  1  0.500000  0.823572  0.206076  1
+  Lu  Lu3  1  0.500000  0.176428  0.206076  1
+  Lu  Lu4  1  0.000000  0.676428  0.793924  1
+  Lu  Lu5  1  0.000000  0.323572  0.793924  1
+  Mg  Mg6  1  0.500000  0.500000  0.155439  1
+  Mg  Mg7  1  0.000000  0.000000  0.844561  1
+  Ni  Ni8  1  0.500000  0.500000  0.701770  1
+  Ni  Ni9  1  0.000000  0.000000  0.298230  1
+  Ni  Ni10  1  0.000000  0.500000  0.987732  1
+  Ni  Ni11  1  0.500000  0.000000  0.012268  1
+  Ni  Ni12  1  0.500000  0.333379  0.997775  1
+  Ni  Ni13  1  0.500000  0.666621  0.997775  1
+  Ni  Ni14  1  0.000000  0.166621  0.002225  1
+  Ni  Ni15  1  0.000000  0.833379  0.002225  1
+  Ni  Ni16  1  0.500000  0.299213  0.431389  1
+  Ni  Ni17  1  0.500000  0.700787  0.431389  1
+  Ni  Ni18  1  0.000000  0.200787  0.568611  1
+  Ni  Ni19  1  0.000000  0.799213  0.568611  1
+  Ni  Ni20  1  0.500000  0.880158  0.705366  1
+  Ni  Ni21  1  0.500000  0.119842  0.705366  1
+  Ni  Ni22  1  0.000000  0.619842  0.294634  1
+  Ni  Ni23  1  0.000000  0.380158  0.294634  1
+  As  As24  1  0.500000  0.500000  0.879824  1
+  As  As25  1  0.000000  0.000000  0.120176  1
+  As  As26  1  0.500000  0.500000  0.360775  1
+  As  As27  1  0.000000  0.000000  0.639225  1
+  As  As28  1  0.500000  0.315037  0.616567  1
+  As  As29  1  0.500000  0.684963  0.616567  1
+  As  As30  1  0.000000  0.184963  0.383433  1
+  As  As31  1  0.000000  0.815037  0.383433  1
+  As  As32  1  0.500000  0.836605  0.889629  1
+  As  As33  1  0.500000  0.163395  0.889629  1
+  As  As34  1  0.000000  0.663395  0.110371  1
+  As  As35  1  0.000000  0.336605  0.110371  1

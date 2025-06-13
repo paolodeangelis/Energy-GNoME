@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Nd(Ti3Bi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56641458
+_cell_length_b   8.56641418
+_cell_length_c   8.56641453
+_cell_angle_alpha   40.18595529
+_cell_angle_beta   40.18596241
+_cell_angle_gamma   40.18595481
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd(Ti3Bi2)2
+_chemical_formula_sum   'Nd1 Ti6 Bi4'
+_cell_volume   235.92512203
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.595696  0.595696  0.121867  1
+  Ti  Ti2  1  0.878133  0.404306  0.404304  1
+  Ti  Ti3  1  0.404306  0.878133  0.404304  1
+  Ti  Ti4  1  0.595695  0.121867  0.595697  1
+  Ti  Ti5  1  0.121867  0.595695  0.595697  1
+  Ti  Ti6  1  0.404305  0.404305  0.878133  1
+  Bi  Bi7  1  0.130881  0.130881  0.130881  1
+  Bi  Bi8  1  0.331559  0.331559  0.331559  1
+  Bi  Bi9  1  0.668441  0.668441  0.668441  1
+  Bi  Bi10  1  0.869119  0.869119  0.869119  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyNb(BiRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.48997800
+_cell_length_b   4.59881500
+_cell_length_c   9.15990900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyNb(BiRh)2
+_chemical_formula_sum   'Dy2 Nb2 Bi4 Rh4'
+_cell_volume   273.38855089
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.011844  0.000000  0.374865  1
+  Dy  Dy1  1  0.511843  0.499999  0.625134  1
+  Nb  Nb2  1  0.489433  0.499999  0.120633  1
+  Nb  Nb3  1  0.989434  0.000000  0.879367  1
+  Bi  Bi4  1  0.978216  0.499999  0.126312  1
+  Bi  Bi5  1  0.516307  0.000000  0.373297  1
+  Bi  Bi6  1  0.016308  0.499999  0.626702  1
+  Bi  Bi7  1  0.478216  0.000000  0.873688  1
+  Rh  Rh8  1  0.730588  0.000000  0.108790  1
+  Rh  Rh9  1  0.273612  0.499999  0.351307  1
+  Rh  Rh10  1  0.773613  0.000000  0.648693  1
+  Rh  Rh11  1  0.230587  0.499999  0.891209  1

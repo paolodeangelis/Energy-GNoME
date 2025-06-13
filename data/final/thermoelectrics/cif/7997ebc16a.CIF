@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Er2Sc3Bi2Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79635600
+_cell_length_b   9.05142700
+_cell_length_c   11.52599200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er2Sc3Bi2Te
+_chemical_formula_sum   'Er8 Sc12 Bi8 Te4'
+_cell_volume   813.36790008
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.351909  0.250000  0.283230  1
+  Er  Er1  1  0.648091  0.750000  0.716770  1
+  Er  Er2  1  0.148091  0.750000  0.783230  1
+  Er  Er3  1  0.851909  0.250000  0.216770  1
+  Er  Er4  1  0.176743  0.250000  0.782624  1
+  Er  Er5  1  0.823257  0.750000  0.217376  1
+  Er  Er6  1  0.323257  0.750000  0.282624  1
+  Er  Er7  1  0.676743  0.250000  0.717376  1
+  Sc  Sc8  1  0.017227  0.250000  0.509173  1
+  Sc  Sc9  1  0.982773  0.750000  0.490827  1
+  Sc  Sc10  1  0.482773  0.750000  0.009173  1
+  Sc  Sc11  1  0.517227  0.250000  0.990827  1
+  Sc  Sc12  1  0.186881  0.064915  0.056627  1
+  Sc  Sc13  1  0.813119  0.935085  0.943373  1
+  Sc  Sc14  1  0.313119  0.935085  0.556627  1
+  Sc  Sc15  1  0.813119  0.564915  0.943373  1
+  Sc  Sc16  1  0.686881  0.064915  0.443373  1
+  Sc  Sc17  1  0.186881  0.435085  0.056627  1
+  Sc  Sc18  1  0.686881  0.435085  0.443373  1
+  Sc  Sc19  1  0.313119  0.564915  0.556627  1
+  Bi  Bi20  1  0.067300  0.003505  0.330417  1
+  Bi  Bi21  1  0.932700  0.996495  0.669583  1
+  Bi  Bi22  1  0.432700  0.996495  0.830417  1
+  Bi  Bi23  1  0.932700  0.503505  0.669583  1
+  Bi  Bi24  1  0.567300  0.003505  0.169583  1
+  Bi  Bi25  1  0.067300  0.496495  0.330417  1
+  Bi  Bi26  1  0.567300  0.496495  0.169583  1
+  Bi  Bi27  1  0.432700  0.503505  0.830417  1
+  Te  Te28  1  0.399814  0.250000  0.540267  1
+  Te  Te29  1  0.600186  0.750000  0.459733  1
+  Te  Te30  1  0.100186  0.750000  0.040267  1
+  Te  Te31  1  0.899814  0.250000  0.959733  1

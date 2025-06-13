@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sr2Cu18Si7Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.20505405
+_cell_length_b   8.20505359
+_cell_length_c   8.21684100
+_cell_angle_alpha   120.41772014
+_cell_angle_beta   120.41771391
+_cell_angle_gamma   89.19323866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Cu18Si7Ge
+_chemical_formula_sum   'Sr2 Cu18 Si7 Ge1'
+_cell_volume   388.93826146
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.250092  0.249981  0.999888  1
+  Sr  Sr1  1  0.749981  0.750092  0.999888  1
+  Cu  Cu2  1  0.934534  0.200259  0.139749  1
+  Cu  Cu3  1  0.203513  0.064597  0.268421  1
+  Cu  Cu4  1  0.795517  0.931604  0.730584  1
+  Cu  Cu5  1  0.431604  0.295517  0.730584  1
+  Cu  Cu6  1  0.066354  0.797998  0.862984  1
+  Cu  Cu7  1  0.805990  0.054951  0.494415  1
+  Cu  Cu8  1  0.554951  0.305990  0.494415  1
+  Cu  Cu9  1  0.193011  0.942425  0.501138  1
+  Cu  Cu10  1  0.442425  0.693011  0.501138  1
+  Cu  Cu11  1  0.941901  0.441901  0.740041  1
+  Cu  Cu12  1  0.693275  0.193275  0.252238  1
+  Cu  Cu13  1  0.064914  0.564914  0.264219  1
+  Cu  Cu14  1  0.700259  0.434534  0.139749  1
+  Cu  Cu15  1  0.564597  0.703513  0.268421  1
+  Cu  Cu16  1  0.497959  0.997959  0.498260  1
+  Cu  Cu17  1  0.000473  0.500473  0.499390  1
+  Cu  Cu18  1  0.306619  0.806619  0.748069  1
+  Cu  Cu19  1  0.297998  0.566354  0.862984  1
+  Si  Si20  1  0.557202  0.057202  0.850473  1
+  Si  Si21  1  0.058711  0.207781  0.499387  1
+  Si  Si22  1  0.292455  0.441095  0.500943  1
+  Si  Si23  1  0.941095  0.792455  0.500943  1
+  Si  Si24  1  0.441522  0.941522  0.149492  1
+  Si  Si25  1  0.206083  0.706083  0.147687  1
+  Si  Si26  1  0.707781  0.558711  0.499387  1
+  Ge  Ge27  1  0.799181  0.299181  0.855116  1

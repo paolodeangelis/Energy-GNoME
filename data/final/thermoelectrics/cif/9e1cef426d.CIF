@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_In4Sn10(RuRh)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.22719885
+_cell_length_b   8.22716055
+_cell_length_c   8.22719871
+_cell_angle_alpha   110.45622609
+_cell_angle_beta   108.76706622
+_cell_angle_gamma   109.19536362
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In4Sn10(RuRh)3
+_chemical_formula_sum   'In4 Sn10 Ru3 Rh3'
+_cell_volume   428.57668818
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.251021  0.749256  0.501771  1
+  In  In1  1  0.752515  0.250744  0.501764  1
+  In  In2  1  0.751334  0.500000  0.251334  1
+  In  In3  1  0.249434  0.500000  0.749434  1
+  Sn  Sn4  1  0.502295  0.749386  0.251667  1
+  Sn  Sn5  1  0.502281  0.250614  0.752908  1
+  Sn  Sn6  1  0.997937  0.998895  0.322198  1
+  Sn  Sn7  1  0.676205  0.998686  0.998768  1
+  Sn  Sn8  1  0.997942  0.675749  0.999044  1
+  Sn  Sn9  1  0.323295  0.324251  0.322193  1
+  Sn  Sn10  1  0.000082  0.322558  0.998768  1
+  Sn  Sn11  1  0.676210  0.677442  0.677524  1
+  Sn  Sn12  1  0.323303  0.001105  0.999042  1
+  Sn  Sn13  1  0.000082  0.001314  0.677519  1
+  Ru  Ru14  1  0.343390  0.343687  0.999703  1
+  Ru  Ru15  1  0.656016  0.656313  0.999703  1
+  Ru  Ru16  1  0.655260  0.000000  0.655260  1
+  Rh  Rh17  1  0.342122  0.000000  0.342122  1
+  Rh  Rh18  1  0.999640  0.341906  0.341543  1
+  Rh  Rh19  1  0.999637  0.658094  0.657735  1

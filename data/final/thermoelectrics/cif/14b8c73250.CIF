@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Mn2Fe5Si16Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30586309
+_cell_length_b   6.30586344
+_cell_length_c   7.85648945
+_cell_angle_alpha   89.68677332
+_cell_angle_beta   89.68677534
+_cell_angle_gamma   103.46158861
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Fe5Si16Ni
+_chemical_formula_sum   'Mn2 Fe5 Si16 Ni1'
+_cell_volume   303.80997155
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.306850  0.306850  0.310230  1
+  Mn  Mn1  1  0.694682  0.694682  0.688264  1
+  Fe  Fe2  1  0.808936  0.808936  0.186822  1
+  Fe  Fe3  1  0.282028  0.712468  0.501832  1
+  Fe  Fe4  1  0.218475  0.782700  0.999050  1
+  Fe  Fe5  1  0.712468  0.282028  0.501832  1
+  Fe  Fe6  1  0.782700  0.218475  0.999050  1
+  Si  Si7  1  0.421197  0.672551  0.226924  1
+  Si  Si8  1  0.078330  0.822683  0.726321  1
+  Si  Si9  1  0.170469  0.917162  0.271382  1
+  Si  Si10  1  0.334818  0.589858  0.775413  1
+  Si  Si11  1  0.589858  0.334818  0.775413  1
+  Si  Si12  1  0.917162  0.170469  0.271382  1
+  Si  Si13  1  0.822683  0.078330  0.726321  1
+  Si  Si14  1  0.672551  0.421197  0.226924  1
+  Si  Si15  1  0.144192  0.404827  0.054757  1
+  Si  Si16  1  0.352920  0.092718  0.543174  1
+  Si  Si17  1  0.900632  0.646166  0.448730  1
+  Si  Si18  1  0.601132  0.856088  0.950963  1
+  Si  Si19  1  0.856088  0.601132  0.950963  1
+  Si  Si20  1  0.646166  0.900632  0.448730  1
+  Si  Si21  1  0.092718  0.352920  0.543174  1
+  Si  Si22  1  0.404827  0.144192  0.054757  1
+  Ni  Ni23  1  0.188117  0.188117  0.817590  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10AgSn(BiPb2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.95533465
+_cell_length_b   8.94342905
+_cell_length_c   6.00044804
+_cell_angle_alpha   90.01248339
+_cell_angle_beta   89.99377237
+_cell_angle_gamma   119.95602973
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10AgSn(BiPb2)2
+_chemical_formula_sum   'Zr10 Ag1 Sn1 Bi2 Pb4'
+_cell_volume   416.38247286
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.666884  0.333720  0.001337  1
+  Zr  Zr1  1  0.333116  0.666837  0.001337  1
+  Zr  Zr2  1  0.333360  0.666753  0.498900  1
+  Zr  Zr3  1  0.666640  0.333392  0.498900  1
+  Zr  Zr4  1  0.722430  0.721694  0.751582  1
+  Zr  Zr5  1  0.277570  0.999265  0.751582  1
+  Zr  Zr6  1  0.000000  0.278112  0.751811  1
+  Zr  Zr7  1  0.278221  0.278046  0.248412  1
+  Zr  Zr8  1  0.721779  0.999826  0.248412  1
+  Zr  Zr9  1  0.000000  0.721487  0.248215  1
+  Ag  Ag10  1  0.000000  0.999634  0.499101  1
+  Sn  Sn11  1  0.000000  0.999696  0.000566  1
+  Bi  Bi12  1  0.383466  0.383390  0.747407  1
+  Bi  Bi13  1  0.616534  0.999923  0.747407  1
+  Pb  Pb14  1  0.000000  0.617806  0.747731  1
+  Pb  Pb15  1  0.618415  0.618203  0.252298  1
+  Pb  Pb16  1  0.381585  0.999788  0.252298  1
+  Pb  Pb17  1  0.000000  0.382427  0.252703  1

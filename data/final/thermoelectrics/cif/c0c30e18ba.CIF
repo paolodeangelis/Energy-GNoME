@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Pr3Th(BiTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.48049000
+_cell_length_b   4.48084505
+_cell_length_c   19.04609900
+_cell_angle_alpha   90.00845209
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr3Th(BiTe)4
+_chemical_formula_sum   'Pr3 Th1 Bi4 Te4'
+_cell_volume   382.37674416
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.750000  0.254023  0.359469  1
+  Pr  Pr1  1  0.250000  0.744922  0.641518  1
+  Pr  Pr2  1  0.750000  0.246697  0.859757  1
+  Th  Th3  1  0.250000  0.752992  0.140076  1
+  Bi  Bi4  1  0.250000  0.251289  0.002453  1
+  Bi  Bi5  1  0.750000  0.751355  0.498749  1
+  Bi  Bi6  1  0.250000  0.249271  0.498742  1
+  Bi  Bi7  1  0.750000  0.750888  0.002456  1
+  Te  Te8  1  0.750000  0.253326  0.184028  1
+  Te  Te9  1  0.250000  0.754388  0.310363  1
+  Te  Te10  1  0.750000  0.244844  0.687197  1
+  Te  Te11  1  0.250000  0.746008  0.815196  1

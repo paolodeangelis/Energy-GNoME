@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Tb4SnBi5Rh7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.78204170
+_cell_length_b   7.78204282
+_cell_length_c   7.78204257
+_cell_angle_alpha   109.91318117
+_cell_angle_beta   109.91317399
+_cell_angle_gamma   108.59087539
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4SnBi5Rh7
+_chemical_formula_sum   'Tb4 Sn1 Bi5 Rh7'
+_cell_volume   362.72887620
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.483528  0.003599  0.000000  1
+  Tb  Tb1  1  0.003599  0.483528  0.000000  1
+  Tb  Tb2  1  0.003599  0.003599  0.520071  1
+  Tb  Tb3  1  0.483528  0.483528  0.479929  1
+  Sn  Sn4  1  0.335259  0.335259  0.000000  1
+  Bi  Bi5  1  0.991443  0.304349  0.312907  1
+  Bi  Bi6  1  0.678536  0.991443  0.687093  1
+  Bi  Bi7  1  0.693335  0.693335  0.000000  1
+  Bi  Bi8  1  0.991443  0.678536  0.687093  1
+  Bi  Bi9  1  0.304349  0.991443  0.312907  1
+  Rh  Rh10  1  0.042020  0.042020  0.000000  1
+  Rh  Rh11  1  0.500672  0.750210  0.249537  1
+  Rh  Rh12  1  0.750210  0.500672  0.249537  1
+  Rh  Rh13  1  0.243335  0.743335  0.500000  1
+  Rh  Rh14  1  0.251135  0.500672  0.750463  1
+  Rh  Rh15  1  0.500672  0.251135  0.750463  1
+  Rh  Rh16  1  0.743335  0.243335  0.500000  1

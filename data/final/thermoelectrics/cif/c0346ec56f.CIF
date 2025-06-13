@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfZrInSbPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40331481
+_cell_length_b   6.39259587
+_cell_length_c   7.85397227
+_cell_angle_alpha   65.98562905
+_cell_angle_beta   65.94283392
+_cell_angle_gamma   90.00000104
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfZrInSbPt2
+_chemical_formula_sum   'Hf2 Zr2 In2 Sb2 Pt4'
+_cell_volume   262.80000161
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.245250  0.245250  0.509500  1
+  Hf  Hf1  1  0.004751  0.504750  0.990499  1
+  Zr  Zr2  1  0.495226  0.995225  0.009548  1
+  Zr  Zr3  1  0.754775  0.754775  0.490451  1
+  In  In4  1  0.999818  0.999818  0.000364  1
+  In  In5  1  0.250183  0.750182  0.499635  1
+  Sb  Sb6  1  0.500251  0.500251  0.999500  1
+  Sb  Sb7  1  0.749750  0.249749  0.500499  1
+  Pt  Pt8  1  0.625000  0.134112  0.250001  1
+  Pt  Pt9  1  0.125000  0.615887  0.250001  1
+  Pt  Pt10  1  0.873595  0.875001  0.749999  1
+  Pt  Pt11  1  0.376406  0.374999  0.750000  1

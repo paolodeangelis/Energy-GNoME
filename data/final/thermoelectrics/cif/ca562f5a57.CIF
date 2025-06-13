@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf4Ti3NbSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79552200
+_cell_length_b   7.27112354
+_cell_length_c   8.89137111
+_cell_angle_alpha   89.98704156
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4Ti3NbSb4
+_chemical_formula_sum   'Hf4 Ti3 Nb1 Sb4'
+_cell_volume   245.38146964
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.250000  0.051259  0.659641  1
+  Hf  Hf1  1  0.250000  0.553093  0.838234  1
+  Hf  Hf2  1  0.750000  0.440190  0.160605  1
+  Hf  Hf3  1  0.750000  0.946398  0.338159  1
+  Ti  Ti4  1  0.750000  0.874093  0.941609  1
+  Ti  Ti5  1  0.250000  0.630628  0.440313  1
+  Ti  Ti6  1  0.750000  0.374599  0.560469  1
+  Nb  Nb7  1  0.250000  0.131084  0.060281  1
+  Sb  Sb8  1  0.250000  0.253313  0.363564  1
+  Sb  Sb9  1  0.250000  0.747639  0.141840  1
+  Sb  Sb10  1  0.750000  0.748678  0.642668  1
+  Sb  Sb11  1  0.750000  0.249026  0.852618  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_HfMg2(SbPt)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79134252
+_cell_length_b   7.81404416
+_cell_length_c   7.81208680
+_cell_angle_alpha   119.97513253
+_cell_angle_beta   99.58932515
+_cell_angle_gamma   99.63186085
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMg2(SbPt)3
+_chemical_formula_sum   'Hf2 Mg4 Sb6 Pt6'
+_cell_volume   388.37034955
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.000775  0.833191  0.668514  1
+  Hf  Hf1  1  0.500776  0.668449  0.833294  1
+  Mg  Mg2  1  0.000156  0.502339  0.999387  1
+  Mg  Mg3  1  0.499568  0.331090  0.165079  1
+  Mg  Mg4  1  0.999587  0.165022  0.331151  1
+  Mg  Mg5  1  0.500148  0.999325  0.502409  1
+  Sb  Sb6  1  0.247988  0.919941  0.093189  1
+  Sb  Sb7  1  0.748930  0.749697  0.253287  1
+  Sb  Sb8  1  0.252393  0.577708  0.407641  1
+  Sb  Sb9  1  0.752339  0.407627  0.577514  1
+  Sb  Sb10  1  0.248900  0.253376  0.749559  1
+  Sb  Sb11  1  0.747989  0.093420  0.919789  1
+  Pt  Pt12  1  0.121808  0.198933  0.031227  1
+  Pt  Pt13  1  0.621828  0.031217  0.198997  1
+  Pt  Pt14  1  0.122569  0.874054  0.384007  1
+  Pt  Pt15  1  0.630973  0.709198  0.551674  1
+  Pt  Pt16  1  0.130901  0.551474  0.709221  1
+  Pt  Pt17  1  0.622458  0.383916  0.874036  1

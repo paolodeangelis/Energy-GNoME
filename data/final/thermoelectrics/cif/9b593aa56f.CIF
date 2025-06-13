@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_LuZn2Fe6Sn3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15720700
+_cell_length_b   5.15720738
+_cell_length_c   8.76029000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999116
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuZn2Fe6Sn3Ge
+_chemical_formula_sum   'Lu1 Zn2 Fe6 Sn3 Ge1'
+_cell_volume   201.78009048
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Zn  Zn1  1  0.666667  0.333333  0.000000  1
+  Zn  Zn2  1  0.666667  0.333333  0.500000  1
+  Fe  Fe3  1  0.501291  0.498709  0.762857  1
+  Fe  Fe4  1  0.501291  0.002580  0.762857  1
+  Fe  Fe5  1  0.997420  0.498709  0.762857  1
+  Fe  Fe6  1  0.501291  0.498709  0.237143  1
+  Fe  Fe7  1  0.501291  0.002580  0.237143  1
+  Fe  Fe8  1  0.997420  0.498709  0.237143  1
+  Sn  Sn9  1  0.333333  0.666667  0.500000  1
+  Sn  Sn10  1  0.000000  0.000000  0.662106  1
+  Sn  Sn11  1  0.000000  0.000000  0.337894  1
+  Ge  Ge12  1  0.333333  0.666667  0.000000  1

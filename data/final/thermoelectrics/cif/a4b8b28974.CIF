@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_La3Cu4(SnGe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.55211995
+_cell_length_b   8.55212016
+_cell_length_c   8.55212113
+_cell_angle_alpha   149.04753754
+_cell_angle_beta   132.71719015
+_cell_angle_gamma   57.58997920
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3Cu4(SnGe)2
+_chemical_formula_sum   'La3 Cu4 Sn2 Ge2'
+_cell_volume   234.61917199
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.500000  0.000000  0.500000  1
+  La  La1  1  0.128817  0.128817  0.000000  1
+  La  La2  1  0.871183  0.871183  0.000000  1
+  Cu  Cu3  1  0.472959  0.657512  0.815447  1
+  Cu  Cu4  1  0.842064  0.657512  0.184553  1
+  Cu  Cu5  1  0.157936  0.342488  0.815447  1
+  Cu  Cu6  1  0.527041  0.342488  0.184553  1
+  Sn  Sn7  1  0.717612  0.217612  0.500000  1
+  Sn  Sn8  1  0.282388  0.782388  0.500000  1
+  Ge  Ge9  1  0.186527  0.500000  0.686527  1
+  Ge  Ge10  1  0.813473  0.500000  0.313473  1

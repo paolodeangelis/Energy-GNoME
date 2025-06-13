@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Tb5Tm2Cd(Co3Sn11)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.67937846
+_cell_length_b   9.67937633
+_cell_length_c   10.01690262
+_cell_angle_alpha   89.99768883
+_cell_angle_beta   90.00231150
+_cell_angle_gamma   120.00697736
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb5Tm2Cd(Co3Sn11)2
+_chemical_formula_sum   'Tb5 Tm2 Cd1 Co6 Sn22'
+_cell_volume   812.69650200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000000  0.000000  0.000000  1
+  Tb  Tb1  1  0.478522  0.957454  0.305894  1
+  Tb  Tb2  1  0.521478  0.042546  0.694106  1
+  Tb  Tb3  1  0.042546  0.521478  0.305894  1
+  Tb  Tb4  1  0.957454  0.478522  0.694106  1
+  Tm  Tm5  1  0.479518  0.520482  0.305620  1
+  Tm  Tm6  1  0.520482  0.479518  0.694380  1
+  Cd  Cd7  1  0.000000  0.000000  0.500000  1
+  Co  Co8  1  0.832440  0.167560  0.196796  1
+  Co  Co9  1  0.167560  0.832440  0.803204  1
+  Co  Co10  1  0.831001  0.663826  0.197099  1
+  Co  Co11  1  0.168999  0.336174  0.802901  1
+  Co  Co12  1  0.336174  0.168999  0.197099  1
+  Co  Co13  1  0.663826  0.831001  0.802901  1
+  Sn  Sn14  1  0.346249  0.000323  0.000064  1
+  Sn  Sn15  1  0.653751  0.999677  0.999936  1
+  Sn  Sn16  1  0.000323  0.346249  0.999936  1
+  Sn  Sn17  1  0.999677  0.653751  0.000064  1
+  Sn  Sn18  1  0.653653  0.653653  0.000000  1
+  Sn  Sn19  1  0.346347  0.346347  0.000000  1
+  Sn  Sn20  1  0.333465  0.666535  0.818607  1
+  Sn  Sn21  1  0.666535  0.333465  0.181393  1
+  Sn  Sn22  1  0.782212  0.217788  0.452849  1
+  Sn  Sn23  1  0.217788  0.782212  0.547151  1
+  Sn  Sn24  1  0.780292  0.564207  0.453266  1
+  Sn  Sn25  1  0.219708  0.435793  0.546734  1
+  Sn  Sn26  1  0.435793  0.219708  0.453266  1
+  Sn  Sn27  1  0.564207  0.780292  0.546734  1
+  Sn  Sn28  1  0.334838  0.665162  0.118430  1
+  Sn  Sn29  1  0.665162  0.334838  0.881570  1
+  Sn  Sn30  1  0.115888  0.884112  0.271636  1
+  Sn  Sn31  1  0.884112  0.115888  0.728364  1
+  Sn  Sn32  1  0.117407  0.233583  0.271504  1
+  Sn  Sn33  1  0.882593  0.766417  0.728496  1
+  Sn  Sn34  1  0.766417  0.882593  0.271504  1
+  Sn  Sn35  1  0.233583  0.117407  0.728496  1

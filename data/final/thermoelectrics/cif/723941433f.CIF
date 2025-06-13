@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuHoLu2(ZnSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.52847900
+_cell_length_b   4.52848074
+_cell_length_c   15.87134200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000919
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuHoLu2(ZnSn)4
+_chemical_formula_sum   'Eu1 Ho1 Lu2 Zn4 Sn4'
+_cell_volume   281.87017482
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.000000  0.000000  0.000000  1
+  Ho  Ho1  1  0.000000  0.000000  0.500000  1
+  Lu  Lu2  1  0.000000  0.000000  0.256897  1
+  Lu  Lu3  1  0.000000  0.000000  0.743103  1
+  Zn  Zn4  1  0.333333  0.666667  0.171830  1
+  Zn  Zn5  1  0.666667  0.333333  0.828170  1
+  Zn  Zn6  1  0.666667  0.333333  0.658441  1
+  Zn  Zn7  1  0.333333  0.666667  0.341559  1
+  Sn  Sn8  1  0.333333  0.666667  0.609852  1
+  Sn  Sn9  1  0.666667  0.333333  0.390148  1
+  Sn  Sn10  1  0.666667  0.333333  0.125887  1
+  Sn  Sn11  1  0.333333  0.666667  0.874113  1

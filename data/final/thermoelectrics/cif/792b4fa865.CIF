@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ti10Sn5GeSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15590883
+_cell_length_b   8.15590913
+_cell_length_c   5.53507666
+_cell_angle_alpha   90.07457217
+_cell_angle_beta   90.07456793
+_cell_angle_gamma   119.94041398
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10Sn5GeSb
+_chemical_formula_sum   'Ti10 Sn5 Ge1 Sb1'
+_cell_volume   319.04944532
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.665581  0.333454  0.499816  1
+  Ti  Ti1  1  0.333454  0.665581  0.499816  1
+  Ti  Ti2  1  0.333554  0.666249  0.999782  1
+  Ti  Ti3  1  0.666249  0.333554  0.999782  1
+  Ti  Ti4  1  0.741423  0.741423  0.239210  1
+  Ti  Ti5  1  0.257641  0.000661  0.239101  1
+  Ti  Ti6  1  0.000661  0.257641  0.239101  1
+  Ti  Ti7  1  0.258847  0.258847  0.760027  1
+  Ti  Ti8  1  0.742287  0.999822  0.761164  1
+  Ti  Ti9  1  0.999822  0.742287  0.761164  1
+  Sn  Sn10  1  0.610031  0.000237  0.252969  1
+  Sn  Sn11  1  0.000237  0.610031  0.252969  1
+  Sn  Sn12  1  0.611309  0.611309  0.747372  1
+  Sn  Sn13  1  0.390014  0.999426  0.747409  1
+  Sn  Sn14  1  0.999426  0.390014  0.747409  1
+  Ge  Ge15  1  0.999318  0.999318  0.500654  1
+  Sb  Sb16  1  0.390146  0.390146  0.252253  1

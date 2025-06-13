@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TbHo2In3BiIr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.77826015
+_cell_length_b   7.76058352
+_cell_length_c   4.04911800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.09803100
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbHo2In3BiIr2
+_chemical_formula_sum   'Tb1 Ho2 In3 Bi1 Ir2'
+_cell_volume   211.46478323
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.582703  0.613018  0.000000  1
+  Ho  Ho1  1  0.385060  0.967665  0.000000  1
+  Ho  Ho2  1  0.032036  0.417573  0.000000  1
+  In  In3  1  0.020572  0.764028  0.500000  1
+  In  In4  1  0.235701  0.256120  0.500000  1
+  In  In5  1  0.744108  0.980750  0.500000  1
+  Bi  Bi6  1  0.666954  0.332567  0.500000  1
+  Ir  Ir7  1  0.001168  0.001228  0.000000  1
+  Ir  Ir8  1  0.331696  0.667051  0.500000  1

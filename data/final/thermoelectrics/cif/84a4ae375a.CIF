@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti10MnSiSb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13737947
+_cell_length_b   7.81168792
+_cell_length_c   7.81168741
+_cell_angle_alpha   83.79265673
+_cell_angle_beta   70.80243984
+_cell_angle_gamma   70.80244270
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti10MnSiSb4
+_chemical_formula_sum   'Ti10 Mn1 Si1 Sb4'
+_cell_volume   279.59828125
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.250000  0.500000  0.500000  1
+  Ti  Ti1  1  0.750000  0.500000  0.500000  1
+  Ti  Ti2  1  0.075443  0.134134  0.723301  1
+  Ti  Ti3  1  0.932877  0.865866  0.276699  1
+  Ti  Ti4  1  0.798744  0.276699  0.134134  1
+  Ti  Ti5  1  0.424557  0.276699  0.865866  1
+  Ti  Ti6  1  0.209576  0.723301  0.865866  1
+  Ti  Ti7  1  0.567123  0.723301  0.134134  1
+  Ti  Ti8  1  0.701256  0.865866  0.723301  1
+  Ti  Ti9  1  0.290424  0.134134  0.276699  1
+  Mn  Mn10  1  0.250000  0.000000  0.000000  1
+  Si  Si11  1  0.750000  0.000000  0.000000  1
+  Sb  Sb12  1  0.164161  0.500000  0.171677  1
+  Sb  Sb13  1  0.835839  0.500000  0.828323  1
+  Sb  Sb14  1  0.335839  0.828323  0.500000  1
+  Sb  Sb15  1  0.664161  0.171677  0.500000  1

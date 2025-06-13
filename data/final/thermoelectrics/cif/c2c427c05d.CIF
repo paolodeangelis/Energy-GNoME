@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10CdSnBiPb5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.95557727
+_cell_length_b   8.95557694
+_cell_length_c   6.01411700
+_cell_angle_alpha   90.00001815
+_cell_angle_beta   90.00001594
+_cell_angle_gamma   119.90214349
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10CdSnBiPb5
+_chemical_formula_sum   'Zr10 Cd1 Sn1 Bi1 Pb5'
+_cell_volume   418.13551659
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.667129  0.333619  0.000605  1
+  Zr  Zr1  1  0.333619  0.667129  0.000605  1
+  Zr  Zr2  1  0.333321  0.666778  0.499448  1
+  Zr  Zr3  1  0.666778  0.333321  0.499448  1
+  Zr  Zr4  1  0.720374  0.720374  0.752706  1
+  Zr  Zr5  1  0.279188  0.999266  0.752621  1
+  Zr  Zr6  1  0.999266  0.279188  0.752621  1
+  Zr  Zr7  1  0.279315  0.279315  0.247829  1
+  Zr  Zr8  1  0.720150  0.999770  0.247196  1
+  Zr  Zr9  1  0.999770  0.720150  0.247196  1
+  Cd  Cd10  1  0.999624  0.999624  0.499737  1
+  Sn  Sn11  1  0.999694  0.999694  0.000201  1
+  Bi  Bi12  1  0.383545  0.383545  0.747236  1
+  Pb  Pb13  1  0.617616  0.999982  0.747338  1
+  Pb  Pb14  1  0.999982  0.617616  0.747338  1
+  Pb  Pb15  1  0.618151  0.618151  0.252359  1
+  Pb  Pb16  1  0.382647  0.999831  0.252757  1
+  Pb  Pb17  1  0.999831  0.382647  0.252757  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScPa(BiRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66690500
+_cell_length_b   6.63621900
+_cell_length_c   9.25368200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScPa(BiRh)2
+_chemical_formula_sum   'Sc2 Pa2 Bi4 Rh4'
+_cell_volume   286.59211736
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.000000  0.010918  0.375896  1
+  Sc  Sc1  1  0.500001  0.510920  0.624105  1
+  Pa  Pa2  1  0.500001  0.488759  0.128098  1
+  Pa  Pa3  1  0.000000  0.988758  0.871904  1
+  Bi  Bi4  1  0.500001  0.988462  0.137343  1
+  Bi  Bi5  1  0.000000  0.506799  0.389415  1
+  Bi  Bi6  1  0.500001  0.006800  0.610586  1
+  Bi  Bi7  1  0.000000  0.488462  0.862659  1
+  Rh  Rh8  1  0.000000  0.737074  0.118785  1
+  Rh  Rh9  1  0.500001  0.267988  0.363896  1
+  Rh  Rh10  1  0.000000  0.767988  0.636105  1
+  Rh  Rh11  1  0.500001  0.237074  0.881216  1

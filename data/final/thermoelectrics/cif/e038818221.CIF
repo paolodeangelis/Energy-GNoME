@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CaEu2(AgPb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.99911200
+_cell_length_b   4.99911201
+_cell_length_c   11.38172100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999993
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEu2(AgPb)3
+_chemical_formula_sum   'Ca1 Eu2 Ag3 Pb3'
+_cell_volume   246.33396764
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.666667  0.333333  0.165448  1
+  Eu  Eu1  1  0.666667  0.333333  0.831173  1
+  Eu  Eu2  1  0.666667  0.333333  0.497088  1
+  Ag  Ag3  1  0.333333  0.666667  0.004661  1
+  Ag  Ag4  1  0.000000  0.000000  0.687389  1
+  Ag  Ag5  1  0.000000  0.000000  0.298300  1
+  Pb  Pb6  1  0.333333  0.666667  0.649405  1
+  Pb  Pb7  1  0.333333  0.666667  0.344557  1
+  Pb  Pb8  1  0.000000  0.000000  0.999879  1

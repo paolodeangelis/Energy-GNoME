@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Tc3H(SeS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.52012700
+_cell_length_b   6.47504960
+_cell_length_c   10.24370832
+_cell_angle_alpha   70.11747302
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tc3H(SeS)2
+_chemical_formula_sum   'Tc12 H4 Se8 S8'
+_cell_volume   656.19083418
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tc  Tc0  1  0.621266  0.996135  0.368693  1
+  Tc  Tc1  1  0.878734  0.996135  0.868693  1
+  Tc  Tc2  1  0.378734  0.003865  0.631307  1
+  Tc  Tc3  1  0.121266  0.003865  0.131307  1
+  Tc  Tc4  1  0.370060  0.988623  0.379689  1
+  Tc  Tc5  1  0.129940  0.988623  0.879689  1
+  Tc  Tc6  1  0.629940  0.011377  0.620311  1
+  Tc  Tc7  1  0.870060  0.011377  0.120311  1
+  Tc  Tc8  1  0.502300  0.695324  0.571116  1
+  Tc  Tc9  1  0.997700  0.695324  0.071116  1
+  Tc  Tc10  1  0.497700  0.304676  0.428884  1
+  Tc  Tc11  1  0.002300  0.304676  0.928884  1
+  H  H12  1  0.235756  0.986383  0.268184  1
+  H  H13  1  0.264244  0.986383  0.768184  1
+  H  H14  1  0.764244  0.013617  0.731816  1
+  H  H15  1  0.735756  0.013617  0.231816  1
+  Se  Se16  1  0.489362  0.275370  0.189378  1
+  Se  Se17  1  0.010638  0.275370  0.689378  1
+  Se  Se18  1  0.510638  0.724630  0.810622  1
+  Se  Se19  1  0.989362  0.724630  0.310622  1
+  Se  Se20  1  0.742118  0.715792  0.558979  1
+  Se  Se21  1  0.757882  0.715792  0.058979  1
+  Se  Se22  1  0.257882  0.284208  0.441021  1
+  Se  Se23  1  0.242118  0.284208  0.941021  1
+  S  S24  1  0.494259  0.717339  0.325354  1
+  S  S25  1  0.005741  0.717339  0.825354  1
+  S  S26  1  0.505741  0.282661  0.674646  1
+  S  S27  1  0.994259  0.282661  0.174646  1
+  S  S28  1  0.275425  0.718870  0.575116  1
+  S  S29  1  0.224575  0.718870  0.075116  1
+  S  S30  1  0.724575  0.281130  0.424884  1
+  S  S31  1  0.775425  0.281130  0.924884  1

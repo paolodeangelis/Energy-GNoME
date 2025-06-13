@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Lu4MgHg2Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.63216424
+_cell_length_b   8.63216446
+_cell_length_c   8.63216387
+_cell_angle_alpha   125.48944145
+_cell_angle_beta   125.48944198
+_cell_angle_gamma   80.72890218
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4MgHg2Bi
+_chemical_formula_sum   'Lu8 Mg2 Hg4 Bi2'
+_cell_volume   411.13758500
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.800841  0.300841  0.807116  1
+  Lu  Lu1  1  0.199159  0.699159  0.192884  1
+  Lu  Lu2  1  0.493725  0.993725  0.192884  1
+  Lu  Lu3  1  0.300841  0.493725  0.500000  1
+  Lu  Lu4  1  0.006275  0.199159  0.500000  1
+  Lu  Lu5  1  0.506275  0.006275  0.807116  1
+  Lu  Lu6  1  0.699159  0.506275  0.500000  1
+  Lu  Lu7  1  0.993725  0.800841  0.500000  1
+  Mg  Mg8  1  0.000000  0.000000  0.000000  1
+  Mg  Mg9  1  0.500000  0.500000  0.000000  1
+  Hg  Hg10  1  0.142128  0.642128  0.784256  1
+  Hg  Hg11  1  0.857872  0.357872  0.215744  1
+  Hg  Hg12  1  0.642128  0.857872  0.500000  1
+  Hg  Hg13  1  0.357872  0.142128  0.500000  1
+  Bi  Bi14  1  0.250000  0.250000  0.000000  1
+  Bi  Bi15  1  0.750000  0.750000  0.000000  1

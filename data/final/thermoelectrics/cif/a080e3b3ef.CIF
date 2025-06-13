@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tb2Pr2Zn4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.21806400
+_cell_length_b   4.21806423
+_cell_length_c   16.32146300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99996682
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2Pr2Zn4Si3Ge
+_chemical_formula_sum   'Tb2 Pr2 Zn4 Si3 Ge1'
+_cell_volume   251.48739097
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000000  0.000000  0.250622  1
+  Tb  Tb1  1  0.000000  0.000000  0.748260  1
+  Pr  Pr2  1  0.000000  0.000000  0.001619  1
+  Pr  Pr3  1  0.000000  0.000000  0.499554  1
+  Zn  Zn4  1  0.333333  0.666667  0.144420  1
+  Zn  Zn5  1  0.666667  0.333333  0.852639  1
+  Zn  Zn6  1  0.666667  0.333333  0.642195  1
+  Zn  Zn7  1  0.333333  0.666667  0.357047  1
+  Si  Si8  1  0.333333  0.666667  0.621566  1
+  Si  Si9  1  0.666667  0.333333  0.378265  1
+  Si  Si10  1  0.666667  0.333333  0.122651  1
+  Ge  Ge11  1  0.333333  0.666667  0.881160  1

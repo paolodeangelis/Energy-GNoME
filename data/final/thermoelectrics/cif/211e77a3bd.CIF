@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfSc(BiRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.55327300
+_cell_length_b   6.47803200
+_cell_length_c   9.12706500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfSc(BiRh)2
+_chemical_formula_sum   'Hf2 Sc2 Bi4 Rh4'
+_cell_volume   269.21417457
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.500001  0.493195  0.122568  1
+  Hf  Hf1  1  0.000000  0.993194  0.877434  1
+  Sc  Sc2  1  0.000000  0.007103  0.372344  1
+  Sc  Sc3  1  0.500001  0.507105  0.627657  1
+  Bi  Bi4  1  0.500001  0.991762  0.129346  1
+  Bi  Bi5  1  0.000000  0.507894  0.378483  1
+  Bi  Bi6  1  0.500001  0.007895  0.621518  1
+  Bi  Bi7  1  0.000000  0.491762  0.870656  1
+  Rh  Rh8  1  0.000000  0.739400  0.119251  1
+  Rh  Rh9  1  0.500001  0.260645  0.370002  1
+  Rh  Rh10  1  0.000000  0.760645  0.629999  1
+  Rh  Rh11  1  0.500001  0.239400  0.880750  1

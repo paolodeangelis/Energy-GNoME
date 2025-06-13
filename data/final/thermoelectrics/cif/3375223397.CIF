@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_LiLa6Cd22Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.25941114
+_cell_length_b   10.25941161
+_cell_length_c   10.25941200
+_cell_angle_alpha   60.00000518
+_cell_angle_beta   60.00000366
+_cell_angle_gamma   60.00000396
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiLa6Cd22Bi
+_chemical_formula_sum   'Li1 La6 Cd22 Bi1'
+_cell_volume   763.57623449
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.500000  0.500000  0.500000  1
+  La  La1  1  0.778954  0.778954  0.221046  1
+  La  La2  1  0.221046  0.778954  0.221046  1
+  La  La3  1  0.778954  0.221046  0.221046  1
+  La  La4  1  0.221046  0.221046  0.778954  1
+  La  La5  1  0.778954  0.221046  0.778954  1
+  La  La6  1  0.221046  0.778954  0.778954  1
+  Cd  Cd7  1  0.832129  0.832129  0.503613  1
+  Cd  Cd8  1  0.832129  0.503613  0.832129  1
+  Cd  Cd9  1  0.503613  0.832129  0.832129  1
+  Cd  Cd10  1  0.832129  0.832129  0.832129  1
+  Cd  Cd11  1  0.167871  0.167871  0.496387  1
+  Cd  Cd12  1  0.167871  0.496387  0.167871  1
+  Cd  Cd13  1  0.496387  0.167871  0.167871  1
+  Cd  Cd14  1  0.167871  0.167871  0.167871  1
+  Cd  Cd15  1  0.621900  0.621900  0.134300  1
+  Cd  Cd16  1  0.621900  0.134300  0.621900  1
+  Cd  Cd17  1  0.134300  0.621900  0.621900  1
+  Cd  Cd18  1  0.621900  0.621900  0.621900  1
+  Cd  Cd19  1  0.378100  0.378100  0.865700  1
+  Cd  Cd20  1  0.378100  0.865700  0.378100  1
+  Cd  Cd21  1  0.865700  0.378100  0.378100  1
+  Cd  Cd22  1  0.378100  0.378100  0.378100  1
+  Cd  Cd23  1  0.000000  0.000000  0.500000  1
+  Cd  Cd24  1  0.500000  0.000000  0.500000  1
+  Cd  Cd25  1  0.000000  0.500000  0.500000  1
+  Cd  Cd26  1  0.500000  0.500000  0.000000  1
+  Cd  Cd27  1  0.000000  0.500000  0.000000  1
+  Cd  Cd28  1  0.500000  0.000000  0.000000  1
+  Bi  Bi29  1  0.000000  0.000000  0.000000  1

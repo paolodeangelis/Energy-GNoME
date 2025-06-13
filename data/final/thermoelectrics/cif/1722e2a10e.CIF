@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Li2Pr2Sm(AgSn2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.90641060
+_cell_length_b   8.93388256
+_cell_length_c   8.93388337
+_cell_angle_alpha   149.30758891
+_cell_angle_beta   132.18066264
+_cell_angle_gamma   57.92977697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Pr2Sm(AgSn2)2
+_chemical_formula_sum   'Li2 Pr2 Sm1 Ag2 Sn4'
+_cell_volume   266.84251498
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.641839  0.329707  0.312133  1
+  Li  Li1  1  0.358161  0.670293  0.687867  1
+  Pr  Pr2  1  0.366388  0.869723  0.496666  1
+  Pr  Pr3  1  0.633612  0.130277  0.503334  1
+  Sm  Sm4  1  0.000000  0.000000  0.000000  1
+  Ag  Ag5  1  0.017813  0.330315  0.687497  1
+  Ag  Ag6  1  0.982187  0.669685  0.312503  1
+  Sn  Sn7  1  0.222742  0.213707  0.009036  1
+  Sn  Sn8  1  0.777258  0.786293  0.990964  1
+  Sn  Sn9  1  0.696220  0.497499  0.198721  1
+  Sn  Sn10  1  0.303780  0.502501  0.801279  1

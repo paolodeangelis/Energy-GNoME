@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LiNd3Cd(AgSn2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.97466600
+_cell_length_b   8.91972035
+_cell_length_c   8.91972122
+_cell_angle_alpha   149.36145818
+_cell_angle_beta   130.49619181
+_cell_angle_gamma   59.29275899
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiNd3Cd(AgSn2)2
+_chemical_formula_sum   'Li1 Nd3 Cd1 Ag2 Sn4'
+_cell_volume   274.57944480
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.869173  0.676169  0.193004  1
+  Nd  Nd1  1  0.498348  0.997544  0.500803  1
+  Nd  Nd2  1  0.866475  0.875033  0.991441  1
+  Nd  Nd3  1  0.124205  0.126206  0.997999  1
+  Cd  Cd4  1  0.480514  0.666749  0.813766  1
+  Ag  Ag5  1  0.127892  0.322548  0.805345  1
+  Ag  Ag6  1  0.530137  0.335955  0.194178  1
+  Sn  Sn7  1  0.284886  0.783122  0.501763  1
+  Sn  Sn8  1  0.722743  0.215769  0.506974  1
+  Sn  Sn9  1  0.810583  0.507345  0.303238  1
+  Sn  Sn10  1  0.185041  0.493555  0.691488  1

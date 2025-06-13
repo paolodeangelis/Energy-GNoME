@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_SrEu(Sn2Ir)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.51767300
+_cell_length_b   7.30347300
+_cell_length_c   18.80317000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrEu(Sn2Ir)4
+_chemical_formula_sum   'Sr2 Eu2 Sn16 Ir8'
+_cell_volume   620.40500544
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.750000  0.004252  0.142012  1
+  Sr  Sr1  1  0.750000  0.495748  0.642012  1
+  Eu  Eu2  1  0.250000  0.995983  0.857963  1
+  Eu  Eu3  1  0.250000  0.504017  0.357963  1
+  Sn  Sn4  1  0.250000  0.303472  0.182759  1
+  Sn  Sn5  1  0.250000  0.196528  0.682759  1
+  Sn  Sn6  1  0.750000  0.698321  0.817596  1
+  Sn  Sn7  1  0.750000  0.801679  0.317596  1
+  Sn  Sn8  1  0.250000  0.722839  0.194132  1
+  Sn  Sn9  1  0.250000  0.777161  0.694132  1
+  Sn  Sn10  1  0.750000  0.275453  0.806421  1
+  Sn  Sn11  1  0.750000  0.224547  0.306421  1
+  Sn  Sn12  1  0.250000  0.866735  0.031742  1
+  Sn  Sn13  1  0.250000  0.633265  0.531742  1
+  Sn  Sn14  1  0.750000  0.132379  0.967208  1
+  Sn  Sn15  1  0.750000  0.367621  0.467208  1
+  Sn  Sn16  1  0.250000  0.519200  0.931736  1
+  Sn  Sn17  1  0.250000  0.980800  0.431736  1
+  Sn  Sn18  1  0.750000  0.481279  0.068238  1
+  Sn  Sn19  1  0.750000  0.018721  0.568238  1
+  Ir  Ir20  1  0.250000  0.255617  0.035816  1
+  Ir  Ir21  1  0.250000  0.244383  0.535816  1
+  Ir  Ir22  1  0.750000  0.744778  0.963693  1
+  Ir  Ir23  1  0.750000  0.755222  0.463693  1
+  Ir  Ir24  1  0.250000  0.016612  0.286012  1
+  Ir  Ir25  1  0.250000  0.483388  0.786012  1
+  Ir  Ir26  1  0.750000  0.983749  0.714673  1
+  Ir  Ir27  1  0.750000  0.516251  0.214673  1

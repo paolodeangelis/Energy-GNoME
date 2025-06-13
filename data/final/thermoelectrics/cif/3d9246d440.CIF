@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Th5ZnSnBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.66597595
+_cell_length_b   9.66597497
+_cell_length_c   6.56519200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02767088
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th5ZnSnBi2
+_chemical_formula_sum   'Th10 Zn2 Sn2 Bi4'
+_cell_volume   531.06573059
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.667100  0.330447  0.002598  1
+  Th  Th1  1  0.330447  0.667100  0.002598  1
+  Th  Th2  1  0.330447  0.667100  0.497402  1
+  Th  Th3  1  0.667100  0.330447  0.497402  1
+  Th  Th4  1  0.737419  0.737419  0.750000  1
+  Th  Th5  1  0.262992  0.999681  0.750000  1
+  Th  Th6  1  0.999681  0.262992  0.750000  1
+  Th  Th7  1  0.266267  0.266267  0.250000  1
+  Th  Th8  1  0.734644  0.005054  0.250000  1
+  Th  Th9  1  0.005054  0.734644  0.250000  1
+  Zn  Zn10  1  0.999292  0.999292  0.007016  1
+  Zn  Zn11  1  0.999292  0.999292  0.492984  1
+  Sn  Sn12  1  0.381940  0.000833  0.250000  1
+  Sn  Sn13  1  0.000833  0.381940  0.250000  1
+  Bi  Bi14  1  0.384263  0.384263  0.750000  1
+  Bi  Bi15  1  0.614580  0.999125  0.750000  1
+  Bi  Bi16  1  0.999125  0.614580  0.750000  1
+  Bi  Bi17  1  0.619526  0.619526  0.250000  1

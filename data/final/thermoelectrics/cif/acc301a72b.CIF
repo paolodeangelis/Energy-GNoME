@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Pr2SmTeAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.33813800
+_cell_length_b   10.77109606
+_cell_length_c   7.50222751
+_cell_angle_alpha   89.95879079
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2SmTeAs2
+_chemical_formula_sum   'Pr4 Sm2 Te2 As4'
+_cell_volume   350.55275143
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.250000  0.805744  0.915763  1
+  Pr  Pr1  1  0.750000  0.194256  0.084237  1
+  Pr  Pr2  1  0.750000  0.804275  0.416587  1
+  Pr  Pr3  1  0.250000  0.195725  0.583413  1
+  Sm  Sm4  1  0.250000  0.500271  0.249360  1
+  Sm  Sm5  1  0.750000  0.499729  0.750640  1
+  Te  Te6  1  0.750000  0.000404  0.749005  1
+  Te  Te7  1  0.250000  0.999596  0.250995  1
+  As  As8  1  0.250000  0.654540  0.583939  1
+  As  As9  1  0.750000  0.345460  0.416061  1
+  As  As10  1  0.750000  0.655550  0.083040  1
+  As  As11  1  0.250000  0.344450  0.916960  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_CeMn3As12Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34406453
+_cell_length_b   7.34406535
+_cell_length_c   7.34406626
+_cell_angle_alpha   109.42691391
+_cell_angle_beta   109.42692056
+_cell_angle_gamma   109.42692558
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeMn3As12Pd
+_chemical_formula_sum   'Ce1 Mn3 As12 Pd1'
+_cell_volume   305.42036929
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.000000  0.000000  0.000000  1
+  Mn  Mn1  1  0.500000  0.000000  0.000000  1
+  Mn  Mn2  1  0.000000  0.500000  0.000000  1
+  Mn  Mn3  1  0.000000  0.000000  0.500000  1
+  As  As4  1  0.862292  0.664113  0.504263  1
+  As  As5  1  0.137708  0.335887  0.495737  1
+  As  As6  1  0.157309  0.661230  0.816964  1
+  As  As7  1  0.842691  0.338770  0.183036  1
+  As  As8  1  0.664113  0.504263  0.862292  1
+  As  As9  1  0.335887  0.495737  0.137708  1
+  As  As10  1  0.661230  0.816964  0.157309  1
+  As  As11  1  0.338770  0.183036  0.842691  1
+  As  As12  1  0.504263  0.862292  0.664113  1
+  As  As13  1  0.495737  0.137708  0.335887  1
+  As  As14  1  0.816964  0.157309  0.661230  1
+  As  As15  1  0.183036  0.842691  0.338770  1
+  Pd  Pd16  1  0.500000  0.500000  0.500000  1

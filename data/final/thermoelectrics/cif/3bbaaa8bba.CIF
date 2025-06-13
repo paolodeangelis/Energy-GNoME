@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Bi2(P2Pd7)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.64143010
+_cell_length_b   8.64342730
+_cell_length_c   8.64247018
+_cell_angle_alpha   59.99128414
+_cell_angle_beta   60.01074723
+_cell_angle_gamma   60.00081326
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Bi2(P2Pd7)3
+_chemical_formula_sum   'Bi2 P6 Pd21'
+_cell_volume   456.46113761
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.249995  0.249973  0.250019  1
+  Bi  Bi1  1  0.750005  0.750027  0.749981  1
+  P  P2  1  0.738960  0.738996  0.261011  1
+  P  P3  1  0.261040  0.261004  0.738989  1
+  P  P4  1  0.261012  0.738994  0.739000  1
+  P  P5  1  0.738948  0.261028  0.738985  1
+  P  P6  1  0.261052  0.738972  0.261015  1
+  P  P7  1  0.738988  0.261006  0.261000  1
+  Pd  Pd8  1  0.000000  0.000000  0.000000  1
+  Pd  Pd9  1  0.615595  0.615576  0.615586  1
+  Pd  Pd10  1  0.384412  0.846757  0.384408  1
+  Pd  Pd11  1  0.656634  0.343371  0.999988  1
+  Pd  Pd12  1  0.999994  0.343361  0.656638  1
+  Pd  Pd13  1  0.656629  0.000006  0.999992  1
+  Pd  Pd14  1  0.615581  0.615593  0.153236  1
+  Pd  Pd15  1  0.999992  0.000011  0.656636  1
+  Pd  Pd16  1  0.000002  0.343352  0.999995  1
+  Pd  Pd17  1  0.656648  0.999995  0.343356  1
+  Pd  Pd18  1  0.343371  0.999994  0.000008  1
+  Pd  Pd19  1  0.999998  0.656648  0.000005  1
+  Pd  Pd20  1  0.343352  0.000005  0.656644  1
+  Pd  Pd21  1  0.000006  0.656639  0.343362  1
+  Pd  Pd22  1  0.343366  0.656629  0.000012  1
+  Pd  Pd23  1  0.153242  0.615586  0.615578  1
+  Pd  Pd24  1  0.384405  0.384424  0.384414  1
+  Pd  Pd25  1  0.846758  0.384414  0.384422  1
+  Pd  Pd26  1  0.384419  0.384407  0.846764  1
+  Pd  Pd27  1  0.615588  0.153243  0.615592  1
+  Pd  Pd28  1  0.000008  0.999989  0.343364  1

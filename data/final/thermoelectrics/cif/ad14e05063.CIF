@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ba3(TlBi)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.21319705
+_cell_length_b   10.21319710
+_cell_length_c   10.21319771
+_cell_angle_alpha   151.62525265
+_cell_angle_beta   123.21303067
+_cell_angle_gamma   64.68391318
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3(TlBi)4
+_chemical_formula_sum   'Ba3 Tl4 Bi4'
+_cell_volume   419.60439647
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.614896  0.614896  0.000000  1
+  Ba  Ba1  1  0.000000  0.500000  0.500000  1
+  Ba  Ba2  1  0.385104  0.385104  0.000000  1
+  Tl  Tl3  1  0.979658  0.174856  0.804802  1
+  Tl  Tl4  1  0.370054  0.174856  0.195198  1
+  Tl  Tl5  1  0.629946  0.825144  0.804802  1
+  Tl  Tl6  1  0.020342  0.825144  0.195198  1
+  Bi  Bi7  1  0.778452  0.278452  0.500000  1
+  Bi  Bi8  1  0.221548  0.721548  0.500000  1
+  Bi  Bi9  1  0.284191  0.000000  0.284191  1
+  Bi  Bi10  1  0.715809  0.000000  0.715809  1

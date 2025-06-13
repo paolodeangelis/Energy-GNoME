@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb4Al4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.23060300
+_cell_length_b   6.96871882
+_cell_length_c   8.41829363
+_cell_angle_alpha   89.53011068
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb4Al4Si3Ge
+_chemical_formula_sum   'Yb4 Al4 Si3 Ge1'
+_cell_volume   248.17879932
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.750000  0.484776  0.819478  1
+  Yb  Yb1  1  0.250000  0.018020  0.318633  1
+  Yb  Yb2  1  0.750000  0.981327  0.677886  1
+  Yb  Yb3  1  0.250000  0.517877  0.182206  1
+  Al  Al4  1  0.250000  0.647702  0.566719  1
+  Al  Al5  1  0.250000  0.146251  0.927045  1
+  Al  Al6  1  0.750000  0.353743  0.440379  1
+  Al  Al7  1  0.750000  0.848242  0.063974  1
+  Si  Si8  1  0.250000  0.781612  0.896355  1
+  Si  Si9  1  0.250000  0.280747  0.605652  1
+  Si  Si10  1  0.750000  0.717770  0.398050  1
+  Ge  Ge11  1  0.750000  0.221933  0.103625  1

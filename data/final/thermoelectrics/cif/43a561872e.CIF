@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Y2Fe3Co7Ni2As7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79194800
+_cell_length_b   9.34657806
+_cell_length_c   9.36461504
+_cell_angle_alpha   120.02413359
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2Fe3Co7Ni2As7
+_chemical_formula_sum   'Y2 Fe3 Co7 Ni2 As7'
+_cell_volume   287.36237575
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.000000  0.668745  0.334833  1
+  Y  Y1  1  0.500000  0.331352  0.666215  1
+  Fe  Fe2  1  0.500000  0.786597  0.905410  1
+  Fe  Fe3  1  0.500000  0.118683  0.213659  1
+  Fe  Fe4  1  0.500000  0.094399  0.881083  1
+  Co  Co5  1  0.000000  0.058507  0.626189  1
+  Co  Co6  1  0.000000  0.877113  0.155075  1
+  Co  Co7  1  0.000000  0.279308  0.123401  1
+  Co  Co8  1  0.000000  0.845049  0.723204  1
+  Co  Co9  1  0.500000  0.951016  0.380751  1
+  Co  Co10  1  0.500000  0.429853  0.047185  1
+  Co  Co11  1  0.500000  0.619385  0.569594  1
+  Ni  Ni12  1  0.000000  0.566061  0.940569  1
+  Ni  Ni13  1  0.000000  0.373127  0.432013  1
+  As  As14  1  0.000000  0.001061  0.000810  1
+  As  As15  1  0.500000  0.709039  0.115738  1
+  As  As16  1  0.500000  0.407219  0.289872  1
+  As  As17  1  0.500000  0.888525  0.595218  1
+  As  As18  1  0.000000  0.592197  0.704898  1
+  As  As19  1  0.000000  0.112071  0.409403  1
+  As  As20  1  0.000000  0.290694  0.884884  1

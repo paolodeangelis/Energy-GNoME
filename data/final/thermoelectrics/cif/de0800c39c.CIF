@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaHoSb2PtRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.52281400
+_cell_length_b   7.90051870
+_cell_length_c   7.91285480
+_cell_angle_alpha   87.63946683
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaHoSb2PtRh
+_chemical_formula_sum   'La2 Ho2 Sb4 Pt2 Rh2'
+_cell_volume   282.50676192
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.750000  0.990729  0.736407  1
+  La  La1  1  0.250000  0.009271  0.263593  1
+  Ho  Ho2  1  0.250000  0.491292  0.206382  1
+  Ho  Ho3  1  0.750000  0.508708  0.793618  1
+  Sb  Sb4  1  0.250000  0.723748  0.577784  1
+  Sb  Sb5  1  0.750000  0.276252  0.422216  1
+  Sb  Sb6  1  0.750000  0.769224  0.110494  1
+  Sb  Sb7  1  0.250000  0.230776  0.889506  1
+  Pt  Pt8  1  0.250000  0.740413  0.918874  1
+  Pt  Pt9  1  0.750000  0.259587  0.081126  1
+  Rh  Rh10  1  0.750000  0.625952  0.434817  1
+  Rh  Rh11  1  0.250000  0.374048  0.565183  1

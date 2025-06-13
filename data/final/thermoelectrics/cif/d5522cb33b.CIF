@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta(TiTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48723186
+_cell_length_b   7.48723144
+_cell_length_c   7.48723157
+_cell_angle_alpha   93.49301265
+_cell_angle_beta   93.49301346
+_cell_angle_gamma   151.41955078
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta(TiTe)4
+_chemical_formula_sum   'Ta1 Ti4 Te4'
+_cell_volume   194.57975883
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.000000  0.000000  0.000000  1
+  Ti  Ti1  1  0.621701  0.685473  0.307175  1
+  Ti  Ti2  1  0.378299  0.314527  0.692825  1
+  Ti  Ti3  1  0.314527  0.621701  0.936228  1
+  Ti  Ti4  1  0.685473  0.378299  0.063772  1
+  Te  Te5  1  0.717705  0.941704  0.659409  1
+  Te  Te6  1  0.282295  0.058296  0.340591  1
+  Te  Te7  1  0.058296  0.717705  0.776002  1
+  Te  Te8  1  0.941704  0.282295  0.223998  1

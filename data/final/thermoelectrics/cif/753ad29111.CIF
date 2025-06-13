@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Sc2Co(NiSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55545496
+_cell_length_b   7.55545415
+_cell_length_c   7.55545660
+_cell_angle_alpha   33.76713858
+_cell_angle_beta   33.76715199
+_cell_angle_gamma   33.76713971
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2Co(NiSn)2
+_chemical_formula_sum   'Sc2 Co1 Ni2 Sn2'
+_cell_volume   118.72492262
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.754013  0.754013  0.754013  1
+  Sc  Sc1  1  0.246953  0.246953  0.246953  1
+  Co  Co2  1  0.374479  0.374479  0.374479  1
+  Ni  Ni3  1  0.121959  0.121959  0.121959  1
+  Ni  Ni4  1  0.628162  0.628162  0.628162  1
+  Sn  Sn5  1  0.998114  0.998114  0.998114  1
+  Sn  Sn6  1  0.501321  0.501321  0.501321  1

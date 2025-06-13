@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li2Sn8OsPd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.47415754
+_cell_length_b   7.47415662
+_cell_length_c   7.47415746
+_cell_angle_alpha   126.41636768
+_cell_angle_beta   126.41636142
+_cell_angle_gamma   79.20489157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Sn8OsPd
+_chemical_formula_sum   'Li2 Sn8 Os1 Pd1'
+_cell_volume   261.44662985
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.499091  0.499091  0.000000  1
+  Li  Li1  1  0.000909  0.000909  0.000000  1
+  Sn  Sn2  1  0.710131  0.528060  0.508344  1
+  Sn  Sn3  1  0.528060  0.019716  0.817928  1
+  Sn  Sn4  1  0.201787  0.710131  0.182072  1
+  Sn  Sn5  1  0.789869  0.298213  0.817928  1
+  Sn  Sn6  1  0.480284  0.971940  0.182072  1
+  Sn  Sn7  1  0.298213  0.480284  0.508344  1
+  Sn  Sn8  1  0.971940  0.789869  0.491656  1
+  Sn  Sn9  1  0.019716  0.201787  0.491656  1
+  Os  Os10  1  0.750000  0.750000  0.000000  1
+  Pd  Pd11  1  0.250000  0.250000  0.000000  1

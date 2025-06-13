@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr10Zn2(BiPb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.86673600
+_cell_length_b   8.86367510
+_cell_length_c   5.93172800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.01142410
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr10Zn2(BiPb)3
+_chemical_formula_sum   'Zr10 Zn2 Bi3 Pb3'
+_cell_volume   403.68207008
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.333273  0.666772  0.000409  1
+  Zr  Zr1  1  0.666502  0.333228  0.499591  1
+  Zr  Zr2  1  0.666502  0.333228  0.000409  1
+  Zr  Zr3  1  0.333273  0.666772  0.499591  1
+  Zr  Zr4  1  0.265703  0.000000  0.250000  1
+  Zr  Zr5  1  0.266244  0.265058  0.750000  1
+  Zr  Zr6  1  0.001186  0.734942  0.750000  1
+  Zr  Zr7  1  0.000923  0.266875  0.250000  1
+  Zr  Zr8  1  0.734048  0.733125  0.250000  1
+  Zr  Zr9  1  0.733290  0.000000  0.750000  1
+  Zn  Zn10  1  0.000691  0.000000  0.000520  1
+  Zn  Zn11  1  0.000691  0.000000  0.499480  1
+  Bi  Bi12  1  0.614080  0.000000  0.250000  1
+  Bi  Bi13  1  0.614507  0.614003  0.750000  1
+  Bi  Bi14  1  0.000505  0.385997  0.750000  1
+  Pb  Pb15  1  0.000199  0.615826  0.250000  1
+  Pb  Pb16  1  0.384373  0.384174  0.250000  1
+  Pb  Pb17  1  0.384010  0.000000  0.750000  1

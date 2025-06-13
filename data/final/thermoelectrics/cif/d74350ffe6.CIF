@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_SrAl(Cu3Si)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.16730388
+_cell_length_b   8.16417345
+_cell_length_c   8.27385649
+_cell_angle_alpha   119.56243556
+_cell_angle_beta   120.16466316
+_cell_angle_gamma   89.99999874
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrAl(Cu3Si)3
+_chemical_formula_sum   'Sr2 Al2 Cu18 Si6'
+_cell_volume   391.69998594
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.252166  0.250324  0.505004  1
+  Sr  Sr1  1  0.752166  0.754680  0.505004  1
+  Al  Al2  1  0.796004  0.295901  0.235332  1
+  Al  Al3  1  0.296004  0.439430  0.235332  1
+  Cu  Cu4  1  0.498089  0.997906  0.999622  1
+  Cu  Cu5  1  0.203212  0.059911  0.996186  1
+  Cu  Cu6  1  0.933069  0.201569  0.994060  1
+  Cu  Cu7  1  0.433069  0.292490  0.994060  1
+  Cu  Cu8  1  0.703212  0.436275  0.996186  1
+  Cu  Cu9  1  0.998089  0.501716  0.999622  1
+  Cu  Cu10  1  0.295546  0.565974  0.999836  1
+  Cu  Cu11  1  0.564555  0.705282  0.000680  1
+  Cu  Cu12  1  0.064555  0.795396  0.000680  1
+  Cu  Cu13  1  0.795546  0.933862  0.999836  1
+  Cu  Cu14  1  0.809297  0.059604  0.369305  1
+  Cu  Cu15  1  0.563907  0.297872  0.364186  1
+  Cu  Cu16  1  0.063907  0.566314  0.364186  1
+  Cu  Cu17  1  0.309297  0.809701  0.369305  1
+  Cu  Cu18  1  0.691288  0.191076  0.632698  1
+  Cu  Cu19  1  0.941216  0.441114  0.641201  1
+  Cu  Cu20  1  0.441216  0.700087  0.641201  1
+  Cu  Cu21  1  0.191288  0.941621  0.632698  1
+  Si  Si22  1  0.938190  0.790774  0.230050  1
+  Si  Si23  1  0.438190  0.939275  0.230050  1
+  Si  Si24  1  0.560494  0.061278  0.771915  1
+  Si  Si25  1  0.060495  0.210638  0.771915  1
+  Si  Si26  1  0.702963  0.556870  0.759924  1
+  Si  Si27  1  0.202963  0.703054  0.759924  1

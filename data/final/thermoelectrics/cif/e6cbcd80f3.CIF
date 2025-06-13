@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Hf8Ni8Hg3Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18293000
+_cell_length_b   7.18293000
+_cell_length_c   6.61224600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf8Ni8Hg3Bi
+_chemical_formula_sum   'Hf8 Ni8 Hg3 Bi1'
+_cell_volume   341.15541638
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.179345  0.174062  0.002640  1
+  Hf  Hf1  1  0.674062  0.320655  0.497360  1
+  Hf  Hf2  1  0.325938  0.679345  0.497360  1
+  Hf  Hf3  1  0.820655  0.825938  0.002640  1
+  Hf  Hf4  1  0.652300  0.341193  0.002499  1
+  Hf  Hf5  1  0.841193  0.847700  0.497501  1
+  Hf  Hf6  1  0.158807  0.152300  0.497501  1
+  Hf  Hf7  1  0.347700  0.658807  0.002499  1
+  Ni  Ni8  1  0.375812  0.374207  0.276050  1
+  Ni  Ni9  1  0.872607  0.119635  0.778650  1
+  Ni  Ni10  1  0.127393  0.880365  0.778650  1
+  Ni  Ni11  1  0.624188  0.625793  0.276050  1
+  Ni  Ni12  1  0.125793  0.875812  0.223950  1
+  Ni  Ni13  1  0.874207  0.124188  0.223950  1
+  Ni  Ni14  1  0.380365  0.372607  0.721350  1
+  Ni  Ni15  1  0.619635  0.627393  0.721350  1
+  Hg  Hg16  1  0.500000  0.000000  0.250000  1
+  Hg  Hg17  1  0.500000  0.000000  0.750000  1
+  Hg  Hg18  1  0.000000  0.500000  0.250000  1
+  Bi  Bi19  1  0.000000  0.500000  0.750000  1

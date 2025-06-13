@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sc10(InBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17386200
+_cell_length_b   8.56363630
+_cell_length_c   8.56504301
+_cell_angle_alpha   119.99456187
+_cell_angle_beta   89.99863205
+_cell_angle_gamma   90.00272312
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc10(InBi)3
+_chemical_formula_sum   'Sc10 In3 Bi3'
+_cell_volume   392.19234049
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.491685  0.333331  0.666673  1
+  Sc  Sc1  1  0.491685  0.666657  0.333327  1
+  Sc  Sc2  1  0.008358  0.666641  0.333356  1
+  Sc  Sc3  1  0.008358  0.333286  0.666644  1
+  Sc  Sc4  1  0.749993  0.234721  0.000000  1
+  Sc  Sc5  1  0.749999  0.765133  0.765233  1
+  Sc  Sc6  1  0.749999  0.999900  0.234767  1
+  Sc  Sc7  1  0.249988  0.763821  0.000000  1
+  Sc  Sc8  1  0.249962  0.236364  0.236252  1
+  Sc  Sc9  1  0.249962  0.000113  0.763748  1
+  In  In10  1  0.250017  0.392615  0.000000  1
+  In  In11  1  0.249991  0.607549  0.607511  1
+  In  In12  1  0.249991  0.000037  0.392489  1
+  Bi  Bi13  1  0.750002  0.604161  0.000000  1
+  Bi  Bi14  1  0.750003  0.395667  0.395660  1
+  Bi  Bi15  1  0.750003  0.000008  0.604340  1

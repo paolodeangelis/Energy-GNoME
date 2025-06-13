@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Y3Sc3Bi2Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.04362700
+_cell_length_b   8.04362734
+_cell_length_c   4.20281000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999450
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Sc3Bi2Pt
+_chemical_formula_sum   'Y3 Sc3 Bi2 Pt1'
+_cell_volume   235.49098024
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.610072  0.000000  0.000000  1
+  Y  Y1  1  0.000000  0.610072  0.000000  1
+  Y  Y2  1  0.389928  0.389928  0.000000  1
+  Sc  Sc3  1  0.227978  0.000000  0.500000  1
+  Sc  Sc4  1  0.000000  0.227978  0.500000  1
+  Sc  Sc5  1  0.772022  0.772022  0.500000  1
+  Bi  Bi6  1  0.333333  0.666667  0.500000  1
+  Bi  Bi7  1  0.666667  0.333333  0.500000  1
+  Pt  Pt8  1  0.000000  0.000000  0.000000  1

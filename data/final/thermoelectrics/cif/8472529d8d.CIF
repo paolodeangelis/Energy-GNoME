@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Tb2Sc3(TlBi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94982200
+_cell_length_b   7.90667400
+_cell_length_c   15.08267100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2Sc3(TlBi)2
+_chemical_formula_sum   'Tb8 Sc12 Tl8 Bi8'
+_cell_volume   948.04618587
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.526898  0.319312  0.901379  1
+  Tb  Tb1  1  0.026898  0.180688  0.598621  1
+  Tb  Tb2  1  0.473102  0.680688  0.401379  1
+  Tb  Tb3  1  0.973102  0.819312  0.098621  1
+  Tb  Tb4  1  0.473102  0.680688  0.098621  1
+  Tb  Tb5  1  0.973102  0.819312  0.401379  1
+  Tb  Tb6  1  0.526898  0.319312  0.598621  1
+  Tb  Tb7  1  0.026898  0.180688  0.901379  1
+  Sc  Sc8  1  0.369532  0.842398  0.873475  1
+  Sc  Sc9  1  0.869532  0.657602  0.626525  1
+  Sc  Sc10  1  0.630468  0.157602  0.373475  1
+  Sc  Sc11  1  0.130468  0.342398  0.126525  1
+  Sc  Sc12  1  0.630468  0.157602  0.126525  1
+  Sc  Sc13  1  0.130468  0.342398  0.373475  1
+  Sc  Sc14  1  0.369532  0.842398  0.626525  1
+  Sc  Sc15  1  0.869532  0.657602  0.873475  1
+  Sc  Sc16  1  0.201838  0.505074  0.750000  1
+  Sc  Sc17  1  0.701838  0.994926  0.750000  1
+  Sc  Sc18  1  0.798162  0.494926  0.250000  1
+  Sc  Sc19  1  0.298162  0.005074  0.250000  1
+  Tl  Tl20  1  0.564127  0.626064  0.750000  1
+  Tl  Tl21  1  0.064127  0.873936  0.750000  1
+  Tl  Tl22  1  0.435873  0.373936  0.250000  1
+  Tl  Tl23  1  0.935873  0.126064  0.250000  1
+  Tl  Tl24  1  0.330109  0.145095  0.750000  1
+  Tl  Tl25  1  0.830109  0.354905  0.750000  1
+  Tl  Tl26  1  0.669891  0.854905  0.250000  1
+  Tl  Tl27  1  0.169891  0.645095  0.250000  1
+  Bi  Bi28  1  0.291600  0.042687  0.043145  1
+  Bi  Bi29  1  0.791600  0.457313  0.456855  1
+  Bi  Bi30  1  0.708400  0.957313  0.543145  1
+  Bi  Bi31  1  0.208400  0.542687  0.956855  1
+  Bi  Bi32  1  0.708400  0.957313  0.956855  1
+  Bi  Bi33  1  0.208400  0.542687  0.543145  1
+  Bi  Bi34  1  0.291600  0.042687  0.456855  1
+  Bi  Bi35  1  0.791600  0.457313  0.043145  1

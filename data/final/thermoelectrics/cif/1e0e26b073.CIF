@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Lu5Sc5(GaBi)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.54838200
+_cell_length_b   8.52722425
+_cell_length_c   6.16367600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.08211143
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu5Sc5(GaBi)3
+_chemical_formula_sum   'Lu5 Sc5 Ga3 Bi3'
+_cell_volume   388.77837892
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.233074  0.000000  0.250000  1
+  Lu  Lu1  1  0.241867  0.225820  0.750000  1
+  Lu  Lu2  1  0.016047  0.774180  0.750000  1
+  Lu  Lu3  1  0.017528  0.250007  0.250000  1
+  Lu  Lu4  1  0.767521  0.749993  0.250000  1
+  Sc  Sc5  1  0.324899  0.666997  0.005479  1
+  Sc  Sc6  1  0.657903  0.333003  0.494521  1
+  Sc  Sc7  1  0.657903  0.333003  0.005479  1
+  Sc  Sc8  1  0.324899  0.666997  0.494521  1
+  Sc  Sc9  1  0.754288  0.000000  0.750000  1
+  Ga  Ga10  1  0.998523  0.600404  0.250000  1
+  Ga  Ga11  1  0.398120  0.399596  0.250000  1
+  Ga  Ga12  1  0.403475  0.000000  0.750000  1
+  Bi  Bi13  1  0.608242  0.000000  0.250000  1
+  Bi  Bi14  1  0.602108  0.608504  0.750000  1
+  Bi  Bi15  1  0.993604  0.391496  0.750000  1

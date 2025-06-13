@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Lu7Co6Sn22Hg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.60540500
+_cell_length_b   9.60540497
+_cell_length_c   9.96018100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999665
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu7Co6Sn22Hg
+_chemical_formula_sum   'Lu7 Co6 Sn22 Hg1'
+_cell_volume   795.84636662
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.479805  0.520195  0.306326  1
+  Lu  Lu2  1  0.520195  0.479805  0.693674  1
+  Lu  Lu3  1  0.479805  0.959609  0.306326  1
+  Lu  Lu4  1  0.520195  0.040391  0.693674  1
+  Lu  Lu5  1  0.040391  0.520195  0.306326  1
+  Lu  Lu6  1  0.959609  0.479805  0.693674  1
+  Co  Co7  1  0.831661  0.168339  0.197539  1
+  Co  Co8  1  0.168339  0.831661  0.802461  1
+  Co  Co9  1  0.831661  0.663322  0.197539  1
+  Co  Co10  1  0.168339  0.336678  0.802461  1
+  Co  Co11  1  0.336678  0.168339  0.197539  1
+  Co  Co12  1  0.663322  0.831661  0.802461  1
+  Sn  Sn13  1  0.346275  0.000000  0.000000  1
+  Sn  Sn14  1  0.653725  0.000000  0.000000  1
+  Sn  Sn15  1  0.000000  0.346275  0.000000  1
+  Sn  Sn16  1  0.000000  0.653725  0.000000  1
+  Sn  Sn17  1  0.653725  0.653725  0.000000  1
+  Sn  Sn18  1  0.346275  0.346275  0.000000  1
+  Sn  Sn19  1  0.333333  0.666667  0.817978  1
+  Sn  Sn20  1  0.666667  0.333333  0.182022  1
+  Sn  Sn21  1  0.781957  0.218043  0.454012  1
+  Sn  Sn22  1  0.218043  0.781957  0.545988  1
+  Sn  Sn23  1  0.781957  0.563916  0.454012  1
+  Sn  Sn24  1  0.218043  0.436084  0.545988  1
+  Sn  Sn25  1  0.436084  0.218043  0.454012  1
+  Sn  Sn26  1  0.563916  0.781957  0.545988  1
+  Sn  Sn27  1  0.333333  0.666667  0.122560  1
+  Sn  Sn28  1  0.666667  0.333333  0.877440  1
+  Sn  Sn29  1  0.117445  0.882555  0.270980  1
+  Sn  Sn30  1  0.882555  0.117445  0.729020  1
+  Sn  Sn31  1  0.117445  0.234888  0.270980  1
+  Sn  Sn32  1  0.882555  0.765112  0.729020  1
+  Sn  Sn33  1  0.765112  0.882555  0.270980  1
+  Sn  Sn34  1  0.234888  0.117445  0.729020  1
+  Hg  Hg35  1  0.000000  0.000000  0.500000  1

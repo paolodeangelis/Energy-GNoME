@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KCa(Cu9Si4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18645383
+_cell_length_b   8.18645327
+_cell_length_c   8.18645327
+_cell_angle_alpha   120.55821167
+_cell_angle_beta   120.55820802
+_cell_angle_gamma   89.03583628
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCa(Cu9Si4)2
+_chemical_formula_sum   'K1 Ca1 Cu18 Si8'
+_cell_volume   384.61471918
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.750000  0.750000  0.000000  1
+  Ca  Ca1  1  0.250000  0.250000  0.000000  1
+  Cu  Cu2  1  0.935008  0.204590  0.138199  1
+  Cu  Cu3  1  0.204590  0.066392  0.269582  1
+  Cu  Cu4  1  0.796810  0.935008  0.730418  1
+  Cu  Cu5  1  0.433608  0.295410  0.730418  1
+  Cu  Cu6  1  0.066392  0.796810  0.861801  1
+  Cu  Cu7  1  0.807710  0.060560  0.502317  1
+  Cu  Cu8  1  0.558242  0.305393  0.497683  1
+  Cu  Cu9  1  0.194607  0.941758  0.502317  1
+  Cu  Cu10  1  0.439440  0.692290  0.497683  1
+  Cu  Cu11  1  0.941758  0.439440  0.747149  1
+  Cu  Cu12  1  0.692290  0.194607  0.252851  1
+  Cu  Cu13  1  0.060560  0.558242  0.252851  1
+  Cu  Cu14  1  0.703190  0.433608  0.138199  1
+  Cu  Cu15  1  0.564992  0.703190  0.269582  1
+  Cu  Cu16  1  0.500000  0.000000  0.500000  1
+  Cu  Cu17  1  0.000000  0.500000  0.500000  1
+  Cu  Cu18  1  0.305393  0.807710  0.747149  1
+  Cu  Cu19  1  0.295410  0.564992  0.861801  1
+  Si  Si20  1  0.793312  0.291755  0.852247  1
+  Si  Si21  1  0.558935  0.060492  0.852247  1
+  Si  Si22  1  0.060492  0.208245  0.501557  1
+  Si  Si23  1  0.291755  0.439508  0.498443  1
+  Si  Si24  1  0.941065  0.793312  0.501557  1
+  Si  Si25  1  0.439508  0.941065  0.147753  1
+  Si  Si26  1  0.208245  0.706688  0.147753  1
+  Si  Si27  1  0.706688  0.558935  0.498443  1

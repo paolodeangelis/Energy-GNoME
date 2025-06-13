@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KLa(Cu9Si4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18390076
+_cell_length_b   8.18389962
+_cell_length_c   8.18390071
+_cell_angle_alpha   120.36170776
+_cell_angle_beta   120.36169704
+_cell_angle_gamma   89.37464232
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLa(Cu9Si4)2
+_chemical_formula_sum   'K1 La1 Cu18 Si8'
+_cell_volume   385.44029902
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.750000  0.750000  0.000000  1
+  La  La1  1  0.250000  0.250000  0.000000  1
+  Cu  Cu2  1  0.936107  0.204093  0.138892  1
+  Cu  Cu3  1  0.204093  0.065202  0.267987  1
+  Cu  Cu4  1  0.797215  0.936107  0.732013  1
+  Cu  Cu5  1  0.434798  0.295907  0.732013  1
+  Cu  Cu6  1  0.065202  0.797215  0.861108  1
+  Cu  Cu7  1  0.806688  0.058778  0.499798  1
+  Cu  Cu8  1  0.558979  0.306890  0.500202  1
+  Cu  Cu9  1  0.193110  0.941021  0.499798  1
+  Cu  Cu10  1  0.441222  0.693312  0.500202  1
+  Cu  Cu11  1  0.941021  0.441222  0.747909  1
+  Cu  Cu12  1  0.693312  0.193110  0.252091  1
+  Cu  Cu13  1  0.058778  0.558979  0.252091  1
+  Cu  Cu14  1  0.702785  0.434798  0.138892  1
+  Cu  Cu15  1  0.563893  0.702785  0.267987  1
+  Cu  Cu16  1  0.500000  0.000000  0.500000  1
+  Cu  Cu17  1  0.000000  0.500000  0.500000  1
+  Cu  Cu18  1  0.306890  0.806688  0.747909  1
+  Cu  Cu19  1  0.295907  0.563893  0.861108  1
+  Si  Si20  1  0.794126  0.290719  0.851804  1
+  Si  Si21  1  0.557678  0.061084  0.851804  1
+  Si  Si22  1  0.061084  0.209281  0.503407  1
+  Si  Si23  1  0.290719  0.438916  0.496593  1
+  Si  Si24  1  0.942322  0.794126  0.503407  1
+  Si  Si25  1  0.438916  0.942322  0.148196  1
+  Si  Si26  1  0.209281  0.705874  0.148196  1
+  Si  Si27  1  0.705874  0.557678  0.496593  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_YIn2(SnRh)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99689401
+_cell_length_b   6.99689410
+_cell_length_c   6.96872621
+_cell_angle_alpha   120.54954112
+_cell_angle_beta   120.54954487
+_cell_angle_gamma   89.28528701
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YIn2(SnRh)4
+_chemical_formula_sum   'Y1 In2 Sn4 Rh4'
+_cell_volume   238.71433105
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.000219  0.000219  0.000000  1
+  In  In1  1  0.460790  0.123235  0.000000  1
+  In  In2  1  0.123235  0.460790  0.000000  1
+  Sn  Sn3  1  0.873951  0.873951  0.334308  1
+  Sn  Sn4  1  0.501183  0.001184  0.499999  1
+  Sn  Sn5  1  0.001184  0.501183  0.499999  1
+  Sn  Sn6  1  0.539641  0.539641  0.665691  1
+  Rh  Rh7  1  0.749629  0.395757  0.000000  1
+  Rh  Rh8  1  0.395757  0.749629  0.000000  1
+  Rh  Rh9  1  0.614404  0.614404  0.374396  1
+  Rh  Rh10  1  0.240007  0.240007  0.625603  1

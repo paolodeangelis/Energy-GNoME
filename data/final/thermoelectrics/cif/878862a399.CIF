@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Hf3Zr3NiBiPb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70333900
+_cell_length_b   7.88838405
+_cell_length_c   7.88838500
+_cell_angle_alpha   119.99999978
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Zr3NiBiPb
+_chemical_formula_sum   'Hf3 Zr3 Ni1 Bi1 Pb1'
+_cell_volume   199.57229267
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.500000  0.767437  0.765682  1
+  Hf  Hf1  1  0.500000  0.998245  0.232563  1
+  Hf  Hf2  1  0.500000  0.234318  0.001755  1
+  Zr  Zr3  1  0.000000  0.391423  0.391273  1
+  Zr  Zr4  1  0.000000  0.999850  0.608577  1
+  Zr  Zr5  1  0.000000  0.608727  0.000150  1
+  Ni  Ni6  1  0.000000  0.000000  0.000000  1
+  Bi  Bi7  1  0.500000  0.333333  0.666667  1
+  Pb  Pb8  1  0.500000  0.666667  0.333333  1

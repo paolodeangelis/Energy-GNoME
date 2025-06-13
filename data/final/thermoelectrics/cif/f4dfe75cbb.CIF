@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2SrCdBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97499600
+_cell_length_b   8.24382200
+_cell_length_c   9.43529200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2SrCdBi2
+_chemical_formula_sum   'Na4 Sr2 Cd2 Bi4'
+_cell_volume   386.96945600
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.500000  0.025902  0.419888  1
+  Na  Na1  1  0.000000  0.351360  0.336125  1
+  Na  Na2  1  0.500000  0.525902  0.580112  1
+  Na  Na3  1  0.000000  0.851360  0.663875  1
+  Sr  Sr4  1  0.000000  0.493581  0.949810  1
+  Sr  Sr5  1  0.000000  0.993581  0.050190  1
+  Cd  Cd6  1  0.500000  0.153050  0.816853  1
+  Cd  Cd7  1  0.500000  0.653050  0.183147  1
+  Bi  Bi8  1  0.000000  0.246055  0.658394  1
+  Bi  Bi9  1  0.500000  0.275572  0.130506  1
+  Bi  Bi10  1  0.000000  0.746055  0.341606  1
+  Bi  Bi11  1  0.500000  0.775572  0.869494  1

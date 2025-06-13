@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TbDy2Si2Ag3Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.20052615
+_cell_length_b   7.20052518
+_cell_length_c   4.31066800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.02360251
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbDy2Si2Ag3Sn
+_chemical_formula_sum   'Tb1 Dy2 Si2 Ag3 Sn1'
+_cell_volume   193.50860123
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.432739  0.432739  0.500000  1
+  Dy  Dy1  1  0.567252  0.000040  0.500000  1
+  Dy  Dy2  1  0.000040  0.567252  0.500000  1
+  Si  Si3  1  0.666835  0.333212  0.000000  1
+  Si  Si4  1  0.333212  0.666835  0.000000  1
+  Ag  Ag5  1  0.734958  0.734958  0.000000  1
+  Ag  Ag6  1  0.265244  0.999942  0.000000  1
+  Ag  Ag7  1  0.999942  0.265244  0.000000  1
+  Sn  Sn8  1  0.999778  0.999778  0.500000  1

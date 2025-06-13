@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ce2Dy3AgBiPb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.51627118
+_cell_length_b   9.52973610
+_cell_length_c   6.43254600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.04682453
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2Dy3AgBiPb2
+_chemical_formula_sum   'Ce4 Dy6 Ag2 Bi2 Pb4'
+_cell_volume   504.95898792
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.667377  0.334267  0.501330  1
+  Ce  Ce1  1  0.332623  0.666891  0.501330  1
+  Ce  Ce2  1  0.332623  0.666891  0.998670  1
+  Ce  Ce3  1  0.667377  0.334267  0.998670  1
+  Dy  Dy4  1  0.724722  0.723314  0.250000  1
+  Dy  Dy5  1  0.275278  0.998591  0.250000  1
+  Dy  Dy6  1  0.000000  0.275492  0.250000  1
+  Dy  Dy7  1  0.275391  0.276136  0.750000  1
+  Dy  Dy8  1  0.724609  0.000745  0.750000  1
+  Dy  Dy9  1  0.000000  0.723549  0.750000  1
+  Ag  Ag10  1  0.000000  0.998933  0.501394  1
+  Ag  Ag11  1  0.000000  0.998933  0.998606  1
+  Bi  Bi12  1  0.373457  0.373302  0.250000  1
+  Bi  Bi13  1  0.626543  0.999845  0.250000  1
+  Pb  Pb14  1  0.000000  0.627479  0.250000  1
+  Pb  Pb15  1  0.627951  0.628688  0.750000  1
+  Pb  Pb16  1  0.372049  0.000738  0.750000  1
+  Pb  Pb17  1  0.000000  0.371940  0.750000  1

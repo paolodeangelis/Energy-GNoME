@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sc3NiSn3Pd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46505400
+_cell_length_b   7.46505365
+_cell_length_c   7.09257200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000155
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc3NiSn3Pd2
+_chemical_formula_sum   'Sc6 Ni2 Sn6 Pd4'
+_cell_volume   342.29477117
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.397411  0.014166  0.250000  1
+  Sc  Sc1  1  0.616755  0.602589  0.250000  1
+  Sc  Sc2  1  0.985834  0.383245  0.250000  1
+  Sc  Sc3  1  0.383245  0.985834  0.750000  1
+  Sc  Sc4  1  0.602589  0.616755  0.750000  1
+  Sc  Sc5  1  0.014166  0.397411  0.750000  1
+  Ni  Ni6  1  0.000000  0.000000  0.250000  1
+  Ni  Ni7  1  0.000000  0.000000  0.750000  1
+  Sn  Sn8  1  0.735738  0.000000  0.000000  1
+  Sn  Sn9  1  0.264262  0.264262  0.500000  1
+  Sn  Sn10  1  0.000000  0.735738  0.500000  1
+  Sn  Sn11  1  0.000000  0.735738  0.000000  1
+  Sn  Sn12  1  0.264262  0.264262  0.000000  1
+  Sn  Sn13  1  0.735738  0.000000  0.500000  1
+  Pd  Pd14  1  0.333333  0.666667  0.028689  1
+  Pd  Pd15  1  0.333333  0.666667  0.471311  1
+  Pd  Pd16  1  0.666667  0.333333  0.971311  1
+  Pd  Pd17  1  0.666667  0.333333  0.528689  1

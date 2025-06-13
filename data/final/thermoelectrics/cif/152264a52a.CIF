@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_La3PrSn16(IrRh)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.57045400
+_cell_length_b   7.25170109
+_cell_length_c   18.71077223
+_cell_angle_alpha   89.98201808
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3PrSn16(IrRh)4
+_chemical_formula_sum   'La3 Pr1 Sn16 Ir4 Rh4'
+_cell_volume   620.14168847
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.250000  0.998384  0.858434  1
+  La  La1  1  0.250000  0.501568  0.358441  1
+  La  La2  1  0.750000  0.001564  0.141643  1
+  Pr  Pr3  1  0.750000  0.498706  0.641567  1
+  Sn  Sn4  1  0.250000  0.303695  0.182473  1
+  Sn  Sn5  1  0.250000  0.197437  0.682105  1
+  Sn  Sn6  1  0.750000  0.696380  0.817588  1
+  Sn  Sn7  1  0.750000  0.803728  0.317617  1
+  Sn  Sn8  1  0.250000  0.721020  0.194720  1
+  Sn  Sn9  1  0.250000  0.777803  0.694585  1
+  Sn  Sn10  1  0.750000  0.279206  0.805063  1
+  Sn  Sn11  1  0.750000  0.221039  0.305278  1
+  Sn  Sn12  1  0.250000  0.864091  0.031811  1
+  Sn  Sn13  1  0.250000  0.635279  0.532120  1
+  Sn  Sn14  1  0.750000  0.135805  0.968275  1
+  Sn  Sn15  1  0.750000  0.364261  0.468422  1
+  Sn  Sn16  1  0.250000  0.519148  0.931725  1
+  Sn  Sn17  1  0.250000  0.980850  0.431719  1
+  Sn  Sn18  1  0.750000  0.480863  0.068303  1
+  Sn  Sn19  1  0.750000  0.019369  0.568158  1
+  Ir  Ir20  1  0.250000  0.250669  0.034690  1
+  Ir  Ir21  1  0.250000  0.249426  0.534855  1
+  Ir  Ir22  1  0.750000  0.749398  0.965429  1
+  Ir  Ir23  1  0.750000  0.750424  0.465439  1
+  Rh  Rh24  1  0.250000  0.017297  0.286901  1
+  Rh  Rh25  1  0.250000  0.482760  0.786711  1
+  Rh  Rh26  1  0.750000  0.982462  0.712899  1
+  Rh  Rh27  1  0.750000  0.517367  0.213028  1

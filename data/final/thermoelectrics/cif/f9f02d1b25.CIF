@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu4Zn4Si3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14989500
+_cell_length_b   4.14989569
+_cell_length_c   15.08462400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu4Zn4Si3Ge
+_chemical_formula_sum   'Lu4 Zn4 Si3 Ge1'
+_cell_volume   224.97766197
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.000000  0.000000  0.998615  1
+  Lu  Lu1  1  0.000000  0.000000  0.251516  1
+  Lu  Lu2  1  0.000000  0.000000  0.500140  1
+  Lu  Lu3  1  0.000000  0.000000  0.750016  1
+  Zn  Zn4  1  0.666667  0.333334  0.143454  1
+  Zn  Zn5  1  0.666667  0.333334  0.358808  1
+  Zn  Zn6  1  0.333334  0.666668  0.641351  1
+  Zn  Zn7  1  0.333334  0.666668  0.858552  1
+  Si  Si8  1  0.333334  0.666668  0.383323  1
+  Si  Si9  1  0.666667  0.333334  0.616732  1
+  Si  Si10  1  0.666667  0.333334  0.883365  1
+  Ge  Ge11  1  0.333334  0.666668  0.114128  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Pr2NdTeAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.35623100
+_cell_length_b   10.84565649
+_cell_length_c   7.52897760
+_cell_angle_alpha   89.74252539
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2NdTeAs2
+_chemical_formula_sum   'Pr4 Nd2 Te2 As4'
+_cell_volume   355.71187719
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.250000  0.806869  0.916175  1
+  Pr  Pr1  1  0.750000  0.193131  0.083825  1
+  Pr  Pr2  1  0.750000  0.805839  0.416402  1
+  Pr  Pr3  1  0.250000  0.194161  0.583598  1
+  Nd  Nd4  1  0.250000  0.499858  0.249188  1
+  Nd  Nd5  1  0.750000  0.500142  0.750812  1
+  Te  Te6  1  0.750000  0.000254  0.749176  1
+  Te  Te7  1  0.250000  0.999746  0.250824  1
+  As  As8  1  0.250000  0.658356  0.583584  1
+  As  As9  1  0.750000  0.341644  0.416416  1
+  As  As10  1  0.750000  0.658838  0.083307  1
+  As  As11  1  0.250000  0.341162  0.916693  1

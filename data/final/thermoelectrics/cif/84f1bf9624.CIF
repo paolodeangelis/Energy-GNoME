@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_SrTh2(AgSn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.99704180
+_cell_length_b   8.99704154
+_cell_length_c   8.99704265
+_cell_angle_alpha   149.54480818
+_cell_angle_beta   130.44997233
+_cell_angle_gamma   59.28222368
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrTh2(AgSn)4
+_chemical_formula_sum   'Sr1 Th2 Ag4 Sn4'
+_cell_volume   278.67965867
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.500000  0.000000  0.500000  1
+  Th  Th1  1  0.873179  0.873179  0.000000  1
+  Th  Th2  1  0.126821  0.126821  0.000000  1
+  Ag  Ag3  1  0.475502  0.670290  0.805212  1
+  Ag  Ag4  1  0.865079  0.670290  0.194788  1
+  Ag  Ag5  1  0.134921  0.329710  0.805212  1
+  Ag  Ag6  1  0.524498  0.329710  0.194788  1
+  Sn  Sn7  1  0.282221  0.782221  0.500000  1
+  Sn  Sn8  1  0.717779  0.217779  0.500000  1
+  Sn  Sn9  1  0.811708  0.500000  0.311708  1
+  Sn  Sn10  1  0.188292  0.500000  0.688292  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr5InSiBi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.81745036
+_cell_length_b   8.81745111
+_cell_length_c   5.93582800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.70048764
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr5InSiBi2
+_chemical_formula_sum   'Zr10 In2 Si2 Bi4'
+_cell_volume   400.86751640
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.667142  0.333067  0.006075  1
+  Zr  Zr1  1  0.333067  0.667142  0.006075  1
+  Zr  Zr2  1  0.333067  0.667142  0.493925  1
+  Zr  Zr3  1  0.667142  0.333067  0.493925  1
+  Zr  Zr4  1  0.749048  0.749048  0.750000  1
+  Zr  Zr5  1  0.247457  0.997608  0.750000  1
+  Zr  Zr6  1  0.997608  0.247457  0.750000  1
+  Zr  Zr7  1  0.261160  0.261160  0.250000  1
+  Zr  Zr8  1  0.740718  0.005499  0.250000  1
+  Zr  Zr9  1  0.005499  0.740718  0.250000  1
+  In  In10  1  0.390187  0.001002  0.250000  1
+  In  In11  1  0.001002  0.390187  0.250000  1
+  Si  Si12  1  0.000118  0.000118  0.009371  1
+  Si  Si13  1  0.000118  0.000118  0.490629  1
+  Bi  Bi14  1  0.395492  0.395492  0.750000  1
+  Bi  Bi15  1  0.597289  0.000952  0.750000  1
+  Bi  Bi16  1  0.000952  0.597289  0.750000  1
+  Bi  Bi17  1  0.612938  0.612938  0.250000  1

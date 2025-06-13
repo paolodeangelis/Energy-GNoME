@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KTh(Cu9Si4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.16840715
+_cell_length_b   8.16840522
+_cell_length_c   8.16840573
+_cell_angle_alpha   120.40198679
+_cell_angle_beta   120.40198401
+_cell_angle_gamma   89.30514326
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KTh(Cu9Si4)2
+_chemical_formula_sum   'K1 Th1 Cu18 Si8'
+_cell_volume   383.01474502
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.250000  0.250000  0.000000  1
+  Th  Th1  1  0.750000  0.750000  0.000000  1
+  Cu  Cu2  1  0.693091  0.441637  0.500110  1
+  Cu  Cu3  1  0.441637  0.941527  0.748546  1
+  Cu  Cu4  1  0.192981  0.693091  0.251454  1
+  Cu  Cu5  1  0.558473  0.058363  0.251454  1
+  Cu  Cu6  1  0.941527  0.192981  0.499890  1
+  Cu  Cu7  1  0.200075  0.931611  0.136111  1
+  Cu  Cu8  1  0.795501  0.063964  0.863889  1
+  Cu  Cu9  1  0.436036  0.704499  0.136111  1
+  Cu  Cu10  1  0.568389  0.299925  0.863889  1
+  Cu  Cu11  1  0.704499  0.568389  0.268464  1
+  Cu  Cu12  1  0.299925  0.436036  0.731536  1
+  Cu  Cu13  1  0.931611  0.795501  0.731536  1
+  Cu  Cu14  1  0.307019  0.558473  0.500110  1
+  Cu  Cu15  1  0.806909  0.307019  0.748546  1
+  Cu  Cu16  1  0.000000  0.500000  0.500000  1
+  Cu  Cu17  1  0.500000  0.000000  0.500000  1
+  Cu  Cu18  1  0.063964  0.200075  0.268464  1
+  Cu  Cu19  1  0.058363  0.806909  0.499890  1
+  Si  Si20  1  0.294687  0.789846  0.849926  1
+  Si  Si21  1  0.055239  0.560080  0.849926  1
+  Si  Si22  1  0.560080  0.710154  0.504841  1
+  Si  Si23  1  0.789846  0.939920  0.495159  1
+  Si  Si24  1  0.444761  0.294687  0.504841  1
+  Si  Si25  1  0.939920  0.444761  0.150074  1
+  Si  Si26  1  0.710154  0.205313  0.150074  1
+  Si  Si27  1  0.205313  0.055239  0.495159  1

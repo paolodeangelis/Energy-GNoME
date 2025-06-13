@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_CaSc4(Sn3Os)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.79268167
+_cell_length_b   9.79268147
+_cell_length_c   9.79268200
+_cell_angle_alpha   59.99999820
+_cell_angle_beta   59.99999888
+_cell_angle_gamma   60.00000248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaSc4(Sn3Os)6
+_chemical_formula_sum   'Ca1 Sc4 Sn18 Os6'
+_cell_volume   664.03338992
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.000000  0.000000  0.000000  1
+  Sc  Sc1  1  0.373964  0.373965  0.878107  1
+  Sc  Sc2  1  0.373965  0.878106  0.373964  1
+  Sc  Sc3  1  0.878106  0.373965  0.373964  1
+  Sc  Sc4  1  0.373965  0.373964  0.373964  1
+  Sn  Sn5  1  0.592316  0.592316  0.223053  1
+  Sn  Sn6  1  0.592316  0.223053  0.592316  1
+  Sn  Sn7  1  0.223053  0.592316  0.592316  1
+  Sn  Sn8  1  0.592316  0.592316  0.592316  1
+  Sn  Sn9  1  0.750000  0.750000  0.750000  1
+  Sn  Sn10  1  0.999893  0.350892  0.649324  1
+  Sn  Sn11  1  0.999893  0.999893  0.649324  1
+  Sn  Sn12  1  0.350892  0.999893  0.649324  1
+  Sn  Sn13  1  0.999893  0.649324  0.350892  1
+  Sn  Sn14  1  0.350892  0.649324  0.999893  1
+  Sn  Sn15  1  0.999893  0.649324  0.999893  1
+  Sn  Sn16  1  0.649324  0.999893  0.999893  1
+  Sn  Sn17  1  0.649324  0.350892  0.999893  1
+  Sn  Sn18  1  0.649324  0.999893  0.350892  1
+  Sn  Sn19  1  0.350892  0.999893  0.999893  1
+  Sn  Sn20  1  0.999893  0.999893  0.350892  1
+  Sn  Sn21  1  0.999893  0.350892  0.999893  1
+  Sn  Sn22  1  0.250000  0.250000  0.250000  1
+  Os  Os23  1  0.260599  0.260599  0.739401  1
+  Os  Os24  1  0.739401  0.260599  0.739401  1
+  Os  Os25  1  0.260599  0.739401  0.739401  1
+  Os  Os26  1  0.739401  0.739401  0.260599  1
+  Os  Os27  1  0.260599  0.739401  0.260599  1
+  Os  Os28  1  0.739401  0.260599  0.260599  1

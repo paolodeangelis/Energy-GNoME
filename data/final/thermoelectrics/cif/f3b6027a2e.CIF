@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li2TcSn8Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.47212811
+_cell_length_b   7.47212804
+_cell_length_c   7.47212735
+_cell_angle_alpha   126.51815525
+_cell_angle_beta   126.51814601
+_cell_angle_gamma   79.03818050
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2TcSn8Pt
+_chemical_formula_sum   'Li2 Tc1 Sn8 Pt1'
+_cell_volume   260.62832620
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.495568  0.495568  0.000000  1
+  Li  Li1  1  0.004432  0.004432  0.000000  1
+  Tc  Tc2  1  0.750000  0.750000  0.000000  1
+  Sn  Sn3  1  0.712385  0.531665  0.511603  1
+  Sn  Sn4  1  0.531665  0.020062  0.819279  1
+  Sn  Sn5  1  0.200782  0.712385  0.180721  1
+  Sn  Sn6  1  0.787615  0.299218  0.819279  1
+  Sn  Sn7  1  0.479938  0.968335  0.180721  1
+  Sn  Sn8  1  0.299218  0.479938  0.511603  1
+  Sn  Sn9  1  0.968335  0.787615  0.488397  1
+  Sn  Sn10  1  0.020062  0.200782  0.488397  1
+  Pt  Pt11  1  0.250000  0.250000  0.000000  1

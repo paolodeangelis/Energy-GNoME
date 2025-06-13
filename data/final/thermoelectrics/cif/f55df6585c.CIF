@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Th2Bi2RuPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87906646
+_cell_length_b   6.87906720
+_cell_length_c   8.40377907
+_cell_angle_alpha   65.84012608
+_cell_angle_beta   65.84011876
+_cell_angle_gamma   89.99999140
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th2Bi2RuPt
+_chemical_formula_sum   'Th4 Bi4 Ru2 Pt2'
+_cell_volume   324.29157577
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.125001  0.125890  0.249998  1
+  Th  Th1  1  0.625001  0.624113  0.250000  1
+  Th  Th2  1  0.375886  0.874999  0.750001  1
+  Th  Th3  1  0.874110  0.374999  0.750001  1
+  Bi  Bi4  1  0.625002  0.110866  0.249998  1
+  Bi  Bi5  1  0.125000  0.639136  0.250000  1
+  Bi  Bi6  1  0.360863  0.374999  0.750001  1
+  Bi  Bi7  1  0.889135  0.874999  0.750001  1
+  Ru  Ru8  1  0.000000  0.000000  0.000000  1
+  Ru  Ru9  1  0.250000  0.749999  0.500001  1
+  Pt  Pt10  1  0.500000  0.500000  0.000000  1
+  Pt  Pt11  1  0.749999  0.249998  0.500001  1

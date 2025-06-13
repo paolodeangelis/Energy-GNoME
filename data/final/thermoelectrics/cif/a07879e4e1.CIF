@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_MgZn2(SnRu)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25026800
+_cell_length_b   8.36724600
+_cell_length_c   14.02585500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn2(SnRu)2
+_chemical_formula_sum   'Mg4 Zn8 Sn8 Ru8'
+_cell_volume   498.80201325
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.750000  0.401957  0.974280  1
+  Mg  Mg1  1  0.750000  0.901957  0.525720  1
+  Mg  Mg2  1  0.250000  0.598043  0.025720  1
+  Mg  Mg3  1  0.250000  0.098043  0.474280  1
+  Zn  Zn4  1  0.750000  0.130230  0.860922  1
+  Zn  Zn5  1  0.750000  0.630230  0.639078  1
+  Zn  Zn6  1  0.250000  0.869770  0.139078  1
+  Zn  Zn7  1  0.250000  0.369770  0.360922  1
+  Zn  Zn8  1  0.750000  0.883966  0.745139  1
+  Zn  Zn9  1  0.750000  0.383966  0.754861  1
+  Zn  Zn10  1  0.250000  0.116034  0.254861  1
+  Zn  Zn11  1  0.250000  0.616034  0.245139  1
+  Sn  Sn12  1  0.750000  0.370528  0.196475  1
+  Sn  Sn13  1  0.750000  0.870528  0.303525  1
+  Sn  Sn14  1  0.250000  0.629472  0.803525  1
+  Sn  Sn15  1  0.250000  0.129472  0.696475  1
+  Sn  Sn16  1  0.750000  0.855641  0.981491  1
+  Sn  Sn17  1  0.750000  0.355641  0.518509  1
+  Sn  Sn18  1  0.250000  0.144359  0.018509  1
+  Sn  Sn19  1  0.250000  0.644359  0.481491  1
+  Ru  Ru20  1  0.750000  0.067307  0.142446  1
+  Ru  Ru21  1  0.750000  0.567307  0.357554  1
+  Ru  Ru22  1  0.250000  0.932693  0.857554  1
+  Ru  Ru23  1  0.250000  0.432693  0.642446  1
+  Ru  Ru24  1  0.750000  0.672302  0.138364  1
+  Ru  Ru25  1  0.750000  0.172302  0.361636  1
+  Ru  Ru26  1  0.250000  0.327698  0.861636  1
+  Ru  Ru27  1  0.250000  0.827698  0.638364  1

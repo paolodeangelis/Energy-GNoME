@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li2Sn8RuPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48395483
+_cell_length_b   7.48395492
+_cell_length_c   7.48395436
+_cell_angle_alpha   126.82075689
+_cell_angle_beta   126.82075804
+_cell_angle_gamma   78.54328874
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Sn8RuPt
+_chemical_formula_sum   'Li2 Sn8 Ru1 Pt1'
+_cell_volume   260.04895575
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.003211  0.003211  0.000000  1
+  Li  Li1  1  0.496789  0.496789  0.000000  1
+  Sn  Sn2  1  0.710452  0.527075  0.508801  1
+  Sn  Sn3  1  0.527075  0.018274  0.816623  1
+  Sn  Sn4  1  0.201651  0.710452  0.183377  1
+  Sn  Sn5  1  0.789548  0.298349  0.816623  1
+  Sn  Sn6  1  0.481726  0.972925  0.183377  1
+  Sn  Sn7  1  0.298349  0.481726  0.508801  1
+  Sn  Sn8  1  0.972925  0.789548  0.491199  1
+  Sn  Sn9  1  0.018274  0.201651  0.491199  1
+  Ru  Ru10  1  0.750000  0.750000  0.000000  1
+  Pt  Pt11  1  0.250000  0.250000  0.000000  1

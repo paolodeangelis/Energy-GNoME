@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_Tb4Dy3Co6Sn22Hg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.70225602
+_cell_length_b   9.70205511
+_cell_length_c   10.02858802
+_cell_angle_alpha   90.00700471
+_cell_angle_beta   89.99440696
+_cell_angle_gamma   119.99648841
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4Dy3Co6Sn22Hg
+_chemical_formula_sum   'Tb4 Dy3 Co6 Sn22 Hg1'
+_cell_volume   817.56492785
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000012  0.000052  0.999994  1
+  Tb  Tb1  1  0.478817  0.521253  0.306115  1
+  Tb  Tb2  1  0.521246  0.478804  0.693933  1
+  Tb  Tb3  1  0.478840  0.957619  0.306104  1
+  Dy  Dy4  1  0.521038  0.042097  0.694024  1
+  Dy  Dy5  1  0.042064  0.521044  0.306110  1
+  Dy  Dy6  1  0.957853  0.478910  0.693895  1
+  Co  Co7  1  0.832363  0.167912  0.196972  1
+  Co  Co8  1  0.167823  0.832233  0.802950  1
+  Co  Co9  1  0.832353  0.664447  0.196942  1
+  Co  Co10  1  0.167627  0.335508  0.802998  1
+  Co  Co11  1  0.335428  0.167725  0.196887  1
+  Co  Co12  1  0.664509  0.832385  0.803025  1
+  Sn  Sn13  1  0.346136  0.999981  0.999978  1
+  Sn  Sn14  1  0.653897  0.000066  0.999976  1
+  Sn  Sn15  1  0.999959  0.346154  0.000057  1
+  Sn  Sn16  1  0.999994  0.653849  0.000062  1
+  Sn  Sn17  1  0.653911  0.653869  0.000041  1
+  Sn  Sn18  1  0.346108  0.346160  0.999968  1
+  Sn  Sn19  1  0.333225  0.666681  0.818199  1
+  Sn  Sn20  1  0.666808  0.333424  0.181813  1
+  Sn  Sn21  1  0.782425  0.218139  0.452976  1
+  Sn  Sn22  1  0.217729  0.782031  0.547245  1
+  Sn  Sn23  1  0.782506  0.564234  0.452812  1
+  Sn  Sn24  1  0.217564  0.435792  0.547086  1
+  Sn  Sn25  1  0.435714  0.217692  0.452957  1
+  Sn  Sn26  1  0.564327  0.782464  0.547314  1
+  Sn  Sn27  1  0.332863  0.666403  0.118057  1
+  Sn  Sn28  1  0.666903  0.333192  0.881661  1
+  Sn  Sn29  1  0.116425  0.883178  0.270783  1
+  Sn  Sn30  1  0.883339  0.116737  0.729182  1
+  Sn  Sn31  1  0.116399  0.233145  0.270743  1
+  Sn  Sn32  1  0.883584  0.766847  0.729207  1
+  Sn  Sn33  1  0.767038  0.883525  0.270663  1
+  Sn  Sn34  1  0.233161  0.116439  0.729240  1
+  Hg  Hg35  1  0.000012  0.000010  0.500031  1

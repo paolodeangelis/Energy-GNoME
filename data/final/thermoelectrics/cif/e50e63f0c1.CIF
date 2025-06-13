@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Er3Co2Sn3Hg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.58199200
+_cell_length_b   7.58199177
+_cell_length_c   3.77990900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999226
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er3Co2Sn3Hg
+_chemical_formula_sum   'Er3 Co2 Sn3 Hg1'
+_cell_volume   188.18224305
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.387663  0.415029  0.500000  1
+  Er  Er1  1  0.584971  0.972634  0.500000  1
+  Er  Er2  1  0.027366  0.612337  0.500000  1
+  Co  Co3  1  0.333333  0.666667  0.000000  1
+  Co  Co4  1  0.000000  0.000000  0.500000  1
+  Sn  Sn5  1  0.745333  0.754398  0.000000  1
+  Sn  Sn6  1  0.245602  0.990935  0.000000  1
+  Sn  Sn7  1  0.009065  0.254667  0.000000  1
+  Hg  Hg8  1  0.666667  0.333333  0.000000  1

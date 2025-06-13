@@ -1,0 +1,62 @@
+# generated using pymatgen
+data_ErSc6Cd(Sn11Os3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.71138200
+_cell_length_b   9.71138292
+_cell_length_c   9.94873300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000369
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErSc6Cd(Sn11Os3)2
+_chemical_formula_sum   'Er1 Sc6 Cd1 Sn22 Os6'
+_cell_volume   812.56948198
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.000000  0.000000  0.000000  1
+  Sc  Sc1  1  0.490549  0.509451  0.305030  1
+  Sc  Sc2  1  0.509451  0.490549  0.694970  1
+  Sc  Sc3  1  0.490549  0.981100  0.305030  1
+  Sc  Sc4  1  0.509451  0.018900  0.694970  1
+  Sc  Sc5  1  0.018900  0.509451  0.305030  1
+  Sc  Sc6  1  0.981100  0.490549  0.694970  1
+  Cd  Cd7  1  0.000000  0.000000  0.500000  1
+  Sn  Sn8  1  0.125884  0.874116  0.274314  1
+  Sn  Sn9  1  0.874116  0.125884  0.725686  1
+  Sn  Sn10  1  0.125884  0.251771  0.274314  1
+  Sn  Sn11  1  0.874116  0.748229  0.725686  1
+  Sn  Sn12  1  0.748229  0.874116  0.274314  1
+  Sn  Sn13  1  0.251771  0.125884  0.725686  1
+  Sn  Sn14  1  0.776820  0.223180  0.468475  1
+  Sn  Sn15  1  0.223180  0.776820  0.531525  1
+  Sn  Sn16  1  0.776820  0.553641  0.468475  1
+  Sn  Sn17  1  0.223180  0.446359  0.531525  1
+  Sn  Sn18  1  0.446359  0.223180  0.468475  1
+  Sn  Sn19  1  0.553641  0.776820  0.531525  1
+  Sn  Sn20  1  0.350395  0.000000  0.000000  1
+  Sn  Sn21  1  0.649605  0.000000  0.000000  1
+  Sn  Sn22  1  0.000000  0.350395  0.000000  1
+  Sn  Sn23  1  0.000000  0.649605  0.000000  1
+  Sn  Sn24  1  0.649605  0.649605  0.000000  1
+  Sn  Sn25  1  0.350395  0.350395  0.000000  1
+  Sn  Sn26  1  0.333333  0.666667  0.147452  1
+  Sn  Sn27  1  0.666667  0.333333  0.852548  1
+  Sn  Sn28  1  0.333333  0.666667  0.832862  1
+  Sn  Sn29  1  0.666667  0.333333  0.167138  1
+  Os  Os30  1  0.829177  0.170823  0.207273  1
+  Os  Os31  1  0.170823  0.829177  0.792727  1
+  Os  Os32  1  0.829177  0.658357  0.207273  1
+  Os  Os33  1  0.170823  0.341643  0.792727  1
+  Os  Os34  1  0.341643  0.170823  0.207273  1
+  Os  Os35  1  0.658357  0.829177  0.792727  1
