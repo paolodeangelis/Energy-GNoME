@@ -7,7 +7,7 @@ from mp_api.client import MPRester
 import pandas as pd
 from tqdm import tqdm
 
-from energy_gnome.config import DATA_DIR, INTERIM_DATA_DIR, RAW_DATA_DIR
+from energy_gnome.config import DATA_DIR, INTERIM_DATA_DIR
 from energy_gnome.dataset.base_dataset import BaseDatabase
 from energy_gnome.exception import ImmutableRawDataError, MissingData
 from energy_gnome.utils.logger_config import logger
@@ -16,10 +16,6 @@ from energy_gnome.utils.mp_api_utils import (
     get_material_by_id,
     get_mp_api_key,
 )
-
-# Paths
-CATHODES_RAW_DATA_DIR = RAW_DATA_DIR / "cathodes"
-
 
 BAT_FIELDS = [
     "battery_id",

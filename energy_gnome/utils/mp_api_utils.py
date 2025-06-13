@@ -13,10 +13,6 @@ from energy_gnome.config import API_KEYS, CONFIG_YAML_FILE
 
 from .logger_config import logger
 
-# from pathlib import Path
-# from typing import Any, List
-
-
 MAT_FIELDS = [
     "formula_pretty",
     "volume",
@@ -50,8 +46,8 @@ def convert_my_query_to_dataframe(query: list, mute_progress_bars=False) -> pd.D
     dict_query = []
     for d_ in tqdm(query, desc="converting material documents", disable=mute_progress_bars):
         dict_query.append(d_.dict())
-    database = pd.DataFrame(dict_query)
-    return database
+    dataframe = pd.DataFrame(dict_query)
+    return dataframe
 
 
 def get_material_by_id(ids: list, doc_prefix="", mute_progress_bars=False) -> list:

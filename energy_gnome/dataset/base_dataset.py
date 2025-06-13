@@ -8,11 +8,10 @@ except ImportError:
     pass
 
 from abc import ABC, abstractmethod
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 import shutil as sh
-from typing import Any, Optional
+from typing import Any
 
 from loguru import logger
 from numpy.random import PCG64, Generator
@@ -87,25 +86,6 @@ class BaseDatabase(ABC):
         self.subset = {subset: pd.DataFrame() for subset in self.interim_sets}
         self._update_raw = False
         self._is_specialized = False
-        self._set_is_specialized()
-        self.load_all()
-
-    @abstractmethod
-    def _set_is_specialized(
-        self,
-    ):
-        """
-        Set the `is_specialized` attribute.
-
-        This method marks the database as specialized by setting the `is_specialized`
-        attribute to `True`. It is typically used to indicate that the database
-        is intended for a specific class of data, corresponding to specialized
-        energy materials.
-
-        Returns:
-            None
-        """
-        pass
 
     def allow_raw_update(self):
         """
@@ -167,7 +147,7 @@ class BaseDatabase(ABC):
             new_db (pd.DataFrame): The new database with updated entries.
             differences (pd.Series): A series containing the material IDs of entries that differ.
             stage (str): The processing stage ("raw", "processed", "final") for which the backup
-                        and changelog are being maintained.
+                and changelog are being maintained.
 
         Raises:
             ValueError: If an invalid `stage` is provided.
@@ -207,11 +187,17 @@ class BaseDatabase(ABC):
         new_db_indexed = new_db.set_index("material_id")
 
         # Process differences efficiently
-        changes = [
-            f"{identifier:<15}{new_db_indexed.at[identifier, 'formula_pretty'] if identifier in new_db_indexed.index else 'N/A':<30}"
-            f"{new_db_indexed.at[identifier, 'last_updated'] if identifier in new_db_indexed.index else 'N/A':<25}\n"
-            for identifier in differences["material_id"]
-        ]
+        if "last_updated" in new_db_indexed.columns:
+            changes = [
+                f"{identifier:<15}{new_db_indexed.at[identifier, 'formula_pretty'] if identifier in new_db_indexed.index else 'N/A':<30}"
+                f"{new_db_indexed.at[identifier, 'last_updated'] if identifier in new_db_indexed.index else 'N/A':<25}\n"
+                for identifier in differences["material_id"]
+            ]
+        else:
+            changes = [
+                f"{identifier:<15}{new_db_indexed.at[identifier, 'formula_pretty'] if identifier in new_db_indexed.index else 'N/A':<30}"
+                for identifier in differences["material_id"]
+            ]
 
         try:
             with open(changelog_path, "a") as file:
@@ -282,15 +268,10 @@ class BaseDatabase(ABC):
     def retrieve_materials(self) -> list[Any]:
         pass
 
-    @abstractmethod
     def save_cif_files(self) -> None:
         pass
 
-    def copy_cif_files(
-        self,
-        stage: str,
-        mute_progress_bars: bool = True,
-    ) -> None:
+    def copy_cif_files(self, stage: str, mute_progress_bars: bool = True) -> None:
         """
         Copy CIF files from the raw stage to another processing stage.
 
@@ -583,7 +564,7 @@ class BaseDatabase(ABC):
             logger.error(f"Failed to save database to {db_path}: {e}")
             raise OSError(f"Failed to save database to {db_path}: {e}") from e
 
-    def build_reduced_database(
+    def random_downsample(
         self,
         size: int,
         new_name: str,
@@ -613,7 +594,8 @@ class BaseDatabase(ABC):
             ERROR: If the database size is set to 0.
             INFO: If the new reduced database is successfully created and saved.
         """
-        new_database = self.__class__(data_dir=self.data_dir, name=new_name)
+        new_database = self.__class__(name=new_name, data_dir=self.data_dir)
+
         if size == 0:
             logger.error("You are creating an empty database.")
             raise ValueError("You are creating an empty database.")
@@ -631,15 +613,15 @@ class BaseDatabase(ABC):
                     subset_path_son.parent.mkdir(parents=True, exist_ok=True)
                 make_link(subset_path_father, subset_path_son)
 
-        database = new_database.databases[stage].copy()
-        n_all = len(database)
+        df = new_database.databases[stage].copy()
+        n_all = len(df)
         rng = Generator(PCG64(seed))
         row_i_all = rng.choice(n_all, size, replace=False)
-        new_database.databases[stage] = database.iloc[row_i_all, :].reset_index(drop=True)
+        new_database.databases[stage] = df.iloc[row_i_all, :].reset_index(drop=True)
 
         new_database.save_database(stage)
 
-        return new_database
+        return new_database.databases[stage]
 
     def save_split_db(self, database_dict: dict, model_type: str = "regressor") -> None:
         """
@@ -771,7 +753,7 @@ class BaseDatabase(ABC):
         self,
         test_size: float = 0.2,
         seed: int = 42,
-        balance_composition: bool = False,
+        balance_composition: bool = True,
         save_split: bool = False,
     ) -> None:
         """
@@ -788,7 +770,7 @@ class BaseDatabase(ABC):
             seed (int, optional): The random seed for reproducibility. Defaults to 42.
             balance_composition (bool, optional): Whether to balance the frequency of chemical
                 species across the training and test sets in addition to stratifying by the
-                target property (`is_specialized`). Defaults to False.
+                target property (`is_specialized`). Defaults to True.
             save_split (bool, optional): Whether to save the resulting splits as files. Defaults to False.
 
         Returns:

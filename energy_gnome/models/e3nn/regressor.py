@@ -129,9 +129,9 @@ class E3NNRegressor(BaseRegressor):
             model_name (str): Name of the model, used to create subdirectories.
             target_property (str): The target property the model is trained to predict.
             models_dir (Path | str, optional): Directory for storing trained model weights.
-                                            Defaults to `MODELS_DIR` from config.
+                Defaults to `MODELS_DIR` from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to `FIGURES_DIR` from config.
+                Defaults to `FIGURES_DIR` from config.
 
         Attributes:
             _model_spec (str): Specification string used for model identification.
@@ -150,6 +150,8 @@ class E3NNRegressor(BaseRegressor):
         self.l_max: int = 2
         self.r_max: int = 4
         self.conv_layers: int = 2
+        self.batch_size: int = 1
+        self.device: str | None = None
 
     def _find_model_states(self):
         models_states = []
@@ -169,7 +171,7 @@ class E3NNRegressor(BaseRegressor):
 
         Args:
             state (str, optional): The key used to extract model weights from the saved
-                                state dictionary (e.g., `"state_best"`). Defaults to `"state_best"`.
+                state dictionary (e.g., `"state_best"`). Defaults to `"state_best"`.
 
         Returns:
             list[str]: A list of `.torch` model filenames that were found in the directory.
@@ -315,7 +317,7 @@ class E3NNRegressor(BaseRegressor):
         Args:
             lr (float): The learning rate for the optimizer. It should be a positive float.
             wd (float): The weight decay (regularization) parameter for the optimizer.
-                        It should be a non-negative float.
+                It should be a non-negative float.
         """
         self.learning_rate = lr
         self.weight_decay = wd
@@ -331,12 +333,12 @@ class E3NNRegressor(BaseRegressor):
 
         Args:
             dataset (pd.DataFrame): Input dataset containing the CIF file paths and optionally
-                                    the target property.
+                the target property.
 
         Returns:
             (pd.DataFrame): The featurized dataset, including chemical information and features
-                        for model training. The dataset includes columns for 'structure', 'species',
-                        'formula', and 'data' (featurized data).
+                for model training. The dataset includes columns for 'structure', 'species',
+                'formula', and 'data' (featurized data).
         """
         if dataset.empty:
             return pd.DataFrame()
@@ -401,14 +403,14 @@ class E3NNRegressor(BaseRegressor):
 
         Args:
             databases (BaseDatabase | list[BaseDatabase]): A single instance or a list of `BaseDatabase` objects
-                                                        containing processed data. If multiple databases are provided,
-                                                        they will be concatenated.
+                containing processed data. If multiple databases are provided,
+                they will be concatenated.
             subset (str, optional): The specific data subset to use (`training`, `validation`, or `testing`).
-                                    If `None`, all data will be used. Defaults to `None`.
+                If `None`, all data will be used. Defaults to `None`.
             shuffle (bool, optional): Whether to shuffle the data. This is only applicable for the training set.
-                                    Defaults to `False`.
+                Defaults to `False`.
             confidence_threshold (float, optional): The threshold for filtering out low-confidence entries in the
-                                                    `GNoMEDatabase`. Defaults to `0.5`.
+                `GNoMEDatabase`. Defaults to `0.5`.
 
         Raises:
             ValueError: If shuffling is set to `True` for the validation or testing subset.
@@ -471,15 +473,15 @@ class E3NNRegressor(BaseRegressor):
 
         Args:
             optimizer_class (torch.optim.Optimizer, optional): The optimizer class to use.
-                                                            Defaults to `torch.optim.AdamW`.
+                Defaults to `torch.optim.AdamW`.
             scheduler_class (torch.optim.lr_scheduler._LRScheduler, optional): The learning rate
-                                                                scheduler class to use.
-                                                                Defaults to `torch.optim.lr_scheduler.ExponentialLR`.
+                scheduler class to use.
+                Defaults to `torch.optim.lr_scheduler.ExponentialLR`.
             scheduler_settings (dict, optional): A dictionary of settings for the learning rate scheduler.
-                                                For example, `gamma` can be set to control the decay rate.
-                                                Defaults to `{"gamma": 0.96}`.
+                For example, `gamma` can be set to control the decay rate.
+                Defaults to `{"gamma": 0.96}`.
             loss_function (callable, optional): The loss function to use for training.
-                                                Defaults to `torch.nn.L1Loss`.
+                Defaults to `torch.nn.L1Loss`.
 
         Raises:
             ValueError: If `optimizer_class` is not a subclass of `torch.optim.Optimizer`.
@@ -513,8 +515,8 @@ class E3NNRegressor(BaseRegressor):
 
         Args:
             num_neighbors (float): Scaling factor based on the typical number of neighbors
-                                for the convolution operation. It influences the model's
-                                sensitivity to local atomic environments.
+                for the convolution operation. It influences the model's
+                sensitivity to local atomic environments.
         """
         out_dim = 1  # Predict a scalar output
         em_dim = 64
@@ -543,7 +545,7 @@ class E3NNRegressor(BaseRegressor):
             models[f"model_{i}"] = PeriodicNetwork(**model_settings)
         self.models: dict[str, torch.nn.Module] = models
 
-    def compile_(
+    def compile(  # noqa:A003
         self,
         num_neighbors: float,
         lr: float = DEFAULT_OPTIM_SETTINGS["lr"],
@@ -566,17 +568,17 @@ class E3NNRegressor(BaseRegressor):
         Args:
             num_neighbors (float): The scaling factor based on the typical number of neighbors.
             lr (float, optional): The learning rate for the optimizer.
-                                    Defaults to `DEFAULT_OPTIM_SETTINGS["lr"]`.
+                Defaults to `DEFAULT_OPTIM_SETTINGS["lr"]`.
             wd (float, optional): The weight decay for the optimizer.
-                                    Defaults to `DEFAULT_OPTIM_SETTINGS["wd"]`.
+                Defaults to `DEFAULT_OPTIM_SETTINGS["wd"]`.
             optimizer_class (torch.optim.Optimizer, optional): The optimizer class to use.
-                                                                Defaults to `torch.optim.AdamW`.
+                Defaults to `torch.optim.AdamW`.
             scheduler_class (torch.optim.lr_scheduler._LRScheduler, optional): The learning rate scheduler class.
-                                                                Defaults to `torch.optim.lr_scheduler.ExponentialLR`.
+                Defaults to `torch.optim.lr_scheduler.ExponentialLR`.
             scheduler_settings (dict, optional): The settings for the learning rate scheduler.
-                                                    Defaults to `dict(gamma=0.99)`.
+                Defaults to `dict(gamma=0.99)`.
             loss_function (torch.nn.Module, optional): The loss function to use for training.
-                                                        Defaults to `torch.nn.L1Loss`.
+                Defaults to `torch.nn.L1Loss`.
 
         Raises:
             ValueError: If `num_neighbors` is not a positive number.
@@ -728,7 +730,7 @@ class E3NNRegressor(BaseRegressor):
             logger.info("[SCRIPT] Running in a script. Using asyncio.run().")
             asyncio.run(self._multi(dataloader_train, dataloader_valid))
 
-    def plot_history(self):
+    def plot_history(self, fig_settings: dict[str, Any] = dict(figsize=(5, 3), dpi=100)):
         """
         Plot the training and validation loss history for each trained model.
 
@@ -769,7 +771,7 @@ class E3NNRegressor(BaseRegressor):
                 loss_train = [d["train"]["loss"] for d in history]
                 loss_valid = [d["valid"]["loss"] for d in history]
 
-                fig, ax = plt.subplots(figsize=(7, 3), dpi=150)
+                fig, ax = plt.subplots(**fig_settings)
                 ax.plot(steps, loss_train, "o-", label="Training")
                 ax.plot(steps, loss_valid, "o-", label="Validation")
                 ax.set_xlabel("epochs")
@@ -810,18 +812,18 @@ class E3NNRegressor(BaseRegressor):
 
         Returns:
             (pd.DataFrame): If `return_df=True`, returns a pandas DataFrame where each column
-                            corresponds to predictions and loss for each model.
-                            The columns include:
-                                - `true_value`: Ground truth values.
-                                - `model_i_prediction`: Predictions from model `i`.
-                                - `model_i_loss`: L1 loss for model `i`.
+                corresponds to predictions and loss for each model.
+                The columns include:
+                - `true_value`: Ground truth values.
+                - `model_i_prediction`: Predictions from model `i`.
+                - `model_i_loss`: L1 loss for model `i`.
 
             (dict[str, pd.DataFrame]): If `return_df=False`, returns a dictionary where each key is
-                    a model identifier (e.g., `model_0`, `model_1`, ...) and the value is a
-                    DataFrame containing the following columns:
-                        - `true_value`: Ground truth values.
-                        - `prediction`: Predictions from the model.
-                        - `loss`: L1 loss computed for each sample.
+                a model identifier (e.g., `model_0`, `model_1`, ...) and the value is a
+                DataFrame containing the following columns:
+                    - `true_value`: Ground truth values.
+                    - `prediction`: Predictions from the model.
+                    - `loss`: L1 loss computed for each sample.
         """
         if return_df:
             prediction_nn = pd.DataFrame()
@@ -871,7 +873,12 @@ class E3NNRegressor(BaseRegressor):
 
         return prediction_nn
 
-    def plot_parity(self, predictions_dict: dict[str, pd.DataFrame], include_ensemble: bool = True):
+    def plot_parity(
+        self,
+        predictions_dict: dict[str, pd.DataFrame],
+        include_ensemble: bool = True,
+        fig_settings: dict[str, Any] = dict(figsize=(5, 3), dpi=100),
+    ):
         """
         Plot a parity plot for model predictions and their comparison with true values.
 
@@ -888,7 +895,7 @@ class E3NNRegressor(BaseRegressor):
                 is included in the plot. Default is `True`.
         """
         all_predictions = []
-        fig, ax = plt.subplots(figsize=(5, 3), dpi=300)
+        fig, ax = plt.subplots(**fig_settings)
 
         colors = plt.cm.tab10.colors  # Get distinct colors for different models
 
@@ -997,9 +1004,9 @@ class E3NNRegressor(BaseRegressor):
 
         Returns:
             (pd.DataFrame): A DataFrame containing the predictions and uncertainties for the dataset,
-                            with one column for each regressor model and additional columns for
-                            the mean (`regressor_mean`) and standard deviation (`regressor_std`)
-                            of the predictions across all models.
+                with one column for each regressor model and additional columns for
+                the mean (`regressor_mean`) and standard deviation (`regressor_std`)
+                of the predictions across all models.
         """
         prediction_nn = pd.DataFrame()
 
@@ -1034,14 +1041,14 @@ class E3NNRegressor(BaseRegressor):
         Args:
             db (GNoMEDatabase): The database containing the materials and their properties.
             confidence_threshold (float, optional): The minimum classifier committee confidence
-                                                    required to keep a material for prediction.
-                                                    Defaults to `0.5`.
+                required to keep a material for prediction.
+                Defaults to `0.5`.
             save_final (bool, optional): Whether to save the final database with predictions.
-                                        Defaults to `True`.
+                Defaults to `True`.
 
         Returns:
             (pd.DataFrame): A DataFrame containing the predictions, along with the true values and
-                        classifier committee confidence scores for the screened materials.
+                classifier committee confidence scores for the screened materials.
 
         Notes:
             - The method filters the materials based on the classifier confidence, then uses the

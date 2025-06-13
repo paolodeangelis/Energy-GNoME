@@ -484,10 +484,15 @@ def main():
 
             # Add thermoelectric properties if in thermoelectrics DB
             elif "thermoelectrics" in db_key:
+                try:
+                    ai_experts_m_thermo[m_id]
+                except KeyError:
+                    ai_experts_m_thermo[m_id] = {}
+                    ai_experts_dev_thermo[m_id] = {}
                 data = db_dict[db_key][db_dict[db_key]["Material Id"] == m_id]
                 wT = db_key.split("/")[-1].replace("K", "")
-                ai_experts_m_thermo[wT] = data["AI-experts confidence (-)"].values[0]
-                ai_experts_dev_thermo[wT] = data["AI-experts confidence (deviation) (-)"].values[0]
+                ai_experts_m_thermo[m_id][wT] = data["AI-experts confidence (-)"].values[0]
+                ai_experts_dev_thermo[m_id][wT] = data["AI-experts confidence (deviation) (-)"].values[0]
                 property_dict, note = add_thermoelectric_properties(data, wT)
 
                 # If the material already has thermoelectric predictions, append new models
@@ -510,8 +515,7 @@ def main():
                 # Ensure infos are stored properly under the category
                 if "infos" not in materials_data[m_id]:
                     materials_data[m_id]["infos"] = []
-
-                thermo_info = make_thermoelectric_info(ai_experts_m_thermo, ai_experts_dev_thermo)
+                thermo_info = make_thermoelectric_info(ai_experts_m_thermo[m_id], ai_experts_dev_thermo[m_id])
                 materials_data[m_id]["infos"] = [thermo_info]
 
                 materials_data[m_id]["predicted_properties"]["thermoelectric"]["properties"] = {

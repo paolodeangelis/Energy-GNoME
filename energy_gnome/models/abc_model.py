@@ -8,13 +8,11 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 
 from loguru import logger
-import pandas as pd
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor
 import torch
 from tqdm import tqdm
 
 from energy_gnome.config import FIGURES_DIR, MODELS_DIR
-from energy_gnome.dataset import GNoMEDatabase
 
 DEFAULT_DTYPE = torch.float64
 BAR_FORMAT = "{l_bar}{bar:10}{r_bar}"
@@ -40,9 +38,9 @@ class BaseRegressor(ABC):
             model_name (str): Name of the model, used to create subdirectories.
             target_property (str): The target property the model is trained to predict.
             models_dir (Path, optional): Directory for storing trained model weights.
-                                        Defaults to MODELS_DIR from config.
+                Defaults to MODELS_DIR from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to FIGURES_DIR from config.
+                Defaults to FIGURES_DIR from config.
 
         Attributes:
             models_dir (Path): Path where model weights are stored.
@@ -62,11 +60,9 @@ class BaseRegressor(ABC):
         self.figures_dir = Path(figures_dir, model_name) / "regressors"
         self.figures_dir.mkdir(parents=True, exist_ok=True)
 
-        self.models: dict[str, torch.nn.Module] = {}  # this will change with the addition of GBDT regressors
-        self.device: str | None = None
+        self.models: dict[str, torch.nn.Module | GradientBoostingRegressor] = {}
 
         self.n_committers: int = 1
-        self.batch_size: int = 1
 
         models_weights = self._find_model_states()
         if len(models_weights) > 0:
@@ -90,7 +86,7 @@ class BaseRegressor(ABC):
         pass
 
     @abstractmethod
-    def compile_(self):
+    def compile(self):  # noqa:A003
         pass
 
     @abstractmethod
@@ -121,9 +117,9 @@ class BaseClassifier(ABC):
         Args:
             model_name (str): Name of the model, used to create subdirectories.
             models_dir (Path, optional): Directory for storing trained model parameters.
-                                        Defaults to `MODELS_DIR` from config.
+                Defaults to `MODELS_DIR` from config.
             figures_dir (Path | str, optional): Directory for saving figures and visualizations.
-                                                Defaults to `FIGURES_DIR` from config.
+                Defaults to `FIGURES_DIR` from config.
 
         Attributes:
             models_dir (Path): Path where model parameters are stored.
@@ -165,7 +161,7 @@ class BaseClassifier(ABC):
         pass
 
     @abstractmethod
-    def compile_(self):
+    def compile(self):  # noqa:A003
         pass
 
     @abstractmethod
