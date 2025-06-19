@@ -4,9 +4,18 @@
 
 - [ ] `energy-gnome` python library
     - [ ] Data handlers Objects
-        - [ ] ...
+        - [ ] Cathodes
+        - [X] Perovskites
+        - [X] Thermoelectrics
+        - [X] Materials Project
+        - [X] GNoME
     - [ ] Model handlers Objects
-        - [ ] ...
+        - [ ] E(3)NN
+            - [ ] AI-Experts
+            - [X] Regressors
+        - [ ] GBDT
+            - [X] AI-Experts
+            - [X] Regressors
 
 ## CLI
 
@@ -17,8 +26,14 @@
 
 - [ ] `jupyter` notebooks tutorials
     - [ ] Cathodes
-    - [ ] Perovskites
-    - [ ] Thermoelectrics
+    - [X] Perovskites
+    - [X] Thermoelectrics
+    - [X] Materials Project
+    - [X] GNoME
+    - [X] E3NN Regressor
+    - [ ] E3NN Classifier
+    - [X] GBDT Regressor
+    - [X] GBDT Classifier
 
 ## Doc
 
@@ -31,3 +46,9 @@
     - [ ] Cathodes
     - [ ] Perovskites
     - [ ] Thermoelectrics
+    - [ ] Materials Project
+    - [ ] GNoME
+    - [X] E3NN Regressor
+    - [ ] E3NN Classifier
+    - [ ] GBDT Regressor
+    - [ ] GBDT Classifier

@@ -24,6 +24,12 @@ Along with the database, we plan to release the full Python library to ensure co
     - [ ] Cathodes
     - [X] Perovskites
     - [X] Thermoelectrics
+    - [X] Materials Project
+    - [X] GNoME
+    - [X] E3NN Regressor
+    - [ ] E3NN Classifier
+    - [X] GBDT Regressor
+    - [X] GBDT Classifier
 
 ![Coming Soon](../assets/img/coming_soon_light.png#only-light)
 ![Coming Soon](../assets/img/coming_soon_dark.png#only-dark)

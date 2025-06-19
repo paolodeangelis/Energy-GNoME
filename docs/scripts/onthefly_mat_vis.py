@@ -515,8 +515,13 @@ def main():
                 # Ensure infos are stored properly under the category
                 if "infos" not in materials_data[m_id]:
                     materials_data[m_id]["infos"] = []
+
+                # Check if the category is already present
+                existing_categories = {info["category"] for info in materials_data[m_id]["infos"]}
+
                 thermo_info = make_thermoelectric_info(ai_experts_m_thermo[m_id], ai_experts_dev_thermo[m_id])
-                materials_data[m_id]["infos"] = [thermo_info]
+                if thermo_info["category"] not in existing_categories:
+                    materials_data[m_id]["infos"].append(thermo_info)
 
                 materials_data[m_id]["predicted_properties"]["thermoelectric"]["properties"] = {
                     key: value
