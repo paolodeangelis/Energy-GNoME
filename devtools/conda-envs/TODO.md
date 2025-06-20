@@ -8,12 +8,14 @@
         - [X] Perovskites
         - [X] Thermoelectrics
         - [X] Materials Project
-        - [X] GNoME
+        - [ ] GNoME
+            - [ ] Fetch from DeepMind's GitHub
+            - [X] Everything else
     - [ ] Model handlers Objects
         - [ ] E(3)NN
             - [ ] AI-Experts
             - [X] Regressors
-        - [ ] GBDT
+        - [X] GBDT
             - [X] AI-Experts
             - [X] Regressors
 
@@ -31,7 +33,6 @@
     - [X] Materials Project
     - [X] GNoME
     - [X] E3NN Regressor
-    - [ ] E3NN Classifier
     - [X] GBDT Regressor
     - [X] GBDT Classifier
 
@@ -49,6 +50,5 @@
     - [ ] Materials Project
     - [ ] GNoME
     - [X] E3NN Regressor
-    - [ ] E3NN Classifier
     - [ ] GBDT Regressor
     - [ ] GBDT Classifier
