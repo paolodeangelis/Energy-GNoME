@@ -106,19 +106,22 @@ Additional articles to cite:
     - [x] Perovskites
     - [x] Thermoelectrics
 - [ ] `energy-gnome` python library
-    - [ ] Data handlers Objects
-    - [ ] Model handlers Objects
+    - [X] Data handlers Objects
+    - [X] Model handlers Objects
     - [ ] CLI `e-gnome`
-- [ ] `jupyter` notebooks tutorials
-    - [ ] Cathodes
-    - [ ] Perovskites
-    - [ ] Thermoelectrics
+- [X] `jupyter` notebooks tutorials
+    - [X] Perovskites
+    - [X] Thermoelectrics
+    - [X] Materials Project
+    - [X] GNoME
+    - [X] E(3)NN Regressor
+    - [X] GBDT Regressor
+    - [X] GBDT Classifier
 
 Detailed **TODO** list:
 - [`energy-gnome` API](devtools/conda-envs/TODO.md#api)
-- [`energy-gnom` CLI](devtools/conda-envs/TODO.md#cli)
-- [`energy-gnom` notebooks](devtools/conda-envs/TODO.md#jupyter-notebooks)
-- [`energy-gnom` documentation](devtools/conda-envs/TODO.md#doc)
+- [`energy-gnome` CLI](devtools/conda-envs/TODO.md#cli)
+- [`energy-gnome` documentation](devtools/conda-envs/TODO.md#doc)
 
 ## Project Organization
 
@@ -128,6 +131,7 @@ Detailed **TODO** list:
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
 │   ├── external       <- Data from third party sources.
+│   ├── final          <- The screened candidates, along with predictions on their properties of interest.
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
@@ -136,9 +140,7 @@ Detailed **TODO** list:
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter notebooks demonstrating example usage of the `energy-gnome`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for
 │                         energy_gnome and configuration for tools like black
@@ -153,52 +155,44 @@ Detailed **TODO** list:
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── energy_gnome   <- Source code for use in this project.
+└── energy_gnome       <- Source code for use in this project.
     │
-    ├── __init__.py             <- Makes energy_gnome a Python module
+    ├── __init__.py    <- Makes energy_gnome a Python module
     │
-    ├── config.py               <- Store useful variables and configuration
+    ├── config.py      <- Store useful variables and configuration
     │
-    ├── dataset.py              <- Scripts to download or generate data
+    ├── dataset        <- Scripts to handle data and features for modeling
     │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling
-    │   ├── __init__.py
-    │   ├── predict.py          <- Code to run model inference with trained models
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
+    ├── models         <- Scripts to handle ML models
 ```
 
 --------
 
 ### [Contributing](.github/CONTRIBUTING.md)
 
-We still working on the testing and of the API to allow easy continue integrtion of new models and databaset to allow the project to be up-todate with computetional materials state-of-the-art
+⚠️ Work in Progress
 
-Thus the contribution at the moment are limited, you can fork the project and try to add your model/database. First check the contribution [istructions](.github/CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
+We are actively working on improving testing and refining the API to support the seamless integration of new models and datasets. Our goal is to keep the project aligned with the latest advancements in computational materials science.
 
-If you want to test our protocol with your new material descriptors and/or ML model (both for the regression or classification), pleas considete to write us an email to [paolo.deangelis@polito.it](mailto:paolo.deangelis@polito.it) for help and support in this integration or in general if you want collaborate on possible future reserch using our protocol/database.
+How You Can Contribute
+While the contribution process is still under development, you’re welcome to get involved by:
 
+Reviewing the contribution [guidelines](.github/CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-### [Contributing](.github/CONTRIBUTING.md)
+Forking the repository and creating a feature branch.
 
-⚠️ **Work in progress**
-We are still working on testing and refining the API to allow easy, continuous integration of new models and datasets, keeping the project up to date with state-of-the-art computational materials research.
+Adding your model or dataset (note: the test suite is still under construction).
 
+Submitting a pull request for review.
 
-#### How to help right now
+For Larger Contributions
+If you're interested in integrating new material descriptors or machine learning models (for regression or classification), we recommend:
 
-1. Review the [contribution instructions](.github/CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
-2. **Fork the repository** and create a feature branch.
-3. Implement and test (⚠️ test suite not implemented yet) your integration.
-4. Submit your pull request
+Opening an issue to discuss your proposal, or
 
-#### Larger integrations
+Contacting us directly at [paolo.deangelis@polito.it](mailto:paolo.deangelis@polito.it) for guidance and support.
 
-If you'd like to add **new material descriptors** or **ML/NN models** (regression or classification), open an issue first or email us at [paolo.deangelis@polito.it](mailto:paolo.deangelis@polito.it).
-We're happy to guide you through the integration and explore future collaborations.
+We are happy to assist with integration and discuss potential research collaborations using the protocol or database.
 
 
 <hr width="100%">
