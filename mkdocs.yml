@@ -240,12 +240,22 @@ nav:
     - Overview: docs/index.md
     - Getting started: docs/getting-started.md
     - Usage:
-        - Datasets object: docs/usage/data_obj.md
-        - Models object: docs/usage/model_obj.md
+        - Database objects: docs/usage/data_obj.md
+        - Model objects: docs/usage/model_obj.md
         - How to add new Models: docs/usage/how_to_add_models.md
-        - How to add new Datasets: docs/usage/how_to_add_datasets.md
+        - How to add new Databases: docs/usage/how_to_add_databases.md
     - Examples:
-        - E(3)NN regressor training: docs/example/e3nn_regressor.md
+        - Databases:
+            - MP database initialization: docs/example/mp_querying.md
+            - Perovskite database initialization: docs/example/perovskites.md
+        - Models:
+            - E(3)NN regressor training: docs/example/e3nn_regressor.md
+            - GBDT classifier training: docs/example/gbdt_classifier.md
+            - GBDT regressor training: docs/example/gbdt_regressor.md
+            - Parallel training: docs/example/parallel_training.md
+        - Protocol:
+            - GNoME screening: docs/example/gnome_screening.md
+            - Thermoelectrics pipeline: docs/example/thermoelectrics.md
     - CLI: docs/cli.md
     - Modules:
         - Datasets: docs/modules/dataset.md

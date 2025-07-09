@@ -31,7 +31,7 @@ Perovskites stand out for their unique crystalline structure, which enables:
 - **Flexibility**: Tunable properties for diverse applications (e.g., single-junction or tandem solar cells).
 - **Sustainability**: Potential for low-cost and scalable synthesis.
 
-However, the vast chemical space of perovskites makes finding optimal candidates a significant challenge. That’s where Energy-GNoME’s data-driven approach proves transformative.
+However, the vast chemical space of perovskites makes finding optimal candidates a significant challenge. That's where Energy-GNoME's data-driven approach proves transformative.
 
 ## Applications and Impact
 

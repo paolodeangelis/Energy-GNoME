@@ -3,11 +3,11 @@
 This notebook walks through the process of building a **E3NN regressor** for predicting targeted properties using the `energy_gnome` framework.
 
 The pipeline includes:
+
 1. Data loading and cleaning
 2. Balanced train/test splits
 3. Feature generation (structure- and composition-based)
 4. Model training and evaluation
-
 
 
 ```python
@@ -49,12 +49,12 @@ Splits the datasets into training/testing subsets, while:
 - Ensuring uniform element distribution across splits
 
 
-
 ```python
 perov_db.split_regressor(
     target_property="band_gap", valid_size=0.2, test_size=0.05, save_split=True
 )
 ```
+
 
 ??? tip "Optional"
 
@@ -64,13 +64,13 @@ perov_db.split_regressor(
     )
     ```
 
+
 ## Regressor Initialization
 
 Initializes a Euclidian Neural Network (E3NN) regressor.
 
 - `n_committers`: Number of E3NN models trained.
 - Uses **structural** and **compositional features** via `Matminer`.
-
 
 
 ```python
@@ -94,6 +94,7 @@ regressor_model.set_model_settings(
 )
 ```
 
+
 ## Feature Engineering and Dataloader Initialization
 
 Generates input dataloader objects for model training using structural/compositional representations.
@@ -101,7 +102,6 @@ Generates input dataloader objects for model training using structural/compositi
 ??? tip "Optional"
 
     If you are training a **mixed** regression model, you should use `databases=[perov_db, mp_db]` when calling `regressor_model.create_dataloader()` in the next cells.
-
 
 
 ```python
@@ -116,10 +116,10 @@ valid_dl, _ = regressor_model.create_dataloader(
 test_dl, _ = regressor_model.create_dataloader(databases=[perov_db], subset="testing")
 ```
 
+
 ## Training
 
 Compiles and trains the E3NN regressor.
-
 
 
 ```python
@@ -130,10 +130,10 @@ regressor_model.fit(
 )
 ```
 
+
 ## Evaluation
 
 Evaluates the trained model on both training and test splits.
-
 
 
 ```python
@@ -147,13 +147,21 @@ test_predictions = regressor_model.evaluate(dataloader=test_dl)
 Produces history plots showing training & validation vs. # of epochs, and parity plots showing predicted vs. true E<sub>g</sub> values.
 
 
-
 ```python
 regressor_model.plot_history()
+```
 
+
+```python
 regressor_model.plot_parity(predictions_dict=train_predictions, include_ensemble=True)
+```
 
+
+```python
 regressor_model.plot_parity(predictions_dict=valid_predictions, include_ensemble=True)
+```
 
+
+```python
 regressor_model.plot_parity(predictions_dict=test_predictions, include_ensemble=True)
 ```
