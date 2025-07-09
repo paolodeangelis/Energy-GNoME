@@ -31,7 +31,7 @@ Thermoelectric materials stand out for their unique ability to directly convert 
 - **Compact Cooling Solutions:** Solid-state cooling for electronics and medical devices.
 - **Sustainability:** Enabling greener and more energy-efficient systems by reducing thermal waste.
 
-However, identifying high-performing thermoelectric materials is a significant challenge due to the complex interplay of properties required for a high \(zT\). This is where Energy-GNoME’s data-driven approach provides a transformative advantage.
+However, identifying high-performing thermoelectric materials is a significant challenge due to the complex interplay of properties required for a high \(zT\). This is where Energy-GNoME's data-driven approach provides a transformative advantage.
 
 ## Applications and Impact
 
