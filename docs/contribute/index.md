@@ -3,16 +3,38 @@
 We warmly welcome contributions, as this project is designed to be a [*living* database](../about_db/index.md){.wiki-hover}.
 With iterative rounds of active learning, both regression models and AI-based expert systems can continuously refine the screening process and enhance the accuracy of material property predictions.
 
-Our future plans include the release of a [Python library](../docs/index.md){.wiki-hover} that will enable users to:
+Our plans for the immediate future include the release of a [Python library](../docs/index.md){.wiki-hover} that will enable users to:
 
-- Download and process raw data;
+- Download raw data from online materials databases, and process them;
 - Repeat the pre-processing steps;
-- Build regressor models (E(3)NN and GBDT);
-- Train and apply these models for material screening.
+- Build and train classification and regressor models (E(3)NN and GBDT);
+- Apply these models for material screening.
 
 This library aims to ensure full reproducibility of the protocol while supporting the ongoing integration of new data into the training set, whether derived from experiments or *ab initio* simulations.
 
-For now, if you would like to try to use new data for the training and/or screening of Energy-GNoME, please feel free to contact us directly.
+⚠️ Work in Progress
+
+We are actively working on improving testing and refining the API to support the seamless integration of new models and datasets. Our goal is to keep the project aligned with the latest advancements in computational materials science.
+
+How You Can Contribute
+While the contribution process is still under development, you’re welcome to get involved by:
+
+Reviewing the contribution [guidelines](.github/CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+Forking the repository and creating a feature branch.
+
+Adding your model or dataset (note: the test suite is still under construction).
+
+Submitting a pull request for review.
+
+For Larger Contributions
+If you're interested in integrating new material descriptors or machine learning models (for regression or classification), we recommend:
+
+Opening an issue to discuss your proposal, or
+
+Contacting us directly at [paolo.deangelis@polito.it](mailto:paolo.deangelis@polito.it) for guidance and support.
+
+We are happy to assist with integration and discuss potential research collaborations using the protocol or database.
 
 <div class="grid cards" markdown>
 
