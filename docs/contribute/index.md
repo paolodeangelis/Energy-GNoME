@@ -50,18 +50,6 @@ We are happy to assist with integration and discuss potential research collabora
     * :fontawesome-brands-github: : [paolodeangelis](https://github.com/paolodeangelis)
 
 
--   :octicons-person-fill-24:{ .lg .middle } __Giovanni Trezza, PhD__
-
-    ---
-
-     ![Giovanni Trezza](../assets/img/people/gtrezza.jpg){.people-image}
-
-    * :fontawesome-solid-circle-arrow-right: : Postdoc
-    * :fontawesome-solid-envelope: : [giovanni.trezza@polito.it](mailto:giovanni.trezza@polito.it)
-    * :material-web: : [polito.it/giovanni.trezza](https://www.polito.it/personale?p=giovanni.trezza)
-    * :fontawesome-brands-github: : [giotre](https://github.com/giotre)
-
-
 -   :octicons-person-fill-24:{ .lg .middle } __Giulio Barletta__
 
     ---
@@ -72,6 +60,18 @@ We are happy to assist with integration and discuss potential research collabora
     * :fontawesome-solid-envelope: : [giulio.barletta@polito.it](mailto:giulio.barletta@polito.it)
     * :material-web: : [giuliobarl.github.io](https://giuliobarl.github.io/)
     * :fontawesome-brands-github: : [giuliobarl](https://github.com/giuliobarl)
+
+
+-   :octicons-person-fill-24:{ .lg .middle } __Giovanni Trezza, PhD__
+
+    ---
+
+     ![Giovanni Trezza](../assets/img/people/gtrezza.jpg){.people-image}
+
+    * :fontawesome-solid-circle-arrow-right: : Postdoc
+    * :fontawesome-solid-envelope: : [giovanni.trezza@polito.it](mailto:giovanni.trezza@polito.it)
+    * :material-web: : [polito.it/giovanni.trezza](https://www.polito.it/personale?p=giovanni.trezza)
+    * :fontawesome-brands-github: : [giotre](https://github.com/giotre)
 
 
 -   :octicons-person-fill-24:{ .lg .middle } __Pietro Asinari, PhD__

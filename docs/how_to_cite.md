@@ -1,6 +1,6 @@
-## Energy-GNoME Preprint
+## Energy-GNoME Article
 
-If you find this project valuable, please consider citing the following pre-print work:
+If you find this project valuable, please consider citing the following published work:
 
 --8<-- "docs/assets/partial/cite_article.md"
 
@@ -24,7 +24,7 @@ When referencing the Energy-GNoME database, please use the following citation:
 Consider, also, to cite the seminal work on cross-domain data bias in materials discovery:
 
 !!! article "Cross-domain data bias"
-    Trezza, G., Chiavazzo, E. "Classification-based detection and quantification of cross-domain data bias in materials discovery". *Journal of Chemical Information and Modeling*, **2024**, doi: [10.1021/acs.jcim.4c01766](https://doi.org/10.1021/acs.jcim.4c01766).
+    Trezza, G., Chiavazzo, E. "Classification-based detection and quantification of cross-domain data bias in materials discovery". *Journal of Chemical Information and Modeling* 65 (4), 1747–1761, **2024**. doi: [10.1021/acs.jcim.4c01766](https://doi.org/10.1021/acs.jcim.4c01766).
 
 
 ## GNoME Database
@@ -39,4 +39,4 @@ Additionally, please consider citing the foundational GNoME database work:
 If your work involves the E(3)NN Graph Neural Network model, consider citing:
 
 !!! article "E(3)NN"
-    Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)
+    Chen Z., Andrejevic N., Smidt T. *et al.* " Direct Prediction of Phonon Density of States With Euclidean Neural Networks." *Advanced Science* 8 (12), 2004214, **2021**. doi: [10.1002/advs.202004214](https://doi.org/10.1002/advs.202004214)

@@ -45,10 +45,10 @@
     - [ ] Creating new Model handlers Objects ([`../../docs/docs/usage/how_to_add_models.md`](../../docs/docs/usage/how_to_add_models.md))
 - [ ] Example (as jupyter notebooks)
     - [ ] Cathodes
-    - [ ] Perovskites
-    - [ ] Thermoelectrics
-    - [ ] Materials Project
-    - [ ] GNoME
+    - [X] Perovskites
+    - [X] Thermoelectrics
+    - [X] Materials Project
+    - [X] GNoME
     - [X] E3NN Regressor
-    - [ ] GBDT Regressor
-    - [ ] GBDT Classifier
+    - [X] GBDT Regressor
+    - [X] GBDT Classifier
