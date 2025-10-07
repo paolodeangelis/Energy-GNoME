@@ -86,8 +86,8 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    - header.autohide
-    - announce.autohide
+    # - header.autohide
+    # - announce.autohide
     # - announce.dismiss
 
   hide:
