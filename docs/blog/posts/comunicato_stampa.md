@@ -18,6 +18,8 @@ This institutional announcement highlights the research conducted within the **S
 
 <!-- more -->
 
+![Material Page](../../assets/img/blog/press_release/poliflash.png)
+
 ## **Press Release — Politecnico di Torino**
 
 A team of researchers from the Politecnico di Torino — **Paolo De Angelis**, **Giulio Barletta**, **Giovanni Trezza**, **Pietro Asinari**, and **Eliodoro Chiavazzo** from the *SMaLL – Multi-Scale Modeling Laboratory* within the Department of Energy (DENERG) — has developed an innovative **Artificial Intelligence (AI)** protocol capable of selecting, among hundreds of thousands of previously unexplored materials, the most promising candidates for **energy applications**.
