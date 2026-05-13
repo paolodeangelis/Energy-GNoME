@@ -1025,8 +1025,7 @@ controls_tabs = pn.Tabs(("Properties", sliders_col), ("Ranking", weights_col))
 
 box_select_ions = pn.Column(
     pn.Row(
-        pn.pane.Markdown(
-            """
+        pn.pane.Markdown("""
 <style>
 p, h1, h2, h3 {
     margin-block-start: 0.2em;
@@ -1038,8 +1037,7 @@ ul {
 }
 </style>
 ## Working Ion
-Easily manage cathodes associated with a specific working ion."""
-        ),
+Easily manage cathodes associated with a specific working ion."""),
         #    pn.widgets.TooltipIcon(
         #        value="Add or remove <i>cathodes</i> with a specific <i>active ion material</i>"
         #        )

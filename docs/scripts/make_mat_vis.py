@@ -637,8 +637,7 @@ def main():
         ai_experts_dev_perv = {}
         ai_experts_m_thermo = {}
         ai_experts_dev_thermo = {}
-        infos.append(
-            """
+        infos.append("""
 !!! quote ""
 
     Data contained in the Graph Networks for Materials Exploration (GNoME) Database is available for use under
@@ -647,8 +646,7 @@ def main():
 
     - Merchant, A., Batzner, S., Schoenholz, S.S. *et al.* "Scaling deep learning for materials discovery". *Nature* 624, 80-85, **2023**. doi: [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9).
     - De Angelis P., Trezza G., Barletta G., Asinari P., Chiavazzo E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". *arXiv* November 15, **2024**. doi: [10.48550/arXiv.2411.10125](https://doi.org/10.48550/arXiv.2411.10125).
-"""
-        )
+""")
         for db_key in m_dict["in_db"]:
             if "cathodes" in db_key:
                 data = db_dict[db_key][db_dict[db_key]["Material Id"] == m_id]

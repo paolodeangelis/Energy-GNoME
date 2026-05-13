@@ -856,8 +856,7 @@ controls_tabs = pn.Tabs(("Properties", sliders_col), ("Ranking", weights_col))
 
 box_select_temps = pn.Column(
     pn.Row(
-        pn.pane.Markdown(
-            """
+        pn.pane.Markdown("""
 <style>
 p, h1, h2, h3 {
     margin-block-start: 0.2em;
@@ -869,8 +868,7 @@ ul {
 }
 </style>
 ## Working temperatures
-Easily manage thermoelectric predictions associated with a specific working temperature."""
-        ),
+Easily manage thermoelectric predictions associated with a specific working temperature."""),
     ),
     select_temps,
 )

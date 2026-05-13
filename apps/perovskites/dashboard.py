@@ -865,8 +865,7 @@ controls_tabs = pn.Tabs(("Properties", sliders_col), ("Ranking", weights_col))
 
 box_select_models = pn.Column(
     pn.Row(
-        pn.pane.Markdown(
-            """
+        pn.pane.Markdown("""
 <style>
 p, h1, h2, h3 {
     margin-block-start: 0.2em;
@@ -878,8 +877,7 @@ ul {
 }
 </style>
 ## Regressor models
-Easily manage perovskite predictions associated with a specific regressor model."""
-        ),
+Easily manage perovskite predictions associated with a specific regressor model."""),
     ),
     select_models,
 )
