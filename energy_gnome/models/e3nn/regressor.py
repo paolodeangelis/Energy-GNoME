@@ -841,8 +841,7 @@ class E3NNRegressor(BaseRegressor):
                         d.to(self.device)
                         output = self.models[f"model_{i}"](d)
                         loss = F.l1_loss(output, d.target, reduction="none").mean(dim=-1).cpu().numpy()
-                        prediction_nn.loc[i0 : i0 + len(d.target) - 1, f"model_{i}_prediction"] = [
-                            k for k in output.cpu().numpy()
+                        prediction_nn.loc[i0 : i0 + len(d.target) - 1, f"model_{i}_prediction"] = [*output.cpu().numpy()
                         ]
                         prediction_nn.loc[i0 : i0 + len(d.target) - 1, f"model_{i}_loss"] = loss
                         i0 += len(d.target)
@@ -865,8 +864,7 @@ class E3NNRegressor(BaseRegressor):
                         d.to(self.device)
                         output = self.models[f"model_{i}"](d)
                         loss = F.l1_loss(output, d.target, reduction="none").mean(dim=-1).cpu().numpy()
-                        prediction_nn[f"model_{i}"].loc[i0 : i0 + len(d.target) - 1, "prediction"] = [
-                            k for k in output.cpu().numpy()
+                        prediction_nn[f"model_{i}"].loc[i0 : i0 + len(d.target) - 1, "prediction"] = [*output.cpu().numpy()
                         ]
                         prediction_nn[f"model_{i}"].loc[i0 : i0 + len(d.target) - 1, "loss"] = loss
                         i0 += len(d.target)
